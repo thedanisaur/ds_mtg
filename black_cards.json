@@ -1,0 +1,41 @@
+Black
+
+{
+
+  "card":
+  {
+    "name": "Hollow",
+    "cost": "B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Zombie",
+    "rarity": "",
+    "rules_text": "~ enters the battlefield tapped\r\n{B}, exile a creature card from your graveyard: Return ~ from the graveyard to the battlefield. Activate this ability only as a sorcery.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Necromancer",
+    "cost": "3B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Wizard",
+    "rarity": "Rare",
+    "rules_text": "{1B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.\r\n{T}: Target creature gets -1/-1 until end of turn.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "2",
+  },
+
+}

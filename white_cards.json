@@ -1,0 +1,95 @@
+White
+
+{
+
+  "card":
+  {
+    "name": "Blessed Cleric",
+    "cost": "W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Cleric",
+    "rarity": "",
+    "rules_text": "Kindle. When ~ enters the battlefield you gain 2 life.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "0",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Silver Knight",
+    "cost": "WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "First Strike.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "New Londo Shade",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)",
+    "flavor_text": "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Batwing Demon",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "{T}: Tap target creature.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

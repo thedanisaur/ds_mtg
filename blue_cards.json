@@ -1,0 +1,60 @@
+Blue
+
+{
+
+  "card":
+  {
+    "name": "Old Sorcerer",
+    "cost": "U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Wizard",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield draw a card. Scry 1 <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "0",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Ruin Banshee",
+    "cost": "1U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                   {T}: Put target tapped creature on top of it's owner's library.",
+    "flavor_text": "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}
