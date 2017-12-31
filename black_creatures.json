@@ -1,0 +1,171 @@
+Black
+
+{
+
+  "card":
+  {
+    "name": "Hollow",
+    "cost": "B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Zombie",
+    "rarity": "Common",
+    "rules_text": "~ enters the battlefield tapped
+                  {B}, exile a creature card from your graveyard: Return ~ from the graveyard to the battlefield. Activate this ability only as a sorcery.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Undead Hound",
+    "cost": "1B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Zombie Jackal",
+    "rarity": "Common",
+    "rules_text": "Whenever ~ is dealt damage, if that damage was from a source that is red destroy ~.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Necromancer",
+    "cost": "3B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Wizard",
+    "rarity": "Rare",
+    "rules_text": "{1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
+                  {T}: Target creature gets -1/-1 until end of turn.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Frozen Reindeer",
+    "cost": "3BBB",
+    "super": "Snow",
+    "type": "Creature",
+    "sub": "Zombie Antelope Horse",
+    "rarity": "Rare",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                  {T}: Target creature gets -3/-3 until end of turn.",
+    "flavor_text": "Prepare yourself, the blizzard is upon us.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "5",
+    "toughness": "5",
+  },
+
+  "card":
+  {
+    "name": "Hound Rat",
+    "cost": "1B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Zombie Rat",
+    "rarity": "Common",
+    "rules_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Royal Rat Vanguard",
+    "cost": "3B",
+    "super": "",
+    "type": "Creature",
+    "sub": "Giant Zombie Rat",
+    "rarity": "Common",
+    "rules_text": "Whenever the equipped creature deals combat damage to a creature put two bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Aldrich, Devourer of Gods",
+    "cost": "3BB",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Cleric Ooze",
+    "rarity": "Rare",
+    "rules_text": "{B}{B}: Exile target creature card from a graveyard. ~ has all activated abilities of all cards exiled with this ability.",
+    "flavor_text": "A right and proper cleric, with a habit of devouring men.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Gravelord Nito",
+    "cost": "5BBBBB",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Skeleton Wizard",
+    "rarity": "Mythic Rare",
+    "rules_text": "When ~ enters the battlefield create ten tapped 2/2 black Zombie creature tokens.
+                  Whenever a creature dies you get one soul.",
+    "flavor_text": "Nito's soul turned him into a living manifestation of illness and death, a mass of skeletons held together by the miasma of the Death Soul.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "10",
+    "toughness": "10",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

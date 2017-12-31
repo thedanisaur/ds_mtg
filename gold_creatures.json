@@ -1,0 +1,57 @@
+Gold
+
+{
+
+  "card":
+  {
+    "name": "Lorian and Lothric, the Twin Princes",
+    "cost": "3RW",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "sub": "",
+    "rarity": "Mythic Rare",
+    "rules_text": "{+1}: Deal 3 damage divided as you choose among one, two, or three target creatures or players. You gain 1 life for each damage dealt this way.
+                   {+0}: Exile ~ then return it to the battlefield under your control.
+                   {-7}: Deal 7 damage to target creature. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "loyalty": "2",
+  },
+
+  "card":
+  {
+    "name": "Splintering Lightning Spear",
+    "cost": "XRW",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "~ deals 2 damage to up to X target creatures and or players. You may choose the same creature and or player multiple times. You gain X life.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Ember",
+    "cost": "RGW",
+    "super": "Legendary",
+    "type": "Enchantment",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "When ~ enters the battlefield create a 3/3 red and green Human Ally creature token with haste, you gain 5 life, and each opponent gets an emblem with \"At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Legendary Human creature token with prowess named Invader.\"
+                  At the beginning of your upkeep if no opponents control a creature named \"Invader\" you may create a 3/3 red and green Human creature token with haste.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+}

@@ -1,0 +1,207 @@
+Red
+
+{
+
+  "card":
+  {
+    "name": "Desert Pyromancer",
+    "cost": "R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Monk",
+    "rarity": "",
+    "rules_text": "Haste.\r\n{1}{R}, {T}: ~ deals 2 damage to target creature or player",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Flamewielding Undead",
+    "cost": "1R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Zombie Monk",
+    "rarity": "",
+    "rules_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+                   {T}: Deal X damage to target creature, where X is ~'s power.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Firesage Demon",
+    "cost": "4RR",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "Haste.
+                   When ~ enters the battlefield, it deals 1 damage to each creature other creature. Tap those creatures.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "6",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Capra Demon",
+    "cost": "3R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "Double Strike.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Tarus Demon",
+    "cost": "3RR",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "As long as ~ is equipped it gets +2/+2.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Cathedral Evangelist",
+    "cost": "1RR",
+    "super": "",
+    "type": "Creature",
+    "sub": "Cleric",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield discard a card, then draw a card. You get two souls.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Ringfinger Leonhard",
+    "cost": "RRR",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield you get five souls.
+                  Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Unbreakable Patches",
+    "cost": "2R",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "Rare",
+    "rules_text": "Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.): Add {R}{R}{R} to your mana pool.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Hollow Infantry",
+    "cost": "2R",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Create two 1/1 red Zombie Human creature tokens with haste onto the battlefield.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Smoldering Rotten Flesh",
+    "cost": "3R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Ooze",
+    "rarity": "",
+    "rules_text": "Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+                  Whenever ~ is turned face up you gain three souls.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "5",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

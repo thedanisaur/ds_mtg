@@ -1,0 +1,24 @@
+Gold
+
+{
+
+  "card":
+  {
+    "name": "Knight Lautrec",
+    "cost": "RWB",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "Haste. When ~ enters the battlefield target player discards a card.
+                  Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+}

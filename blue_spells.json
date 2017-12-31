@@ -1,0 +1,210 @@
+Blue
+
+{
+
+  "card":
+  {
+    "name": "Hidden Body",
+    "cost": "U",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Target creature gets +1/+0 and can't be blocked this turn.
+                  Draw a card.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Ashen Estus",
+    "cost": "1U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Untap target creature you control. Draw a card.
+                  At the beginning of your upkeep you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Search the Library",
+    "cost": "2UU",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "Uncommon",
+    "rules_text": "Scry 4, then draw two cards.",
+    "flavor_text": "What treasure remains in the archives is yours for the taking.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Deep in Thought",
+    "cost": "1U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "Draw two cards, then put one card from your hand on top of your library.",
+    "flavor_text": "The mage was naive, he thought he could fix something that was broken.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Soul Stream",
+    "cost": "UUUU",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "As and additional cost to cast ~ pay X souls.
+                  Target player puts the top X cards from his or her library into his or her graveyard where X is two times the number of souls paid to cast ~.",
+    "flavor_text": "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Homing Soul Mass",
+    "cost": "UU",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Choose up to two target creatures. You get two souls, then you may pay any amount of souls.
+                  ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, put it on the bottom of its owner's library instead.",
+    "flavor_text": "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Soul Spear",
+    "cost": "2U",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Shuffle target creature into its owner's library.",
+    "flavor_text": "The spear is testament to Logan's strength in battle.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Lost spell from Oolacile",
+    "cost": "1U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Choose target spell. Then pay X souls, where X is that spell's converted mana cost. If you do counter that spell.",
+    "flavor_text": "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Sorcerer's Remedy",
+    "cost": "U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Remove all bleed counters from target creature.",
+    "flavor_text": "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Pestilent Mercury",
+    "cost": "1UU",
+    "super": "",
+    "type": "Enchantment",
+    "sub": "Aura",
+    "rarity": "",
+    "rules_text": "Enchant creature
+                  When ~ enters the battlefield Scry 2.
+                  At the beginning of your upkeep, put a -1/-1 counter on enchanted creature.
+                  When ~ leaves the battlefield draw a card.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Aural Decoy",
+    "cost": "3U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+    "flavor_text": "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

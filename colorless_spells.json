@@ -1,0 +1,129 @@
+Colorless
+
+{
+
+  "card":
+  {
+    "name": "Cursed Greatsword",
+    "cost": "2B",
+    "super": "Legendary",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "Rare",
+    "rules_text": "As an additional cost to cast ~, discard an equipment card.
+                  Equipped creature gets +4/-1 and has shadow.
+                  You may have the equipped creature assign its combat damage as though it weren't blocked.
+                  Equip {1}",
+    "flavor_text": "Sword born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias.",
+    "number": "",
+    "total": "",
+    "artwork_url": "CURSED_GREATSWORD-kutty_sark.jpg",
+    "artist": "Kutty Sark",
+  },
+
+  "card":
+  {
+    "name": "Halberd",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature gets +2/+0 and has menace.
+                  Equip {2}",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Broadsword",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature gets +1/+0 and has \"This creature can't be blocked by creatures with toughness two or less.\"
+                  Equip {1}",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Uchigatana",
+    "cost": "2",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"
+                  Equip {1}",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "UCHIGATANA-samurai_vs_knight_web_by_zulusplitter-d7uuh7k.jpg",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Soul Syphoner",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{T}: Remove one soul from target player.
+                  {2}, {T}, Sacrifice ~: Remove all souls from target player.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Chloranthy Ring",
+    "cost": "G",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has vigilance.
+                  Equip {0}",
+    "flavor_text": "This old ring is named for its decorative green blossom, but its luster is long since faded.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

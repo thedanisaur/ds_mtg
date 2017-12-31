@@ -1,0 +1,23 @@
+Lands
+
+{
+
+  "card":
+  {
+    "name": "Bonfire",
+    "cost": "",
+    "super": "",
+    "type": "Land",
+    "sub": "Fire",
+    "rarity": "",
+    "rules_text": "~ enters the battlefield tapped.
+                  {T}: Add {C} to you mana pool.
+                  {T}, Pay X, where X is the number of souls you have. X can't be zero: Return target creature card from your graveyard to your hand.",
+    "flavor_text": "The fire fades, and the Lords go without thrones.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+}

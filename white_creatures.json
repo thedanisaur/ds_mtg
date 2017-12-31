@@ -1,0 +1,135 @@
+White
+
+{
+
+  "card":
+  {
+    "name": "Blessed Cleric",
+    "cost": "W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Cleric",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield you gain 2 life.
+                  Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Silver Knight",
+    "cost": "WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "First Strike.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "New Londo Shade",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)",
+    "flavor_text": "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Batwing Demon",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "{T}: Tap target creature.
+                  {R}, {T}: Deal 1 damage to target attacking or blocking creature.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Weary Travelers",
+    "cost": "2W",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Create a 1/2 black Human Ally creature token with first strike.
+                  Create a 2/1 white Human Ally creature token life link.",
+    "flavor_text": "Are you too in search of the Lords of Cinder?",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Siegmeyer of Catarina",
+    "cost": "2WW",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "As long as ~ is equipped it gets +1/+1.
+                  Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)",
+    "flavor_text": "Excuse me. I must have dozed off.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "",
+    "cost": "",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+}

@@ -14,32 +14,35 @@ Black - Thieves/Assassin
 
 ```
 
-### Mechanics/Ablities
+### Mechanics/Ablities/Keywords
 
 ```
-Shadow
+Bleed* (Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
 
-First/Double Strike
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 
-Reach
+Double Strike
+
+First Strike
 
 Haste
 
-Prowess
+Indestructible (Effects that say destroy do not destroy this.)
 
-Morph
+Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)
 
-Deathtouch
+Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
-Kindle
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 
-Estus
+Reach
 
-Souls
+Shadow (This creature can block or be blocked by only creatures with shadow.)
 
-Bleed 1 - Whenever ~ deals combat damage to a creature put a bleed counter on it. Whenever a creature with a bleed counter on it is dealt damage deal X damage to that creature where X is the number of bleed counters on it then remove all bleed counters.
-
+Vigilance
 ```
+
+*This ability is not an actual keyword.
 
 ## Set layout & tidbits
 
