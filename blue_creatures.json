@@ -117,21 +117,21 @@ Blue
   "card":
   {
     "name": "Outrider Knight",
-    "cost": "1UU",
+    "cost": "UUU",
     "super": "",
     "type": "Creature",
     "sub": "Knight Beast",
     "rarity": "",
     "rules_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
                   Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-                  When ~ is turned face up it gets +2/-1 until end of turn.",
+                  When ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.",
     "flavor_text": "Every Outrider Knight one day devolves into a beast, constantly hounded by Pontiff Sulyvahn's black eyes.",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
     "power": "2",
-    "toughness": "3",
+    "toughness": "2",
   },
 
   "card":

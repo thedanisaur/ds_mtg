@@ -17,7 +17,7 @@ Black - Thieves/Assassin
 ### Mechanics/Ablities/Keywords
 
 ```
-Bleed* (Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+Bleed* (Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
 
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 

@@ -238,7 +238,7 @@ Red
     "type": "Sorcery",
     "sub": "",
     "rarity": "",
-    "rules_text": "Gain control of target nonzombie creature target opponent controls until end of turn. If that creature is Human sacrifice it at the end of turn. If you do you get one soul.",
+    "rules_text": "Gain control of target nonzombie creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is a Human. If that creature would be sacrificed this way you get one soul.",
     "flavor_text": "The living are lured by flame, and this tendency is elemental to the art of pyromancy.",
     "number": "",
     "total": "",

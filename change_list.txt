@@ -1,0 +1,44 @@
+Adding to and updating set for inital testing.
+The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
+  1. Removing fields on cards that aren't applicable to those cards.
+  2. Gold creatures and spells were in the wrong files, fixed.
+  3. Added this change list file to keep track of current changes, and as a template for commiting.
+  4. Updated bleed wording so that creatures won't gain multiple instances of it.
+  5. Added transform creature card list.
+  6. Land subtype Fire updated to Bonfire.
+  7. Added stubs for the enemy colored duals.
+
+Change List:
+## Adds
+ADD C artifact Ring of Sacrifice
+ADD C artifact Bloodbite Ring
+ADD C artifact Hornet Ring
+ADD C artifact Silver Serpent Ring
+ADD C artifact Catalyst of the Witch of Izalith
+ADD B creature Darkwraith
+ADD G creature Expected Companions
+ADD G creature Hesitant Surveyor
+ADD W creature Infested Corpse
+ADD R creature Ember Gargoyle
+ADD D creature Corrupted Hollow/Pus of Man
+ADD M instant Spreading Decay
+ADD U instant Chameleon
+ADD B instant Dark Hand of Kaathe, based off "Dark Hand" in DS1 & DS3
+ADD B sorcery Sift through the Ashes
+ADD G sorcery Creeping Corrosion, existing card, I think it fits perfect in a DS set
+ADD B sorcery Deep Fog, based off "Dark Fog" spell in DS1
+ADD L land Firelink Shrine, took ability from Bonefire
+ADD L land Blighttown
+ADD L land Lothric Castle
+## Modifications
+MOD C artifact Uchigatana, updated bleed wording
+MOD C artifact Soul Syphoner, you now get one soul when removing one soul from target player.
+MOD U creature Outrider Knight, replaced +2/+1 ability with tap ability. Changed mana cost to UUU
+MOD B creature Royal Rat Vanguard, updated bleed wording
+MOD G creature Festering Goblin, updated bleed wording
+MOD W creature Infested Corpse, updated bleed wording
+MOD R sorcery Rapport fixed wording, noticed this after seeing Angrath from RIX
+MOD M sorcery Splintering Lightning, used to be named "Splintering Lighting Spear"
+MOD W sorcery Soul Appease, updated zombie to Zombie
+MOD L land Bonfire, changed ability, updated subtype
+## Deletes

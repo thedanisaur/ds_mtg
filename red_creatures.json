@@ -188,6 +188,24 @@ Red
 
   "card":
   {
+    "name": "Ember Gargoyle",
+    "cost": "3R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Gargoyle",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield may discard a card. If you do draw a card.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "4",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",

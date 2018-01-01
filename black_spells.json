@@ -16,8 +16,55 @@ Black
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Deep Fog",
+    "cost": "1BB",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Put two bleed counters on each creature. As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"
+                  You lose 3 life. ",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Dark Hand of Kaathe",
+    "cost": "1B",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Target creature gets -2/-2 until end of turn. If that creature would die this way, remove two souls from that creature's controller and you get two souls.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Sift through the Ashes",
+    "cost": "XB",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "As an additional cost to cast ~ exile X creature cards from your graveyard. You draw X cards, lose X life, and get X souls.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
   },
 
   "card":

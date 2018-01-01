@@ -63,7 +63,7 @@ Colorless
     "type": "",
     "sub": "",
     "rarity": "",
-    "rules_text": "Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"
+    "rules_text": "Whenever a creature equipped with ~ deals combat damage to a creature put three bleed counters on that creature. As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"
                   Equip {1}",
     "flavor_text": "",
     "number": "",
@@ -80,8 +80,27 @@ Colorless
     "type": "Artifact",
     "sub": "",
     "rarity": "",
-    "rules_text": "{T}: Remove one soul from target player.
+    "rules_text": "{T}: Remove one soul from target player. You get one soul.
                   {2}, {T}, Sacrifice ~: Remove all souls from target player.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Ring of Sacrifice",
+    "cost": "5",
+    "super": "Legendary",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "If ~ would enter the battlefield and was not cast from your hand exile it instead.
+                  {W}{U}{B}{R}{G}, Pay 10 souls, {T}: Until end of turn if you would lose the game, remove all poison counters from each player, each player's life total becomes 20, each player shuffles all cards he or she owns into his or her library. You skip your next turn. Exile ~.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -106,6 +125,75 @@ Colorless
     "total": "",
     "artwork_url": "",
     "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Bloodbite Ring",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature can't have bleed counters placed on it.
+                  Equip {1}",
+    "flavor_text": "Despite the dreadful rumors surrounding its creation, this ring is an unmistakable asset",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Hornet Ring",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has deathtouch.
+                  Equip {B}",
+    "flavor_text": "The masked Ciaran granted a swift death to any and all enemies of the throne.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Silver Serpent Ring",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has \"Whenever this creature deals combat damage, you get one soul.\"
+                  Equip {1}",
+    "flavor_text": "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Catalyst of the Witch of Izalith",
+    "cost": "1U",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it\"",
+    "flavor_text": "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
   },
 
   "card":
