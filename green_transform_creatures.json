@@ -6,12 +6,13 @@ Green
   {
     "name": "Abyss Watchers",
     "cost": "3GG",
-    "super": "",
+    "super": "Legendary",
     "type": "Creature",
     "sub": "Knight",
-    "rarity": "",
-    "rules_text": "When ~ enters the battlefield, you get two souls. Place a fate counter on it, then if it has 5 or more fate counters on it exile it.
-                  If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control. Fate counters remain on ~ as it moves to any zone other than a player's hand or library.",
+    "rarity": "Mythic Rare",
+    "rules_text": "When ~ enters the battlefield, you get two souls. Place a fate counter on ~, then if it has 5 or more fate counters on it exile it.
+                  If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+                  Fate counters remain on ~ as it moves to any zone other than a player's hand or library.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -27,11 +28,11 @@ Green
   {
     "name": "Undead Legion",
     "cost": "",
-    "super": "",
+    "super": "Legendary",
     "type": "Creature",
     "sub": "Knight",
-    "rarity": "",
-    "rules_text": "When ~ enters the battlefield, it deals damage equal to its power to target creature you control. Place a fate counter on it, then if it has 5 or more fate counters on it exile it.
+    "rarity": "Mythic Rare",
+    "rules_text": "When ~ enters the battlefield, it deals damage equal to its power to target creature you control. Place a fate counter on ~, then if it has 5 or more fate counters on it exile it.
                   If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
     "flavor_text": "",
     "number": "",

@@ -159,7 +159,7 @@ Green
     "type": "Creature",
     "sub": "Human",
     "rarity": "",
-    "rules_text": "When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them and put it into your hand. Put the rest into your graveyard.",
+    "rules_text": "~ can't be countered. When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.",
     "flavor_text": "I see, you've done this before.",
     "number": "",
     "total": "",
@@ -234,10 +234,10 @@ Green
     "name": "Milfanito",
     "cost": "1G",
     "super": "",
-    "type": "",
-    "sub": "",
+    "type": "Creature",
+    "sub": "Human",
     "rarity": "",
-    "rules_text": "Nonhollow creature spells you control cost {1} less to cast.
+    "rules_text": "Nonhollow creature spells you control can't be countered.
                   {T}: Add {G} to your mana pool.",
     "flavor_text": "We hear a song in the distance.",
     "number": "",

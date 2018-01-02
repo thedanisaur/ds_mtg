@@ -22,24 +22,6 @@ White
 
   "card":
   {
-    "name": "Lifehunt Scythe",
-    "cost": "3W",
-    "super": "",
-    "type": "Sorcery",
-    "sub": "",
-    "rarity": "",
-    "rules_text": "Destroy target non-white tapped creature an opponent controls. You get two souls.",
-    "flavor_text": "Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he perceived the form of a young, pale girl in hiding.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-    "power": "",
-    "toughness": "",
-  },
-
-  "card":
-  {
     "name": "Miracle of the Way of White",
     "cost": "1W",
     "super": "",
@@ -238,7 +220,7 @@ White
     "type": "Sorcery",
     "sub": "",
     "rarity": "",
-    "rules_text": "Return target Equipment from your graveyard to your hand. Then you may pay 5 souls. If you do, put that card onto the battlefield.",
+    "rules_text": "Return target Equipment from your graveyard to your hand. You may pay 5 souls. If you do, put that card onto the battlefield instead.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -255,22 +237,6 @@ White
     "sub": "",
     "rarity": "",
     "rules_text": "Exile ~: Until end of turn players can't pay souls. Exile all cards from all graveyards.",
-    "flavor_text": "",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-  },
-
-  "card":
-  {
-    "name": "",
-    "cost": "",
-    "super": "",
-    "type": "",
-    "sub": "",
-    "rarity": "",
-    "rules_text": "",
     "flavor_text": "",
     "number": "",
     "total": "",

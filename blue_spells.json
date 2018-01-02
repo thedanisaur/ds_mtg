@@ -167,8 +167,6 @@ Blue
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
   },
 
   "card":
@@ -185,8 +183,6 @@ Blue
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
   },
 
   "card":
@@ -203,8 +199,54 @@ Blue
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Into the Abyss",
+    "cost": "3UUU",
+    "super": "Legendary",
+    "type": "Enchantment",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{U}{U}{U}: You get one soul. Shuffle your library then reveal the top card. If the revealed card is an instant or sorcery card, then you may pay a number of souls equal to that cards converted mana cost. If you do, cast that card wihout paying it's mana cost. Activate this ability only once per turn.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Magic Denial",
+    "cost": "2UU",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Choose target spell. You get one soul. Scry 1, then draw a card. You may counter the chosen spell.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Dual Charm",
+    "cost": "U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Counter target creature spell unless its controller pays {2}",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
   },
 
   "card":
@@ -221,8 +263,6 @@ Blue
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
   },
 
 }

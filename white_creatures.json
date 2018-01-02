@@ -91,8 +91,6 @@ White
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
   },
 
   "card":
@@ -116,20 +114,132 @@ White
 
   "card":
   {
-    "name": "",
-    "cost": "",
+    "name": "White Phantom",
+    "cost": "2W",
     "super": "",
-    "type": "",
-    "sub": "",
+    "type": "Creature",
+    "sub": "Human Spirit",
     "rarity": "",
-    "rules_text": "",
+    "rules_text": "{WW}, {T}, Sacrifice ~: Exile target Legendary permanent.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Resting Merchant",
+    "cost": "WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hag",
+    "rarity": "",
+    "rules_text": "You may cast ~ at any time you could cast and instant.
+                  When ~ enters the battlefield, return target creature you control to its owner's hand.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Village Blacksmith",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "Equip costs you pay cost {1} less.
+                  Equipped creatures you control get +1/+1.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Flexile Sentry",
+    "cost": "2W",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Double Strike.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Mirrah Warrior",
+    "cost": "2W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield you may pay one soul. If you do, target creature you control gains first strike until end of turn.
+                  Players can't search libraries.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Insolent Spirits",
+    "cost": "2WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                  If you control 3 or more Equipment, you may pay {0} instead of paying an equip cost.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Swollen Mongrel",
+    "cost": "1WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Mutant",
+    "rarity": "",
+    "rules_text": "{W}{U}, {T}: White and blue creatures you control get +1/+1 until end of turn.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
   },
 
 }
