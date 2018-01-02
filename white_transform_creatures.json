@@ -49,7 +49,7 @@ Double-Faced
     "type": "Creature",
     "sub": "Human",
     "rarity": "",
-    "rules_text": "When ~ enters the battlefield or is turned face up you gain 4 life.
+    "rules_text": "When this creature enters the battlefield or transforms into ~ you gain 4 life.
                   As long as ~ is equipped it gets +1/+1.
                   If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
     "flavor_text": "Excuse me. I must have dozed off.",

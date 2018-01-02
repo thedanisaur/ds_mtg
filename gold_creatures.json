@@ -4,14 +4,14 @@ Gold
 
   "card":
   {
-    "name": "Knight Lautrec",
-    "cost": "RWB",
-    "super": "Legendary",
-    "type": "Creature",
-    "sub": "Human",
+    "name": "Fume Knight",
+    "cost": "U/BU/BU/BU/B",
+    "super": "",
+    "type": "",
+    "sub": "",
     "rarity": "",
-    "rules_text": "Haste. When ~ enters the battlefield target player discards a card.
-                  Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                  Whenever ~ deals combat damage to a player, that player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order.",
     "flavor_text": "",
     "number": "",
     "total": "",

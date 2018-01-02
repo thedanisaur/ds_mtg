@@ -46,7 +46,8 @@ Green
     "type": "Creature",
     "sub": "Spider",
     "rarity": "",
-    "rules_text": "Reach. Whenever ~ deals damage to a creature that creature doesn't untap during it's controller's next untap step.",
+    "rules_text": "Reach.
+                  Whenever ~ deals damage to a creature that creature doesn't untap during it's controller's next untap step.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -185,24 +186,122 @@ Green
     "toughness": "1",
   },
 
-  Hydra
-
   "card":
   {
-    "name": "",
-    "cost": "",
-    "super": "",
-    "type": "",
-    "sub": "",
+    "name": "The Serpent King",
+    "cost": "6GG",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Hydra",
     "rarity": "",
-    "rules_text": "",
+    "rules_text": "Reach. Vigilance.
+                  Morph {4}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+                  When ~ is turned face up, it deals damage equal to its power to up to two other target creatures you don't control. Those creatures deal damage equal to their power to ~.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+    "power": "9",
+    "toughness": "9",
+  },
+
+  "card":
+  {
+    "name": "Amana Aberration",
+    "cost": "1G",
+    "super": "",
+    "type": "Creature",
+    "sub": "Shaman",
+    "rarity": "",
+    "rules_text": "{T}: Add {B} or {U} to your mana pool
+                  Morph {G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+                  When ~ is turned face up, Choose one -
+                  Target player draws a card.
+                  Target player discards a card.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Milfanito",
+    "cost": "1G",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Nonhollow creature spells you control cost {1} less to cast.
+                  {T}: Add {G} to your mana pool.",
+    "flavor_text": "We hear a song in the distance.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "0",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Undead Aberration",
+    "cost": "GG",
+    "super": "",
+    "type": "Creature",
+    "sub": "Mutant Hollow",
+    "rarity": "",
+    "rules_text": "As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
+                  Deathtouch.",
+    "flavor_text": "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Duke's Dear Freja",
+    "cost": "3GG",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Giant Spider",
+    "rarity": "",
+    "rules_text": "Reach.
+                  {B}{G}: ~ gains deathtouch until end of turn.
+                  {1}{G}: Until end of turn whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "5",
+  },
+
+  "card":
+  {
+    "name": "Crystal Lizard",
+    "cost": "1GG",
+    "super": "",
+    "type": "Creature",
+    "sub": "Lizard",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield return a creature you control to its owner's hand.",
+    "flavor_text": "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "5",
   },
 
 }

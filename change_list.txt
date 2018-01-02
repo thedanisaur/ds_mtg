@@ -1,57 +1,31 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. Added new creature type, Hollow.
-  2. Changed Kindle ability as a double sided effect for cards that have "hollowing"
+  1. Forgot to mention that I added Enemy Colored Dual Lands in the last commit.
+  2. Not sold on having both Fume creatures having similar abilities.
 
 Change List:
 ## Adds
-ADD C artifact Bell Gargoyles
-ADD C artifact Eyes of a Fire Keeper
-ADD R creature Pesky Mosquito
-ADD R creature Cragspider
-ADD R creature Sunlight Maggot
-ADD R creature Disembodied Wisp
-ADD U creature Invisible Hollow
-ADD U creature Wall Spectre
-ADD U creature Hooded Sorcerer
-ADD U creature Spined Hedgehog
-ADD U creature Crystal Golem
-ADD C creature Hollow
-ADD B creature Grave Warden
-ADD B creature Nimble Shadow
-ADD W creature Anri of Astora/Hollow Bride
-ADD M Knight Artorias/The Abysswalker
-ADD G instant Alluring Skull
-ADD W instant Transient Curse
-ADD L land The Last Fire
+ADD B creature Jailer
+ADD G creature The Serpent King
+ADD U creature Amana Priestess
+ADD G creature Amana Aberration
+ADD G creature Milfanito
+ADD G creature Undead Aberration
+ADD G creature Duke's Dear Freja
+ADD G creature Crystal Lizard
+ADD G creature Abyss Watchers/Watchers of the Abyss
+ADD B creature Charred Knight
+ADD B creature Parasite Worm
+ADD U creature Fume Sorcerer
+ADD M creature Fume Knight
+ADD G enchantment Petrify
+ADD G enchantment Cursed Death
+ADD W instant Disenchant, existing card, good for this set
 ## Modifications
-MOD M creature Corrupted Hollow/Pus of Man, punctuation, now has Hollow creature type
-MOD R creature Desert Pyromancer, added flavor text
-MOD R creature Flamewielding Undead, reduced power 1 -> 0
-MOD R creature Firesage Demon, added flavor text
-MOD R creature Capra Demon, added flavor text
-MOD R creature Tarus Demon, added flavor text and changed ability
-MOD R creature Cathedral Evangelist, added flavor text
-MOD R creature Smouldering Rotten Flesh, can now block creatures with shadow
-MOD B creature Gravelord Nito, added creature type Giant
-MOD B creature Hollow, renamed Hollow Soldier, now has Hollow creature type
-MOD G creature Hollow Knight, now has Hollow creature type
-MOD R creature Flamewielding Undead, now has Hollow creature type
-MOD W creature Infested Corpse, now has Hollow creature type
-MOD W creature Batwing Demon, changed type from Demon -> Imp
-MOD W creature Blessed Cleric, removed Kindle, now grants indestructible.
-MOD R creature Unbreakable Patches, now a transform card
-MOD R creature Ringfinger Leonhard, now a transform card
-MOD W creature Siegmeyer of Catarina, now a transform card
-Mod R instant Flame Whip, added flavor text
-Mod R instant Fire Orb, changed ability's cost from {R} -> {1}{R}
-Mod R instant Fire Surge, added flavor text
-MOD R sorcery Grave Warden Tome, renamed Grave Warden's Tome
-MOD R sorcery Unkindle's Journey, added mana cost -> R
-MOD R sorcery Cracked Redeye Orb, moved to creatures since it's technically a creature spell
-MOD R sorcery Rapport, punctuation, now affects nonhollows instead of nonzombies
-MOD R sorcery Hollow Infantry, changed ability to give the new Hollow creatures
-MOD R sorcery Soul Appease, changed ability to damage Hollow creatures
-MOD R sorcery Profaned Flame, now modal ability, can hit players
-MOD W sorcery Weary Travelers, fixed spelling error, first strike -> deathtouch
+MOD W creature Siegmeyer of Caterina, fixed transform wording
+MOD R creature Ringfinger Leonhard, fixed transform wording, moved soul ability to backside, now has haste
+MOD R creature Unbreakable Patches, fixed transform wording
+MOD W creature Silver Knight, renamed Knights of Gwynevere
+MOD U creature Amana Priestess, fixed wording
+MOD M creature Knight Lautrec, updated old kindle wording
 ## Deletes

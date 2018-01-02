@@ -215,8 +215,8 @@ Blue
     "type": "Creature",
     "sub": "Giant Golem",
     "rarity": "",
-    "rules_text": "When ~ dies you get 3 souls.
-                  When ~ deals combat damage to a creature, tap that creature. That creature doesn't untap during it's controller's next untap step.",
+    "rules_text": "When ~ deals combat damage to a creature, tap that creature. That creature doesn't untap during it's controller's next untap step.
+                  When ~ dies you get 3 souls.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -224,6 +224,42 @@ Blue
     "artist": "",
     "power": "4",
     "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Amana Priestess",
+    "cost": "2U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Shaman",
+    "rarity": "",
+    "rules_text": "{X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability.",
+    "flavor_text": "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "0",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Fume Sorcerer",
+    "cost": "3U",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order. If more than one card was put in the graveyard this way, then repeat this process.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "2",
   },
 
   "card":

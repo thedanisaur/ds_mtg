@@ -23,20 +23,20 @@ White
 
   "card":
   {
-    "name": "Silver Knight",
+    "name": "Knights of Gwynevere",
     "cost": "WW",
     "super": "",
     "type": "Creature",
     "sub": "Knight",
     "rarity": "",
-    "rules_text": "First Strike.",
+    "rules_text": "Lifelink. First Strike.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
     "power": "2",
-    "toughness": "2",
+    "toughness": "3",
   },
 
   "card":
