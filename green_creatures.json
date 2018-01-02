@@ -8,7 +8,7 @@ Green
     "cost": "G",
     "super": "",
     "type": "Creature",
-    "sub": "Knight",
+    "sub": "Hollow Knight",
     "rarity": "",
     "rules_text": "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.",
     "flavor_text": "",
@@ -184,6 +184,8 @@ Green
     "power": "1",
     "toughness": "1",
   },
+
+  Hydra
 
   "card":
   {

@@ -23,6 +23,24 @@ Green
 
   "card":
   {
+    "name": "Alluring Skull",
+    "cost": "G",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Target creature you control deals damage equal to it's power to target attacking or blocking creature an opponent controls.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
     "name": "Souls of an Unkindled",
     "cost": "G",
     "super": "",

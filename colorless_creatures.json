@@ -4,6 +4,40 @@ Colorless
 
   "card":
   {
+    "name": "Hollow",
+    "cost": "1",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hollow",
+    "rarity": "",
+    "rules_text": "",
+    "flavor_text": "All undead will, one day, lose their mind and go Hollow.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Bell Gargoyles",
+    "cost": "5",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{1}: Until end of turn ~ becomes a 4/4 Gargoyle creature with flying.",
+    "flavor_text": "Unassuming statues that guarded a Bell of Awakening in the belfry of the Undead Church",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",

@@ -198,6 +198,23 @@ Colorless
 
   "card":
   {
+    "name": "Eyes of a Fire Keeper",
+    "cost": "1",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{T}: You get one soul.
+                  {3}, {T}, Sacrifice ~: Destroy all Bonfires.",
+    "flavor_text": "A pair of dark eyes. Said to be the eyes of the first Fire Keeper, they reveal to the Fire Keepers things that should never be seen.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",

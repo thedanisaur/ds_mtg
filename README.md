@@ -29,7 +29,7 @@ Haste
 
 Indestructible (Effects that say destroy do not destroy this.)
 
-Kindle (When this card is put into your graveyard from anywhere choose target creature you control. You may pay a number of souls equal to this card's mana cost, if you do exile this card encoded on a creature you control. That creature gains +X/+Y where X is this card's power and Y is this card's toughness.)
+Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
 
 Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -46,6 +46,12 @@ Vigilance
 
 ## Set layout & tidbits
 
+
+### New creature types
+
+```
+Hollow
+```
 
 
 ```

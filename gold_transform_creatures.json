@@ -1,0 +1,49 @@
+Gold
+
+{
+
+  "card":
+  {
+    "name": "Knight Artorias",
+    "cost": "2WUB",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "Mythic Rare",
+    "rules_text": "Whenever ~ attacks, defending player discards a card and you draw a card.
+                  Whenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.
+                  If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
+    "flavor_text": "...",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+    "frame:": "Double-Faced: Day",
+    "color_indicator:": "",
+  },
+
+  "card":
+  {
+    "name": "The Abysswalker",
+    "cost": "",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Hollow",
+    "rarity": "",
+    "rules_text": "Whenever an opponent draws a card, you may draw a card.
+                  {WUB}, {T}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
+                  When this creature transforms into ~, you may search your library for a card named Cursed Greatsword and put it into your hand.",
+    "flavor_text": "Indeed, the Abyss may be unstoppable.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "4",
+    "frame:": "Double-Faced: Night",
+    "color_indicator:": "Black",
+  },
+
+}

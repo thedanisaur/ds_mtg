@@ -41,6 +41,43 @@ Blue
 
   "card":
   {
+    "name": "Wall Spectre",
+    "cost": "2U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)",
+    "flavor_text": "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Invisible Hollow",
+    "cost": "U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hollow",
+    "rarity": "",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                  If ~ leaves the battlefield, draw a card and you get one soul.",
+    "flavor_text": "In hiding it waits, for the end of fire.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
     "name": "Adventuring Sorcerer",
     "cost": "2U",
     "super": "",
@@ -132,6 +169,61 @@ Blue
     "artist": "",
     "power": "2",
     "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Spined Hedgehog",
+    "cost": "2U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spike",
+    "rarity": "",
+    "rules_text": "Whenever ~ attacks you may pay {1}, if you do, target player shuffles this or her library. Then that player puts the top two cards of his or her library into his or her graveyard.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Hooded Sorcerer",
+    "cost": "1U",
+    "super": "",
+    "type": "Creature",
+    "sub": "Shaman",
+    "rarity": "",
+    "rules_text": "{T}: Scry 2. You get a soul.",
+    "flavor_text": "In the quest to fulfill the prophecy the chosen undead collect many souls.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Crystal Golem",
+    "cost": "3UU",
+    "super": "",
+    "type": "Creature",
+    "sub": "Giant Golem",
+    "rarity": "",
+    "rules_text": "When ~ dies you get 3 souls.
+                  When ~ deals combat damage to a creature, tap that creature. That creature doesn't untap during it's controller's next untap step.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
   },
 
   "card":
