@@ -209,21 +209,20 @@ Blue
 
   "card":
   {
-    "name": "Crystal Golem",
-    "cost": "3UU",
+    "name": "Crystal Butterfly",
+    "cost": "1U",
     "super": "",
     "type": "Creature",
     "sub": "Giant Golem",
     "rarity": "",
-    "rules_text": "When ~ deals combat damage to a creature, tap that creature. That creature doesn't untap during it's controller's next untap step.
-                  When ~ dies you get 3 souls.",
+    "rules_text": "Flying. When ~ dies you get three souls.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "4",
-    "toughness": "4",
+    "power": "2",
+    "toughness": "1",
   },
 
   "card":
@@ -264,20 +263,22 @@ Blue
 
   "card":
   {
-    "name": "",
-    "cost": "",
+    "name": "Angelic Knight",
+    "cost": "3UUU",
     "super": "",
     "type": "",
     "sub": "",
     "rarity": "",
-    "rules_text": "",
+    "rules_text": "Flying.
+                  When ~ enters the battlefield Scry 2.
+                  When ~ becomes the target of a spell or ability your opponent controls, you may pay three souls. If you do counter that spell or ability.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+    "power": "5",
+    "toughness": "5",
   },
 
 }

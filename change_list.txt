@@ -1,31 +1,24 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. Forgot to mention that I added Enemy Colored Dual Lands in the last commit.
-  2. Not sold on having both Fume creatures having similar abilities.
+  1. I'd rather have a flyer in U than another big creature in Crystal Golem
 
 Change List:
 ## Adds
-ADD B creature Jailer
-ADD G creature The Serpent King
-ADD U creature Amana Priestess
-ADD G creature Amana Aberration
-ADD G creature Milfanito
-ADD G creature Undead Aberration
-ADD G creature Duke's Dear Freja
-ADD G creature Crystal Lizard
-ADD G creature Abyss Watchers/Watchers of the Abyss
-ADD B creature Charred Knight
-ADD B creature Parasite Worm
-ADD U creature Fume Sorcerer
-ADD M creature Fume Knight
-ADD G enchantment Petrify
-ADD G enchantment Cursed Death
-ADD W instant Disenchant, existing card, good for this set
+ADD U creature Angelic Knight
+ADD U creature Crystal Butterfly
+ADD G enchantment Wistful Naivete
+ADD G enchantment Pagan Tree
+ADD W enchantment Petrified Egg
+ADD G instant Corrode
+ADD G instant Warcry
+ADD G sorcery Warp the Land
+ADD B sorcery Grip of Death
+ADD G sorcery Shaded Woods
+ADD G sorcery Companionship
+ADD W sorcery Reforge
 ## Modifications
-MOD W creature Siegmeyer of Caterina, fixed transform wording
-MOD R creature Ringfinger Leonhard, fixed transform wording, moved soul ability to backside, now has haste
-MOD R creature Unbreakable Patches, fixed transform wording
-MOD W creature Silver Knight, renamed Knights of Gwynevere
-MOD U creature Amana Priestess, fixed wording
-MOD M creature Knight Lautrec, updated old kindle wording
+MOD G enchantment Souls of an Unkindled, renamed Souls of the Living, triggers on etb instead of death now
+MOD G enchantment Cursed Death, renamed Contrasted Curse, now you'll want to curse yourself
+MOD G creature Abyss Watchers/Watchers of the Abyss, renamed Abyss Watchers/Undead Legion, removed fate counter clause from transformed side
 ## Deletes
+DEL U creature Crystal Golem

@@ -46,7 +46,7 @@ Black
     "type": "Creature",
     "sub": "Zombie Jackal",
     "rarity": "Common",
-    "rules_text": "Whenever ~ is dealt damage, if that damage was from a source that is red destroy ~.",
+    "rules_text": "Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.",
     "flavor_text": "",
     "number": "",
     "total": "",
