@@ -21,4 +21,62 @@ Gold
     "toughness": "2",
   },
 
+  "card":
+  {
+    "name": "Ancient Wyvern",
+    "cost": "W/RW/RW/RW/RW/R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Dragon",
+    "rarity": "",
+    "rules_text": "Flying. Indestructible. Haste.
+                  {R}: ~ gets +1/+0 until end of turn.
+                  When ~ blocks or becomes blocked by a creature with first strike or double strike, sacrifice it.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Disembodied Wisp",
+    "cost": "B/R",
+    "super": "",
+    "type": "Creature",
+    "sub": "Djinn",
+    "rarity": "",
+    "rules_text": "{1}, {T}, Sacrifice ~: Deal 3 damage to target creature or player.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "0",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Dragonslayer and Executioner",
+    "cost": "W/GW/GW/G",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "When ~ dies choose one -
+                  Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
+                  Create a 3/3 green Legendary Giant creature token with vigilance named Smough.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
 }

@@ -245,14 +245,14 @@ Red
 
   "card":
   {
-    "name": "Disembodied Wisp",
+    "name": "Firekeeper",
     "cost": "R",
     "super": "",
     "type": "Creature",
-    "sub": "Djinn",
+    "sub": "Monk",
     "rarity": "",
-    "rules_text": "{1}, {T}, Sacrifice ~: Deal 3 damage to target creature or player.",
-    "flavor_text": "",
+    "rules_text": "Pay two souls, {T}: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "flavor_text": "Very well. Then touch the darkness within me.",
     "number": "",
     "total": "",
     "artwork_url": "",

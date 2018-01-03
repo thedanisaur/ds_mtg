@@ -10,9 +10,28 @@ Gold
     "type": "Planeswalker",
     "sub": "",
     "rarity": "Mythic Rare",
-    "rules_text": "{+1}: Deal 3 damage divided as you choose among one, two, or three target creatures or players. You gain 1 life for each damage dealt this way.
+    "rules_text": "{+1}: Exile target tapped nonland permanent.
                    {+0}: Exile ~ then return it to the battlefield under your control.
-                   {-7}: Deal 7 damage to target creature. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"",
+                   {-8}: Deal 7 damage to target creature. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "loyalty": "4",
+  },
+
+  "card":
+  {
+    "name": "King of the Storm",
+    "cost": "URW",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, prowess, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
+                   {-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.
+                   {-5}: Target players life total becomes 5. Destroy all nondragon creatures your opponents control.",
     "flavor_text": "",
     "number": "",
     "total": "",

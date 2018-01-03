@@ -1,47 +1,13 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. I'd rather have a flyer in U than another big creature in Crystal Golem
-  2. Removed Lifehunt Scythe because I don't think white needs that much removal.
-  3. This commit finishes off the WUBRGL cards. Still need more Multicolored, Colorless, and Artifact cards.
+  1. I need to remember to adjust reminder text after assigning rarity to all cards.
 
 Change List:
 ## Adds
-ADD U creature Angelic Knight
-ADD U creature Crystal Butterfly
-ADD W creature White Phantom
-ADD W creature Flexile Sentry
-ADD W creature Village Blacksmith
-ADD W creature Resting Merchant
-ADD W creature Bell Keeper
-ADD W creature Swollen Mongrel
-ADD W creature Insolent Spirits
-ADD W creature Mirrah Warrior
-ADD G enchantment Wistful Naivete
-ADD G enchantment Pagan Tree
-ADD W enchantment Petrified Egg
-ADD U enchantment Into the Abyss
-ADD B enchantment Clawed Curse
-ADD B enchantment Curse of the Dead
-ADD B enchantment The Great Swamp
-ADD B enchantment Carthus Rouge
-ADD G instant Corrode
-ADD G instant Warcry
-ADD B instant A Hero Gone Mad
-ADD U instant Magic Denial
-ADD G sorcery Warp the Land
-ADD B sorcery Grip of Death
-ADD G sorcery Shaded Woods
-ADD G sorcery Companionship
-ADD W sorcery Reforge
-ADD B sorcery Chosen Undead
-ADD B sorcery Seek Embers
-ADD B sorcery Wake the Hollows
+ADD M creature Ancient Wyvern
+ADD R creature Fire Keeper
+ADD M creature Dragonslayer and Executioner
 ## Modifications
-MOD G creature Expected Companions, can't be countered, fixed wording.
-MOD G creature Milfanito, changed from creatures costing less to can't be countered.
-MOD G creature Abyss Watchers/Watchers of the Abyss, renamed Abyss Watchers/Undead Legion, removed fate counter clause from transformed side, Mythic Rare, now Legendary
-MOD G enchantment Souls of an Unkindled, renamed Souls of the Living, triggers on etb instead of death now
-MOD G enchantment Cursed Death, renamed Contrasted Curse, now you'll want to curse yourself
+MOD R creature Disembodied Wisp, now a gold card
+MOD M planeswalker Lorian and Lothric, the Twin Princes, changed +1 ability to be slightly less busted, upped loyalty to 4, ultimate changed from -7 -> -8
 ## Deletes
-DEL U creature Crystal Golem
-DEL W sorcery Lifehunt Scythe
