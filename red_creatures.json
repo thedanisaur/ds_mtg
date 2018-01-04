@@ -10,7 +10,8 @@ Red
     "type": "Creature",
     "sub": "Monk",
     "rarity": "",
-    "rules_text": "Haste.\r\n{1}{R}, {T}: ~ deals 2 damage to target creature or player",
+    "rules_text": "Haste.
+                  {2}{R}, {T}: ~ deals 2 damage to target creature or player",
     "flavor_text": "The flame reveals all, and obscures all.",
     "number": "",
     "total": "",
@@ -126,8 +127,6 @@ Red
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "2",
-    "toughness": "2",
   },
 
   "card":
@@ -140,7 +139,7 @@ Red
     "rarity": "",
     "rules_text": "~ can block creatures with shadow as though they didn't have shadow.
                   Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
-                  When ~ is turned face up you gain three souls.",
+                  When ~ is turned face up it deals 3 damage to target creature.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -194,8 +193,7 @@ Red
     "sub": "Insect",
     "rarity": "",
     "rules_text": "Flying.
-                  ~ has deathtouch as long as you control a green permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
-                  ",
+                  ~ has deathtouch as long as you control a green permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)",
     "flavor_text": "Where do they come from?",
     "number": "",
     "total": "",

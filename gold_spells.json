@@ -90,4 +90,20 @@ Gold
     "artist": "",
   },
 
+  "card":
+  {
+    "name": "Sorcerer's Remedy",
+    "cost": "W/U",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Remove all bleed counters from target creature. Draw a card.",
+    "flavor_text": "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
 }

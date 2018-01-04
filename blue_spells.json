@@ -93,8 +93,8 @@ Blue
     "type": "Instant",
     "sub": "",
     "rarity": "",
-    "rules_text": "Choose up to two target creatures. You get two souls, then you may pay any amount of souls.
-                  ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, put it on the bottom of its owner's library instead.",
+    "rules_text": "Choose up to two target creatures. You get two souls, then you may pay X souls.
+                  ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, return it to it's owner's hand instead.",
     "flavor_text": "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince.",
     "number": "",
     "total": "",
@@ -110,7 +110,7 @@ Blue
     "type": "Sorcery",
     "sub": "",
     "rarity": "",
-    "rules_text": "Shuffle target creature into its owner's library.",
+    "rules_text": "Put target creature on top of its owner's library. Then that player shuffles his or her library.",
     "flavor_text": "The spear is testament to Logan's strength in battle.",
     "number": "",
     "total": "",
@@ -128,22 +128,6 @@ Blue
     "rarity": "",
     "rules_text": "Choose target spell. Then pay X souls, where X is that spell's converted mana cost. If you do counter that spell.",
     "flavor_text": "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-  },
-
-  "card":
-  {
-    "name": "Sorcerer's Remedy",
-    "cost": "U",
-    "super": "",
-    "type": "Instant",
-    "sub": "",
-    "rarity": "",
-    "rules_text": "Remove all bleed counters from target creature.",
-    "flavor_text": "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown.",
     "number": "",
     "total": "",
     "artwork_url": "",
@@ -251,14 +235,14 @@ Blue
 
   "card":
   {
-    "name": "",
-    "cost": "",
+    "name": "Burning Ambition",
+    "cost": "2UU",
     "super": "",
-    "type": "",
+    "type": "Sorcery",
     "sub": "",
     "rarity": "",
-    "rules_text": "",
-    "flavor_text": "",
+    "rules_text": "Choose target creature. Pay X souls, where X is that creature's converted mana cost. Gain control of chosen creature.",
+    "flavor_text": "My knights are never far from my gaze.",
     "number": "",
     "total": "",
     "artwork_url": "",

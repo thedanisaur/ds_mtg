@@ -78,7 +78,7 @@ White
   "card":
   {
     "name": "Great Magic Barrier",
-    "cost": "2W",
+    "cost": "1W",
     "super": "",
     "type": "Instant",
     "sub": "",
@@ -157,7 +157,7 @@ White
     "sub": "",
     "rarity": "",
     "rules_text": "Choose a creature you control. Until end of turn if that creature would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller.",
-    "flavor_text": "For each sin there is a punishment, and it is the task of Goddess Velka to defin the sin, and mete out the punishment.",
+    "flavor_text": "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment.",
     "number": "",
     "total": "",
     "artwork_url": "",
@@ -236,7 +236,7 @@ White
     "type": "Enchantment",
     "sub": "",
     "rarity": "",
-    "rules_text": "Exile ~: Until end of turn players can't pay souls. Exile all cards from all graveyards.",
+    "rules_text": "Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards.",
     "flavor_text": "",
     "number": "",
     "total": "",

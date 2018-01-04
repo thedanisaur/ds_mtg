@@ -31,7 +31,7 @@ Red
     "type": "Creature",
     "sub": "Hollow",
     "rarity": "",
-    "rules_text": "When this creature transforms into ~, you get five souls.
+    "rules_text": "When this creature transforms into ~, you get three souls.
                   Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)",
     "flavor_text": "",
     "number": "",
@@ -52,7 +52,7 @@ Red
     "type": "Creature",
     "sub": "Human",
     "rarity": "Rare",
-    "rules_text": "When this creature enters the battlefield or transforms into ~, create two colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"
+    "rules_text": "When this creature enters the battlefield or transforms into ~, create one colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"
                   If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control",
     "flavor_text": "",
     "number": "",

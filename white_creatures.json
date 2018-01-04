@@ -11,7 +11,7 @@ White
     "sub": "Cleric",
     "rarity": "",
     "rules_text": "When ~ enters the battlefield you gain 2 life.
-                  {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn.",
+                  {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn. Activate this ability only once per turn.",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -36,7 +36,7 @@ White
     "artwork_url": "",
     "artist": "",
     "power": "2",
-    "toughness": "3",
+    "toughness": "2",
   },
 
   "card":
@@ -120,7 +120,7 @@ White
     "type": "Creature",
     "sub": "Human Spirit",
     "rarity": "",
-    "rules_text": "{WW}, {T}, Sacrifice ~: Exile target Legendary permanent.",
+    "rules_text": "{W}{W}, {T}, Sacrifice ~: Exile target Legendary permanent.",
     "flavor_text": "",
     "number": "",
     "total": "",

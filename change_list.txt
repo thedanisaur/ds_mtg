@@ -1,13 +1,28 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. Updated the number of cards per color.
-  2. Card Dark Sigil should probably not be an artifact.
+  1. Considering changing bleed to only affect players.
 
 Change List:
 ## Adds
-ADD C artifact Dark Sigil
-ADD C creature Sif, the Great Grey Wolf
+ADD U sorcery Burning Ambition
 ## Modifications
-MOD C artifact Eyes of a Fire Keeper, now a red card.
-MOD R creature Unbreakable Patches, original idea was Treasures, original kindle too wordy, fixed.
+MOD R creature Ringfinger Leonhard, reduced soul amount 5 -> 3
+MOD R creature Unbreakable Patches, reduced treasure amount 2 -> 1
+MOD R creature Desert Pyromancer, ability cost increased 2 -> 3
+MOD R creature Smoldering Rotten Flesh, morph ability now deals damage to creature
+MOD U creature Fume Sorcerer, removed word from ability
+MOD U creature Big Hat Logan, now a 4/5
+MOD W creature Blessed Cleric, ability now only activate once per turn
+MOD W creature Knights of Gwynevere, reduced toughness 3 -> 2
+MOD W creature White Phantom, fixed ability cost format
+MOD W creature Siegmeyer of Catarina, reduced p/t 4/4 -> 3/3
+MOD W enchantment Petrified Egg, now exiles spells and counters abilities that used souls as payment, probably needs work on the templating
+MOD U instant Sorcerer's Remedy, now draws a card
+MOD U instant Homing Soul Mass, fixed wording, now returns to hand
+MOD U instant Sorcerer's Remedy, now white/blue
+MOD W instant Great Magic Barrier, reduced cost 2W -> 1W
+MOD W instant Karmic Justice, spelling error in flavor text
+MOD U sorcery Soul Spear, updated wording to more match WOTC templating
+MOD R sorcery Chaos Bed Vestiges, now can't be countered
+MOD R sorcery Hollow Infantry, removed power and toughness fields
 ## Deletes

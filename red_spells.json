@@ -192,7 +192,9 @@ Red
     "type": "Sorcery",
     "sub": "",
     "rarity": "",
-    "rules_text": "~ deals X damage to target player. Damage dealt by ~ cannot be prevented.",
+    "rules_text": "~ can't be countered.
+                  ~ deals X damage to target player.
+                  Damage dealt by ~ cannot be prevented.",
     "flavor_text": "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day.",
     "number": "",
     "total": "",
