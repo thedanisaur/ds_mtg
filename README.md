@@ -64,7 +64,10 @@ W - White U - Blue B - Black R - Red G - Green M - Multi colored A - Artifact L 
 
 220 total
 
-30 cards per color.
-70 colorless cards.
+150 colored cards. (30 cards per color)
+25 multicolored cards.
+5 colored artifacts.
+10 nonbasic lands.
+30 colorless cards.
 
 ```

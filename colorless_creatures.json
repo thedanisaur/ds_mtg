@@ -38,6 +38,25 @@ Colorless
 
   "card":
   {
+    "name": "Sif, the Great Grey Wolf",
+    "cost": "5",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Wolf Giant",
+    "rarity": "",
+    "rules_text": "As long as you control a creature named Knight Artorias, ~ has indestructible.
+                  Whenever a creature you control named Knight Artorias leaves the battlefield, sacrifice ~.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",

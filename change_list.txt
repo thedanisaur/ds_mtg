@@ -1,13 +1,13 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. I need to remember to adjust reminder text after assigning rarity to all cards.
+  1. Updated the number of cards per color.
+  2. Card Dark Sigil should probably not be an artifact.
 
 Change List:
 ## Adds
-ADD M creature Ancient Wyvern
-ADD R creature Fire Keeper
-ADD M creature Dragonslayer and Executioner
+ADD C artifact Dark Sigil
+ADD C creature Sif, the Great Grey Wolf
 ## Modifications
-MOD R creature Disembodied Wisp, now a gold card
-MOD M planeswalker Lorian and Lothric, the Twin Princes, changed +1 ability to be slightly less busted, upped loyalty to 4, ultimate changed from -7 -> -8
+MOD C artifact Eyes of a Fire Keeper, now a red card.
+MOD R creature Unbreakable Patches, original idea was Treasures, original kindle too wordy, fixed.
 ## Deletes

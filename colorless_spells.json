@@ -199,7 +199,7 @@ Colorless
   "card":
   {
     "name": "Eyes of a Fire Keeper",
-    "cost": "1",
+    "cost": "R",
     "super": "",
     "type": "Artifact",
     "sub": "",
@@ -207,6 +207,22 @@ Colorless
     "rules_text": "{T}: You get one soul.
                   {3}, {T}, Sacrifice ~: Destroy all Bonfires.",
     "flavor_text": "A pair of dark eyes. Said to be the eyes of the first Fire Keeper, they reveal to the Fire Keepers things that should never be seen.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Dark Sigil",
+    "cost": "W",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{T}: Turn target creature you control face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {W}{W} (Turn it face up any time for its morph cost.)",
+    "flavor_text": "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse.",
     "number": "",
     "total": "",
     "artwork_url": "",
