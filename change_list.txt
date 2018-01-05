@@ -1,28 +1,20 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
   1. Considering changing bleed to only affect players.
+  2. Updated type line on Bonfire cards.
 
 Change List:
 ## Adds
-ADD U sorcery Burning Ambition
+ADD C artifact Lordvessel
+ADD C artifact Storm Ruler
+ADD M creature Bed of Chaos
+ADD M creature Archdeacon of the Deep
+ADD M creature Yhorm, the Giant
+ADD M planeswalker Gwyn, Lord of Cinder
 ## Modifications
-MOD R creature Ringfinger Leonhard, reduced soul amount 5 -> 3
-MOD R creature Unbreakable Patches, reduced treasure amount 2 -> 1
-MOD R creature Desert Pyromancer, ability cost increased 2 -> 3
-MOD R creature Smoldering Rotten Flesh, morph ability now deals damage to creature
-MOD U creature Fume Sorcerer, removed word from ability
-MOD U creature Big Hat Logan, now a 4/5
-MOD W creature Blessed Cleric, ability now only activate once per turn
-MOD W creature Knights of Gwynevere, reduced toughness 3 -> 2
-MOD W creature White Phantom, fixed ability cost format
-MOD W creature Siegmeyer of Catarina, reduced p/t 4/4 -> 3/3
-MOD W enchantment Petrified Egg, now exiles spells and counters abilities that used souls as payment, probably needs work on the templating
-MOD U instant Sorcerer's Remedy, now draws a card
-MOD U instant Homing Soul Mass, fixed wording, now returns to hand
-MOD U instant Sorcerer's Remedy, now white/blue
-MOD W instant Great Magic Barrier, reduced cost 2W -> 1W
-MOD W instant Karmic Justice, spelling error in flavor text
-MOD U sorcery Soul Spear, updated wording to more match WOTC templating
-MOD R sorcery Chaos Bed Vestiges, now can't be countered
-MOD R sorcery Hollow Infantry, removed power and toughness fields
+MOD B creature Lothric Sentry, reworded abilities, now only affects other hollow creatures you control
+MOD G creature Duke's Dear Freja, added Lord type
+MOD B creature Aldrich, Devourer of Gods, added Lord type
+MOD B creature Gravelord Nito, removed Wizard type and added Lord type
+MOD G creature Abyss Watchers, added Lord type
 ## Deletes

@@ -8,7 +8,7 @@ Gold
     "cost": "3RW",
     "super": "Legendary",
     "type": "Planeswalker",
-    "sub": "",
+    "sub": "Lothric and Lorian",
     "rarity": "Mythic Rare",
     "rules_text": "{+1}: Exile target tapped nonland permanent.
                    {+0}: Exile ~ then return it to the battlefield under your control.
@@ -23,11 +23,31 @@ Gold
 
   "card":
   {
+    "name": "Gwyn, Lord of Cinder",
+    "cost": "WWUUBBRRGG",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "sub": "Gwyn",
+    "rarity": "Mythic Rare",
+    "rules_text": "When ~ enters the battlefield, return all creatures to their owner's hand.
+                  {+1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.
+                  {-2}: Search your library for a Legendary Lord card and put it into your hand. Shuffle your library.
+                  {-10}: You win the game.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "loyalty": "4",
+  },
+
+  "card":
+  {
     "name": "King of the Storm",
     "cost": "URW",
     "super": "Legendary",
     "type": "Planeswalker",
-    "sub": "",
+    "sub": "Namless King",
     "rarity": "",
     "rules_text": "{+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, prowess, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
                    {-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.

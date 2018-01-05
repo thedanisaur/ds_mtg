@@ -28,7 +28,8 @@ Black
     "type": "Creature",
     "sub": "Hollow",
     "rarity": "Common",
-    "rules_text": "Zombie and Hollow creatures you control get +1/+1",
+    "rules_text": "Zombie creatures you control get +1/+1
+                  Other Hollow creatures you control get +1/+1",
     "flavor_text": "",
     "number": "",
     "total": "",
@@ -136,7 +137,7 @@ Black
     "cost": "3BB",
     "super": "Legendary",
     "type": "Creature",
-    "sub": "Cleric Ooze",
+    "sub": "Cleric Ooze Lord",
     "rarity": "Rare",
     "rules_text": "{B}{B}: Exile target creature card from a graveyard. ~ has all activated abilities of all cards exiled with this ability.",
     "flavor_text": "A right and proper cleric, with a habit of devouring men.",
@@ -154,7 +155,7 @@ Black
     "cost": "5BBBBB",
     "super": "Legendary",
     "type": "Creature",
-    "sub": "Giant Skeleton Wizard",
+    "sub": "Giant Skeleton Lord",
     "rarity": "Mythic Rare",
     "rules_text": "When ~ enters the battlefield create ten tapped 2/2 black Zombie creature tokens.
                   Whenever a creature dies you get one soul.",

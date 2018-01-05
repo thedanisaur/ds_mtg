@@ -231,6 +231,39 @@ Colorless
 
   "card":
   {
+    "name": "Lordvessel",
+    "cost": "5",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Storm Ruler",
+    "cost": "3",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Whenever equipped creature attacks, defending player sacrifices a Giant Lord.
+                  Equip {2}",
+    "flavor_text": "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",
@@ -243,8 +276,6 @@ Colorless
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
   },
 
 }
