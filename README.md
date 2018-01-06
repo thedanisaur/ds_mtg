@@ -60,14 +60,15 @@ W - White U - Blue B - Black R - Red G - Green M - Multi colored A - Artifact L 
 100 common
 60 uncommon
 45 rare
-15 mythic
+15 mythic (7)
 
 220 total
 
 150 colored cards. (30 cards per color)
 25 multicolored cards.
-5 colored artifacts.
+5 colored artifacts. (one of each color)
 10 nonbasic lands.
 30 colorless cards.
 
+28 Legendary
 ```

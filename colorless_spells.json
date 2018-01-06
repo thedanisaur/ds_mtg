@@ -4,6 +4,75 @@ Colorless
 
   "card":
   {
+    "name": "Eyes of a Fire Keeper",
+    "cost": "R",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{T}: You get one soul.
+                  {3}, {T}, Sacrifice ~: Destroy all Bonfires.",
+    "flavor_text": "A pair of dark eyes. Said to be the eyes of the first Fire Keeper, they reveal to the Fire Keepers things that should never be seen.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Talisman of the Way of White",
+    "cost": "WW",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "Equipped creature can't be the target of spells or abilities.
+                  Equip {W}",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Chloranthy Ring",
+    "cost": "G",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has vigilance.
+                  Equip {0}",
+    "flavor_text": "This old ring is named for its decorative green blossom, but its luster is long since faded.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Catalyst of the Witch of Izalith",
+    "cost": "1U",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it\"",
+    "flavor_text": "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
     "name": "Cursed Greatsword",
     "cost": "2B",
     "super": "Legendary",
@@ -112,23 +181,6 @@ Colorless
 
   "card":
   {
-    "name": "Chloranthy Ring",
-    "cost": "G",
-    "super": "",
-    "type": "Artifact",
-    "sub": "Equipment",
-    "rarity": "",
-    "rules_text": "Equipped creature has vigilance.
-                  Equip {0}",
-    "flavor_text": "This old ring is named for its decorative green blossom, but its luster is long since faded.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-  },
-
-  "card":
-  {
     "name": "Bloodbite Ring",
     "cost": "1",
     "super": "",
@@ -180,41 +232,6 @@ Colorless
 
   "card":
   {
-    "name": "Catalyst of the Witch of Izalith",
-    "cost": "1U",
-    "super": "",
-    "type": "Artifact",
-    "sub": "Equipment",
-    "rarity": "",
-    "rules_text": "Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it\"",
-    "flavor_text": "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-    "power": "",
-    "toughness": "",
-  },
-
-  "card":
-  {
-    "name": "Eyes of a Fire Keeper",
-    "cost": "R",
-    "super": "",
-    "type": "Artifact",
-    "sub": "",
-    "rarity": "",
-    "rules_text": "{T}: You get one soul.
-                  {3}, {T}, Sacrifice ~: Destroy all Bonfires.",
-    "flavor_text": "A pair of dark eyes. Said to be the eyes of the first Fire Keeper, they reveal to the Fire Keepers things that should never be seen.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-  },
-
-  "card":
-  {
     "name": "Lordvessel",
     "cost": "5",
     "super": "",
@@ -248,19 +265,89 @@ Colorless
 
   "card":
   {
-    "name": "Talisman of the Way of White",
-    "cost": "WW",
+    "name": "Ring of Favor",
+    "cost": "2",
     "super": "",
-    "type": "",
-    "sub": "",
+    "type": "Artifact",
+    "sub": "Equipment",
     "rarity": "",
-    "rules_text": "Equipped creature can't be the target of spells or abilities.
-                  Equip {W}",
-    "flavor_text": "",
+    "rules_text": "Equipped creature gets +1/+1 and has indestructible and vigilance.
+                  Equip {2}",
+    "flavor_text": "May the Goddess Fina favor you.",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
   },
+
+  "card":
+  {
+    "name": "Wolf Knight's Greatshield",
+    "cost": "3",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has indestructible.
+                  Whenever the equipped creature blocks, you may draw a card.
+                  Equip {2}",
+    "flavor_text": "Shield born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "A Slave Knight's Crossbow",
+    "cost": "5",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has \"{2}, {T}: Deal 1 damage to target creature or player. Untap ~. Activate this ability only if you control no more than one creature.\"
+                  Equip {4}",
+    "flavor_text": "The red-hooded, wandering slave knight Gael sought the blood of the dark soul",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Ring of a Great Warrior",
+    "cost": "3",
+    "super": "",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has \"{0}: Attach target equipment to this creature. Activate this ability only once per turn and only when you could cast a sorcery.\".
+                  Equip {1}",
+    "flavor_text": "War, war never changes.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Moonlight Greatsword",
+    "cost": "4",
+    "super": "Legendary",
+    "type": "Artifact",
+    "sub": "Equipment",
+    "rarity": "",
+    "rules_text": "Equipped creature has \"Pay one soul: ~ deals 1 damage to target creature.\".
+                  Equip {2}",
+    "flavor_text": "Oceiros was infatuated with the search for moonlight, but in the end, it never revealed itself to him.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
 
 }

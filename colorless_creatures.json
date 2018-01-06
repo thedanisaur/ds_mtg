@@ -75,20 +75,206 @@ Colorless
 
   "card":
   {
-    "name": "",
-    "cost": "",
+    "name": "Stray Demon",
+    "cost": "4",
     "super": "",
-    "type": "",
-    "sub": "",
+    "type": "Creature",
+    "sub": "Demon",
     "rarity": "",
-    "rules_text": "",
+    "rules_text": "~ enters the battlefield with two +1/+1 counters if you control another Demon.",
+    "flavor_text": "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Four Kings",
+    "cost": "5",
+    "super": "",
+    "type": "Creature",
+    "sub": "Lord",
+    "rarity": "",
+    "rules_text": "~ can't be blocked.
+                  {1}: ~ gains flying until end of turn.
+                  When ~ leaves the battlefield, each opponent gets two souls.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "",
-    "toughness": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Ashen Idol",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Avatar",
+    "rarity": "",
+    "rules_text": "{T}: Remove target creature you control from combat. (It is no longer attacking or blocking and does not deal or receive damage.)
+                  {2}{B}, {T}: Return target creature, that left the battlefield this turn, from your graveyard to your hand.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Looking Glass Knight",
+    "cost": "8",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "~ can't be the target of spells or abilities.
+                  {1}{R}, {T}: Create a 3/3 red Legendary Human creature token with prowess named Invader. Activate this ability only anytime you could cast a sorcery.",
+    "flavor_text": "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Covetous Demon",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "",
+    "rules_text": "{2}{G}: Until end of turn ~ gains \"Whenever ~ deals combat damage to a creature put three bleed counters on that creature.\" (As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Cursed Jar",
+    "cost": "2",
+    "super": "",
+    "type": "Artifact",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{B}: Until end of turn ~ becomes a 0/3 black artifact creature with \"Whenever ~ blocks a creature, that creature's controller loses 2 life.\"",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
+  "card":
+  {
+    "name": "Heide Knight",
+    "cost": "3",
+    "super": "",
+    "type": "Artifact Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "Double Strike.
+                  ~ can't attack or block unless you were dealt damage last turn.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Leydia Witch",
+    "cost": "2",
+    "super": "",
+    "type": "Creature",
+    "sub": "Wizard",
+    "rarity": "",
+    "rules_text": "{W}, {T}: Deal 2 damage to target attacking or blocking creature.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Unlikely Merchant",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "",
+    "rules_text": "Flying.
+                  {1}{U}, {T}: Draw a card, then discard a card.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Winged Chimera",
+    "cost": "5",
+    "super": "",
+    "type": "Creature",
+    "sub": "Harpy",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield, you get one soul.
+                  Flying. Lifelink",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Metaleater Spider",
+    "cost": "6",
+    "super": "",
+    "type": "Artifact Creature",
+    "sub": "Spider",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield, destroy target Equipment.
+                  Reach.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "5",
   },
 
 }
