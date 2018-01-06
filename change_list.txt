@@ -1,20 +1,18 @@
 Adding to and updating set for inital testing.
 The changes made are to help fill out the set, fix some flavor issues, and generally fix things.
-  1. Considering changing bleed to only affect players.
-  2. Updated type line on Bonfire cards.
+  1. 
 
 Change List:
 ## Adds
-ADD C artifact Lordvessel
-ADD C artifact Storm Ruler
-ADD M creature Bed of Chaos
-ADD M creature Archdeacon of the Deep
-ADD M creature Yhorm, the Giant
-ADD M planeswalker Gwyn, Lord of Cinder
+ADD c artifact Talisman of the Way of White
+ADD M creature Iudex Gundyr/Champion Gundyr
+ADD M creature Ruin Sentinals
+ADD M creature Baneful Queen
+ADD M creature Blade of the Darkmoon
+ADD M creature Hawkeye Gough
+ADD C creature Iron Golem
+ADD M creature Carim Guardian
 ## Modifications
-MOD B creature Lothric Sentry, reworded abilities, now only affects other hollow creatures you control
-MOD G creature Duke's Dear Freja, added Lord type
-MOD B creature Aldrich, Devourer of Gods, added Lord type
-MOD B creature Gravelord Nito, removed Wizard type and added Lord type
-MOD G creature Abyss Watchers, added Lord type
+MOD M artifact Dark Sigil, is now a gold enchantment and affects any creature
+MOD M creature Yhorm, the Giant, now jund, new abilities
 ## Deletes

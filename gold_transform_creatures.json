@@ -89,4 +89,45 @@ Gold
     "color_indicator:": "Black",
   },
 
+  "card":
+  {
+    "name": "Iudex Gundyr",
+    "cost": "WB",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield, you lose 2 life.
+                  If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+    "frame:": "Double-Faced: Day",
+    "color_indicator:": "",
+  },
+
+  "card":
+  {
+    "name": "Champion Gundyr",
+    "cost": "",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Hollow Ooze",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+    "frame:": "Double-Faced: Night",
+    "color_indicator:": "White",
+  },
+
 }

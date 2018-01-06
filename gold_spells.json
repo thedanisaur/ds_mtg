@@ -126,4 +126,20 @@ Gold
     "artist": "",
   },
 
+  "card":
+  {
+    "name": "Dark Sigil",
+    "cost": "R/B",
+    "super": "",
+    "type": "Enchantment",
+    "sub": "",
+    "rarity": "",
+    "rules_text": "{2}: Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.",
+    "flavor_text": "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+  },
+
 }

@@ -57,6 +57,24 @@ Colorless
 
   "card":
   {
+    "name": "Iron Golem",
+    "cost": "3",
+    "super": "",
+    "type": "Artifact Creature",
+    "sub": "Giant",
+    "rarity": "",
+    "rules_text": "Noncreature spells cost {1} more to cast.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
     "name": "",
     "cost": "",
     "super": "",

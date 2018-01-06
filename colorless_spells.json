@@ -215,22 +215,6 @@ Colorless
 
   "card":
   {
-    "name": "Dark Sigil",
-    "cost": "W",
-    "super": "",
-    "type": "Artifact",
-    "sub": "",
-    "rarity": "",
-    "rules_text": "{T}: Turn target creature you control face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {W}{W} (Turn it face up any time for its morph cost.)",
-    "flavor_text": "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse.",
-    "number": "",
-    "total": "",
-    "artwork_url": "",
-    "artist": "",
-  },
-
-  "card":
-  {
     "name": "Lordvessel",
     "cost": "5",
     "super": "",
@@ -264,13 +248,14 @@ Colorless
 
   "card":
   {
-    "name": "",
-    "cost": "",
+    "name": "Talisman of the Way of White",
+    "cost": "WW",
     "super": "",
     "type": "",
     "sub": "",
     "rarity": "",
-    "rules_text": "",
+    "rules_text": "Equipped creature can't be the target of spells or abilities.
+                  Equip {W}",
     "flavor_text": "",
     "number": "",
     "total": "",

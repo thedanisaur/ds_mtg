@@ -121,19 +121,113 @@ Gold
   "card":
   {
     "name": "Yhorm, the Giant",
-    "cost": "G/WG/WG/WG/W",
+    "cost": "1BRG",
     "super": "",
     "type": "Creature",
     "sub": "Giant Lord",
     "rarity": "",
-    "rules_text": "{G/W}{G/W}: ~ gets +2/+0 and gains indestructible until end of turn.",
+    "rules_text": "Double strike.
+                  {1}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
+                  Whenever ~ is put into the graveyard from the battlefield you may pay {2}. If you do, return another target creature card from your graveyard to your hand.",
     "flavor_text": "",
     "number": "",
     "total": "",
     "artwork_url": "",
     "artist": "",
-    "power": "4",
+    "power": "2",
     "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Ruin Sentinals",
+    "cost": "2G/W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Giant",
+    "rarity": "",
+    "rules_text": "~ gets +2/+2 for each other creature you control named ~.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Baneful Queen",
+    "cost": "1B/GB/GB/G",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Naga Gorgon",
+    "rarity": "",
+    "rules_text": "Deathtouch.
+                  At the beginning of your upkeep put a bleed counter on each creature target player controls. As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "1",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Blade of the Darkmoon",
+    "cost": "U/WU/W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "When ~ enters the battlefield, draw a card. If an opponent controls a creature named \"Invader\" create a 1/1 white Human creature token.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Hawkeye Gough",
+    "cost": "2RG",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Giant Knight",
+    "rarity": "",
+    "rules_text": "{R}, {T}: Deal 2 damage to target creature with flying.",
+    "flavor_text": "",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "3",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Carim Guardian",
+    "cost": "1G/WG/W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "",
+    "rules_text": "Vigilance.
+                  Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.",
+    "flavor_text": "If you’ve any sense, you’ll go find a coffin to huddle up inside. You here, in this land of Hollows, you’re like a frail maiden on the front lines.",
+    "number": "",
+    "total": "",
+    "artwork_url": "",
+    "artist": "",
+    "power": "2",
+    "toughness": "1",
   },
 
 }
