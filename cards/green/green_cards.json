@@ -18,8 +18,8 @@
       "number": 131,
       "power": "5",
       "toughness": "5",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "",
     },
     "back": {
       "name": "Undead Legion",
@@ -36,8 +36,8 @@
       "number": 131,
       "power": "5",
       "toughness": "5",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "Green",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "Green",
     }
   },
 

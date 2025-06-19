@@ -413,8 +413,8 @@
       "number": 125,
       "power": "3",
       "toughness": "3",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "Red",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "Red",
     },
     "back": {
       "name": "Rosaria's Finger",
@@ -431,8 +431,8 @@
       "number": 125,
       "power": "1",
       "toughness": "1",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "Black",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "Black",
     }
   },
 
@@ -508,8 +508,8 @@
       "number": 129,
       "power": "2",
       "toughness": "2",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "Red",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "Red",
     },
     "back": {
       "name": "Lapp",
@@ -525,8 +525,8 @@
       "number": 129,
       "power": "5",
       "toughness": "5",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "White",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "White",
     },
   },
 
