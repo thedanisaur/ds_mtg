@@ -263,8 +263,8 @@
       "number": 175,
       "power": "2",
       "toughness": "2",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "",
     },
     "back": {
       "name": "Champion Gundyr",
@@ -280,8 +280,8 @@
       "number": 175,
       "power": "3",
       "toughness": "3",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "White",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "White",
     }
   },
 
@@ -321,8 +321,8 @@
       "number": 177,
       "power": "4",
       "toughness": "4",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "",
     },
     "back": {
       "name": "The Abysswalker",
@@ -340,8 +340,8 @@
       "number": 177,
       "power": "3",
       "toughness": "4",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "Black",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "Black",
     }
   },
 
@@ -363,8 +363,8 @@
       "number": 178,
       "power": "2",
       "toughness": "2",
-      "frame:": "Double-Faced: Day",
-      "color_indicator:": "",
+      "frame": "Double-Faced: Day",
+      "color_indicator": "",
     },
     "back": {
       "name": "Favored Knight",
@@ -381,8 +381,8 @@
       "number": 178,
       "power": "2",
       "toughness": "2",
-      "frame:": "Double-Faced: Night",
-      "color_indicator:": "Black",
+      "frame": "Double-Faced: Night",
+      "color_indicator": "Black",
     }
   },
 
