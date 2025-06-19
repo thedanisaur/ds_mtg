@@ -17,19 +17,17 @@ Black - Thieves/Assassin
 ### Mechanics/Ablities/Keywords
 
 ```
-Bleed* (Whenever the equipped creature deals combat damage to a creature put three bleed counters on that creature. As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
-
-Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Deathtouch
 
 Double Strike
 
 First Strike
 
+Flying
+
 Haste
 
 Indestructible (Effects that say destroy do not destroy this.)
-
-Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
 
 Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -42,7 +40,12 @@ Shadow (This creature can block or be blocked by only creatures with shadow.)
 Vigilance
 ```
 
-*This ability is not an actual keyword.
+New mechanic
+```
+Bleed - Whenever ~ deals combat damage to a creature put N bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+
+Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+```
 
 ## Set layout & tidbits
 
@@ -55,20 +58,33 @@ Hollow
 
 
 ```
-W - White U - Blue B - Black R - Red G - Green M - Multi colored A - Artifact L - Land BL - Basic Land
+225 total
 
+10 colorless cards.
+30 white cards.
+30 blue cards.
+30 black cards.
+30 red cards.
+30 green cards.
+25 gold cards.
+25 artifacts.
+15 nonbasic lands.
+```
+
+
+Rarity Distribution
+```
 100 common
-60 uncommon
+62 uncommon
 45 rare
-15 mythic (7)
+18 mythic
+```
 
-220 total
 
-150 colored cards. (30 cards per color)
-25 multicolored cards.
-5 colored artifacts. (one of each color)
-10 nonbasic lands.
-30 colorless cards.
-
-28 Legendary
+Booster distribution
+```
+- 11 commons
+- 3 uncommons
+- 1 rare
+- 1 in 8 rare is replaced with mythic
 ```

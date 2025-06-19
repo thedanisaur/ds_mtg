@@ -1,0 +1,575 @@
+{
+
+  "card":
+  {
+    "front": {
+      "name": "Anri of Astora",
+      "cost": "1W",
+      "super": "Legendary",
+      "type": "Creature",
+      "sub": "Human",
+      "rarity": "Rare",
+      "rules_text": "First Strike. Lifelink.
+                    If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
+      "flavor_text": "Oh, Horace, where have you run off to? Have you abandoned me?",
+      "artwork_url": "https://i.ibb.co/xKnr6MPb/anri-of-astora-front-blacknivalis-resize.jpg",
+      "artist": "blacknivalis",
+      "number": 11,
+      "power": "2",
+      "toughness": "1",
+      "frame:": "Double-Faced: Day",
+      "color_indicator:": "White"
+    },
+    "back": {
+      "name": "Hollow Bride",
+      "cost": "",
+      "super": "Legendary",
+      "type": "Creature",
+      "sub": "Hollow",
+      "rarity": "Rare",
+      "rules_text": "Spells your opponents control cost {1} more to cast.
+                    Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)",
+      "flavor_text": "Oh, Horace, everyone, forgive me. I was weak on my own.",
+      "number":11,
+      "artwork_url": "https://i.ibb.co/RG41zwzK/oscar-of-astora-back-theknightstars-resize.jpg",
+      "artist": "theknightstars",
+      "power": "0",
+      "toughness": "1",
+      "frame:": "Double-Faced: Night",
+      "color_indicator:": "White"
+    }
+  },
+
+  "card":
+  {
+    "name": "Batwing Demon",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Imp Demon",
+    "rarity": "Common",
+    "rules_text": "{T}: Tap target creature.
+                  {R}, {T}: Deal 1 damage to target attacking or blocking creature.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 12,
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Blessed Cleric",
+    "cost": "W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Cleric",
+    "rarity": "Common",
+    "rules_text": "When ~ enters the battlefield you gain 2 life.
+                  {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 13,
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "front": {
+      "name": "Corrupted Hollow",
+      "cost": "W",
+      "super": "",
+      "type": "Creature",
+      "sub": "Hollow",
+      "rarity": "Common",
+      "rules_text": "If a source would deal exactly 1 damage to ~ prevent that damage and transform ~. (If a source would deal more than 1 damage to this creature, it is destroyed.)",
+      "flavor_text": "",
+      "artwork_url": "",
+      "artist": "",
+      "number": 14,
+      "power": "1",
+      "toughness": "1",
+      "frame:": "Double-Faced: Day",
+    },
+    "back": {
+      "name": "Pus of Man",
+      "cost": "",
+      "super": "",
+      "type": "Creature",
+      "sub": "Hollow Ooze",
+      "rarity": "",
+      "rules_text": "Whenever ~ deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\"",
+      "flavor_text": "",
+      "artwork_url": "",
+      "artist": "",
+      "number": 14,
+      "power": "3",
+      "toughness": "2",
+      "frame:": "Double-Faced: Night",
+      "color_indicator:": "Black",
+    }
+  },
+
+  "card":
+  {
+    "name": "Disenchant",
+    "cost": "1W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Destroy target artifact or enchantment.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 15
+  },
+
+  "card":
+  {
+    "name": "Emit Force",
+    "cost": "2WW",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "Target player puts all attacking creatures he or she controls on the bottom of their owner's library. You gain one life for each creature that left the battlefield this way.",
+    "flavor_text": "Throughout history, there have been many examples of imitative miracles. When discerning original from imitator is nigh impossible, which is which hardly matters.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 16,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Flexile Sentry",
+    "cost": "2W",
+    "super": "",
+    "type": "",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Double Strike.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 17,
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Great Magic Barrier",
+    "cost": "1W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Prevent all non-combat damage that would be dealt to you and creatures you control this turn.",
+    "flavor_text": "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 18,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Heavenly Thunder",
+    "cost": "2WWW",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Uncommon",
+    "rules_text": "For each attacking and blocking creature on the battlefield without Indestructable flip a coin. If it comes up heads, exile that creature.",
+    "flavor_text": "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 19,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Infested Corpse",
+    "cost": "W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hollow",
+    "rarity": "Common",
+    "rules_text": "Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+                  Whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has  \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 20,
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Insolent Spirits",
+    "cost": "2WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "Common",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)
+                  If you control 3 or more Equipment, you may pay {0} instead of paying an equip cost.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 21,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Karmic Justice",
+    "cost": "WW",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Uncommon",
+    "rules_text": "Choose a creature you control. Until end of turn if that creature would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller.",
+    "flavor_text": "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 22
+  },
+
+  "card":
+  {
+    "name": "Knights of Gwynevere",
+    "cost": "WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "Common",
+    "rules_text": "Lifelink. First Strike.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 23,
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Miracle of the Way of White",
+    "cost": "W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "Exile target creature. It's controller gains souls equal to that creatures power.
+                  At the beginning of your upkeep you may pay {5}{W}. If you do, return ~ from your graveyard to your hand.",
+    "flavor_text": "Those who yearned for the long-lost aureoles fully believed that they would return, one day.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 24,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Mirrah Warrior",
+    "cost": "2W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "Uncommon",
+    "rules_text": "When ~ enters the battlefield you may pay one soul. If you do, target creature you control gains first strike until end of turn.
+                  Players can't search libraries.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 25,
+    "power": "2",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "New Londo Shade",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "Common",
+    "rules_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)",
+    "flavor_text": "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 26,
+    "power": "3",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Petrified Egg",
+    "cost": "1W",
+    "super": "",
+    "type": "Enchantment",
+    "sub": "",
+    "rarity": "Uncommon",
+    "rules_text": "Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards.",
+    "flavor_text": "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew.",
+    "artwork_url": "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg",
+    "artist": "deepai",
+    "number": 27
+  },
+
+  "card":
+  {
+    "name": "Reforge",
+    "cost": "1W",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "Rare",
+    "rules_text": "Return target Artifact or Enchantment card from your graveyard to your hand. You may pay 5 souls. If you do, put that card onto the battlefield.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 28
+  },
+
+  "card":
+  {
+    "name": "Resting Merchant",
+    "cost": "W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hag",
+    "rarity": "Common",
+    "rules_text": "You may cast ~ at any time you could cast and instant.
+                  When ~ enters the battlefield, return a creature you control to its owner's hand.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 29,
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Magic Barrier",
+    "cost": "1W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "When you cast this spell you may pay {W} if you do draw a card. Return target non-creature spell to its owner's hand. You get one soul.",
+    "flavor_text": "It became necessary for even simple clerics to have some means of opposing magic.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 30,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "front": {
+      "name": "Siegmeyer of Catarina",
+      "cost": "2WW",
+      "super": "Legendary",
+      "type": "Creature",
+      "sub": "Human",
+      "rarity": "Rare",
+      "rules_text": "When this creature enters the battlefield or transforms into ~ you gain 4 life.
+                    As long as ~ is equipped it gets +1/+1.
+                    If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.",
+      "flavor_text": "Excuse me. I must have dozed off.",
+      "artwork_url": "https://i.ibb.co/5g3HcQLL/siegmeyer-of-catarina-front-deadinsidegraphics-resize.jpg",
+      "artist": "deadinsidegraphics",
+      "number": 31,
+      "power": "3",
+      "toughness": "3",
+      "frame:": "Double-Faced: Day",
+      "color_indicator:": "",
+    },
+    "back": {
+      "name": "Knight of Catarina",
+      "cost": "",
+      "super": "Legendary",
+      "type": "Creature",
+      "sub": "Hollow",
+      "rarity": "",
+      "rules_text": "Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)",
+      "flavor_text": "Forgive me, old friend. I've failed, in everything.",
+      "artwork_url": "https://i.ibb.co/bg8BRC49/siegmeyer-of-catarina-back-arkaimk-resize.png",
+      "artist": "arkaimk",
+      "number": 31,
+      "power": "0",
+      "toughness": "1",
+      "frame:": "Double-Faced: Night",
+      "color_indicator:": "White",
+    }
+  },
+
+  "card":
+  {
+    "name": "Soul of a Nameless Soldier",
+    "cost": "0",
+    "super": "",
+    "type": "Enchantment",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.",
+    "flavor_text": "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 32,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Sunlight Blade",
+    "cost": "W",
+    "super": "",
+    "type": "Enchantment",
+    "sub": "Aura",
+    "rarity": "Uncommon",
+    "rules_text": "Enchant Equipment
+                  Enchanted equipment gains \"Equipped creature gets +1/+0 and has first strike.\"",
+    "flavor_text": "The sun grants life to all things upon the earth, even if the worshipers of sunlight no longer bless the surface with their presence.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 33,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Swollen Mongrel",
+    "cost": "1WW",
+    "super": "",
+    "type": "Creature",
+    "sub": "Mutant",
+    "rarity": "Common",
+    "rules_text": "{W}{U}, {T}: White and blue creatures you control get +1/+1 until end of turn.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 34,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Tears of Denial",
+    "cost": "W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Target creature gains indestructible until end of turn.",
+    "flavor_text": "Intended to grant the dying a few moments for a final farewell. Tears are shed for the sake of the living, more so than the deceased.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 35,
+    "power": "",
+    "toughness": "",
+  },
+
+  "card":
+  {
+    "name": "Transient Curse",
+    "cost": "W",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "You get one soul. Target creature gains shadow until end of turn. (Creatures with shadow can block or be blocked only by creatures with shadow.)",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 36
+  },
+
+  "card":
+  {
+    "name": "Village Blacksmith",
+    "cost": "1W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Human",
+    "rarity": "Common",
+    "rules_text": "Equip costs you pay cost {1} less.
+                  Equipped creatures you control get +1/+1.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 37,
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Vow of Silence",
+    "cost": "WW",
+    "super": "",
+    "type": "Instant",
+    "sub": "",
+    "rarity": "Uncommon",
+    "rules_text": "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack this turn.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 38
+  },
+
+  "card":
+  {
+    "name": "Weary Travelers",
+    "cost": "2W",
+    "super": "",
+    "type": "Sorcery",
+    "sub": "",
+    "rarity": "Common",
+    "rules_text": "Create a 1/2 black Human Ally creature token with deathtouch.
+                  Create a 2/1 white Human Ally creature token lifelink.",
+    "flavor_text": "Are you too in search of the Lords of Cinder?",
+    "artwork_url": "",
+    "artist": "",
+    "number": 39,
+  },
+
+  "card":
+  {
+    "name": "White Phantom",
+    "cost": "2W",
+    "super": "",
+    "type": "Creature",
+    "sub": "Human Spirit",
+    "rarity": "Uncommon",
+    "rules_text": "{W}{W}, {T}, Sacrifice ~: Exile target Legendary permanent.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 40,
+    "power": "2",
+    "toughness": "2",
+  },
+
+}

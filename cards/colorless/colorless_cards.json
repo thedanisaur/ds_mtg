@@ -1,0 +1,180 @@
+{
+
+  "card":
+  {
+    "name": "Ashen Idol",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Avatar",
+    "rarity": "Common",
+    "rules_text": "{T}: Remove target creature you control from combat. (It is no longer attacking or blocking and does not deal or receive damage.)
+                  {2}{B}, {T}: Return target creature, that left the battlefield this turn, from your graveyard to your hand.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 1,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Covetous Demon",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "Common",
+    "rules_text": "{2}{G}: Until end of turn ~ gains \"Whenever ~ deals combat damage to a creature put three bleed counters on that creature.\" (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 2,
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Four Kings",
+    "cost": "5",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Lord",
+    "rarity": "Uncommon",
+    "rules_text": "~ can't be blocked.
+                  {3}: ~ gains Flying and First Strike until end of turn.
+                  When ~ leaves the battlefield, each opponent gets two souls.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 3,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Hollow",
+    "cost": "1",
+    "super": "",
+    "type": "Creature",
+    "sub": "Hollow",
+    "rarity": "Common",
+    "rules_text": "",
+    "flavor_text": "All undead will, one day, lose their mind and go Hollow.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 4,
+    "power": "1",
+    "toughness": "1",
+  },
+
+  "card":
+  {
+    "name": "Leydia Witch",
+    "cost": "2",
+    "super": "",
+    "type": "Creature",
+    "sub": "Wizard",
+    "rarity": "Common",
+    "rules_text": "{W}, {T}: Deal 2 damage to target attacking or blocking creature.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 5,
+    "power": "1",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Looking Glass Knight",
+    "cost": "8",
+    "super": "",
+    "type": "Creature",
+    "sub": "Knight",
+    "rarity": "Uncommon",
+    "rules_text": "~ can't be the target of spells or abilities.
+                  {1}{R}, {T}: Create a 3/3 red Legendary Human creature token with prowess named Invader. Activate this ability only anytime you could cast a sorcery.",
+    "flavor_text": "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 6,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Sif, the Great Grey Wolf",
+    "cost": "5",
+    "super": "Legendary",
+    "type": "Creature",
+    "sub": "Wolf Giant",
+    "rarity": "Uncommon",
+    "rules_text": "As long as you control a creature named Knight Artorias, ~ has indestructible.
+                  Whenever a creature you control named Knight Artorias leaves the battlefield, sacrifice ~.",
+    "flavor_text": "",
+    "artwork_url": "https://www.deviantart.com/swoldier76/art/Sif-755238017",
+    "artist": "Swoldier76",
+    "number": 7,
+    "power": "4",
+    "toughness": "4",
+  },
+
+  "card":
+  {
+    "name": "Stray Demon",
+    "cost": "4",
+    "super": "",
+    "type": "Creature",
+    "sub": "Demon",
+    "rarity": "Common",
+    "rules_text": "~ enters the battlefield with two +1/+1 counters if you control another Demon.",
+    "flavor_text": "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race.",
+    "artwork_url": "",
+    "artist": "",
+    "number": 8,
+    "power": "3",
+    "toughness": "3",
+  },
+
+  "card":
+  {
+    "name": "Unlikely Merchant",
+    "cost": "3",
+    "super": "",
+    "type": "Creature",
+    "sub": "Spirit",
+    "rarity": "Common",
+    "rules_text": "Flying.
+                  {1}{U}, {T}: Draw a card, then discard a card.",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 9,
+    "power": "2",
+    "toughness": "2",
+  },
+
+  "card":
+  {
+    "name": "Winged Chimera",
+    "cost": "3",
+    "super": "",
+    "type": "Creature",
+    "sub": "Harpy",
+    "rarity": "Common",
+    "rules_text": "When ~ enters the battlefield, you get two souls.
+                  Flying. Lifelink",
+    "flavor_text": "",
+    "artwork_url": "",
+    "artist": "",
+    "number": 10,
+    "power": "2",
+    "toughness": "2",
+  },
+
+}
