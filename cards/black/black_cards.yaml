@@ -248,7 +248,8 @@ card_gravelord_nito:
     sub: "Giant Skeleton Lord"
     rarity: "Mythic"
     rules_text: |
-      When ~ enters the battlefield create ten tapped 2/2 black Zombie creature tokens.
+      When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.
+      At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create X 1/1 black Skeleton creature tokens where X is the difference.
       Whenever a creature dies you get one soul.
     flavor_text: "Nito's soul turned him into a living manifestation of illness and death, a mass of skeletons held together by the miasma of the Death Soul."
     artwork_url: ""
