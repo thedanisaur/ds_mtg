@@ -10,9 +10,9 @@ card_ancient_wyvern:
       Flying. Indestructible. Haste.
       {R}: ~ gets +1/+0 until end of turn.
       When ~ blocks or becomes blocked by a creature with first strike or double strike, sacrifice it.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Born of chaos with the soul of a demon and the strength of fire."
+    artwork_url: "https://i.ibb.co/XZnbqdBx/ancient-wyvern-jeffchendesigns-resize.jpg"
+    artist: "jeffchendesigns"
     number: 161
     power: 4
     toughness: 4
@@ -66,9 +66,9 @@ card_bed_of_chaos:
       When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug
       Indestructible
       Whenever a creature you control dies, if you don't control a creature named Chaos Bug sacrifice ~.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Mother of all demons."
+    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
+    artist: "oniruu"
     number: 164
     power: 3
     toughness: 4
@@ -82,11 +82,11 @@ card_blade_of_the_darkmoon:
     sub: "Knight"
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield, draw a card. If an opponent controls a creature named Red Phantom create a 3/3 white human ally creature token named Phantom. It has haste.
+      When ~ enters the battlefield, draw a card. If an opponent controls a creature named Red Phantom, create a 3/3 white human ally creature token named Phantom. It has haste.
       Whenever a creature named "Red Phantom" dies you get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Thy punishment ... is death"
+    artwork_url: "https://i.ibb.co/BHBvZqvX/blade-of-the-dark-moon-inkimagine-recolor.jpg"
+    artist: "inkimagine"
     number: 165
     power: 2
     toughness: 2
@@ -100,11 +100,11 @@ card_carim_guardian:
     sub: "Knight"
     rarity: "Uncommon"
     rules_text: |
-      Vigilance.
+      Vigilance
       Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.
     flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside. You here, in this land of Hollows, you're like a frail maiden on the front lines."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
+    artist: "drawsouls"
     number: 166
     power: 2
     toughness: 1
@@ -117,10 +117,11 @@ card_dark_sigil:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
-    rules_text: "{2}: Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery."
+    rules_text: |
+      {2}: Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.
     flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
     number: 167
 
 card_disembodied_wisp:
@@ -344,12 +345,12 @@ card_knight_lautrec:
     sub: "Human"
     rarity: "Rare"
     rules_text: |
-      When ~ enters the battlefield each opponent gains 5 life.
-      Haste.
+      When ~ enters the battlefield exile the top card of an opponents library with a favored counter on it.
+      Haste
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "This is a wonderful place, don't you think? We are fortunate indeed. If only I were so lucky..."
+    artwork_url: "https://i.ibb.co/ycB14xrR/knight-lautrec-warhuan-resize.jpg"
+    artist: "Warhuan"
     number: 178
     power: 2
     toughness: 2
@@ -363,11 +364,11 @@ card_knight_lautrec:
     sub: "Hollow"
     rarity: ""
     rules_text: |
-      When ~ enters the battlefield target player discards a card.
+      When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.
       Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "I'm done for, I'm afraid. I'll die soon, then lose my sanity."
+    artwork_url: "https://i.ibb.co/CKHJnYNH/knight-lautrec-jdeberge-back-resize.jpg"
+    artist: "jdeberge"
     number: 178
     power: 2
     toughness: 2

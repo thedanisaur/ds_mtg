@@ -6,10 +6,11 @@ card_a_hero_gone_mad:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Return target Hollow card from your graveyard to the battlefield. You get X souls where X is that creature's toughness."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: |
+      Return target Hollow card from your graveyard to the battlefield. You get X souls where X is that creature's toughness.
+    flavor_text: "I can feel it... ever so slowly, I'm slipping... into the depths..."
+    artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
+    artist: "lavilvile"
     number: 71
 
 card_aldrich_devourer_of_gods:
@@ -236,8 +237,8 @@ card_grave_wardens_tome:
       You may exile two cards, or a black card, from your hand instead of paying this spell's mana cost.
       Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
+    artist: "pitchcha"
     number: 85
 
 card_gravelord_nito:
@@ -484,7 +485,7 @@ card_wake_the_hollows:
     sub: ""
     rarity: "Uncommon"
     rules_text: "Exile two target creature cards from your graveyard. Create four 1/1 colorless Hollow creature tokens onto the battlefield."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "In the land of ancient lords, not even death is rest."
+    artwork_url: "https://i.ibb.co/ccQgrcDz/wake-the-hollows-aland1w-resize.jpg"
+    artist: "aland1w"
     number: 100

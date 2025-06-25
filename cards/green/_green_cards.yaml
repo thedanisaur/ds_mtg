@@ -318,9 +318,9 @@ card_mimic:
     rules_text: |
       Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
       Whenever ~ is turned face up target creature blocking or blocked by ~ gets -4/-4 until end of turn.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The chest did not creak. It exhaled."
+    artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
+    artist: "d&d"
     number: 148
     power: 3
     toughness: 2
@@ -422,16 +422,16 @@ card_shaded_woods:
 
 card_souls_of_the_living:
   front:
-    name: "Souls of the living"
+    name: "Souls of the Living"
     cost: "G"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: "Common"
     rules_text: "Whenever a creature enters the battlefield under your control, you get one soul."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
+    artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
+    artist: "TimforShadeDigital"
     number: 155
 
 card_the_serpent_king:
@@ -469,8 +469,8 @@ card_undead_aberration:
     artwork_url: ""
     artist: ""
     number: 157
-    power: 3
-    toughness: 3
+    power: 4
+    toughness: 4
 
 card_warcry:
   front:

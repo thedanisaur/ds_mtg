@@ -6,10 +6,11 @@ card_adventuring_sorcerer:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Common"
-    rules_text: "When ~ enters the battlefield, look at the top four cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order."
+    rules_text: |
+      When ~ enters the battlefield, look at the top four cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
     flavor_text: "A loner who left formal academia to pursue further research."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/elcryp7ostrike/art/Arcane-Warden-Shadows-of-the-Broken-City-1123425860"
+    artist: "elcryp7ostrike"
     number: 41
     power: 2
     toughness: 3
@@ -22,10 +23,11 @@ card_amana_priestess:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rules_text: "{X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability."
+    rules_text: |
+      {X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability.
     flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/k2hPhL3H/amana-priestess-cubehero-resize.jpg"
+    artist: "cubehero"
     number: 42
     power: 0
     toughness: 2

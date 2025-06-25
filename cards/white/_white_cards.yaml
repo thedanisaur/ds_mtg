@@ -45,11 +45,12 @@ card_batwing_demon:
     sub: "Imp Demon"
     rarity: "Common"
     rules_text: |
+      Flying
       {T}: Tap target creature.
       {R}, {T}: Deal 1 damage to target attacking or blocking creature.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/SDGZgXZR/batwing-demon-fromsoft-oil.jpg"
+    artist: "fromsoft"
     number: 12
     power: 1
     toughness: 1
@@ -65,9 +66,9 @@ card_blessed_cleric:
     rules_text: |
       When ~ enters the battlefield you gain 2 life.
       {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "There are those who still believe the fire listens. They know...it often answers."
+    artwork_url: "https://www.deviantart.com/kanenein/art/Cleric-1202027123"
+    artist: "kanenein"
     number: 13
     power: 1
     toughness: 1
@@ -81,9 +82,9 @@ card_corrupted_hollow:
     sub: "Hollow"
     rarity: "Common"
     rules_text: "If a source would deal exactly 1 damage to ~ prevent that damage and transform ~. (If a source would deal more than 1 damage to this creature, it is destroyed.)"
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "With the fire fading, and the spreading pus of man tainting the castle, the Grand Archives closed its doors for good."
+    artwork_url: "https://i.ibb.co/pvWGfSjB/corrupted-hollow-allrichart-front-resize.jpg"
+    artist: "allrichart"
     number: 14
     power: 1
     toughness: 1
@@ -95,10 +96,11 @@ card_corrupted_hollow:
     type: "Creature"
     sub: "Hollow Ooze"
     rarity: ""
-    rules_text: "Whenever ~ deals combat damage to a creature put three bleed counters on that creature. That creature gains \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\""
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: |
+      Whenever ~ deals combat damage to a creature put three bleed counters on that creature. That creature gains "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it."
+    flavor_text: "Corrupted forms of Humanity burst from the Abyss, flooding the Kingdom of Lothric. "
+    artwork_url: "https://i.ibb.co/8nM0ZSPB/corrupted-hollow-back-resize.jpg"
+    artist: "fromsoft"
     number: 14
     power: 3
     toughness: 2
@@ -114,9 +116,9 @@ card_disenchant:
     sub: ""
     rarity: "Common"
     rules_text: "Destroy target artifact or enchantment."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "There are sorceries which are not meant to pierce flesh, but to demand peace."
+    artwork_url: "https://api.deepai.org/job-view-file/5107c913-ee3a-4477-9c1e-24306f2b22cb/outputs/output.jpg"
+    artist: "deepai"
     number: 15
 
 card_emit_force:
@@ -129,24 +131,23 @@ card_emit_force:
     rarity: "Rare"
     rules_text: "Target player puts all attacking creatures he or she controls on the bottom of their owner's library. You gain one life for each creature that left the battlefield this way."
     flavor_text: "Throughout history, there have been many examples of imitative miracles. When discerning original from imitator is nigh impossible, which is which hardly matters."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/brandon-ellis/art/Siesmic-Blast-936457748"
+    artist: "brandon ellis"
     number: 16
-    power: ""
-    toughness: ""
 
 card_flexile_sentry:
   front:
     name: "Flexile Sentry"
     cost: "2W"
     super: ""
-    type: ""
-    sub: ""
+    type: "Creature"
+    sub: "Mutant Hollow"
     rarity: "Common"
-    rules_text: "Double Strike."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: |
+      Double Strike
+    flavor_text: "Two merciless creatures sharing a single malformed body, bound together in perpetual motion intent to punish the Undead. "
+    artwork_url: "https://www.deviantart.com/peterlof/art/Flexile-Sentry-Dark-Souls-2-883074608"
+    artist: "peterlof"
     number: 17
     power: 2
     toughness: 2
@@ -159,13 +160,12 @@ card_great_magic_barrier:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Prevent all damage that would be dealt to you, creatures, and planeswalkers you control this turn."
-    flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
-    artwork_url: ""
+    rules_text: |
+      Prevent all damage that would be dealt to you, creatures, and planeswalkers you control this turn.
+    flavor_text: "Born out of hatred for magic this powerful spell now exists as a relic of bygone wars, its use has faded into obscurity."
+    artwork_url: "https://i.pinimg.com/736x/3e/0c/20/3e0c2004819704c449821877cbc7d73e.jpg"
     artist: ""
     number: 18
-    power: ""
-    toughness: ""
 
 card_heavenly_thunder:
   front:
@@ -175,13 +175,12 @@ card_heavenly_thunder:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "For each attacking and blocking creature on the battlefield without Indestructable flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way."
+    rules_text: |
+      For each attacking and blocking creature on the battlefield without Indestructable flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
     flavor_text: "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/nanakoac/art/Krasnoyarsk-943814776"
+    artist: "nanakoac"
     number: 19
-    power: ""
-    toughness: ""
 
 card_infested_corpse:
   front:
@@ -193,10 +192,10 @@ card_infested_corpse:
     rarity: "Common"
     rules_text: |
       Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      Whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has  \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+      Whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
+    artist: "cucdn"
     number: 20
     power: 1
     toughness: 1
@@ -212,9 +211,9 @@ card_insolent_spirits:
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Equip costs you pay cost {1} less.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A party who long ago attempted to conquer the Undead Crypt. For this sin their deaths have been postponed, so they may serve as crypt sentries."
+    artwork_url: "https://i.ibb.co/60fvgpZ7/insolent-spirits-datguy13-resize.jpg"
+    artist: "datguy13"
     number: 21
     power: 4
     toughness: 4
@@ -278,7 +277,7 @@ card_mirrah_warrior:
     rules_text: |
       When ~ enters the battlefield you may pay one soul. If you do, target creature you control gains first strike until end of turn.
       Players can't search libraries.
-    flavor_text: ""
+    flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: ""
     artist: ""
     number: 25
@@ -297,8 +296,8 @@ card_new_londo_shade:
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever ~ deals damage you get one soul.
     flavor_text: "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/3YLL1qTM/londo-ghost-concept-art-header-full-resize.jpg"
+    artist: "fromsoft"
     number: 26
     power: 3
     toughness: 1
@@ -499,9 +498,9 @@ card_village_blacksmith:
     rules_text: |
       If you control 3 or more Equipment, you may pay {0} instead of paying an equip cost.
       Equipped creatures you control get +1/+1.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Prithee, be careful"
+    artwork_url: "https://i.ibb.co/wZvTSTgD/village-blacksmith-john-delvin-resize.jpg"
+    artist: "John Devlin"
     number: 37
     power: 1
     toughness: 1
