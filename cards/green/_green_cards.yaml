@@ -7,9 +7,9 @@ card_abyss_watchers:
     sub: "Knight Lord"
     rarity: "Mythic"
     rules_text: |
-      When ~ enters the battlefield, you get two souls. Place a fate counter on ~, then if it has 5 or more fate counters on it exile it.
+      When ~ enters the battlefield, you get two souls and place a fate counter on it, then if it has 5 or more fate counters on it exile it.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
-      Fate counters remain on ~ as it moves to any zone other than a player's hand or library.
+      Fate counters remain on ~ unless it moves to a player's hand or library.
     flavor_text: ""
     artist_url: "https://static.zerochan.net/Abyss.Watchers.full.2137078.jpg"
     artist: "jlien"
@@ -46,12 +46,10 @@ card_alluring_skull:
     sub: ""
     rarity: "Common"
     rules_text: "Target creature you control deals damage equal to it's power to target attacking or blocking creature an opponent controls."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A skull with meekly lingering souls. Hollows are lured by it, and drawn toward it, often completely disregarding their own safety."
+    artwork_url: "https://www.deviantart.com/jesar/art/Desktopography-2014-Disposition-484475345"
+    artist: "jesar"
     number: 132
-    power: ""
-    toughness: ""
 
 card_amana_aberration:
   front:
@@ -98,10 +96,10 @@ card_corrode:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Destroy target artifact or enchantment. Remove up to two souls from that permanent's controller."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: "Destroy target artifact. Remove two souls from that permanent's controller and you get two souls."
+    flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
+    artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
+    artist: "anikoo"
     number: 135
 
 card_creeping_corrosion:
@@ -114,8 +112,8 @@ card_creeping_corrosion:
     rarity: "Uncommon"
     rules_text: "Destroy all artifacts."
     flavor_text: "One day, all you see will become dust."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
+    artist: "thegoblincoach"
     number: 136
 
 card_crystal_lizard:
@@ -127,9 +125,9 @@ card_crystal_lizard:
     sub: "Lizard"
     rarity: "Common"
     rules_text: "When ~ enters the battlefield return a creature you control to its owner's hand."
-    flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?"
-    artwork_url: ""
-    artist: ""
+    flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
+    artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
+    artist: "jaqenart"
     number: 137
     power: 4
     toughness: 5
@@ -143,12 +141,12 @@ card_dukes_dear_freja:
     sub: "Giant Spider Lord"
     rarity: "Uncommon"
     rules_text: |
-      Reach.
-      {B}{G}: ~ gains deathtouch until end of turn.
+      Reach
+      {B}{B}: ~ gains deathtouch until end of turn.
       {1}{G}: Until end of turn whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
+    artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
+    artist: "tatarskiskandal"
     number: 138
     power: 3
     toughness: 5
@@ -162,11 +160,12 @@ card_ent:
     sub: "Treefolk"
     rarity: "Common"
     rules_text: |
-      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       Whenever ~ is turned face up put two +1/+1 counters on it.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: |
+      "There's something odd about the trees in this garden" -- Lordran Patrol
+    artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
+    artist: "legen"
     number: 139
     power: 3
     toughness: 3
@@ -186,8 +185,6 @@ card_estus:
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
     number: 140
-    power: ""
-    toughness: ""
 
 card_expected_companions:
   front:
@@ -197,10 +194,12 @@ card_expected_companions:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
-    rules_text: "~ can't be countered. When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard."
+    rules_text: |
+      ~ can't be countered.
+      When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
     flavor_text: "I see, you've done this before."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
+    artist: "sanekyle"
     number: 141
     power: 2
     toughness: 3
@@ -213,10 +212,11 @@ card_festering_goblin:
     type: "Creature"
     sub: "Goblin"
     rarity: "Common"
-    rules_text: "Whenever ~ deals combat damage to a creature put a bleed counter on that creature. (As long as a creature has a bleed counter on it that creature has  \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")"
+    rules_text: |
+      Whenever ~ deals combat damage to a creature put a bleed counter on that creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
+    artist: "daveallsop"
     number: 142
     power: 2
     toughness: 2
@@ -232,9 +232,9 @@ card_gaping_dragon:
     rules_text: |
       Deathtouch
       Whenever ~ deals damage to a creature destroy each equipment attached to that creature.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Consumed by a ravenous and eternal hunger, the Gaping Dragon is a tragic perversion of its noble ancestors."
+    artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
+    artist: "luffie"
     number: 143
     power: 4
     toughness: 6
@@ -249,8 +249,8 @@ card_hesitant_surveyor:
     rarity: "Common"
     rules_text: "When ~ enters the battlefield put the top four cards of your library into your graveyard. Then return a land card from your graveyard to the battlefield."
     flavor_text: "Let me grab my binoculars."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/adzerak/art/Close-The-Distance-396081114"
+    artist: "adzerak"
     number: 144
     power: 1
     toughness: 1
@@ -264,9 +264,9 @@ card_hollow_knight:
     sub: "Hollow Knight"
     rarity: "Common"
     rules_text: "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
+    artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
+    artist: "tithendar"
     number: 145
     power: 1
     toughness: 1
@@ -301,11 +301,11 @@ card_milfanito:
       Nonhollow creature spells you control can't be countered.
       {T}: Add {G} to your mana pool.
     flavor_text: "We hear a song in the distance."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
+    artist: "derkna"
     number: 147
     power: 0
-    toughness: 1
+    toughness: 2
 
 card_mimic:
   front:
@@ -333,10 +333,10 @@ card_pagan_tree:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rules_text: "Tap three untapped creatures you control: Green creature spells you control cost {G}{G} less to cast."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: "Tap two untapped creatures you control: Green spells you control cost {G}{G} less to cast."
+    flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
+    artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
+    artist: "Glenn Porter"
     number: 149
 
 card_parasite_spider:
@@ -348,11 +348,12 @@ card_parasite_spider:
     sub: "Spider"
     rarity: "Common"
     rules_text: |
-      Reach.
-      Whenever ~ deals damage to a creature that creature doesn't untap during it's controller's next untap step.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+      Reach
+      ~ has deathtouch if you control three or more spiders.
+      Whenever ~ deals damage you get one soul.
+    flavor_text: "Tseldora, once a prosperous village, now overrun by a plague of spiders."
+    artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
+    artist: "drake1024"
     number: 150
     power: 2
     toughness: 3
@@ -390,18 +391,18 @@ card_seek_embers:
     artist: "pitchcha"
     number: 152
 
-card_sentinal:
+card_sentinel:
   front:
-    name: "Sentinal"
-    cost: "4GG"
+    name: "Sentinel of the Tower of Flame"
+    cost: "3GG"
     super: ""
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "{G},{T}: ~ fights another target creature. (Each deals damage equal to its power to the other.). Use this ability only any time you could cast a sorcery."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: "{G}, {T}: ~ fights another target creature. (Each deals damage equal to its power to the other.). Use this ability only any time you could cast a sorcery."
+    flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
+    artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
+    artist: "legendary memory"
     number: 153
     power: 5
     toughness: 5
@@ -415,9 +416,9 @@ card_shaded_woods:
     sub: ""
     rarity: "Common"
     rules_text: "Search your library for two basic Forest cards and put them onto the battlefield tapped. You may pay four souls. If you do, untap those lands."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
+    artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
+    artist: "emkun"
     number: 154
 
 card_souls_of_the_living:
@@ -443,13 +444,13 @@ card_the_serpent_king:
     sub: "Hydra"
     rarity: "Uncommon"
     rules_text: |
-      Reach. Vigilance.
+      Reach, vigilance
       ~ can't be blocked except by three or more creatures.
       Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      When ~ is turned face up, it deals damage equal to its power to up to two other target creatures you don't control. Those creatures deal damage equal to their power to ~.
+      When ~ is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/PsxNMdhH/the-serpent-king-sandara-recolor.jpg"
+    artist: "sandara"
     number: 156
     power: 9
     toughness: 9
@@ -481,9 +482,9 @@ card_warcry:
     sub: ""
     rarity: "Common"
     rules_text: "Target creature gets +3/+3 until end of turn. Untap it. Add {G} to your mana pool."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "I am Solaire of Astora, an adherent of the Lord of Sunlight!"
+    artwork_url: "https://www.deviantart.com/swoldier76/art/Solaire-755239878"
+    artist: "swoldier76"
     number: 158
 
 card_warp_the_land:
@@ -494,8 +495,10 @@ card_warp_the_land:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rules_text: "Search your library for a Bonfire card. Put that card into your hand, then shuffle your library. You get one soul."
-    flavor_text: "As the fire fades, stones become ash and cathedrals sink into dust. But,  Ashen one these are not the ruins of the world—they are what's left of your memories."
+    rules_text: |
+      You may discard a land card and pay three souls rather than pay this spell's mana cost.
+      Search your library for a Bonfire card and put that card into your hand. If you cast this spell without paying it's mana cost put that Bonfire onto the battlefield. Shuffle your library.
+    flavor_text: "Ashen one these are not the ruins of the world—they are what's left of your memories."
     artwork_url: "https://www.deviantart.com/karmichorror/art/Swallowed-Realms-The-Black-Hole-s-Lament-1031568713"
     artist: "karmichorror"
     number: 159
@@ -503,15 +506,15 @@ card_warp_the_land:
 card_wistful_naivete:
   front:
     name: "Wistful Naivete"
-    cost: "2G"
+    cost: "G"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
     rules_text: |
       Enchant player
-      Enchanted player has \"If an opponent turning a creature face up would cause an ability to trigger, that ability triggers a second time.\"
+      Enchanted player has "If an opponent turning a creature face up would cause an ability to trigger, that ability triggers a second time."
     flavor_text: "Sometimes the players just don't catch on."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
+    artist: "thecursedbosskiller"
     number: 160

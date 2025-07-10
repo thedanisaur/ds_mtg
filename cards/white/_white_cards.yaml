@@ -176,9 +176,9 @@ card_heavenly_thunder:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      For each attacking and blocking creature on the battlefield without Indestructable flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
+      For each attacking and blocking creature on the battlefield without Indestructible flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
     flavor_text: "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes."
-    artwork_url: "https://www.deviantart.com/nanakoac/art/Krasnoyarsk-943814776"
+    artwork_url: "https://i.ibb.co/RkPTPX1p/heavenly-thunder-nanakoac-dflx854-pre.jpg"
     artist: "nanakoac"
     number: 19
 
@@ -226,10 +226,10 @@ card_karmic_justice:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Choose a creature you control. Until end of turn if that creature would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller."
+    rules_text: "Choose a creature or planeswalker you control. Until end of turn if that permanent would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller."
     flavor_text: "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
+    artist: "cobaltplasma"
     number: 22
 
 card_knights_of_gwynevere:
@@ -241,12 +241,28 @@ card_knights_of_gwynevere:
     sub: "Knight"
     rarity: "Common"
     rules_text: "Lifelink. First Strike."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "An order long scattered, their golden armor dulled and their miracles fading. Yet still they fight for the image of a goddess who abandoned the world."
+    artwork_url: "https://img0.reactor.cc/pics/post/Silver-Knight-%28DS%29-DS-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B8-Dark-Souls-miso_kiccck-6770780.jpeg"
+    artist: "miso kiccck"
     number: 23
     power: 2
     toughness: 2
+
+card_magic_barrier:
+  front:
+    name: "Magic Barrier"
+    cost: "1W"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      When you cast this spell you may pay {W} if you do draw a card.
+      Return target non-creature spell to its owner's hand. You get one soul.
+    flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
+    artwork_url: "https://i.ibb.co/kVCszZpr/magic-barrier-eluria14.jpg"
+    artist: "eluria14"
+    number: 24
 
 card_miracle_of_the_way_of_white:
   front:
@@ -257,30 +273,29 @@ card_miracle_of_the_way_of_white:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      Exile target creature. It's controller gains souls equal to that creatures power.
-      At the beginning of your upkeep you may pay {5}{W}. If you do, return ~ from your graveyard to your hand.
+      As an additional cost to cast this spell pay one soul or {2}.
+      Exile target creature. It's controller gains souls equal to that creature's power.
+      At the beginning of your upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
-    artwork_url: ""
-    artist: ""
-    number: 24
-    power: ""
-    toughness: ""
+    artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
+    artist: "dnd"
+    number: 25
 
 card_mirrah_warrior:
   front:
     name: "Mirrah Warrior"
-    cost: "2W"
+    cost: "1W"
     super: ""
     type: "Creature"
     sub: "Human"
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield you may pay one soul. If you do, target creature you control gains first strike until end of turn.
+      When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.
       Players can't search libraries.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
-    artwork_url: ""
-    artist: ""
-    number: 25
+    artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
+    artist: "bashfulrayarts"
+    number: 26
     power: 2
     toughness: 1
 
@@ -298,7 +313,7 @@ card_new_londo_shade:
     flavor_text: "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city."
     artwork_url: "https://i.ibb.co/3YLL1qTM/londo-ghost-concept-art-header-full-resize.jpg"
     artist: "fromsoft"
-    number: 26
+    number: 27
     power: 3
     toughness: 1
 
@@ -314,7 +329,7 @@ card_petrified_egg:
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
     artist: "deepai"
-    number: 27
+    number: 28
 
 card_reforge:
   front:
@@ -324,11 +339,11 @@ card_reforge:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
-    rules_text: "Return target Artifact or Enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 28
+    rules_text: "Return target Artifact or Enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead."
+    flavor_text: "Reforge mighty blade... with mighty soul."
+    artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
+    artist: "enthing"
+    number: 29
 
 card_resting_merchant:
   front:
@@ -341,30 +356,12 @@ card_resting_merchant:
     rules_text: |
       You may cast ~ at any time you could cast and instant.
       When ~ enters the battlefield, return a creature you control to its owner's hand.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 29
+    flavor_text: "I may be a petty thief, but I do hope I can be of help."
+    artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
+    artist: "pirozhochek"
+    number: 30
     power: 2
     toughness: 2
-
-card_magic_barrier:
-  front:
-    name: "Magic Barrier"
-    cost: "1W"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Common"
-    rules_text: |
-      When you cast this spell you may pay {W} if you do draw a card.
-      Return target non-creature spell to its owner's hand. You get one soul.
-    flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
-    artwork_url: ""
-    artist: ""
-    number: 30
-    power: ""
-    toughness: ""
 
 card_siegmeyer_of_catarina:
   front:
@@ -379,8 +376,8 @@ card_siegmeyer_of_catarina:
       As long as ~ is equipped it gets +1/+1.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Excuse me. I must have dozed off."
-    artwork_url: "https://i.ibb.co/5g3HcQLL/siegmeyer-of-catarina-front-deadinsidegraphics-resize.jpg"
-    artist: "deadinsidegraphics"
+    artwork_url: "https://i.ibb.co/mCRqzTGZ/siegmeyer-of-catarina-grecia-frangos.jpg"
+    artist: "grecia frangos"
     number: 31
     power: 3
     toughness: 3
@@ -433,11 +430,9 @@ card_sunlight_blade:
       Enchant Equipment
       Enchanted equipment gains "Equipped creature gets +1/+0 and has first strike."
     flavor_text: "The sun grants life to all things upon the earth, even if the worshipers of sunlight no longer bless the surface with their presence."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/jakubjagoda/art/By-The-Light-1050885910"
+    artist: "jakubjagoda"
     number: 33
-    power: ""
-    toughness: ""
 
 card_swollen_mongrel:
   front:
@@ -451,8 +446,8 @@ card_swollen_mongrel:
       Whenever ~ deals damage to a creature, prevent that damage. If damage is prevented this way, put a bleed counter on that creature for each damage prevented.
       {W}{U}, {T}: White and Blue creatures you control get +1/+1 until end of turn.
     flavor_text: "A mutated canine born from the experiments conducted by Lord Aldia."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/cKpwF0FV/swollen-mongrel-eemeling-resize.jpg"
+    artist: "eemeling"
     number: 34
     power: 4
     toughness: 4
@@ -467,11 +462,9 @@ card_tears_of_denial:
     rarity: "Common"
     rules_text: "You get one soul. Target creature gains indestructible until end of turn."
     flavor_text: "Intended to grant the dying a few moments for a final farewell. Tears are shed for the sake of the living, more so than the deceased."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1311a2a-d197-499c-a9be-ca8af01bdd4e/dfojv9o-c85dc12a-d3d3-41ec-b320-cc8837c4c8d8.jpg/v1/fit/w_450,h_450,q_70,strp/3_by_warm_tail_dfojv9o-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJz"
+    artist: "warmtail"
     number: 35
-    power: ""
-    toughness: ""
 
 card_transient_curse:
   front:
@@ -482,9 +475,9 @@ card_transient_curse:
     sub: ""
     rarity: "Common"
     rules_text: "You get one soul. Put a shadow counter on target creature. (Creatures with shadow can block or be blocked only by creatures with shadow.)"
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The only way to fight back against ghosts, who are cursed beings, is to become cursed oneself."
+    artwork_url: "https://i.ibb.co/5xk5hHb9/transient-curse-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 36
 
 card_village_blacksmith:
@@ -513,10 +506,10 @@ card_vow_of_silence:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack this turn."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack and loyalty abilities cannot be activated this turn."
+    flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."
+    artwork_url: "https://www.deviantart.com/alaiaorax/art/Silence-your-mind-655938148"
+    artist: "alaiaorax"
     number: 38
 
 card_weary_travelers:
@@ -531,8 +524,8 @@ card_weary_travelers:
       Create a 1/2 black Human Ally creature token. It has deathtouch.
       Create a 2/1 white Human Ally creature token. It has lifelink.
     flavor_text: "Are you too in search of the Lords of Cinder?"
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/whJnwk7J/weary-travlers-g-tea-resize.jpg"
+    artist: "g tea"
     number: 39
 
 card_wight:

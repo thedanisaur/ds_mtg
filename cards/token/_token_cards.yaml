@@ -8,8 +8,8 @@ card_assassin:
     rarity: "Uncommon"
     rules_text: "Whenever this creature deals combat damage to a player, that player loses the game."
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/d4sG5q1Y/assassin-jansteinky-resize.jpg"
+    artist: "jansteinky"
     number: 1
     power: 1
     toughness: 1
@@ -22,10 +22,10 @@ card_chaos_bug:
     type: "Creature"
     sub: "Insect"
     rarity: "Rare"
-    rules_text: "Whenever this creature deals combat damage to a player, that player loses the game."
+    rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/Hfk9NgH6/chaos-bug-reptilloyd-recolor.jpg"
+    artist: "reptilloyd"
     number: 2
     power: 0
     toughness: 1
@@ -40,8 +40,8 @@ card_hollow:
     rarity: "Common"
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/N2P2NQdv/hollow-hamsta180-resize.jpg"
+    artist: "hamsta180"
     number: 3
     power: 1
     toughness: 1
@@ -56,8 +56,8 @@ card_hollow_knight:
     rarity: "Common"
     rules_text: "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn."
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/n8jxhZsR/hollow-knight-lifelessmech.png"
+    artist: "lifelessmech"
     number: 4
     power: 1
     toughness: 1
@@ -72,15 +72,15 @@ card_human:
     rarity: "Common"
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/9mPgpFXt/human-ethicallychallenged.jpg"
+    artist: "ethicallychallenged"
     number: 5
     power: 1
     toughness: 1
 
-card_black_human_ally:
+card_human_ally_black:
   front:
-    name: "Human"
+    name: "Human Ally"
     cost: "B"
     super: ""
     type: "Creature"
@@ -88,15 +88,15 @@ card_black_human_ally:
     rarity: "Common"
     rules_text: "Deathtouch"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/gLkJnft9/human-ally-black-trashbagartist-resize.jpg"
+    artist: "trashbagartist"
     number: 6
     power: 1
     toughness: 2
 
-card_white_human_ally:
+card_human_ally_white:
   front:
-    name: "Human"
+    name: "Human Ally"
     cost: "W"
     super: ""
     type: "Creature"
@@ -104,8 +104,8 @@ card_white_human_ally:
     rarity: "Common"
     rules_text: "Lifelink"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/5hGfXc2R/human-ally-white-martianzombie-resize.jpg"
+    artist: "martianzombie"
     number: 7
     power: 2
     toughness: 1
@@ -118,10 +118,10 @@ card_ornstein:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "First Strike"
+    rules_text: "First strike"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/Y46427v2/ornstein-evs-eme.jpg"
+    artist: "evs eme"
     number: 8
     power: 3
     toughness: 2
@@ -137,8 +137,8 @@ card_phantom:
     rules_text: |
       Haste
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/4g5p8ykc/phantom-nikulina-helena-resize.jpg"
+    artist: "helena nikulina"
     number: 9
     power: 3
     toughness: 3
@@ -154,8 +154,8 @@ card_red_phantom:
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/HTmbD274/red-phantom-karmichorror-recolor.jpg"
+    artist: "karmichorror"
     number: 10
     power: 3
     toughness: 3
@@ -168,12 +168,10 @@ card_skeleton:
     type: "Creature"
     sub: "Skeleton"
     rarity: "Common"
-    rules_text: |
-      {T}: Tap target creature.
-      {R}, {T}: Deal 1 damage to target attacking or blocking creature.
+    rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/NgfcyXnr/skeleton-harryosborn-recolor.jpg"
+    artist: "harryosborn"
     number: 11
     power: 1
     toughness: 1
@@ -188,8 +186,8 @@ card_smough:
     rarity: "Common"
     rules_text: "Vigilance"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/sJ9qZVmy/smough-juan-acosta.jpg"
+    artist: "juan acosta"
     number: 12
     power: 3
     toughness: 3
@@ -204,8 +202,8 @@ card_treasure:
     rarity: "Uncommon"
     rules_text: "{T}, Sacrifice ~: Add one mana of any color."
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/PzYCvVbK/treasure-miggs69.jpg"
+    artist: "miggs69"
     number: 13
     power: 1
     toughness: 1
@@ -220,8 +218,8 @@ card_wizard:
     rarity: "Common"
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/3mR3x0WJ/wizard-razorb.jpg"
+    artist: "razorb"
     number: 14
     power: 1
     toughness: 1
@@ -236,8 +234,8 @@ card_zombie_jackal:
     rarity: "Common"
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/Y7fzbkK8/zombie-jackal-dark-sheyn-resize.jpg"
+    artist: "dark sheyn"
     number: 15
     power: 2
     toughness: 2

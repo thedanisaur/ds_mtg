@@ -1,7 +1,7 @@
 card_acid_surge:
   front:
     name: "Acid Surge"
-    cost: "XR"
+    cost: "XXR"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -40,8 +40,8 @@ card_carthus_beacon:
     rarity: "Common"
     rules_text: "Target creature gains double strike until end of turn."
     flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
+    artist: "arturtreffner"
     number: 103
 
 card_cathedral_evangelist:
@@ -55,7 +55,7 @@ card_cathedral_evangelist:
     rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
     flavor_text: "EEHEEE!"
     artwork_url: ""
-    artist: ""
+    artist: "therikaro114"
     number: 104
     power: 3
     toughness: 2
@@ -99,11 +99,12 @@ card_cragspider:
     sub: "Spider"
     rarity: "Common"
     rules_text: |
+      Reach
       Whenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of turn.
       {R}: This creature gets +1/+0 until end of turn.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "She crawls in the filth beneath the world, her limbs aflame, her mind long extinguished."
+    artwork_url: "https://i.ibb.co/jZQmWj14/crag-spider-fromsoft.jpg"
+    artist: "fromsoft"
     number: 107
     power: 2
     toughness: 4
@@ -117,11 +118,11 @@ card_desert_pyromancer:
     sub: "Monk"
     rarity: "Common"
     rules_text: |
-      Haste.
-      {2}{R}, {T}: ~ deals 2 damage to target creature or player
+      Haste
+      {1}{R}, {T}: ~ deals 2 damage to any target.
     flavor_text: "The flame reveals all, and obscures all."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
+    artist: "hachiyuki"
     number: 108
     power: 2
     toughness: 1
@@ -135,11 +136,11 @@ card_ember_gargoyle:
     sub: "Gargoyle"
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield may discard a card. If you do draw a card.
+      When ~ enters the battlefield you may discard a card. If you do draw a card.
       ~ can't attack unless an opponent controls a creature.
     flavor_text: "Watching, waiting."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/zHt09VNy/ember-gargoyle-6kart-recolor.jpg"
+    artist: "6kart"
     number: 109
     power: 3
     toughness: 4
@@ -153,11 +154,11 @@ card_fire_orb:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      Deal 1 damage to any target. You get one soul.
+      ~ deals 1 damage to any target. You get one soul.
       At the beginning of your upkeep you may pay {1}{R}. If you do, return ~ from your graveyard to your hand.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The flame rewards those with a thirst of power."
+    artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
+    artist: "pizza"
     number: 110
 
 card_fire_surge:
@@ -165,13 +166,15 @@ card_fire_surge:
     name: "Fire Surge"
     cost: "R"
     super: ""
-    type: "Intant"
+    type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "You may pay two souls rather than pay this spell's mana cost. ~ Until end of turn, target creature gains \"{R}: This creature gets +1/+0 until end of turn.\""
+    rules_text: |
+      You may pay two souls rather than pay this spell's mana cost.
+      Until end of turn, target creature gains "{R}: This creature gets +1/+0 until end of turn."
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
+    artist: "jasontn"
     number: 111
 
 card_firekeeper:
@@ -199,11 +202,11 @@ card_firesage_demon:
     sub: "Demon"
     rarity: "Common"
     rules_text: |
-      Haste.
-      When ~ enters the battlefield, it deals 1 damage to each creature other creature. Tap those creatures.
+      Haste
+      When ~ enters the battlefield, it deals 1 damage to each creature you don't control. Tap those creatures.
     flavor_text: "The Demon Firesage was the first demon, and the last master of the original fire arts."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/zHTd0s3n/firesage-demon-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 113
     power: 6
     toughness: 4
@@ -218,11 +221,11 @@ card_flame_whip:
     rarity: "Uncommon"
     rules_text: |
       Enchant creature
-      Enchanted creature gains \"{1R}, {T}, Pay 2 souls: Deal 4 damage divided as you choose among one, two, three, or four creatures and or players.\"
+      Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Deal 4 damage divided as you choose among one, two, three, or four targets."
       When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.
-    flavor_text: "Pyromancy is at once the knowledge of controlling flame, and the knowledge that control is impossible."
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
+    artist: "asfodelo"
     number: 114
 
 card_flamewielding_undead:
@@ -236,9 +239,9 @@ card_flamewielding_undead:
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       {T}: Deal X damage to target creature, where X is ~'s power.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Pyromancy is at once the knowledge of controlling flame, and the knowledge that control is impossible."
+    artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
+    artist: "full maverick"
     number: 115
     power: 0
     toughness: 1
@@ -253,8 +256,8 @@ card_forbidden_sun:
     rarity: "Rare"
     rules_text: "~ deals 5 damage to target player and each creature and planeswalker he or she controls."
     flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 116
 
 card_hellkite_wyvern:
@@ -266,14 +269,14 @@ card_hellkite_wyvern:
     sub: "Drake"
     rarity: "Rare"
     rules_text: |
-      Flying. First Strike.
+      Flying, first strike
       When ~ leaves the battlefield search your library for an equipment card and put it onto the battlefield.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
+    artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
+    artist: "a. tarzia"
     number: 117
-    power: 4
-    toughness: 4
+    power: 3
+    toughness: 3
 
 card_hollow_infantry:
   front:
@@ -284,9 +287,9 @@ card_hollow_infantry:
     sub: ""
     rarity: "Common"
     rules_text: "Create two 1/1 colorless Hollow creature tokens onto the battlefield. Those creatures gain haste until end of turn."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
+    artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
+    artist: "stepalex"
     number: 118
 
 card_ignite_steel:
@@ -299,10 +302,10 @@ card_ignite_steel:
     rarity: "Uncommon"
     rules_text: |
       Enchant Equipment
-      Enchanted equipment gains \"Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\"
+      Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
     flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
+    artist: "shadoecrewsart"
     number: 119
 
 card_immolation:
@@ -328,11 +331,12 @@ card_pesky_mosquito:
     sub: "Insect"
     rarity: "Common"
     rules_text: |
-      Flying.
-      ~ has deathtouch as long as you control a green permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
+      Flying
+      ~ has +1/+0 as long as you control a green permanent.
+      ~ has deathtouch as long as you control a black permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
     flavor_text: "Where do they come from?"
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/gMk9RFnW/pesky-mosquito-teyoliia.jpg"
+    artist: "teyoliia"
     number: 121
     power: 1
     toughness: 2
@@ -347,11 +351,11 @@ card_profaned_flame:
     rarity: "Common"
     rules_text: |
       Choose one -
-      Deal 5 damage to target creature.
-      Deal 5 damage to target player or planeswalker. ~ deals 2 damage to you.
-    flavor_text: "The Profaned Capital was consumed by fire after Yhorm the Giant became a Lord of Cinder. The fire, born of the sky, is said to have incinerated naught but human flesh."
-    artwork_url: ""
-    artist: ""
+      Deal 4 damage to target creature.
+      Deal 4 damage to target player or planeswalker. ~ deals 2 damage to you.
+    flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
+    artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
+    artist: "fantasyworldonline"
     number: 122
 
 card_profuse_sweat:
@@ -362,10 +366,13 @@ card_profuse_sweat:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Until end of turn creatures you control can't have bleed counters placed on them."
+    rules_text: |
+      Attach up to one target curse to target player.
+      Until end of turn creatures you control can't have bleed counters placed on them.
+      If a red source you don't control would deal damage this turn, that souce deals one less damage.
     flavor_text: "The yellowish sweat cures all kinds of ailments."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
+    artist: "iamsointense"
     number: 123
 
 card_rapport:
@@ -378,8 +385,8 @@ card_rapport:
     rarity: "Common"
     rules_text: "Gain control of target nonhollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is a Human. If that creature would be sacrificed this way, you get one soul."
     flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
+    artist: "kaido7794"
     number: 124
 
 card_ringfinger_leonhard:
@@ -391,7 +398,7 @@ card_ringfinger_leonhard:
     sub: "Human"
     rarity: "Mythic"
     rules_text: |
-      Haste.
+      Haste
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Unkindled are we...then these red eyes are for you."
     artwork_url: "https://i.ibb.co/rRfQmLTW/ringfinger-leonhard-front-aj-saitama-japan-resized.jpg"
@@ -433,8 +440,8 @@ card_smoldering_rotten_flesh:
       Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
       When ~ is turned face up it deals 3 damage to target creature.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/7JgFR7KW/smouldering-rotten-flesh-necrodevourer-resize.jpg"
+    artist: "necrodevourer"
     number: 126
     power: 1
     toughness: 5
@@ -450,9 +457,10 @@ card_sunlight_maggot:
     rules_text: |
       When ~ enters or leaves the battlefield you get one soul.
       {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
-    flavor_text: "\"You vermin, you dare take my friend!?\" — Chosen Undead"
-    artwork_url: ""
-    artist: ""
+    flavor_text: |
+      "You vermin, you dare take my friend!?" — Chosen Undead
+    artwork_url: "https://i.ibb.co/rfTQbjfC/sunlight-maggot-kingumbra.jpg"
+    artist: "kingumbra"
     number: 127
     power: 0
     toughness: 1
@@ -467,8 +475,8 @@ card_tarus_demon:
     rarity: "Common"
     rules_text: "Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn."
     flavor_text: "In an effort to save their culture the Demons fight the fulfilling of the prophecy."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/MkGQRMqP/taurus-demon-autocosm.jpg"
+    artist: "autocosm"
     number: 128
     power: 4
     toughness: 3
@@ -520,6 +528,6 @@ card_unkindleds_journey:
     rarity: "Common"
     rules_text: "Discard a card, then draw two cards. You get three souls."
     flavor_text: "Perhaps you've seen it, maybe in a dream. A murky, forgotten land. A place where souls may mend your ailing mind. You will lose everything, once branded. The symbol of the curse. An augur of darkness. Your past. Your future. Your very light. None will have meaning, and you won't even care. By then, you'll be something other than human. A thing that feeds on souls. A Hollow."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/3yqQv9bT/fallen-knight-by-theepic1-dbwp7ji-pre.jpg"
+    artist: "theepic1"
     number: 130

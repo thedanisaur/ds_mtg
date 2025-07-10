@@ -296,7 +296,7 @@ card_ring_of_sacrifice:
     rarity: "Mythic"
     rules_text: |
       If ~ would enter the battlefield and was not cast from your hand exile it instead.
-      Pay 10 souls, {T}: Until end of turn if you would lose the game, remove all poison counters from each player, each player's life total becomes 20, each player shuffles all cards he or she owns into his or her library. You skip your next turn. Exile ~.
+      {T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
     flavor_text: ""
     artwork_url: ""
     artist: ""
