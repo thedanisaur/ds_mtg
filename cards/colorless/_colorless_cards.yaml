@@ -1,0 +1,171 @@
+card_ashen_idol:
+  front:
+    name: "Ashen Idol"
+    cost: 4
+    super: ""
+    type: "Creature"
+    sub: "Avatar"
+    rarity: "Common"
+    rules_text: |
+      {T}: Remove target creature you control from combat. (It is no longer attacking or blocking and does not deal or receive damage.)
+      {2}{B}, {T}: Return target creature, that left the battlefield this turn, from your graveyard to your hand.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/pvkbqyFc/ashen-idol-vempirick-resize.jpg"
+    artist: "vempirick"
+    number: 1
+    power: 4
+    toughness: 4
+
+card_covetous_demon:
+  front:
+    name: "Covetous Demon"
+    cost: 4
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rules_text: "{1}{G}: Until end of turn ~ gains \"Whenever ~ deals combat damage to a creature put three bleed counters on that creature.\" (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")"
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/spoofdecator/art/Creature-from-the-Black-Lagoon-390998651"
+    artist: "spoofdecator"
+    number: 2
+    power: 1
+    toughness: 4
+
+card_dreg_hollow_vendor:
+  front:
+    name: "Dreg-Hollow Vendor"
+    cost: 2
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Common"
+    rules_text: |
+      {1}{U}, {T}: Draw a card, then discard a card.
+    flavor_text: "Heh heh heh heh hah hah hah… Thank you kindly!"
+    artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/aa/DARK_SOULS%E2%84%A2_II_Scholar_of_the_First_Sin_20151026000408.jpg/revision/latest/scale-to-width-down/1000?cb=20151028141607"
+    artist: "fromsoft"
+    number: 3
+    power: 2
+    toughness: 2
+
+card_four_kings:
+  front:
+    name: "Four Kings"
+    cost: 4
+    super: "Legendary"
+    type: "Creature"
+    sub: "Lord"
+    rarity: "Uncommon"
+    rules_text: |
+      ~ can't be blocked.
+      {4}: ~ gains Flying and First Strike until end of turn.
+      When ~ leaves the battlefield, each player gets four souls.
+    flavor_text: "After acquiring the Dark Soul they became consumed by the very Abyss they sought to control."
+    artwork_url: "https://i.ibb.co/GfCWLSVf/four-kings-oniruu-vulpes-ibculta-resize.jpg"
+    artist: "vulpes ibculta & oniruu"
+    number: 4
+    power: 4
+    toughness: 4
+
+card_hollow:
+  front:
+    name: "Hollow"
+    cost: 1
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rules_text: ""
+    flavor_text": "All undead will, one day, lose their mind and go Hollow.
+    artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
+    artist: "floxyart"
+    number: 5
+    power: 1
+    toughness: 1
+
+card_leydia_witch:
+  front:
+    name: "Leydia Witch"
+    cost: 2
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Common"
+    rules_text: "{W}, {T}: Deal 2 damage to target attacking or blocking creature."
+    flavor_text: "It is said that we must not disturb the dead. But must we do so, it must be done with honor."
+    artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
+    artist: "John Devlin"
+    number: 6
+    power: 1
+    toughness: 2
+
+card_looking_glass_knight:
+  front:
+    name: "Looking Glass Knight"
+    cost: 8
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rules_text: |
+      ~ can't be the target of spells or abilities.
+      {1}{R}, {T}: Create a 3/3 red Human creature token named Red Phantom. It has prowess.
+    flavor_text: "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king."
+    artwork_url: "https://pbs.twimg.com/media/FoN2G-zWAAI7mfJ?format=jpg&name=medium"
+    artist: "NSlacka"
+    number: 7
+    power: 4
+    toughness: 4
+
+card_sif_the_great_grey_wolf:
+  front:
+    name: "Sif, the Great Grey Wolf"
+    cost: 5
+    super: "Legendary"
+    type: "Creature"
+    sub: "Wolf Giant"
+    rarity: "Uncommon"
+    rules_text: |
+      As long as you control a creature named Knight Artorias, ~ has indestructible.
+      Whenever a creature you control named Knight Artorias leaves the battlefield, sacrifice ~.
+    flavor_text: "The sorrow in Sif's eyes reflects a tragic loyalty beyond death."
+    artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"
+    artist: "anatofinnstark"
+    number: 8
+    power: 4
+    toughness: 4
+
+card_stray_demon:
+  front:
+    name: "Stray Demon"
+    cost: 4
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rules_text: "~ enters the battlefield with two +1/+1 counters if you control another Demon."
+    flavor_text: "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race."
+    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-3-Stray-Demon-614123437"
+    artist: "oniruu"
+    number: 9
+    power: 3
+    toughness: 3
+
+card_winged_chimera:
+  front:
+    name: "Winged Chimera"
+    cost: 3
+    super: ""
+    type: "Creature"
+    sub: "Harpy"
+    rarity: "Common"
+    rules_text: |
+      Flying, lifelink
+      When ~ enters the battlefield, you get two souls.
+    flavor_text: "It was meant to protect us. Instead, it devoured us."
+    artwork_url: "https://i.ibb.co/wZKg3kqp/winged-chimera-ammolto-resize.jpg"
+    artist: "ammolto"
+    number: 10
+    power: 2
+    toughness: 2

@@ -1,0 +1,486 @@
+card_adventuring_sorcerer:
+  front:
+    name: "Adventuring Sorcerer"
+    cost: "2U"
+    super: ""
+    type: "Creature"
+    sub: "Human Wizard"
+    rarity: "Common"
+    rules_text: |
+      When ~ enters the battlefield, look at the top four cards of your library. You may reveal an noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+    flavor_text: "A loner who left formal academia to pursue further research."
+    artwork_url: "https://www.deviantart.com/elcryp7ostrike/art/Arcane-Warden-Shadows-of-the-Broken-City-1123425860"
+    artist: "elcryp7ostrike"
+    number: 41
+    power: 2
+    toughness: 3
+
+card_amana_priestess:
+  front:
+    name: "Amana Priestess"
+    cost: "1U"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Common"
+    rules_text: |
+      {X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability.
+    flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
+    artwork_url: "https://i.ibb.co/k2hPhL3H/amana-priestess-cubehero-resize.jpg"
+    artist: "cubehero"
+    number: 42
+    power: 0
+    toughness: 2
+
+card_angelic_knight:
+  front:
+    name: "Angelic Knight"
+    cost: "3UUU"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rules_text: |
+      Flying
+      When ~ enters the battlefield Scry 2.
+      When ~ becomes the target of a spell or ability your opponent controls, you may pay three souls. If you do counter that spell or ability.
+    flavor_text: "Once heralds of the Angelic Faith, these fierce warriors were deemed heretical, and they were hunted."
+    artwork_url: "https://www.deviantart.com/nikt2/art/Greatest-Angel-knight-by-Nikt-1500-535962773"
+    artist: "nikt2"
+    number: 43
+    power: 5
+    toughness: 5
+
+card_ashen_estus:
+  front:
+    name: "Ashen Estus"
+    cost: "1U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      Untap target creature you control. Draw a card.
+      At the beginning of your upkeep you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.
+    flavor_text: "This dark blue estus flask is a gift from Fire Keeper. It is said that it was once used to slake a great thirst."
+    artwork_url: "https://i.ibb.co/mrdzqWXr/estus-flask-gwenzzo-resize.jpg"
+    artist: "gwenzzo"
+    number: 44
+
+card_aural_decoy:
+  front:
+    name: "Aural Decoy"
+    cost: "U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Return target permanent to its owner's hand. Draw a card."
+    flavor_text: "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications."
+    artwork_url: "https://www.deviantart.com/izmitblu3/art/Fiend-Bringer-of-Fire-888888582"
+    artist: "izmitblu3"
+    number: 45
+
+card_big_hat_logan:
+  front:
+    name: "Big Hat Logan"
+    cost: "4UU"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Rare"
+    rules_text: "{U}, Pay 1 soul: Tap or untap target permanent."
+    flavor_text: "A tireless traveler, Logan left Vinheim with only an archive of tomes and a staff."
+    artwork_url: "https://i.ibb.co/fVbPxFdZ/big-hat-logan-bonesaw999-resize.jpg"
+    artist: "bonesaw999"
+    number: 46
+    power: 4
+    toughness: 5
+
+card_burning_ambition:
+  front:
+    name: "Burning Ambition"
+    cost: "2UU"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "Choose target creature. Pay X souls, where X is that creature's converted mana cost. Gain control of chosen creature."
+    flavor_text: "My knights are never far from my gaze."
+    artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
+    artist: "dvktheartist"
+    number: 47
+
+card_chameleon:
+  front:
+    name: "Chameleon"
+    cost: "U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Scry 2. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"
+    flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
+    artwork_url: "https://i.ibb.co/sJVmxbZz/chameleon-romandubina-resize.jpg"
+    artist: "romandubina"
+    number: 48
+
+card_contemplation:
+  front:
+    name: "Contemplation"
+    cost: "U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      As an additional cost to cast ~ pay one soul.
+      Draw two cards, then put one card from your hand on top of your library.
+    flavor_text: "The mage was naive, he thought he could fix something that was broken."
+    artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
+    artist: "crainium3de"
+    number: 49
+
+card_crystal_butterfly:
+  front:
+    name: "Crystal Butterfly"
+    cost: "1U"
+    super: ""
+    type: "Creature"
+    sub: "Giant Insect"
+    rarity: "Common"
+    rules_text: |
+      Flying. When ~ dies you get three souls.
+      Whenever ~ deals damage to a player that player puts X cards from the top of his or her library into his or her graveyard where X is its power.
+    flavor_text: "None know if it was summoned, created, or left behind—but its presence speaks of Anor Londo's long reach.  "
+    artwork_url: "https://i.ibb.co/ksDg1dSw/crystal-butterfly-vohvelintu.jpg"
+    artist: "vohvelintu"
+    number: 50
+    power: 2
+    toughness: 1
+
+card_dual_charm:
+  front:
+    name: "Dual Charm"
+    cost: "U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Counter target creature or instant spell unless its controller pays {2}"
+    flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
+    artist: "cobaltplasma"
+    number: 51
+
+card_fume_sorcerer:
+  front:
+    name: "Fume Sorcerer"
+    cost: "2U"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Wizard"
+    rarity: "Rare"
+    rules_text: "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process."
+    flavor_text: "Their tongues burned away with the words of the Bride. Now they speak only in flame and shadow."
+    artwork_url: "https://i.ibb.co/bjzYnWh7/fume-sorcerer-vandemoniumx-resize.jpg"
+    artist: "vandemoniumx"
+    number: 52
+    power: 1
+    toughness: 2
+
+card_great_crab:
+  front:
+    name: "Great Crab"
+    cost: "3U"
+    super: ""
+    type: "Creature"
+    sub: "Crab"
+    rarity: "Common"
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      {U}{U}: Return ~ to it's owner's hand.
+    flavor_text: "Even the meekest of life, given enough rot, will claw its way to the surface."
+    artwork_url: "https://www.deviantart.com/2wenty/art/A-Final-Payment-734364843"
+    artist: "2wenty"
+    number: 53
+    power: 3
+    toughness: 4
+
+card_hidden_body:
+  front:
+    name: "Hidden Body"
+    cost: "U"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Target creature gets +1/+0 and can't be blocked this turn.
+      Draw a card.
+    flavor_text: "The very nature of this spell suggests its creator was a miscreant."
+    artwork_url: "https://www.deviantart.com/metalbruno/art/El-Errante-1151753328"
+    artist: "metalbruno"
+    number: 54
+
+card_homing_soul_mass:
+  front:
+    name: "Homing Soul Mass"
+    cost: "UU"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Choose any number of target creatures. You get two souls, then you may pay X souls.
+      ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, instead it's controller puts it on top or bottom of his or her library.
+    flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a mentor to the Royal Prince."
+    artwork_url: "https://i.ibb.co/fG0L3rgn/homing-soul-mass-juhamattipulkkinen.jpg"
+    artist: "juhamattipulkkinen"
+    number: 55
+
+card_hooded_sorcerer:
+  front:
+    name: "Hooded Sorcerer"
+    cost: "1U"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Common"
+    rules_text: "{T}: Scry 2. You get one soul."
+    flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
+    artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
+    artist: "MistyStream26391"
+    number: 56
+    power: 1
+    toughness: 1
+
+card_into_the_abyss:
+  front:
+    name: "Into the Abyss"
+    cost: "3UUU"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Mythic"
+    rules_text: "{U}{U}{U}: You get one soul. Shuffle your library then reveal the top card. If the revealed card is an instant or sorcery card, then you may pay a number of souls equal to that cards converted mana cost. If you do, cast that card wihout paying it's mana cost."
+    flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
+    artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
+    artist: "nahelus"
+    number: 57
+
+card_invisible_hollow:
+  front:
+    name: "Invisible Hollow"
+    cost: "U"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      If ~ leaves the battlefield, draw a card and you get one soul.
+    flavor_text: "In hiding it waits, for the end of fire."
+    artwork_url: "https://i.ibb.co/fzQtSLt7/shadows-in-the-woods-1-april-2024-by-taggedzi-dh75qu2-pre.jpg"
+    artist: "taggedzi"
+    number: 58
+    power: 1
+    toughness: 1
+
+card_lost_spell_from_oolacile:
+  front:
+    name: "Lost spell from Oolacile"
+    cost: "1U"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Choose target spell. Then pay X souls, where X is that spell's converted mana cost. If you do counter that spell."
+    flavor_text: "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Spitpaint-Shield-Generator-2-870637313"
+    artist: "cobaltplasma"
+    number: 59
+
+card_magic_denial:
+  front:
+    name: "Magic Denial"
+    cost: "2UU"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell."
+    flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
+    artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
+    artist: "cobaltplasma"
+    number: 60
+
+card_old_sorcerer:
+  front:
+    name: "Old Sorcerer"
+    cost: "U"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Common"
+    rules_text: "When ~ enters the battlefield draw a card. Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)"
+    flavor_text: "The knowledge… it… it drives you mad…"
+    artwork_url: "https://www.deviantart.com/sinto-risky/art/Old-Mage-141637765"
+    artist: "sinto risky"
+    number: 61
+    power: 0
+    toughness: 1
+
+card_outrider_knight:
+  front:
+    name: "Outrider Knight"
+    cost: "UUU"
+    super: ""
+    type: "Creature"
+    sub: "Knight Beast"
+    rarity: "Rare"
+    rules_text: |
+      Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+      Morph {1}{U}
+      When ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.
+    flavor_text: "Every Outrider Knight devolves into a beast, constantly hounded by the Pontiff's black eyes."
+    artwork_url: "https://www.deviantart.com/re-dye/art/Dark-Souls-3-Boreal-Outrider-Knight-605393677"
+    artist: "re dye"
+    number: 62
+    power: 2
+    toughness: 2
+
+card_pestilent_mercury:
+  front:
+    name: "Pestilent Mercury"
+    cost: "1UU"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant creature
+      When ~ enters the battlefield Scry 2.
+      At the beginning of your upkeep, put a -1/-1 counter on enchanted creature.
+      When ~ leaves the battlefield draw a card.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/5XnVCxgS/pestilent-mercury-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 63
+
+card_ruin_banshee:
+  front:
+    name: "Ruin Banshee"
+    cost: "1U"
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Uncommon"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      {T}: Put target tapped creature on top of it's owner's library.
+    flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
+    artwork_url: "https://i.ibb.co/rGR8fyd6/londo-ghost-screamer-header-full-resize.jpg"
+    artist: "fromsoft"
+    number: 64
+    power: 1
+    toughness: 1
+
+card_search_the_library:
+  front:
+    name: "Search the Library"
+    cost: "UU"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      As an additional cost to cast this spell pay two souls.
+      Scry 4, then draw two cards.
+    flavor_text: "What treasure remains in the archives is yours for the taking."
+    artwork_url: "https://www.deviantart.com/tavenerscholar/art/Practice-578204700"
+    artist: "tavenerscholar"
+    number: 65
+
+card_soul_spear:
+  front:
+    name: "Soul Spear"
+    cost: "2U"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: "Put target creature or planeswalker on top of its owner's library. Then that player shuffles his or her library."
+    flavor_text: "The spear is testament to Logan's strength in battle."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moonpool-Teleport-585703577"
+    artist: "cobaltplasma"
+    number: 66
+
+card_soul_stream:
+  front:
+    name: "Soul Stream"
+    cost: "UUUU"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      As and additional cost to cast ~ pay X souls.
+      Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls paid to cast ~.
+    flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince."
+    artwork_url: "https://i.ibb.co/1YFzRvhK/arcane-blast-by-morkardfc-damygij-pre.jpg"
+    artist: "morkardfc"
+    number: 67
+
+card_spined_hedgehog:
+  front:
+    name: "Spined Hedgehog"
+    cost: "1U"
+    super: ""
+    type: "Creature"
+    sub: "Spike"
+    rarity: "Uncommon"
+    rules_text: "Whenever ~ attacks you may pay {1}, if you do, target player shuffles his or her library. Then that player puts the top two cards of his or her library into his or her graveyard."
+    flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
+    artwork_url: "https://api.deepai.org/job-view-file/0f1d1fac-e073-4a12-ac78-f70554c28633/outputs/output.jpg"
+    artist: "deepai"
+    number: 68
+    power: 2
+    toughness: 2
+
+card_vordt_and_the_dancer:
+  front:
+    name: "Vordt and the Dancer"
+    cost: "2UU"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Mythic"
+    rules_text: |
+      {B}, {T}: Target player discards a card.
+      {U}{U}: Tap target creature an opponent controls.
+      {1}: ~ gets +1/-1 until end of turn.
+      {1}: ~ gets -1/+1 until end of turn.
+    flavor_text: "Even in exile the outrider knights fulfill their duty."
+    artwork_url: "https://i.ibb.co/PHcwLwJ/vordt-and-the-dancer-oniruu.jpg"
+    artist: "oniruu & chriskot"
+    number: 69
+    power: 3
+    toughness: 4
+
+card_wall_spectre:
+  front:
+    name: "Wall Spectre"
+    cost: "2U"
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Common"
+    rules_text: "Shadow (This creature can block or be blocked by only creatures with shadow.)"
+    flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
+    artwork_url: "https://i.ibb.co/HLRwg47x/wall-sprectre-adadia-resize.jpg"
+    artist: "adadia"
+    number: 70
+    power: 3
+    toughness: 1

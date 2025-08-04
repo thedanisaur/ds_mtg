@@ -1,0 +1,489 @@
+card_ancient_wyvern:
+  front:
+    name: "Ancient Wyvern"
+    cost: "W/RW/RW/RW/RW/R"
+    super: ""
+    type: "Creature"
+    sub: "Dragon"
+    rarity: "Rare"
+    rules_text: |
+      Flying. Indestructible. Haste.
+      {R}: ~ gets +1/+0 until end of turn.
+      When ~ blocks or becomes blocked by a creature with first strike or double strike, sacrifice it.
+    flavor_text: "Born of chaos with the soul of a demon and the strength of fire."
+    artwork_url: "https://i.ibb.co/XZnbqdBx/ancient-wyvern-jeffchendesigns-resize.jpg"
+    artist: "jeffchendesigns"
+    number: 161
+    power: 4
+    toughness: 4
+
+card_archdeacon_of_the_deep:
+  front:
+    name: "Archdeacon of the Deep"
+    cost: "U/RU/RU/R"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Rare"
+    rules_text: |
+      Other Wizards you control get +1/+1.
+      Whenever a Wizard you control dies you get one soul.
+      {3}{U}{R}, {T}: Create a 1/1 blue and red Wizard creature token.
+    flavor_text: "The deacons were once keepers of the dead, until the Deep began to whisper. Now they serve a saint whose hunger made a god of him."
+    artwork_url: "https://www.deviantart.com/underpable/art/Deacons-Of-The-Deep-673135098"
+    artist: "underpable"
+    number: 162
+    power: 2
+    toughness: 2
+
+card_baneful_queen_mytha:
+  front:
+    name: "Baneful Queen, Mytha"
+    cost: "1B/GB/GB/G"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Naga Gorgon"
+    rarity: "Rare"
+    rules_text: |
+      Deathtouch
+      At the beginning of each opponent's upkeep put a bleed counter on each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
+    artist: "igor grechanyi"
+    number: 163
+    power: 1
+    toughness: 3
+
+card_bed_of_chaos:
+  front:
+    name: "Bed of Chaos"
+    cost: "B/RB/RB/RB/R"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Spellshaper Lord"
+    rarity: "Rare"
+    rules_text: |
+      When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug
+      Indestructible
+      Whenever a creature you control dies, if you don't control a creature named Chaos Bug sacrifice ~.
+    flavor_text: "Mother of all demons."
+    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
+    artist: "oniruu"
+    number: 164
+    power: 3
+    toughness: 4
+
+card_blade_of_the_darkmoon:
+  front:
+    name: "Blade of the Darkmoon"
+    cost: "U/WU/W"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rules_text: |
+      When ~ enters the battlefield, draw a card. If an opponent controls a creature named Red Phantom, create a 3/3 white human ally creature token named Phantom. It has haste.
+      Whenever a creature named "Red Phantom" dies you get one soul.
+    flavor_text: "Thy punishment ... is death"
+    artwork_url: "https://i.ibb.co/BHBvZqvX/blade-of-the-dark-moon-inkimagine-recolor.jpg"
+    artist: "inkimagine"
+    number: 165
+    power: 2
+    toughness: 2
+
+card_carim_guardian:
+  front:
+    name: "Carim Guardian"
+    cost: "1G/WG/W"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rules_text: |
+      Vigilance
+      Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside. You here, in this land of Hollows, you're like a frail maiden on the front lines."
+    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
+    artist: "drawsouls"
+    number: 166
+    power: 2
+    toughness: 1
+
+card_dark_sigil:
+  front:
+    name: "Dark Sigil"
+    cost: "R/B"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      {B}{R}: Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.
+    flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
+    number: 167
+
+card_disembodied_wisp:
+  front:
+    name: "Disembodied Wisp"
+    cost: "B/R"
+    super: ""
+    type: "Creature"
+    sub: "Djinn"
+    rarity: "Uncommon"
+    rules_text: |
+      Haste
+      {1}, {T}, Sacrifice ~: Deal 3 damage to any target.
+    flavor_text: "In the Abyss, even souls lose their shape. What drifts there is not quite light… and not quite lost."
+    artwork_url: "https://i.pinimg.com/564x/35/62/35/3562358f3106d0eee362e50dd956ce42.jpg"
+    artist: "Ben Clifford"
+    number: 168
+    power: 0
+    toughness: 1
+
+card_dragonslayer_and_executioner:
+  front:
+    name: "Dragonslayer and Executioner"
+    cost: "W/GW/GW/G"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Rare"
+    rules_text: |
+      When ~ dies choose one -
+      Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
+      Create a 3/3 green Legendary Giant creature token with vigilance named Smough.
+    flavor_text: "When gods fled and thrones turned cold, Ornstein and Smough remained—not for glory, but for duty"
+    artwork_url: "https://i.ibb.co/v4Yw0gZr/dragonslayer-and-executioner-ron-faure-resize.jpg"
+    artist: "ron faure"
+    number: 169
+    power: 2
+    toughness: 2
+
+card_ember:
+  front:
+    name: "Ember"
+    cost: "RGW"
+    super: "Legendary"
+    type: "Enchantment"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      When ~ enters the battlefield create a 3/3 white creature token named Phantom. It has haste. Each opponent gets an emblem with "At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess."
+      {2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste. Activate this ability only if you control one or fewer creature tokens named Phantom.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/C5ryGN1M/EMBER-alex-bezhko.jpg"
+    artist: "alex bezhko"
+    number: 170
+
+card_fume_knight:
+  front:
+    name: "Fume Knight"
+    cost: "U/BU/BU/B"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Knight"
+    rarity: "Rare"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      Whenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on bottom in any order.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/474x/b1/45/2d/b1452dc10c0189b2bd7d1acbc3551590.jpg"
+    artist: "Raime"
+    number: 171
+    power: 2
+    toughness: 2
+
+card_gravelords_maelstrom:
+  front:
+    name: "Gravelord's Maelstrom"
+    cost: "UUBBBRR"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Mythic"
+    rules_text: "Choose up to three creatures target player controls. ~ deals damage to that player equal to the total power of those creatures. Gain control of the chosen creatures, that player sacrifices the rest."
+    flavor_text: "Miasma of the Gravelord spews forth. Many have died, and countless more will follow."
+    artwork_url: "https://www.deviantart.com/erinm31/art/Storm-337642862"
+    artist: "erinm31"
+    number: 172
+
+card_gwyn_lord_of_cinder:
+  front:
+    name: "Gwyn, Lord of Cinder"
+    cost: "2/W2/U2/B2/R2/G"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Gwyn"
+    rarity: "Mythic"
+    rules_text: |
+      When ~ enters the battlefield, return all creatures to their owner's hand.
+      {+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.
+      {-1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.
+      {-7}:  Restart the game, leaving ~ on the battlefield. Set ~ loyalty to 3. Your starting life total becomes 5 less than your starting life total in the previous game.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/4R8Kknq7/gwyn-lord-of-cinder-fromsoft-resize.png"
+    artist: "fromsoft"
+    number: 173
+    loyalty: 3
+
+card_hawkeye_gough:
+  front:
+    name: "Hawkeye Gough"
+    cost: "2RG"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Giant Knight"
+    rarity: "Rare"
+    rules_text: "{1}{R/G}, {T}: Deal 5 damage to target creature with flying."
+    flavor_text: "We were no match for the dragons. Their scales are as tough as steel. The strength of a thousand men… would be insufficient."
+    artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/160145919_156393993002460_7498443105228099006_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kRtaRczYsFgQ7kNvwHxyyub&_nc_oc=AdkM9tRMr0iza7RCcogkI-J0xVVUSq4XcQwv2g545EGiZHp0_kJ_yYKp_2MFsO1a-yg&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=apiiHdQ9c86Qd7FCx4i2uQ&oh=00_AfMxstaQppX2ZzIJMbr9wIoLyHYaa0HbI9BYhrT2lNtGeQ&oe=68866AEA"
+    artist: "Lucky Robin"
+    number: 174
+    power: 3
+    toughness: 4
+
+card_iudex_gundyr:
+  front:
+    name: "Iudex Gundyr"
+    cost: "WB"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Rare"
+    rules_text: |
+      When ~ enters the battlefield, you get two souls and you lose 2 life.
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: "Gundyr became a sheath to a coiled sword in the hopes that someday, the first flame would be linked once more. "
+    artwork_url: "https://i.ibb.co/j9sdRj4K/iudex-gundyr-oniruu.jpg"
+    artist: "oniruu"
+    number: 175
+    power: 2
+    toughness: 2
+    frame: "Double-Faced: Day"
+    color_indicator: ""
+  back:
+    name: "Champion Gundyr"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Hollow Ooze"
+    rarity: ""
+    rules_text: "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)"
+    flavor_text: "The dark within him was not idle. It remembered its shape."
+    artwork_url: "https://i.ibb.co/MxZ1ry69/iduex-gundyr-back-allrichart.jpg"
+    artist: "allrichart"
+    number: 175
+    power: 2
+    toughness: 2
+    frame: "Double-Faced: Night"
+    color_indicator: "White"
+
+card_king_of_the_storm:
+  front:
+    name: "King of the Storm"
+    cost: "URW"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Namless King Lord"
+    rarity: "Mythic"
+    rules_text: |
+      {+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, prowess, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
+      {-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.
+      {-5}: Target players life total becomes 5. Destroy all nondragon creatures your opponents control.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/artborne-wd/art/Nameless-King-610593235"
+    artist: "artborne-wd"
+    number: 176
+    loyalty: 2
+
+card_knight_artorias:
+  front:
+    name: "Knight Artorias"
+    cost: "2WUB"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Mythic"
+    rules_text: |
+      Whenever ~ attacks, defending player discards a card and you draw a card.
+      Whenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: "..."
+    artwork_url: "https://i.ibb.co/zWpwTvQm/knight-artorias-back-remainaery-resize.jpg"
+    artist: "remainaery"
+    number: 177
+    power: 4
+    toughness: 4
+    frame: "Double-Faced: Day"
+    color_indicator: ""
+  back:
+    name: "The Abysswalker"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rules_text: |
+      When this creature transforms into ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
+      Whenever an opponent draws a card, you may draw a card.
+      {WUB}, {T}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
+    flavor_text: "Indeed, the Abyss may be unstoppable."
+    artwork_url: "https://i.ibb.co/LXPJ55nQ/knight-artorias-back-sane-kyle-resize.jpg"
+    artist: "Sane Kyle"
+    number: 177
+    power: 3
+    toughness: 4
+    frame: "Double-Faced: Night"
+    color_indicator: "Black"
+
+card_knight_lautrec:
+  front:
+    name: "Knight Lautrec"
+    cost: "RWB"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Rare"
+    rules_text: |
+      Haste
+      When ~ enters the battlefield exile the top card of an opponents library with a favored counter on it.
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: "This is a wonderful place, don't you think? We are fortunate indeed. If only I were so lucky..."
+    artwork_url: "https://i.ibb.co/ycB14xrR/knight-lautrec-warhuan-resize.jpg"
+    artist: "Warhuan"
+    number: 178
+    power: 2
+    toughness: 2
+    frame: "Double-Faced: Day"
+    color_indicator: ""
+  back:
+    name: "Favored Knight"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rules_text: |
+      When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.
+      Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+    flavor_text: "I'm done for, I'm afraid. I'll die soon, then lose my sanity."
+    artwork_url: "https://i.ibb.co/CKHJnYNH/knight-lautrec-jdeberge-back-resize.jpg"
+    artist: "jdeberge"
+    number: 178
+    power: 1
+    toughness: 1
+    frame: "Double-Faced: Night"
+    color_indicator: "Black"
+
+card_lorian_and_lothric:
+  front:
+    name: "Lorian and Lothric"
+    cost: "3RW"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Lorian and Lothric Lord"
+    rarity: "Mythic"
+    rules_text: |
+      {+1}: Exile target tapped nonland permanent.
+      {+0}: Exile ~ then return it to the battlefield under your control.
+      {-8}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/artborne-wd/art/Lorian-and-Lothric-612398081"
+    artist: "artborne-wd"
+    number: 179
+    loyalty: 4
+
+card_ruin_sentinels:
+  front:
+    name: "Ruin Sentinels"
+    cost: "2G/W"
+    super: ""
+    type: "Creature"
+    sub: "Giant"
+    rarity: "Uncommon"
+    rules_text: "~ gets +2/+2 for each other creature you control named ~."
+    flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
+    artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"
+    artist: "dawnweaver13"
+    number: 180
+    power: 3
+    toughness: 3
+
+card_sorcerers_remedy:
+  front:
+    name: "Sorcerer's Remedy"
+    cost: "WU"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Remove all bleed counters from creatures you control. Draw a card."
+    flavor_text: "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown."
+    artwork_url: "https://www.deviantart.com/vitogh/art/Swamp-Ritual-1049502161"
+    artist: "vitogh"
+    number: 181
+
+card_splintering_lightning:
+  front:
+    name: "Splintering Lightning"
+    cost: "XRW"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "~ deals 2 damage to up to X target creatures, players, and/or planeswalkers. You may choose the same creature and or player multiple times. You gain X life."
+    flavor_text: "Mirrah's knights did not pray for mercy. They prayed for power—and it thunderously answered."
+    artwork_url: "https://i.ibb.co/Rp1JpLmx/splintering-lightning-junaidi.jpg"
+    artist: "junaidi"
+    number: 182
+
+card_spreading_decay:
+  front:
+    name: "Spreading Decay"
+    cost: "RB"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      Destroy up to one target nonartifact creature if it's equipped.
+      Destroy up to one target Equipment.
+    flavor_text: "Their arrival heralds the coming ruin."
+    artwork_url: "https://www.deviantart.com/istrandar/art/Decay-859081205"
+    artist: "istrandar"
+    number: 183
+
+card_stream_of_estus:
+  front:
+    name: "Stream of Estus"
+    cost: "2/R2/G"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Rare"
+    rules_text: "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land could produce."
+    flavor_text: "The journey of an Undead has always traced the bonfires, and no journey of import has been made without Estus."
+    artwork_url: "https://www.deviantart.com/znkwill/art/forest-1187781343"
+    artist: "znkwill"
+    number: 184
+
+card_yhorm_the_giant:
+  front:
+    name: "Yhorm, the Giant"
+    cost: "1BRG"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Giant Lord"
+    rarity: "Rare"
+    rules_text: |
+      First strike. Reach.
+      {B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
+      Whenever ~ is put into the graveyard from the battlefield you may pay {2}. If you do, return another target creature card from your graveyard to your hand.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/ynYx7W7b/yhorm-the-giant-dcp1173-resize.jpg"
+    artist: "dcp1173"
+    number: 185
+    power: 2
+    toughness: 4

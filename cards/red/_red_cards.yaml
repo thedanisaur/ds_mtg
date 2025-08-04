@@ -1,0 +1,533 @@
+card_acid_surge:
+  front:
+    name: "Acid Surge"
+    cost: "XXR"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "Destroy X target Equipment."
+    flavor_text: "Carthus' swordsmen attached great value to victory, and would not shun the use of such pyromancies."
+    artwork_url: "https://www.deviantart.com/temmaru/art/ACID-FLAME-SURGE-1091256471"
+    artist: "temmaru"
+    number: 101
+
+card_capra_demon:
+  front:
+    name: "Capra Demon"
+    cost: "2R"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Uncommon"
+    rules_text: |
+      Double Strike
+      When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens.
+    flavor_text: "The Capra demons use paired greatswords in battle. While not imbued with magic, their great weight will smash foes mercilessly."
+    artwork_url: "https://i.ibb.co/JWKjrc5r/capra-demon-azany-resize.jpg"
+    artist: "Azany"
+    number: 102
+    power: 2
+    toughness: 1
+
+card_carthus_beacon:
+  front:
+    name: "Carthus Beacon"
+    cost: "1R"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Target creature gains double strike until end of turn."
+    flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
+    artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
+    artist: "arturtreffner"
+    number: 103
+
+card_cathedral_evangelist:
+  front:
+    name: "Cathedral Evangelist"
+    cost: "RR"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Common"
+    rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
+    flavor_text: "EEHEEE!"
+    artwork_url: ""
+    artist: "therikaro114"
+    number: 104
+    power: 3
+    toughness: 2
+
+card_chaos_bed_vestiges:
+  front:
+    name: "Chaos Bed Vestiges"
+    cost: "XRR"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      ~ can't be countered.
+      ~ deals two times X damage to target player, that damage cannot be prevented.
+    flavor_text: "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Trying-to-Keep-Warm-609129608"
+    artist: "cobaltplasma"
+    number: 105
+
+card_cracked_redeye_orb:
+  front:
+    name: "Cracked Redeye Orb"
+    cost: "2R"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Create a 3/3 red Human creature token named Red Phantom. It has prowess."
+    flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
+    artist: "cobaltplasma"
+    number: 106
+
+card_cragspider:
+  front:
+    name: "Cragspider"
+    cost: "3R"
+    super: ""
+    type: "Creature"
+    sub: "Spider"
+    rarity: "Common"
+    rules_text: |
+      Reach
+      Whenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of turn.
+      {R}: This creature gets +1/+0 until end of turn.
+    flavor_text: "She crawls in the filth beneath the world, her limbs aflame, her mind long extinguished."
+    artwork_url: "https://i.ibb.co/jZQmWj14/crag-spider-fromsoft.jpg"
+    artist: "fromsoft"
+    number: 107
+    power: 2
+    toughness: 4
+
+card_desert_pyromancer:
+  front:
+    name: "Desert Pyromancer"
+    cost: "R"
+    super: ""
+    type: "Creature"
+    sub: "Monk"
+    rarity: "Common"
+    rules_text: |
+      Haste
+      {1}{R}, {T}: ~ deals 2 damage to any target.
+    flavor_text: "The flame reveals all, and obscures all."
+    artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
+    artist: "hachiyuki"
+    number: 108
+    power: 2
+    toughness: 1
+
+card_ember_gargoyle:
+  front:
+    name: "Ember Gargoyle"
+    cost: "3R"
+    super: ""
+    type: "Creature"
+    sub: "Gargoyle"
+    rarity: "Uncommon"
+    rules_text: |
+      When ~ enters the battlefield you may discard a card. If you do draw a card.
+      ~ can't attack unless an opponent controls a creature.
+    flavor_text: "Watching, waiting."
+    artwork_url: "https://i.ibb.co/zHt09VNy/ember-gargoyle-6kart-recolor.jpg"
+    artist: "6kart"
+    number: 109
+    power: 3
+    toughness: 4
+
+card_fire_orb:
+  front:
+    name: "Fire Orb"
+    cost: "R"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      ~ deals 1 damage to any target. You get one soul.
+      At the beginning of your upkeep you may pay {1}{R}. If you do, return ~ from your graveyard to your hand.
+    flavor_text: "The flame rewards those with a thirst of power."
+    artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
+    artist: "pizza"
+    number: 110
+
+card_fire_surge:
+  front:
+    name: "Fire Surge"
+    cost: "R"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      You may pay two souls rather than pay this spell's mana cost.
+      Until end of turn, target creature gains "{R}: This creature gets +1/+0 until end of turn."
+    flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
+    artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
+    artist: "jasontn"
+    number: 111
+
+card_firekeeper:
+  front:
+    name: "Firekeeper"
+    cost: "R"
+    super: ""
+    type: "Creature"
+    sub: "Monk"
+    rarity: "Uncommon"
+    rules_text: "{R}, Pay two souls: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). Activate this ability only once per turn."
+    flavor_text: "Very well. Then touch the darkness within me."
+    artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
+    artist: "Givinggyf"
+    number: 112
+    power: 0
+    toughness: 1
+
+card_firesage_demon:
+  front:
+    name: "Firesage Demon"
+    cost: "3RR"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rules_text: |
+      Haste
+      When ~ enters the battlefield, it deals 1 damage to each creature you don't control. Tap those creatures.
+    flavor_text: "The Demon Firesage was the first demon, and the last master of the original fire arts."
+    artwork_url: "https://i.ibb.co/zHTd0s3n/firesage-demon-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 113
+    power: 6
+    toughness: 4
+
+card_flame_whip:
+  front:
+    name: "Flame Whip"
+    cost: "1R"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant creature
+      Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Deal 4 damage divided as you choose among one, two, three, or four targets."
+      When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
+    artist: "asfodelo"
+    number: 114
+
+card_flamewielding_undead:
+  front:
+    name: "Flamewielding Undead"
+    cost: "1R"
+    super: ""
+    type: "Creature"
+    sub: "Hollow Monk"
+    rarity: "Common"
+    rules_text: |
+      Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+      {T}: Deal X damage to target creature, where X is ~'s power.
+    flavor_text: "Pyromancy is at once the knowledge of controlling flame, and the knowledge that control is impossible."
+    artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
+    artist: "full maverick"
+    number: 115
+    power: 0
+    toughness: 1
+
+card_forbidden_sun:
+  front:
+    name: "Forbidden Sun"
+    cost: "5RR"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: "~ deals 5 damage to target player and each creature and planeswalker he or she controls."
+    flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
+    artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 116
+
+card_hellkite_wyvern:
+  front:
+    name: "Hellkite Wyvern"
+    cost: "RRR"
+    super: ""
+    type: "Creature"
+    sub: "Drake"
+    rarity: "Rare"
+    rules_text: |
+      Flying, first strike
+      When ~ leaves the battlefield search your library for an equipment card and put it onto the battlefield.
+    flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
+    artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
+    artist: "a. tarzia"
+    number: 117
+    power: 3
+    toughness: 3
+
+card_hollow_infantry:
+  front:
+    name: "Hollow Infantry"
+    cost: "1R"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Create two 1/1 colorless Hollow creature tokens onto the battlefield. Those creatures gain haste until end of turn."
+    flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
+    artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
+    artist: "stepalex"
+    number: 118
+
+card_ignite_steel:
+  front:
+    name: "Ignite Steel"
+    cost: "R"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant Equipment
+      Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
+    flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
+    artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
+    artist: "shadoecrewsart"
+    number: 119
+
+card_immolation:
+  front:
+    name: "Immolation"
+    cost: "3R"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn."
+    flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
+    artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 120
+
+card_pesky_mosquito:
+  front:
+    name: "Pesky Mosquito"
+    cost: "2R"
+    super: ""
+    type: "Creature"
+    sub: "Insect"
+    rarity: "Common"
+    rules_text: |
+      Flying
+      ~ has +1/+0 as long as you control a green permanent.
+      ~ has deathtouch as long as you control a black permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
+    flavor_text: "Where do they come from?"
+    artwork_url: "https://i.ibb.co/gMk9RFnW/pesky-mosquito-teyoliia.jpg"
+    artist: "teyoliia"
+    number: 121
+    power: 1
+    toughness: 2
+
+card_profaned_flame:
+  front:
+    name: "Profaned Flame"
+    cost: "1R"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Choose one -
+      Deal 4 damage to target creature.
+      Deal 4 damage to target player or planeswalker. ~ deals 2 damage to you.
+    flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
+    artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
+    artist: "fantasyworldonline"
+    number: 122
+
+card_profuse_sweat:
+  front:
+    name: "Profuse Sweat"
+    cost: "R"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Attach up to one target curse to target player.
+      Until end of turn creatures you control can't have bleed counters placed on them.
+      If a red source you don't control would deal damage this turn, that souce deals one less damage.
+    flavor_text: "The yellowish sweat cures all kinds of ailments."
+    artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
+    artist: "iamsointense"
+    number: 123
+
+card_rapport:
+  front:
+    name: "Rapport"
+    cost: "2R"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Gain control of target nonhollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is a Human. If that creature would be sacrificed this way, you get one soul."
+    flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
+    artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
+    artist: "kaido7794"
+    number: 124
+
+card_ringfinger_leonhard:
+  front:
+    name: "Ringfinger Leonhard"
+    cost: "RRR"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Mythic"
+    rules_text: |
+      Haste
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: "Unkindled are we...then these red eyes are for you."
+    artwork_url: "https://i.ibb.co/rRfQmLTW/ringfinger-leonhard-front-aj-saitama-japan-resized.jpg"
+    artist: "Aj Saitama Japan"
+    number: 125
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Day"
+    color_indicator: "Red"
+  back:
+    name: "Rosaria's Finger"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rules_text: |
+      When this creature transforms into ~, you get three souls.
+      Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+    flavor_text: "Come on, give yourself to Rosaria, of the Cathedral of the Deep."
+    artwork_url: "https://i.ibb.co/fVTS3ySK/ringfinger-leonhard-back-estuschan-resized.jpg"
+    artist: "Estuschan"
+    number: 125
+    power: 1
+    toughness: 1
+    frame: "Double-Faced: Night"
+    color_indicator: "Black"
+
+card_smoldering_rotten_flesh:
+  front:
+    name: "Smoldering Rotten Flesh"
+    cost: "3R"
+    super: ""
+    type: "Creature"
+    sub: "Ooze"
+    rarity: "Uncommon"
+    rules_text: |
+      ~ can block creatures with shadow as though they didn't have shadow.
+      Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+      When ~ is turned face up it deals 3 damage to target creature.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/7JgFR7KW/smouldering-rotten-flesh-necrodevourer-resize.jpg"
+    artist: "necrodevourer"
+    number: 126
+    power: 1
+    toughness: 5
+
+card_sunlight_maggot:
+  front:
+    name: "Sunlight Maggot"
+    cost: "R"
+    super: ""
+    type: "Creature"
+    sub: "Insect"
+    rarity: "Common"
+    rules_text: |
+      When ~ enters or leaves the battlefield you get one soul.
+      {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
+    flavor_text: |
+      "You vermin, you dare take my friend!?" — Chosen Undead
+    artwork_url: "https://i.ibb.co/rfTQbjfC/sunlight-maggot-kingumbra.jpg"
+    artist: "kingumbra"
+    number: 127
+    power: 0
+    toughness: 1
+
+card_tarus_demon:
+  front:
+    name: "Tarus Demon"
+    cost: "1RR"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rules_text: "Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn."
+    flavor_text: "In an effort to save their culture the Demons fight the fulfilling of the prophecy."
+    artwork_url: "https://i.ibb.co/MkGQRMqP/taurus-demon-autocosm.jpg"
+    artist: "autocosm"
+    number: 128
+    power: 4
+    toughness: 3
+
+card_unbreakable_patches:
+  front:
+    name: "Unbreakable Patches"
+    cost: "2R"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Rare"
+    rules_text: |
+      When this creature enters the battlefield or transforms into ~, create a Treasure token.
+      Treasures you control have “{T}, Sacrifice this artifact: Add two mana of any one color.”
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/zTqR46yr/unbreakable-patches-front-sweenoy.jpg"
+    artist: "Sweenoy"
+    number: 129
+    power: 2
+    toughness: 2
+    frame: "Double-Faced: Day"
+    color_indicator: "Red"
+  back:
+    name: "Lapp"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rules_text: "Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)"
+    flavor_text: "...What did I come here in search of?"
+    artwork_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96fe25a2-a5ae-4dda-a10d-e08106e947a5/db473zy-274e3ad3-0cf6-4e82-a24e-1ec3863ca8fb.jpg/v1/fill/w_1024,h_732,q_75,strp/daily_sketch__030_by_sethnemo_db473zy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvOTZmZTI1YTItYTVhZS00ZGRhLWExMGQtZTA4MTA2ZTk0N2E1XC9kYjQ3M3p5LTI3NGUzYWQzLTBjZjYtNGU4Mi1hMjRlLTFlYzM4NjNjYThmYi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KZYwePPhDWp8MVbtEYqBdMCU--gxIBGxbR-zy7kC4lc"
+    artist: "Seth Nemo"
+    number: 129
+    power: 5
+    toughness: 5
+    frame: "Double-Faced: Night"
+    color_indicator: "White"
+
+card_unkindleds_journey:
+  front:
+    name: "Unkindled's Journey"
+    cost: "R"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Discard a card, then draw two cards. You get three souls."
+    flavor_text: "Perhaps you've seen it, maybe in a dream. A murky, forgotten land. A place where souls may mend your ailing mind. You will lose everything, once branded. The symbol of the curse. An augur of darkness. Your past. Your future. Your very light. None will have meaning, and you won't even care. By then, you'll be something other than human. A thing that feeds on souls. A Hollow."
+    artwork_url: "https://i.ibb.co/3yqQv9bT/fallen-knight-by-theepic1-dbwp7ji-pre.jpg"
+    artist: "theepic1"
+    number: 130

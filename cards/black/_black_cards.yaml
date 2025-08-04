@@ -1,0 +1,494 @@
+card_a_hero_gone_mad:
+  front:
+    name: "A Hero Gone Mad"
+    cost: "B"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Return target Hollow card from your graveyard to the battlefield. You get X souls where X is that creature's toughness.
+    flavor_text: "I can feel it... ever so slowly, I'm slipping... into the depths..."
+    artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
+    artist: "lavilvile"
+    number: 71
+
+card_aldrich_devourer_of_gods:
+  front:
+    name: "Aldrich, Devourer of Gods"
+    cost: "3BB"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Cleric Ooze Lord"
+    rarity: "Rare"
+    rules_text: "{B}{B}: Exile target creature card from a graveyard. ~ has all static and activated abilities of all cards exiled with this ability."
+    flavor_text: "A right and proper cleric, with a habit of devouring men."
+    artwork_url: "https://i.ibb.co/LXB2Kdtr/aldrich-devourer-of-gods-artborne-wd-resized.jpg"
+    artist: "artborne-wd"
+    number: 72
+    power: 4
+    toughness: 4
+
+card_bonfire_ascetic:
+  front:
+    name: "Bonfire Ascetic"
+    cost: "XBB"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "Put the top X cards of your library into your graveyard. You lose X life. You get X souls. Choose a creature card in your graveyard. Each other player may choose a number of creatures with total power less than or equal to the chosen creatures power. Return all chosen creatures to the battlefield under their owners control."
+    flavor_text: "When the flames grow stronger, so does the curse."
+    artwork_url: "https://i.ibb.co/1G96YRVQ/bonfire-ascetic-deepai.jpg"
+    artist: "deepai"
+    number: 73
+
+card_carthus_rouge:
+  front:
+    name: "Carthus Rouge"
+    cost: "B"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant creature
+      Whenever the enchanted creature deals damage to another creature put two bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+    flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
+    artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
+    artist: "nobleones"
+    number: 74
+
+card_charred_knight:
+  front:
+    name: "Charred Knight"
+    cost: "BB"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rules_text: "Lifelink. Deathtouch."
+    flavor_text: "The knights of Loyce tried to contain the Chaos, but it was too late. The flames had already ravaged their flesh."
+    artwork_url: "https://i.ibb.co/4n4VCPW2/charred-knight-daverapoza-resize.jpg"
+    artist: "daverapoza"
+    number: 75
+    power: 3
+    toughness: 2
+
+card_chosen_undead:
+  front:
+    name: "Chosen Undead"
+    cost: "1BB"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      Target player sacrifices a Legendary creature. If that player doesn't, they sacrifice a creature instead.
+      You get one soul.
+      At the beginning of your upkeep you may pay {1}{B}. If you do, return ~ from your graveyard to your hand.
+    flavor_text: "The Unkindled will rise. Nameless, accursed Undead, unfit even to be cinder. And so it is, that ash seeketh embers."
+    artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
+    artist: "castaguer93"
+    number: 76
+
+card_clawed_curse:
+  front:
+    name: "Clawed Curse"
+    cost: "1B"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant player
+      At the beginning of enchanted player's upkeep, that player loses one life and removes one soul. You gain one life and get one soul.
+      Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      When ~ is turned face up attach it to target player. That player loses 3 life.
+    flavor_text: ""
+    artwork_url: "https://api.deepai.org/job-view-file/8375d8c1-339d-41c0-b9c0-f9c9f1746847/outputs/output.jpg"
+    artist: "deepai"
+    number: 77
+
+card_curse_of_the_dead:
+  front:
+    name: "Curse of the Dead"
+    cost: "2BB"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Mythic"
+    rules_text: |
+      Enchant player
+      Creatures enchanted player controls get -1/-1 and can't block.
+      Whenever a creature controlled by enchanted player dies you get one soul.
+    flavor_text: "Bearer of the curse... Seek souls, larger, more powerful souls. Lest this land swallow you whole..."
+    artwork_url: "https://www.deviantart.com/nele-diel/art/Village-of-the-Forgotten-With-Process-Video-685238094"
+    artist: "nele diel"
+    number: 78
+
+card_dark_edge:
+  front:
+    name: "Dark Edge"
+    cost: "BB"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      As an additional cost to cast ~ discard a card or pay {3}.
+      Choose one -
+      • Deal 5 damage to player. You gain 5 life.
+      • Destroy target nonblack creature. You gain life equal to it's toughness.
+      • Destroy target planeswalker. You gain life equal to it's loyalty.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/sarafiel/art/Black-Blade-of-the-Void-579307662"
+    artist: "sarafiel"
+    number: 79
+
+card_dark_hand_of_kaathe:
+  front:
+    name: "Dark Hand of Kaathe"
+    cost: "1B"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Target creature gets -2/-2 until end of turn. If that creature would die this way, remove two souls from that creature's controller and you get two souls."
+    flavor_text: "The Darkwraiths, incited by Kaathe, use the power of the dark soul to absorb humanity."
+    artwork_url: "https://i.ibb.co/V032tp12/dark-hand-of-kaathe-shimhaq-resize.jpg"
+    artist: "shimhaq"
+    number: 80
+
+card_darkwraith:
+  front:
+    name: "Darkwraith"
+    cost: "1BB"
+    super: ""
+    type: "Creature"
+    sub: "Wraith"
+    rarity: "Rare"
+    rules_text: "{4}{B}, {T}: Target player loses life equal to the number of souls they have. Remove three souls from that player. You get three souls."
+    flavor_text: "In the blink of an eye the ancients could sap the humanity of the most replete saint."
+    artwork_url: "https://i.ibb.co/chRVJvyH/darkwraith-moshi06185.jpg"
+    artist: "moshi06185"
+    number: 81
+    power: 2
+    toughness: 2
+
+card_deep_fog:
+  front:
+    name: "Deep Fog"
+    cost: "1BB"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+      You lose 3 life.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/oldskvll/art/OLDSKVLL-Treasury-055-1185671580"
+    artist: "OLDSKVLL"
+    number: 82
+
+card_frozen_reindeer:
+  front:
+    name: "Frozen Reindeer"
+    cost: "3BBB"
+    super: "Snow"
+    type: "Creature"
+    sub: "Zombie Antelope Horse"
+    rarity: "Rare"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      {T}: Target creature gets -3/-3 until end of turn.
+    flavor_text: "Prepare yourself, the blizzard is upon us."
+    artwork_url: "https://www.deviantart.com/naouriredouane1998/art/Snow-Creature-By-Naouri-Redouane-707182045"
+    artist: "naouriredouane1998"
+    number: 83
+    power: 5
+    toughness: 5
+
+card_grave_warden:
+  front:
+    name: "Grave Warden"
+    cost: "2B"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rules_text: "~ can't be blocked as long as you control another black or green permanent."
+    flavor_text: "Grave wardens were tasked with disposing of the ever rising corpses that plagued the cathedral. Their clothes are utterly putrid, drenched in the blood and mucilage of their undertaking."
+    artwork_url: "https://i.ibb.co/Mywwqhrj/grave-warden-eemeling-resize.jpg"
+    artist: "eemeling"
+    number: 84
+    power: 3
+    toughness: 2
+
+card_grave_wardens_tome:
+  front:
+    name: "Grave Warden's Tome"
+    cost: "3B"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      You may exile two cards, or a black card, from your hand instead of paying this spell's mana cost.
+      Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
+    flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
+    artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
+    artist: "pitchcha"
+    number: 85
+
+card_gravelord_nito:
+  front:
+    name: "Gravelord Nito"
+    cost: "5BBBBB"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Giant Skeleton Lord"
+    rarity: "Mythic"
+    rules_text: |
+      When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.
+      At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of 1/1 black Skeleton creature tokens equal to the  difference.
+      Whenever a creature dies you get one soul.
+    flavor_text: "Nito's soul turned him into a living manifestation of illness and death, a mass of skeletons held together by the miasma of the Death Soul."
+    artwork_url: "https://www.deviantart.com/vempirick/art/The-fire-will-fade-644323296"
+    artist: "vempirick"
+    number: 86
+    power: 10
+    toughness: 10
+
+card_grip_of_death:
+  front:
+    name: "Grip of Death"
+    cost: "BB"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      As an additional cost to cast ~, put the top two cards of your library into your graveyard.
+      Destroy target nonzombie, nonhollow creature. You lose 2 life and get two souls.
+    flavor_text: "In his lust for power, Wolnir devoured kings and gods alike—but the Abyss devours all, in time."
+    artwork_url: "https://i.ibb.co/hJDLLpDg/grip-of-death-dremorapeach-recolor.jpg"
+    artist: "dremorapeach"
+    number: 87
+
+card_hollow_soldier:
+  front:
+    name: "Hollow Soldier"
+    cost: "B"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Hollow"
+    rarity: "Common"
+    rules_text: "{B}: Return ~ from the graveyard to the battlefield tapped. Activate this ability only as a sorcery."
+    flavor_text: "Undead soldiers that have completely lost their minds. Their attacks are wild and relentless, without strategy or sense."
+    artwork_url: "https://i.ibb.co/d4qJwbv8/hollow-soldier-daverapoza-resize.jpg"
+    artist: "daverapoza"
+    number: 88
+    power: 1
+    toughness: 1
+
+card_hound_rat:
+  front:
+    name: "Hound Rat"
+    cost: "1B"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Rat"
+    rarity: "Common"
+    rules_text: "Deathtouch"
+    flavor_text: "Grotesquely swollen and ravenous, the Hound Rat stalks the filth-choked tunnels beneath fallen kingdoms."
+    artwork_url: "https://i.ibb.co/YF2jShN6/hound-rat-ovenbakedcheese-resize.jpg"
+    artist: "ovenbakedcheese"
+    number: 89
+    power: 1
+    toughness: 2
+
+card_jailer:
+  front:
+    name: "Jailer"
+    cost: "2B"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Uncommon"
+    rules_text: "{T}: Target creature's toughness becomes 1 until end of turn."
+    flavor_text: "The jailers were among the few survivors inhabiting the Profaned Capital, later serving under Pontiff Sulyvahn. Perhaps the screams emanating from the cells help them forget their old home.  "
+    artwork_url: "https://i.ibb.co/SwCt9zjV/jailer-fromsoft.jpg"
+    artist: "FromSoft"
+    number: 90
+    power: 1
+    toughness: 3
+
+card_lothric_sentry:
+  front:
+    name: "Lothric Sentry"
+    cost: "B"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rules_text: |
+      Zombie creatures you control get +1/+1
+      Other Hollow creatures you control get +1/+1
+    flavor_text: "Once famed and feared for their drake cavalry, the Lothric Knights fought bravely until slain, sworn faithful as one of the monarch's three pillars… still patrolling Lothric."
+    artwork_url: "https://www.deviantart.com/kotrozvidka/art/DARK-SOULS-III-LOTHRIC-GVNG-827848994"
+    artist: "kotrozvidka"
+    number: 91
+    power: 0
+    toughness: 1
+
+card_lordran_necromancer:
+  front:
+    name: "Lordran Necromancer"
+    cost: "3B"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Wizard"
+    rarity: "Uncommon"
+    rules_text: |
+      {1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
+      {T}: Target creature gets -1/-1 until end of turn.
+    flavor_text: "Followers of dark and forbidden rites, these conjurers defy the natural order. With lanterns lit by cursed flame, they bind bones to soul and soul to flame."
+    artwork_url: "https://www.deviantart.com/jasonengle/art/Dar-Thul-Raiser-of-the-dead-622493220"
+    artist: "jasonengle"
+    number: 92
+    power: 1
+    toughness: 2
+
+card_nimble_shadow:
+  front:
+    name: "Nimble Shadow"
+    cost: "1B"
+    super: ""
+    type: "Creature"
+    sub: "Hollow Assassin"
+    rarity: "Rare"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      {T}: Target creature gets a bleed counter. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+    flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
+    artwork_url: "https://api.deepai.org/job-view-file/3c00fd16-95c2-48dd-93ac-1c5ea6115400/outputs/output.jpg"
+    artist: "deepai"
+    number: 93
+    power: 2
+    toughness: 2
+
+card_parasite_worm:
+  front:
+    name: "Parasite Worm"
+    cost: "1B"
+    super: ""
+    type: "Creature"
+    sub: "Wurm"
+    rarity: "Common"
+    rules_text: "{G}: Until end of turn whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")"
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 94
+    power: 3
+    toughness: 1
+
+card_royal_rat_vanguard:
+  front:
+    name: "Royal Rat Vanguard"
+    cost: "3B"
+    super: ""
+    type: "Creature"
+    sub: "Giant Zombie Rat"
+    rarity: "Common"
+    rules_text: |
+      ~ gets +2/+2 for each rat you control.
+      Whenever ~ deals combat damage to a creature put two bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/gZLNQZ0t/royal-rat-vanguard.webp"
+    artist: "u/krakonner"
+    number: 95
+    power: 3
+    toughness: 3
+
+card_sift_through_the_ashes:
+  front:
+    name: "Sift through the Ashes"
+    cost: "XB"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      As an additional cost to cast ~ exile X permanent cards from your graveyard.
+      You draw X cards, lose X life, and get X souls.
+    flavor_text: "The fire has long since died, but ash remembers everything."
+    artwork_url: "https://i.ibb.co/gZ1v9PSB/sift-through-the-ashes-resize.jpg"
+    artist: "deepai"
+    number: 96
+
+card_skim_memories:
+  front:
+    name: "Skim Memories"
+    cost: "B"
+    super: ""
+    type: "sorcery"
+    sub: ""
+    rarity: "Rare"
+    rules_text: |
+      As an additional cost to cast ~, pay one soul.
+      Target player reveals his or her hand. You may choose a nonland card. That player discards that card.
+    flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
+    artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"
+    artist: "mario sanchez nevado"
+    number: 97
+
+card_the_great_swamp:
+  front:
+    name: "The Great Swamp"
+    cost: "B"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Rare"
+    rules_text: |
+      Enchant land
+      Enchanted land has "Each land you control is a Swamp in addition to its other land types. If you would tap a land for {B} it produces {B}{B} and deals 1 damage to you instead."
+    flavor_text: "It is here that pyromancy was born. A scorched and sunken land, where exiles kindle fire."
+    artwork_url: "https://cdna.artstation.com/p/assets/images/images/024/986/576/large/andres-cantillo-the-great-swamp-andres-cantillo.jpg?1584200736"
+    artist: "andres cantillo"
+    number: 98
+
+card_undead_hound:
+  front:
+    name: "Undead Hound"
+    cost: "1B"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Jackal"
+    rarity: "Common"
+    rules_text: |
+      Lifelink
+      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.
+    flavor_text: ""
+    artwork_url: "https://64.media.tumblr.com/7dd7cc14afed1b83a4f05d062b500c11/tumblr_mj9eb2ev6f1r426wco1_1280.jpg"
+    artist: "cloudminedesign"
+    number: 99
+    power: 2
+    toughness: 2
+
+card_wake_the_hollows:
+  front:
+    name: "Wake the Hollows"
+    cost: "2BB"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "Exile two target creature cards from your graveyard. Create four 1/1 colorless Hollow creature tokens onto the battlefield."
+    flavor_text: "In the land of ancient lords, not even death is rest."
+    artwork_url: "https://i.ibb.co/ccQgrcDz/wake-the-hollows-aland1w-resize.jpg"
+    artist: "aland1w"
+    number: 100
