@@ -228,18 +228,19 @@ card_flame_whip:
     artist: "asfodelo"
     number: 114
 
-card_flamewielding_undead:
+card_flamewielding_hollow:
   front:
-    name: "Flamewielding Undead"
-    cost: "1R"
+    name: "Flamewielding Hollow"
+    cost: "R"
     super: ""
     type: "Creature"
     sub: "Hollow Monk"
     rarity: "Common"
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+      If ~ leaves the battlefield, you get one soul.
       {T}: Deal X damage to target creature, where X is ~'s power.
-    flavor_text: "Pyromancy is at once the knowledge of controlling flame, and the knowledge that control is impossible."
+    flavor_text: "Pyromancy is the knowledge of controlling flame, and knowing that control is impossible."
     artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
     artist: "full maverick"
     number: 115
@@ -367,9 +368,10 @@ card_profuse_sweat:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Attach up to one target curse to target player.
-      Until end of turn creatures you control can't have bleed counters placed on them.
-      If a red source you don't control would deal damage this turn, that souce deals one less damage.
+      When you cast this spell you may pay {1} if you do draw a card and until end of turn creatures you control can't have bleed counters placed on them.
+      Choose one -
+      • Attach up to one target curse to target player.
+      • If a red source you don't control would deal damage this turn it deals one less damage.
     flavor_text: "The yellowish sweat cures all kinds of ailments."
     artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
     artist: "iamsointense"
@@ -465,9 +467,9 @@ card_sunlight_maggot:
     power: 0
     toughness: 1
 
-card_tarus_demon:
+card_taurus_demon:
   front:
-    name: "Tarus Demon"
+    name: "Taurus Demon"
     cost: "1RR"
     super: ""
     type: "Creature"

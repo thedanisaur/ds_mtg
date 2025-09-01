@@ -39,7 +39,7 @@ card_archdeacon_of_the_deep:
 card_baneful_queen_mytha:
   front:
     name: "Baneful Queen, Mytha"
-    cost: "1B/GB/GB/G"
+    cost: "B/GB/GB/G"
     super: "Legendary"
     type: "Creature"
     sub: "Naga Gorgon"
@@ -94,7 +94,7 @@ card_blade_of_the_darkmoon:
 card_carim_guardian:
   front:
     name: "Carim Guardian"
-    cost: "1G/WG/W"
+    cost: "G/WG/W"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -102,7 +102,7 @@ card_carim_guardian:
     rules_text: |
       Vigilance
       Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.
-    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside. You here, in this land of Hollows, you're like a frail maiden on the front lines."
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside. You here, in this land of Hollows, you're like a frail maiden."
     artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
     artist: "drawsouls"
     number: 166
