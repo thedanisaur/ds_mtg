@@ -404,7 +404,7 @@ card_solaire_of_astora:
   front:
     name: "Solaire of Astora"
     cost: "W"
-    super: ""
+    super: "Legendary"
     type: "Creature"
     sub: "Human Knight"
     rarity: "Uncommon"
