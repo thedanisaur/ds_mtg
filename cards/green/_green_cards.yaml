@@ -45,7 +45,7 @@ card_alluring_skull:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Target creature you control deals damage equal to it's power to target attacking or blocking creature an opponent controls."
+    rules_text: "Target creature you control deals damage equal to it's power to target creature an opponent controls. If a creature you control would die this way draw a card."
     flavor_text: "A skull with meekly lingering souls. Hollows are lured by it, and drawn toward it, often completely disregarding their own safety."
     artwork_url: "https://www.deviantart.com/jesar/art/Desktopography-2014-Disposition-484475345"
     artist: "jesar"
@@ -63,8 +63,8 @@ card_amana_aberration:
       {T}: Add {B} or {U} to your mana pool
       Morph {G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       When ~ is turned face up, Choose one -
-      Target player draws two cards.
-      Target player discards two cards.
+      • Target player draws two cards.
+      • Target player discards two cards.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/morkardfc/art/Sketch-3-703941934"
     artist: "MorkarDFC"
@@ -83,6 +83,7 @@ card_contrasted_cursed:
     rules_text: |
       Enchant player
       Creatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)
+      Whenever you attack defending player loses life equal to the number of souls they have. Then they remove half their souls rounded up.
     flavor_text: "Occasionally, you'll want to be cursed."
     artwork_url: ""
     artist: ""
@@ -102,15 +103,21 @@ card_corrode:
     artist: "anikoo"
     number: 135
 
-card_creeping_corrosion:
+card_covenant_of_the_forest_hunter:
   front:
-    name: "Creeping Corrosion"
-    cost: "2GG"
+    name: "Covenant of the Forest Hunter"
+    cost: "GGGG"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Destroy all artifacts."
+    rules_text: |
+      You may exile a green card from your hand rather than pay this spell's mana cost.
+      Choose one -
+      • Destroy all artifacts.
+      • Destroy all enchantments.
+      • Target player sacrifices a creature with flying.
+      • Exile all cards from all graveyards.
     flavor_text: "One day, all you see will become dust."
     artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
     artist: "thegoblincoach"
@@ -151,17 +158,19 @@ card_dukes_dear_freja:
     power: 3
     toughness: 5
 
-card_ent:
+card_ent_of_the_darkroot_garden:
   front:
-    name: "Ent"
-    cost: "2G"
+    name: "Ent of the Darkroot Garden"
+    cost: "GG"
     super: ""
     type: "Creature"
     sub: "Treefolk"
     rarity: "Common"
     rules_text: |
       Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      Whenever ~ is turned face up put two +1/+1 counters on it.
+      Whenever ~ is turned face up choose one -
+      • Put two +1/+1 counters on it.
+      • Return target card from your graveyard to your hand.
     flavor_text: |
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
@@ -263,7 +272,9 @@ card_hollow_knight:
     type: "Creature"
     sub: "Hollow Knight"
     rarity: "Common"
-    rules_text: "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn."
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul and you may pay {2}{G}, if you do you may return a permanent card from your graveyard to your hand.
+      {1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
     artist: "tithendar"
@@ -298,7 +309,8 @@ card_milfanito:
     sub: "Human"
     rarity: "Common"
     rules_text: |
-      Nonhollow creature spells you control can't be countered.
+      When ~ enters the battlefield draw a card.
+      Pay three souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
       {T}: Add {G} to your mana pool.
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
@@ -399,7 +411,8 @@ card_sentinel:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "{G}, {T}: ~ fights another target creature. (Each deals damage equal to its power to the other.). Use this ability only any time you could cast a sorcery."
+    rules_text: |
+      {G}, {T}: ~ fights another target creature (Each deals damage equal to its power to the other.). Use this ability only any time you could cast a sorcery.
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
     artist: "legendary memory"
@@ -412,7 +425,7 @@ card_shaded_woods:
     name: "Shaded Woods"
     cost: "2G"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
     rarity: "Common"
     rules_text: "Search your library for two basic Forest cards and put them onto the battlefield tapped. You may pay four souls. If you do, untap those lands."
@@ -464,7 +477,7 @@ card_undead_aberration:
     sub: "Mutant Hollow"
     rarity: "Common"
     rules_text: |
-      As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
+      As an additional cost to cast ~ reveal a Hollow card from your hand or pay {2}.
       Deathtouch
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?"
     artwork_url: ""

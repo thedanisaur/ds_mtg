@@ -273,9 +273,9 @@ card_miracle_of_the_way_of_white:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      As an additional cost to cast this spell pay one soul or {2}.
-      Exile target creature. It's controller gains souls equal to that creature's power.
-      At the beginning of your upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
+      As an additional cost to cast this spell pay one soul or {1}.
+      Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
+      At the beginning of your upkeep you may pay {4}{W}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
     artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
     artist: "dnd"
@@ -400,6 +400,24 @@ card_siegmeyer_of_catarina:
     frame: "Double-Faced: Night"
     color_indicator: "White"
 
+card_solaire_of_astora:
+  front:
+    name: "Solaire of Astora"
+    cost: "W"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rules_text: |
+      When ~ enters the battlefield you may exile a white card from your hand, if you do create a 3/3 white human ally creature token named Phantom. It has haste.
+      Each player can't draw more than one card each turn.
+    flavor_text: "The sun is beautiful, if only I could be so grossly incandescent!"
+    artwork_url: "https://i.ibb.co/nsnV1p1n/solaire-of-astora-pateas-illustration-resize.jpg"
+    artist: "jakubjagoda"
+    number: 32
+    power: 2
+    toughness: 1
+
 card_soul_of_a_nameless_soldier:
   front:
     name: "Soul of a Nameless Soldier"
@@ -414,24 +432,6 @@ card_soul_of_a_nameless_soldier:
     flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
     artwork_url: "https://www.deviantart.com/luis-bello/art/The-Portal-862719596"
     artist: "Luis Bello"
-    number: 32
-    power: ""
-    toughness: ""
-
-card_sunlight_blade:
-  front:
-    name: "Sunlight Blade"
-    cost: "W"
-    super: ""
-    type: "Enchantment"
-    sub: "Aura"
-    rarity: "Uncommon"
-    rules_text: |
-      Enchant Equipment
-      Enchanted equipment gains "Equipped creature gets +1/+0 and has first strike."
-    flavor_text: "The sun grants life to all things upon the earth, even if the worshipers of sunlight no longer bless the surface with their presence."
-    artwork_url: "https://www.deviantart.com/jakubjagoda/art/By-The-Light-1050885910"
-    artist: "jakubjagoda"
     number: 33
 
 card_swollen_mongrel:

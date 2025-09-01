@@ -84,7 +84,7 @@ card_chosen_undead:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      Target player sacrifices a Legendary creature. If that player doesn't, they sacrifice a creature instead.
+      Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
       You get one soul.
       At the beginning of your upkeep you may pay {1}{B}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The Unkindled will rise. Nameless, accursed Undead, unfit even to be cinder. And so it is, that ash seeketh embers."
@@ -235,7 +235,7 @@ card_grave_wardens_tome:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      You may exile two cards, or a black card, from your hand instead of paying this spell's mana cost.
+      You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.
       Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
     artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
@@ -285,8 +285,10 @@ card_hollow_soldier:
     type: "Creature"
     sub: "Zombie Hollow"
     rarity: "Common"
-    rules_text: "{B}: Return ~ from the graveyard to the battlefield tapped. Activate this ability only as a sorcery."
-    flavor_text: "Undead soldiers that have completely lost their minds. Their attacks are wild and relentless, without strategy or sense."
+    rules_text: |
+      If ~ leaves the battlefield, you get one soul.
+      {B}: Return ~ from the graveyard to the battlefield tapped. When it enters the battlefield target creature gets -1/-1 until end of turn.
+    flavor_text: "Undead soldiers that have completely lost their minds. Their attacks are wild and relentless."
     artwork_url: "https://i.ibb.co/d4qJwbv8/hollow-soldier-daverapoza-resize.jpg"
     artist: "daverapoza"
     number: 88
@@ -471,6 +473,7 @@ card_undead_hound:
     rarity: "Common"
     rules_text: |
       Lifelink
+      When ~ enters the battlefield target player loses life equal to the number of souls they have.
       Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.
     flavor_text: ""
     artwork_url: "https://64.media.tumblr.com/7dd7cc14afed1b83a4f05d062b500c11/tumblr_mj9eb2ev6f1r426wco1_1280.jpg"

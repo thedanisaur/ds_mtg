@@ -8,7 +8,7 @@ card_adventuring_sorcerer:
     rarity: "Common"
     rules_text: |
       When ~ enters the battlefield, look at the top four cards of your library. You may reveal an noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
-    flavor_text: "A loner who left formal academia to pursue further research."
+    flavor_text: "That should help you on your journey. May we meet again."
     artwork_url: "https://www.deviantart.com/elcryp7ostrike/art/Arcane-Warden-Shadows-of-the-Broken-City-1123425860"
     artist: "elcryp7ostrike"
     number: 41
@@ -458,6 +458,7 @@ card_vordt_and_the_dancer:
     sub: "Knight"
     rarity: "Mythic"
     rules_text: |
+      During combat if ~ would die due to damage, instead it doesn't.
       {B}, {T}: Target player discards a card.
       {U}{U}: Tap target creature an opponent controls.
       {1}: ~ gets +1/-1 until end of turn.
