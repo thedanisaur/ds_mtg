@@ -7,7 +7,7 @@ card_anri_of_astora:
     sub: "Human"
     rarity: "Rare"
     rules_text: |
-      First Strike. Lifelink.
+      First strike, lifelink
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Oh, Horace, where have you run off to? Have you abandoned me?"
     artwork_url: "https://i.ibb.co/xKnr6MPb/anri-of-astora-front-blacknivalis-resize.jpg"
@@ -176,7 +176,7 @@ card_heavenly_thunder:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      For each attacking and blocking creature on the battlefield without Indestructible flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
+      For each attacking and blocking creature on the battlefield without indestructible flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
     flavor_text: "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes."
     artwork_url: "https://i.ibb.co/RkPTPX1p/heavenly-thunder-nanakoac-dflx854-pre.jpg"
     artist: "nanakoac"
@@ -240,7 +240,8 @@ card_knights_of_gwynevere:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
-    rules_text: "Lifelink. First Strike."
+    rules_text: |
+      First strike, lifelink
     flavor_text: "An order long scattered, their golden armor dulled and their miracles fading. Yet still they fight for the image of a goddess who abandoned the world."
     artwork_url: "https://img0.reactor.cc/pics/post/Silver-Knight-%28DS%29-DS-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B8-Dark-Souls-miso_kiccck-6770780.jpeg"
     artist: "miso kiccck"
@@ -366,7 +367,7 @@ card_resting_merchant:
 card_siegmeyer_of_catarina:
   front:
     name: "Siegmeyer of Catarina"
-    cost: "2WW"
+    cost: "2/GWW"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -427,6 +428,7 @@ card_soul_of_a_nameless_soldier:
     sub: ""
     rarity: "Common"
     rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
       When ~ enters the battlefield you may pay {W}, if you do each player draws a card.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
@@ -437,7 +439,7 @@ card_soul_of_a_nameless_soldier:
 card_swollen_mongrel:
   front:
     name: "Swollen Mongrel"
-    cost: "WWW"
+    cost: "1WW"
     super: ""
     type: "Creature"
     sub: "Mutant"

@@ -53,7 +53,7 @@ card_catalyst_of_the_witch_of_izalith:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
-      Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it\"
+      Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it. Then target player puts two cards from the top of their library into their graveyard.\"
       Equip {0}
     flavor_text: "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans."
     artwork_url: "https://i.ibb.co/N6WHbYSy/catalyst-of-the-witch-of-izalith-resize.jpg"
@@ -135,7 +135,7 @@ card_halberd:
     sub: "Equipment"
     rarity: "Common"
     rules_text: |
-      Equipped creature gets +2/+0 and has First Strike.
+      Equipped creature gets +2/+0 and has first strike.
       Equip {1}
     flavor_text: "Only the hollowed still carry it with pride, their memories long rusted away."
     artwork_url: "https://i.ibb.co/7JXPnh3H/halberd.jpg"
@@ -393,7 +393,7 @@ card_wolf_knights_greatshield:
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
-      Equipped creature has +1/+1 and Indestructible.
+      Equipped creature has +1/+1 and indestructible.
       Whenever the equipped creature blocks, you may draw a card.
       Equip {2}
     flavor_text: "Shield born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."

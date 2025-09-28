@@ -67,7 +67,8 @@ card_charred_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rules_text: "Lifelink. Deathtouch."
+    rules_text: |
+      Deathtouch, lifelink
     flavor_text: "The knights of Loyce tried to contain the Chaos, but it was too late. The flames had already ravaged their flesh."
     artwork_url: "https://i.ibb.co/4n4VCPW2/charred-knight-daverapoza-resize.jpg"
     artist: "daverapoza"
@@ -351,7 +352,7 @@ card_lordran_necromancer:
     cost: "3B"
     super: ""
     type: "Creature"
-    sub: "Zombie Wizard"
+    sub: "Hollow Zombie Wizard"
     rarity: "Uncommon"
     rules_text: |
       {1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.

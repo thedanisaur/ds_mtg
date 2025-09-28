@@ -250,7 +250,7 @@ card_flamewielding_hollow:
 card_forbidden_sun:
   front:
     name: "Forbidden Sun"
-    cost: "5RR"
+    cost: "3RR"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -287,7 +287,7 @@ card_hollow_infantry:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rules_text: "Create two 1/1 colorless Hollow creature tokens onto the battlefield. Those creatures gain haste until end of turn."
+    rules_text: "Create two 1/1 colorless Hollow creature tokens. Those creatures gain haste until end of turn."
     flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
     artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
     artist: "stepalex"
@@ -372,6 +372,7 @@ card_profuse_sweat:
       Choose one -
       • Attach up to one target curse to target player.
       • If a red source you don't control would deal damage this turn it deals one less damage.
+      • Creatures you control gain haste until end of turn.
     flavor_text: "The yellowish sweat cures all kinds of ailments."
     artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
     artist: "iamsointense"
