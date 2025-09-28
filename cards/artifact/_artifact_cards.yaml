@@ -352,7 +352,7 @@ card_storm_ruler:
     sub: "Equipment"
     rarity: "Mythic"
     rules_text: |
-      Equiped creature gets +2/+0
+      Equipped creature gets +2/+0
       Whenever equipped creature attacks, defending player sacrifices a giant. If they do, sacrifice ~.
       Equip {2}
     flavor_text: "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder."
