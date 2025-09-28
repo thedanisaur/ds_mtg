@@ -57,7 +57,7 @@ card_amana_aberration:
     cost: "1G"
     super: ""
     type: "Creature"
-    sub: "Wizard"
+    sub: "Hollow Wizard"
     rarity: "Common"
     rules_text: |
       {T}: Add {B} or {U} to your mana pool
@@ -210,7 +210,7 @@ card_expected_companions:
     artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
     artist: "sanekyle"
     number: 141
-    power: 2
+    power: 3
     toughness: 3
 
 card_festering_goblin:
@@ -236,7 +236,7 @@ card_gaping_dragon:
     cost: "2GG"
     super: "Legendary"
     type: "Creature"
-    sub: "Dragon"
+    sub: "Demon Dragon"
     rarity: "Uncommon"
     rules_text: |
       Deathtouch
@@ -291,14 +291,14 @@ card_lothric_knight:
     sub: "Knight"
     rarity: "Common"
     rules_text: |
-      First Strike
-      As long as ~ is equipped it gets +1/+1.
+      First strike
+      ~ gets +1/+1 for each Equipment attached to it.
     flavor_text: "Knights of the royal order of Lothric, once sworn to the flame, now roam the halls hollow, relentless, and proud."
     artwork_url: "https://i.ibb.co/tpz1zy00/lothric-knight-resize.jpg"
     artist: "Draegore Nagendra"
     number: 146
     power: 4
-    toughness: 3
+    toughness: 4
 
 card_milfanito:
   front:
@@ -403,7 +403,7 @@ card_seek_embers:
     artist: "pitchcha"
     number: 152
 
-card_sentinel:
+card_sentinel_of_the_tower_of_flame:
   front:
     name: "Sentinel of the Tower of Flame"
     cost: "3GG"
@@ -412,7 +412,8 @@ card_sentinel:
     sub: "Giant"
     rarity: "Common"
     rules_text: |
-      {G}, {T}: ~ fights another target creature (Each deals damage equal to its power to the other.). Use this ability only any time you could cast a sorcery.
+      Vigilance
+      {G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If a creature would be destroyed this way, untap ~.
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
     artist: "legendary memory"
@@ -428,7 +429,9 @@ card_shaded_woods:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Search your library for two basic Forest cards and put them onto the battlefield tapped. You may pay four souls. If you do, untap those lands."
+    rules_text: |
+      Search your library for two basic Forest cards and put them onto the battlefield tapped.
+      You may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.
     flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
     artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
     artist: "emkun"
@@ -442,7 +445,9 @@ card_souls_of_the_living:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rules_text: "Whenever a creature enters the battlefield under your control, you get one soul."
+    rules_text: |
+      Whenever a creature enters the battlefield under, you get one soul.
+      When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
     artist: "TimforShadeDigital"
@@ -457,7 +462,7 @@ card_the_serpent_king:
     sub: "Hydra"
     rarity: "Uncommon"
     rules_text: |
-      Reach, vigilance
+      Vigilance, reach
       ~ can't be blocked except by three or more creatures.
       Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       When ~ is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.

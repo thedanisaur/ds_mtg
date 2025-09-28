@@ -59,7 +59,7 @@ card_four_kings:
     rarity: "Uncommon"
     rules_text: |
       ~ can't be blocked.
-      {4}: ~ gains Flying and First Strike until end of turn.
+      {4}: ~ gains flying and first strike until end of turn.
       When ~ leaves the battlefield, each player gets four souls.
     flavor_text: "After acquiring the Dark Soul they became consumed by the very Abyss they sought to control."
     artwork_url: "https://i.ibb.co/GfCWLSVf/four-kings-oniruu-vulpes-ibculta-resize.jpg"
@@ -77,7 +77,7 @@ card_hollow:
     sub: "Hollow"
     rarity: "Common"
     rules_text: "When ~ leaves the battlefield, you get two souls."
-    flavor_text": "All undead will, one day, lose their mind and go Hollow.
+    flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
     artist: "floxyart"
     number: 5

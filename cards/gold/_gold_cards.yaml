@@ -1,13 +1,13 @@
 card_ancient_wyvern:
   front:
     name: "Ancient Wyvern"
-    cost: "W/RW/RW/RW/RW/R"
+    cost: "R/WR/WR/WR/WR/W"
     super: ""
     type: "Creature"
     sub: "Dragon"
     rarity: "Rare"
     rules_text: |
-      Flying. Indestructible. Haste.
+      Flying, indestructible, haste
       {R}: ~ gets +1/+0 until end of turn.
       When ~ blocks or becomes blocked by a creature with first strike or double strike, sacrifice it.
     flavor_text: "Born of chaos with the soul of a demon and the strength of fire."
@@ -76,7 +76,7 @@ card_bed_of_chaos:
 card_blade_of_the_darkmoon:
   front:
     name: "Blade of the Darkmoon"
-    cost: "U/WU/W"
+    cost: "W/UW/U"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -112,7 +112,7 @@ card_carim_guardian:
 card_dark_sigil:
   front:
     name: "Dark Sigil"
-    cost: "R/B"
+    cost: "B/R"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -145,7 +145,7 @@ card_disembodied_wisp:
 card_dragonslayer_and_executioner:
   front:
     name: "Dragonslayer and Executioner"
-    cost: "W/GW/GW/G"
+    cost: "G/WG/WG/W"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -289,7 +289,7 @@ card_king_of_the_storm:
     sub: "Namless King Lord"
     rarity: "Mythic"
     rules_text: |
-      {+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, prowess, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
+      {+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)
       {-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.
       {-5}: Target players life total becomes 5. Destroy all nondragon creatures your opponents control.
     flavor_text: ""
@@ -402,7 +402,7 @@ card_ruin_sentinels:
     super: ""
     type: "Creature"
     sub: "Giant"
-    rarity: "Uncommon"
+    rarity: "Common"
     rules_text: "~ gets +2/+2 for each other creature you control named ~."
     flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
     artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"
@@ -478,7 +478,7 @@ card_yhorm_the_giant:
     sub: "Giant Lord"
     rarity: "Rare"
     rules_text: |
-      First strike. Reach.
+      First strike, reach
       {B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
       Whenever ~ is put into the graveyard from the battlefield you may pay {2}. If you do, return another target creature card from your graveyard to your hand.
     flavor_text: ""

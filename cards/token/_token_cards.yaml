@@ -40,8 +40,8 @@ card_hollow:
     rarity: "Common"
     rules_text: ""
     flavor_text: ""
-    artwork_url: "https://i.ibb.co/N2P2NQdv/hollow-hamsta180-resize.jpg"
-    artist: "hamsta180"
+    artwork_url: "https://i.ibb.co/Q7zYVCHM/hollow-fromsoft.jpg"
+    artist: "fromsoft"
     number: 3
     power: 1
     toughness: 1
@@ -118,7 +118,8 @@ card_ornstein:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "First strike"
+    rules_text: |
+      First strike
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Y46427v2/ornstein-evs-eme.jpg"
     artist: "evs eme"
