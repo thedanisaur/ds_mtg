@@ -21,6 +21,7 @@ card_bloodbite_ring:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature can't have bleed counters placed on it.
       Equip {1}
     flavor_text: "Despite the dreadful rumors surrounding its creation, this ring is an unmistakable asset."
@@ -37,6 +38,7 @@ card_broadsword:
     sub: "Equipment"
     rarity: "Common"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +1/+0 and has \"This creature can't be blocked by creatures with toughness two or less.\"
       Equip {1}
     flavor_text: "I've seen your kind, time and time again. Such is the conceit of the self proclaimed seeker of truth. But in the end, you lack the stomach. "
@@ -53,7 +55,8 @@ card_catalyst_of_the_witch_of_izalith:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
-      Equipped creature has, \"Whenever this creature becomes tapped you may pay {1}, if you do untap it. Then target player puts two cards from the top of their library into their graveyard.\"
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has, \"Whenever this creature becomes tapped you may untap it. If you do, target player puts two cards from the top of their library into their graveyard.\"
       Equip {0}
     flavor_text: "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans."
     artwork_url: "https://i.ibb.co/N6WHbYSy/catalyst-of-the-witch-of-izalith-resize.jpg"
@@ -71,6 +74,7 @@ card_chloranthy_ring:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has vigilance.
       Equip {0}
     flavor_text: "This old ring is named for its decorative green blossom, but its luster is long since faded."
@@ -87,7 +91,7 @@ card_cursed_greatsword:
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
-      As an additional cost to cast ~, discard an equipment card.
+      As an additional cost to cast ~, discard an artifact or equipment card.
       Equipped creature gets +4/-1 and has shadow.
       You may have the equipped creature assign its combat damage as though it weren't blocked.
       Equip {1}
@@ -133,8 +137,9 @@ card_halberd:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Uncommon"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +2/+0 and has first strike.
       Equip {1}
     flavor_text: "Only the hollowed still carry it with pride, their memories long rusted away."
@@ -183,6 +188,7 @@ card_hornet_ring:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has deathtouch.
       Equip {B}
     flavor_text: "The masked Ciaran granted a swift death to any and all enemies of the throne."
@@ -229,7 +235,7 @@ card_metaleater_spider:
     sub: "Spider"
     rarity: "Common"
     rules_text: |
-      When ~ enters the battlefield, destroy target Equipment.
+      When ~ enters the battlefield, destroy up to two target equipment.
       Reach.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
@@ -273,14 +279,14 @@ card_ring_of_a_great_warrior:
 card_ring_of_favor:
   front:
     name: "Ring of Favor"
-    cost: 2
+    cost: 1
     super: ""
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
       Equipped creature gets +1/+1 and has indestructible and vigilance.
-      Equip {2}
+      Equip {3}
     flavor_text: "May the Goddess Fina favor you."
     artwork_url: "https://i.ibb.co/TqdBPZJt/ring-of-favor.jpg"
     artist: "fromsoft"
@@ -313,6 +319,7 @@ card_silver_serpent_ring:
     sub: "Equipment"
     rarity: "Common"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has "Whenever this creature deals damage, you get one soul."
       Equip {1}
     flavor_text: "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony."
@@ -339,13 +346,14 @@ card_soul_syphoner:
 card_storm_ruler:
   front:
     name: "Storm Ruler"
-    cost: 3
+    cost: 2
     super: ""
     type: "Artifact"
     sub: "Equipment"
     rarity: "Mythic"
     rules_text: |
-      Whenever equipped creature attacks, defending player sacrifices a Giant.
+      Equiped creature gets +2/+0
+      Whenever equipped creature attacks, defending player sacrifices a giant. If they do, sacrifice ~.
       Equip {2}
     flavor_text: "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder."
     artwork_url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/11/storm-ruler-dark-souls-3.jpg"
@@ -361,6 +369,7 @@ card_talisman_of_the_way_of_white:
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature can't be the target of spells or abilities.
       Equip {W}
     flavor_text: ""
@@ -377,6 +386,7 @@ card_uchigatana:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Whenever a creature equipped with ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
       Equip {1}
     flavor_text: "The soul never notices it's already bled dry."
