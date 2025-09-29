@@ -51,7 +51,6 @@ card_bonfire:
     sub: "Bonfire"
     rarity: "Rare"
     rules_text: |
-      {T}: Add {1} to your mana pool.
       {T}, Sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.
     flavor_text: "Ah, a bonfire!"
     artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
