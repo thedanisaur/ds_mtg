@@ -12,14 +12,30 @@ if __name__ == '__main__':
 
     # Get sorted list of image files
     count = 0
-    image_markdown = '\n'
+    row_open = False
+    image_markdown = '\n<table>\n'
     for folder in order:
         for file in sorted(os.listdir(f"{folder_path}/{folder}/")):
             if file.lower().endswith(image_extensions):
                 formatted_title = file.rsplit('.', 1)[0].replace('_', ' ').title()
-                # Generate Markdown for images
-                # image_markdown += f"![{formatted_title}]({folder_path}/{folder}/{file})\n"
-                image_markdown += f'<img src="{folder_path}/{folder}/{file}" alt="{formatted_title}" width="400" />&nbsp;'
+                if count % 2 == 0:
+                    if row_open:
+                        image_markdown += "</tr>\n"
+                    image_markdown += "<tr>\n"
+                    row_open = True
+
+                # Add image with title above
+                image_markdown += f"""    <td align="center">
+        <strong>{formatted_title}</strong><br/>
+        <img src="{folder_path}/{folder}/{file}" alt="{formatted_title}" width="400"/>
+    </td>\n"""
+
+                count += 1
+
+    # Close the last open row and the table
+    if row_open:
+        image_markdown += "</tr>\n"
+    image_markdown += "</table>\n"
 
     # Read the existing Markdown file
     with open(markdown_file, "r", encoding="utf-8") as file:
