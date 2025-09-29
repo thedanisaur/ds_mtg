@@ -5,7 +5,7 @@ if __name__ == '__main__':
     folder_path = "./cards"
     markdown_file = "README.md"
     section_header = "## Full Set"
-    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'token', ]
+    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'token', 'basic']
 
     # Supported image types
     image_extensions = ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.svg', '.webp')
