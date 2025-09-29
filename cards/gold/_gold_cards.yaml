@@ -433,7 +433,8 @@ card_splintering_lightning:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "~ deals 2 damage to up to X target creatures, players, and/or planeswalkers. You may choose the same creature and or player multiple times. You gain X life."
+    rules_text: |
+      ~ deals 2 damage to up to X targets. You may choose the same target multiple times. You gain X life.
     flavor_text: "Mirrah's knights did not pray for mercy. They prayed for power—and it thunderously answered."
     artwork_url: "https://i.ibb.co/Rp1JpLmx/splintering-lightning-junaidi.jpg"
     artist: "junaidi"
