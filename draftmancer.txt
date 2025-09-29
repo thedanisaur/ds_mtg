@@ -73,10 +73,10 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/flexile_sentry.jpeg"
 },
 {
-    "name": "Great Magic Barrier",
-    "type": "Instant",
-    "mana_cost": "{1}{W}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/great_magic_barrier.jpeg"
+    "name": "Forossa Lion Knight",
+    "type": "Creature",
+    "mana_cost": "{2/W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/forossa_lion_knight.jpeg"
 },
 {
     "name": "Infested Corpse",
@@ -123,7 +123,7 @@
 {
     "name": "Swollen Mongrel",
     "type": "Creature",
-    "mana_cost": "{1}{W}{W}",
+    "mana_cost": "{W}{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg"
 },
 {
@@ -999,7 +999,7 @@
 {
     "name": "Siegmeyer of Catarina",
     "type": "Creature",
-    "mana_cost": "{2/G}{W}{W}",
+    "mana_cost": "{W}{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina.jpeg"
 },
 {
@@ -1385,7 +1385,7 @@
 15 Corrupted Hollow
 15 Disenchant
 15 Flexile Sentry
-15 Great Magic Barrier
+15 Forossa Lion Knight
 15 Infested Corpse
 15 Insolent Spirits
 15 Knights of Gwynevere
