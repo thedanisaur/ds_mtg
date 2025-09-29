@@ -368,10 +368,10 @@ card_profuse_sweat:
     sub: ""
     rarity: "Common"
     rules_text: |
-      When you cast this spell you may pay {1} if you do draw a card and until end of turn creatures you control can't have bleed counters placed on them.
-      Choose one -
+      You may pay an additional {1} as you cast this spell if you do choose two, else choose one -
+      • Draw a card.
+      • Until end of turn creatures you control can't have bleed counters placed on them.
       • Attach up to one target curse to target player.
-      • If a red source you don't control would deal damage this turn it deals one less damage.
       • Creatures you control gain haste until end of turn.
     flavor_text: "The yellowish sweat cures all kinds of ailments."
     artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
