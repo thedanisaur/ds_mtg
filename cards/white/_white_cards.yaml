@@ -367,7 +367,7 @@ card_resting_merchant:
 card_siegmeyer_of_catarina:
   front:
     name: "Siegmeyer of Catarina"
-    cost: "2/GWW"
+    cost: "WWW"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -439,7 +439,7 @@ card_soul_of_a_nameless_soldier:
 card_swollen_mongrel:
   front:
     name: "Swollen Mongrel"
-    cost: "1WW"
+    cost: "WWW"
     super: ""
     type: "Creature"
     sub: "Mutant"
