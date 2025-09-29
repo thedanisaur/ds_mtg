@@ -188,10 +188,8 @@ card_estus:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Put one card from the top of your library into your graveyard. Repeat this process for each bonfire you control.
-      Return a permanent card from your graveyard to your hand.
-      Whenever a bonfire enters the battlefield under your control you may return ~ from your graveyard to your hand.
-      Exile another card from your graveyard: Return target bonfire card from your graveyard to the battlefield. Activate this ability only if ~ is in your graveyard.
+      Put a card from the top of your library into your graveyard for each land you control, then choose a permanent card in your graveyard. Return that card to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
