@@ -152,20 +152,23 @@ card_flexile_sentry:
     power: 2
     toughness: 2
 
-card_great_magic_barrier:
+card_forossa_lion_knight:
   front:
-    name: "Great Magic Barrier"
-    cost: "1W"
+    name: "Forossa Lion Knight"
+    cost: "2/WW"
     super: ""
-    type: "Instant"
-    sub: ""
+    type: "Creature"
+    sub: "Human Knight"
     rarity: "Common"
     rules_text: |
-      Prevent all damage that would be dealt to you, creatures, and planeswalkers you control this turn.
-    flavor_text: "Born out of hatred for magic this powerful spell now exists as a relic of bygone wars, its use has faded into obscurity."
-    artwork_url: "https://i.pinimg.com/736x/3e/0c/20/3e0c2004819704c449821877cbc7d73e.jpg"
-    artist: ""
+      When ~ attacks create a 1/1 white Human creature token that's tapped and attacking.
+      If ~ would be dealt damage by a source that's red prevent 1 of that damage.
+    flavor_text: "Through Faraam's blessing, our blades know no fear in flame."
+    artwork_url: "https://i.ibb.co/b5cST3cy/dark-souls-dark-souls-ii-video-games-sword-wallpaper-preview.jpg"
+    artist: "fromsoft"
     number: 18
+    power: 2
+    toughness: 2
 
 card_heavenly_thunder:
   front:
@@ -259,7 +262,7 @@ card_magic_barrier:
     rarity: "Common"
     rules_text: |
       When you cast this spell you may pay {W} if you do draw a card.
-      Return target non-creature spell to its owner's hand. You get one soul.
+      Return target spell to its owner's hand. You get one soul.
     flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
     artwork_url: "https://i.ibb.co/kVCszZpr/magic-barrier-eluria14.jpg"
     artist: "eluria14"
@@ -367,7 +370,7 @@ card_resting_merchant:
 card_siegmeyer_of_catarina:
   front:
     name: "Siegmeyer of Catarina"
-    cost: "2/GWW"
+    cost: "WWW"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -439,7 +442,7 @@ card_soul_of_a_nameless_soldier:
 card_swollen_mongrel:
   front:
     name: "Swollen Mongrel"
-    cost: "1WW"
+    cost: "WWW"
     super: ""
     type: "Creature"
     sub: "Mutant"
