@@ -188,8 +188,8 @@ card_estus:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Target creature gets +2/+2 until end of turn. You gain 2 life.
-      At the beginning of your upkeep you may pay {1}{G}. If you do, return ~ from your graveyard to your hand.
+      Put a card from the top of your library into your graveyard for each land you control, then choose a permanent card in your graveyard. Return that card to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
