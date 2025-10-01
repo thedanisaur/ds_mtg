@@ -26,7 +26,7 @@ card_archdeacon_of_the_deep:
     sub: "Wizard"
     rarity: "Rare"
     rules_text: |
-      Other Wizards you control get +1/+1.
+      Other Wizards you control get +1/+1 and have prowess.
       Whenever a Wizard you control dies you get one soul.
       {3}{U}{R}, {T}: Create a 1/1 blue and red Wizard creature token.
     flavor_text: "The deacons were once keepers of the dead, until the Deep began to whisper. Now they serve a saint whose hunger made a god of him."
@@ -158,8 +158,8 @@ card_dragonslayer_and_executioner:
     artwork_url: "https://i.ibb.co/v4Yw0gZr/dragonslayer-and-executioner-ron-faure-resize.jpg"
     artist: "ron faure"
     number: 169
-    power: 2
-    toughness: 2
+    power: 3
+    toughness: 3
 
 card_ember:
   front:
@@ -192,8 +192,8 @@ card_fume_knight:
     artwork_url: "https://i.pinimg.com/474x/b1/45/2d/b1452dc10c0189b2bd7d1acbc3551590.jpg"
     artist: "Raime"
     number: 171
-    power: 2
-    toughness: 2
+    power: 3
+    toughness: 3
 
 card_gravelords_maelstrom:
   front:
@@ -236,12 +236,14 @@ card_hawkeye_gough:
     type: "Creature"
     sub: "Giant Knight"
     rarity: "Rare"
-    rules_text: "{1}{R/G}, {T}: Deal 5 damage to target creature with flying."
+    rules_text: |
+      Haste
+      {1}{R/G}, {T}, pay two souls: Deal 5 damage to target creature with flying.
     flavor_text: "We were no match for the dragons. Their scales are as tough as steel. The strength of a thousand men… would be insufficient."
     artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/160145919_156393993002460_7498443105228099006_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kRtaRczYsFgQ7kNvwHxyyub&_nc_oc=AdkM9tRMr0iza7RCcogkI-J0xVVUSq4XcQwv2g545EGiZHp0_kJ_yYKp_2MFsO1a-yg&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=apiiHdQ9c86Qd7FCx4i2uQ&oh=00_AfMxstaQppX2ZzIJMbr9wIoLyHYaa0HbI9BYhrT2lNtGeQ&oe=68866AEA"
     artist: "Lucky Robin"
     number: 174
-    power: 3
+    power: 4
     toughness: 4
 
 card_iudex_gundyr:
@@ -254,6 +256,7 @@ card_iudex_gundyr:
     rarity: "Rare"
     rules_text: |
       When ~ enters the battlefield, you get two souls and you lose 2 life.
+      At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana cost.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Gundyr became a sheath to a coiled sword in the hopes that someday, the first flame would be linked once more. "
     artwork_url: "https://i.ibb.co/j9sdRj4K/iudex-gundyr-oniruu.jpg"
