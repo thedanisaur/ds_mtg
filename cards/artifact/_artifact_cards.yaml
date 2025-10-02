@@ -132,11 +132,11 @@ card_eyes_of_a_fire_keeper:
 card_halberd:
   front:
     name: "Halberd"
-    cost: 1
+    cost: 2
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Uncommon"
+    rarity: "Common"
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +2/+0 and has first strike.
@@ -187,7 +187,6 @@ card_hornet_ring:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has deathtouch.
       Equip {B}
     flavor_text: "The masked Ciaran granted a swift death to any and all enemies of the throne."
@@ -278,7 +277,7 @@ card_ring_of_a_great_warrior:
 card_ring_of_favor:
   front:
     name: "Ring of Favor"
-    cost: 1
+    cost: 2
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -317,7 +316,6 @@ card_silver_serpent_ring:
     sub: "Equipment"
     rarity: "Common"
     rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has "Whenever this creature deals damage, you get one soul."
       Equip {1}
     flavor_text: "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony."
@@ -350,8 +348,7 @@ card_storm_ruler:
     sub: "Equipment"
     rarity: "Mythic"
     rules_text: |
-      Equipped creature gets +2/+0
-      Whenever equipped creature attacks, defending player sacrifices a giant. If they do, sacrifice ~.
+      Whenever equipped creature attacks, defending player sacrifices a giant.
       Equip {2}
     flavor_text: "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder."
     artwork_url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/11/storm-ruler-dark-souls-3.jpg"
@@ -361,7 +358,7 @@ card_storm_ruler:
 card_talisman_of_the_way_of_white:
   front:
     name: "Talisman of the Way of White"
-    cost: "W"
+    cost: "WW"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -370,8 +367,8 @@ card_talisman_of_the_way_of_white:
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature can't be the target of spells or abilities.
       Equip {W}
-    flavor_text: ""
-    artwork_url: ""
+    flavor_text: "You defense increases, only with Faith. "
+    artwork_url: "https://i.ibb.co/r1SpQxT/talisman-of-the-way-of-white-aelinlaerfineart-resize.jpg"
     artist: ""
     number: 208
 
@@ -386,7 +383,7 @@ card_uchigatana:
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Whenever a creature equipped with ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
-      Equip {1}
+      Equip {2}
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
     artist: "Asymoney"
