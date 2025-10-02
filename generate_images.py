@@ -26,8 +26,8 @@ if __name__ == '__main__':
 
                 # Add image with title above
                 image_markdown += f"""    <td align="center">
-        <strong>{formatted_title}</strong><br/>
-        <img src="{folder_path}/{folder}/{file}" alt="{formatted_title}" width="400"/>
+        <img src="{folder_path}/{folder}/{file}" alt="{formatted_title}" width="400"/><br/>
+        <strong>{formatted_title}</strong>
     </td>\n"""
 
                 count += 1
