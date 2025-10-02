@@ -87,7 +87,6 @@ card_cursed_greatsword:
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
-      As an additional cost to cast ~, discard an equipment card.
       Equipped creature gets +4/-1 and has shadow.
       You may have the equipped creature assign its combat damage as though it weren't blocked.
       Equip {1}

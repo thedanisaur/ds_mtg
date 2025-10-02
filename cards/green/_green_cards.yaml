@@ -188,7 +188,7 @@ card_estus:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Put a card from the top of your library into your graveyard and gain one life for each land you control, then choose a permanent card in your graveyard. Return that card to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Put a card from the top of your library into your graveyard. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
       Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
@@ -346,7 +346,7 @@ card_pagan_tree:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rules_text: "Tap two untapped creatures you control: Green spells you control cost {2}{G}{G} less to cast."
+    rules_text: "Tap two untapped creatures you control: Green spells you control cost {2}{G}{G} less to cast this turn."
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
     artist: "Glenn Porter"
@@ -447,8 +447,8 @@ card_souls_of_the_living:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Whenever a creature enters the battlefield under your control, you get one soul.
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
+      Whenever a creature enters the battlefield under your control, you get one soul.
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
     artist: "TimforShadeDigital"

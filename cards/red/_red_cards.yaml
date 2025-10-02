@@ -154,9 +154,9 @@ card_fire_orb:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      When you cast ~ you may pay {R}{R}. If you do, ~ deals 2 damage to any target.
-      ~ deals 2 damage to any target. You get one soul.
-      Whenever you gain one or more souls at the beginning of your next upkeep you may pay {1}{R}. If you do, return ~ from your graveyard to your hand.
+      As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
+      ~ deals 2 damage to any target.
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The flame rewards those with a thirst of power."
     artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
     artist: "pizza"
