@@ -170,21 +170,6 @@ card_forossa_lion_knight:
     power: 2
     toughness: 2
 
-card_heavenly_thunder:
-  front:
-    name: "Heavenly Thunder"
-    cost: "2WWW"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Uncommon"
-    rules_text: |
-      For each attacking and blocking creature on the battlefield without indestructible flip a coin. If it comes up heads, exile that creature. You get two souls for each creature exiled this way.
-    flavor_text: "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes."
-    artwork_url: "https://i.ibb.co/RkPTPX1p/heavenly-thunder-nanakoac-dflx854-pre.jpg"
-    artist: "nanakoac"
-    number: 19
-
 card_infested_corpse:
   front:
     name: "Infested Corpse"
@@ -199,7 +184,7 @@ card_infested_corpse:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
     artist: "cucdn"
-    number: 20
+    number: 19
     power: 1
     toughness: 1
 
@@ -217,7 +202,7 @@ card_insolent_spirits:
     flavor_text: "A party who long ago attempted to conquer the Undead Crypt. For this sin their deaths have been postponed, so they may serve as crypt sentries."
     artwork_url: "https://i.ibb.co/60fvgpZ7/insolent-spirits-datguy13-resize.jpg"
     artist: "datguy13"
-    number: 21
+    number: 20
     power: 4
     toughness: 4
 
@@ -233,7 +218,7 @@ card_karmic_justice:
     flavor_text: "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment."
     artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
     artist: "cobaltplasma"
-    number: 22
+    number: 21
 
 card_knights_of_gwynevere:
   front:
@@ -248,9 +233,24 @@ card_knights_of_gwynevere:
     flavor_text: "An order long scattered, their golden armor dulled and their miracles fading. Yet still they fight for the image of a goddess who abandoned the world."
     artwork_url: "https://img0.reactor.cc/pics/post/Silver-Knight-%28DS%29-DS-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B8-Dark-Souls-miso_kiccck-6770780.jpeg"
     artist: "miso kiccck"
-    number: 23
+    number: 22
     power: 2
     toughness: 2
+
+card_lightning_spear:
+  front:
+    name: "Lightning Spear"
+    cost: "1W"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.
+    flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
+    artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
+    artist: "4c"
+    number: 23
 
 card_magic_barrier:
   front:
