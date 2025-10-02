@@ -197,28 +197,28 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <strong>Heavenly Thunder</strong><br/>
-        <img src="./cards/white/heavenly_thunder.jpeg" alt="Heavenly Thunder" width="400"/>
-    </td>
-    <td align="center">
         <strong>Infested Corpse</strong><br/>
         <img src="./cards/white/infested_corpse.jpeg" alt="Infested Corpse" width="400"/>
     </td>
-</tr>
-<tr>
     <td align="center">
         <strong>Insolent Spirits</strong><br/>
         <img src="./cards/white/insolent_spirits.jpeg" alt="Insolent Spirits" width="400"/>
     </td>
+</tr>
+<tr>
     <td align="center">
         <strong>Karmic Justice</strong><br/>
         <img src="./cards/white/karmic_justice.jpeg" alt="Karmic Justice" width="400"/>
     </td>
-</tr>
-<tr>
     <td align="center">
         <strong>Knights Of Gwynevere</strong><br/>
         <img src="./cards/white/knights_of_gwynevere.jpeg" alt="Knights Of Gwynevere" width="400"/>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <strong>Lightning Spear</strong><br/>
+        <img src="./cards/white/lightning_spear.jpeg" alt="Lightning Spear" width="400"/>
     </td>
     <td align="center">
         <strong>Magic Barrier</strong><br/>
