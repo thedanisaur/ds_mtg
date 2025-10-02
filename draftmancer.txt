@@ -128,14 +128,14 @@
 },
 {
     "name": "Tears of Denial",
-    "type": "Instant",
+    "type": "Enchantment",
     "mana_cost": "{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg"
 },
 {
     "name": "Transient Curse",
     "type": "Instant",
-    "mana_cost": "{W}",
+    "mana_cost": "{1}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/transient_curse.jpeg"
 },
 {
@@ -207,7 +207,7 @@
 {
     "name": "Hooded Sorcerer",
     "type": "Creature",
-    "mana_cost": "{1}{U}",
+    "mana_cost": "{U}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg"
 },
 {
@@ -441,7 +441,7 @@
 {
     "name": "Crystal Lizard",
     "type": "Creature",
-    "mana_cost": "{1}{G}{G}",
+    "mana_cost": "{G}{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/crystal_lizard.jpeg"
 },
 {
@@ -465,7 +465,7 @@
 {
     "name": "Festering Goblin",
     "type": "Creature",
-    "mana_cost": "{1}{G}",
+    "mana_cost": "{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/festering_goblin.jpeg"
 },
 {
@@ -625,16 +625,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg"
 },
 {
-    "name": "Heavenly Thunder",
-    "type": "Instant",
-    "mana_cost": "{2}{W}{W}{W}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heavenly_thunder.jpeg"
-},
-{
     "name": "Karmic Justice",
     "type": "Instant",
     "mana_cost": "{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
+},
+{
+    "name": "Lightning Spear",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg"
 },
 {
     "name": "Mirrah Warrior",
@@ -675,7 +675,7 @@
 {
     "name": "Ashen Estus",
     "type": "Instant",
-    "mana_cost": "{1}{U}",
+    "mana_cost": "{U}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg"
 },
 {
@@ -1017,13 +1017,13 @@
 {
     "name": "Fume Sorcerer",
     "type": "Creature",
-    "mana_cost": "{2}{U}",
+    "mana_cost": "{1}{U}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg"
 },
 {
     "name": "Outrider Knight",
     "type": "Creature",
-    "mana_cost": "{U}{U}{U}",
+    "mana_cost": "{U}{U}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg"
 },
 {
@@ -1479,8 +1479,8 @@
 7 Four Kings
 7 Looking Glass Knight
 7 Sif, the Great Grey Wolf
-7 Heavenly Thunder
 7 Karmic Justice
+7 Lightning Spear
 7 Mirrah Warrior
 7 Petrified Egg
 7 Solaire of Astora

@@ -45,7 +45,7 @@ card_alluring_skull:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Target creature you control deals damage equal to it's power to target creature an opponent controls. If a creature you control would die this way draw a card."
+    rules_text: "Target creature you control deals damage equal to it's power to target creature an opponent controls. If a creature would die this way draw a card."
     flavor_text: "A skull with meekly lingering souls. Hollows are lured by it, and drawn toward it, often completely disregarding their own safety."
     artwork_url: "https://www.deviantart.com/jesar/art/Desktopography-2014-Disposition-484475345"
     artist: "jesar"
@@ -126,7 +126,7 @@ card_covenant_of_the_forest_hunter:
 card_crystal_lizard:
   front:
     name: "Crystal Lizard"
-    cost: "1GG"
+    cost: "GG"
     super: ""
     type: "Creature"
     sub: "Lizard"
@@ -148,14 +148,14 @@ card_dukes_dear_freja:
     sub: "Giant Spider Lord"
     rarity: "Uncommon"
     rules_text: |
-      Reach
+      Reach, trample
       {B}{B}: ~ gains deathtouch until end of turn.
       {1}{G}: Until end of turn whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.
     flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
     artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
     artist: "tatarskiskandal"
     number: 138
-    power: 3
+    power: 4
     toughness: 5
 
 card_ent_of_the_darkroot_garden:
@@ -188,7 +188,7 @@ card_estus:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Put a card from the top of your library into your graveyard for each land you control, then choose a permanent card in your graveyard. Return that card to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Put a card from the top of your library into your graveyard and gain one life for each land you control, then choose a permanent card in your graveyard. Return that card to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
       Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
@@ -216,19 +216,20 @@ card_expected_companions:
 card_festering_goblin:
   front:
     name: "Festering Goblin"
-    cost: "1G"
+    cost: "G"
     super: ""
     type: "Creature"
     sub: "Goblin"
     rarity: "Common"
     rules_text: |
-      Whenever ~ deals combat damage to a creature put a bleed counter on that creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      {T}: Add {G} to your mana pool.
+      Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"
     number: 142
-    power: 2
-    toughness: 2
+    power: 0
+    toughness: 1
 
 card_gaping_dragon:
   front:
@@ -239,7 +240,7 @@ card_gaping_dragon:
     sub: "Demon Dragon"
     rarity: "Uncommon"
     rules_text: |
-      Deathtouch
+      Deathtouch, reach, trample
       Whenever ~ deals damage to a creature destroy each equipment attached to that creature.
     flavor_text: "Consumed by a ravenous and eternal hunger, the Gaping Dragon is a tragic perversion of its noble ancestors."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
@@ -345,7 +346,7 @@ card_pagan_tree:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rules_text: "Tap two untapped creatures you control: Green spells you control cost {G}{G} less to cast."
+    rules_text: "Tap two untapped creatures you control: Green spells you control cost {2}{G}{G} less to cast."
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
     artist: "Glenn Porter"
@@ -397,7 +398,7 @@ card_seek_embers:
     rarity: "Common"
     rules_text: |
       As an additional cost to cast ~ pay X souls.
-      Search your library for a Planeswalker or Legendary creature card with converted mana cost less than or equal to X, reveal that card and put it into your hand.
+      Search your library for a planeswalker or creature card with converted mana cost less than or equal to X, reveal that card and put it into your hand.
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
@@ -412,7 +413,7 @@ card_sentinel_of_the_tower_of_flame:
     sub: "Giant"
     rarity: "Common"
     rules_text: |
-      Vigilance
+      Vigilance, trample
       {G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If a creature would be destroyed this way, untap ~.
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
@@ -446,7 +447,7 @@ card_souls_of_the_living:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Whenever a creature enters the battlefield under, you get one soul.
+      Whenever a creature enters the battlefield under your control, you get one soul.
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
@@ -463,7 +464,7 @@ card_the_serpent_king:
     rarity: "Uncommon"
     rules_text: |
       Vigilance, reach
-      ~ can't be blocked except by three or more creatures.
+      ~ can't be countered and can't be blocked except by three or more creatures.
       Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       When ~ is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.
     flavor_text: ""
@@ -483,7 +484,7 @@ card_undead_aberration:
     rarity: "Common"
     rules_text: |
       As an additional cost to cast ~ reveal a Hollow card from your hand or pay {2}.
-      Deathtouch
+      Deathtouch, trample
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?"
     artwork_url: ""
     artist: ""

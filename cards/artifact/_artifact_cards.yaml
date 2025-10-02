@@ -198,7 +198,7 @@ card_iron_golem:
     type: "Artifact Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "Noncreature spells cost {1} more to cast."
+    rules_text: "Noncreature spells cost {2} more to cast."
     flavor_text: "Those who survive the traps of Sen's Fortress are few, but fewer still are those who defeat the guardian at its summit."
     artwork_url: "https://www.deviantart.com/luffie/art/Iron-Golem-872315137"
     artist: "luffie"
@@ -263,7 +263,7 @@ card_ring_of_a_great_warrior:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
-      Equipped creature has \"{0}: Attach target Equipment to this creature. Activate this ability only once per turn and only when you could cast a sorcery.\".
+      Equipped creature has \"When this creature attacks, creatures defending player controls lose indestructible until end of turn. {0}: Attach target Equipment to this creature. Activate this ability only on your turn.\".
       Equip {1}
     flavor_text: "War, war never changes."
     artwork_url: "https://cdn.shopify.com/s/files/1/0556/4442/2319/files/1_e07bf03c-95c8-4fac-8bf0-462537775ad5_600x600.jpg?v=1744344676"
@@ -295,7 +295,6 @@ card_ring_of_sacrifice:
     sub: ""
     rarity: "Mythic"
     rules_text: |
-      If ~ would enter the battlefield and was not cast from your hand exile it instead.
       {T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
     flavor_text: ""
     artwork_url: ""

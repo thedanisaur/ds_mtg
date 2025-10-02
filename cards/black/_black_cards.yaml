@@ -288,7 +288,7 @@ card_hollow_soldier:
     rarity: "Common"
     rules_text: |
       If ~ leaves the battlefield, you get one soul.
-      {B}: Return ~ from the graveyard to the battlefield tapped. When it enters the battlefield target creature gets -1/-1 until end of turn.
+      {B}: Return ~ from the graveyard to the battlefield. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.
     flavor_text: "Undead soldiers that have completely lost their minds. Their attacks are wild and relentless."
     artwork_url: "https://i.ibb.co/d4qJwbv8/hollow-soldier-daverapoza-resize.jpg"
     artist: "daverapoza"
@@ -374,7 +374,8 @@ card_nimble_shadow:
     rarity: "Rare"
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      {T}: Target creature gets a bleed counter. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      You may choose to not untap ~ during your untap step
+      {T}: Target creature gets a bleed counter. As long as ~ is tapped that creature cannot have bleed counters removed from it. Activate this ability only during your turn.
     flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
     artwork_url: "https://api.deepai.org/job-view-file/3c00fd16-95c2-48dd-93ac-1c5ea6115400/outputs/output.jpg"
     artist: "deepai"
@@ -390,7 +391,9 @@ card_parasite_worm:
     type: "Creature"
     sub: "Wurm"
     rarity: "Common"
-    rules_text: "{G}: Until end of turn whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")"
+    rules_text: |
+      As long as ~ is an enchantment it is not a creature.
+      {B}{B}{B}: Parasite Worm becomes an Enchanment Aura and gains "Enchant Creature", return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -408,7 +411,7 @@ card_royal_rat_vanguard:
     rarity: "Common"
     rules_text: |
       ~ gets +2/+2 for each rat you control.
-      Whenever ~ deals combat damage to a creature put two bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Whenever ~ deals damage to a player put one bleed counter each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gZLNQZ0t/royal-rat-vanguard.webp"
     artist: "u/krakonner"
