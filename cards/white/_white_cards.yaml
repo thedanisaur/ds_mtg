@@ -360,7 +360,7 @@ card_resting_merchant:
     rules_text: |
       You may cast ~ at any time you could cast and instant.
       When ~ enters the battlefield, return a creature you control to its owner's hand.
-      Non-creature spells cost {1} more to cast.
+      Noncreature spells cost {1} more to cast.
     flavor_text: "I may be a petty thief, but I do hope I can be of help."
     artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
     artist: "pirozhochek"
@@ -470,9 +470,9 @@ card_tears_of_denial:
       As ~ enters the battlefield choose a card name. Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack and their activated abilities can't be activated.
       Whenever a creature you control dies, sacrifice ~.
       Pay three souls, exile ~: draw a card.
-    flavor_text: "Intended to grant the dying a few moments for a final farewell. Tears are shed for the sake of the living, more so than the deceased."
-    artwork_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1311a2a-d197-499c-a9be-ca8af01bdd4e/dfojv9o-c85dc12a-d3d3-41ec-b320-cc8837c4c8d8.jpg/v1/fit/w_450,h_450,q_70,strp/3_by_warm_tail_dfojv9o-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJz"
-    artist: "warmtail"
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/themefinland/art/Deflector-apprentice-777597967"
+    artist: "themefinland"
     number: 35
 
 card_transient_curse:

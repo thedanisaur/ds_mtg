@@ -393,7 +393,7 @@ card_parasite_worm:
     rarity: "Common"
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
-      {B}{B}{B}: Parasite Worm becomes an Enchanment Aura and gains "Enchant Creature", return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature.
+      {B}{B}{B}: Parasite Worm becomes an Enchanment Aura and gains "Enchant creature", return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -410,7 +410,7 @@ card_royal_rat_vanguard:
     sub: "Giant Zombie Rat"
     rarity: "Common"
     rules_text: |
-      ~ gets +2/+2 for each rat you control.
+      ~ gets +2/+2 for each other rat you control.
       Whenever ~ deals damage to a player put one bleed counter each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gZLNQZ0t/royal-rat-vanguard.webp"
