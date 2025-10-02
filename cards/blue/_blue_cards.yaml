@@ -24,7 +24,7 @@ card_amana_priestess:
     sub: "Wizard"
     rarity: "Common"
     rules_text: |
-      {X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability.
+      {X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability. If X is greater than 2 put a -1/-1 counter on ~.
     flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
     artwork_url: "https://i.ibb.co/k2hPhL3H/amana-priestess-cubehero-resize.jpg"
     artist: "cubehero"
@@ -42,7 +42,7 @@ card_angelic_knight:
     rarity: "Uncommon"
     rules_text: |
       Flying
-      When ~ enters the battlefield Scry 2.
+      When ~ enters the battlefield Scry 3 and you get three souls.
       When ~ becomes the target of a spell or ability your opponent controls, you may pay three souls. If you do counter that spell or ability.
     flavor_text: "Once heralds of the Angelic Faith, these fierce warriors were deemed heretical, and they were hunted."
     artwork_url: "https://www.deviantart.com/nikt2/art/Greatest-Angel-knight-by-Nikt-1500-535962773"
@@ -54,7 +54,7 @@ card_angelic_knight:
 card_ashen_estus:
   front:
     name: "Ashen Estus"
-    cost: "1U"
+    cost: "U"
     super: ""
     type: "Instant"
     sub: ""
@@ -105,7 +105,7 @@ card_burning_ambition:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Choose target creature. Pay X souls, where X is that creature's converted mana cost. Gain control of chosen creature."
+    rules_text: "As an additional cost to cast ~ pay X souls. Gain control of target creature who's mana cost is equal to X."
     flavor_text: "My knights are never far from my gaze."
     artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
     artist: "dvktheartist"
@@ -120,7 +120,7 @@ card_chameleon:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Scry 2. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"
+      Scry 2. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)"
     flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
     artwork_url: "https://i.ibb.co/sJVmxbZz/chameleon-romandubina-resize.jpg"
     artist: "romandubina"
@@ -135,7 +135,6 @@ card_contemplation:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      As an additional cost to cast ~ pay one soul.
       Draw two cards, then put one card from your hand on top of your library.
     flavor_text: "The mage was naive, he thought he could fix something that was broken."
     artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
@@ -177,7 +176,7 @@ card_dual_charm:
 card_fume_sorcerer:
   front:
     name: "Fume Sorcerer"
-    cost: "2U"
+    cost: "1U"
     super: ""
     type: "Creature"
     sub: "Zombie Wizard"
@@ -243,12 +242,12 @@ card_homing_soul_mass:
 card_hooded_sorcerer:
   front:
     name: "Hooded Sorcerer"
-    cost: "1U"
+    cost: "U"
     super: ""
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rules_text: "{T}: Scry 2. You get one soul."
+    rules_text: "{T}: Scry 1. You get one soul."
     flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
     artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
     artist: "MistyStream26391"
@@ -264,7 +263,7 @@ card_into_the_abyss:
     type: "Enchantment"
     sub: ""
     rarity: "Mythic"
-    rules_text: "{U}{U}{U}: You get one soul. Shuffle your library then reveal the top card. If the revealed card is an instant or sorcery card, then you may pay a number of souls equal to that cards converted mana cost. If you do, cast that card wihout paying it's mana cost."
+    rules_text: "{U}{U}{U}: You get three souls. Shuffle your library then reveal the top card. If the revealed card is an instant, sorcery, or artifact card, then you may pay a number of souls equal to that card's converted mana cost. If you do, cast that card wihout paying it's mana cost."
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
     artist: "nahelus"
@@ -335,7 +334,7 @@ card_old_sorcerer:
 card_outrider_knight:
   front:
     name: "Outrider Knight"
-    cost: "UUU"
+    cost: "UU"
     super: ""
     type: "Creature"
     sub: "Knight Beast"
@@ -427,7 +426,7 @@ card_soul_stream:
     rarity: "Rare"
     rules_text: |
       As and additional cost to cast ~ pay X souls.
-      Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls paid to cast ~.
+      Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls spent to cast ~.
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/1YFzRvhK/arcane-blast-by-morkardfc-damygij-pre.jpg"
     artist: "morkardfc"
@@ -441,7 +440,7 @@ card_spined_hedgehog:
     type: "Creature"
     sub: "Spike"
     rarity: "Uncommon"
-    rules_text: "Whenever ~ attacks you may pay {1}, if you do, target player shuffles his or her library. Then that player puts the top two cards of his or her library into his or her graveyard."
+    rules_text: "Whenever ~ deals damage target player shuffles his or her library and then puts cards from the top of his or her library into his or her graveyard equal to ~'s power'."
     flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
     artwork_url: "https://api.deepai.org/job-view-file/0f1d1fac-e073-4a12-ac78-f70554c28633/outputs/output.jpg"
     artist: "deepai"

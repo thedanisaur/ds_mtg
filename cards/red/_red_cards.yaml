@@ -119,7 +119,7 @@ card_desert_pyromancer:
     rarity: "Common"
     rules_text: |
       Haste
-      {1}{R}, {T}: ~ deals 2 damage to any target.
+      {1}{R}, {T}, pay two souls: ~ deals 2 damage to any target.
     flavor_text: "The flame reveals all, and obscures all."
     artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
     artist: "hachiyuki"
@@ -154,8 +154,9 @@ card_fire_orb:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      ~ deals 1 damage to any target. You get one soul.
-      At the beginning of your upkeep you may pay {1}{R}. If you do, return ~ from your graveyard to your hand.
+      As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
+      ~ deals 2 damage to any target.
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The flame rewards those with a thirst of power."
     artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
     artist: "pizza"
@@ -171,7 +172,7 @@ card_fire_surge:
     rarity: "Common"
     rules_text: |
       You may pay two souls rather than pay this spell's mana cost.
-      Until end of turn, target creature gains "{R}: This creature gets +1/+0 until end of turn."
+      Until end of turn, target creature gets +1/+0 and gains "{R}: This creature gets +1/+0 until end of turn."
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
     artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
     artist: "jasontn"
@@ -271,7 +272,7 @@ card_hellkite_wyvern:
     rarity: "Rare"
     rules_text: |
       Flying, first strike
-      When ~ leaves the battlefield search your library for an equipment card and put it onto the battlefield.
+      When ~ leaves the battlefield search your library for an artifact card with converted mana cost three or less and put it onto the battlefield.
     flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
     artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
     artist: "a. tarzia"
@@ -352,8 +353,8 @@ card_profaned_flame:
     rarity: "Common"
     rules_text: |
       Choose one -
-      Deal 4 damage to target creature.
-      Deal 4 damage to target player or planeswalker. ~ deals 2 damage to you.
+      • Deal 4 damage to target creature.
+      • Deal 4 damage to target player or planeswalker. ~ deals 2 damage to you.
     flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
     artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
     artist: "fantasyworldonline"
@@ -386,7 +387,7 @@ card_rapport:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rules_text: "Gain control of target nonhollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is a Human. If that creature would be sacrificed this way, you get one soul."
+    rules_text: "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get one soul."
     flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
     artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
     artist: "kaido7794"

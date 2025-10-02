@@ -92,7 +92,7 @@ card_leydia_witch:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rules_text: "{W}, {T}: Deal 2 damage to target attacking or blocking creature."
+    rules_text: "{W}, {T}, pay one soul: Deal 1 damage to target attacking or blocking creature."
     flavor_text: "It is said that we must not disturb the dead. But must we do so, it must be done with honor."
     artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
     artist: "John Devlin"
