@@ -437,18 +437,18 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/blue/soul_spear.jpeg" alt="Soul Spear" width="400"/><br/>
-        <strong>Soul Spear</strong>
+        <img src="./cards/blue/soul_of_an_unknown_traveler.jpeg" alt="Soul Of An Unknown Traveler" width="400"/><br/>
+        <strong>Soul Of An Unknown Traveler</strong>
     </td>
     <td align="center">
-        <img src="./cards/blue/soul_stream.jpeg" alt="Soul Stream" width="400"/><br/>
-        <strong>Soul Stream</strong>
+        <img src="./cards/blue/soul_spear.jpeg" alt="Soul Spear" width="400"/><br/>
+        <strong>Soul Spear</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/blue/spined_hedgehog.jpeg" alt="Spined Hedgehog" width="400"/><br/>
-        <strong>Spined Hedgehog</strong>
+        <img src="./cards/blue/soul_stream.jpeg" alt="Soul Stream" width="400"/><br/>
+        <strong>Soul Stream</strong>
     </td>
     <td align="center">
         <img src="./cards/blue/vordt_and_the_dancer.jpeg" alt="Vordt And The Dancer" width="400"/><br/>

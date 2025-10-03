@@ -402,6 +402,23 @@ card_search_the_library:
     artist: "tavenerscholar"
     number: 65
 
+card_soul_of_an_unknown_traveler:
+  front:
+    name: "Soul of an Unknown Traveler"
+    cost: 0
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
+      When ~ enters the battlefield you may pay {U}, if you do target player puts one card from the top of his or her library for each spell cast this turn.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
+    artwork_url: "https://www.deviantart.com/luis-bello/art/Distance-is-nothing-853519891"
+    artist: "Luis Bello"
+    number: 66
+
 card_soul_spear:
   front:
     name: "Soul Spear"
@@ -414,7 +431,7 @@ card_soul_spear:
     flavor_text: "The spear is testament to Logan's strength in battle."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moonpool-Teleport-585703577"
     artist: "cobaltplasma"
-    number: 66
+    number: 67
 
 card_soul_stream:
   front:
@@ -430,23 +447,7 @@ card_soul_stream:
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/1YFzRvhK/arcane-blast-by-morkardfc-damygij-pre.jpg"
     artist: "morkardfc"
-    number: 67
-
-card_spined_hedgehog:
-  front:
-    name: "Spined Hedgehog"
-    cost: "1U"
-    super: ""
-    type: "Creature"
-    sub: "Spike"
-    rarity: "Uncommon"
-    rules_text: "Whenever ~ deals damage target player shuffles his or her library and then puts cards from the top of his or her library into his or her graveyard equal to ~'s power'."
-    flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
-    artwork_url: "https://api.deepai.org/job-view-file/0f1d1fac-e073-4a12-ac78-f70554c28633/outputs/output.jpg"
-    artist: "deepai"
     number: 68
-    power: 2
-    toughness: 2
 
 card_vordt_and_the_dancer:
   front:
@@ -476,8 +477,10 @@ card_wall_spectre:
     super: ""
     type: "Creature"
     sub: "Spirit"
-    rarity: "Common"
-    rules_text: "Shadow (This creature can block or be blocked by only creatures with shadow.)"
+    rarity: "Uncommon"
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/HLRwg47x/wall-sprectre-adadia-resize.jpg"
     artist: "adadia"
