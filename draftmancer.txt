@@ -235,10 +235,10 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg"
 },
 {
-    "name": "Wall Spectre",
-    "type": "Creature",
-    "mana_cost": "{2}{U}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg"
+    "name": "Soul of an Unknown Traveler",
+    "type": "Enchantment",
+    "mana_cost": "{0}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
 {
     "name": "A Hero Gone Mad",
@@ -585,7 +585,7 @@
 {
     "name": "Halberd",
     "type": "Artifact",
-    "mana_cost": "{1}",
+    "mana_cost": "{2}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg"
 },
 {
@@ -703,10 +703,10 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/search_the_library.jpeg"
 },
 {
-    "name": "Spined Hedgehog",
+    "name": "Wall Spectre",
     "type": "Creature",
-    "mana_cost": "{1}{U}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/spined_hedgehog.jpeg"
+    "mana_cost": "{2}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg"
 },
 {
     "name": "Bonfire Ascetic",
@@ -1215,7 +1215,7 @@
 {
     "name": "Talisman of the Way of White",
     "type": "Artifact",
-    "mana_cost": "{W}",
+    "mana_cost": "{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/talisman_of_the_way_of_white.jpeg"
 },
 {
@@ -1335,7 +1335,7 @@
 {
     "name": "Storm Ruler",
     "type": "Artifact",
-    "mana_cost": "{3}",
+    "mana_cost": "{2}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/storm_ruler.jpeg"
 },
 {
@@ -1412,7 +1412,7 @@
 15 Lost spell from Oolacile
 15 Magic Denial
 15 Old Sorcerer
-15 Wall Spectre
+15 Soul of an Unknown Traveler
 15 A Hero Gone Mad
 15 Dark Edge
 15 Dark Hand of Kaathe
@@ -1492,7 +1492,7 @@
 7 Pestilent Mercury
 7 Ruin Banshee
 7 Search the Library
-7 Spined Hedgehog
+7 Wall Spectre
 7 Bonfire Ascetic
 7 Carthus Rouge
 7 Charred Knight
