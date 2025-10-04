@@ -977,72 +977,72 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/gold/gael_seeker_of_ash.jpeg" alt="Gael Seeker Of Ash" width="400"/><br/>
-        <strong>Gael Seeker Of Ash</strong>
+        <img src="./cards/gold/gael_seeker_of_ash_back.jpeg" alt="Gael Seeker Of Ash Back" width="400"/><br/>
+        <strong>Gael Seeker Of Ash Back</strong>
     </td>
+    <td align="center">
+        <img src="./cards/gold/gael_seeker_of_ash_front.jpeg" alt="Gael Seeker Of Ash Front" width="400"/><br/>
+        <strong>Gael Seeker Of Ash Front</strong>
+    </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/gravelords_maelstrom.jpeg" alt="Gravelords Maelstrom" width="400"/><br/>
         <strong>Gravelords Maelstrom</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/gwyn_lord_of_cinder.jpeg" alt="Gwyn Lord Of Cinder" width="400"/><br/>
         <strong>Gwyn Lord Of Cinder</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/hawkeye_gough.jpeg" alt="Hawkeye Gough" width="400"/><br/>
         <strong>Hawkeye Gough</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/iudex_gundyr_back.jpeg" alt="Iudex Gundyr Back" width="400"/><br/>
         <strong>Iudex Gundyr Back</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/iudex_gundyr_front.jpeg" alt="Iudex Gundyr Front" width="400"/><br/>
         <strong>Iudex Gundyr Front</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/king_of_the_storm.jpeg" alt="King Of The Storm" width="400"/><br/>
         <strong>King Of The Storm</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/knight_artorias_back.jpeg" alt="Knight Artorias Back" width="400"/><br/>
         <strong>Knight Artorias Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/knight_artorias_front.jpeg" alt="Knight Artorias Front" width="400"/><br/>
         <strong>Knight Artorias Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/knight_lautrec_back.jpeg" alt="Knight Lautrec Back" width="400"/><br/>
         <strong>Knight Lautrec Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/knight_lautrec_front.jpeg" alt="Knight Lautrec Front" width="400"/><br/>
         <strong>Knight Lautrec Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/lorian_and_lothric.jpeg" alt="Lorian And Lothric" width="400"/><br/>
         <strong>Lorian And Lothric</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/ruin_sentinels.jpeg" alt="Ruin Sentinels" width="400"/><br/>
         <strong>Ruin Sentinels</strong>
-    </td>
-    <td align="center">
-        <img src="./cards/gold/slave_knight_gael.jpeg" alt="Slave Knight Gael" width="400"/><br/>
-        <strong>Slave Knight Gael</strong>
     </td>
 </tr>
 <tr>
