@@ -215,7 +215,7 @@ card_gwyn_lord_of_cinder:
     cost: "2/W2/U2/B2/R2/G"
     super: "Legendary"
     type: "Planeswalker"
-    sub: "Gwyn"
+    sub: "Gwyn Lord"
     rarity: "Mythic"
     rules_text: |
       When ~ enters the battlefield, return all creatures to their owner's hand.
@@ -289,7 +289,7 @@ card_king_of_the_storm:
     cost: "URW"
     super: "Legendary"
     type: "Planeswalker"
-    sub: "Namless King Lord"
+    sub: "Nameless King Lord"
     rarity: "Mythic"
     rules_text: |
       {+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)
@@ -386,7 +386,7 @@ card_lorian_and_lothric:
     cost: "3RW"
     super: "Legendary"
     type: "Planeswalker"
-    sub: "Lorian and Lothric Lord"
+    sub: "Lorian Lothric Lord"
     rarity: "Mythic"
     rules_text: |
       {+1}: Exile target tapped nonland permanent.
@@ -476,18 +476,18 @@ card_stream_of_estus:
 card_yhorm_the_giant:
   front:
     name: "Yhorm, the Giant"
-    cost: "1BRG"
+    cost: "1BRRGG"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Lord"
     rarity: "Rare"
     rules_text: |
-      First strike, reach
-      {B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
-      Whenever ~ is put into the graveyard from the battlefield you may pay {2}. If you do, return another target creature card from your graveyard to your hand.
+      Deathtouch, trample, reach
+      {3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
+      Whenever a creature you control deals 5 or more damage to a player destroy up to one target land.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/ynYx7W7b/yhorm-the-giant-dcp1173-resize.jpg"
     artist: "dcp1173"
     number: 185
-    power: 2
-    toughness: 4
+    power: 5
+    toughness: 7
