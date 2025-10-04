@@ -186,7 +186,7 @@ card_gael_seeker_of_ash:
     cost: "{3}{B/R}{B/R}{B/R}{B/R}"
     super: "Legendary"
     type: "Creature"
-    sub: "Human Knight Lord"
+    sub: "Knight Lord"
     rarity: "Rare"
     rules_text: |
       Haste
