@@ -763,10 +763,10 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/capra_demon.jpeg"
 },
 {
-    "name": "Ember Gargoyle",
-    "type": "Creature",
-    "mana_cost": "{3}{R}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ember_gargoyle.jpeg"
+    "name": "Fiery Soapstone",
+    "type": "Enchantment",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fiery_soapstone.jpeg"
 },
 {
     "name": "Firekeeper",
@@ -1502,7 +1502,7 @@
 7 Wake the Hollows
 7 Acid Surge
 7 Capra Demon
-7 Ember Gargoyle
+7 Fiery Soapstone
 7 Firekeeper
 7 Flame Whip
 7 Ignite Steel

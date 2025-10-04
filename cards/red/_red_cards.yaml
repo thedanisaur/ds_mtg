@@ -127,23 +127,22 @@ card_desert_pyromancer:
     power: 2
     toughness: 1
 
-card_ember_gargoyle:
+card_fiery_soapstone:
   front:
-    name: "Ember Gargoyle"
-    cost: "3R"
+    name: "Fiery Soapstone"
+    cost: "2R"
     super: ""
-    type: "Creature"
-    sub: "Gargoyle"
+    type: "Enchantment"
+    sub: ""
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield you may discard a card. If you do draw a card.
-      ~ can't attack unless an opponent controls a creature.
-    flavor_text: "Watching, waiting."
-    artwork_url: "https://i.ibb.co/zHt09VNy/ember-gargoyle-6kart-recolor.jpg"
-    artist: "6kart"
+      ~ enters with two effigy counters.
+      Whenever a lord leaves the battlefield put an effigy counter on ~.
+      {1}{R}, Remove an effigy counter from ~: You may put a creature from your hand onto the battlefield, it gains haste. Sacrifice it at the beginning of the next end step.
+    flavor_text: "The rippling sign from this soapstone can summon something far worse than a dark spirit."
+    artwork_url: "https://i.ibb.co/PvqBwLCn/fading-soapstone-resize.jpg"
+    artist: "rintindestiny"
     number: 109
-    power: 3
-    toughness: 4
 
 card_fire_orb:
   front:
