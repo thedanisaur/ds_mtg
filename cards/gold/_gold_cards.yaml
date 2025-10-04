@@ -356,7 +356,7 @@ card_knight_artorias:
     rules_text: |
       When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
       Whenever an opponent draws a card, you may draw a card.
-      {WUB}, {T}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
+      {W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
     flavor_text: "Indeed, the Abyss may be unstoppable."
     artwork_url: "https://i.ibb.co/LXPJ55nQ/knight-artorias-back-sane-kyle-resize.jpg"
     artist: "Sane Kyle"
