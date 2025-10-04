@@ -198,6 +198,8 @@ card_gael_seeker_of_ash:
     number: 171
     power: 7
     toughness: 4
+    frame: "Double-Faced: Day"
+    color_indicator: "black/red"
   back:
     name: "Slave Knight Gael"
     cost: ""
@@ -215,6 +217,8 @@ card_gael_seeker_of_ash:
     number: 171
     power: 7
     toughness: 7
+    frame: "Double-Faced: Night"
+    color_indicator: "black/red"
 
 card_gravelords_maelstrom:
   front:
