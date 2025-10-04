@@ -246,7 +246,7 @@ card_lightning_spear:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.
+      Exile target nonland permanent. That permanent's controller draws two cards at the beginning of their next upkeep.
     flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
     artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
     artist: "4c"

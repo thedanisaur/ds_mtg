@@ -1141,12 +1141,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
-    "name": "Dark Sigil",
-    "type": "Enchantment",
-    "mana_cost": "{B/R}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dark_sigil.jpeg"
-},
-{
     "name": "Dragonslayer and Executioner",
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
@@ -1163,6 +1157,12 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg"
+},
+{
+    "name": "Gael, Seeker of Ash",
+    "type": "Creature",
+    "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash.jpeg"
 },
 {
     "name": "Hawkeye Gough",
@@ -1191,7 +1191,7 @@
 {
     "name": "Yhorm, the Giant",
     "type": "Creature",
-    "mana_cost": "{1}{B}{R}{G}",
+    "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg"
 },
 {
@@ -1567,10 +1567,10 @@
 3 Archdeacon of the Deep
 3 Baneful Queen, Mytha
 3 Bed of Chaos
-3 Dark Sigil
 3 Dragonslayer and Executioner
 3 Ember
 3 Fume Knight
+3 Gael, Seeker of Ash
 3 Hawkeye Gough
 3 Iudex Gundyr
 3 Knight Lautrec
