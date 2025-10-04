@@ -651,8 +651,8 @@ Booster distribution
         <strong>Desert Pyromancer</strong>
     </td>
     <td align="center">
-        <img src="./cards/red/ember_gargoyle.jpeg" alt="Ember Gargoyle" width="400"/><br/>
-        <strong>Ember Gargoyle</strong>
+        <img src="./cards/red/fiery_soapstone.jpeg" alt="Fiery Soapstone" width="400"/><br/>
+        <strong>Fiery Soapstone</strong>
     </td>
 </tr>
 <tr>
