@@ -137,8 +137,8 @@ card_dragonslayer_and_executioner:
     rarity: "Rare"
     rules_text: |
       When ~ dies choose one -
-      Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
-      Create a 3/3 green Legendary Giant creature token with vigilance named Smough.
+      • Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
+      • Create a 3/3 green Legendary Giant creature token with vigilance named Smough.
     flavor_text: "When gods fled and thrones turned cold, Ornstein and Smough remained—not for glory, but for duty"
     artwork_url: "https://i.ibb.co/v4Yw0gZr/dragonslayer-and-executioner-ron-faure-resize.jpg"
     artist: "ron faure"
