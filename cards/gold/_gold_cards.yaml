@@ -109,21 +109,6 @@ card_carim_guardian:
     power: 2
     toughness: 1
 
-card_dark_sigil:
-  front:
-    name: "Dark Sigil"
-    cost: "B/R"
-    super: ""
-    type: "Enchantment"
-    sub: ""
-    rarity: "Rare"
-    rules_text: |
-      {B}{R}: Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.
-    flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
-    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
-    artist: "kakeranoumi"
-    number: 167
-
 card_disembodied_wisp:
   front:
     name: "Disembodied Wisp"
@@ -138,7 +123,7 @@ card_disembodied_wisp:
     flavor_text: "In the Abyss, even souls lose their shape. What drifts there is not quite light… and not quite lost."
     artwork_url: "https://i.pinimg.com/564x/35/62/35/3562358f3106d0eee362e50dd956ce42.jpg"
     artist: "Ben Clifford"
-    number: 168
+    number: 167
     power: 0
     toughness: 1
 
@@ -157,7 +142,7 @@ card_dragonslayer_and_executioner:
     flavor_text: "When gods fled and thrones turned cold, Ornstein and Smough remained—not for glory, but for duty"
     artwork_url: "https://i.ibb.co/v4Yw0gZr/dragonslayer-and-executioner-ron-faure-resize.jpg"
     artist: "ron faure"
-    number: 169
+    number: 168
     power: 3
     toughness: 3
 
@@ -175,7 +160,7 @@ card_ember:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/C5ryGN1M/EMBER-alex-bezhko.jpg"
     artist: "alex bezhko"
-    number: 170
+    number: 169
 
 card_fume_knight:
   front:
@@ -191,9 +176,45 @@ card_fume_knight:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/474x/b1/45/2d/b1452dc10c0189b2bd7d1acbc3551590.jpg"
     artist: "Raime"
-    number: 171
+    number: 170
     power: 3
     toughness: 3
+
+card_gael_seeker_of_ash:
+  front:
+    name: "Gael, Seeker of Ash"
+    cost: "{3}{B/R}{B/R}{B/R}{B/R}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Knight Lord"
+    rarity: "Rare"
+    rules_text: |
+      Haste
+      When ~ attacks, discard two cards and draw two cards.
+      Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.
+    flavor_text: "If you truly are Ash, then it must be fire that you seek?"
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
+    number: 171
+    power: 7
+    toughness: 4
+  back:
+    name: "Slave Knight Gael"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Avatar Lord"
+    rarity: "Rare"
+    rules_text: |
+      When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.
+      Exile two cards from your graveyard: ~ gains flying until end of turn.
+      {B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.
+    flavor_text: "Hand it over. That thing, your dark soul."
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
+    number: 171
+    power: 7
+    toughness: 7
 
 card_gravelords_maelstrom:
   front:
@@ -329,7 +350,7 @@ card_knight_artorias:
     sub: "Hollow"
     rarity: ""
     rules_text: |
-      When this creature transforms into ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
+      When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
       Whenever an opponent draws a card, you may draw a card.
       {WUB}, {T}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
     flavor_text: "Indeed, the Abyss may be unstoppable."
