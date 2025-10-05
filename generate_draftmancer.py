@@ -19,8 +19,7 @@ def convert_mana_cost(mana_string):
 if __name__ == '__main__':
 
     # Settings
-
-    settings = '''
+    settings_standard = '''
 [Settings]
 {
     "layouts": {
@@ -37,6 +36,19 @@ if __name__ == '__main__':
                 },
                 {"name": "Uncommon", "count": 3 },
                 {"name": "Common",   "count": 11},
+            ]
+        }
+    }
+}'''
+
+    settings_no_rarity = '''
+[Settings]
+{
+    "layouts": {
+        "Default": {
+            "weight": 1,
+            "slots": [
+                {"name": "Common",   "count": 15},
             ]
         }
     }
@@ -66,10 +78,10 @@ if __name__ == '__main__':
                             'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name}.jpeg"
                         })
 
-    # Write back the updated content
-    draftmancer_file = 'draftmancer.txt'
-    with open('draftmancer.txt', "w", encoding="utf-8") as file:
-        print(f"Writing custom cards")
+    # Write back the updated content for a standard draft
+    draftmancer_standard = 'draftmancer_standard.txt'
+    with open(draftmancer_standard, "w", encoding="utf-8") as file:
+        print(f"{draftmancer_standard}: Writing custom cards")
         file.write('[CustomCards]\n')
         file.write('[\n')
         for rarity in cards_by_rarity:
@@ -79,13 +91,13 @@ if __name__ == '__main__':
                     file.write(f",")
                 file.write(f"\n")
         file.write(']\n')
-        print(f"✅ Cards written")
+        print(f"{draftmancer_standard}: ✅ Cards written")
 
-        print(f"Writing settings")
-        file.write(f"{settings}\n")
-        print(f"✅ Settings written")
+        print(f"{draftmancer_standard}: Writing settings")
+        file.write(f"{settings_standard}\n")
+        print(f"{draftmancer_standard}: ✅ Settings written")
 
-        print(f"Writing sheets")
+        print(f"{draftmancer_standard}: Writing sheets")
         for rarity in cards_by_rarity:
             file.write(f"[{rarity}]\n")
             for card in cards_by_rarity[rarity]:
@@ -108,5 +120,32 @@ if __name__ == '__main__':
                     file.write('3 ')
                 file.write(f"{card['name']}\n")
             file.write(f"\n")
-        print(f"✅ Sheets written")
-    print(f"✅ Updated '{draftmancer_file}'")
+        print(f"{draftmancer_standard}: ✅ Sheets written")
+    print(f"{draftmancer_standard}: ✅ Updated successfully")
+
+    # Write back the updated content for a no rarity draft
+    draftmancer_no_rarity = 'draftmancer_no_rarity.txt'
+    with open(draftmancer_no_rarity, "w", encoding="utf-8") as file:
+        print(f"{draftmancer_no_rarity}: Writing custom cards")
+        file.write('[CustomCards]\n')
+        file.write('[\n')
+        for rarity in cards_by_rarity:
+            for index, cards in enumerate(cards_by_rarity[rarity]):
+                file.write(f"{json.dumps(cards, indent=4)}")
+                if index != len(cards_by_rarity[rarity]):
+                    file.write(f",")
+                file.write(f"\n")
+        file.write(']\n')
+        print(f"{draftmancer_no_rarity}: ✅ Cards written")
+
+        print(f"{draftmancer_no_rarity}: Writing settings")
+        file.write(f"{settings_no_rarity}\n")
+        print(f"{draftmancer_no_rarity}: ✅ Settings written")
+
+        print(f"{draftmancer_no_rarity}: Writing sheets")
+        file.write(f"[Common]\n")
+        for rarity in cards_by_rarity:
+            for card in cards_by_rarity[rarity]:
+                file.write(f"{card['name']}\n")
+        print(f"{draftmancer_no_rarity}: ✅ Sheets written")
+    print(f"{draftmancer_no_rarity}: ✅ Updated successfully")

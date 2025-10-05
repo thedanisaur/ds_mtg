@@ -1,0 +1,1591 @@
+[CustomCards]
+[
+{
+    "name": "Ashen Idol",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/ashen_idol.jpeg"
+},
+{
+    "name": "Covetous Demon",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/covetous_demon.jpeg"
+},
+{
+    "name": "Dreg-Hollow Vendor",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_vendor.jpeg"
+},
+{
+    "name": "Hollow",
+    "type": "Creature",
+    "mana_cost": "{1}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg"
+},
+{
+    "name": "Leydia Witch",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/leydia_witch.jpeg"
+},
+{
+    "name": "Stray Demon",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/stray_demon.jpeg"
+},
+{
+    "name": "Winged Chimera",
+    "type": "Creature",
+    "mana_cost": "{3}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/winged_chimera.jpeg"
+},
+{
+    "name": "Batwing Demon",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/batwing_demon.jpeg"
+},
+{
+    "name": "Blessed Cleric",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/blessed_cleric.jpeg"
+},
+{
+    "name": "Corrupted Hollow",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow.jpeg"
+},
+{
+    "name": "Disenchant",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/disenchant.jpeg"
+},
+{
+    "name": "Flexile Sentry",
+    "type": "Creature",
+    "mana_cost": "{2}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/flexile_sentry.jpeg"
+},
+{
+    "name": "Forossa Lion Knight",
+    "type": "Creature",
+    "mana_cost": "{2/W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/forossa_lion_knight.jpeg"
+},
+{
+    "name": "Infested Corpse",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg"
+},
+{
+    "name": "Insolent Spirits",
+    "type": "Creature",
+    "mana_cost": "{2}{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg"
+},
+{
+    "name": "Knights of Gwynevere",
+    "type": "Creature",
+    "mana_cost": "{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/knights_of_gwynevere.jpeg"
+},
+{
+    "name": "Magic Barrier",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/magic_barrier.jpeg"
+},
+{
+    "name": "New Londo Shade",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/new_londo_shade.jpeg"
+},
+{
+    "name": "Resting Merchant",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/resting_merchant.jpeg"
+},
+{
+    "name": "Soul of a Nameless Soldier",
+    "type": "Enchantment",
+    "mana_cost": "{0}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg"
+},
+{
+    "name": "Swollen Mongrel",
+    "type": "Creature",
+    "mana_cost": "{W}{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg"
+},
+{
+    "name": "Tears of Denial",
+    "type": "Enchantment",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg"
+},
+{
+    "name": "Transient Curse",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/transient_curse.jpeg"
+},
+{
+    "name": "Village Blacksmith",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/village_blacksmith.jpeg"
+},
+{
+    "name": "Weary Travelers",
+    "type": "Sorcery",
+    "mana_cost": "{2}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/weary_travelers.jpeg"
+},
+{
+    "name": "Adventuring Sorcerer",
+    "type": "Creature",
+    "mana_cost": "{2}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/adventuring_sorcerer.jpeg"
+},
+{
+    "name": "Amana Priestess",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/amana_priestess.jpeg"
+},
+{
+    "name": "Aural Decoy",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/aural_decoy.jpeg"
+},
+{
+    "name": "Chameleon",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/chameleon.jpeg"
+},
+{
+    "name": "Crystal Butterfly",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/crystal_butterfly.jpeg"
+},
+{
+    "name": "Dual Charm",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg"
+},
+{
+    "name": "Great Crab",
+    "type": "Creature",
+    "mana_cost": "{3}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/great_crab.jpeg"
+},
+{
+    "name": "Hidden Body",
+    "type": "Sorcery",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_body.jpeg"
+},
+{
+    "name": "Homing Soul Mass",
+    "type": "Instant",
+    "mana_cost": "{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg"
+},
+{
+    "name": "Hooded Sorcerer",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg"
+},
+{
+    "name": "Invisible Hollow",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/invisible_hollow.jpeg"
+},
+{
+    "name": "Lost spell from Oolacile",
+    "type": "Instant",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/lost_spell_from_oolacile.jpeg"
+},
+{
+    "name": "Magic Denial",
+    "type": "Instant",
+    "mana_cost": "{2}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg"
+},
+{
+    "name": "Old Sorcerer",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg"
+},
+{
+    "name": "Soul of an Unknown Traveler",
+    "type": "Enchantment",
+    "mana_cost": "{0}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
+},
+{
+    "name": "A Hero Gone Mad",
+    "type": "Instant",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg"
+},
+{
+    "name": "Dark Edge",
+    "type": "Sorcery",
+    "mana_cost": "{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_edge.jpeg"
+},
+{
+    "name": "Dark Hand of Kaathe",
+    "type": "Instant",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_hand_of_kaathe.jpeg"
+},
+{
+    "name": "Deep Fog",
+    "type": "Sorcery",
+    "mana_cost": "{1}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/deep_fog.jpeg"
+},
+{
+    "name": "Grave Warden",
+    "type": "Creature",
+    "mana_cost": "{2}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_warden.jpeg"
+},
+{
+    "name": "Grip of Death",
+    "type": "Sorcery",
+    "mana_cost": "{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grip_of_death.jpeg"
+},
+{
+    "name": "Hollow Soldier",
+    "type": "Creature",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hollow_soldier.jpeg"
+},
+{
+    "name": "Hound Rat",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hound_rat.jpeg"
+},
+{
+    "name": "Lothric Sentry",
+    "type": "Creature",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lothric_sentry.jpeg"
+},
+{
+    "name": "Parasite Worm",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/parasite_worm.jpeg"
+},
+{
+    "name": "Royal Rat Vanguard",
+    "type": "Creature",
+    "mana_cost": "{3}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/royal_rat_vanguard.jpeg"
+},
+{
+    "name": "Sift through the Ashes",
+    "type": "Instant",
+    "mana_cost": "{X}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg"
+},
+{
+    "name": "Undead Hound",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg"
+},
+{
+    "name": "Carthus Beacon",
+    "type": "Instant",
+    "mana_cost": "{1}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/carthus_beacon.jpeg"
+},
+{
+    "name": "Cathedral Evangelist",
+    "type": "Creature",
+    "mana_cost": "{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cathedral_evangelist.jpeg"
+},
+{
+    "name": "Cracked Redeye Orb",
+    "type": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cracked_redeye_orb.jpeg"
+},
+{
+    "name": "Cragspider",
+    "type": "Creature",
+    "mana_cost": "{3}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cragspider.jpeg"
+},
+{
+    "name": "Desert Pyromancer",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/desert_pyromancer.jpeg"
+},
+{
+    "name": "Fire Surge",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_surge.jpeg"
+},
+{
+    "name": "Firesage Demon",
+    "type": "Creature",
+    "mana_cost": "{3}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firesage_demon.jpeg"
+},
+{
+    "name": "Flamewielding Hollow",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flamewielding_hollow.jpeg"
+},
+{
+    "name": "Hollow Infantry",
+    "type": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hollow_infantry.jpeg"
+},
+{
+    "name": "Immolation",
+    "type": "Instant",
+    "mana_cost": "{3}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg"
+},
+{
+    "name": "Pesky Mosquito",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/pesky_mosquito.jpeg"
+},
+{
+    "name": "Profaned Flame",
+    "type": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profaned_flame.jpeg"
+},
+{
+    "name": "Profuse Sweat",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profuse_sweat.jpeg"
+},
+{
+    "name": "Rapport",
+    "type": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/rapport.jpeg"
+},
+{
+    "name": "Sunlight Maggot",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/sunlight_maggot.jpeg"
+},
+{
+    "name": "Taurus Demon",
+    "type": "Creature",
+    "mana_cost": "{1}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/taurus_demon.jpeg"
+},
+{
+    "name": "Unkindled's Journey",
+    "type": "Sorcery",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unkindleds_journey.jpeg"
+},
+{
+    "name": "Alluring Skull",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/alluring_skull.jpeg"
+},
+{
+    "name": "Amana Aberration",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg"
+},
+{
+    "name": "Corrode",
+    "type": "Instant",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/corrode.jpeg"
+},
+{
+    "name": "Crystal Lizard",
+    "type": "Creature",
+    "mana_cost": "{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/crystal_lizard.jpeg"
+},
+{
+    "name": "Ent of the Darkroot Garden",
+    "type": "Creature",
+    "mana_cost": "{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg"
+},
+{
+    "name": "Estus",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg"
+},
+{
+    "name": "Expected Companions",
+    "type": "Creature",
+    "mana_cost": "{2}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/expected_companions.jpeg"
+},
+{
+    "name": "Festering Goblin",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/festering_goblin.jpeg"
+},
+{
+    "name": "Hesitant Surveyor",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hesitant_surveyor.jpeg"
+},
+{
+    "name": "Hollow Knight",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hollow_knight.jpeg"
+},
+{
+    "name": "Lothric Knight",
+    "type": "Creature",
+    "mana_cost": "{2}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/lothric_knight.jpeg"
+},
+{
+    "name": "Milfanito",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
+},
+{
+    "name": "Pagan Tree",
+    "type": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
+},
+{
+    "name": "Parasite Spider",
+    "type": "Creature",
+    "mana_cost": "{2}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/parasite_spider.jpeg"
+},
+{
+    "name": "Petrify",
+    "type": "Enchantment",
+    "mana_cost": "{3}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrify.jpeg"
+},
+{
+    "name": "Seek Embers",
+    "type": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg"
+},
+{
+    "name": "Sentinel of the Tower of Flame",
+    "type": "Creature",
+    "mana_cost": "{3}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/sentinel_of_the_tower_of_flame.jpeg"
+},
+{
+    "name": "Shaded Woods",
+    "type": "Instant",
+    "mana_cost": "{2}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/shaded_woods.jpeg"
+},
+{
+    "name": "Souls of the Living",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg"
+},
+{
+    "name": "Undead Aberration",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/undead_aberration.jpeg"
+},
+{
+    "name": "Warcry",
+    "type": "Instant",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warcry.jpeg"
+},
+{
+    "name": "Warp the Land",
+    "type": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg"
+},
+{
+    "name": "Ruin Sentinels",
+    "type": "Creature",
+    "mana_cost": "{2}{G/W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg"
+},
+{
+    "name": "Sorcerer's Remedy",
+    "type": "Instant",
+    "mana_cost": "{W}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg"
+},
+{
+    "name": "Bell Gargoyles",
+    "type": "Artifact",
+    "mana_cost": "{5}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bell_gargoyles.jpeg"
+},
+{
+    "name": "Broadsword",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/broadsword.jpeg"
+},
+{
+    "name": "Cursed Jar",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_jar.jpeg"
+},
+{
+    "name": "Halberd",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg"
+},
+{
+    "name": "Iron Golem",
+    "type": "Artifact Creature",
+    "mana_cost": "{3}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg"
+},
+{
+    "name": "Metaleater Spider",
+    "type": "Artifact Creature",
+    "mana_cost": "{5}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg"
+},
+{
+    "name": "Silver Serpent Ring",
+    "type": "Artifact",
+    "mana_cost": "{0}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_serpent_ring.jpeg"
+},
+{
+    "name": "Four Kings",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/four_kings.jpeg"
+},
+{
+    "name": "Looking Glass Knight",
+    "type": "Creature",
+    "mana_cost": "{8}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/looking_glass_knight.jpeg"
+},
+{
+    "name": "Sif, the Great Grey Wolf",
+    "type": "Creature",
+    "mana_cost": "{5}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg"
+},
+{
+    "name": "Karmic Justice",
+    "type": "Instant",
+    "mana_cost": "{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
+},
+{
+    "name": "Lightning Spear",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg"
+},
+{
+    "name": "Mirrah Warrior",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
+},
+{
+    "name": "Petrified Egg",
+    "type": "Enchantment",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/petrified_egg.jpeg"
+},
+{
+    "name": "Solaire of Astora",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/solaire_of_astora.jpeg"
+},
+{
+    "name": "Vow of Silence",
+    "type": "Instant",
+    "mana_cost": "{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/vow_of_silence.jpeg"
+},
+{
+    "name": "Wight",
+    "type": "Creature",
+    "mana_cost": "{2}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/wight.jpeg"
+},
+{
+    "name": "Angelic Knight",
+    "type": "Creature",
+    "mana_cost": "{3}{U}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/angelic_knight.jpeg"
+},
+{
+    "name": "Ashen Estus",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg"
+},
+{
+    "name": "Burning Ambition",
+    "type": "Sorcery",
+    "mana_cost": "{2}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/burning_ambition.jpeg"
+},
+{
+    "name": "Pestilent Mercury",
+    "type": "Enchantment",
+    "mana_cost": "{1}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg"
+},
+{
+    "name": "Ruin Banshee",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ruin_banshee.jpeg"
+},
+{
+    "name": "Search the Library",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/search_the_library.jpeg"
+},
+{
+    "name": "Wall Spectre",
+    "type": "Creature",
+    "mana_cost": "{2}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg"
+},
+{
+    "name": "Bonfire Ascetic",
+    "type": "Sorcery",
+    "mana_cost": "{X}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/bonfire_ascetic.jpeg"
+},
+{
+    "name": "Carthus Rouge",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/carthus_rouge.jpeg"
+},
+{
+    "name": "Charred Knight",
+    "type": "Creature",
+    "mana_cost": "{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/charred_knight.jpeg"
+},
+{
+    "name": "Clawed Curse",
+    "type": "Enchantment",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/clawed_curse.jpeg"
+},
+{
+    "name": "Jailer",
+    "type": "Creature",
+    "mana_cost": "{2}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/jailer.jpeg"
+},
+{
+    "name": "Lordran Necromancer",
+    "type": "Creature",
+    "mana_cost": "{3}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lordran_necromancer.jpeg"
+},
+{
+    "name": "Wake the Hollows",
+    "type": "Sorcery",
+    "mana_cost": "{2}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/wake_the_hollows.jpeg"
+},
+{
+    "name": "Acid Surge",
+    "type": "Sorcery",
+    "mana_cost": "{X}{X}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/acid_surge.jpeg"
+},
+{
+    "name": "Capra Demon",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/capra_demon.jpeg"
+},
+{
+    "name": "Fiery Soapstone",
+    "type": "Enchantment",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fiery_soapstone.jpeg"
+},
+{
+    "name": "Firekeeper",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg"
+},
+{
+    "name": "Flame Whip",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flame_whip.jpeg"
+},
+{
+    "name": "Ignite Steel",
+    "type": "Enchantment",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ignite_steel.jpeg"
+},
+{
+    "name": "Smoldering Rotten Flesh",
+    "type": "Creature",
+    "mana_cost": "{3}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/smoldering_rotten_flesh.jpeg"
+},
+{
+    "name": "Contrasted Cursed",
+    "type": "Enchantment",
+    "mana_cost": "{2}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
+},
+{
+    "name": "Covenant of the Forest Hunter",
+    "type": "Instant",
+    "mana_cost": "{G}{G}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/covenant_of_the_forest_hunter.jpeg"
+},
+{
+    "name": "Duke's Dear Freja",
+    "type": "Creature",
+    "mana_cost": "{3}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dukes_dear_freja.jpeg"
+},
+{
+    "name": "Gaping Dragon",
+    "type": "Creature",
+    "mana_cost": "{2}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
+},
+{
+    "name": "Mimic",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/mimic.jpeg"
+},
+{
+    "name": "The Serpent King",
+    "type": "Creature",
+    "mana_cost": "{5}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/the_serpent_king.jpeg"
+},
+{
+    "name": "Wistful Naivete",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
+},
+{
+    "name": "Blade of the Darkmoon",
+    "type": "Creature",
+    "mana_cost": "{W/U}{W/U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg"
+},
+{
+    "name": "Carim Guardian",
+    "type": "Creature",
+    "mana_cost": "{G/W}{G/W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/carim_guardian.jpeg"
+},
+{
+    "name": "Disembodied Wisp",
+    "type": "Creature",
+    "mana_cost": "{B/R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg"
+},
+{
+    "name": "Splintering Lightning",
+    "type": "Sorcery",
+    "mana_cost": "{X}{R}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg"
+},
+{
+    "name": "Spreading Decay",
+    "type": "Instant",
+    "mana_cost": "{R}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg"
+},
+{
+    "name": "Bloodbite Ring",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg"
+},
+{
+    "name": "Catalyst of the Witch of Izalith",
+    "type": "Artifact",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
+},
+{
+    "name": "Chloranthy Ring",
+    "type": "Artifact",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg"
+},
+{
+    "name": "Heide Knight",
+    "type": "Artifact Creature",
+    "mana_cost": "{3}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/heide_knight.jpeg"
+},
+{
+    "name": "Hornet Ring",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/hornet_ring.jpeg"
+},
+{
+    "name": "Ring of a Great Warrior",
+    "type": "Artifact",
+    "mana_cost": "{3}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg"
+},
+{
+    "name": "Soul Syphoner",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg"
+},
+{
+    "name": "Uchigatana",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/uchigatana.jpeg"
+},
+{
+    "name": "Anor Londo",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/anor_londo.jpeg"
+},
+{
+    "name": "Archdragon Peak",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/archdragon_peak.jpeg"
+},
+{
+    "name": "Cathedral of Blue",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_blue.jpeg"
+},
+{
+    "name": "Cathedral of the Deep",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_the_deep.jpeg"
+},
+{
+    "name": "Darkroot Garden",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/darkroot_garden.jpeg"
+},
+{
+    "name": "Farron Keep",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/farron_keep.jpeg"
+},
+{
+    "name": "Irithyll of the Boreal Valley",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/irithyll_of_the_boreal_valley.jpeg"
+},
+{
+    "name": "Lost Izalith",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lost_izalith.jpeg"
+},
+{
+    "name": "Road of Sacrifices",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/road_of_sacrifices.jpeg"
+},
+{
+    "name": "Shrine of Amana",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/shrine_of_amana.jpeg"
+},
+{
+    "name": "Anri of Astora",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora.jpeg"
+},
+{
+    "name": "Emit Force",
+    "type": "Instant",
+    "mana_cost": "{2}{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/emit_force.jpeg"
+},
+{
+    "name": "Miracle of the Way of White",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
+},
+{
+    "name": "Reforge",
+    "type": "Sorcery",
+    "mana_cost": "{1}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/reforge.jpeg"
+},
+{
+    "name": "Siegmeyer of Catarina",
+    "type": "Creature",
+    "mana_cost": "{W}{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina.jpeg"
+},
+{
+    "name": "Big Hat Logan",
+    "type": "Creature",
+    "mana_cost": "{4}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg"
+},
+{
+    "name": "Contemplation",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/contemplation.jpeg"
+},
+{
+    "name": "Fume Sorcerer",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg"
+},
+{
+    "name": "Outrider Knight",
+    "type": "Creature",
+    "mana_cost": "{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg"
+},
+{
+    "name": "Soul Spear",
+    "type": "Sorcery",
+    "mana_cost": "{2}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_spear.jpeg"
+},
+{
+    "name": "Soul Stream",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_stream.jpeg"
+},
+{
+    "name": "Aldrich, Devourer of Gods",
+    "type": "Creature",
+    "mana_cost": "{3}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg"
+},
+{
+    "name": "Chosen Undead",
+    "type": "Instant",
+    "mana_cost": "{1}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg"
+},
+{
+    "name": "Darkwraith",
+    "type": "Creature",
+    "mana_cost": "{1}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg"
+},
+{
+    "name": "Frozen Reindeer",
+    "type": "Creature",
+    "mana_cost": "{3}{B}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/frozen_reindeer.jpeg"
+},
+{
+    "name": "Grave Warden's Tome",
+    "type": "Sorcery",
+    "mana_cost": "{3}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_wardens_tome.jpeg"
+},
+{
+    "name": "Nimble Shadow",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/nimble_shadow.jpeg"
+},
+{
+    "name": "Skim Memories",
+    "type": "sorcery",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg"
+},
+{
+    "name": "The Great Swamp",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/the_great_swamp.jpeg"
+},
+{
+    "name": "Chaos Bed Vestiges",
+    "type": "Sorcery",
+    "mana_cost": "{X}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_bed_vestiges.jpeg"
+},
+{
+    "name": "Fire Orb",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg"
+},
+{
+    "name": "Forbidden Sun",
+    "type": "Sorcery",
+    "mana_cost": "{3}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/forbidden_sun.jpeg"
+},
+{
+    "name": "Hellkite Wyvern",
+    "type": "Creature",
+    "mana_cost": "{R}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hellkite_wyvern.jpeg"
+},
+{
+    "name": "Unbreakable Patches",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches.jpeg"
+},
+{
+    "name": "Ancient Wyvern",
+    "type": "Creature",
+    "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg"
+},
+{
+    "name": "Archdeacon of the Deep",
+    "type": "Creature",
+    "mana_cost": "{U/R}{U/R}{U/R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg"
+},
+{
+    "name": "Baneful Queen, Mytha",
+    "type": "Creature",
+    "mana_cost": "{B/G}{B/G}{B/G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg"
+},
+{
+    "name": "Bed of Chaos",
+    "type": "Creature",
+    "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
+},
+{
+    "name": "Dragonslayer and Executioner",
+    "type": "Creature",
+    "mana_cost": "{G/W}{G/W}{G/W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg"
+},
+{
+    "name": "Ember",
+    "type": "Enchantment",
+    "mana_cost": "{R}{G}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg"
+},
+{
+    "name": "Fume Knight",
+    "type": "Creature",
+    "mana_cost": "{U/B}{U/B}{U/B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg"
+},
+{
+    "name": "Gael, Seeker of Ash",
+    "type": "Creature",
+    "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash.jpeg"
+},
+{
+    "name": "Hawkeye Gough",
+    "type": "Creature",
+    "mana_cost": "{2}{R}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg"
+},
+{
+    "name": "Iudex Gundyr",
+    "type": "Creature",
+    "mana_cost": "{W}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr.jpeg"
+},
+{
+    "name": "Knight Lautrec",
+    "type": "Creature",
+    "mana_cost": "{R}{W}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec.jpeg"
+},
+{
+    "name": "Stream of Estus",
+    "type": "Enchantment",
+    "mana_cost": "{2/R}{2/G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg"
+},
+{
+    "name": "Yhorm, the Giant",
+    "type": "Creature",
+    "mana_cost": "{1}{B}{R}{R}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg"
+},
+{
+    "name": "Cursed Greatsword",
+    "type": "Artifact",
+    "mana_cost": "{2}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_greatsword.jpeg"
+},
+{
+    "name": "Eyes of a Fire Keeper",
+    "type": "Artifact",
+    "mana_cost": "{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_fire_keeper.jpeg"
+},
+{
+    "name": "Ring of Favor",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg"
+},
+{
+    "name": "Talisman of the Way of White",
+    "type": "Artifact",
+    "mana_cost": "{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/talisman_of_the_way_of_white.jpeg"
+},
+{
+    "name": "Wolf Knight's Greatshield",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/wolf_knights_greatshield.jpeg"
+},
+{
+    "name": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/bonfire.jpeg"
+},
+{
+    "name": "Lothric Castle",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lothric_castle.jpeg"
+},
+{
+    "name": "The Fire Fades",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/the_fire_fades.jpeg"
+},
+{
+    "name": "Into the Abyss",
+    "type": "Enchantment",
+    "mana_cost": "{3}{U}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/into_the_abyss.jpeg"
+},
+{
+    "name": "Vordt and the Dancer",
+    "type": "Creature",
+    "mana_cost": "{2}{U}{U}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/vordt_and_the_dancer.jpeg"
+},
+{
+    "name": "Curse of the Dead",
+    "type": "Enchantment",
+    "mana_cost": "{2}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg"
+},
+{
+    "name": "Gravelord Nito",
+    "type": "Creature",
+    "mana_cost": "{5}{B}{B}{B}{B}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/gravelord_nito.jpeg"
+},
+{
+    "name": "Ringfinger Leonhard",
+    "type": "Creature",
+    "mana_cost": "{R}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard.jpeg"
+},
+{
+    "name": "Abyss Watchers",
+    "type": "Creature",
+    "mana_cost": "{3}{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers.jpeg"
+},
+{
+    "name": "Gravelord's Maelstrom",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg"
+},
+{
+    "name": "Gwyn, Lord of Cinder",
+    "type": "Planeswalker",
+    "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg"
+},
+{
+    "name": "King of the Storm",
+    "type": "Planeswalker",
+    "mana_cost": "{U}{R}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg"
+},
+{
+    "name": "Knight Artorias",
+    "type": "Creature",
+    "mana_cost": "{2}{W}{U}{B}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias.jpeg"
+},
+{
+    "name": "Lorian and Lothric",
+    "type": "Planeswalker",
+    "mana_cost": "{3}{R}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg"
+},
+{
+    "name": "Homeward Bone",
+    "type": "Artifact",
+    "mana_cost": "{0}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg"
+},
+{
+    "name": "Kiln of the First Flame",
+    "type": "Artifact",
+    "mana_cost": "{5}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg"
+},
+{
+    "name": "Moonlight Greatsword",
+    "type": "Artifact",
+    "mana_cost": "{3}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg"
+},
+{
+    "name": "Ring of Sacrifice",
+    "type": "Artifact",
+    "mana_cost": "{W}{U}{B}{R}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg"
+},
+{
+    "name": "Storm Ruler",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/storm_ruler.jpeg"
+},
+{
+    "name": "Blighttown",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/blighttown.jpeg"
+},
+{
+    "name": "Firelink Shrine",
+    "type": "Land",
+    "mana_cost": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/firelink_shrine.jpeg"
+},
+]
+
+[Settings]
+{
+    "layouts": {
+        "Default": {
+            "weight": 1,
+            "slots": [
+                {"name": "Common",   "count": 15},
+            ]
+        }
+    }
+}
+[Common]
+Ashen Idol
+Covetous Demon
+Dreg-Hollow Vendor
+Hollow
+Leydia Witch
+Stray Demon
+Winged Chimera
+Batwing Demon
+Blessed Cleric
+Corrupted Hollow
+Disenchant
+Flexile Sentry
+Forossa Lion Knight
+Infested Corpse
+Insolent Spirits
+Knights of Gwynevere
+Magic Barrier
+New Londo Shade
+Resting Merchant
+Soul of a Nameless Soldier
+Swollen Mongrel
+Tears of Denial
+Transient Curse
+Village Blacksmith
+Weary Travelers
+Adventuring Sorcerer
+Amana Priestess
+Aural Decoy
+Chameleon
+Crystal Butterfly
+Dual Charm
+Great Crab
+Hidden Body
+Homing Soul Mass
+Hooded Sorcerer
+Invisible Hollow
+Lost spell from Oolacile
+Magic Denial
+Old Sorcerer
+Soul of an Unknown Traveler
+A Hero Gone Mad
+Dark Edge
+Dark Hand of Kaathe
+Deep Fog
+Grave Warden
+Grip of Death
+Hollow Soldier
+Hound Rat
+Lothric Sentry
+Parasite Worm
+Royal Rat Vanguard
+Sift through the Ashes
+Undead Hound
+Carthus Beacon
+Cathedral Evangelist
+Cracked Redeye Orb
+Cragspider
+Desert Pyromancer
+Fire Surge
+Firesage Demon
+Flamewielding Hollow
+Hollow Infantry
+Immolation
+Pesky Mosquito
+Profaned Flame
+Profuse Sweat
+Rapport
+Sunlight Maggot
+Taurus Demon
+Unkindled's Journey
+Alluring Skull
+Amana Aberration
+Corrode
+Crystal Lizard
+Ent of the Darkroot Garden
+Estus
+Expected Companions
+Festering Goblin
+Hesitant Surveyor
+Hollow Knight
+Lothric Knight
+Milfanito
+Pagan Tree
+Parasite Spider
+Petrify
+Seek Embers
+Sentinel of the Tower of Flame
+Shaded Woods
+Souls of the Living
+Undead Aberration
+Warcry
+Warp the Land
+Ruin Sentinels
+Sorcerer's Remedy
+Bell Gargoyles
+Broadsword
+Cursed Jar
+Halberd
+Iron Golem
+Metaleater Spider
+Silver Serpent Ring
+Four Kings
+Looking Glass Knight
+Sif, the Great Grey Wolf
+Karmic Justice
+Lightning Spear
+Mirrah Warrior
+Petrified Egg
+Solaire of Astora
+Vow of Silence
+Wight
+Angelic Knight
+Ashen Estus
+Burning Ambition
+Pestilent Mercury
+Ruin Banshee
+Search the Library
+Wall Spectre
+Bonfire Ascetic
+Carthus Rouge
+Charred Knight
+Clawed Curse
+Jailer
+Lordran Necromancer
+Wake the Hollows
+Acid Surge
+Capra Demon
+Fiery Soapstone
+Firekeeper
+Flame Whip
+Ignite Steel
+Smoldering Rotten Flesh
+Contrasted Cursed
+Covenant of the Forest Hunter
+Duke's Dear Freja
+Gaping Dragon
+Mimic
+The Serpent King
+Wistful Naivete
+Blade of the Darkmoon
+Carim Guardian
+Disembodied Wisp
+Splintering Lightning
+Spreading Decay
+Bloodbite Ring
+Catalyst of the Witch of Izalith
+Chloranthy Ring
+Heide Knight
+Hornet Ring
+Ring of a Great Warrior
+Soul Syphoner
+Uchigatana
+Anor Londo
+Archdragon Peak
+Cathedral of Blue
+Cathedral of the Deep
+Darkroot Garden
+Farron Keep
+Irithyll of the Boreal Valley
+Lost Izalith
+Road of Sacrifices
+Shrine of Amana
+Anri of Astora
+Emit Force
+Miracle of the Way of White
+Reforge
+Siegmeyer of Catarina
+Big Hat Logan
+Contemplation
+Fume Sorcerer
+Outrider Knight
+Soul Spear
+Soul Stream
+Aldrich, Devourer of Gods
+Chosen Undead
+Darkwraith
+Frozen Reindeer
+Grave Warden's Tome
+Nimble Shadow
+Skim Memories
+The Great Swamp
+Chaos Bed Vestiges
+Fire Orb
+Forbidden Sun
+Hellkite Wyvern
+Unbreakable Patches
+Ancient Wyvern
+Archdeacon of the Deep
+Baneful Queen, Mytha
+Bed of Chaos
+Dragonslayer and Executioner
+Ember
+Fume Knight
+Gael, Seeker of Ash
+Hawkeye Gough
+Iudex Gundyr
+Knight Lautrec
+Stream of Estus
+Yhorm, the Giant
+Cursed Greatsword
+Eyes of a Fire Keeper
+Ring of Favor
+Talisman of the Way of White
+Wolf Knight's Greatshield
+Bonfire
+Lothric Castle
+The Fire Fades
+Into the Abyss
+Vordt and the Dancer
+Curse of the Dead
+Gravelord Nito
+Ringfinger Leonhard
+Abyss Watchers
+Gravelord's Maelstrom
+Gwyn, Lord of Cinder
+King of the Storm
+Knight Artorias
+Lorian and Lothric
+Homeward Bone
+Kiln of the First Flame
+Moonlight Greatsword
+Ring of Sacrifice
+Storm Ruler
+Blighttown
+Firelink Shrine
