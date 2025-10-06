@@ -105,7 +105,7 @@ card_corrupted_hollow:
     power: 3
     toughness: 2
     frame: "Double-Faced: Night"
-    color_indicator: "{B}"
+    color_indicator: "{W}"
 
 card_disenchant:
   front:
