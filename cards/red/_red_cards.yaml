@@ -428,7 +428,7 @@ card_ringfinger_leonhard:
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "{B}"
+    color_indicator: "{R}"
 
 card_smoldering_rotten_flesh:
   front:
@@ -519,7 +519,7 @@ card_unbreakable_patches:
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
-    color_indicator: "{W}"
+    color_indicator: "{R}"
 
 card_unkindleds_journey:
   front:

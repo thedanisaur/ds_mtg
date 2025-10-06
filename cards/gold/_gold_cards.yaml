@@ -306,7 +306,7 @@ card_iudex_gundyr:
     power: 2
     toughness: 2
     frame: "Double-Faced: Night"
-    color_indicator: "{W}"
+    color_indicator: "{W}{B}"
 
 card_king_of_the_storm:
   front:
@@ -364,7 +364,7 @@ card_knight_artorias:
     power: 3
     toughness: 4
     frame: "Double-Faced: Night"
-    color_indicator: "{B}"
+    color_indicator: "{W}{U}{B}"
 
 card_knight_lautrec:
   front:
@@ -403,7 +403,7 @@ card_knight_lautrec:
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "{B}"
+    color_indicator: "{R}{W}{B}"
 
 card_lorian_and_lothric:
   front:
