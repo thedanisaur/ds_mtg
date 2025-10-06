@@ -168,7 +168,7 @@ card_lothric_castle:
     rarity: "Rare"
     rules_text: |
       {T}: Add {1} to your mana pool.
-      {4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn."
+      {4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
     flavor_text: "Rumored to devour men, once you've stepped foot inside Lothric Castle you'll start believing."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/lothric-castle-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"

@@ -1,5 +1,6 @@
-## Design
+# Design
 
+Flavor direction
 ```
 
 White - Miracles
@@ -8,45 +9,65 @@ Red - Pyromancies
 
 Blue - Sorceries
 
-Green - Knights/things
+Green - Knights, Curses, Environment
 
-Black - Thieves/Assassin
+Black - Thieves, Poison, Hollows
 
 ```
 
-### Mechanics/Ablities/Keywords
+## Ablities & Keywords
 
-Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection.
+### Keywords
+
 ```
-Deathtouch
+Existing:
+- Flying
+- First Strike
+- Double Strike
+- Vigilance
+- Reach
+- Trample
+- Lifelink
+- Indestructible (Effects that say destroy do not destroy this.)
+- Haste
+- Protection
+- Shadow (This creature can block or be blocked by only creatures with shadow.)
 
-Double Strike
-
-First Strike
-
-Flying
-
-Haste
-
-Indestructible (Effects that say destroy do not destroy this.)
-
-Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-
-Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-
-Reach
-
-Shadow (This creature can block or be blocked by only creatures with shadow.)
-
-Vigilance
+New:
+- Bleed
 ```
 
-New mechanic
-```
-Bleed - Whenever ~ deals combat damage to a creature put N bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, *bleed*.
 
-Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+#### New Rules
+
 ```
+Bleed (similar in function to 702.90. Infect)
+
+- a) Bleed is a static ability.
+- b) Damage dealt to a player by a source with bleed doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many bleed counters. See rule 120.3b to infer how to deal with this change.
+    - 1) As long as a player has atleast one bleed counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many bleed counters instead. At the beginning of each upkeep this emblem deals damage to you equal to the number of bleed counters you have, then remove a bleed counter."
+    - 2) If a player has no bleed counters their bleed emblem ceases to exist. They will not deal damage to them until they receive another bleed counter and get another bleed emblem.
+    - 3) A player may only have one bleed emblem at a time.
+- c) Damage dealt to a creature by a source with bleed isn’t marked on that creature. Rather, it causes that source’s controller to put that many bleed counters on that creature. See rule 120.3d to infer how to deal with this change.
+    - 1) As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it."
+- d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had bleed.
+- e) The bleed rules function no matter what zone an object with bleed deals damage from.
+- f) Multiple instances of bleed on the same object are redundant.
+- g) Reminder text: If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received
+```
+
+### Abilities
+
+```
+Existing:
+- Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+- Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+
+New:
+- Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+```
+
 
 ## Set layout & tidbits
 
@@ -57,6 +78,9 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
 Hollow
 ```
 
+### Card Distribution
+
+Color Distribution
 
 ```
 240 total
@@ -73,7 +97,6 @@ Hollow
 15 tokens
 ```
 
-
 Rarity Distribution
 ```
 100 common
@@ -81,7 +104,6 @@ Rarity Distribution
 45 rare
 18 mythic
 ```
-
 
 Booster distribution
 ```
@@ -121,14 +143,14 @@ Booster distribution
         <strong>Hollow</strong>
     </td>
     <td align="center">
-        <img src="./cards/colorless/leydia_witch.jpeg" alt="Leydia Witch" width="400"/><br/>
-        <strong>Leydia Witch</strong>
+        <img src="./cards/colorless/looking_glass_knight.jpeg" alt="Looking Glass Knight" width="400"/><br/>
+        <strong>Looking Glass Knight</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/colorless/looking_glass_knight.jpeg" alt="Looking Glass Knight" width="400"/><br/>
-        <strong>Looking Glass Knight</strong>
+        <img src="./cards/colorless/pyrewarden_of_the_things_betwixt.jpeg" alt="Pyrewarden Of The Things Betwixt" width="400"/><br/>
+        <strong>Pyrewarden Of The Things Betwixt</strong>
     </td>
     <td align="center">
         <img src="./cards/colorless/sif_the_great_grey_wolf.jpeg" alt="Sif The Great Grey Wolf" width="400"/><br/>
@@ -807,78 +829,78 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/green/crystal_lizard.jpeg" alt="Crystal Lizard" width="400"/><br/>
-        <strong>Crystal Lizard</strong>
-    </td>
-    <td align="center">
         <img src="./cards/green/dukes_dear_freja.jpeg" alt="Dukes Dear Freja" width="400"/><br/>
         <strong>Dukes Dear Freja</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/ent_of_the_darkroot_garden.jpeg" alt="Ent Of The Darkroot Garden" width="400"/><br/>
         <strong>Ent Of The Darkroot Garden</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/estus.jpeg" alt="Estus" width="400"/><br/>
         <strong>Estus</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/expected_companions.jpeg" alt="Expected Companions" width="400"/><br/>
         <strong>Expected Companions</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/festering_goblin.jpeg" alt="Festering Goblin" width="400"/><br/>
         <strong>Festering Goblin</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/gaping_dragon.jpeg" alt="Gaping Dragon" width="400"/><br/>
         <strong>Gaping Dragon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/hesitant_surveyor.jpeg" alt="Hesitant Surveyor" width="400"/><br/>
         <strong>Hesitant Surveyor</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/hollow_knight.jpeg" alt="Hollow Knight" width="400"/><br/>
         <strong>Hollow Knight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/lothric_knight.jpeg" alt="Lothric Knight" width="400"/><br/>
         <strong>Lothric Knight</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/milfanito.jpeg" alt="Milfanito" width="400"/><br/>
         <strong>Milfanito</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/mimic.jpeg" alt="Mimic" width="400"/><br/>
         <strong>Mimic</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/pagan_tree.jpeg" alt="Pagan Tree" width="400"/><br/>
         <strong>Pagan Tree</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
-        <img src="./cards/green/parasite_spider.jpeg" alt="Parasite Spider" width="400"/><br/>
-        <strong>Parasite Spider</strong>
+        <img src="./cards/green/petrifying_statue.jpeg" alt="Petrifying Statue" width="400"/><br/>
+        <strong>Petrifying Statue</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/green/proselyte_scarlett.jpeg" alt="Proselyte Scarlett" width="400"/><br/>
+        <strong>Proselyte Scarlett</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/green/petrify.jpeg" alt="Petrify" width="400"/><br/>
-        <strong>Petrify</strong>
+        <img src="./cards/green/ravenous_crystal_lizard.jpeg" alt="Ravenous Crystal Lizard" width="400"/><br/>
+        <strong>Ravenous Crystal Lizard</strong>
     </td>
     <td align="center">
         <img src="./cards/green/seek_embers.jpeg" alt="Seek Embers" width="400"/><br/>

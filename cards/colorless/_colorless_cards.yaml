@@ -84,22 +84,6 @@ card_hollow:
     power: 1
     toughness: 1
 
-card_leydia_witch:
-  front:
-    name: "Leydia Witch"
-    cost: 2
-    super: ""
-    type: "Creature"
-    sub: "Wizard"
-    rarity: "Common"
-    rules_text: "{W}, {T}, pay one soul: Deal 1 damage to target attacking or blocking creature."
-    flavor_text: "It is said that we must not disturb the dead. But must we do so, it must be done with honor."
-    artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
-    artist: "John Devlin"
-    number: 6
-    power: 1
-    toughness: 2
-
 card_looking_glass_knight:
   front:
     name: "Looking Glass Knight"
@@ -114,9 +98,27 @@ card_looking_glass_knight:
     flavor_text: "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king."
     artwork_url: "https://pbs.twimg.com/media/FoN2G-zWAAI7mfJ?format=jpg&name=medium"
     artist: "NSlacka"
-    number: 7
+    number: 6
     power: 4
     toughness: 4
+
+card_pyrewarden_of_the_things_betwixt:
+  front:
+    name: "Pyrewarden of the Things Betwixt"
+    cost: 2
+    super: ""
+    type: "Creature"
+    sub: "Hag"
+    rarity: "Common"
+    rules_text: |
+      Sacrifice an artifact: You get souls equal to 1 plus the sacrificed artifact's mana cost.
+      {T}, Reveal the top card of your library: You may pay souls equal to that spell's mana cost and put it in your hand. If you don't put that card into your graveyard.
+    flavor_text: "It is said that we must not disturb the dead. But must we do so, it must be done with honor."
+    artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
+    artist: "John Devlin"
+    number: 7
+    power: 0
+    toughness: 2
 
 card_sif_the_great_grey_wolf:
   front:

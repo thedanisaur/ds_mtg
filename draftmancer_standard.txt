@@ -25,10 +25,10 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg"
 },
 {
-    "name": "Leydia Witch",
+    "name": "Pyrewarden of the Things Betwixt",
     "type": "Creature",
     "mana_cost": "{2}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/leydia_witch.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pyrewarden_of_the_things_betwixt.jpeg"
 },
 {
     "name": "Stray Demon",
@@ -435,14 +435,8 @@
 {
     "name": "Corrode",
     "type": "Instant",
-    "mana_cost": "{1}{G}",
+    "mana_cost": "{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/corrode.jpeg"
-},
-{
-    "name": "Crystal Lizard",
-    "type": "Creature",
-    "mana_cost": "{G}{G}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/crystal_lizard.jpeg"
 },
 {
     "name": "Ent of the Darkroot Garden",
@@ -483,7 +477,7 @@
 {
     "name": "Lothric Knight",
     "type": "Creature",
-    "mana_cost": "{2}{G}{G}",
+    "mana_cost": "{1}{G}{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/lothric_knight.jpeg"
 },
 {
@@ -499,16 +493,22 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
 },
 {
-    "name": "Parasite Spider",
-    "type": "Creature",
+    "name": "Petrifying Statue",
+    "type": "Enchantment Creature",
     "mana_cost": "{2}{G}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/parasite_spider.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg"
 },
 {
-    "name": "Petrify",
-    "type": "Enchantment",
-    "mana_cost": "{3}{G}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrify.jpeg"
+    "name": "Proselyte Scarlett",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/proselyte_scarlett.jpeg"
+},
+{
+    "name": "Ravenous Crystal Lizard",
+    "type": "Creature",
+    "mana_cost": "{G}{G}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg"
 },
 {
     "name": "Seek Embers",
@@ -519,7 +519,7 @@
 {
     "name": "Sentinel of the Tower of Flame",
     "type": "Creature",
-    "mana_cost": "{3}{G}{G}",
+    "mana_cost": "{G}{G}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/sentinel_of_the_tower_of_flame.jpeg"
 },
 {
@@ -1257,7 +1257,7 @@
 {
     "name": "Curse of the Dead",
     "type": "Enchantment",
-    "mana_cost": "{2}{B}{B}",
+    "mana_cost": "{1}{B}{B}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg"
 },
 {
@@ -1377,7 +1377,7 @@
 15 Covetous Demon
 15 Dreg-Hollow Vendor
 15 Hollow
-15 Leydia Witch
+15 Pyrewarden of the Things Betwixt
 15 Stray Demon
 15 Winged Chimera
 15 Batwing Demon
@@ -1446,7 +1446,6 @@
 15 Alluring Skull
 15 Amana Aberration
 15 Corrode
-15 Crystal Lizard
 15 Ent of the Darkroot Garden
 15 Estus
 15 Expected Companions
@@ -1456,8 +1455,9 @@
 15 Lothric Knight
 15 Milfanito
 15 Pagan Tree
-15 Parasite Spider
-15 Petrify
+15 Petrifying Statue
+15 Proselyte Scarlett
+15 Ravenous Crystal Lizard
 15 Seek Embers
 15 Sentinel of the Tower of Flame
 15 Shaded Woods

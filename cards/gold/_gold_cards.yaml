@@ -431,7 +431,9 @@ card_ruin_sentinels:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rules_text: "~ gets +2/+2 for each other creature you control named ~."
+    rules_text: |
+      ~ gets +2/+2 for each other creature you control named ~.
+      A deck can have any number of cards named ~.
     flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
     artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"
     artist: "dawnweaver13"
