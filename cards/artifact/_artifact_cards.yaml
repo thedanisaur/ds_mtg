@@ -113,9 +113,9 @@ card_cursed_jar:
     artist: "deepai"
     number: 192
 
-card_eyes_of_a_fire_keeper:
+card_eyes_of_a_firekeeper:
   front:
-    name: "Eyes of a Fire Keeper"
+    name: "Eyes of a Firekeeper"
     cost: "R"
     super: ""
     type: "Artifact"
@@ -124,9 +124,9 @@ card_eyes_of_a_fire_keeper:
     rules_text: |
       {T}: You get one soul.
       {3}, {T}, Sacrifice ~: Destroy all Bonfires.
-    flavor_text: "A pair of dark eyes. Said to be the eyes of the first Fire Keeper, they reveal to the Fire Keepers things that should never be seen."
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A pair of dark eyes. Said to be the eyes of the first firekeeper, they reveal to the firekeepers things that should never be seen."
+    artwork_url: "https://i.ibb.co/hFxqG2Bn/eyes-of-a-firekeeper.jpg"
+    artist: "grok"
     number: 193
 
 card_halberd:

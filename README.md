@@ -1129,8 +1129,8 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/artifact/eyes_of_a_fire_keeper.jpeg" alt="Eyes Of A Fire Keeper" width="400"/><br/>
-        <strong>Eyes Of A Fire Keeper</strong>
+        <img src="./cards/artifact/eyes_of_a_firekeeper.jpeg" alt="Eyes Of A Firekeeper" width="400"/><br/>
+        <strong>Eyes Of A Firekeeper</strong>
     </td>
     <td align="center">
         <img src="./cards/artifact/halberd.jpeg" alt="Halberd" width="400"/><br/>
