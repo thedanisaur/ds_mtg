@@ -1,7 +1,7 @@
 card_adventuring_sorcerer:
   front:
     name: "Adventuring Sorcerer"
-    cost: "2U"
+    cost: "{2}{U}"
     super: ""
     type: "Creature"
     sub: "Human Wizard"
@@ -18,7 +18,7 @@ card_adventuring_sorcerer:
 card_amana_priestess:
   front:
     name: "Amana Priestess"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -35,7 +35,7 @@ card_amana_priestess:
 card_angelic_knight:
   front:
     name: "Angelic Knight"
-    cost: "3UUU"
+    cost: "{3}{U}{U}{U}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -54,7 +54,7 @@ card_angelic_knight:
 card_ashen_estus:
   front:
     name: "Ashen Estus"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -70,7 +70,7 @@ card_ashen_estus:
 card_aural_decoy:
   front:
     name: "Aural Decoy"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -84,7 +84,7 @@ card_aural_decoy:
 card_big_hat_logan:
   front:
     name: "Big Hat Logan"
-    cost: "4UU"
+    cost: "{4}{U}{U}"
     super: "Legendary"
     type: "Creature"
     sub: "Wizard"
@@ -100,7 +100,7 @@ card_big_hat_logan:
 card_burning_ambition:
   front:
     name: "Burning Ambition"
-    cost: "2UU"
+    cost: "{2}{U}{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -114,7 +114,7 @@ card_burning_ambition:
 card_chameleon:
   front:
     name: "Chameleon"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -129,7 +129,7 @@ card_chameleon:
 card_contemplation:
   front:
     name: "Contemplation"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -144,7 +144,7 @@ card_contemplation:
 card_crystal_butterfly:
   front:
     name: "Crystal Butterfly"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Giant Insect"
@@ -162,7 +162,7 @@ card_crystal_butterfly:
 card_dual_charm:
   front:
     name: "Dual Charm"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -176,7 +176,7 @@ card_dual_charm:
 card_fume_sorcerer:
   front:
     name: "Fume Sorcerer"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Zombie Wizard"
@@ -192,7 +192,7 @@ card_fume_sorcerer:
 card_great_crab:
   front:
     name: "Great Crab"
-    cost: "3U"
+    cost: "{3}{U}"
     super: ""
     type: "Creature"
     sub: "Crab"
@@ -210,7 +210,7 @@ card_great_crab:
 card_hidden_body:
   front:
     name: "Hidden Body"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -226,7 +226,7 @@ card_hidden_body:
 card_homing_soul_mass:
   front:
     name: "Homing Soul Mass"
-    cost: "UU"
+    cost: "{U}{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -242,7 +242,7 @@ card_homing_soul_mass:
 card_hooded_sorcerer:
   front:
     name: "Hooded Sorcerer"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -258,7 +258,7 @@ card_hooded_sorcerer:
 card_into_the_abyss:
   front:
     name: "Into the Abyss"
-    cost: "3UUU"
+    cost: "{3}{U}{U}{U}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -272,7 +272,7 @@ card_into_the_abyss:
 card_invisible_hollow:
   front:
     name: "Invisible Hollow"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -290,7 +290,7 @@ card_invisible_hollow:
 card_lost_spell_from_oolacile:
   front:
     name: "Lost spell from Oolacile"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -304,7 +304,7 @@ card_lost_spell_from_oolacile:
 card_magic_denial:
   front:
     name: "Magic Denial"
-    cost: "2UU"
+    cost: "{2}{U}{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -318,7 +318,7 @@ card_magic_denial:
 card_old_sorcerer:
   front:
     name: "Old Sorcerer"
-    cost: "U"
+    cost: "{U}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -334,7 +334,7 @@ card_old_sorcerer:
 card_outrider_knight:
   front:
     name: "Outrider Knight"
-    cost: "UU"
+    cost: "{U}{U}"
     super: ""
     type: "Creature"
     sub: "Knight Beast"
@@ -353,7 +353,7 @@ card_outrider_knight:
 card_pestilent_mercury:
   front:
     name: "Pestilent Mercury"
-    cost: "1UU"
+    cost: "{1}{U}{U}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -371,7 +371,7 @@ card_pestilent_mercury:
 card_ruin_banshee:
   front:
     name: "Ruin Banshee"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Spirit"
@@ -389,7 +389,7 @@ card_ruin_banshee:
 card_search_the_library:
   front:
     name: "Search the Library"
-    cost: "UU"
+    cost: "{U}{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -405,7 +405,7 @@ card_search_the_library:
 card_soul_of_an_unknown_traveler:
   front:
     name: "Soul of an Unknown Traveler"
-    cost: 0
+    cost: ""
     super: ""
     type: "Enchantment"
     sub: ""
@@ -422,7 +422,7 @@ card_soul_of_an_unknown_traveler:
 card_soul_spear:
   front:
     name: "Soul Spear"
-    cost: "2U"
+    cost: "{2}{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -436,7 +436,7 @@ card_soul_spear:
 card_soul_stream:
   front:
     name: "Soul Stream"
-    cost: "UUUU"
+    cost: "{U}{U}{U}{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -452,7 +452,7 @@ card_soul_stream:
 card_vordt_and_the_dancer:
   front:
     name: "Vordt and the Dancer"
-    cost: "2UU"
+    cost: "{2}{U}{U}"
     super: "Legendary"
     type: "Creature"
     sub: "Knight"
@@ -473,7 +473,7 @@ card_vordt_and_the_dancer:
 card_wall_spectre:
   front:
     name: "Wall Spectre"
-    cost: "2U"
+    cost: "{2}{U}"
     super: ""
     type: "Creature"
     sub: "Spirit"

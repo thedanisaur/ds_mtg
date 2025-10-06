@@ -15,7 +15,7 @@ card_acid_surge:
 card_capra_demon:
   front:
     name: "Capra Demon"
-    cost: "2R"
+    cost: "{2}{R}"
     super: ""
     type: "Creature"
     sub: "Demon"
@@ -33,7 +33,7 @@ card_capra_demon:
 card_carthus_beacon:
   front:
     name: "Carthus Beacon"
-    cost: "1R"
+    cost: "{1}{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -47,7 +47,7 @@ card_carthus_beacon:
 card_cathedral_evangelist:
   front:
     name: "Cathedral Evangelist"
-    cost: "RR"
+    cost: "{R}{R}"
     super: ""
     type: "Creature"
     sub: "Cleric"
@@ -79,7 +79,7 @@ card_chaos_bed_vestiges:
 card_cracked_redeye_orb:
   front:
     name: "Cracked Redeye Orb"
-    cost: "2R"
+    cost: "{2}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -93,7 +93,7 @@ card_cracked_redeye_orb:
 card_cragspider:
   front:
     name: "Cragspider"
-    cost: "3R"
+    cost: "{3}{R}"
     super: ""
     type: "Creature"
     sub: "Spider"
@@ -112,7 +112,7 @@ card_cragspider:
 card_desert_pyromancer:
   front:
     name: "Desert Pyromancer"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Creature"
     sub: "Monk"
@@ -130,7 +130,7 @@ card_desert_pyromancer:
 card_fiery_soapstone:
   front:
     name: "Fiery Soapstone"
-    cost: "2R"
+    cost: "{2}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -147,7 +147,7 @@ card_fiery_soapstone:
 card_fire_orb:
   front:
     name: "Fire Orb"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -164,7 +164,7 @@ card_fire_orb:
 card_fire_surge:
   front:
     name: "Fire Surge"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -180,7 +180,7 @@ card_fire_surge:
 card_firekeeper:
   front:
     name: "Firekeeper"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Creature"
     sub: "Monk"
@@ -196,7 +196,7 @@ card_firekeeper:
 card_firesage_demon:
   front:
     name: "Firesage Demon"
-    cost: "3RR"
+    cost: "{3}{R}{R}"
     super: "Legendary"
     type: "Creature"
     sub: "Demon"
@@ -214,7 +214,7 @@ card_firesage_demon:
 card_flame_whip:
   front:
     name: "Flame Whip"
-    cost: "1R"
+    cost: "{1}{R}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -231,7 +231,7 @@ card_flame_whip:
 card_flamewielding_hollow:
   front:
     name: "Flamewielding Hollow"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Creature"
     sub: "Hollow Monk"
@@ -250,7 +250,7 @@ card_flamewielding_hollow:
 card_forbidden_sun:
   front:
     name: "Forbidden Sun"
-    cost: "3RR"
+    cost: "{3}{R}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -264,7 +264,7 @@ card_forbidden_sun:
 card_hellkite_wyvern:
   front:
     name: "Hellkite Wyvern"
-    cost: "RRR"
+    cost: "{R}{R}{R}"
     super: ""
     type: "Creature"
     sub: "Drake"
@@ -282,7 +282,7 @@ card_hellkite_wyvern:
 card_hollow_infantry:
   front:
     name: "Hollow Infantry"
-    cost: "1R"
+    cost: "{1}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -296,7 +296,7 @@ card_hollow_infantry:
 card_ignite_steel:
   front:
     name: "Ignite Steel"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -312,7 +312,7 @@ card_ignite_steel:
 card_immolation:
   front:
     name: "Immolation"
-    cost: "3R"
+    cost: "{3}{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -326,7 +326,7 @@ card_immolation:
 card_pesky_mosquito:
   front:
     name: "Pesky Mosquito"
-    cost: "2R"
+    cost: "{2}{R}"
     super: ""
     type: "Creature"
     sub: "Insect"
@@ -345,7 +345,7 @@ card_pesky_mosquito:
 card_profaned_flame:
   front:
     name: "Profaned Flame"
-    cost: "1R"
+    cost: "{1}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -362,7 +362,7 @@ card_profaned_flame:
 card_profuse_sweat:
   front:
     name: "Profuse Sweat"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -381,7 +381,7 @@ card_profuse_sweat:
 card_rapport:
   front:
     name: "Rapport"
-    cost: "2R"
+    cost: "{2}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -395,7 +395,7 @@ card_rapport:
 card_ringfinger_leonhard:
   front:
     name: "Ringfinger Leonhard"
-    cost: "RRR"
+    cost: "{R}{R}{R}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -410,7 +410,7 @@ card_ringfinger_leonhard:
     power: 3
     toughness: 3
     frame: "Double-Faced: Day"
-    color_indicator: "Red"
+    color_indicator: "{R}"
   back:
     name: "Rosaria's Finger"
     cost: ""
@@ -428,12 +428,12 @@ card_ringfinger_leonhard:
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "Black"
+    color_indicator: "{B}"
 
 card_smoldering_rotten_flesh:
   front:
     name: "Smoldering Rotten Flesh"
-    cost: "3R"
+    cost: "{3}{R}"
     super: ""
     type: "Creature"
     sub: "Ooze"
@@ -452,7 +452,7 @@ card_smoldering_rotten_flesh:
 card_sunlight_maggot:
   front:
     name: "Sunlight Maggot"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Creature"
     sub: "Insect"
@@ -471,7 +471,7 @@ card_sunlight_maggot:
 card_taurus_demon:
   front:
     name: "Taurus Demon"
-    cost: "1RR"
+    cost: "{1}{R}{R}"
     super: ""
     type: "Creature"
     sub: "Demon"
@@ -487,7 +487,7 @@ card_taurus_demon:
 card_unbreakable_patches:
   front:
     name: "Unbreakable Patches"
-    cost: "2R"
+    cost: "{2}{R}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -503,7 +503,7 @@ card_unbreakable_patches:
     power: 2
     toughness: 2
     frame: "Double-Faced: Day"
-    color_indicator: "Red"
+    color_indicator: "{R}"
   back:
     name: "Lapp"
     cost: ""
@@ -519,12 +519,12 @@ card_unbreakable_patches:
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
-    color_indicator: "White"
+    color_indicator: "{W}"
 
 card_unkindleds_journey:
   front:
     name: "Unkindled's Journey"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Sorcery"
     sub: ""

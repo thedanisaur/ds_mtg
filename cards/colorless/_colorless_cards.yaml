@@ -1,7 +1,7 @@
 card_ashen_idol:
   front:
     name: "Ashen Idol"
-    cost: 4
+    cost: "{4}"
     super: ""
     type: "Creature"
     sub: "Avatar"
@@ -19,7 +19,7 @@ card_ashen_idol:
 card_covetous_demon:
   front:
     name: "Covetous Demon"
-    cost: 4
+    cost: "{4}"
     super: ""
     type: "Creature"
     sub: "Demon"
@@ -35,7 +35,7 @@ card_covetous_demon:
 card_dreg_hollow_vendor:
   front:
     name: "Dreg-Hollow Vendor"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Creature"
     sub: "Spirit"
@@ -52,7 +52,7 @@ card_dreg_hollow_vendor:
 card_four_kings:
   front:
     name: "Four Kings"
-    cost: 4
+    cost: "{4}"
     super: "Legendary"
     type: "Creature"
     sub: "Lord"
@@ -71,7 +71,7 @@ card_four_kings:
 card_hollow:
   front:
     name: "Hollow"
-    cost: 1
+    cost: "{1}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -87,7 +87,7 @@ card_hollow:
 card_looking_glass_knight:
   front:
     name: "Looking Glass Knight"
-    cost: 8
+    cost: "{8}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -105,7 +105,7 @@ card_looking_glass_knight:
 card_pyrewarden_of_the_things_betwixt:
   front:
     name: "Pyrewarden of the Things Betwixt"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Creature"
     sub: "Hag"
@@ -123,7 +123,7 @@ card_pyrewarden_of_the_things_betwixt:
 card_sif_the_great_grey_wolf:
   front:
     name: "Sif, the Great Grey Wolf"
-    cost: 5
+    cost: "{5}"
     super: "Legendary"
     type: "Creature"
     sub: "Wolf Giant"
@@ -141,7 +141,7 @@ card_sif_the_great_grey_wolf:
 card_stray_demon:
   front:
     name: "Stray Demon"
-    cost: 4
+    cost: "{4}"
     super: ""
     type: "Creature"
     sub: "Demon"
@@ -157,7 +157,7 @@ card_stray_demon:
 card_winged_chimera:
   front:
     name: "Winged Chimera"
-    cost: 3
+    cost: "{3}"
     super: ""
     type: "Creature"
     sub: "Harpy"

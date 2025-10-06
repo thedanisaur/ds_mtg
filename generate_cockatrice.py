@@ -1,0 +1,251 @@
+import uuid
+import os
+import re
+import yaml
+
+TYPE_ARTIFACT='Artifact'
+TYPE_CREATURE='Creature'
+TYPE_ENCHANTMENT='Enchantment'
+TYPE_INSTANT='Instant'
+TYPE_LAND='Land'
+TYPE_PLANESWALKER='Planeswalker'
+TYPE_SORCERY='Sorcery'
+TYPE_TOKEN='Token'
+
+folder_path = "./cards"
+order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', "token" ]
+
+
+def creates_this_token(token):
+    color_map = {
+        '{W}': 'white',
+        '{U}': 'blue',
+        '{B}': 'black',
+        '{R}': 'red',
+        '{G}': 'green',
+        '{C}': 'colorless',
+        '{U/R}': 'blue and red',
+    }
+
+    cards = []
+    for folder in order:
+        path = f"{folder_path}/{folder}/"
+        for file in sorted(os.listdir(path)):
+            if file.lower().endswith('.yaml'):
+                with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
+                    content = yaml.safe_load(card_file)
+                    for card_name in content:
+                        card_front = content[card_name]['front']
+                        card_front_rules_text = card_front['rules_text'].lower()
+                        token_name = token['name'].lower()
+                        token_rules_text = token['rules_text'].lower().strip()
+                        # exceptions for treasure tokens
+                        token_rules_text = '' if token_name == 'treasure' else re.sub(r'\s*\(.*?\)', '', token_rules_text)
+                        token_sub_type = '' if token_name == 'treasure' else token['sub'].lower()
+                        color = '' if token_name == 'treasure' else color_map.get(token['color_indicator'])
+                        if color in card_front_rules_text and token_name in card_front_rules_text and token_rules_text in card_front_rules_text and token_sub_type in card_front_rules_text:
+                            cards.append(card_front['name'])
+
+                        card_back = content[card_name].get('back', None)
+                        if card_back:
+                            card_back_rules_text = card_back['rules_text'].lower()
+                            if color in card_back_rules_text and token_name in card_back_rules_text and token_rules_text in card_back_rules_text and token_sub_type in card_back_rules_text:
+                                cards.append(card_back['name'])
+    return cards
+
+
+def type_to_tablerow(type):
+    if TYPE_CREATURE in type:
+        return 2
+    if TYPE_LAND == type:
+        return 0
+    if TYPE_INSTANT == type or TYPE_SORCERY == type:
+        return 3
+    else:
+        return 1
+
+
+def colors_from_mana_cost(mana_cost):
+    """
+    Extract colors from a mana cost string.
+    
+    Args:
+        mana_cost (str): Mana cost like '{G}{U}{2}{G/U}{X}'
+    
+    Returns:
+        Set[str]: A set of color names (e.g., {'Green', 'Blue'})
+    """
+    valid_colors = {
+        'G',
+        'W',
+        'U',
+        'B',
+        'R',
+    }
+    mana_cost_str = str(mana_cost)
+    symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
+    colors = set()
+
+    for symbol in symbols:
+        # Handle hybrid or Phyrexian like G/U, G/P
+        parts = re.split(r'[\/]', symbol)
+        for part in parts:
+            if part in valid_colors:
+                colors.add(part)
+    
+    return "".join(colors)
+
+
+def mana_cost_to_cmc(mana_cost, x_value=0):
+    """
+    Convert mana cost string like '{2}{G}{G}' to its converted mana cost (CMC).
+    
+    Args:
+        mana_cost (str): Mana cost string, e.g. '{2}{G}{G}', '{X}{G}', '{G/U}', etc.
+        x_value (int): Value to use for 'X' if present. Defaults to 0.
+    
+    Returns:
+        int: Converted mana cost (CMC).
+    """
+    colors = {
+        'G',
+        'W',
+        'U',
+        'B',
+        'R',
+    }
+
+    mana_cost_str = str(mana_cost)
+    # Find all symbols like {2}, {G}, {X}, etc.
+    symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
+    
+    cmc = 0
+    for symbol in symbols:
+        if symbol.isdigit():
+            cmc += int(symbol)
+        else:
+            # All other types (G, U, R, B, W, C, S, G/U, G/P, etc.) count as 1
+            cmc += 1
+    return cmc
+
+
+def convert_mana_cost(mana_string):
+    # Regular expression to find all mana symbols
+    # Match hybrid and phyrexian mana first (e.g., 2/R, W/U, G/P), then single letters/numbers
+    pattern = r'\d+\/[WUBRGCS]|\d+|[WUBRGCSXYZ]\/[WUBRGCS]|[WUBRGCSXYZ]'
+    
+    # Find all matching symbols
+    symbols = re.findall(pattern, mana_string)
+    
+    # Wrap each symbol in {}
+    wrapped = ''.join(f'{{{s}}}' for s in symbols)
+    
+    return wrapped
+
+
+def create_card(card_front, card_back, image_url):
+    # Adjust card name for tokens because there are different tokens with the same name and cockatrice can't figure that out.
+    card_name = card_front['name']
+    if TYPE_TOKEN in card_front['super']:
+        card_name = f"{card_front['name']} - {colors_from_mana_cost(card_front['color_indicator'])}"
+
+    general_tags = f"""<name>{card_name}</name>
+        <text>{card_front['rules_text']}        </text>
+        <set rarity="{card_front['rarity']}" uuid="{uuid.uuid4()}" num="{card_front['number']}" picurl="{image_url}">DKS</set>
+        <tablerow>{type_to_tablerow(card_front['type'])}</tablerow>"""
+
+    super_type = f"{card_front['super']} " if len(card_front['super']) > 0 else ''
+    sub_type = f" - {card_front['sub']}" if len(card_front['sub']) > 0 else ''
+    type = f"{super_type}{card_front['type']}{sub_type}"
+    property_tags = f"""<layout>{ 'normal' if card_back is None else 'transform' }</layout>
+            <side>front</side>
+            <type>{type}</type>
+            <maintype>{card_front['type']}</maintype>
+            <manacost>{card_front['cost']}</manacost>
+            <cmc>{mana_cost_to_cmc(card_front['cost'])}</cmc>"""
+    color_str = colors_from_mana_cost(card_front['cost'])
+    if len(color_str) != 0:
+        property_tags += f"\n            <colors>{color_str}</colors>"
+
+    # Type specific properties
+    if TYPE_CREATURE in card_front['type']:
+        property_tags += f"""
+            <pt>{card_front['power']}/{card_front['toughness']}</pt>"""
+
+    if TYPE_PLANESWALKER in card_front['type']:
+        property_tags += f"""
+            <loyalty>{card_front['loyalty']}</loyalty>"""
+
+    # Comes into play tapped
+    if 'enters the battlefield tapped' in card_front['rules_text']:
+        general_tags += f"""
+        <cipt>1</cipt>"""
+
+    # Transform cards
+    if card_back:
+        general_tags += f"""
+        <related>{card_back['name']}</related>"""
+
+    # Type token tag
+    if TYPE_TOKEN in card_front['super']:
+        related_cards = creates_this_token(card_front)
+        general_tags += f"""
+        <token>1</token>
+        <reverse-related>{related_cards}</reverse-related>"""
+
+    card = f"""
+        {general_tags}
+        <prop>
+            {property_tags}
+        </prop>"""
+    return card
+
+
+if __name__ == '__main__':
+    # Build list of cards
+    cards = []
+    for folder in order:
+        path = f"{folder_path}/{folder}/"
+        for file in sorted(os.listdir(path)):
+            if file.lower().endswith('.yaml'):
+                with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
+                    content = yaml.safe_load(card_file)
+                    for card_name in content:
+                        # The image name is just the card name minus "card_"
+                        image_name = card_name.split('_', 1)[1]
+                        card_front = content[card_name]['front']
+                        card_back = content[card_name].get('back', None)
+                        image_name_front = image_name + '_front' if card_back is not None else image_name
+                        image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
+                        card_front_xml = create_card(card_front, card_back, image_url)
+                        card_front_xml = f"""    <card>{card_front_xml}\n    </card>\n"""
+                        cards.append(card_front_xml)
+
+                        if card_back:
+                            # Reversing this for transform cards.
+                            image_name_back = image_name + "_back"
+                            image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
+                            card_back_xml = create_card(card_back, card_front, image_url)
+                            card_back_xml = f"""    <card>{card_back_xml}\n    </card>\n"""
+                            cards.append(card_back_xml)
+
+    # Write the file
+    cockatrice_set_file = 'cockatrice.txt'
+    with open(cockatrice_set_file, "w", encoding="utf-8") as file:
+        print(f"{cockatrice_set_file}: Writing set")
+        xml_start = f"""
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+    <sets>
+        <set>
+        <name>DKS</name>
+        <longname>DKS</longname>
+        </set>
+    </sets>
+"""
+        file.write(xml_start)
+        for card in cards:
+            file.write(card)
+        xml_end = f"""</cockatrice_carddatabase>"""
+        file.write(xml_end)
+        print(f"{cockatrice_set_file}: ✅ Set written")

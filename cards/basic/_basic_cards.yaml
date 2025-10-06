@@ -1,7 +1,7 @@
 card_plains:
   front:
     name: "Plains"
-    cost: 0
+    cost: ""
     super: "Basic"
     type: "Land"
     sub: "Plains"
@@ -15,7 +15,7 @@ card_plains:
 card_island:
   front:
     name: "Island"
-    cost: 0
+    cost: ""
     super: "Basic"
     type: "Land"
     sub: "Island"
@@ -29,7 +29,7 @@ card_island:
 card_swamp:
   front:
     name: "Swamp"
-    cost: 0
+    cost: ""
     super: "Basic"
     type: "Land"
     sub: "Swamp"
@@ -43,7 +43,7 @@ card_swamp:
 card_mountain:
   front:
     name: "Mountain"
-    cost: 0
+    cost: ""
     super: "Basic"
     type: "Land"
     sub: "Mountain"
@@ -57,7 +57,7 @@ card_mountain:
 card_forest:
   front:
     name: "Forst"
-    cost: 0
+    cost: ""
     super: "Basic"
     type: "Land"
     sub: "Forest"

@@ -1,7 +1,7 @@
 card_a_hero_gone_mad:
   front:
     name: "A Hero Gone Mad"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -16,7 +16,7 @@ card_a_hero_gone_mad:
 card_aldrich_devourer_of_gods:
   front:
     name: "Aldrich, Devourer of Gods"
-    cost: "3BB"
+    cost: "{3}{B}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Cleric Ooze Lord"
@@ -32,7 +32,7 @@ card_aldrich_devourer_of_gods:
 card_bonfire_ascetic:
   front:
     name: "Bonfire Ascetic"
-    cost: "XBB"
+    cost: "{X}{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -46,7 +46,7 @@ card_bonfire_ascetic:
 card_carthus_rouge:
   front:
     name: "Carthus Rouge"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -62,7 +62,7 @@ card_carthus_rouge:
 card_charred_knight:
   front:
     name: "Charred Knight"
-    cost: "BB"
+    cost: "{B}{B}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -79,7 +79,7 @@ card_charred_knight:
 card_chosen_undead:
   front:
     name: "Chosen Undead"
-    cost: "1BB"
+    cost: "{1}{B}{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -96,7 +96,7 @@ card_chosen_undead:
 card_clawed_curse:
   front:
     name: "Clawed Curse"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
@@ -114,7 +114,7 @@ card_clawed_curse:
 card_curse_of_the_dead:
   front:
     name: "Curse of the Dead"
-    cost: "1BB"
+    cost: "{1}{B}{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
@@ -131,7 +131,7 @@ card_curse_of_the_dead:
 card_dark_edge:
   front:
     name: "Dark Edge"
-    cost: "BB"
+    cost: "{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -150,7 +150,7 @@ card_dark_edge:
 card_dark_hand_of_kaathe:
   front:
     name: "Dark Hand of Kaathe"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -164,7 +164,7 @@ card_dark_hand_of_kaathe:
 card_darkwraith:
   front:
     name: "Darkwraith"
-    cost: "1BB"
+    cost: "{1}{B}{B}"
     super: ""
     type: "Creature"
     sub: "Wraith"
@@ -180,7 +180,7 @@ card_darkwraith:
 card_deep_fog:
   front:
     name: "Deep Fog"
-    cost: "1BB"
+    cost: "{1}{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -196,7 +196,7 @@ card_deep_fog:
 card_frozen_reindeer:
   front:
     name: "Frozen Reindeer"
-    cost: "3BBB"
+    cost: "{3}{B}{B}B"
     super: "Snow"
     type: "Creature"
     sub: "Zombie Antelope Horse"
@@ -214,7 +214,7 @@ card_frozen_reindeer:
 card_grave_warden:
   front:
     name: "Grave Warden"
-    cost: "2B"
+    cost: "{2}{B}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -230,7 +230,7 @@ card_grave_warden:
 card_grave_wardens_tome:
   front:
     name: "Grave Warden's Tome"
-    cost: "3B"
+    cost: "{3}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -246,7 +246,7 @@ card_grave_wardens_tome:
 card_gravelord_nito:
   front:
     name: "Gravelord Nito"
-    cost: "5BBBBB"
+    cost: "{5}{B}{B}{B}{B}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Skeleton Lord"
@@ -265,7 +265,7 @@ card_gravelord_nito:
 card_grip_of_death:
   front:
     name: "Grip of Death"
-    cost: "BB"
+    cost: "{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -281,7 +281,7 @@ card_grip_of_death:
 card_hollow_soldier:
   front:
     name: "Hollow Soldier"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Hollow"
@@ -299,7 +299,7 @@ card_hollow_soldier:
 card_hound_rat:
   front:
     name: "Hound Rat"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Rat"
@@ -315,7 +315,7 @@ card_hound_rat:
 card_jailer:
   front:
     name: "Jailer"
-    cost: "2B"
+    cost: "{2}{B}"
     super: ""
     type: "Creature"
     sub: "Cleric"
@@ -331,7 +331,7 @@ card_jailer:
 card_lothric_sentry:
   front:
     name: "Lothric Sentry"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -349,7 +349,7 @@ card_lothric_sentry:
 card_lordran_necromancer:
   front:
     name: "Lordran Necromancer"
-    cost: "3B"
+    cost: "{3}{B}"
     super: ""
     type: "Creature"
     sub: "Hollow Zombie Wizard"
@@ -367,7 +367,7 @@ card_lordran_necromancer:
 card_nimble_shadow:
   front:
     name: "Nimble Shadow"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Hollow Assassin"
@@ -386,7 +386,7 @@ card_nimble_shadow:
 card_parasite_worm:
   front:
     name: "Parasite Worm"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Wurm"
@@ -404,7 +404,7 @@ card_parasite_worm:
 card_royal_rat_vanguard:
   front:
     name: "Royal Rat Vanguard"
-    cost: "3B"
+    cost: "{3}{B}"
     super: ""
     type: "Creature"
     sub: "Giant Zombie Rat"
@@ -422,7 +422,7 @@ card_royal_rat_vanguard:
 card_sift_through_the_ashes:
   front:
     name: "Sift through the Ashes"
-    cost: "XB"
+    cost: "{X}{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -438,7 +438,7 @@ card_sift_through_the_ashes:
 card_skim_memories:
   front:
     name: "Skim Memories"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "sorcery"
     sub: ""
@@ -454,7 +454,7 @@ card_skim_memories:
 card_the_great_swamp:
   front:
     name: "The Great Swamp"
-    cost: "B"
+    cost: "{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -470,7 +470,7 @@ card_the_great_swamp:
 card_undead_hound:
   front:
     name: "Undead Hound"
-    cost: "1B"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Jackal"
@@ -489,7 +489,7 @@ card_undead_hound:
 card_wake_the_hollows:
   front:
     name: "Wake the Hollows"
-    cost: "2BB"
+    cost: "{2}{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""

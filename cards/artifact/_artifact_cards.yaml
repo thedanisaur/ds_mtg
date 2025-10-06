@@ -1,7 +1,7 @@
 card_bell_gargoyles:
   front:
     name: "Bell Gargoyles"
-    cost: 5
+    cost: "{5}"
     super: ""
     type: "Artifact"
     sub: ""
@@ -15,7 +15,7 @@ card_bell_gargoyles:
 card_bloodbite_ring:
   front:
     name: "Bloodbite Ring"
-    cost: 1
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -32,7 +32,7 @@ card_bloodbite_ring:
 card_broadsword:
   front:
     name: "Broadsword"
-    cost: 1
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -49,7 +49,7 @@ card_broadsword:
 card_catalyst_of_the_witch_of_izalith:
   front:
     name: "Catalyst of the Witch of Izalith"
-    cost: "1U"
+    cost: "{1}{U}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -68,7 +68,7 @@ card_catalyst_of_the_witch_of_izalith:
 card_chloranthy_ring:
   front:
     name: "Chloranthy Ring"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -85,7 +85,7 @@ card_chloranthy_ring:
 card_cursed_greatsword:
   front:
     name: "Cursed Greatsword"
-    cost: "2B"
+    cost: "{2}{B}"
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
@@ -102,7 +102,7 @@ card_cursed_greatsword:
 card_cursed_jar:
   front:
     name: "Cursed Jar"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: ""
@@ -116,7 +116,7 @@ card_cursed_jar:
 card_eyes_of_a_firekeeper:
   front:
     name: "Eyes of a Firekeeper"
-    cost: "R"
+    cost: "{R}"
     super: ""
     type: "Artifact"
     sub: ""
@@ -132,7 +132,7 @@ card_eyes_of_a_firekeeper:
 card_halberd:
   front:
     name: "Halberd"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -149,7 +149,7 @@ card_halberd:
 card_heide_knight:
   front:
     name: "Heide Knight"
-    cost: 3
+    cost: "{3}"
     super: ""
     type: "Artifact Creature"
     sub: "Knight"
@@ -167,7 +167,7 @@ card_heide_knight:
 card_homeward_bone:
   front:
     name: "Homeward Bone"
-    cost: 0
+    cost: "{0}"
     super: ""
     type: "Artifact"
     sub: ""
@@ -181,7 +181,7 @@ card_homeward_bone:
 card_hornet_ring:
   front:
     name: "Hornet Ring"
-    cost: 1
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -197,7 +197,7 @@ card_hornet_ring:
 card_iron_golem:
   front:
     name: "Iron Golem"
-    cost: 3
+    cost: "{3}"
     super: ""
     type: "Artifact Creature"
     sub: "Giant"
@@ -213,7 +213,7 @@ card_iron_golem:
 card_kiln_of_the_first_flame:
   front:
     name: "Kiln of the First Flame"
-    cost: 5
+    cost: "{5}"
     super: ""
     type: "Artifact"
     sub: "Legendary"
@@ -227,7 +227,7 @@ card_kiln_of_the_first_flame:
 card_metaleater_spider:
   front:
     name: "Metaleater Spider"
-    cost: 5
+    cost: "{5}"
     super: ""
     type: "Artifact Creature"
     sub: "Spider"
@@ -245,7 +245,7 @@ card_metaleater_spider:
 card_moonlight_greatsword:
   front:
     name: "Moonlight Greatsword"
-    cost: 3
+    cost: "{3}"
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
@@ -261,7 +261,7 @@ card_moonlight_greatsword:
 card_ring_of_a_great_warrior:
   front:
     name: "Ring of a Great Warrior"
-    cost: 3
+    cost: "{3}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -277,7 +277,7 @@ card_ring_of_a_great_warrior:
 card_ring_of_favor:
   front:
     name: "Ring of Favor"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -310,7 +310,7 @@ card_ring_of_sacrifice:
 card_silver_serpent_ring:
   front:
     name: "Silver Serpent Ring"
-    cost: 0
+    cost: "{0}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -326,7 +326,7 @@ card_silver_serpent_ring:
 card_soul_syphoner:
   front:
     name: "Soul Syphoner"
-    cost: 1
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: ""
@@ -342,7 +342,7 @@ card_soul_syphoner:
 card_storm_ruler:
   front:
     name: "Storm Ruler"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -358,7 +358,7 @@ card_storm_ruler:
 card_talisman_of_the_way_of_white:
   front:
     name: "Talisman of the Way of White"
-    cost: "WW"
+    cost: "{W}{W}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -375,7 +375,7 @@ card_talisman_of_the_way_of_white:
 card_uchigatana:
   front:
     name: "Uchigatana"
-    cost: 2
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -392,7 +392,7 @@ card_uchigatana:
 card_wolf_knights_greatshield:
   front:
     name: "Wolf Knight's Greatshield"
-    cost: 3
+    cost: "{3}"
     super: ""
     type: "Artifact"
     sub: "Equipment"

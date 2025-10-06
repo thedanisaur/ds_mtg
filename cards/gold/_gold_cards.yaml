@@ -1,7 +1,7 @@
 card_ancient_wyvern:
   front:
     name: "Ancient Wyvern"
-    cost: "R/WR/WR/WR/WR/W"
+    cost: "{R/W}{R/W}{R/W}{R/W}{R/W}"
     super: ""
     type: "Creature"
     sub: "Dragon"
@@ -20,7 +20,7 @@ card_ancient_wyvern:
 card_archdeacon_of_the_deep:
   front:
     name: "Archdeacon of the Deep"
-    cost: "U/RU/RU/R"
+    cost: "{U/R}{U/R}{U/R}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -39,7 +39,7 @@ card_archdeacon_of_the_deep:
 card_baneful_queen_mytha:
   front:
     name: "Baneful Queen, Mytha"
-    cost: "B/GB/GB/G"
+    cost: "{B/G}{B/G}{B/G}"
     super: "Legendary"
     type: "Creature"
     sub: "Naga Gorgon"
@@ -57,7 +57,7 @@ card_baneful_queen_mytha:
 card_bed_of_chaos:
   front:
     name: "Bed of Chaos"
-    cost: "B/RB/RB/RB/R"
+    cost: "{B/R}{B/R}{B/R}{B/R}"
     super: "Legendary"
     type: "Creature"
     sub: "Spellshaper Lord"
@@ -76,7 +76,7 @@ card_bed_of_chaos:
 card_blade_of_the_darkmoon:
   front:
     name: "Blade of the Darkmoon"
-    cost: "W/UW/U"
+    cost: "{W/U}{W/U}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -94,7 +94,7 @@ card_blade_of_the_darkmoon:
 card_carim_guardian:
   front:
     name: "Carim Guardian"
-    cost: "G/WG/W"
+    cost: "{G/W}{G/W}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -112,7 +112,7 @@ card_carim_guardian:
 card_disembodied_wisp:
   front:
     name: "Disembodied Wisp"
-    cost: "B/R"
+    cost: "{B/R}"
     super: ""
     type: "Creature"
     sub: "Djinn"
@@ -130,7 +130,7 @@ card_disembodied_wisp:
 card_dragonslayer_and_executioner:
   front:
     name: "Dragonslayer and Executioner"
-    cost: "G/WG/WG/W"
+    cost: "{G/W}{G/W}{G/W}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -149,7 +149,7 @@ card_dragonslayer_and_executioner:
 card_ember:
   front:
     name: "Ember"
-    cost: "RGW"
+    cost: "{R}{G}{W}"
     super: "Legendary"
     type: "Enchantment"
     sub: ""
@@ -165,7 +165,7 @@ card_ember:
 card_fume_knight:
   front:
     name: "Fume Knight"
-    cost: "U/BU/BU/B"
+    cost: "{U/B}{U/B}{U/B}"
     super: ""
     type: "Creature"
     sub: "Zombie Knight"
@@ -199,7 +199,7 @@ card_gael_seeker_of_ash:
     power: 7
     toughness: 4
     frame: "Double-Faced: Day"
-    color_indicator: "black/red"
+    color_indicator: "{B/R}"
   back:
     name: "Slave Knight Gael"
     cost: ""
@@ -218,12 +218,12 @@ card_gael_seeker_of_ash:
     power: 7
     toughness: 7
     frame: "Double-Faced: Night"
-    color_indicator: "black/red"
+    color_indicator: "{B/R}"
 
 card_gravelords_maelstrom:
   front:
     name: "Gravelord's Maelstrom"
-    cost: "UUBBBRR"
+    cost: "{U}{U}{B}{B}{B}{R}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -237,7 +237,7 @@ card_gravelords_maelstrom:
 card_gwyn_lord_of_cinder:
   front:
     name: "Gwyn, Lord of Cinder"
-    cost: "2/W2/U2/B2/R2/G"
+    cost: "{2/W}{2/U}{2/B}{2/R}{2/G}"
     super: "Legendary"
     type: "Planeswalker"
     sub: "Gwyn Lord"
@@ -256,7 +256,7 @@ card_gwyn_lord_of_cinder:
 card_hawkeye_gough:
   front:
     name: "Hawkeye Gough"
-    cost: "2RG"
+    cost: "{2}{R}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Knight"
@@ -274,7 +274,7 @@ card_hawkeye_gough:
 card_iudex_gundyr:
   front:
     name: "Iudex Gundyr"
-    cost: "WB"
+    cost: "{W}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -306,12 +306,12 @@ card_iudex_gundyr:
     power: 2
     toughness: 2
     frame: "Double-Faced: Night"
-    color_indicator: "White"
+    color_indicator: "{W}"
 
 card_king_of_the_storm:
   front:
     name: "King of the Storm"
-    cost: "URW"
+    cost: "{U}{R}{W}"
     super: "Legendary"
     type: "Planeswalker"
     sub: "Nameless King Lord"
@@ -329,7 +329,7 @@ card_king_of_the_storm:
 card_knight_artorias:
   front:
     name: "Knight Artorias"
-    cost: "2WUB"
+    cost: "{2}{W}{U}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Knight"
@@ -364,12 +364,12 @@ card_knight_artorias:
     power: 3
     toughness: 4
     frame: "Double-Faced: Night"
-    color_indicator: "Black"
+    color_indicator: "{B}"
 
 card_knight_lautrec:
   front:
     name: "Knight Lautrec"
-    cost: "RWB"
+    cost: "{R}{W}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -403,12 +403,12 @@ card_knight_lautrec:
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "Black"
+    color_indicator: "{B}"
 
 card_lorian_and_lothric:
   front:
     name: "Lorian and Lothric"
-    cost: "3RW"
+    cost: "{3}{R}{W}"
     super: "Legendary"
     type: "Planeswalker"
     sub: "Lorian Lothric Lord"
@@ -426,7 +426,7 @@ card_lorian_and_lothric:
 card_ruin_sentinels:
   front:
     name: "Ruin Sentinels"
-    cost: "2G/W"
+    cost: "{2}{G/W}"
     super: ""
     type: "Creature"
     sub: "Giant"
@@ -444,7 +444,7 @@ card_ruin_sentinels:
 card_sorcerers_remedy:
   front:
     name: "Sorcerer's Remedy"
-    cost: "WU"
+    cost: "{W}{U}"
     super: ""
     type: "Instant"
     sub: ""
@@ -458,7 +458,7 @@ card_sorcerers_remedy:
 card_splintering_lightning:
   front:
     name: "Splintering Lightning"
-    cost: "XRW"
+    cost: "{X}{R}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -473,7 +473,7 @@ card_splintering_lightning:
 card_spreading_decay:
   front:
     name: "Spreading Decay"
-    cost: "RB"
+    cost: "{R}{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -489,7 +489,7 @@ card_spreading_decay:
 card_stream_of_estus:
   front:
     name: "Stream of Estus"
-    cost: "2/R2/G"
+    cost: "{2/R}{2/G}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -503,7 +503,7 @@ card_stream_of_estus:
 card_yhorm_the_giant:
   front:
     name: "Yhorm, the Giant"
-    cost: "1BRRGG"
+    cost: "{1}{B}{R}{R}{G}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Lord"
