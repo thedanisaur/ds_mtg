@@ -221,7 +221,7 @@ card_flame_whip:
     rarity: "Uncommon"
     rules_text: |
       Enchant creature
-      Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Deal 4 damage divided as you choose among one, two, three, or four targets."
+      Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Enchanted creature deals 4 damage divided as you choose among one, two, three, or four targets."
       When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
@@ -239,7 +239,7 @@ card_flamewielding_hollow:
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       If ~ leaves the battlefield, you get one soul.
-      {T}: Deal X damage to target creature, where X is ~'s power.
+      {T}: ~ deals damage equal to it's power to target creature.
     flavor_text: "Pyromancy is the knowledge of controlling flame, and knowing that control is impossible."
     artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
     artist: "full maverick"
@@ -352,8 +352,8 @@ card_profaned_flame:
     rarity: "Common"
     rules_text: |
       Choose one -
-      • Deal 4 damage to target creature.
-      • Deal 4 damage to target player or planeswalker. ~ deals 2 damage to you.
+      • ~ deals 4 damage to target creature.
+      • ~ deals 4 damage to target player or planeswalker and 2 damage to you. 
     flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
     artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
     artist: "fantasyworldonline"
@@ -441,7 +441,7 @@ card_smoldering_rotten_flesh:
     rules_text: |
       ~ can block creatures with shadow as though they didn't have shadow.
       Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
-      When ~ is turned face up it deals 3 damage to target creature.
+      When ~ is turned face up it deals 3 damage to any target.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/7JgFR7KW/smouldering-rotten-flesh-necrodevourer-resize.jpg"
     artist: "necrodevourer"
