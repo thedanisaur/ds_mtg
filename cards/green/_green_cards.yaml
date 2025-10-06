@@ -1,7 +1,7 @@
 card_abyss_watchers:
   front:
     name: "Abyss Watchers"
-    cost: "3GG"
+    cost: "{3}{G}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Knight Lord"
@@ -35,12 +35,12 @@ card_abyss_watchers:
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
-    color_indicator: "Green"
+    color_indicator: "{G}"
 
 card_alluring_skull:
   front:
     name: "Alluring Skull"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -54,7 +54,7 @@ card_alluring_skull:
 card_amana_aberration:
   front:
     name: "Amana Aberration"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Creature"
     sub: "Hollow Wizard"
@@ -75,7 +75,7 @@ card_amana_aberration:
 card_contrasted_cursed:
   front:
     name: "Contrasted Cursed"
-    cost: "2G"
+    cost: "{2}{G}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
@@ -92,7 +92,7 @@ card_contrasted_cursed:
 card_corrode:
   front:
     name: "Corrode"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -106,7 +106,7 @@ card_corrode:
 card_covenant_of_the_forest_hunter:
   front:
     name: "Covenant of the Forest Hunter"
-    cost: "GGGG"
+    cost: "{G}{G}{G}{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -126,7 +126,7 @@ card_covenant_of_the_forest_hunter:
 card_dukes_dear_freja:
   front:
     name: "Duke's Dear Freja"
-    cost: "3GG"
+    cost: "{3}{G}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Spider Lord"
@@ -146,7 +146,7 @@ card_dukes_dear_freja:
 card_ent_of_the_darkroot_garden:
   front:
     name: "Ent of the Darkroot Garden"
-    cost: "GG"
+    cost: "{G}{G}"
     super: ""
     type: "Creature"
     sub: "Treefolk"
@@ -167,7 +167,7 @@ card_ent_of_the_darkroot_garden:
 card_estus:
   front:
     name: "Estus"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -183,7 +183,7 @@ card_estus:
 card_expected_companions:
   front:
     name: "Expected Companions"
-    cost: "2G"
+    cost: "{2}{G}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -201,7 +201,7 @@ card_expected_companions:
 card_festering_goblin:
   front:
     name: "Festering Goblin"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Creature"
     sub: "Goblin"
@@ -219,7 +219,7 @@ card_festering_goblin:
 card_gaping_dragon:
   front:
     name: "Gaping Dragon"
-    cost: "2GG"
+    cost: "{2}{G}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Demon Dragon"
@@ -238,7 +238,7 @@ card_gaping_dragon:
 card_hesitant_surveyor:
   front:
     name: "Hesitant Surveyor"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Creature"
     sub: "Human Ally"
@@ -257,7 +257,7 @@ card_hesitant_surveyor:
 card_hollow_knight:
   front:
     name: "Hollow Knight"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Creature"
     sub: "Hollow Knight"
@@ -275,7 +275,7 @@ card_hollow_knight:
 card_lothric_knight:
   front:
     name: "Lothric Knight"
-    cost: "1GG"
+    cost: "{1}{G}{G}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -293,7 +293,7 @@ card_lothric_knight:
 card_milfanito:
   front:
     name: "Milfanito"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -312,7 +312,7 @@ card_milfanito:
 card_mimic:
   front:
     name: "Mimic"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Creature"
     sub: "Shapeshifter"
@@ -330,7 +330,7 @@ card_mimic:
 card_pagan_tree:
   front:
     name: "Pagan Tree"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -347,7 +347,7 @@ card_pagan_tree:
 card_petrifying_statue:
   front:
     name: "Petrifying Statue"
-    cost: "2G"
+    cost: "{2}{G}"
     super: ""
     type: "Enchantment Creature"
     sub: "Golem Lizard"
@@ -366,7 +366,7 @@ card_petrifying_statue:
 card_proselyte_scarlett:
   front:
     name: "Proselyte Scarlett"
-    cost: "G"
+    cost: "{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Human Ally"
@@ -386,7 +386,7 @@ card_proselyte_scarlett:
 card_ravenous_crystal_lizard:
   front:
     name: "Ravenous Crystal Lizard"
-    cost: "GG"
+    cost: "{G}{G}"
     super: ""
     type: "Creature"
     sub: "Lizard"
@@ -404,7 +404,7 @@ card_ravenous_crystal_lizard:
 card_seek_embers:
   front:
     name: "Seek Embers"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -420,7 +420,7 @@ card_seek_embers:
 card_sentinel_of_the_tower_of_flame:
   front:
     name: "Sentinel of the Tower of Flame"
-    cost: "GG"
+    cost: "{G}{G}"
     super: ""
     type: "Creature"
     sub: "Giant"
@@ -438,7 +438,7 @@ card_sentinel_of_the_tower_of_flame:
 card_shaded_woods:
   front:
     name: "Shaded Woods"
-    cost: "2G"
+    cost: "{2}{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -454,7 +454,7 @@ card_shaded_woods:
 card_souls_of_the_living:
   front:
     name: "Souls of the Living"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -470,7 +470,7 @@ card_souls_of_the_living:
 card_the_serpent_king:
   front:
     name: "The Serpent King"
-    cost: "5GG"
+    cost: "{5}{G}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Hydra"
@@ -490,7 +490,7 @@ card_the_serpent_king:
 card_undead_aberration:
   front:
     name: "Undead Aberration"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Creature"
     sub: "Mutant Hollow"
@@ -509,7 +509,7 @@ card_undead_aberration:
 card_warcry:
   front:
     name: "Warcry"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Instant"
     sub: ""
@@ -527,7 +527,7 @@ card_warcry:
 card_warp_the_land:
   front:
     name: "Warp the Land"
-    cost: "1G"
+    cost: "{1}{G}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -543,7 +543,7 @@ card_warp_the_land:
 card_wistful_naivete:
   front:
     name: "Wistful Naivete"
-    cost: "G"
+    cost: "{G}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"

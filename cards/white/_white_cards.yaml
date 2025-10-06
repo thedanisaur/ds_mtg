@@ -1,7 +1,7 @@
 card_anri_of_astora:
   front:
     name: "Anri of Astora"
-    cost: "1W"
+    cost: "{1}{W}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -16,7 +16,7 @@ card_anri_of_astora:
     power: 2
     toughness: 1
     frame: "Double-Faced: Day"
-    color_indicator: "White"
+    color_indicator: "{W}"
   back:
     name: "Hollow Bride"
     cost: ""
@@ -34,12 +34,12 @@ card_anri_of_astora:
     power: 0
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "White"
+    color_indicator: "{W}"
 
 card_batwing_demon:
   front:
     name: "Batwing Demon"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Imp Demon"
@@ -58,7 +58,7 @@ card_batwing_demon:
 card_blessed_cleric:
   front:
     name: "Blessed Cleric"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Creature"
     sub: "Cleric"
@@ -76,7 +76,7 @@ card_blessed_cleric:
 card_corrupted_hollow:
   front:
     name: "Corrupted Hollow"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -105,12 +105,12 @@ card_corrupted_hollow:
     power: 3
     toughness: 2
     frame: "Double-Faced: Night"
-    color_indicator: "Black"
+    color_indicator: "{B}"
 
 card_disenchant:
   front:
     name: "Disenchant"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -124,7 +124,7 @@ card_disenchant:
 card_emit_force:
   front:
     name: "Emit Force"
-    cost: "2WW"
+    cost: "{2}{W}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -138,7 +138,7 @@ card_emit_force:
 card_flexile_sentry:
   front:
     name: "Flexile Sentry"
-    cost: "2W"
+    cost: "{2}{W}"
     super: ""
     type: "Creature"
     sub: "Mutant Hollow"
@@ -155,7 +155,7 @@ card_flexile_sentry:
 card_forossa_lion_knight:
   front:
     name: "Forossa Lion Knight"
-    cost: "2/WW"
+    cost: "{2}/{W}{W}"
     super: ""
     type: "Creature"
     sub: "Human Knight"
@@ -173,7 +173,7 @@ card_forossa_lion_knight:
 card_infested_corpse:
   front:
     name: "Infested Corpse"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -191,7 +191,7 @@ card_infested_corpse:
 card_insolent_spirits:
   front:
     name: "Insolent Spirits"
-    cost: "2WW"
+    cost: "{2}{W}{W}"
     super: ""
     type: "Creature"
     sub: "Spirit"
@@ -209,7 +209,7 @@ card_insolent_spirits:
 card_karmic_justice:
   front:
     name: "Karmic Justice"
-    cost: "WW"
+    cost: "{W}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -223,7 +223,7 @@ card_karmic_justice:
 card_knights_of_gwynevere:
   front:
     name: "Knights of Gwynevere"
-    cost: "WW"
+    cost: "{W}{W}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -240,7 +240,7 @@ card_knights_of_gwynevere:
 card_lightning_spear:
   front:
     name: "Lightning Spear"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -255,7 +255,7 @@ card_lightning_spear:
 card_magic_barrier:
   front:
     name: "Magic Barrier"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -271,7 +271,7 @@ card_magic_barrier:
 card_miracle_of_the_way_of_white:
   front:
     name: "Miracle of the Way of White"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -288,7 +288,7 @@ card_miracle_of_the_way_of_white:
 card_mirrah_warrior:
   front:
     name: "Mirrah Warrior"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -306,7 +306,7 @@ card_mirrah_warrior:
 card_new_londo_shade:
   front:
     name: "New Londo Shade"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Spirit"
@@ -324,7 +324,7 @@ card_new_londo_shade:
 card_petrified_egg:
   front:
     name: "Petrified Egg"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -338,7 +338,7 @@ card_petrified_egg:
 card_reforge:
   front:
     name: "Reforge"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -352,7 +352,7 @@ card_reforge:
 card_resting_merchant:
   front:
     name: "Resting Merchant"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -371,7 +371,7 @@ card_resting_merchant:
 card_siegmeyer_of_catarina:
   front:
     name: "Siegmeyer of Catarina"
-    cost: "WWW"
+    cost: "{W}{W}{W}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -403,12 +403,12 @@ card_siegmeyer_of_catarina:
     power: 0
     toughness: 1
     frame: "Double-Faced: Night"
-    color_indicator: "White"
+    color_indicator: "{W}"
 
 card_solaire_of_astora:
   front:
     name: "Solaire of Astora"
-    cost: "W"
+    cost: "{W}"
     super: "Legendary"
     type: "Creature"
     sub: "Human Knight"
@@ -426,7 +426,7 @@ card_solaire_of_astora:
 card_soul_of_a_nameless_soldier:
   front:
     name: "Soul of a Nameless Soldier"
-    cost: 0
+    cost: ""
     super: ""
     type: "Enchantment"
     sub: ""
@@ -443,7 +443,7 @@ card_soul_of_a_nameless_soldier:
 card_swollen_mongrel:
   front:
     name: "Swollen Mongrel"
-    cost: "WWW"
+    cost: "{W}{W}{W}"
     super: ""
     type: "Creature"
     sub: "Mutant"
@@ -461,7 +461,7 @@ card_swollen_mongrel:
 card_tears_of_denial:
   front:
     name: "Tears of Denial"
-    cost: "W"
+    cost: "{W}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -478,7 +478,7 @@ card_tears_of_denial:
 card_transient_curse:
   front:
     name: "Transient Curse"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -492,7 +492,7 @@ card_transient_curse:
 card_village_blacksmith:
   front:
     name: "Village Blacksmith"
-    cost: "1W"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -510,7 +510,7 @@ card_village_blacksmith:
 card_vow_of_silence:
   front:
     name: "Vow of Silence"
-    cost: "WW"
+    cost: "{W}{W}"
     super: ""
     type: "Instant"
     sub: ""
@@ -524,7 +524,7 @@ card_vow_of_silence:
 card_weary_travelers:
   front:
     name: "Weary Travelers"
-    cost: "2W"
+    cost: "{2}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -540,7 +540,7 @@ card_weary_travelers:
 card_wight:
   front:
     name: "Wight"
-    cost: "2W"
+    cost: "{2}{W}"
     super: ""
     type: "Creature"
     sub: "Human Spirit"

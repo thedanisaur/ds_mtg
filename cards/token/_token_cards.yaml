@@ -1,8 +1,8 @@
 card_assassin:
   front:
     name: "Assassin"
-    cost: "B"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Assassin"
     rarity: "Uncommon"
@@ -13,12 +13,13 @@ card_assassin:
     number: 1
     power: 1
     toughness: 1
+    color_indicator: "{B}"
 
 card_chaos_bug:
   front:
     name: "Chaos Bug"
-    cost: "R"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Insect"
     rarity: "Rare"
@@ -29,12 +30,13 @@ card_chaos_bug:
     number: 2
     power: 0
     toughness: 1
+    color_indicator: "{R}"
 
 card_hollow:
   front:
     name: "Hollow"
-    cost: "C"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
@@ -45,28 +47,30 @@ card_hollow:
     number: 3
     power: 1
     toughness: 1
+    color_indicator: "{C}"
 
 card_hollow_knight:
   front:
     name: "Hollow Knight"
-    cost: "G"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Hollow Knight"
     rarity: "Common"
-    rules_text: "{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn."
+    rules_text: "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
     flavor_text: ""
     artwork_url: "https://i.ibb.co/n8jxhZsR/hollow-knight-lifelessmech.png"
     artist: "lifelessmech"
     number: 4
     power: 1
     toughness: 1
+    color_indicator: "{G}"
 
 card_human:
   front:
     name: "Human"
-    cost: "W"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Human"
     rarity: "Common"
@@ -77,12 +81,13 @@ card_human:
     number: 5
     power: 1
     toughness: 1
+    color_indicator: "{W}"
 
 card_human_ally_black:
   front:
     name: "Human Ally"
-    cost: "B"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Human Ally"
     rarity: "Common"
@@ -93,12 +98,13 @@ card_human_ally_black:
     number: 6
     power: 1
     toughness: 2
+    color_indicator: "{B}"
 
 card_human_ally_white:
   front:
     name: "Human Ally"
-    cost: "W"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Human Ally"
     rarity: "Common"
@@ -109,11 +115,12 @@ card_human_ally_white:
     number: 7
     power: 2
     toughness: 1
+    color_indicator: "{W}"
 
 card_ornstein:
   front:
     name: "Ornstein"
-    cost: "W"
+    cost: ""
     super: "Legendary"
     type: "Creature"
     sub: "Giant"
@@ -126,12 +133,13 @@ card_ornstein:
     number: 8
     power: 3
     toughness: 2
+    color_indicator: "{W}"
 
 card_phantom:
   front:
     name: "Phantom"
-    cost: "W"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Human Ally"
     rarity: "Common"
@@ -143,12 +151,13 @@ card_phantom:
     number: 9
     power: 3
     toughness: 3
+    color_indicator: "{W}"
 
 card_red_phantom:
   front:
     name: "Red Phantom"
-    cost: "R"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Human"
     rarity: "Common"
@@ -160,12 +169,13 @@ card_red_phantom:
     number: 10
     power: 3
     toughness: 3
+    color_indicator: "{R}"
 
 card_skeleton:
   front:
     name: "Skeleton"
-    cost: "B"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Skeleton"
     rarity: "Common"
@@ -176,11 +186,12 @@ card_skeleton:
     number: 11
     power: 1
     toughness: 1
+    color_indicator: "{B}"
 
 card_smough:
   front:
     name: "Smough"
-    cost: "G"
+    cost: ""
     super: "Legendary"
     type: "Creature"
     sub: "Giant"
@@ -192,12 +203,13 @@ card_smough:
     number: 12
     power: 3
     toughness: 3
+    color_indicator: "{G}"
 
 card_treasure:
   front:
     name: "Treasure"
-    cost: "C"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
@@ -208,12 +220,13 @@ card_treasure:
     number: 13
     power: 1
     toughness: 1
+    color_indicator: "{C}"
 
 card_wizard:
   front:
     name: "Wizard"
-    cost: "UR"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
@@ -224,12 +237,13 @@ card_wizard:
     number: 14
     power: 1
     toughness: 1
+    color_indicator: "{U/R}"
 
 card_zombie_jackal:
   front:
     name: "Zombie Jackal"
-    cost: "B"
-    super: ""
+    cost: ""
+    super: "Token"
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
@@ -240,3 +254,4 @@ card_zombie_jackal:
     number: 15
     power: 2
     toughness: 2
+    color_indicator: "{B}"
