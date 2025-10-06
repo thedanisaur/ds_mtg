@@ -52,8 +52,8 @@ card_carthus_rouge:
     sub: "Aura"
     rarity: "Uncommon"
     rules_text: |
-      Enchant creature
-      Whenever the enchanted creature deals damage to another creature put two bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Enchant equipment
+      Enchanted equipment has "Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, that creature or player gets a bleed counter for each damage received instead)"
     flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
     artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
     artist: "nobleones"
@@ -114,7 +114,7 @@ card_clawed_curse:
 card_curse_of_the_dead:
   front:
     name: "Curse of the Dead"
-    cost: "2BB"
+    cost: "1BB"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
@@ -122,7 +122,7 @@ card_curse_of_the_dead:
     rules_text: |
       Enchant player
       Creatures enchanted player controls get -1/-1 and can't block.
-      Whenever a creature controlled by enchanted player dies you get one soul.
+      Whenever a creature controlled by enchanted player dies you, draw one card, lose one life, and get one soul.
     flavor_text: "Bearer of the curse... Seek souls, larger, more powerful souls. Lest this land swallow you whole..."
     artwork_url: "https://www.deviantart.com/nele-diel/art/Village-of-the-Forgotten-With-Process-Video-685238094"
     artist: "nele diel"
@@ -203,7 +203,7 @@ card_frozen_reindeer:
     rarity: "Rare"
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      {T}: Target creature gets -3/-3 until end of turn.
+      {T}: Target creature gets -3/-3 until end of turn. You lose 3 life.
     flavor_text: "Prepare yourself, the blizzard is upon us."
     artwork_url: "https://www.deviantart.com/naouriredouane1998/art/Snow-Creature-By-Naouri-Redouane-707182045"
     artist: "naouriredouane1998"
@@ -253,7 +253,7 @@ card_gravelord_nito:
     rarity: "Mythic"
     rules_text: |
       When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.
-      At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of 1/1 black Skeleton creature tokens equal to the  difference.
+      At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of tapped 1/1 black Skeleton creature tokens equal to the  difference.
       Whenever a creature dies you get one soul.
     flavor_text: "Nito's soul turned him into a living manifestation of illness and death, a mass of skeletons held together by the miasma of the Death Soul."
     artwork_url: "https://www.deviantart.com/vempirick/art/The-fire-will-fade-644323296"
@@ -494,7 +494,7 @@ card_wake_the_hollows:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Exile two target creature cards from your graveyard. Create four 1/1 colorless Hollow creature tokens onto the battlefield."
+    rules_text: "Exile all creature cards from all graveyards. Create a 1/1 colorless Hollow creature token for each card exiled this way."
     flavor_text: "In the land of ancient lords, not even death is rest."
     artwork_url: "https://i.ibb.co/ccQgrcDz/wake-the-hollows-aland1w-resize.jpg"
     artist: "aland1w"

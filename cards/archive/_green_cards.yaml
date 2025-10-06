@@ -1,0 +1,16 @@
+card_petrify:
+  front:
+    name: "Petrify"
+    cost: "2G"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Common"
+    rules_text: |
+      Enchant creature
+      Enchanted creature can't attack or block, and its activated abilities can't be activated.
+      {1}{G}: Attach ~ to target creature. Draw a card.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
+    artist: "Mudhorror"
+    number: 151

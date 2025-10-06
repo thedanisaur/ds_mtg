@@ -83,7 +83,7 @@ card_contrasted_cursed:
     rules_text: |
       Enchant player
       Creatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)
-      Whenever you attack defending player loses life equal to the number of souls they have. Then they remove half their souls rounded up.
+      Whenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.
     flavor_text: "Occasionally, you'll want to be cursed."
     artwork_url: ""
     artist: ""
@@ -92,12 +92,12 @@ card_contrasted_cursed:
 card_corrode:
   front:
     name: "Corrode"
-    cost: "1G"
+    cost: "G"
     super: ""
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Destroy target artifact. Remove two souls from that permanent's controller and you get two souls."
+    rules_text: "Destroy target artifact or enchantment. Remove two souls from that permanent's controller and you get two souls."
     flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
     artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
     artist: "anikoo"
@@ -123,22 +123,6 @@ card_covenant_of_the_forest_hunter:
     artist: "thegoblincoach"
     number: 136
 
-card_crystal_lizard:
-  front:
-    name: "Crystal Lizard"
-    cost: "GG"
-    super: ""
-    type: "Creature"
-    sub: "Lizard"
-    rarity: "Common"
-    rules_text: "When ~ enters the battlefield return a creature you control to its owner's hand."
-    flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
-    artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
-    artist: "jaqenart"
-    number: 137
-    power: 4
-    toughness: 5
-
 card_dukes_dear_freja:
   front:
     name: "Duke's Dear Freja"
@@ -149,12 +133,13 @@ card_dukes_dear_freja:
     rarity: "Uncommon"
     rules_text: |
       Reach, trample
-      {B}{B}: ~ gains deathtouch until end of turn.
-      {1}{G}: Until end of turn whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.
+      Whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.
+      {G}, Sacrifice an artifact: This creature and another target creature each deal 1 damage to the other.
+      {1}{B}, {T}: Discard a card at random. Return a random card from your graveyard to your hand. Create two treasure tokens.
     flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
     artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
     artist: "tatarskiskandal"
-    number: 138
+    number: 137
     power: 4
     toughness: 5
 
@@ -175,7 +160,7 @@ card_ent_of_the_darkroot_garden:
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
     artist: "legen"
-    number: 139
+    number: 138
     power: 3
     toughness: 3
 
@@ -188,12 +173,12 @@ card_estus:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Put a card from the top of your library into your graveyard. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Put a card from the top of your library into your graveyard for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
       Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
-    number: 140
+    number: 139
 
 card_expected_companions:
   front:
@@ -209,7 +194,7 @@ card_expected_companions:
     flavor_text: "I see, you've done this before."
     artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
     artist: "sanekyle"
-    number: 141
+    number: 140
     power: 3
     toughness: 3
 
@@ -222,12 +207,12 @@ card_festering_goblin:
     sub: "Goblin"
     rarity: "Common"
     rules_text: |
-      {T}: Add {G} to your mana pool.
+      {T}: Add {G} to your mana pool. Activate this ability only during your turn.
       Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"
-    number: 142
+    number: 141
     power: 0
     toughness: 1
 
@@ -240,14 +225,15 @@ card_gaping_dragon:
     sub: "Demon Dragon"
     rarity: "Uncommon"
     rules_text: |
-      Deathtouch, reach, trample
-      Whenever ~ deals damage to a creature destroy each equipment attached to that creature.
-    flavor_text: "Consumed by a ravenous and eternal hunger, the Gaping Dragon is a tragic perversion of its noble ancestors."
+      Deathtouch, reach, trample, haste
+      When ~ attacks create a treasure token.
+      Whenever ~ deals damage to a player you may sacrifice an artifact. If you do, put a bleed counter on each creature that player controls.
+    flavor_text: "Consumed by a ravenous eternal hunger."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
     artist: "luffie"
-    number: 143
+    number: 142
     power: 4
-    toughness: 6
+    toughness: 4
 
 card_hesitant_surveyor:
   front:
@@ -261,7 +247,7 @@ card_hesitant_surveyor:
     flavor_text: "Let me grab my binoculars."
     artwork_url: "https://www.deviantart.com/adzerak/art/Close-The-Distance-396081114"
     artist: "adzerak"
-    number: 144
+    number: 143
     power: 1
     toughness: 1
 
@@ -279,27 +265,27 @@ card_hollow_knight:
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
     artist: "tithendar"
-    number: 145
+    number: 144
     power: 1
     toughness: 1
 
 card_lothric_knight:
   front:
     name: "Lothric Knight"
-    cost: "2GG"
+    cost: "1GG"
     super: ""
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
     rules_text: |
-      First strike
-      ~ gets +1/+1 for each Equipment attached to it.
+      Protection from blue and from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or black.)
+      ~ gets +1/+1 for each equipment attached to it.
     flavor_text: "Knights of the royal order of Lothric, once sworn to the flame, now roam the halls hollow, relentless, and proud."
     artwork_url: "https://i.ibb.co/tpz1zy00/lothric-knight-resize.jpg"
     artist: "Draegore Nagendra"
-    number: 146
-    power: 4
-    toughness: 4
+    number: 145
+    power: 3
+    toughness: 3
 
 card_milfanito:
   front:
@@ -316,7 +302,7 @@ card_milfanito:
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"
-    number: 147
+    number: 146
     power: 0
     toughness: 2
 
@@ -334,7 +320,7 @@ card_mimic:
     flavor_text: "The chest did not creak. It exhaled."
     artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
     artist: "d&d"
-    number: 148
+    number: 147
     power: 3
     toughness: 2
 
@@ -346,47 +332,71 @@ card_pagan_tree:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rules_text: "Tap two untapped creatures you control: Green spells you control cost {2}{G}{G} less to cast this turn."
+    rules_text: |
+      Pay two souls: Put an effigy counter on target permanent.
+      Remove two effigy counters from ~: Until end of turn spells you cast gain, "You may pay {X} rather than pay this spell's mana cost". Add {G}{G}.
+      Sacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
     artist: "Glenn Porter"
-    number: 149
+    number: 148
 
-card_parasite_spider:
+card_petrifying_statue:
   front:
-    name: "Parasite Spider"
+    name: "Petrifying Statue"
     cost: "2G"
     super: ""
-    type: "Creature"
-    sub: "Spider"
+    type: "Enchantment Creature"
+    sub: "Golem Lizard"
     rarity: "Common"
     rules_text: |
-      Reach
-      ~ has deathtouch if you control three or more spiders.
-      Whenever ~ deals damage you get one soul.
-    flavor_text: "Tseldora, once a prosperous village, now overrun by a plague of spiders."
+      Indestructible
+      ~'s power is equal to the number of enchantments you control.
+      Whenever ~ deals combat damage to a creature prevent that damage. Put a stun counter on it. If that damage would have been lethal that creature gains, "This creature can't attack or block, and its activated abilities can't be activated." instead.
+    flavor_text: ""
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
-    number: 150
-    power: 2
-    toughness: 3
+    number: 149
+    power: "*"
+    toughness: 2
 
-card_petrify:
+card_proselyte_scarlett:
   front:
-    name: "Petrify"
-    cost: "3G"
-    super: ""
-    type: "Enchantment"
-    sub: "Aura"
+    name: "Proselyte Scarlett"
+    cost: "G"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Ally"
     rarity: "Common"
     rules_text: |
-      Enchant creature
-      When ~ enters the battlefield you get one soul.
-      Enchanted creature can't attack or block, and its activated abilities can't be activated.
+      Whenever a card is exiled from a graveyard, if ~ has less than four +1/+1 counters on it place a +1/+1 counter on it.
+      {T}: Exile target land card from a graveyard. Add one mana of any color.
+      {G}, {T}: Exile target permanent card from a graveyard. You gain 2 life.
+      {B/G}, {T}, discard a creature card: Search your library for a creature card. Reveal it and put it into your hand.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
     artist: "Mudhorror"
+    number: 150
+    power: 1
+    toughness: 2
+
+card_ravenous_crystal_lizard:
+  front:
+    name: "Ravenous Crystal Lizard"
+    cost: "GG"
+    super: ""
+    type: "Creature"
+    sub: "Lizard"
+    rarity: "Common"
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      When ~ enters the battlefield return a creature you control to its owner's hand. Then create a treasure token.
+    flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
+    artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
+    artist: "jaqenart"
     number: 151
+    power: 4
+    toughness: 5
 
 card_seek_embers:
   front:
@@ -407,20 +417,20 @@ card_seek_embers:
 card_sentinel_of_the_tower_of_flame:
   front:
     name: "Sentinel of the Tower of Flame"
-    cost: "3GG"
+    cost: "GG"
     super: ""
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
     rules_text: |
       Vigilance, trample
-      {G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If a creature would be destroyed this way, untap ~.
+      {G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If that creature would be destroyed this way, put a +1/+1 counter on ~ and untap it.
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
     artist: "legendary memory"
     number: 153
-    power: 5
-    toughness: 5
+    power: 2
+    toughness: 2
 
 card_shaded_woods:
   front:
@@ -431,7 +441,7 @@ card_shaded_woods:
     sub: ""
     rarity: "Common"
     rules_text: |
-      Search your library for two basic Forest cards and put them onto the battlefield tapped.
+      Search your library for two forest cards and put them onto the battlefield tapped.
       You may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.
     flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
     artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
@@ -483,9 +493,10 @@ card_undead_aberration:
     sub: "Mutant Hollow"
     rarity: "Common"
     rules_text: |
-      As an additional cost to cast ~ reveal a Hollow card from your hand or pay {2}.
+      As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
       Deathtouch, trample
-    flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended to make?"
+      Whenever a hollow enters the battlefield under your control you may pay two souls. If you do, search your library for a hollow or enchantment card. Reveal it and put it into your hand.
+    flavor_text: "The darkness of humanity seeps from within, the gap filled by the accumulation of the curse."
     artwork_url: ""
     artist: ""
     number: 157
@@ -500,8 +511,12 @@ card_warcry:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Target creature gets +3/+3 until end of turn. Untap it. Add {G} to your mana pool."
-    flavor_text: "I am Solaire of Astora, an adherent of the Lord of Sunlight!"
+    rules_text: |
+      Choose one:
+      • Put three +1/+1 counters on target creature, untap it.
+      • Target creature can't be the target of spells or abilities your opponents control this turn.
+      • The next spell you cast this turn can't be countered.
+    flavor_text: ""
     artwork_url: "https://www.deviantart.com/swoldier76/art/Solaire-755239878"
     artist: "swoldier76"
     number: 158
@@ -532,7 +547,7 @@ card_wistful_naivete:
     rarity: "Uncommon"
     rules_text: |
       Enchant player
-      Enchanted player has "If an opponent turning a creature face up would cause an ability to trigger, that ability triggers a second time."
+      Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time."
     flavor_text: "Sometimes the players just don't catch on."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
     artist: "thecursedbosskiller"

@@ -156,7 +156,7 @@ card_heide_knight:
     rarity: "Uncommon"
     rules_text: |
       Double Strike
-      ~ can't attack or block unless you were dealt damage last turn.
+      ~ can't attack or block unless you were dealt damage on your opponents last turn.
     flavor_text: "The Heide Knights served as protectors for the kingdom of Heide. But the land was reduced to ashes, and swallowed by sea."
     artwork_url: "https://i.ibb.co/rfv4rTsL/heide-knight-resize.jpg"
     artist: "fromsoft"
@@ -233,9 +233,9 @@ card_metaleater_spider:
     sub: "Spider"
     rarity: "Common"
     rules_text: |
-      When ~ enters the battlefield, destroy up to two target equipment.
-      Reach.
-    flavor_text: ""
+      When ~ enters the battlefield, destroy up to two target artifacts.
+      Reach
+    flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— Sir Aldren of the New Londo Guard'
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
     artist: "sohlol"
     number: 200
@@ -333,7 +333,7 @@ card_soul_syphoner:
     rarity: "Uncommon"
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
-      {1}, Sacrifice ~: Remove all souls from target player.
+      {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
     flavor_text: "\"I thought I could control it. But the siphon is always hungrier than the hand.\"— Master Alestrian, exiled sage"
     artwork_url: "https://www.deviantart.com/wisestprojectstudio/art/Various-Inventions-1032369175"
     artist: "WisestProjectStudio"
