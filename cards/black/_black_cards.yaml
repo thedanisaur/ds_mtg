@@ -139,7 +139,7 @@ card_dark_edge:
     rules_text: |
       As an additional cost to cast ~ discard a card or pay {3}.
       Choose one -
-      • Deal 5 damage to player. You gain 5 life.
+      • ~ deals 5 damage to player. You gain 5 life.
       • Destroy target nonblack creature. You gain life equal to it's toughness.
       • Destroy target planeswalker. You gain life equal to it's loyalty.
     flavor_text: ""
