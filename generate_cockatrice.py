@@ -51,7 +51,7 @@ def creates_this_token(token):
                             card_back_rules_text = card_back['rules_text'].lower()
                             if color in card_back_rules_text and token_name in card_back_rules_text and token_rules_text in card_back_rules_text and token_sub_type in card_back_rules_text:
                                 cards.append(card_back['name'])
-    return cards
+    return ', '.join(cards)
 
 
 def type_to_tablerow(type):
@@ -149,10 +149,11 @@ def create_card(card_front, card_back, image_url):
     if TYPE_TOKEN in card_front['super']:
         card_name = f"{card_front['name']} - {colors_from_mana_cost(card_front['color_indicator'])}"
 
-    general_tags = f"""<name>{card_name}</name>
-        <text>{card_front['rules_text']}        </text>
-        <set rarity="{card_front['rarity']}" uuid="{uuid.uuid4()}" num="{card_front['number']}" picurl="{image_url}">DKS</set>
-        <tablerow>{type_to_tablerow(card_front['type'])}</tablerow>"""
+    general_tags = f"""        <name>{card_name}</name>
+        <text>{card_front['rules_text'].strip()}</text>
+        <prop>PROPERTIES
+        </prop>
+        <set rarity="{card_front['rarity']}" uuid="{uuid.uuid4()}" num="{card_front['number']}" picurl="{image_url}">DKS</set>"""
 
     super_type = f"{card_front['super']} " if len(card_front['super']) > 0 else ''
     sub_type = f" - {card_front['sub']}" if len(card_front['sub']) > 0 else ''
@@ -176,11 +177,6 @@ def create_card(card_front, card_back, image_url):
         property_tags += f"""
             <loyalty>{card_front['loyalty']}</loyalty>"""
 
-    # Comes into play tapped
-    if 'enters the battlefield tapped' in card_front['rules_text']:
-        general_tags += f"""
-        <cipt>1</cipt>"""
-
     # Transform cards
     if card_back:
         general_tags += f"""
@@ -190,14 +186,18 @@ def create_card(card_front, card_back, image_url):
     if TYPE_TOKEN in card_front['super']:
         related_cards = creates_this_token(card_front)
         general_tags += f"""
-        <token>1</token>
-        <reverse-related>{related_cards}</reverse-related>"""
+        <reverse-related>{related_cards}</reverse-related>
+        <token>1</token>"""
+    
+    general_tags += f"""
+        <tablerow>{type_to_tablerow(card_front['type'])}</tablerow>"""
 
-    card = f"""
-        {general_tags}
-        <prop>
-            {property_tags}
-        </prop>"""
+    # Comes into play tapped
+    if 'enters the battlefield tapped' in card_front['rules_text']:
+        general_tags += f"""
+        <cipt>1</cipt>"""
+
+    card = f"\n{general_tags.replace('PROPERTIES', property_tags)}\n"
     return card
 
 
@@ -218,7 +218,7 @@ if __name__ == '__main__':
                         image_name_front = image_name + '_front' if card_back is not None else image_name
                         image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
                         card_front_xml = create_card(card_front, card_back, image_url)
-                        card_front_xml = f"""    <card>{card_front_xml}\n    </card>\n"""
+                        card_front_xml = f"""    <card>{card_front_xml}    </card>\n"""
                         cards.append(card_front_xml)
 
                         if card_back:
@@ -226,15 +226,14 @@ if __name__ == '__main__':
                             image_name_back = image_name + "_back"
                             image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
                             card_back_xml = create_card(card_back, card_front, image_url)
-                            card_back_xml = f"""    <card>{card_back_xml}\n    </card>\n"""
+                            card_back_xml = f"""    <card>{card_back_xml}    </card>\n"""
                             cards.append(card_back_xml)
 
     # Write the file
-    cockatrice_set_file = 'cockatrice.txt'
+    cockatrice_set_file = 'cockatrice_dks.xml'
     with open(cockatrice_set_file, "w", encoding="utf-8") as file:
         print(f"{cockatrice_set_file}: Writing set")
-        xml_start = f"""
-<?xml version="1.0" encoding="UTF-8"?>
+        xml_start = f"""<?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_carddatabase version="4">
     <sets>
         <set>
@@ -242,10 +241,11 @@ if __name__ == '__main__':
         <longname>DKS</longname>
         </set>
     </sets>
+    <cards>
 """
         file.write(xml_start)
         for card in cards:
             file.write(card)
-        xml_end = f"""</cockatrice_carddatabase>"""
+        xml_end = f"""</cards>\n</cockatrice_carddatabase>"""
         file.write(xml_end)
         print(f"{cockatrice_set_file}: ✅ Set written")
