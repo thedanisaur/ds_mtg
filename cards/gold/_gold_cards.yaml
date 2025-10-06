@@ -82,8 +82,8 @@ card_blade_of_the_darkmoon:
     sub: "Knight"
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield, draw a card. If an opponent controls a creature named Red Phantom, create a 3/3 white human ally creature token named Phantom. It has haste.
-      Whenever a creature named "Red Phantom" dies you get one soul.
+      When ~ enters the battlefield if an opponent controls a creature named "Red Phantom", create a 3/3 white human ally creature token named Phantom. It has haste.
+      Whenever a creature named "Red Phantom" dies you get one soul and draw a card.
     flavor_text: "Thy punishment ... is death"
     artwork_url: "https://i.ibb.co/BHBvZqvX/blade-of-the-dark-moon-inkimagine-recolor.jpg"
     artist: "inkimagine"
