@@ -119,7 +119,7 @@ card_disembodied_wisp:
     rarity: "Uncommon"
     rules_text: |
       Haste
-      {1}, {T}, Sacrifice ~: Deal 3 damage to any target.
+      {1}, {T}, Sacrifice ~: ~ deals 3 damage to any target.
     flavor_text: "In the Abyss, even souls lose their shape. What drifts there is not quite light… and not quite lost."
     artwork_url: "https://i.pinimg.com/564x/35/62/35/3562358f3106d0eee362e50dd956ce42.jpg"
     artist: "Ben Clifford"
@@ -156,7 +156,7 @@ card_ember:
     rarity: "Rare"
     rules_text: |
       When ~ enters the battlefield create a 3/3 white creature token named Phantom. It has haste. Each opponent gets an emblem with "At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess."
-      {2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste. Activate this ability only if you control one or fewer creature tokens named Phantom.
+      {2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/C5ryGN1M/EMBER-alex-bezhko.jpg"
     artist: "alex bezhko"
@@ -376,7 +376,7 @@ card_knight_lautrec:
     rarity: "Rare"
     rules_text: |
       Haste
-      When ~ enters the battlefield exile the top card of an opponents library with a favored counter on it.
+      When this creature enters the battlefield or transforms into ~, exile the top card of an opponents library with a favored counter on it.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "This is a wonderful place, don't you think? We are fortunate indeed. If only I were so lucky..."
     artwork_url: "https://i.ibb.co/ycB14xrR/knight-lautrec-warhuan-resize.jpg"

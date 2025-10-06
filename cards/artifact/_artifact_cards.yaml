@@ -382,7 +382,7 @@ card_uchigatana:
     rarity: "Uncommon"
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Whenever a creature equipped with ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+      Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
       Equip {2}
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
@@ -392,16 +392,16 @@ card_uchigatana:
 card_wolf_knights_greatshield:
   front:
     name: "Wolf Knight's Greatshield"
-    cost: 2
+    cost: 3
     super: ""
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
     rules_text: |
-      Equipped creature has +1/+1 and indestructible.
-      Whenever the equipped creature blocks, you may draw a card.
+      Equipped creature has +1/+1, lifelink, and indestructible.
+      Whenever the equipped creature is dealt damage, you may draw a card.
       Equip {2}
     flavor_text: "Shield born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."
-    artwork_url: "https://api.deepai.org/job-view-file/f71974e0-12fb-4abe-80b8-0053c6262c28/outputs/output.jpg"
+    artwork_url: "https://i.ibb.co/qP0ThWd/wolf-knights-great-shield.jpg"
     artist: "deepai"
     number: 210
