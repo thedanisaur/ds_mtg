@@ -47,7 +47,7 @@ card_batwing_demon:
     rules_text: |
       Flying
       {T}: Tap target creature.
-      {R}, {T}: Deal 1 damage to target attacking or blocking creature.
+      {R}, {T}: ~ deals 1 damage to target attacking or blocking creature.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/SDGZgXZR/batwing-demon-fromsoft-oil.jpg"
     artist: "fromsoft"

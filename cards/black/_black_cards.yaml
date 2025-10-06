@@ -393,8 +393,8 @@ card_parasite_worm:
     rarity: "Common"
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
-      {B}{B}{B}: Parasite Worm becomes an Enchanment Aura and gains "Enchant creature", return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature.
-    flavor_text: ""
+      {B}{B}: If ~ is a creature it becomes an Enchanment Aura and loses this ability, it gains "Enchant creature". Return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature and you lose two life.
+    flavor_text: "Now, let this strength be yours."
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
     number: 94

@@ -337,7 +337,7 @@ card_pagan_tree:
     rarity: "Common"
     rules_text: |
       Pay two souls: Put an effigy counter on target permanent.
-      Remove two effigy counters from ~: Until end of turn spells you cast gain, "You may pay {X} rather than pay this spell's mana cost". Add {G}{G}.
+      Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} rather than pay this spell's mana cost". Add {G}{G}.
       Sacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
@@ -355,7 +355,7 @@ card_petrifying_statue:
     rules_text: |
       Indestructible
       ~'s power is equal to the number of enchantments you control.
-      Whenever ~ deals combat damage to a creature prevent that damage. Put a stun counter on it. If that damage would have been lethal that creature gains, "This creature can't attack or block, and its activated abilities can't be activated." instead.
+      Whenever ~ deals combat damage to a creature prevent that damage. Put a stun counter on it, if that damage would have been lethal that creature gains, "This creature can't attack or block, and its activated abilities can't be activated." instead.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
