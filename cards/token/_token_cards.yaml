@@ -121,7 +121,7 @@ card_ornstein:
   front:
     name: "Ornstein"
     cost: ""
-    super: "Legendary"
+    super: "Legendary Token"
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
@@ -192,7 +192,7 @@ card_smough:
   front:
     name: "Smough"
     cost: ""
-    super: "Legendary"
+    super: "Legendary Token"
     type: "Creature"
     sub: "Giant"
     rarity: "Common"

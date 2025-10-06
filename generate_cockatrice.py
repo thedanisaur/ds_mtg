@@ -81,6 +81,7 @@ def colors_from_mana_cost(mana_cost):
         'U',
         'B',
         'R',
+        'C',
     }
     mana_cost_str = str(mana_cost)
     symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
@@ -165,6 +166,8 @@ def create_card(card_front, card_back, image_url):
             <manacost>{card_front['cost']}</manacost>
             <cmc>{mana_cost_to_cmc(card_front['cost'])}</cmc>"""
     color_str = colors_from_mana_cost(card_front['cost'])
+    if len(color_str) == 0:
+        color_str = colors_from_mana_cost(card_front.get('color_indicator'))
     if len(color_str) != 0:
         property_tags += f"\n            <colors>{color_str}</colors>"
 
