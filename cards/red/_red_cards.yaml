@@ -1,7 +1,7 @@
 card_acid_surge:
   front:
     name: "Acid Surge"
-    cost: "XXR"
+    cost: "{X}{X}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -63,7 +63,7 @@ card_cathedral_evangelist:
 card_chaos_bed_vestiges:
   front:
     name: "Chaos Bed Vestiges"
-    cost: "XRR"
+    cost: "{X}{R}{R}"
     super: ""
     type: "Sorcery"
     sub: ""
