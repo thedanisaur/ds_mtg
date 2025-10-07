@@ -225,7 +225,7 @@ card_gaping_dragon:
     sub: "Demon Dragon"
     rarity: "Uncommon"
     rules_text: |
-      Deathtouch, reach, trample, haste
+      Deathtouch, reach, trample, haste, bleed
       When ~ attacks create a treasure token.
       Whenever ~ deals damage to a player you may sacrifice an artifact. If you do, put a bleed counter on each creature that player controls.
     flavor_text: "Consumed by a ravenous eternal hunger."
