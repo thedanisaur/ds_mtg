@@ -450,7 +450,7 @@ card_swollen_mongrel:
     sub: "Mutant"
     rarity: "Common"
     rules_text: |
-      Whenever ~ deals damage to a creature, prevent that damage. If damage is prevented this way, put a bleed counter on that creature for each damage prevented.
+      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
       {W}{U}, {T}: White and Blue creatures you control get +1/+1 until end of turn.
     flavor_text: "A mutated canine born from the experiments conducted by Lord Aldia."
     artwork_url: "https://i.ibb.co/cKpwF0FV/swollen-mongrel-eemeling-resize.jpg"
