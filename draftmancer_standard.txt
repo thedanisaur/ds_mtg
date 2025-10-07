@@ -75,7 +75,7 @@
 {
     "name": "Forossa Lion Knight",
     "type": "Creature",
-    "mana_cost": "{2/W}{W}",
+    "mana_cost": "{2}{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/forossa_lion_knight.jpeg"
 },
 {
@@ -117,7 +117,7 @@
 {
     "name": "Soul of a Nameless Soldier",
     "type": "Enchantment",
-    "mana_cost": "{0}",
+    "mana_cost": "",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg"
 },
 {
@@ -237,7 +237,7 @@
 {
     "name": "Soul of an Unknown Traveler",
     "type": "Enchantment",
-    "mana_cost": "{0}",
+    "mana_cost": "",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
 {
