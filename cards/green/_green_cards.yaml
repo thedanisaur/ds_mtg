@@ -498,8 +498,9 @@ card_undead_aberration:
     rules_text: |
       As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
       Deathtouch, trample
-      Whenever a hollow enters the battlefield under your control you may pay two souls. If you do, search your library for a hollow or enchantment card. Reveal it and put it into your hand.
-    flavor_text: "The darkness of humanity seeps from within, the gap filled by the accumulation of the curse."
+      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      When ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.
+    flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 157
@@ -550,6 +551,7 @@ card_wistful_naivete:
     rarity: "Uncommon"
     rules_text: |
       Enchant player
+      Morph costs your opponents pay cost {2} less.
       Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time."
     flavor_text: "Sometimes the players just don't catch on."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
