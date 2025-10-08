@@ -551,7 +551,7 @@ card_wistful_naivete:
     rarity: "Uncommon"
     rules_text: |
       Enchant player
-      Morph costs your opponents pay cost {2} less.
+      Face-down cards you play cost {2} less.
       Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time."
     flavor_text: "Sometimes the players just don't catch on."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
