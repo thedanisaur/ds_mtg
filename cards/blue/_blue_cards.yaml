@@ -60,7 +60,7 @@ card_ashen_estus:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      Draw a card. For each bonfire you control add one mana of any color that land could produce.
+      Draw a card. Then for each bonfire you control add one mana of a color that land could produce to your mana pool.
       Whenever a bonfire enters the battlefield under your control you may return ~ from your graveyard to your hand.
     flavor_text: "This dark blue estus flask is a gift from Fire Keeper. It is said that it was once used to slake a great thirst."
     artwork_url: "https://i.ibb.co/mrdzqWXr/estus-flask-gwenzzo-resize.jpg"

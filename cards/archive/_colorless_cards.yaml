@@ -1,0 +1,15 @@
+card_stray_demon:
+  front:
+    name: "Stray Demon"
+    cost: "{4}"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rules_text: "~ enters the battlefield with two +1/+1 counters if you control another Demon."
+    flavor_text: "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race."
+    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-3-Stray-Demon-614123437"
+    artist: "oniruu"
+    number: 9
+    power: 3
+    toughness: 3

@@ -129,8 +129,8 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/colorless/dreg_hollow_vendor.jpeg" alt="Dreg Hollow Vendor" width="400"/><br/>
-        <strong>Dreg Hollow Vendor</strong>
+        <img src="./cards/colorless/dreg_hollow_merchant.jpeg" alt="Dreg Hollow Merchant" width="400"/><br/>
+        <strong>Dreg Hollow Merchant</strong>
     </td>
     <td align="center">
         <img src="./cards/colorless/four_kings.jpeg" alt="Four Kings" width="400"/><br/>
@@ -149,18 +149,18 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/colorless/pyrewarden_of_the_things_betwixt.jpeg" alt="Pyrewarden Of The Things Betwixt" width="400"/><br/>
-        <strong>Pyrewarden Of The Things Betwixt</strong>
+        <img src="./cards/colorless/pickle_pee_pump_a_rum.jpeg" alt="Pickle Pee Pump A Rum" width="400"/><br/>
+        <strong>Pickle Pee Pump A Rum</strong>
     </td>
     <td align="center">
-        <img src="./cards/colorless/sif_the_great_grey_wolf.jpeg" alt="Sif The Great Grey Wolf" width="400"/><br/>
-        <strong>Sif The Great Grey Wolf</strong>
+        <img src="./cards/colorless/pyrewarden_of_the_things_betwixt.jpeg" alt="Pyrewarden Of The Things Betwixt" width="400"/><br/>
+        <strong>Pyrewarden Of The Things Betwixt</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/colorless/stray_demon.jpeg" alt="Stray Demon" width="400"/><br/>
-        <strong>Stray Demon</strong>
+        <img src="./cards/colorless/sif_the_great_grey_wolf.jpeg" alt="Sif The Great Grey Wolf" width="400"/><br/>
+        <strong>Sif The Great Grey Wolf</strong>
     </td>
     <td align="center">
         <img src="./cards/colorless/winged_chimera.jpeg" alt="Winged Chimera" width="400"/><br/>

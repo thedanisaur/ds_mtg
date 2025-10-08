@@ -81,7 +81,9 @@ card_corrupted_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rules_text: "If a source would deal exactly 1 damage to ~ prevent that damage and transform ~. (If a source would deal more than 1 damage to this creature, it is destroyed.)"
+    rules_text: |
+      When ~ leaves the battlefield you get one soul.
+      If you would get one or more souls transform ~.
     flavor_text: "With the fire fading, and the spreading pus of man tainting the castle, the Grand Archives closed its doors for good."
     artwork_url: "https://i.ibb.co/pvWGfSjB/corrupted-hollow-allrichart-front-resize.jpg"
     artist: "allrichart"
@@ -97,7 +99,7 @@ card_corrupted_hollow:
     sub: "Hollow Ooze"
     rarity: ""
     rules_text: |
-      Whenever ~ deals combat damage to a creature put three bleed counters on that creature. That creature gains "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it."
+      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
     flavor_text: "Corrupted forms of Humanity burst from the Abyss, flooding the Kingdom of Lothric. "
     artwork_url: "https://i.ibb.co/8nM0ZSPB/corrupted-hollow-back-resize.jpg"
     artist: "fromsoft"
@@ -343,7 +345,7 @@ card_reforge:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
-    rules_text: "Return target Artifact or Enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead."
+    rules_text: "Return target artifact or enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead."
     flavor_text: "Reforge mighty blade... with mighty soul."
     artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
     artist: "enthing"
@@ -371,7 +373,7 @@ card_resting_merchant:
 card_siegmeyer_of_catarina:
   front:
     name: "Siegmeyer of Catarina"
-    cost: "{W}{W}{W}"
+    cost: "{1}{W}{W}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
@@ -385,7 +387,7 @@ card_siegmeyer_of_catarina:
     artist: "grecia frangos"
     number: 31
     power: 3
-    toughness: 3
+    toughness: 4
     frame: "Double-Faced: Day"
     color_indicator: ""
   back:
@@ -444,7 +446,7 @@ card_soul_of_a_nameless_soldier:
 card_swollen_mongrel:
   front:
     name: "Swollen Mongrel"
-    cost: "{W}{W}{W}"
+    cost: "{1}{W}{W}"
     super: ""
     type: "Creature"
     sub: "Mutant"
@@ -499,14 +501,15 @@ card_village_blacksmith:
     sub: "Human"
     rarity: "Common"
     rules_text: |
-      If you control 3 or more Equipment, you may pay {0} instead of paying an equip cost.
+      When ~ enters the battlefield search your library for an equipment card and put it into your hand. Then shuffle your library.
+      If you control three or more equipment, you may pay {0} instead of paying an equip cost.
       Equipped creatures you control get +1/+1.
     flavor_text: "Prithee, be careful"
     artwork_url: "https://i.ibb.co/wZvTSTgD/village-blacksmith-john-delvin-resize.jpg"
     artist: "John Devlin"
     number: 37
     power: 1
-    toughness: 1
+    toughness: 3
 
 card_vow_of_silence:
   front:
@@ -546,7 +549,7 @@ card_wight:
     type: "Creature"
     sub: "Human Spirit"
     rarity: "Uncommon"
-    rules_text: "{W}{W}, {T}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost."
+    rules_text: "{W}{W}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost."
     flavor_text: "They do not speak, only sing — a hymn not of worship, but of remembrance.  "
     artwork_url: "https://i.ibb.co/rRs2LpxF/white-phantom-resize.jpg"
     artist: "adadia"
