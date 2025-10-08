@@ -9,14 +9,14 @@
 {
     "name": "Covetous Demon",
     "type": "Creature",
-    "mana_cost": "{4}",
+    "mana_cost": "{2}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/covetous_demon.jpeg"
 },
 {
-    "name": "Dreg-Hollow Vendor",
+    "name": "Dreg-Hollow Merchant",
     "type": "Creature",
     "mana_cost": "{2}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_vendor.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_merchant.jpeg"
 },
 {
     "name": "Hollow",
@@ -25,16 +25,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg"
 },
 {
+    "name": "Pickle Pee, Pump-a-Rum",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pickle_pee_pump_a_rum.jpeg"
+},
+{
     "name": "Pyrewarden of the Things Betwixt",
     "type": "Creature",
     "mana_cost": "{2}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pyrewarden_of_the_things_betwixt.jpeg"
-},
-{
-    "name": "Stray Demon",
-    "type": "Creature",
-    "mana_cost": "{4}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/stray_demon.jpeg"
 },
 {
     "name": "Winged Chimera",
@@ -58,7 +58,11 @@
     "name": "Corrupted Hollow",
     "type": "Creature",
     "mana_cost": "{W}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_front.jpeg",
+    "back": {
+        "name": "Pus of Man",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_back.jpeg"
+    }
 },
 {
     "name": "Disenchant",
@@ -123,7 +127,7 @@
 {
     "name": "Swollen Mongrel",
     "type": "Creature",
-    "mana_cost": "{W}{W}{W}",
+    "mana_cost": "{1}{W}{W}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg"
 },
 {
@@ -615,7 +619,7 @@
 {
     "name": "Looking Glass Knight",
     "type": "Creature",
-    "mana_cost": "{8}",
+    "mana_cost": "{6}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/looking_glass_knight.jpeg"
 },
 {
@@ -976,7 +980,11 @@
     "name": "Anri of Astora",
     "type": "Creature",
     "mana_cost": "{1}{W}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_front.jpeg",
+    "back": {
+        "name": "Hollow Bride",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_back.jpeg"
+    }
 },
 {
     "name": "Emit Force",
@@ -999,8 +1007,12 @@
 {
     "name": "Siegmeyer of Catarina",
     "type": "Creature",
-    "mana_cost": "{W}{W}{W}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina.jpeg"
+    "mana_cost": "{1}{W}{W}",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_front.jpeg",
+    "back": {
+        "name": "Knight of Catarina",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_back.jpeg"
+    }
 },
 {
     "name": "Big Hat Logan",
@@ -1114,7 +1126,11 @@
     "name": "Unbreakable Patches",
     "type": "Creature",
     "mana_cost": "{2}{R}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_front.jpeg",
+    "back": {
+        "name": "Lapp",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_back.jpeg"
+    }
 },
 {
     "name": "Ancient Wyvern",
@@ -1162,7 +1178,11 @@
     "name": "Gael, Seeker of Ash",
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg",
+    "back": {
+        "name": "Slave Knight Gael",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg"
+    }
 },
 {
     "name": "Hawkeye Gough",
@@ -1174,13 +1194,21 @@
     "name": "Iudex Gundyr",
     "type": "Creature",
     "mana_cost": "{W}{B}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg",
+    "back": {
+        "name": "Champion Gundyr",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg"
+    }
 },
 {
     "name": "Knight Lautrec",
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg",
+    "back": {
+        "name": "Favored Knight",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg"
+    }
 },
 {
     "name": "Stream of Estus",
@@ -1270,13 +1298,21 @@
     "name": "Ringfinger Leonhard",
     "type": "Creature",
     "mana_cost": "{R}{R}{R}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_front.jpeg",
+    "back": {
+        "name": "Rosaria's Finger",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_back.jpeg"
+    }
 },
 {
     "name": "Abyss Watchers",
     "type": "Creature",
     "mana_cost": "{3}{G}{G}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_front.jpeg",
+    "back": {
+        "name": "Undead Legion",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg"
+    }
 },
 {
     "name": "Gravelord's Maelstrom",
@@ -1300,7 +1336,11 @@
     "name": "Knight Artorias",
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg",
+    "back": {
+        "name": "The Abysswalker",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg"
+    }
 },
 {
     "name": "Lorian and Lothric",
@@ -1375,10 +1415,10 @@
 [Common]
 15 Ashen Idol
 15 Covetous Demon
-15 Dreg-Hollow Vendor
+15 Dreg-Hollow Merchant
 15 Hollow
+15 Pickle Pee, Pump-a-Rum
 15 Pyrewarden of the Things Betwixt
-15 Stray Demon
 15 Winged Chimera
 15 Batwing Demon
 15 Blessed Cleric

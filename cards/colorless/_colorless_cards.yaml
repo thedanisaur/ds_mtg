@@ -19,29 +19,30 @@ card_ashen_idol:
 card_covetous_demon:
   front:
     name: "Covetous Demon"
-    cost: "{4}"
+    cost: "{2}"
     super: ""
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
-    rules_text: "{1}{G}: Until end of turn ~ gains \"Whenever ~ deals combat damage to a creature put three bleed counters on that creature.\" (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")"
+    rules_text: |
+      {1}{G}: ~ gains bleed until end of turn (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/spoofdecator/art/Creature-from-the-Black-Lagoon-390998651"
     artist: "spoofdecator"
     number: 2
-    power: 1
-    toughness: 4
+    power: 2
+    toughness: 2
 
-card_dreg_hollow_vendor:
+card_dreg_hollow_merchant:
   front:
-    name: "Dreg-Hollow Vendor"
+    name: "Dreg-Hollow Merchant"
     cost: "{2}"
     super: ""
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
     rules_text: |
-      {1}{U}, {T}: Draw a card, then discard a card.
+      {1}{U}, pay one soul: Draw a card, then discard a card.
     flavor_text: "Heh heh heh heh hah hah hah… Thank you kindly!"
     artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/aa/DARK_SOULS%E2%84%A2_II_Scholar_of_the_First_Sin_20151026000408.jpg/revision/latest/scale-to-width-down/1000?cb=20151028141607"
     artist: "fromsoft"
@@ -87,7 +88,7 @@ card_hollow:
 card_looking_glass_knight:
   front:
     name: "Looking Glass Knight"
-    cost: "{8}"
+    cost: "{6}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -102,6 +103,25 @@ card_looking_glass_knight:
     power: 4
     toughness: 4
 
+card_pickle_pee_pump_a_rum:
+  front:
+    name: "Pickle Pee, Pump-a-Rum"
+    cost: "{2}"
+    super: ""
+    type: "Creature"
+    sub: "Shapeshifter Bird"
+    rarity: "Common"
+    rules_text: |
+      {T}, Sacrifice a Treasure: Add {3}.
+      {T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
+      {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/originals/1d/58/16/1d58161039d0619f40e6362807f69c80.jpg"
+    artist: "Barbara Flowers"
+    number: 7
+    power: 0
+    toughness: 1
+
 card_pyrewarden_of_the_things_betwixt:
   front:
     name: "Pyrewarden of the Things Betwixt"
@@ -111,12 +131,12 @@ card_pyrewarden_of_the_things_betwixt:
     sub: "Hag"
     rarity: "Common"
     rules_text: |
-      Sacrifice an artifact: You get souls equal to 1 plus the sacrificed artifact's mana cost.
-      {T}, Reveal the top card of your library: You may pay souls equal to that spell's mana cost and put it in your hand. If you don't put that card into your graveyard.
-    flavor_text: "One day, you will stand before a decrepit gate. Without really knowing why... Like a moth drawn to a flame. For that is your fate. The fate of the cursed."
+      Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana cost.
+      {T}: Reveal the top card of your library. You may pay souls equal to that card's mana cost and put it in your hand. If you don't put that card into your graveyard.
+    flavor_text: "One day, you will stand before a decrepit gate. Without really knowing why..."
     artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
     artist: "John Devlin"
-    number: 7
+    number: 8
     power: 0
     toughness: 2
 
@@ -130,29 +150,13 @@ card_sif_the_great_grey_wolf:
     rarity: "Uncommon"
     rules_text: |
       As long as you control a creature named Knight Artorias, ~ has indestructible.
-      Whenever a creature you control named Knight Artorias leaves the battlefield, sacrifice ~.
+      {W}{W}: Attach target equipment to ~.
     flavor_text: "The sorrow in Sif's eyes reflects a tragic loyalty beyond death."
     artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"
     artist: "anatofinnstark"
-    number: 8
+    number: 9
     power: 4
     toughness: 4
-
-card_stray_demon:
-  front:
-    name: "Stray Demon"
-    cost: "{4}"
-    super: ""
-    type: "Creature"
-    sub: "Demon"
-    rarity: "Common"
-    rules_text: "~ enters the battlefield with two +1/+1 counters if you control another Demon."
-    flavor_text: "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race."
-    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-3-Stray-Demon-614123437"
-    artist: "oniruu"
-    number: 9
-    power: 3
-    toughness: 3
 
 card_winged_chimera:
   front:

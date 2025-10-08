@@ -70,13 +70,24 @@ if __name__ == '__main__':
                     for card_name in content:
                         # The image name is just the card name minus "card_"
                         image_name = card_name.split('_', 1)[1]
-                        card = content[card_name]['front']
-                        cards_by_rarity[card['rarity']].append({
-                            'name': card['name'],
-                            'type': card['type'],
-                            'mana_cost': convert_mana_cost(str(card['cost'])),
-                            'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name}.jpeg"
-                        })
+                        card_front = content[card_name]['front']
+                        card_back = content[card_name].get('back', None)
+                        card = {
+                            'name': card_front['name'],
+                            'type': card_front['type'],
+                            'mana_cost': convert_mana_cost(str(card_front['cost'])),
+                        }
+                        if card_back is not None:
+                            image_name_front = image_name + "_front"
+                            image_name_back = image_name + "_back"
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
+                            card['back'] = {
+                                'name': card_back['name'],
+                                'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
+                            }
+                        else:
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name}.jpeg"
+                        cards_by_rarity[card_front['rarity']].append(card)
 
     # Write back the updated content for a standard draft
     draftmancer_standard = 'draftmancer_standard.txt'
