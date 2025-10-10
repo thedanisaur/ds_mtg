@@ -244,7 +244,7 @@ card_lightning_spear:
     name: "Lightning Spear"
     cost: "{1}{W}"
     super: ""
-    type: "Instant"
+    type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
     rules_text: |
@@ -278,6 +278,7 @@ card_miracle_of_the_way_of_white:
     type: "Instant"
     sub: ""
     rarity: "Rare"
+    rating: 5
     rules_text: |
       As an additional cost to cast this spell pay one soul or {1}.
       Exile target creature or planeswalker. It's controller gains life equal to its mana cost.

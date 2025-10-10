@@ -235,6 +235,7 @@ card_grave_wardens_tome:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 4
     rules_text: |
       You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.
       Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.

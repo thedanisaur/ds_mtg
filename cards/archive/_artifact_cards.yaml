@@ -1,0 +1,14 @@
+card_charm_of_the_undead_hunters:
+  front:
+    name: "Charm of the Undead Hunters"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Activated abilities of artifacts can't be activated.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 
