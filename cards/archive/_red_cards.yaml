@@ -1,0 +1,13 @@
+card_carthus_beacon:
+  front:
+    name: "Carthus Beacon"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rules_text: "Target creature gains double strike until end of turn."
+    flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
+    artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
+    artist: "arturtreffner"
+    number: 103

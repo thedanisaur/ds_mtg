@@ -3,6 +3,36 @@ import os
 import re
 import yaml
 
+def colors_from_mana_cost(mana_cost):
+    """
+    Extract colors from a mana cost string.
+    
+    Args:
+        mana_cost (str): Mana cost like '{G}{U}{2}{G/U}{X}'
+    
+    Returns:
+        Set[str]: A set of color names (e.g., {'Green', 'Blue'})
+    """
+    valid_colors = {
+        'G',
+        'W',
+        'U',
+        'B',
+        'R',
+    }
+    mana_cost_str = str(mana_cost)
+    symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
+    colors = set()
+
+    for symbol in symbols:
+        # Handle hybrid or Phyrexian like G/U, G/P
+        parts = re.split(r'[\/]', symbol)
+        for part in parts:
+            if part in valid_colors:
+                colors.add(part)
+    
+    return list(colors)
+
 def convert_mana_cost(mana_string):
     # Regular expression to find all mana symbols
     # Match hybrid and phyrexian mana first (e.g., 2/R, W/U, G/P), then single letters/numbers
@@ -76,6 +106,10 @@ if __name__ == '__main__':
                             'name': card_front['name'],
                             'type': card_front['type'],
                             'mana_cost': convert_mana_cost(str(card_front['cost'])),
+                            'colors': colors_from_mana_cost(card_front['cost']) if colors_from_mana_cost(card_front['cost']) != 0 else colors_from_mana_cost(card_front.get('color_indicator')),
+                            'rarity': card_front['rarity'].lower(),
+                            'rating': card_front.get('rating', 0),
+                            'oracle_text': card_front['rules_text'],
                         }
                         if card_back is not None:
                             image_name_front = image_name + "_front"
@@ -83,6 +117,12 @@ if __name__ == '__main__':
                             card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
                             card['back'] = {
                                 'name': card_back['name'],
+                                'type': card_back['type'],
+                                'mana_cost': convert_mana_cost(str(card_back['cost'])),
+                                'colors': colors_from_mana_cost(card_back['cost']) if colors_from_mana_cost(card_back['cost']) != 0 else colors_from_mana_cost(card_back.get('color_indicator')),
+                                'rarity': card_back['rarity'].lower(),
+                                'rating': card_back.get('rating', 0),
+                                'oracle_text': card_back['rules_text'],
                                 'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
                             }
                         else:

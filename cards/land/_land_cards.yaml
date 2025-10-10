@@ -50,6 +50,7 @@ card_bonfire:
     type: "Land"
     sub: "Bonfire"
     rarity: "Rare"
+    rating: 5
     rules_text: |
       {T}, Sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.
     flavor_text: "Ah, a bonfire!"

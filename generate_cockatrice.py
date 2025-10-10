@@ -13,7 +13,7 @@ TYPE_SORCERY='Sorcery'
 TYPE_TOKEN='Token'
 
 folder_path = "./cards"
-order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', "token" ]
+order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', "basic", "token" ]
 
 
 def creates_this_token(token):

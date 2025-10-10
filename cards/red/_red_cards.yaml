@@ -6,7 +6,7 @@ card_acid_surge:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rules_text: "Destroy X target Equipment."
+    rules_text: "Destroy up to X target artifacts."
     flavor_text: "Carthus' swordsmen attached great value to victory, and would not shun the use of such pyromancies."
     artwork_url: "https://www.deviantart.com/temmaru/art/ACID-FLAME-SURGE-1091256471"
     artist: "temmaru"
@@ -30,20 +30,6 @@ card_capra_demon:
     power: 2
     toughness: 1
 
-card_carthus_beacon:
-  front:
-    name: "Carthus Beacon"
-    cost: "{1}{R}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Common"
-    rules_text: "Target creature gains double strike until end of turn."
-    flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
-    artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
-    artist: "arturtreffner"
-    number: 103
-
 card_cathedral_evangelist:
   front:
     name: "Cathedral Evangelist"
@@ -54,9 +40,9 @@ card_cathedral_evangelist:
     rarity: "Common"
     rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
     flavor_text: "EEHEEE!"
-    artwork_url: ""
+    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
     artist: "therikaro114"
-    number: 104
+    number: 103
     power: 3
     toughness: 2
 
@@ -74,6 +60,23 @@ card_chaos_bed_vestiges:
     flavor_text: "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Trying-to-Keep-Warm-609129608"
     artist: "cobaltplasma"
+    number: 104
+
+card_chaos_storm:
+  front:
+    name: "Chaos Storm"
+    cost: "{1}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      Choose one -
+      • Exile target artifact.
+      • ~ deals 2 damage to each creature and planeswalker you don't control.
+    flavor_text: "The Witch of Izalith attempted to copy the First Flame, instead creating the Flame of Chaos."
+    artwork_url: "https://www.deviantart.com/socialgatheringstar/art/The-Fire-Wyrm-Unleashed-1134311161"
+    artist: "socialgatheringstar"
     number: 105
 
 card_cracked_redeye_orb:
@@ -220,9 +223,9 @@ card_flame_whip:
     sub: "Aura"
     rarity: "Uncommon"
     rules_text: |
+      You may cast this spell without paying it's mana cost as long as you control four or more mountains.
       Enchant creature
       Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Enchanted creature deals 4 damage divided as you choose among one, two, three, or four targets."
-      When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
     artist: "asfodelo"
@@ -353,7 +356,7 @@ card_profaned_flame:
     rules_text: |
       Choose one -
       • ~ deals 4 damage to target creature.
-      • ~ deals 4 damage to target player or planeswalker and 2 damage to you. 
+      • ~ deals 4 damage to target player or planeswalker and 2 damage to you.
     flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
     artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
     artist: "fantasyworldonline"
