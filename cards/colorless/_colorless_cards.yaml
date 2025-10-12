@@ -112,7 +112,7 @@ card_pickle_pee_pump_a_rum:
     sub: "Shapeshifter Bird"
     rarity: "Common"
     rules_text: |
-      {T}, Sacrifice a Treasure: Add {3}.
+      {T}, Sacrifice a noncreature permanent: Create a Treasure token.
       {T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
       {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
     flavor_text: ""

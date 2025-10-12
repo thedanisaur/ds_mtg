@@ -223,7 +223,7 @@ card_gaping_dragon:
     super: "Legendary"
     type: "Creature"
     sub: "Demon Dragon"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rules_text: |
       Deathtouch, reach, trample, haste, bleed
       When ~ attacks create a treasure token.

@@ -277,7 +277,7 @@ card_miracle_of_the_way_of_white:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 5
     rules_text: |
       As an additional cost to cast this spell pay one soul or {1}.
@@ -502,8 +502,8 @@ card_village_blacksmith:
     sub: "Human"
     rarity: "Common"
     rules_text: |
-      When ~ enters the battlefield search your library for an equipment card and put it into your hand. Then shuffle your library.
-      If you control three or more equipment, you may pay {0} instead of paying an equip cost.
+      When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
+      If you control three or more equipment, equipment you control have equip {0}.
       Equipped creatures you control get +1/+1.
     flavor_text: "Prithee, be careful"
     artwork_url: "https://i.ibb.co/wZvTSTgD/village-blacksmith-john-delvin-resize.jpg"

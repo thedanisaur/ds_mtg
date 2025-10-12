@@ -3,6 +3,8 @@ import os
 import re
 import yaml
 
+TYPE_LAND='Land'
+
 def colors_from_mana_cost(mana_cost):
     """
     Extract colors from a mana cost string.
@@ -197,6 +199,9 @@ if __name__ == '__main__':
         file.write(f"[Common]\n")
         for rarity in cards_by_rarity:
             for card in cards_by_rarity[rarity]:
-                file.write(f"{card['name']}\n")
+                if card['type'] == TYPE_LAND:
+                    file.write(f"8 {card['name']}\n")
+                else:
+                    file.write(f"4 {card['name']}\n")
         print(f"{draftmancer_no_rarity}: ✅ Sheets written")
     print(f"{draftmancer_no_rarity}: ✅ Updated successfully")

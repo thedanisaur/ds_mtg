@@ -6,6 +6,7 @@ card_anor_londo:
     type: "Land"
     sub: "Plains Swamp"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "Welcome to the lost city of Anor Londo, chosen Undead."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/anor-londo_dark-souls.jpg"
@@ -20,6 +21,7 @@ card_archdragon_peak:
     type: "Land"
     sub: "Mountain Plains"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "This is not a place, but a truth — seen only by those who forget what it means to be human."
     artwork_url: "https://www.cookandbecker.com/en/artwork/2464/archdragon-peak-dark-souls-iii-fromsoftware.html"
@@ -34,6 +36,7 @@ card_blighttown:
     type: "Land"
     sub: ""
     rarity: "Mythic"
+    rating: 4
     rules_text: |
       {T}: Add {1} to your mana pool.
       {5}, {T}, Sacrifice a nontoken creature: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."
@@ -66,6 +69,7 @@ card_cathedral_of_blue:
     type: "Land"
     sub: "Bonfire - Plains Island"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "An ancient shrine bathed in stormlight, where the wind still whispers oaths long broken."
     artwork_url: "https://i.ibb.co/dJVSn83h/cathedral-of-blue-princessomg50.jpg"
@@ -80,6 +84,7 @@ card_cathedral_of_the_deep:
     type: "Land"
     sub: "Bonfire - Island Mountain"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "A house of worship turned crypt, where the faithful drown in blood, and the dead do not rest."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-deacons-of-the-deep-dark-souls-3-from-software.jpg"
@@ -94,6 +99,7 @@ card_darkroot_garden:
     type: "Land"
     sub: "Bonfire - Plains Forset"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "Time has slowed to a crawl beneath these boughs and the moss remembers what the stone does not."
     artwork_url: "https://i.ibb.co/Dffhw3cg/darkroot-garden-mangamusesai.jpg"
@@ -108,6 +114,7 @@ card_farron_keep:
     type: "Land"
     sub: "Bonfire - Swamp Forest"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "Here lie the last vows of the Abyss Watchers, their watch never lifted, though their minds long have. Beneath the swamp's stillness stirs the Abyss, patient and hungry."
     artwork_url: "https://i.ibb.co/qMKW3SLZ/farron-keep-ihf95.jpg"
@@ -122,6 +129,7 @@ card_firelink_shrine:
     type: "Land"
     sub: "Bonfire"
     rarity: "Mythic"
+    rating: 4
     rules_text: |
       ~ enters the battlefield tapped unless you control another bonfire.
       {T}: Add one mana of any color.
@@ -139,6 +147,7 @@ card_irithyll_of_the_boreal_valley:
     type: "Land"
     sub: "Bonfire - Swamp Island"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "A city shrouded in eternal moonlight and frost, where beauty and death entwine in cold embrace. "
     artwork_url: "https://i.ibb.co/C3MsjSRp/irithyll-of-the-boreal-valley-daedra64.jpg"
@@ -153,6 +162,7 @@ card_lost_izalith:
     type: "Land"
     sub: "Bonfire - Mountain Swamp"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "Here the First Flame's shadow lingers, twisted roots clutching at a dream undone by fire."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/892/130/large/ricardo-emig-izalith-1-high-res.jpg?1587253107"
@@ -167,6 +177,7 @@ card_lothric_castle:
     type: "Land"
     sub: "Bonfire"
     rarity: "Rare"
+    rating: 4
     rules_text: |
       {T}: Add {1} to your mana pool.
       {4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
@@ -183,6 +194,7 @@ card_road_of_sacrifices:
     type: "Land"
     sub: "Bonfire - Forest Mountain"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: "The air hangs heavy with the weight of countless fallen souls, their blood seeping into the earth as an eternal offering."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-crystal-sages-dark-souls-3-from-software.jpg"
@@ -197,6 +209,7 @@ card_shrine_of_amana:
     type: "Land"
     sub: "Bonfire - Forest Island"
     rarity: "Uncommon"
+    rating: 4
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
     flavor_text: ""
     artwork_url: "https://www.cookandbecker.com/en/artwork/2156/shrine-of-amana-dark-souls-ii-fromsoftware.html"
@@ -211,6 +224,7 @@ card_the_fire_fades:
     type: "Land"
     sub: "Bonfire"
     rarity: "Rare"
+    rating: 4
     rules_text: |
       {T}: Add {1} to your mana pool.
       {T}, Sacrifice ~: Destroy target Bonfire.

@@ -154,7 +154,7 @@ card_fire_orb:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rules_text: |
       As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
       ~ deals 2 damage to any target.
@@ -174,7 +174,7 @@ card_fire_surge:
     rarity: "Common"
     rules_text: |
       You may pay two souls rather than pay this spell's mana cost.
-      Until end of turn, target creature gets +1/+0 and gains "{R}: This creature gets +1/+0 until end of turn."
+      Until end of turn, target creature gains haste, can't be blocked except by two or more creatures, and "{R}: This creature gets +1/+0 until end of turn."
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
     artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
     artist: "jasontn"
@@ -188,7 +188,8 @@ card_firekeeper:
     type: "Creature"
     sub: "Monk"
     rarity: "Uncommon"
-    rules_text: "{R}, Pay two souls: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). Activate this ability only once per turn."
+    rules_text: |
+      {R}, Pay one soul: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"
@@ -398,20 +399,21 @@ card_rapport:
 card_ringfinger_leonhard:
   front:
     name: "Ringfinger Leonhard"
-    cost: "{R}{R}{R}"
+    cost: "{R}{R}"
     super: "Legendary"
     type: "Creature"
     sub: "Human"
     rarity: "Mythic"
     rules_text: |
       Haste
+      Whenever ~ attacks, reveal the top card of your library. You may play that card this turn.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Unkindled are we...then these red eyes are for you."
     artwork_url: "https://i.ibb.co/rRfQmLTW/ringfinger-leonhard-front-aj-saitama-japan-resized.jpg"
     artist: "Aj Saitama Japan"
     number: 125
-    power: 3
-    toughness: 3
+    power: 2
+    toughness: 2
     frame: "Double-Faced: Day"
     color_indicator: "{R}"
   back:

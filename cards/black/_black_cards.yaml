@@ -3,11 +3,11 @@ card_a_hero_gone_mad:
     name: "A Hero Gone Mad"
     cost: "{B}"
     super: ""
-    type: "Instant"
+    type: "Sorcery"
     sub: ""
     rarity: "Common"
     rules_text: |
-      Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters transformed. You lose life equal to that creature's power.
+      Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters the battlefield transformed.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
     artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
     artist: "lavilvile"
@@ -83,12 +83,11 @@ card_chosen_undead:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rules_text: |
       Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
-      You get one soul.
-      At the beginning of your upkeep you may pay {1}{B}. If you do, return ~ from your graveyard to your hand.
-    flavor_text: "The Unkindled will rise. Nameless, accursed Undead, unfit even to be cinder. And so it is, that ash seeketh embers."
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
+    flavor_text: "The Unkindled will rise. Nameless and accursed."
     artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
     artist: "castaguer93"
     number: 76
@@ -103,12 +102,12 @@ card_clawed_curse:
     rarity: "Uncommon"
     rules_text: |
       Enchant player
-      At the beginning of enchanted player's upkeep, that player loses one life and removes one soul. You gain one life and get one soul.
+      At the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.
       Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      When ~ is turned face up attach it to target player. That player loses 3 life.
+      When this card is turned face up attach it to target player and destroy target creature they control.
     flavor_text: ""
-    artwork_url: "https://api.deepai.org/job-view-file/8375d8c1-339d-41c0-b9c0-f9c9f1746847/outputs/output.jpg"
-    artist: "deepai"
+    artwork_url: "https://i.ibb.co/nqmr67q2/clawed-curse-grok-resize.jpg"
+    artist: "grok"
     number: 77
 
 card_curse_of_the_dead:
@@ -150,7 +149,7 @@ card_dark_edge:
 card_dark_hand_of_kaathe:
   front:
     name: "Dark Hand of Kaathe"
-    cost: "{1}{B}"
+    cost: "{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -169,12 +168,14 @@ card_darkwraith:
     type: "Creature"
     sub: "Wraith"
     rarity: "Rare"
-    rules_text: "{4}{B}, {T}: Target player loses life equal to the number of souls they have. Remove three souls from that player. You get three souls."
-    flavor_text: "In the blink of an eye the ancients could sap the humanity of the most replete saint."
+    rules_text: |
+      Protection from red and from white.
+      {4}{B}, {T}: Target player loses life equal to the number of souls they have. Then remove half their souls rounded up and you get that many souls.
+    flavor_text: "In the blink of an eye the ancients could sap the humanity of any replete saint."
     artwork_url: "https://i.ibb.co/chRVJvyH/darkwraith-moshi06185.jpg"
     artist: "moshi06185"
     number: 81
-    power: 2
+    power: 3
     toughness: 2
 
 card_deep_fog:
@@ -305,7 +306,9 @@ card_hound_rat:
     type: "Creature"
     sub: "Zombie Rat"
     rarity: "Common"
-    rules_text: "Deathtouch"
+    rules_text: |
+      Deathtouch
+      When ~ enters the battlefield target player reveals a card for each rat you control. You choose one of those cards. That player discards that card.
     flavor_text: "Grotesquely swollen and ravenous, the Hound Rat stalks the filth-choked tunnels beneath fallen kingdoms."
     artwork_url: "https://i.ibb.co/YF2jShN6/hound-rat-ovenbakedcheese-resize.jpg"
     artist: "ovenbakedcheese"
@@ -445,7 +448,7 @@ card_skim_memories:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      As an additional cost to cast ~, pay one soul.
+      As an additional cost to cast this spell pay one soul or {1}.
       Target player reveals his or her hand. You may choose a nonland card. That player discards that card.
     flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
     artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"

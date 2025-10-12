@@ -45,7 +45,7 @@ card_baneful_queen_mytha:
     sub: "Naga Gorgon"
     rarity: "Rare"
     rules_text: |
-      Deathtouch
+      Deathtouch, bleed
       At the beginning of each opponent's upkeep put a bleed counter on each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
@@ -82,8 +82,8 @@ card_blade_of_the_darkmoon:
     sub: "Knight"
     rarity: "Uncommon"
     rules_text: |
-      When ~ enters the battlefield if an opponent controls a creature named "Red Phantom", create a 3/3 white human ally creature token named Phantom. It has haste.
-      Whenever a creature named "Red Phantom" dies you get one soul and draw a card.
+      When ~ enters the battlefield draw a card. Then if an opponent controls a creature named "Red Phantom", create a 3/3 white human ally creature token named Phantom. It has haste.
+      Whenever a creature named "Red Phantom" dies draw a card.
     flavor_text: "Thy punishment ... is death"
     artwork_url: "https://i.ibb.co/BHBvZqvX/blade-of-the-dark-moon-inkimagine-recolor.jpg"
     artist: "inkimagine"
@@ -102,7 +102,8 @@ card_carim_guardian:
     rules_text: |
       Vigilance
       Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.
-    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside. You here, in this land of Hollows, you're like a frail maiden."
+      Whenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
     artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
     artist: "drawsouls"
     number: 166
@@ -479,10 +480,11 @@ card_spreading_decay:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      Destroy up to one target nonartifact creature if it's equipped.
-      Destroy up to one target artifact.
+      Choose up to two -
+      • Destroy target nonartifact creature if it's equipped.
+      • Destroy target artifact.
     flavor_text: "Their arrival heralds the coming ruin."
-    artwork_url: "https://www.deviantart.com/istrandar/art/Decay-859081205"
+    artwork_url: "https://i.ibb.co/mCGM8R8w/spreading-decay-istrandar.jpg"
     artist: "istrandar"
     number: 183
 
@@ -494,8 +496,10 @@ card_stream_of_estus:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
-    rules_text: "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land could produce."
-    flavor_text: "The journey of an Undead has always traced the bonfires, and no journey of import has been made without Estus."
+    rules_text: |
+      When ~ enters the battlefield if you control two or more bonfires untap up to two target lands.
+      Whenever a player taps a land for mana, that player adds one mana of a color that land could produce to their mana pool.
+    flavor_text: "The journey of an Undead has always traced the bonfires."
     artwork_url: "https://www.deviantart.com/znkwill/art/forest-1187781343"
     artist: "znkwill"
     number: 184

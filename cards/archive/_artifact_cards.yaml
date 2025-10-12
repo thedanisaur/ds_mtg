@@ -1,14 +1,14 @@
-card_charm_of_the_undead_hunters:
+card_cursed_jar:
   front:
-    name: "Charm of the Undead Hunters"
+    name: "Cursed Jar"
     cost: "{2}"
     super: ""
     type: "Artifact"
     sub: ""
     rarity: "Common"
     rules_text: |
-      Activated abilities of artifacts can't be activated.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 
+      {B}: Until end of turn ~ becomes a 0/3 black artifact creature with "Whenever ~ blocks a creature, that creature's controller loses 2 life."
+    flavor_text: "The jar trembles softly, not from within—but from the weight of prayers long abandoned."
+    artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
+    artist: "deepai"
+    number: 192
