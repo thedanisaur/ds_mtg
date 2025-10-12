@@ -1101,8 +1101,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1149,7 +1149,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, \"This card can't attack or block, and its activated abilities can't be activated\"\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg"
 },
 {
@@ -1684,8 +1684,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -1697,8 +1697,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -1710,8 +1710,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -1723,8 +1723,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -1794,6 +1794,16 @@
     "rating": 0,
     "oracle_text": "Equipped creature has \"When this creature attacks, creatures defending player controls lose indestructible until end of turn. {0}: Attach target Equipment to this creature. Activate this ability only on your turn.\".\nEquip {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg"
+},
+{
+    "name": "Soul Syphoner",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "{T}: Remove one soul from target player. You get one soul.\n{1}, Sacrifice ~: Remove all souls from target player. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg"
 },
 {
     "name": "Anor Londo",
@@ -2194,8 +2204,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2220,8 +2230,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2233,8 +2243,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2246,8 +2256,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2259,9 +2269,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
+        "R",
         "W",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2273,8 +2283,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2286,8 +2296,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2309,8 +2319,8 @@
     "type": "Creature",
     "mana_cost": "{2}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2345,9 +2355,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "B",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2369,8 +2379,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2382,9 +2392,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
+        "R",
         "B",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2424,16 +2434,6 @@
     "rating": 0,
     "oracle_text": "Equipped creature gets +1/+1 and has indestructible and vigilance.\nEquip {3}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg"
-},
-{
-    "name": "Soul Syphoner",
-    "type": "Artifact",
-    "mana_cost": "{1}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "{T}: Remove one soul from target player. You get one soul.\n{1}, Sacrifice ~: Remove all souls from target player. Draw a card.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg"
 },
 {
     "name": "Talisman of the Way of White",
@@ -2594,9 +2594,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "U",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2609,10 +2609,10 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "B",
+        "R",
         "G",
         "U",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2624,9 +2624,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "U",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2662,8 +2662,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2706,10 +2706,10 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "B",
+        "R",
         "G",
         "U",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2912,6 +2912,7 @@
 4 Heide Knight
 4 Hornet Ring
 4 Ring of a Great Warrior
+4 Soul Syphoner
 8 Anor Londo
 8 Archdragon Peak
 8 Cathedral of Blue
@@ -2960,7 +2961,6 @@
 4 Cursed Greatsword
 4 Eyes of a Firekeeper
 4 Ring of Favor
-4 Soul Syphoner
 4 Talisman of the Way of White
 4 Uchigatana
 4 Wolf Knight's Greatshield

@@ -75,7 +75,7 @@ card_charm_of_the_undead_hunters:
     rarity: "Common"
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.
-      {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated"
+      {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
     flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
     artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
     artist: "unknown"
@@ -332,7 +332,7 @@ card_soul_syphoner:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
       {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
