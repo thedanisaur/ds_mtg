@@ -47,7 +47,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "{T}, Sacrifice a Treasure: Add {3}.\n{T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.\n{T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.\n",
+    "oracle_text": "{T}, Sacrifice a noncreature permanent: Create a Treasure token.\n{T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.\n{T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pickle_pee_pump_a_rum.jpeg"
 },
 {
@@ -279,7 +279,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "When ~ enters the battlefield search your library for an equipment card and put it into your hand. Then shuffle your library.\nIf you control three or more equipment, you may pay {0} instead of paying an equip cost.\nEquipped creatures you control get +1/+1.\n",
+    "oracle_text": "When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.\nIf you control three or more equipment, equipment you control have equip {0}.\nEquipped creatures you control get +1/+1.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/village_blacksmith.jpeg"
 },
 {
@@ -399,7 +399,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "Choose any number of target creatures. You get two souls, then you may pay X souls.\n~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, instead it's controller puts it on top or bottom of his or her library.\n",
+    "oracle_text": "Choose any number of target creatures. You get two souls, then you may pay X souls.\n~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die, instead it's controller puts it on top or bottom of his or her library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg"
 },
 {
@@ -474,14 +474,14 @@
 },
 {
     "name": "A Hero Gone Mad",
-    "type": "Instant",
+    "type": "Sorcery",
     "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters transformed. You lose life equal to that creature's power.\n",
+    "oracle_text": "Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters the battlefield transformed.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg"
 },
 {
@@ -499,7 +499,7 @@
 {
     "name": "Dark Hand of Kaathe",
     "type": "Instant",
-    "mana_cost": "{1}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
@@ -565,7 +565,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "Deathtouch",
+    "oracle_text": "Deathtouch\nWhen ~ enters the battlefield target player reveals a card for each rat you control. You choose one of those cards. That player discards that card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hound_rat.jpeg"
 },
 {
@@ -697,7 +697,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "You may pay two souls rather than pay this spell's mana cost.\nUntil end of turn, target creature gets +1/+0 and gains \"{R}: This creature gets +1/+0 until end of turn.\"\n",
+    "oracle_text": "You may pay two souls rather than pay this spell's mana cost.\nUntil end of turn, target creature gains haste, can't be blocked except by two or more creatures, and \"{R}: This creature gets +1/+0 until end of turn.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_surge.jpeg"
 },
 {
@@ -1114,8 +1114,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1143,14 +1143,14 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/broadsword.jpeg"
 },
 {
-    "name": "Cursed Jar",
+    "name": "Charm of the Undead Hunters",
     "type": "Artifact",
-    "mana_cost": "{2}",
+    "mana_cost": "{1}",
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "{B}: Until end of turn ~ becomes a 0/3 black artifact creature with \"Whenever ~ blocks a creature, that creature's controller loses 2 life.\"\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_jar.jpeg"
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, \"This card can't attack or block, and its activated abilities can't be activated\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg"
 },
 {
     "name": "Halberd",
@@ -1245,6 +1245,18 @@
     "rating": 0,
     "oracle_text": "Exile target nonland permanent. That permanent's controller draws two cards at the beginning of their next upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg"
+},
+{
+    "name": "Miracle of the Way of White",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 5,
+    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
 },
 {
     "name": "Mirrah Warrior",
@@ -1375,7 +1387,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "As an additional cost to cast this spell pay two souls.\nScry 4, then draw two cards.\n",
+    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nScry 4, then draw two cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/search_the_library.jpeg"
 },
 {
@@ -1427,6 +1439,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/charred_knight.jpeg"
 },
 {
+    "name": "Chosen Undead",
+    "type": "Instant",
+    "mana_cost": "{1}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg"
+},
+{
     "name": "Clawed Curse",
     "type": "Enchantment",
     "mana_cost": "{1}{B}",
@@ -1435,7 +1459,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player loses one life and removes one soul. You gain one life and get one soul.\nMorph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up attach it to target player. That player loses 3 life.\n",
+    "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.\nMorph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen this card is turned face up attach it to target player and destroy target creature they control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/clawed_curse.jpeg"
 },
 {
@@ -1511,6 +1535,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fiery_soapstone.jpeg"
 },
 {
+    "name": "Fire Orb",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.\n~ deals 2 damage to any target.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg"
+},
+{
     "name": "Firekeeper",
     "type": "Creature",
     "mana_cost": "{R}",
@@ -1519,7 +1555,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "{R}, Pay two souls: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). Activate this ability only once per turn.",
+    "oracle_text": "{R}, Pay one soul: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg"
 },
 {
@@ -1595,18 +1631,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dukes_dear_freja.jpeg"
 },
 {
-    "name": "Gaping Dragon",
-    "type": "Creature",
-    "mana_cost": "{2}{G}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "Deathtouch, reach, trample, haste, bleed\nWhen ~ attacks create a treasure token.\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
-},
-{
     "name": "Mimic",
     "type": "Creature",
     "mana_cost": "{1}{G}",
@@ -1647,12 +1671,12 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "When ~ enters the battlefield if an opponent controls a creature named \"Red Phantom\", create a 3/3 white human ally creature token named Phantom. It has haste.\nWhenever a creature named \"Red Phantom\" dies you get one soul and draw a card.\n",
+    "oracle_text": "When ~ enters the battlefield draw a card. Then if an opponent controls a creature named \"Red Phantom\", create a 3/3 white human ally creature token named Phantom. It has haste.\nWhenever a creature named \"Red Phantom\" dies draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg"
 },
 {
@@ -1665,7 +1689,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "Vigilance\nWhenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.\n",
+    "oracle_text": "Vigilance\nWhenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.\nWhenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/carim_guardian.jpeg"
 },
 {
@@ -1686,8 +1710,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -1699,12 +1723,12 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "Destroy up to one target nonartifact creature if it's equipped.\nDestroy up to one target artifact.\n",
+    "oracle_text": "Choose up to two -\n\u2022 Destroy target nonartifact creature if it's equipped.\n\u2022 Destroy target artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg"
 },
 {
@@ -1714,7 +1738,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature can't have bleed counters placed on it.\nEquip {1}\n",
+    "oracle_text": "When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"You can't get bleed counters. This creature can't have bleed counters placed on it.\"\nEquip {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg"
 },
 {
@@ -1726,7 +1750,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \\\"Whenever this creature becomes tapped you may untap it. If you do, target player puts two cards from the top of their library into their graveyard.\\\"\nEquip {0}\n",
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
 },
 {
@@ -1772,32 +1796,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg"
 },
 {
-    "name": "Soul Syphoner",
-    "type": "Artifact",
-    "mana_cost": "{1}",
-    "colors": [],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "{T}: Remove one soul from target player. You get one soul.\n{1}, Sacrifice ~: Remove all souls from target player. Draw a card.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg"
-},
-{
-    "name": "Uchigatana",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nEquip {2}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/uchigatana.jpeg"
-},
-{
     "name": "Anor Londo",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/anor_londo.jpeg"
 },
@@ -1807,7 +1811,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/archdragon_peak.jpeg"
 },
@@ -1817,7 +1821,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_blue.jpeg"
 },
@@ -1827,7 +1831,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_the_deep.jpeg"
 },
@@ -1837,7 +1841,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/darkroot_garden.jpeg"
 },
@@ -1847,7 +1851,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/farron_keep.jpeg"
 },
@@ -1857,7 +1861,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/irithyll_of_the_boreal_valley.jpeg"
 },
@@ -1867,7 +1871,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lost_izalith.jpeg"
 },
@@ -1877,7 +1881,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/road_of_sacrifices.jpeg"
 },
@@ -1887,7 +1891,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/shrine_of_amana.jpeg"
 },
@@ -1926,18 +1930,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/emit_force.jpeg"
 },
 {
-    "name": "Miracle of the Way of White",
-    "type": "Instant",
-    "mana_cost": "{W}",
-    "colors": [
-        "W"
-    ],
-    "rarity": "rare",
-    "rating": 5,
-    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
-},
-{
     "name": "Reforge",
     "type": "Sorcery",
     "mana_cost": "{1}{W}",
@@ -1974,13 +1966,13 @@
 {
     "name": "Big Hat Logan",
     "type": "Creature",
-    "mana_cost": "{4}{U}{U}",
+    "mana_cost": "{5}{U}{U}",
     "colors": [
         "U"
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "{U}, Pay 1 soul: Tap or untap target permanent. That permanent's controller puts one card from the top of their library into their graveyard.",
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhenever you cast a spell tap target permanent. If that permanent was already tapped return that card to it's owners hand and that player puts one card from the top of their library into their graveyard instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg"
 },
 {
@@ -2056,18 +2048,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg"
 },
 {
-    "name": "Chosen Undead",
-    "type": "Instant",
-    "mana_cost": "{1}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.\nYou get one soul.\nAt the beginning of your upkeep you may pay {1}{B}. If you do, return ~ from your graveyard to your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg"
-},
-{
     "name": "Darkwraith",
     "type": "Creature",
     "mana_cost": "{1}{B}{B}",
@@ -2076,7 +2056,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "{4}{B}, {T}: Target player loses life equal to the number of souls they have. Remove three souls from that player. You get three souls.",
+    "oracle_text": "Protection from red and from white.\n{4}{B}, {T}: Target player loses life equal to the number of souls they have. Then remove half their souls rounded up and you get that many souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg"
 },
 {
@@ -2124,7 +2104,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "As an additional cost to cast ~, pay one soul.\nTarget player reveals his or her hand. You may choose a nonland card. That player discards that card.\n",
+    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nTarget player reveals his or her hand. You may choose a nonland card. That player discards that card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg"
 },
 {
@@ -2150,18 +2130,6 @@
     "rating": 0,
     "oracle_text": "~ can't be countered.\n~ deals two times X damage to target player, that damage cannot be prevented.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_bed_vestiges.jpeg"
-},
-{
-    "name": "Fire Orb",
-    "type": "Instant",
-    "mana_cost": "{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.\n~ deals 2 damage to any target.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg"
 },
 {
     "name": "Forbidden Sun",
@@ -2210,12 +2178,24 @@
     }
 },
 {
+    "name": "Gaping Dragon",
+    "type": "Creature",
+    "mana_cost": "{2}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Deathtouch, reach, trample, haste, bleed\nWhen ~ attacks create a treasure token.\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
+},
+{
     "name": "Ancient Wyvern",
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2227,8 +2207,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2245,7 +2225,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Deathtouch\nAt the beginning of each opponent's upkeep put a bleed counter on each creature that player controls. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\n",
+    "oracle_text": "Deathtouch, bleed\nAt the beginning of each opponent's upkeep put a bleed counter on each creature that player controls. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg"
 },
 {
@@ -2280,8 +2260,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "G",
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2293,8 +2273,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2365,9 +2345,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
+        "R",
         "B",
-        "R"
+        "W"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2394,7 +2374,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land could produce.",
+    "oracle_text": "When ~ enters the battlefield if you control two or more bonfires untap up to two target lands.\nWhenever a player taps a land for mana, that player adds one mana of a color that land could produce to their mana pool.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg"
 },
 {
@@ -2446,6 +2426,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg"
 },
 {
+    "name": "Soul Syphoner",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "{T}: Remove one soul from target player. You get one soul.\n{1}, Sacrifice ~: Remove all souls from target player. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg"
+},
+{
     "name": "Talisman of the Way of White",
     "type": "Artifact",
     "mana_cost": "{W}{W}",
@@ -2456,6 +2446,16 @@
     "rating": 0,
     "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature can't be the target of spells or abilities.\nEquip {W}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/talisman_of_the_way_of_white.jpeg"
+},
+{
+    "name": "Uchigatana",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/uchigatana.jpeg"
 },
 {
     "name": "Wolf Knight's Greatshield",
@@ -2483,7 +2483,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "rare",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "{T}: Add {1} to your mana pool.\n{4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lothric_castle.jpeg"
 },
@@ -2493,7 +2493,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "rare",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice ~: Destroy target Bonfire.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/the_fire_fades.jpeg"
 },
@@ -2548,13 +2548,13 @@
 {
     "name": "Ringfinger Leonhard",
     "type": "Creature",
-    "mana_cost": "{R}{R}{R}",
+    "mana_cost": "{R}{R}",
     "colors": [
         "R"
     ],
     "rarity": "mythic",
     "rating": 0,
-    "oracle_text": "Haste\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "oracle_text": "Haste\nWhenever ~ attacks, reveal the top card of your library. You may play that card this turn.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_front.jpeg",
     "back": {
         "name": "Rosaria's Finger",
@@ -2594,9 +2594,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "B",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2608,11 +2608,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "W",
-        "R",
-        "U",
         "G",
-        "B"
+        "W",
+        "B",
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2624,9 +2624,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "R",
         "U",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2638,9 +2638,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2662,8 +2662,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2705,11 +2705,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "W",
-        "R",
-        "U",
         "G",
-        "B"
+        "W",
+        "B",
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2732,7 +2732,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "mythic",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "{T}: Add {1} to your mana pool.\n{5}, {T}, Sacrifice a nontoken creature: Create three 1/1 black Assassin creature tokens with \"Whenever this creature deals combat damage to a player, that player loses the game.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/blighttown.jpeg"
 },
@@ -2742,7 +2742,7 @@
     "mana_cost": "",
     "colors": [],
     "rarity": "mythic",
-    "rating": 0,
+    "rating": 4,
     "oracle_text": "~ enters the battlefield tapped unless you control another bonfire.\n{T}: Add one mana of any color.\n{T}: Return target creature card from a graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all soul counters.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/firelink_shrine.jpeg"
 },
@@ -2760,228 +2760,228 @@
     }
 }
 [Common]
-Ashen Idol
-Covetous Demon
-Dreg-Hollow Merchant
-Hollow
-Pickle Pee, Pump-a-Rum
-Pyrewarden of the Things Betwixt
-Winged Chimera
-Batwing Demon
-Blessed Cleric
-Corrupted Hollow
-Disenchant
-Flexile Sentry
-Forossa Lion Knight
-Infested Corpse
-Insolent Spirits
-Knights of Gwynevere
-Magic Barrier
-New Londo Shade
-Resting Merchant
-Soul of a Nameless Soldier
-Swollen Mongrel
-Tears of Denial
-Transient Curse
-Village Blacksmith
-Weary Travelers
-Adventuring Sorcerer
-Amana Priestess
-Aural Decoy
-Chameleon
-Crystal Butterfly
-Dual Charm
-Great Crab
-Hidden Body
-Homing Soul Mass
-Hooded Sorcerer
-Invisible Hollow
-Lost spell from Oolacile
-Magic Denial
-Old Sorcerer
-Soul of an Unknown Traveler
-A Hero Gone Mad
-Dark Edge
-Dark Hand of Kaathe
-Deep Fog
-Grave Warden
-Grip of Death
-Hollow Soldier
-Hound Rat
-Lothric Sentry
-Parasite Worm
-Royal Rat Vanguard
-Sift through the Ashes
-Undead Hound
-Cathedral Evangelist
-Chaos Storm
-Cracked Redeye Orb
-Cragspider
-Desert Pyromancer
-Fire Surge
-Firesage Demon
-Flamewielding Hollow
-Hollow Infantry
-Immolation
-Pesky Mosquito
-Profaned Flame
-Profuse Sweat
-Rapport
-Sunlight Maggot
-Taurus Demon
-Unkindled's Journey
-Alluring Skull
-Amana Aberration
-Corrode
-Ent of the Darkroot Garden
-Estus
-Expected Companions
-Festering Goblin
-Hesitant Surveyor
-Hollow Knight
-Lothric Knight
-Milfanito
-Pagan Tree
-Petrifying Statue
-Proselyte Scarlett
-Ravenous Crystal Lizard
-Seek Embers
-Sentinel of the Tower of Flame
-Shaded Woods
-Souls of the Living
-Undead Aberration
-Warcry
-Warp the Land
-Ruin Sentinels
-Sorcerer's Remedy
-Bell Gargoyles
-Broadsword
-Cursed Jar
-Halberd
-Iron Golem
-Metaleater Spider
-Silver Serpent Ring
-Four Kings
-Looking Glass Knight
-Sif, the Great Grey Wolf
-Karmic Justice
-Lightning Spear
-Mirrah Warrior
-Petrified Egg
-Solaire of Astora
-Vow of Silence
-Wight
-Angelic Knight
-Ashen Estus
-Burning Ambition
-Pestilent Mercury
-Ruin Banshee
-Search the Library
-Wall Spectre
-Bonfire Ascetic
-Carthus Rouge
-Charred Knight
-Clawed Curse
-Jailer
-Lordran Necromancer
-Wake the Hollows
-Acid Surge
-Capra Demon
-Fiery Soapstone
-Firekeeper
-Flame Whip
-Ignite Steel
-Smoldering Rotten Flesh
-Contrasted Cursed
-Covenant of the Forest Hunter
-Duke's Dear Freja
-Gaping Dragon
-Mimic
-The Serpent King
-Wistful Naivete
-Blade of the Darkmoon
-Carim Guardian
-Disembodied Wisp
-Splintering Lightning
-Spreading Decay
-Bloodbite Ring
-Catalyst of the Witch of Izalith
-Chloranthy Ring
-Heide Knight
-Hornet Ring
-Ring of a Great Warrior
-Soul Syphoner
-Uchigatana
-Anor Londo
-Archdragon Peak
-Cathedral of Blue
-Cathedral of the Deep
-Darkroot Garden
-Farron Keep
-Irithyll of the Boreal Valley
-Lost Izalith
-Road of Sacrifices
-Shrine of Amana
-Anri of Astora
-Emit Force
-Miracle of the Way of White
-Reforge
-Siegmeyer of Catarina
-Big Hat Logan
-Contemplation
-Fume Sorcerer
-Outrider Knight
-Soul Spear
-Soul Stream
-Aldrich, Devourer of Gods
-Chosen Undead
-Darkwraith
-Frozen Reindeer
-Grave Warden's Tome
-Nimble Shadow
-Skim Memories
-The Great Swamp
-Chaos Bed Vestiges
-Fire Orb
-Forbidden Sun
-Hellkite Wyvern
-Unbreakable Patches
-Ancient Wyvern
-Archdeacon of the Deep
-Baneful Queen, Mytha
-Bed of Chaos
-Dragonslayer and Executioner
-Ember
-Fume Knight
-Gael, Seeker of Ash
-Hawkeye Gough
-Iudex Gundyr
-Knight Lautrec
-Stream of Estus
-Yhorm, the Giant
-Cursed Greatsword
-Eyes of a Firekeeper
-Ring of Favor
-Talisman of the Way of White
-Wolf Knight's Greatshield
-Bonfire
-Lothric Castle
-The Fire Fades
-Into the Abyss
-Vordt and the Dancer
-Curse of the Dead
-Gravelord Nito
-Ringfinger Leonhard
-Abyss Watchers
-Gravelord's Maelstrom
-Gwyn, Lord of Cinder
-King of the Storm
-Knight Artorias
-Lorian and Lothric
-Homeward Bone
-Kiln of the First Flame
-Moonlight Greatsword
-Ring of Sacrifice
-Storm Ruler
-Blighttown
-Firelink Shrine
+4 Ashen Idol
+4 Covetous Demon
+4 Dreg-Hollow Merchant
+4 Hollow
+4 Pickle Pee, Pump-a-Rum
+4 Pyrewarden of the Things Betwixt
+4 Winged Chimera
+4 Batwing Demon
+4 Blessed Cleric
+4 Corrupted Hollow
+4 Disenchant
+4 Flexile Sentry
+4 Forossa Lion Knight
+4 Infested Corpse
+4 Insolent Spirits
+4 Knights of Gwynevere
+4 Magic Barrier
+4 New Londo Shade
+4 Resting Merchant
+4 Soul of a Nameless Soldier
+4 Swollen Mongrel
+4 Tears of Denial
+4 Transient Curse
+4 Village Blacksmith
+4 Weary Travelers
+4 Adventuring Sorcerer
+4 Amana Priestess
+4 Aural Decoy
+4 Chameleon
+4 Crystal Butterfly
+4 Dual Charm
+4 Great Crab
+4 Hidden Body
+4 Homing Soul Mass
+4 Hooded Sorcerer
+4 Invisible Hollow
+4 Lost spell from Oolacile
+4 Magic Denial
+4 Old Sorcerer
+4 Soul of an Unknown Traveler
+4 A Hero Gone Mad
+4 Dark Edge
+4 Dark Hand of Kaathe
+4 Deep Fog
+4 Grave Warden
+4 Grip of Death
+4 Hollow Soldier
+4 Hound Rat
+4 Lothric Sentry
+4 Parasite Worm
+4 Royal Rat Vanguard
+4 Sift through the Ashes
+4 Undead Hound
+4 Cathedral Evangelist
+4 Chaos Storm
+4 Cracked Redeye Orb
+4 Cragspider
+4 Desert Pyromancer
+4 Fire Surge
+4 Firesage Demon
+4 Flamewielding Hollow
+4 Hollow Infantry
+4 Immolation
+4 Pesky Mosquito
+4 Profaned Flame
+4 Profuse Sweat
+4 Rapport
+4 Sunlight Maggot
+4 Taurus Demon
+4 Unkindled's Journey
+4 Alluring Skull
+4 Amana Aberration
+4 Corrode
+4 Ent of the Darkroot Garden
+4 Estus
+4 Expected Companions
+4 Festering Goblin
+4 Hesitant Surveyor
+4 Hollow Knight
+4 Lothric Knight
+4 Milfanito
+4 Pagan Tree
+4 Petrifying Statue
+4 Proselyte Scarlett
+4 Ravenous Crystal Lizard
+4 Seek Embers
+4 Sentinel of the Tower of Flame
+4 Shaded Woods
+4 Souls of the Living
+4 Undead Aberration
+4 Warcry
+4 Warp the Land
+4 Ruin Sentinels
+4 Sorcerer's Remedy
+4 Bell Gargoyles
+4 Broadsword
+4 Charm of the Undead Hunters
+4 Halberd
+4 Iron Golem
+4 Metaleater Spider
+4 Silver Serpent Ring
+4 Four Kings
+4 Looking Glass Knight
+4 Sif, the Great Grey Wolf
+4 Karmic Justice
+4 Lightning Spear
+4 Miracle of the Way of White
+4 Mirrah Warrior
+4 Petrified Egg
+4 Solaire of Astora
+4 Vow of Silence
+4 Wight
+4 Angelic Knight
+4 Ashen Estus
+4 Burning Ambition
+4 Pestilent Mercury
+4 Ruin Banshee
+4 Search the Library
+4 Wall Spectre
+4 Bonfire Ascetic
+4 Carthus Rouge
+4 Charred Knight
+4 Chosen Undead
+4 Clawed Curse
+4 Jailer
+4 Lordran Necromancer
+4 Wake the Hollows
+4 Acid Surge
+4 Capra Demon
+4 Fiery Soapstone
+4 Fire Orb
+4 Firekeeper
+4 Flame Whip
+4 Ignite Steel
+4 Smoldering Rotten Flesh
+4 Contrasted Cursed
+4 Covenant of the Forest Hunter
+4 Duke's Dear Freja
+4 Mimic
+4 The Serpent King
+4 Wistful Naivete
+4 Blade of the Darkmoon
+4 Carim Guardian
+4 Disembodied Wisp
+4 Splintering Lightning
+4 Spreading Decay
+4 Bloodbite Ring
+4 Catalyst of the Witch of Izalith
+4 Chloranthy Ring
+4 Heide Knight
+4 Hornet Ring
+4 Ring of a Great Warrior
+8 Anor Londo
+8 Archdragon Peak
+8 Cathedral of Blue
+8 Cathedral of the Deep
+8 Darkroot Garden
+8 Farron Keep
+8 Irithyll of the Boreal Valley
+8 Lost Izalith
+8 Road of Sacrifices
+8 Shrine of Amana
+4 Anri of Astora
+4 Emit Force
+4 Reforge
+4 Siegmeyer of Catarina
+4 Big Hat Logan
+4 Contemplation
+4 Fume Sorcerer
+4 Outrider Knight
+4 Soul Spear
+4 Soul Stream
+4 Aldrich, Devourer of Gods
+4 Darkwraith
+4 Frozen Reindeer
+4 Grave Warden's Tome
+4 Nimble Shadow
+4 Skim Memories
+4 The Great Swamp
+4 Chaos Bed Vestiges
+4 Forbidden Sun
+4 Hellkite Wyvern
+4 Unbreakable Patches
+4 Gaping Dragon
+4 Ancient Wyvern
+4 Archdeacon of the Deep
+4 Baneful Queen, Mytha
+4 Bed of Chaos
+4 Dragonslayer and Executioner
+4 Ember
+4 Fume Knight
+4 Gael, Seeker of Ash
+4 Hawkeye Gough
+4 Iudex Gundyr
+4 Knight Lautrec
+4 Stream of Estus
+4 Yhorm, the Giant
+4 Cursed Greatsword
+4 Eyes of a Firekeeper
+4 Ring of Favor
+4 Soul Syphoner
+4 Talisman of the Way of White
+4 Uchigatana
+4 Wolf Knight's Greatshield
+8 Bonfire
+8 Lothric Castle
+8 The Fire Fades
+4 Into the Abyss
+4 Vordt and the Dancer
+4 Curse of the Dead
+4 Gravelord Nito
+4 Ringfinger Leonhard
+4 Abyss Watchers
+4 Gravelord's Maelstrom
+4 Gwyn, Lord of Cinder
+4 King of the Storm
+4 Knight Artorias
+4 Lorian and Lothric
+4 Homeward Bone
+4 Kiln of the First Flame
+4 Moonlight Greatsword
+4 Ring of Sacrifice
+4 Storm Ruler
+8 Blighttown
+8 Firelink Shrine

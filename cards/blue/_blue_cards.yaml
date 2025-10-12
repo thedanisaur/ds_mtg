@@ -84,17 +84,19 @@ card_aural_decoy:
 card_big_hat_logan:
   front:
     name: "Big Hat Logan"
-    cost: "{4}{U}{U}"
+    cost: "{5}{U}{U}"
     super: "Legendary"
     type: "Creature"
     sub: "Wizard"
     rarity: "Rare"
-    rules_text: "{U}, Pay 1 soul: Tap or untap target permanent. That permanent's controller puts one card from the top of their library into their graveyard."
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      Whenever you cast a spell tap target permanent. If that permanent was already tapped return that card to it's owners hand and that player puts one card from the top of their library into their graveyard instead.
     flavor_text: "A tireless traveler, Logan left Vinheim with only an archive of tomes and a staff."
     artwork_url: "https://i.ibb.co/fVbPxFdZ/big-hat-logan-bonesaw999-resize.jpg"
     artist: "bonesaw999"
     number: 46
-    power: 4
+    power: 5
     toughness: 5
 
 card_burning_ambition:
@@ -233,7 +235,7 @@ card_homing_soul_mass:
     rarity: "Common"
     rules_text: |
       Choose any number of target creatures. You get two souls, then you may pay X souls.
-      ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die this turn, instead it's controller puts it on top or bottom of his or her library.
+      ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die, instead it's controller puts it on top or bottom of his or her library.
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/fG0L3rgn/homing-soul-mass-juhamattipulkkinen.jpg"
     artist: "juhamattipulkkinen"
@@ -395,7 +397,7 @@ card_search_the_library:
     sub: ""
     rarity: "Uncommon"
     rules_text: |
-      As an additional cost to cast this spell pay two souls.
+      As an additional cost to cast this spell pay one soul or {1}.
       Scry 4, then draw two cards.
     flavor_text: "What treasure remains in the archives is yours for the taking."
     artwork_url: "https://www.deviantart.com/tavenerscholar/art/Practice-578204700"

@@ -21,8 +21,8 @@ card_bloodbite_ring:
     sub: "Equipment"
     rarity: "Uncommon"
     rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature can't have bleed counters placed on it.
+      When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has, "You can't get bleed counters. This creature can't have bleed counters placed on it."
       Equip {1}
     flavor_text: "Despite the dreadful rumors surrounding its creation, this ring is an unmistakable asset."
     artwork_url: "https://i.ibb.co/wrMWCx2j/bloodbite-ring.jpg"
@@ -56,14 +56,30 @@ card_catalyst_of_the_witch_of_izalith:
     rarity: "Uncommon"
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has, \"Whenever this creature becomes tapped you may untap it. If you do, target player puts two cards from the top of their library into their graveyard.\"
-      Equip {0}
+      Equipped creature has, "{Q}: Target player puts two cards from the top of their library into their graveyard."
+      Equip {0} 
     flavor_text: "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans."
     artwork_url: "https://i.ibb.co/N6WHbYSy/catalyst-of-the-witch-of-izalith-resize.jpg"
-    artist: "deepai"
+    artist: "unknown"
     number: 189
     power: ""
     toughness: ""
+
+card_charm_of_the_undead_hunters:
+  front:
+    name: "Charm of the Undead Hunters"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rules_text: |
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.
+      {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated"
+    flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
+    artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
+    artist: "unknown"
+    number: 190
 
 card_chloranthy_ring:
   front:
@@ -80,7 +96,7 @@ card_chloranthy_ring:
     flavor_text: "This old ring is named for its decorative green blossom, but its luster is long since faded."
     artwork_url: "https://i.ibb.co/0y9jcsRx/chloranthy-ring.jpg"
     artist: "Fromsoft"
-    number: 190
+    number: 191
 
 card_cursed_greatsword:
   front:
@@ -97,21 +113,6 @@ card_cursed_greatsword:
     flavor_text: "Sword born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."
     artwork_url: "https://i.pinimg.com/736x/83/f3/2b/83f32be2366afbff44cccfc88856cbe1--videogames-awesome-art.jpg"
     artist: "Kutty Sark"
-    number: 191
-
-card_cursed_jar:
-  front:
-    name: "Cursed Jar"
-    cost: "{2}"
-    super: ""
-    type: "Artifact"
-    sub: ""
-    rarity: "Common"
-    rules_text: |
-      {B}: Until end of turn ~ becomes a 0/3 black artifact creature with "Whenever ~ blocks a creature, that creature's controller loses 2 life."
-    flavor_text: "The jar trembles softly, not from within—but from the weight of prayers long abandoned."
-    artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
-    artist: "deepai"
     number: 192
 
 card_eyes_of_a_firekeeper:
@@ -331,7 +332,7 @@ card_soul_syphoner:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
       {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
@@ -380,7 +381,7 @@ card_uchigatana:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
