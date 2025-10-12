@@ -1113,18 +1113,18 @@ Booster distribution
         <strong>Catalyst Of The Witch Of Izalith</strong>
     </td>
     <td align="center">
-        <img src="./cards/artifact/chloranthy_ring.jpeg" alt="Chloranthy Ring" width="400"/><br/>
-        <strong>Chloranthy Ring</strong>
+        <img src="./cards/artifact/charm_of_the_undead_hunters.jpeg" alt="Charm Of The Undead Hunters" width="400"/><br/>
+        <strong>Charm Of The Undead Hunters</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/artifact/cursed_greatsword.jpeg" alt="Cursed Greatsword" width="400"/><br/>
-        <strong>Cursed Greatsword</strong>
+        <img src="./cards/artifact/chloranthy_ring.jpeg" alt="Chloranthy Ring" width="400"/><br/>
+        <strong>Chloranthy Ring</strong>
     </td>
     <td align="center">
-        <img src="./cards/artifact/cursed_jar.jpeg" alt="Cursed Jar" width="400"/><br/>
-        <strong>Cursed Jar</strong>
+        <img src="./cards/artifact/cursed_greatsword.jpeg" alt="Cursed Greatsword" width="400"/><br/>
+        <strong>Cursed Greatsword</strong>
     </td>
 </tr>
 <tr>
