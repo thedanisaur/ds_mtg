@@ -220,13 +220,15 @@ card_grave_warden:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rules_text: "~ can't be blocked as long as you control another black or green permanent."
+    rules_text: |
+      ~ can't be blocked as long as you control another black or green permanent.
+      Hollow, skeleton, and zombie creatures you control get +1/+1.
     flavor_text: "Grave wardens were tasked with disposing of the ever rising corpses that plagued the cathedral. Their clothes are utterly putrid, drenched in the blood and mucilage of their undertaking."
     artwork_url: "https://i.ibb.co/Mywwqhrj/grave-warden-eemeling-resize.jpg"
     artist: "eemeling"
     number: 84
-    power: 3
-    toughness: 2
+    power: 2
+    toughness: 1
 
 card_grave_wardens_tome:
   front:
@@ -360,8 +362,8 @@ card_lordran_necromancer:
     rarity: "Uncommon"
     rules_text: |
       {1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
-      {T}: Target creature gets -1/-1 until end of turn.
-    flavor_text: "Followers of dark and forbidden rites, these conjurers defy the natural order. With lanterns lit by cursed flame, they bind bones to soul and soul to flame."
+      Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do you get one soul and draw a card.
+    flavor_text: "With lanterns lit by cursed flame, they bind bones to soul and soul to flame."
     artwork_url: "https://www.deviantart.com/jasonengle/art/Dar-Thul-Raiser-of-the-dead-622493220"
     artist: "jasonengle"
     number: 92
