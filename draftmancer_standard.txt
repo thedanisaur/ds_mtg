@@ -1742,18 +1742,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg"
 },
 {
-    "name": "Catalyst of the Witch of Izalith",
-    "type": "Artifact",
-    "mana_cost": "{1}{U}",
-    "colors": [
-        "U"
-    ],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
-},
-{
     "name": "Chloranthy Ring",
     "type": "Artifact",
     "mana_cost": "{G}",
@@ -2217,8 +2205,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2400,6 +2388,18 @@
     "rating": 0,
     "oracle_text": "Deathtouch, trample, reach\n{3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.\nWhenever a creature you control deals 5 or more damage to a player destroy up to one target land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg"
+},
+{
+    "name": "Catalyst of the Witch of Izalith",
+    "type": "Artifact",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
 },
 {
     "name": "Cursed Greatsword",
@@ -2594,8 +2594,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "R",
+        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -2608,11 +2608,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
+        "W",
         "R",
         "G",
         "U",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2624,8 +2624,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
         "R",
+        "U",
         "W"
     ],
     "rarity": "mythic",
@@ -2639,8 +2639,8 @@
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
         "U",
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2676,7 +2676,7 @@
     "mana_cost": "{0}",
     "colors": [],
     "rarity": "mythic",
-    "rating": 0,
+    "rating": 5,
     "oracle_text": "{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg"
 },
@@ -2705,11 +2705,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
+        "W",
         "R",
         "G",
         "U",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2918,7 +2918,6 @@
 7 Splintering Lightning
 7 Spreading Decay
 7 Bloodbite Ring
-7 Catalyst of the Witch of Izalith
 7 Chloranthy Ring
 7 Heide Knight
 7 Hornet Ring
@@ -2971,6 +2970,7 @@
 3 Knight Lautrec
 3 Stream of Estus
 3 Yhorm, the Giant
+3 Catalyst of the Witch of Izalith
 3 Cursed Greatsword
 3 Eyes of a Firekeeper
 3 Ring of Favor
