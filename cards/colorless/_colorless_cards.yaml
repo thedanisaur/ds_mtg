@@ -6,6 +6,7 @@ card_ashen_idol:
     type: "Creature"
     sub: "Avatar"
     rarity: "Common"
+    rating: 2
     rules_text: |
       {T}: Remove target creature you control from combat. (It is no longer attacking or blocking and does not deal or receive damage.)
       {2}{B}, {T}: Return target creature, that left the battlefield this turn, from your graveyard to your hand.
@@ -24,6 +25,7 @@ card_covetous_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
+    rating: 2
     rules_text: |
       {1}{G}: ~ gains bleed until end of turn (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
     flavor_text: ""
@@ -41,6 +43,7 @@ card_dreg_hollow_merchant:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
+    rating: 2
     rules_text: |
       {1}{U}, pay one soul: Draw a card, then discard a card.
     flavor_text: "Heh heh heh heh hah hah hah… Thank you kindly!"
@@ -58,6 +61,7 @@ card_four_kings:
     type: "Creature"
     sub: "Lord"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ can't be blocked.
       {4}: ~ gains flying and first strike until end of turn.
@@ -77,6 +81,7 @@ card_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 0
     rules_text: "When ~ leaves the battlefield, you get two souls."
     flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
@@ -93,6 +98,7 @@ card_looking_glass_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       ~ can't be the target of spells or abilities.
       {1}{R}, {T}: Create a 3/3 red Human creature token named Red Phantom. It has prowess.
@@ -111,6 +117,7 @@ card_pickle_pee_pump_a_rum:
     type: "Creature"
     sub: "Shapeshifter Bird"
     rarity: "Common"
+    rating: 1
     rules_text: |
       {T}, Sacrifice a noncreature permanent: Create a Treasure token.
       {T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
@@ -130,6 +137,7 @@ card_pyrewarden_of_the_things_betwixt:
     type: "Creature"
     sub: "Hag"
     rarity: "Common"
+    rating: 4
     rules_text: |
       Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana cost.
       {T}: Reveal the top card of your library. You may pay souls equal to that card's mana cost and put it in your hand. If you don't put that card into your graveyard.
@@ -148,6 +156,7 @@ card_sif_the_great_grey_wolf:
     type: "Creature"
     sub: "Wolf Giant"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       As long as you control a creature named Knight Artorias, ~ has indestructible.
       {W}{W}: Attach target equipment to ~.
@@ -166,6 +175,7 @@ card_winged_chimera:
     type: "Creature"
     sub: "Harpy"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Flying, lifelink
       When ~ enters the battlefield, you get two souls.

@@ -6,6 +6,7 @@ card_anri_of_astora:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       First strike, lifelink
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
@@ -44,6 +45,7 @@ card_batwing_demon:
     type: "Creature"
     sub: "Imp Demon"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Flying
       {T}: Tap target creature.
@@ -63,6 +65,7 @@ card_blessed_cleric:
     type: "Creature"
     sub: "Cleric"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield you gain 2 life.
       {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn.
@@ -81,6 +84,7 @@ card_corrupted_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ leaves the battlefield you get one soul.
       If you would get one or more souls transform ~.
@@ -117,6 +121,7 @@ card_disenchant:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: "Destroy target artifact or enchantment."
     flavor_text: "There are sorceries which are not meant to pierce flesh, but to demand peace."
     artwork_url: "https://api.deepai.org/job-view-file/5107c913-ee3a-4477-9c1e-24306f2b22cb/outputs/output.jpg"
@@ -131,6 +136,7 @@ card_emit_force:
     type: "Instant"
     sub: ""
     rarity: "Rare"
+    rating: 2
     rules_text: "Target player puts all attacking creatures he or she controls on the bottom of their owner's library. You gain one life for each creature that left the battlefield this way."
     flavor_text: "Throughout history, there have been many examples of imitative miracles. When discerning original from imitator is nigh impossible, which is which hardly matters."
     artwork_url: "https://www.deviantart.com/brandon-ellis/art/Siesmic-Blast-936457748"
@@ -145,6 +151,7 @@ card_flexile_sentry:
     type: "Creature"
     sub: "Mutant Hollow"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Double strike
     flavor_text: "Two merciless creatures sharing a single malformed body, bound together in perpetual motion intent to punish the Undead. "
@@ -157,11 +164,12 @@ card_flexile_sentry:
 card_forossa_lion_knight:
   front:
     name: "Forossa Lion Knight"
-    cost: "{2}/{W}{W}"
+    cost: "{2/W}{W}"
     super: ""
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ attacks create a 1/1 white Human creature token that's tapped and attacking.
       If ~ would be dealt damage by a source that's red prevent 1 of that damage.
@@ -180,6 +188,7 @@ card_infested_corpse:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 0
     rules_text: |
       Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       Whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
@@ -198,6 +207,7 @@ card_insolent_spirits:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
+    rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Equip costs you pay cost {1} less.
@@ -216,6 +226,7 @@ card_karmic_justice:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 1
     rules_text: "Choose a creature or planeswalker you control. Until end of turn if that permanent would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller."
     flavor_text: "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment."
     artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
@@ -230,6 +241,7 @@ card_knights_of_gwynevere:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
+    rating: 2
     rules_text: |
       First strike, lifelink
     flavor_text: "An order long scattered, their golden armor dulled and their miracles fading. Yet still they fight for the image of a goddess who abandoned the world."
@@ -247,6 +259,7 @@ card_lightning_spear:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Exile target nonland permanent. That permanent's controller draws two cards at the beginning of their next upkeep.
     flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
@@ -262,6 +275,7 @@ card_magic_barrier:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       When you cast this spell you may pay {W} if you do draw a card.
       Return target spell to its owner's hand. You get one soul.
@@ -296,6 +310,7 @@ card_mirrah_warrior:
     type: "Creature"
     sub: "Human"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.
       Players can't search libraries.
@@ -314,6 +329,7 @@ card_new_londo_shade:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever ~ deals damage you get one soul.
@@ -332,6 +348,7 @@ card_petrified_egg:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
+    rating: 0
     rules_text: "Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards."
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
@@ -346,6 +363,7 @@ card_reforge:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 0
     rules_text: "Return target artifact or enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead."
     flavor_text: "Reforge mighty blade... with mighty soul."
     artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
@@ -360,6 +378,7 @@ card_resting_merchant:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
+    rating: 2
     rules_text: |
       You may cast ~ at any time you could cast and instant.
       When ~ enters the battlefield, return a creature you control to its owner's hand.
@@ -379,6 +398,7 @@ card_siegmeyer_of_catarina:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When this creature enters the battlefield or transforms into ~ you gain 4 life.
       As long as ~ is equipped it gets +1/+1.
@@ -416,6 +436,7 @@ card_solaire_of_astora:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Uncommon"
+    rating: 4
     rules_text: |
       When ~ enters the battlefield you may exile a white card from your hand, if you do create a 3/3 white human ally creature token named Phantom. It has haste.
       Each player can't draw more than one card each turn.
@@ -434,6 +455,7 @@ card_soul_of_a_nameless_soldier:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: |
       As long as it's your turn you may cast this spell. Timing restrictions still apply.
       When ~ enters the battlefield you may pay {W}, if you do each player draws a card.
@@ -452,6 +474,7 @@ card_swollen_mongrel:
     type: "Creature"
     sub: "Mutant"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
       {W}{U}, {T}: White and Blue creatures you control get +1/+1 until end of turn.
@@ -470,6 +493,7 @@ card_tears_of_denial:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       As ~ enters the battlefield choose a card name. Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack and their activated abilities can't be activated.
       Whenever a creature you control dies, sacrifice ~.
@@ -487,6 +511,7 @@ card_transient_curse:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "You get one soul. Exile target creature, return it to the battlefield under it's owners control at the beginning of the next end step. Draw a card."
     flavor_text: "The only way to fight back against ghosts, who are cursed beings, is to become cursed oneself."
     artwork_url: "https://i.ibb.co/5xk5hHb9/transient-curse-cobaltplasma-resize.jpg"
@@ -501,6 +526,7 @@ card_village_blacksmith:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
       If you control three or more equipment, equipment you control have equip {0}.
@@ -520,6 +546,7 @@ card_vow_of_silence:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 1
     rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack and loyalty abilities cannot be activated this turn."
     flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."
     artwork_url: "https://www.deviantart.com/alaiaorax/art/Silence-your-mind-655938148"
@@ -534,6 +561,7 @@ card_weary_travelers:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       Create a 1/2 black Human Ally creature token. It has deathtouch.
       Create a 2/1 white Human Ally creature token. It has lifelink.
@@ -550,6 +578,7 @@ card_wight:
     type: "Creature"
     sub: "Human Spirit"
     rarity: "Uncommon"
+    rating: 2
     rules_text: "{W}{W}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost."
     flavor_text: "They do not speak, only sing — a hymn not of worship, but of remembrance.  "
     artwork_url: "https://i.ibb.co/rRs2LpxF/white-phantom-resize.jpg"

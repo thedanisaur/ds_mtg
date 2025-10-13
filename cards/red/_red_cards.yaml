@@ -6,6 +6,7 @@ card_acid_surge:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: "Destroy up to X target artifacts."
     flavor_text: "Carthus' swordsmen attached great value to victory, and would not shun the use of such pyromancies."
     artwork_url: "https://www.deviantart.com/temmaru/art/ACID-FLAME-SURGE-1091256471"
@@ -20,6 +21,7 @@ card_capra_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Double Strike
       When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens.
@@ -38,6 +40,7 @@ card_cathedral_evangelist:
     type: "Creature"
     sub: "Cleric"
     rarity: "Common"
+    rating: 2
     rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
     flavor_text: "EEHEEE!"
     artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
@@ -54,6 +57,7 @@ card_chaos_bed_vestiges:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 2
     rules_text: |
       ~ can't be countered.
       ~ deals two times X damage to target player, that damage cannot be prevented.
@@ -70,6 +74,7 @@ card_chaos_storm:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: |
       Choose one -
       • Exile target artifact.
@@ -87,6 +92,7 @@ card_cracked_redeye_orb:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Create a 3/3 red Human creature token named Red Phantom. It has prowess."
     flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
@@ -101,6 +107,7 @@ card_cragspider:
     type: "Creature"
     sub: "Spider"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Reach
       Whenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of turn.
@@ -120,6 +127,7 @@ card_desert_pyromancer:
     type: "Creature"
     sub: "Monk"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Haste
       {1}{R}, {T}, pay two souls: ~ deals 2 damage to any target.
@@ -138,6 +146,7 @@ card_fiery_soapstone:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       ~ enters with two effigy counters.
       Whenever a lord leaves the battlefield put an effigy counter on ~.
@@ -155,6 +164,7 @@ card_fire_orb:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 4
     rules_text: |
       As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
       ~ deals 2 damage to any target.
@@ -172,6 +182,7 @@ card_fire_surge:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       You may pay two souls rather than pay this spell's mana cost.
       Until end of turn, target creature gains haste, can't be blocked except by two or more creatures, and "{R}: This creature gets +1/+0 until end of turn."
@@ -188,6 +199,7 @@ card_firekeeper:
     type: "Creature"
     sub: "Monk"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       {R}, Pay one soul: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
     flavor_text: "Very well. Then touch the darkness within me."
@@ -205,6 +217,7 @@ card_firesage_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Haste
       When ~ enters the battlefield, it deals 1 damage to each creature you don't control. Tap those creatures.
@@ -223,6 +236,7 @@ card_flame_whip:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       You may cast this spell without paying it's mana cost as long as you control four or more mountains.
       Enchant creature
@@ -240,6 +254,7 @@ card_flamewielding_hollow:
     type: "Creature"
     sub: "Hollow Monk"
     rarity: "Common"
+    rating: 1
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       If ~ leaves the battlefield, you get one soul.
@@ -259,6 +274,7 @@ card_forbidden_sun:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 2
     rules_text: "~ deals 5 damage to target player and each creature and planeswalker he or she controls."
     flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
     artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
@@ -273,6 +289,7 @@ card_hellkite_wyvern:
     type: "Creature"
     sub: "Drake"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Flying, first strike
       When ~ leaves the battlefield search your library for an artifact card with converted mana cost three or less and put it onto the battlefield.
@@ -291,6 +308,7 @@ card_hollow_infantry:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Create two 1/1 colorless Hollow creature tokens. Those creatures gain haste until end of turn."
     flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
     artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
@@ -305,6 +323,7 @@ card_ignite_steel:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
+    rating: 0
     rules_text: |
       Enchant Equipment
       Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
@@ -321,6 +340,7 @@ card_immolation:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn."
     flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
     artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
@@ -335,6 +355,7 @@ card_pesky_mosquito:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
+    rating: 0
     rules_text: |
       Flying
       ~ has +1/+0 as long as you control a green permanent.
@@ -354,6 +375,7 @@ card_profaned_flame:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: |
       Choose one -
       • ~ deals 4 damage to target creature.
@@ -371,6 +393,7 @@ card_profuse_sweat:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       You may pay an additional {1} as you cast this spell if you do choose two, else choose one -
       • Draw a card.
@@ -390,6 +413,7 @@ card_rapport:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get one soul."
     flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
     artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
@@ -404,6 +428,7 @@ card_ringfinger_leonhard:
     type: "Creature"
     sub: "Human"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
       Haste
       Whenever ~ attacks, reveal the top card of your library. You may play that card this turn.
@@ -443,6 +468,7 @@ card_smoldering_rotten_flesh:
     type: "Creature"
     sub: "Ooze"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       ~ can block creatures with shadow as though they didn't have shadow.
       Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
@@ -462,6 +488,7 @@ card_sunlight_maggot:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
+    rating: 4
     rules_text: |
       When ~ enters or leaves the battlefield you get one soul.
       {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
@@ -481,6 +508,7 @@ card_taurus_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
+    rating: 2
     rules_text: "Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn."
     flavor_text: "In an effort to save their culture the Demons fight the fulfilling of the prophecy."
     artwork_url: "https://i.ibb.co/MkGQRMqP/taurus-demon-autocosm.jpg"
@@ -497,6 +525,7 @@ card_unbreakable_patches:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       When this creature enters the battlefield or transforms into ~, create a Treasure token.
       Treasures you control have “{T}, Sacrifice this artifact: Add two mana of any one color.”
@@ -534,6 +563,7 @@ card_unkindleds_journey:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: "Discard a card, then draw two cards. You get three souls."
     flavor_text: "Perhaps you've seen it, maybe in a dream. A murky, forgotten land. A place where souls may mend your ailing mind. You will lose everything, once branded. The symbol of the curse. An augur of darkness. Your past. Your future. Your very light. None will have meaning, and you won't even care. By then, you'll be something other than human. A thing that feeds on souls. A Hollow."
     artwork_url: "https://i.ibb.co/3yqQv9bT/fallen-knight-by-theepic1-dbwp7ji-pre.jpg"

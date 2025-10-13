@@ -6,8 +6,9 @@ card_abyss_watchers:
     type: "Creature"
     sub: "Knight Lord"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
-      When ~ enters the battlefield, you get two souls and place a fate counter on it, then if it has 5 or more fate counters on it exile it.
+      When ~ enters the battlefield, draw a card and place a fate counter on it, then if it has 5 or more fate counters on it exile it.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
       Fate counters remain on ~ unless it moves to a player's hand or library.
     flavor_text: ""
@@ -26,9 +27,9 @@ card_abyss_watchers:
     sub: "Knight Lord"
     rarity: ""
     rules_text: |
-      When ~ enters the battlefield, it deals damage equal to its power to target creature you control. Place a fate counter on ~, then if it has 5 or more fate counters on it exile it.
+      When ~ enters the battlefield, you get two souls and it deals damage equal to its power to target creature you control. Place a fate counter on ~, then if it has 5 or more fate counters on it exile it.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
-    flavor_text: ""
+    flavor_text: "Their souls twisted from the wolf's blood."
     artwork_url: "https://i.pinimg.com/originals/82/5e/1e/825e1e185e8fb45446b19e817d532b7e.jpg"
     artist: "Cal Santiago"
     number: 131
@@ -45,6 +46,7 @@ card_alluring_skull:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Target creature you control deals damage equal to it's power to target creature an opponent controls. If a creature would die this way draw a card."
     flavor_text: "A skull with meekly lingering souls. Hollows are lured by it, and drawn toward it, often completely disregarding their own safety."
     artwork_url: "https://www.deviantart.com/jesar/art/Desktopography-2014-Disposition-484475345"
@@ -59,6 +61,7 @@ card_amana_aberration:
     type: "Creature"
     sub: "Hollow Wizard"
     rarity: "Common"
+    rating: 2
     rules_text: |
       {T}: Add {B} or {U} to your mana pool
       Morph {G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
@@ -80,6 +83,7 @@ card_contrasted_cursed:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
+    rating: 0
     rules_text: |
       Enchant player
       Creatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)
@@ -97,6 +101,7 @@ card_corrode:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: "Destroy target artifact or enchantment. Remove two souls from that permanent's controller and you get two souls."
     flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
     artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
@@ -111,6 +116,7 @@ card_covenant_of_the_forest_hunter:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       You may exile a green card from your hand rather than pay this spell's mana cost.
       Choose one -
@@ -131,6 +137,7 @@ card_dukes_dear_freja:
     type: "Creature"
     sub: "Giant Spider Lord"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       Reach, trample
       Whenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.
@@ -151,6 +158,7 @@ card_ent_of_the_darkroot_garden:
     type: "Creature"
     sub: "Treefolk"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       Whenever ~ is turned face up choose one -
@@ -172,6 +180,7 @@ card_estus:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: |
       Put a card from the top of your library into your graveyard for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
       Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
@@ -188,6 +197,7 @@ card_expected_companions:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
+    rating: 2
     rules_text: |
       ~ can't be countered.
       When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
@@ -206,6 +216,7 @@ card_festering_goblin:
     type: "Creature"
     sub: "Goblin"
     rarity: "Common"
+    rating: 3
     rules_text: |
       {T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.
       Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
@@ -224,6 +235,7 @@ card_gaping_dragon:
     type: "Creature"
     sub: "Demon Dragon"
     rarity: "Rare"
+    rating: 4
     rules_text: |
       Deathtouch, reach, trample, haste, bleed
       When ~ attacks create a treasure token.
@@ -243,6 +255,7 @@ card_hesitant_surveyor:
     type: "Creature"
     sub: "Human Ally"
     rarity: "Common"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield return a land card from your graveyard to the battlefield. 
       You may play an additional land on each of your turns.
@@ -262,6 +275,7 @@ card_hollow_knight:
     type: "Creature"
     sub: "Hollow Knight"
     rarity: "Common"
+    rating: 1
     rules_text: |
       When ~ leaves the battlefield, you get one soul and you may pay {2}{G}, if you do you may return a permanent card from your graveyard to your hand.
       {1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.
@@ -280,6 +294,7 @@ card_lothric_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Protection from blue and from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or black.)
       ~ gets +1/+1 for each equipment attached to it.
@@ -298,6 +313,7 @@ card_milfanito:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield draw a card.
       Pay three souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
@@ -317,6 +333,7 @@ card_mimic:
     type: "Creature"
     sub: "Shapeshifter"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
       Whenever ~ is turned face up target creature blocking or blocked by ~ gets -4/-4 until end of turn.
@@ -335,6 +352,7 @@ card_pagan_tree:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: |
       Pay two souls: Put an effigy counter on target permanent.
       Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} rather than pay this spell's mana cost". Add {G}{G}.
@@ -352,6 +370,7 @@ card_petrifying_statue:
     type: "Enchantment Creature"
     sub: "Golem Lizard"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Indestructible
       ~'s power is equal to the number of enchantments you control.
@@ -371,6 +390,7 @@ card_proselyte_scarlett:
     type: "Creature"
     sub: "Human Ally"
     rarity: "Common"
+    rating: 4
     rules_text: |
       Whenever a card is exiled from a graveyard, if ~ has less than four +1/+1 counters on it place a +1/+1 counter on it.
       {T}: Exile target land card from a graveyard. Add one mana of any color.
@@ -391,6 +411,7 @@ card_ravenous_crystal_lizard:
     type: "Creature"
     sub: "Lizard"
     rarity: "Common"
+    rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
       When ~ enters the battlefield return a creature you control to its owner's hand. Then create a treasure token.
@@ -409,6 +430,7 @@ card_seek_embers:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       As an additional cost to cast ~ pay X souls.
       Search your library for a planeswalker or creature card with converted mana cost less than or equal to X, reveal that card and put it into your hand.
@@ -425,6 +447,7 @@ card_sentinel_of_the_tower_of_flame:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Vigilance, trample
       {G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If that creature would be destroyed this way, put a +1/+1 counter on ~ and untap it.
@@ -443,6 +466,7 @@ card_shaded_woods:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       Search your library for two forest cards and put them onto the battlefield tapped.
       You may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.
@@ -459,6 +483,7 @@ card_souls_of_the_living:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
       Whenever a creature enters the battlefield under your control, you get one soul.
@@ -475,6 +500,7 @@ card_the_serpent_king:
     type: "Creature"
     sub: "Hydra"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       Vigilance, reach
       ~ can't be countered and can't be blocked except by three or more creatures.
@@ -495,6 +521,7 @@ card_undead_aberration:
     type: "Creature"
     sub: "Mutant Hollow"
     rarity: "Common"
+    rating: 3
     rules_text: |
       As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
       Deathtouch, trample
@@ -515,6 +542,7 @@ card_warcry:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       Choose one:
       • Put three +1/+1 counters on target creature, untap it.
@@ -533,6 +561,7 @@ card_warp_the_land:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       You may discard a land card and pay three souls rather than pay this spell's mana cost.
       Search your library for a Bonfire card and put that card into your hand. If you cast this spell without paying it's mana cost put that Bonfire onto the battlefield. Shuffle your library.
@@ -549,6 +578,7 @@ card_wistful_naivete:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Enchant player
       Face-down cards your opponents play cost {2} less.
