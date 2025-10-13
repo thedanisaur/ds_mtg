@@ -539,8 +539,8 @@
 },
 {
     "name": "Grip of Death",
-    "type": "Sorcery",
-    "mana_cost": "{B}{B}",
+    "type": "Instant",
+    "mana_cost": "{1}{B}",
     "colors": [
         "B"
     ],
@@ -1106,8 +1106,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1119,8 +1119,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1158,22 +1158,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg"
 },
 {
-    "name": "Halberd",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "common",
-    "rating": 2,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature gets +2/+0 and has first strike.\nEquip {1}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg"
-},
-{
     "name": "Iron Golem",
     "type": "Artifact Creature",
     "mana_cost": "{3}",
     "colors": [],
     "rarity": "common",
-    "rating": 0,
+    "rating": 2,
     "oracle_text": "Nonartifact spells cost {2} more to cast.\nSacrifice ~: Destroy target artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg"
 },
@@ -1600,18 +1590,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/smoldering_rotten_flesh.jpeg"
 },
 {
-    "name": "Contrasted Cursed",
-    "type": "Enchantment",
-    "mana_cost": "{2}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)\nWhenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
-},
-{
     "name": "Covenant of the Forest Hunter",
     "type": "Instant",
     "mana_cost": "{G}{G}{G}{G}",
@@ -1676,8 +1654,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1689,8 +1667,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1715,8 +1693,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1757,6 +1735,16 @@
     "rating": 1,
     "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has vigilance.\nEquip {0}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg"
+},
+{
+    "name": "Halberd",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature gets +2/+0 and has first strike.\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg"
 },
 {
     "name": "Heide Knight",
@@ -1803,8 +1791,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1816,8 +1804,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1829,11 +1817,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
         "U",
-        "G",
-        "R"
+        "W",
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1845,8 +1833,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1871,8 +1859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1897,8 +1885,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1936,8 +1924,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2230,6 +2218,18 @@
     }
 },
 {
+    "name": "Contrasted Cursed",
+    "type": "Enchantment",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)\nWhenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
+},
+{
     "name": "Gaping Dragon",
     "type": "Creature",
     "mana_cost": "{2}{G}{G}",
@@ -2246,8 +2246,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2298,8 +2298,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2311,9 +2311,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
         "R",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2325,8 +2325,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2376,8 +2376,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2388,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2401,9 +2401,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2414,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "R",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2441,8 +2441,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "R",
+        "G",
         "B"
     ],
     "rarity": "rare",
@@ -2649,9 +2649,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "R",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2663,11 +2663,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "W",
         "B",
         "U",
-        "G",
-        "R"
+        "W",
+        "R",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "R",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,9 +2693,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "W",
         "B",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2706,9 +2706,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "B",
-            "U"
+            "U",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2763,11 +2763,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "W",
         "B",
         "U",
-        "G",
-        "R"
+        "W",
+        "R",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
         "U",
-        "G",
-        "R"
+        "W",
+        "R",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2921,7 +2921,6 @@
 4 Bell Gargoyles
 4 Broadsword
 4 Charm of the Undead Hunters
-4 Halberd
 4 Iron Golem
 4 Metaleater Spider
 4 Silver Serpent Ring
@@ -2959,7 +2958,6 @@
 4 Flame Whip
 4 Ignite Steel
 4 Smoldering Rotten Flesh
-4 Contrasted Cursed
 4 Covenant of the Forest Hunter
 4 Duke's Dear Freja
 4 Mimic
@@ -2972,6 +2970,7 @@
 4 Spreading Decay
 4 Bloodbite Ring
 4 Chloranthy Ring
+4 Halberd
 4 Heide Knight
 4 Hornet Ring
 4 Ring of a Great Warrior
@@ -3008,6 +3007,7 @@
 4 Forbidden Sun
 4 Hellkite Wyvern
 4 Unbreakable Patches
+4 Contrasted Cursed
 4 Gaping Dragon
 4 Ancient Wyvern
 4 Archdeacon of the Deep

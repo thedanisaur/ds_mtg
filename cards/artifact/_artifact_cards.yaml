@@ -146,7 +146,7 @@ card_halberd:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
@@ -216,7 +216,7 @@ card_iron_golem:
     type: "Artifact Creature"
     sub: "Giant"
     rarity: "Common"
-    rating: 0
+    rating: 2
     rules_text: |
       Nonartifact spells cost {2} more to cast.
       Sacrifice ~: Destroy target artifact.

@@ -284,9 +284,9 @@ card_gravelord_nito:
 card_grip_of_death:
   front:
     name: "Grip of Death"
-    cost: "{B}{B}"
+    cost: "{1}{B}"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
     rarity: "Common"
     rating: 2
