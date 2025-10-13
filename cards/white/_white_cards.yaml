@@ -24,7 +24,7 @@ card_anri_of_astora:
     super: "Legendary"
     type: "Creature"
     sub: "Hollow"
-    rarity: "Rare"
+    rarity: ""
     rules_text: |
       Spells your opponents control cost {1} more to cast.
       Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
@@ -256,7 +256,7 @@ card_lightning_spear:
     name: "Lightning Spear"
     cost: "{1}{W}"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
     rarity: "Uncommon"
     rating: 2

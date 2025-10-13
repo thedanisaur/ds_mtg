@@ -218,7 +218,7 @@ card_gael_seeker_of_ash:
     super: "Legendary"
     type: "Creature"
     sub: "Avatar Lord"
-    rarity: "Rare"
+    rarity: ""
     rules_text: |
       When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.
       Exile two cards from your graveyard: ~ gains flying until end of turn.

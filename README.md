@@ -99,9 +99,9 @@ Color Distribution
 
 Rarity Distribution
 ```
-100 common
+101 common
 62 uncommon
-45 rare
+44 rare
 18 mythic
 ```
 
