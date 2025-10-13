@@ -355,16 +355,16 @@ card_pesky_mosquito:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
-    rating: 0
+    rating: 2
     rules_text: |
-      Flying
-      ~ has +1/+0 as long as you control a green permanent.
-      ~ has deathtouch as long as you control a black permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
+      Flying, haste
+      ~ can't block
+      {T}, Sacrifice ~: Destroy target artifact. If you do, you may search your library for a card ~ and put it into your hand.
     flavor_text: "Where do they come from?"
     artwork_url: "https://i.ibb.co/gMk9RFnW/pesky-mosquito-teyoliia.jpg"
     artist: "teyoliia"
     number: 121
-    power: 1
+    power: 2
     toughness: 2
 
 card_profaned_flame:

@@ -114,7 +114,9 @@ card_burning_ambition:
     sub: ""
     rarity: "Uncommon"
     rating: 2
-    rules_text: "As an additional cost to cast ~ pay X souls. Gain control of target creature who's mana cost is equal to X."
+    rules_text: |
+      As an additional cost to cast ~ pay X souls.
+      Gain control of target creature or artifact with mana cost equal to X.
     flavor_text: "My knights are never far from my gaze."
     artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
     artist: "dvktheartist"

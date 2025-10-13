@@ -162,8 +162,8 @@ card_ent_of_the_darkroot_garden:
     rules_text: |
       Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       Whenever ~ is turned face up choose one -
-      • Put two +1/+1 counters on it.
-      • Return target card from your graveyard to your hand.
+      • Put two +1/+1 counters on it and it gains trample.
+      • Destroy target artifact or enchantment.
     flavor_text: |
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
@@ -316,8 +316,8 @@ card_milfanito:
     rating: 2
     rules_text: |
       When ~ enters the battlefield draw a card.
-      Pay three souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
-      {T}: Add {G} to your mana pool.
+      {T}: Add one mana of any color to your mana pool.
+      Pay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"
