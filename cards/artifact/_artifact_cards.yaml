@@ -6,6 +6,7 @@ card_bell_gargoyles:
     type: "Artifact"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: "{3}: Until end of turn ~ becomes a 4/4 Gargoyle creature with flying and double strike."
     flavor_text: "Unassuming statues that guarded a Bell of Awakening in the belfry of the Undead Church"
     artwork_url: "https://i.ibb.co/JWbk7sFG/bell-gargoyles-theivoryfalcon.jpg"
@@ -20,6 +21,7 @@ card_bloodbite_ring:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has, "You can't get bleed counters. This creature can't have bleed counters placed on it."
@@ -37,6 +39,7 @@ card_broadsword:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +1/+0 and has \"This creature can't be blocked by creatures with toughness two or less.\"
@@ -54,6 +57,7 @@ card_catalyst_of_the_witch_of_izalith:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 4
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has, "{Q}: Target player puts two cards from the top of their library into their graveyard."
@@ -73,6 +77,7 @@ card_charm_of_the_undead_hunters:
     type: "Artifact"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.
       {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
@@ -89,6 +94,7 @@ card_chloranthy_ring:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has vigilance.
@@ -106,6 +112,7 @@ card_cursed_greatsword:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Equipped creature gets +4/-1 and has shadow.
       You may have the equipped creature assign its combat damage as though it weren't blocked.
@@ -123,6 +130,7 @@ card_eyes_of_a_firekeeper:
     type: "Artifact"
     sub: ""
     rarity: "Rare"
+    rating: 1
     rules_text: |
       {T}: You get one soul.
       {3}, {T}, Sacrifice ~: Destroy all Bonfires.
@@ -139,6 +147,7 @@ card_halberd:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +2/+0 and has first strike.
@@ -156,6 +165,7 @@ card_heide_knight:
     type: "Artifact Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 0
     rules_text: |
       Double Strike
       ~ can't attack or block unless you were dealt damage on your opponents last turn.
@@ -189,6 +199,7 @@ card_hornet_ring:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Equipped creature has deathtouch.
       Equip {B}
@@ -205,6 +216,7 @@ card_iron_golem:
     type: "Artifact Creature"
     sub: "Giant"
     rarity: "Common"
+    rating: 0
     rules_text: "Noncreature spells cost {2} more to cast."
     flavor_text: "Those who survive the traps of Sen's Fortress are few, but fewer still are those who defeat the guardian at its summit."
     artwork_url: "https://www.deviantart.com/luffie/art/Iron-Golem-872315137"
@@ -221,6 +233,7 @@ card_kiln_of_the_first_flame:
     type: "Artifact"
     sub: "Legendary"
     rarity: "Mythic"
+    rating: 0
     rules_text: "Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library."
     flavor_text: "In the Age of Ancients, the world was unformed, shrouded by fog. A land of grey crags, archtrees, and everlasting dragons. But then there was <i>Fire.</i>"
     artwork_url: "https://i.ibb.co/932F4F3V/kiln-of-the-first-flame-resize.jpg"
@@ -235,6 +248,7 @@ card_metaleater_spider:
     type: "Artifact Creature"
     sub: "Spider"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield, destroy up to two target artifacts.
       Reach
@@ -253,6 +267,7 @@ card_moonlight_greatsword:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Mythic"
+    rating: 1
     rules_text: |
       Equipped creature has "Pay one soul: ~ deals 1 damage to target creature."
       Equip {2}
@@ -269,6 +284,7 @@ card_ring_of_a_great_warrior:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
+    rating: 0
     rules_text: |
       Equipped creature has "When this creature attacks, creatures defending player controls lose indestructible until end of turn. {0}: Attach target Equipment to this creature. Activate this ability only on your turn.".
       Equip {1}
@@ -285,9 +301,10 @@ card_ring_of_favor:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 1
     rules_text: |
-      Equipped creature gets +1/+1 and has indestructible and vigilance.
-      Equip {3}
+      Equipped creature gets +2/+2 and has vigilance and haste.
+      Equip {2}
     flavor_text: "May the Goddess Fina favor you."
     artwork_url: "https://i.ibb.co/TqdBPZJt/ring-of-favor.jpg"
     artist: "fromsoft"
@@ -301,6 +318,7 @@ card_ring_of_sacrifice:
     type: "Artifact"
     sub: ""
     rarity: "Mythic"
+    rating: 0
     rules_text: |
       {T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
     flavor_text: ""
@@ -318,6 +336,7 @@ card_silver_serpent_ring:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
+    rating: 1
     rules_text: |
       Equipped creature has "Whenever this creature deals damage, you get one soul."
       Equip {1}
@@ -334,6 +353,7 @@ card_soul_syphoner:
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
+    rating: 4
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
       {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
@@ -350,6 +370,7 @@ card_storm_ruler:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Mythic"
+    rating: 0
     rules_text: |
       Whenever equipped creature attacks, defending player sacrifices a giant.
       Equip {2}
@@ -366,6 +387,7 @@ card_talisman_of_the_way_of_white:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 1
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature can't be the target of spells or abilities.
@@ -383,6 +405,7 @@ card_uchigatana:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
@@ -400,6 +423,7 @@ card_wolf_knights_greatshield:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Equipped creature has +1/+1, lifelink, and indestructible.
       Whenever the equipped creature is dealt damage, you may draw a card.

@@ -6,6 +6,7 @@ card_a_hero_gone_mad:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters the battlefield transformed.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
@@ -21,6 +22,7 @@ card_aldrich_devourer_of_gods:
     type: "Creature"
     sub: "Cleric Ooze Lord"
     rarity: "Rare"
+    rating: 2
     rules_text: "{B}{B}: Exile target creature card from a graveyard. ~ has all static and activated abilities of all cards exiled with this ability."
     flavor_text: "A right and proper cleric, with a habit of devouring men."
     artwork_url: "https://i.ibb.co/LXB2Kdtr/aldrich-devourer-of-gods-artborne-wd-resized.jpg"
@@ -37,6 +39,7 @@ card_bonfire_ascetic:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 3
     rules_text: "Put the top X cards of your library into your graveyard. You lose X life. You get X souls. Choose a creature card in your graveyard. Each other player may choose a number of creatures with total power less than or equal to the chosen creatures power. Return all chosen creatures to the battlefield under their owners control."
     flavor_text: "When the flames grow stronger, so does the curse."
     artwork_url: "https://i.ibb.co/1G96YRVQ/bonfire-ascetic-deepai.jpg"
@@ -51,6 +54,7 @@ card_carthus_rouge:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       Enchant equipment
       Enchanted equipment has "Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, that creature or player gets a bleed counter for each damage received instead)"
@@ -67,6 +71,7 @@ card_charred_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Deathtouch, lifelink
     flavor_text: "The knights of Loyce tried to contain the Chaos, but it was too late. The flames had already ravaged their flesh."
@@ -84,6 +89,7 @@ card_chosen_undead:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 4
     rules_text: |
       Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
       Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
@@ -100,6 +106,7 @@ card_clawed_curse:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       Enchant player
       At the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.
@@ -118,6 +125,7 @@ card_curse_of_the_dead:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Mythic"
+    rating: 2
     rules_text: |
       Enchant player
       Creatures enchanted player controls get -1/-1 and can't block.
@@ -135,6 +143,7 @@ card_dark_edge:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: |
       As an additional cost to cast ~ discard a card or pay {3}.
       Choose one -
@@ -154,6 +163,7 @@ card_dark_hand_of_kaathe:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: "Target creature gets -2/-2 until end of turn. If that creature would die this way, remove two souls from that creature's controller and you get two souls."
     flavor_text: "The Darkwraiths, incited by Kaathe, use the power of the dark soul to absorb humanity."
     artwork_url: "https://i.ibb.co/V032tp12/dark-hand-of-kaathe-shimhaq-resize.jpg"
@@ -168,6 +178,7 @@ card_darkwraith:
     type: "Creature"
     sub: "Wraith"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Protection from red and from white.
       {4}{B}, {T}: Target player loses life equal to the number of souls they have. Then remove half their souls rounded up and you get that many souls.
@@ -186,6 +197,7 @@ card_deep_fog:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
       You lose 3 life.
@@ -202,6 +214,7 @@ card_frozen_reindeer:
     type: "Creature"
     sub: "Zombie Antelope Horse"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       {T}: Target creature gets -3/-3 until end of turn. You lose 3 life.
@@ -220,6 +233,7 @@ card_grave_warden:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 2
     rules_text: |
       ~ can't be blocked as long as you control another black or green permanent.
       Hollow, skeleton, and zombie creatures you control get +1/+1.
@@ -255,12 +269,13 @@ card_gravelord_nito:
     type: "Creature"
     sub: "Giant Skeleton Lord"
     rarity: "Mythic"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.
       At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of tapped 1/1 black Skeleton creature tokens equal to the  difference.
       Whenever a creature dies you get one soul.
-    flavor_text: "Nito's soul turned him into a living manifestation of illness and death, a mass of skeletons held together by the miasma of the Death Soul."
-    artwork_url: "https://www.deviantart.com/vempirick/art/The-fire-will-fade-644323296"
+    flavor_text: "A living manifestation of illness and death, held together by the miasma of the Death Soul."
+    artwork_url: "https://preview.redd.it/nito-by-anato-finnstark-v0-bg5zua4702oe1.jpeg?width=1080&crop=smart&auto=webp&s=a6aa896634322b47e52f2c40b71d78f1a9f459d5"
     artist: "vempirick"
     number: 86
     power: 10
@@ -274,6 +289,7 @@ card_grip_of_death:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       As an additional cost to cast ~, put the top two cards of your library into your graveyard.
       Destroy target nonzombie, nonhollow creature. You lose 2 life and get two souls.
@@ -290,6 +306,7 @@ card_hollow_soldier:
     type: "Creature"
     sub: "Zombie Hollow"
     rarity: "Common"
+    rating: 1
     rules_text: |
       If ~ leaves the battlefield, you get one soul.
       {B}: Return ~ from the graveyard to the battlefield. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.
@@ -308,9 +325,10 @@ card_hound_rat:
     type: "Creature"
     sub: "Zombie Rat"
     rarity: "Common"
+    rating: 4
     rules_text: |
       Deathtouch
-      When ~ enters the battlefield target player reveals a card for each rat you control. You choose one of those cards. That player discards that card.
+      When ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card.
     flavor_text: "Grotesquely swollen and ravenous, the Hound Rat stalks the filth-choked tunnels beneath fallen kingdoms."
     artwork_url: "https://i.ibb.co/YF2jShN6/hound-rat-ovenbakedcheese-resize.jpg"
     artist: "ovenbakedcheese"
@@ -326,6 +344,7 @@ card_jailer:
     type: "Creature"
     sub: "Cleric"
     rarity: "Uncommon"
+    rating: 2
     rules_text: "{T}: Target creature's toughness becomes 1 until end of turn."
     flavor_text: "The jailers were among the few survivors inhabiting the Profaned Capital, later serving under Pontiff Sulyvahn. Perhaps the screams emanating from the cells help them forget their old home.  "
     artwork_url: "https://i.ibb.co/SwCt9zjV/jailer-fromsoft.jpg"
@@ -342,6 +361,7 @@ card_lothric_sentry:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Zombie creatures you control get +1/+1
       Other Hollow creatures you control get +1/+1
@@ -360,6 +380,7 @@ card_lordran_necromancer:
     type: "Creature"
     sub: "Hollow Zombie Wizard"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       {1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
       Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do you get one soul and draw a card.
@@ -378,6 +399,7 @@ card_nimble_shadow:
     type: "Creature"
     sub: "Hollow Assassin"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       You may choose to not untap ~ during your untap step
@@ -397,6 +419,7 @@ card_parasite_worm:
     type: "Creature"
     sub: "Wurm"
     rarity: "Common"
+    rating: 4
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
       {B}{B}: If ~ is a creature it becomes an Enchanment Aura and loses this ability, it gains "Enchant creature". Return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature and you lose two life.
@@ -415,6 +438,7 @@ card_royal_rat_vanguard:
     type: "Creature"
     sub: "Giant Zombie Rat"
     rarity: "Common"
+    rating: 2
     rules_text: |
       ~ gets +2/+2 for each other rat you control.
       Whenever ~ deals damage to a player put one bleed counter each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
@@ -433,8 +457,9 @@ card_sift_through_the_ashes:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
-      As an additional cost to cast ~ exile X permanent cards from your graveyard.
+      As an additional cost to cast ~ exile X cards from your graveyard.
       You draw X cards, lose X life, and get X souls.
     flavor_text: "The fire has long since died, but ash remembers everything."
     artwork_url: "https://i.ibb.co/gZ1v9PSB/sift-through-the-ashes-resize.jpg"
@@ -449,6 +474,7 @@ card_skim_memories:
     type: "sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 4
     rules_text: |
       As an additional cost to cast this spell pay one soul or {1}.
       Target player reveals his or her hand. You may choose a nonland card. That player discards that card.
@@ -465,6 +491,7 @@ card_the_great_swamp:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Enchant land
       Enchanted land has "Each land you control is a Swamp in addition to its other land types. If you would tap a land for {B} it produces {B}{B} and deals 1 damage to you instead."
@@ -481,6 +508,7 @@ card_undead_hound:
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Lifelink
       When ~ enters the battlefield target player loses life equal to the number of souls they have.
@@ -500,6 +528,7 @@ card_wake_the_hollows:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 1
     rules_text: "Exile all creature cards from all graveyards. Create a 1/1 colorless Hollow creature token for each card exiled this way."
     flavor_text: "In the land of ancient lords, not even death is rest."
     artwork_url: "https://i.ibb.co/ccQgrcDz/wake-the-hollows-aland1w-resize.jpg"

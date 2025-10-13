@@ -48,6 +48,16 @@ def convert_mana_cost(mana_string):
     
     return wrapped
 
+def get_colors(card):
+    colors = []
+    if card['type'] == TYPE_LAND:
+        colors = colors_from_mana_cost(card.get('colors', []))
+    elif len(colors_from_mana_cost(card['cost'])) != 0:
+        colors = colors_from_mana_cost(card['cost'])
+    else:
+        colors = colors_from_mana_cost(card.get('color_indicator', ''))
+    return colors
+
 if __name__ == '__main__':
 
     # Settings
@@ -108,7 +118,7 @@ if __name__ == '__main__':
                             'name': card_front['name'],
                             'type': card_front['type'],
                             'mana_cost': convert_mana_cost(str(card_front['cost'])),
-                            'colors': colors_from_mana_cost(card_front['cost']) if colors_from_mana_cost(card_front['cost']) != 0 else colors_from_mana_cost(card_front.get('color_indicator')),
+                            'colors': get_colors(card_front),
                             'rarity': card_front['rarity'].lower(),
                             'rating': card_front.get('rating', 0),
                             'oracle_text': card_front['rules_text'],
@@ -121,9 +131,8 @@ if __name__ == '__main__':
                                 'name': card_back['name'],
                                 'type': card_back['type'],
                                 'mana_cost': convert_mana_cost(str(card_back['cost'])),
-                                'colors': colors_from_mana_cost(card_back['cost']) if colors_from_mana_cost(card_back['cost']) != 0 else colors_from_mana_cost(card_back.get('color_indicator')),
+                                'colors': get_colors(card_back),
                                 'rarity': card_back['rarity'].lower(),
-                                'rating': card_back.get('rating', 0),
                                 'oracle_text': card_back['rules_text'],
                                 'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
                             }

@@ -6,6 +6,7 @@ card_adventuring_sorcerer:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Common"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield, look at the top four cards of your library. You may reveal an noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
     flavor_text: "That should help you on your journey. May we meet again."
@@ -23,6 +24,7 @@ card_amana_priestess:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
+    rating: 2
     rules_text: |
       {X}{U}, {T}: Counter target spell unless it's controller pays {X} where X is the amount of mana spent to activate this ability. If X is greater than 2 put a -1/-1 counter on ~.
     flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
@@ -40,6 +42,7 @@ card_angelic_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       Flying
       When ~ enters the battlefield Scry 3 and you get three souls.
@@ -59,6 +62,7 @@ card_ashen_estus:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Draw a card. Then for each bonfire you control add one mana of a color that land could produce to your mana pool.
       Whenever a bonfire enters the battlefield under your control you may return ~ from your graveyard to your hand.
@@ -75,6 +79,7 @@ card_aural_decoy:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: "Return target permanent to its owner's hand. Draw a card."
     flavor_text: "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications."
     artwork_url: "https://www.deviantart.com/izmitblu3/art/Fiend-Bringer-of-Fire-888888582"
@@ -89,6 +94,7 @@ card_big_hat_logan:
     type: "Creature"
     sub: "Wizard"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Whenever you cast a spell tap target permanent. If that permanent was already tapped return that card to it's owners hand and that player puts one card from the top of their library into their graveyard instead.
@@ -107,6 +113,7 @@ card_burning_ambition:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: "As an additional cost to cast ~ pay X souls. Gain control of target creature who's mana cost is equal to X."
     flavor_text: "My knights are never far from my gaze."
     artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
@@ -121,6 +128,7 @@ card_chameleon:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 1
     rules_text: |
       Scry 2. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)"
     flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
@@ -136,6 +144,7 @@ card_contemplation:
     type: "Instant"
     sub: ""
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Draw two cards, then put one card from your hand on top of your library.
     flavor_text: "The mage was naive, he thought he could fix something that was broken."
@@ -151,6 +160,7 @@ card_crystal_butterfly:
     type: "Creature"
     sub: "Giant Insect"
     rarity: "Common"
+    rating: 2
     rules_text: |
       Flying. When ~ dies you get three souls.
       Whenever ~ deals damage to a player that player puts X cards from the top of his or her library into his or her graveyard where X is its power.
@@ -169,6 +179,7 @@ card_dual_charm:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: "Counter target creature or instant spell unless its controller pays {2}"
     flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
@@ -183,6 +194,7 @@ card_fume_sorcerer:
     type: "Creature"
     sub: "Zombie Wizard"
     rarity: "Rare"
+    rating: 2
     rules_text: "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process."
     flavor_text: "Their tongues burned away with the words of the Bride. Now they speak only in flame and shadow."
     artwork_url: "https://i.ibb.co/bjzYnWh7/fume-sorcerer-vandemoniumx-resize.jpg"
@@ -199,6 +211,7 @@ card_great_crab:
     type: "Creature"
     sub: "Crab"
     rarity: "Common"
+    rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
       {U}{U}: Return ~ to it's owner's hand.
@@ -217,6 +230,7 @@ card_hidden_body:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: |
       Target creature gets +1/+0 and can't be blocked this turn.
       Draw a card.
@@ -233,6 +247,7 @@ card_homing_soul_mass:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 3
     rules_text: |
       Choose any number of target creatures. You get two souls, then you may pay X souls.
       ~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die, instead it's controller puts it on top or bottom of his or her library.
@@ -249,6 +264,7 @@ card_hooded_sorcerer:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
+    rating: 2
     rules_text: "{T}: Scry 1. You get one soul."
     flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
     artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
@@ -265,6 +281,7 @@ card_into_the_abyss:
     type: "Enchantment"
     sub: ""
     rarity: "Mythic"
+    rating: 0
     rules_text: "{U}{U}{U}: You get three souls. Shuffle your library then reveal the top card. If the revealed card is an instant, sorcery, or artifact card, then you may pay a number of souls equal to that card's converted mana cost. If you do, cast that card wihout paying it's mana cost."
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
@@ -279,6 +296,7 @@ card_invisible_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
+    rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       If ~ leaves the battlefield, draw a card and you get one soul.
@@ -297,6 +315,7 @@ card_lost_spell_from_oolacile:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: "Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's converted mana cost. If you do counter that spell."
     flavor_text: "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Spitpaint-Shield-Generator-2-870637313"
@@ -311,6 +330,7 @@ card_magic_denial:
     type: "Instant"
     sub: ""
     rarity: "Common"
+    rating: 2
     rules_text: "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell."
     flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
     artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
@@ -325,6 +345,7 @@ card_old_sorcerer:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
+    rating: 0
     rules_text: "When ~ enters the battlefield draw a card. Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)"
     flavor_text: "The knowledge… it… it drives you mad…"
     artwork_url: "https://www.deviantart.com/sinto-risky/art/Old-Mage-141637765"
@@ -341,6 +362,7 @@ card_outrider_knight:
     type: "Creature"
     sub: "Knight Beast"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       Morph {1}{U}
@@ -360,6 +382,7 @@ card_pestilent_mercury:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       Enchant creature
       When ~ enters the battlefield Scry 2.
@@ -378,6 +401,7 @@ card_ruin_banshee:
     type: "Creature"
     sub: "Spirit"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       {T}: Put target tapped creature on top of it's owner's library.
@@ -396,6 +420,7 @@ card_search_the_library:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       As an additional cost to cast this spell pay one soul or {1}.
       Scry 4, then draw two cards.
@@ -412,6 +437,7 @@ card_soul_of_an_unknown_traveler:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
+    rating: 4
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {U}, if you do target player puts one card from the top of his or her library for each spell cast this turn.
@@ -430,6 +456,7 @@ card_soul_spear:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 2
     rules_text: "Put target creature or planeswalker on top of its owner's library. Then that player shuffles his or her library."
     flavor_text: "The spear is testament to Logan's strength in battle."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moonpool-Teleport-585703577"
@@ -444,6 +471,7 @@ card_soul_stream:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
+    rating: 0
     rules_text: |
       As and additional cost to cast ~ pay X souls.
       Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls spent to cast ~.
@@ -460,6 +488,7 @@ card_vordt_and_the_dancer:
     type: "Creature"
     sub: "Knight"
     rarity: "Mythic"
+    rating: 2
     rules_text: |
       During combat if ~ would die due to damage, instead it doesn't.
       {B}, {T}: Target player discards a card.
@@ -481,6 +510,7 @@ card_wall_spectre:
     type: "Creature"
     sub: "Spirit"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.

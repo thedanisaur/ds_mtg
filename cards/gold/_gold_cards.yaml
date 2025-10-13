@@ -6,6 +6,7 @@ card_ancient_wyvern:
     type: "Creature"
     sub: "Dragon"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Flying, indestructible, haste
       {R}: ~ gets +1/+0 until end of turn.
@@ -25,10 +26,11 @@ card_archdeacon_of_the_deep:
     type: "Creature"
     sub: "Wizard"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Other Wizards you control get +1/+1 and have prowess.
       Whenever a Wizard you control dies you get one soul.
-      {3}{U}{R}, {T}: Create a 1/1 blue and red Wizard creature token.
+      {1}{U/R}{U/R}, {T}: Create a 1/1 blue and red Wizard creature token.
     flavor_text: "The deacons were once keepers of the dead, until the Deep began to whisper. Now they serve a saint whose hunger made a god of him."
     artwork_url: "https://www.deviantart.com/underpable/art/Deacons-Of-The-Deep-673135098"
     artist: "underpable"
@@ -44,6 +46,7 @@ card_baneful_queen_mytha:
     type: "Creature"
     sub: "Naga Gorgon"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Deathtouch, bleed
       At the beginning of each opponent's upkeep put a bleed counter on each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
@@ -62,6 +65,7 @@ card_bed_of_chaos:
     type: "Creature"
     sub: "Spellshaper Lord"
     rarity: "Rare"
+    rating: 0
     rules_text: |
       When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug
       Indestructible
@@ -81,6 +85,7 @@ card_blade_of_the_darkmoon:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       When ~ enters the battlefield draw a card. Then if an opponent controls a creature named "Red Phantom", create a 3/3 white human ally creature token named Phantom. It has haste.
       Whenever a creature named "Red Phantom" dies draw a card.
@@ -99,6 +104,7 @@ card_carim_guardian:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
+    rating: 1
     rules_text: |
       Vigilance
       Whenever ~ becomes blocked you may pay {G/W}, if you do ~ deals 1 damge to each creature defending player controls.
@@ -118,9 +124,10 @@ card_disembodied_wisp:
     type: "Creature"
     sub: "Djinn"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       Haste
-      {1}, {T}, Sacrifice ~: ~ deals 3 damage to any target.
+      {B/R}, {T}, Sacrifice ~: ~ deals 3 damage to any target.
     flavor_text: "In the Abyss, even souls lose their shape. What drifts there is not quite light… and not quite lost."
     artwork_url: "https://i.pinimg.com/564x/35/62/35/3562358f3106d0eee362e50dd956ce42.jpg"
     artist: "Ben Clifford"
@@ -136,6 +143,7 @@ card_dragonslayer_and_executioner:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 1
     rules_text: |
       When ~ dies choose one -
       • Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
@@ -155,6 +163,7 @@ card_ember:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield create a 3/3 white creature token named Phantom. It has haste. Each opponent gets an emblem with "At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess."
       {2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.
@@ -171,6 +180,7 @@ card_fume_knight:
     type: "Creature"
     sub: "Zombie Knight"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on bottom in any order.
@@ -189,9 +199,10 @@ card_gael_seeker_of_ash:
     type: "Creature"
     sub: "Knight Lord"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       Haste
-      When ~ attacks, discard two cards and draw two cards.
+      When ~ enters the battlefield or attacks, discard two cards and draw two cards.
       Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.
     flavor_text: "If you truly are Ash, then it must be fire that you seek?"
     artwork_url: "https://i.ibb.co/MjvJ9S7/slave-knight-gael-2.jpg"
@@ -229,6 +240,7 @@ card_gravelords_maelstrom:
     type: "Sorcery"
     sub: ""
     rarity: "Mythic"
+    rating: 3
     rules_text: "Choose up to three creatures target player controls. ~ deals damage to that player equal to the total power of those creatures. Gain control of the chosen creatures, that player sacrifices the rest."
     flavor_text: "Miasma of the Gravelord spews forth. Many have died, and countless more will follow."
     artwork_url: "https://www.deviantart.com/erinm31/art/Storm-337642862"
@@ -243,6 +255,7 @@ card_gwyn_lord_of_cinder:
     type: "Planeswalker"
     sub: "Gwyn Lord"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield, return all creatures to their owner's hand.
       {+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.
@@ -262,6 +275,7 @@ card_hawkeye_gough:
     type: "Creature"
     sub: "Giant Knight"
     rarity: "Rare"
+    rating: 1
     rules_text: |
       Haste
       {1}{R/G}, {T}, pay two souls: Deal 5 damage to target creature with flying.
@@ -280,6 +294,7 @@ card_iudex_gundyr:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield, you get two souls and you lose 2 life.
       At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana cost.
@@ -317,6 +332,7 @@ card_king_of_the_storm:
     type: "Planeswalker"
     sub: "Nameless King Lord"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
       {+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)
       {-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.
@@ -335,6 +351,7 @@ card_knight_artorias:
     type: "Creature"
     sub: "Knight"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
       Whenever ~ attacks, defending player discards a card and you draw a card.
       Whenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.
@@ -375,6 +392,7 @@ card_knight_lautrec:
     type: "Creature"
     sub: "Human"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Haste
       When this creature enters the battlefield or transforms into ~, exile the top card of an opponents library with a favored counter on it.
@@ -414,6 +432,7 @@ card_lorian_and_lothric:
     type: "Planeswalker"
     sub: "Lorian Lothric Lord"
     rarity: "Mythic"
+    rating: 3
     rules_text: |
       {+1}: Exile target tapped nonland permanent.
       {+0}: Exile ~ then return it to the battlefield under your control.
@@ -432,6 +451,7 @@ card_ruin_sentinels:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
+    rating: 1
     rules_text: |
       ~ gets +2/+2 for each other creature you control named ~.
       A deck can have any number of cards named ~.
@@ -450,7 +470,8 @@ card_sorcerers_remedy:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rules_text: "Remove all bleed counters from creatures you control. Draw a card."
+    rating: 0
+    rules_text: "Remove all bleed counters from you and creatures you control. Draw a card."
     flavor_text: "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown."
     artwork_url: "https://www.deviantart.com/vitogh/art/Swamp-Ritual-1049502161"
     artist: "vitogh"
@@ -464,6 +485,7 @@ card_splintering_lightning:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       ~ deals 2 damage to up to X targets. You may choose the same target multiple times. You gain X life.
     flavor_text: "Mirrah's knights did not pray for mercy. They prayed for power—and it thunderously answered."
@@ -479,6 +501,7 @@ card_spreading_decay:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
+    rating: 2
     rules_text: |
       Choose up to two -
       • Destroy target nonartifact creature if it's equipped.
@@ -496,6 +519,7 @@ card_stream_of_estus:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield if you control two or more bonfires untap up to two target lands.
       Whenever a player taps a land for mana, that player adds one mana of a color that land could produce to their mana pool.
@@ -512,6 +536,7 @@ card_yhorm_the_giant:
     type: "Creature"
     sub: "Giant Lord"
     rarity: "Rare"
+    rating: 2
     rules_text: |
       Deathtouch, trample, reach
       {3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.
