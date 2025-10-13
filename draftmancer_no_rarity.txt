@@ -761,8 +761,8 @@
         "R"
     ],
     "rarity": "common",
-    "rating": 0,
-    "oracle_text": "Flying\n~ has +1/+0 as long as you control a green permanent.\n~ has deathtouch as long as you control a black permanent. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)\n",
+    "rating": 2,
+    "oracle_text": "Flying, haste\n~ can't block\n{T}, Sacrifice ~: Destroy target artifact. If you do, you may search your library for a card ~ and put it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/pesky_mosquito.jpeg"
 },
 {
@@ -882,7 +882,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Put two +1/+1 counters on it.\n\u2022 Return target card from your graveyard to your hand.\n",
+    "oracle_text": "Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Put two +1/+1 counters on it and it gains trample.\n\u2022 Destroy target artifact or enchantment.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg"
 },
 {
@@ -966,7 +966,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield draw a card.\nPay three souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.\n{T}: Add {G} to your mana pool.\n",
+    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nPay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
 },
 {
@@ -1119,8 +1119,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1174,7 +1174,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "Noncreature spells cost {2} more to cast.",
+    "oracle_text": "Nonartifact spells cost {2} more to cast.\nSacrifice ~: Destroy target artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg"
 },
 {
@@ -1241,7 +1241,7 @@
 },
 {
     "name": "Lightning Spear",
-    "type": "Sorcery",
+    "type": "Instant",
     "mana_cost": "{1}{W}",
     "colors": [
         "W"
@@ -1356,7 +1356,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "As an additional cost to cast ~ pay X souls. Gain control of target creature who's mana cost is equal to X.",
+    "oracle_text": "As an additional cost to cast ~ pay X souls.\nGain control of target creature or artifact with mana cost equal to X.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/burning_ambition.jpeg"
 },
 {
@@ -1676,8 +1676,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1715,8 +1715,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1803,8 +1803,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1816,8 +1816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1829,11 +1829,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B",
         "W",
+        "B",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1845,8 +1845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1858,8 +1858,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1884,8 +1884,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1897,8 +1897,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1936,8 +1936,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1962,7 +1962,7 @@
         "colors": [
             "W"
         ],
-        "rarity": "rare",
+        "rarity": "",
         "oracle_text": "Spells your opponents control cost {1} more to cast.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_back.jpeg"
     }
@@ -2246,8 +2246,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,8 +2259,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2272,8 +2272,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2311,8 +2311,8 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "W",
+        "R",
         "G"
     ],
     "rarity": "rare",
@@ -2325,8 +2325,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2353,7 +2353,7 @@
             "R",
             "B"
         ],
-        "rarity": "rare",
+        "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg"
     }
@@ -2376,8 +2376,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2388,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2401,9 +2401,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "W",
         "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2414,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "W",
             "R",
-            "B",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2441,9 +2441,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "G",
         "R",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2649,9 +2649,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "B",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2663,11 +2663,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
-        "B",
         "W",
+        "B",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
+        "W",
         "R",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,9 +2693,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2706,9 +2706,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
+            "W",
             "B",
-            "W"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2763,11 +2763,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
-        "B",
         "W",
+        "B",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B",
         "W",
+        "B",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,
