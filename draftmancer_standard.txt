@@ -234,7 +234,7 @@
     ],
     "rarity": "common",
     "rating": 4,
-    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {W}, if you do each player draws a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {W}. If you do each player draws a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg"
 },
 {
@@ -300,7 +300,7 @@
 {
     "name": "Adventuring Sorcerer",
     "type": "Creature",
-    "mana_cost": "{2}{U}",
+    "mana_cost": "{1}{U}",
     "colors": [
         "U"
     ],
@@ -474,7 +474,7 @@
     ],
     "rarity": "common",
     "rating": 4,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}, if you do target player puts one card from the top of his or her library for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
 {
@@ -485,8 +485,8 @@
         "B"
     ],
     "rarity": "common",
-    "rating": 1,
-    "oracle_text": "Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters the battlefield transformed.\n",
+    "rating": 2,
+    "oracle_text": "Return target double-faced creature or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to it's mana cost.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg"
 },
 {
@@ -1119,8 +1119,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1654,8 +1654,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1791,8 +1791,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1818,10 +1818,10 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "U",
-        "W",
         "R",
-        "G"
+        "G",
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1833,8 +1833,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1885,8 +1885,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1924,8 +1924,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2325,8 +2325,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2376,8 +2376,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2388,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2402,8 +2402,8 @@
     "mana_cost": "{R}{W}{B}",
     "colors": [
         "R",
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2415,8 +2415,8 @@
         "mana_cost": "",
         "colors": [
             "R",
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2650,8 +2650,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2664,10 +2664,10 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "B",
-        "U",
-        "W",
         "R",
-        "G"
+        "G",
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2680,8 +2680,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,9 +2693,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "B",
+        "W",
         "U",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2706,9 +2706,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
+            "W",
             "U",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2764,10 +2764,10 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "B",
-        "U",
-        "W",
         "R",
-        "G"
+        "G",
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2800,10 +2800,10 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "U",
-        "W",
         "R",
-        "G"
+        "G",
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,

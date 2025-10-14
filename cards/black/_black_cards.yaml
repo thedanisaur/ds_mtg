@@ -6,9 +6,9 @@ card_a_hero_gone_mad:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 2
     rules_text: |
-      Return target creature from your graveyard to the battlefield if its front or back face is a hollow. If it's front face is not a hollow, it enters the battlefield transformed.
+      Return target double-faced creature or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to it's mana cost.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
     artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
     artist: "lavilvile"

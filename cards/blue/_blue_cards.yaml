@@ -1,7 +1,7 @@
 card_adventuring_sorcerer:
   front:
     name: "Adventuring Sorcerer"
-    cost: "{2}{U}"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Human Wizard"
@@ -442,7 +442,7 @@ card_soul_of_an_unknown_traveler:
     rating: 4
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {U}, if you do target player puts one card from the top of his or her library for each spell cast this turn.
+      When ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
     artwork_url: "https://www.deviantart.com/luis-bello/art/Distance-is-nothing-853519891"
