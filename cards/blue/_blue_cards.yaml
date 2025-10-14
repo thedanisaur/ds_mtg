@@ -439,7 +439,7 @@ card_soul_of_an_unknown_traveler:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 4
+    rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.

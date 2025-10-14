@@ -206,25 +206,6 @@ card_deep_fog:
     artist: "OLDSKVLL"
     number: 82
 
-card_frozen_reindeer:
-  front:
-    name: "Frozen Reindeer"
-    cost: "{3}{B}{B}B"
-    super: "Snow"
-    type: "Creature"
-    sub: "Zombie Antelope Horse"
-    rarity: "Rare"
-    rating: 2
-    rules_text: |
-      Shadow (This creature can block or be blocked by only creatures with shadow.)
-      {T}: Target creature gets -3/-3 until end of turn. You lose 3 life.
-    flavor_text: "Prepare yourself, the blizzard is upon us."
-    artwork_url: "https://www.deviantart.com/naouriredouane1998/art/Snow-Creature-By-Naouri-Redouane-707182045"
-    artist: "naouriredouane1998"
-    number: 83
-    power: 5
-    toughness: 5
-
 card_grave_warden:
   front:
     name: "Grave Warden"
@@ -240,7 +221,7 @@ card_grave_warden:
     flavor_text: "Grave wardens were tasked with disposing of the ever rising corpses that plagued the cathedral. Their clothes are utterly putrid, drenched in the blood and mucilage of their undertaking."
     artwork_url: "https://i.ibb.co/Mywwqhrj/grave-warden-eemeling-resize.jpg"
     artist: "eemeling"
-    number: 84
+    number: 83
     power: 2
     toughness: 1
 
@@ -259,7 +240,7 @@ card_grave_wardens_tome:
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
     artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
     artist: "pitchcha"
-    number: 85
+    number: 84
 
 card_gravelord_nito:
   front:
@@ -277,7 +258,7 @@ card_gravelord_nito:
     flavor_text: "A living manifestation of illness and death, held together by the miasma of the Death Soul."
     artwork_url: "https://preview.redd.it/nito-by-anato-finnstark-v0-bg5zua4702oe1.jpeg?width=1080&crop=smart&auto=webp&s=a6aa896634322b47e52f2c40b71d78f1a9f459d5"
     artist: "vempirick"
-    number: 86
+    number: 85
     power: 10
     toughness: 10
 
@@ -296,7 +277,7 @@ card_grip_of_death:
     flavor_text: "In his lust for power, Wolnir devoured kings and gods alike—but the Abyss devours all, in time."
     artwork_url: "https://i.ibb.co/hJDLLpDg/grip-of-death-dremorapeach-recolor.jpg"
     artist: "dremorapeach"
-    number: 87
+    number: 86
 
 card_hollow_soldier:
   front:
@@ -309,11 +290,11 @@ card_hollow_soldier:
     rating: 1
     rules_text: |
       If ~ leaves the battlefield, you get one soul.
-      {B}: Return ~ from the graveyard to the battlefield. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.
+      {B}: Return ~ from the graveyard to the battlefield tapped. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.
     flavor_text: "Undead soldiers that have completely lost their minds. Their attacks are wild and relentless."
     artwork_url: "https://i.ibb.co/d4qJwbv8/hollow-soldier-daverapoza-resize.jpg"
     artist: "daverapoza"
-    number: 88
+    number: 87
     power: 1
     toughness: 1
 
@@ -332,7 +313,7 @@ card_hound_rat:
     flavor_text: "Grotesquely swollen and ravenous, the Hound Rat stalks the filth-choked tunnels beneath fallen kingdoms."
     artwork_url: "https://i.ibb.co/YF2jShN6/hound-rat-ovenbakedcheese-resize.jpg"
     artist: "ovenbakedcheese"
-    number: 89
+    number: 88
     power: 1
     toughness: 2
 
@@ -349,7 +330,7 @@ card_jailer:
     flavor_text: "The jailers were among the few survivors inhabiting the Profaned Capital, later serving under Pontiff Sulyvahn. Perhaps the screams emanating from the cells help them forget their old home.  "
     artwork_url: "https://i.ibb.co/SwCt9zjV/jailer-fromsoft.jpg"
     artist: "FromSoft"
-    number: 90
+    number: 89
     power: 1
     toughness: 3
 
@@ -368,7 +349,7 @@ card_lothric_sentry:
     flavor_text: "Once famed and feared for their drake cavalry, the Lothric Knights fought bravely until slain, sworn faithful as one of the monarch's three pillars… still patrolling Lothric."
     artwork_url: "https://www.deviantart.com/kotrozvidka/art/DARK-SOULS-III-LOTHRIC-GVNG-827848994"
     artist: "kotrozvidka"
-    number: 91
+    number: 90
     power: 0
     toughness: 1
 
@@ -387,7 +368,7 @@ card_lordran_necromancer:
     flavor_text: "With lanterns lit by cursed flame, they bind bones to soul and soul to flame."
     artwork_url: "https://www.deviantart.com/jasonengle/art/Dar-Thul-Raiser-of-the-dead-622493220"
     artist: "jasonengle"
-    number: 92
+    number: 91
     power: 1
     toughness: 2
 
@@ -407,7 +388,7 @@ card_nimble_shadow:
     flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
     artwork_url: "https://api.deepai.org/job-view-file/3c00fd16-95c2-48dd-93ac-1c5ea6115400/outputs/output.jpg"
     artist: "deepai"
-    number: 93
+    number: 92
     power: 2
     toughness: 2
 
@@ -426,7 +407,7 @@ card_parasite_worm:
     flavor_text: "Now, let this strength be yours."
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 94
+    number: 93
     power: 3
     toughness: 1
 
@@ -445,7 +426,7 @@ card_royal_rat_vanguard:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gZLNQZ0t/royal-rat-vanguard.webp"
     artist: "u/krakonner"
-    number: 95
+    number: 94
     power: 3
     toughness: 3
 
@@ -464,7 +445,7 @@ card_sift_through_the_ashes:
     flavor_text: "The fire has long since died, but ash remembers everything."
     artwork_url: "https://i.ibb.co/gZ1v9PSB/sift-through-the-ashes-resize.jpg"
     artist: "deepai"
-    number: 96
+    number: 95
 
 card_skim_memories:
   front:
@@ -481,7 +462,26 @@ card_skim_memories:
     flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
     artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"
     artist: "mario sanchez nevado"
+    number: 96
+
+card_soul_of_a_sorrowful_spirit:
+  front:
+    name: "Soul of a Sorrowful Spirit"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. You lose 2 life.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
     number: 97
+    color_indicator: "{B}"
 
 card_the_great_swamp:
   front:

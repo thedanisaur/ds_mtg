@@ -11,3 +11,20 @@ card_carthus_beacon:
     artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
     artist: "arturtreffner"
     number: 103
+
+card_cathedral_evangelist:
+  front:
+    name: "Cathedral Evangelist"
+    cost: "{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Common"
+    rating: 2
+    rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
+    flavor_text: "EEHEEE!"
+    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
+    artist: "therikaro114"
+    number: 103
+    power: 3
+    toughness: 2
