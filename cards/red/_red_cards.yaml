@@ -32,23 +32,6 @@ card_capra_demon:
     power: 2
     toughness: 1
 
-card_cathedral_evangelist:
-  front:
-    name: "Cathedral Evangelist"
-    cost: "{R}{R}"
-    super: ""
-    type: "Creature"
-    sub: "Cleric"
-    rarity: "Common"
-    rating: 2
-    rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
-    flavor_text: "EEHEEE!"
-    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
-    artist: "therikaro114"
-    number: 103
-    power: 3
-    toughness: 2
-
 card_chaos_bed_vestiges:
   front:
     name: "Chaos Bed Vestiges"
@@ -64,7 +47,7 @@ card_chaos_bed_vestiges:
     flavor_text: "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Trying-to-Keep-Warm-609129608"
     artist: "cobaltplasma"
-    number: 104
+    number: 103
 
 card_chaos_storm:
   front:
@@ -79,10 +62,10 @@ card_chaos_storm:
       Choose one -
       • Exile target artifact.
       • ~ deals 2 damage to each creature and planeswalker you don't control.
-    flavor_text: "The Witch of Izalith attempted to copy the First Flame, instead creating the Flame of Chaos."
-    artwork_url: "https://www.deviantart.com/socialgatheringstar/art/The-Fire-Wyrm-Unleashed-1134311161"
-    artist: "socialgatheringstar"
-    number: 105
+    flavor_text: "The Witch of Izalith attempted to replicate the First Flame, instead creating the Flame of Chaos."
+    artwork_url: "https://www.deviantart.com/burgia/art/Firestorm-3-1154003750"
+    artist: "burgia"
+    number: 104
 
 card_cracked_redeye_orb:
   front:
@@ -97,7 +80,7 @@ card_cracked_redeye_orb:
     flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
     artist: "cobaltplasma"
-    number: 106
+    number: 105
 
 card_cragspider:
   front:
@@ -115,7 +98,7 @@ card_cragspider:
     flavor_text: "She crawls in the filth beneath the world, her limbs aflame, her mind long extinguished."
     artwork_url: "https://i.ibb.co/jZQmWj14/crag-spider-fromsoft.jpg"
     artist: "fromsoft"
-    number: 107
+    number: 106
     power: 2
     toughness: 4
 
@@ -134,7 +117,7 @@ card_desert_pyromancer:
     flavor_text: "The flame reveals all, and obscures all."
     artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
     artist: "hachiyuki"
-    number: 108
+    number: 107
     power: 2
     toughness: 1
 
@@ -154,7 +137,7 @@ card_fiery_soapstone:
     flavor_text: "The rippling sign from this soapstone can summon something far worse than a dark spirit."
     artwork_url: "https://i.ibb.co/PvqBwLCn/fading-soapstone-resize.jpg"
     artist: "rintindestiny"
-    number: 109
+    number: 108
 
 card_fire_orb:
   front:
@@ -172,7 +155,7 @@ card_fire_orb:
     flavor_text: "The flame rewards those with a thirst of power."
     artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
     artist: "pizza"
-    number: 110
+    number: 109
 
 card_fire_surge:
   front:
@@ -189,7 +172,7 @@ card_fire_surge:
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
     artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
     artist: "jasontn"
-    number: 111
+    number: 110
 
 card_firekeeper:
   front:
@@ -201,11 +184,11 @@ card_firekeeper:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      {R}, Pay one soul: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
+      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"
-    number: 112
+    number: 111
     power: 0
     toughness: 1
 
@@ -224,7 +207,7 @@ card_firesage_demon:
     flavor_text: "The Demon Firesage was the first demon, and the last master of the original fire arts."
     artwork_url: "https://i.ibb.co/zHTd0s3n/firesage-demon-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 113
+    number: 112
     power: 6
     toughness: 4
 
@@ -244,7 +227,7 @@ card_flame_whip:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
     artist: "asfodelo"
-    number: 114
+    number: 113
 
 card_flamewielding_hollow:
   front:
@@ -262,7 +245,7 @@ card_flamewielding_hollow:
     flavor_text: "Pyromancy is the knowledge of controlling flame, and knowing that control is impossible."
     artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
     artist: "full maverick"
-    number: 115
+    number: 114
     power: 0
     toughness: 1
 
@@ -279,7 +262,7 @@ card_forbidden_sun:
     flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
     artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 116
+    number: 115
 
 card_hellkite_wyvern:
   front:
@@ -296,7 +279,7 @@ card_hellkite_wyvern:
     flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
     artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
     artist: "a. tarzia"
-    number: 117
+    number: 116
     power: 3
     toughness: 3
 
@@ -313,7 +296,7 @@ card_hollow_infantry:
     flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
     artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
     artist: "stepalex"
-    number: 118
+    number: 117
 
 card_ignite_steel:
   front:
@@ -330,7 +313,7 @@ card_ignite_steel:
     flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
     artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
     artist: "shadoecrewsart"
-    number: 119
+    number: 118
 
 card_immolation:
   front:
@@ -345,7 +328,7 @@ card_immolation:
     flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
     artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 120
+    number: 119
 
 card_pesky_mosquito:
   front:
@@ -363,7 +346,7 @@ card_pesky_mosquito:
     flavor_text: "Where do they come from?"
     artwork_url: "https://i.ibb.co/gMk9RFnW/pesky-mosquito-teyoliia.jpg"
     artist: "teyoliia"
-    number: 121
+    number: 120
     power: 2
     toughness: 2
 
@@ -383,7 +366,7 @@ card_profaned_flame:
     flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
     artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
     artist: "fantasyworldonline"
-    number: 122
+    number: 121
 
 card_profuse_sweat:
   front:
@@ -403,7 +386,7 @@ card_profuse_sweat:
     flavor_text: "The yellowish sweat cures all kinds of ailments."
     artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
     artist: "iamsointense"
-    number: 123
+    number: 122
 
 card_rapport:
   front:
@@ -414,11 +397,11 @@ card_rapport:
     sub: ""
     rarity: "Common"
     rating: 2
-    rules_text: "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get one soul."
+    rules_text: "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get three souls."
     flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
     artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
     artist: "kaido7794"
-    number: 124
+    number: 123
 
 card_ringfinger_leonhard:
   front:
@@ -436,7 +419,7 @@ card_ringfinger_leonhard:
     flavor_text: "Unkindled are we...then these red eyes are for you."
     artwork_url: "https://i.ibb.co/rRfQmLTW/ringfinger-leonhard-front-aj-saitama-japan-resized.jpg"
     artist: "Aj Saitama Japan"
-    number: 125
+    number: 124
     power: 2
     toughness: 2
     frame: "Double-Faced: Day"
@@ -454,7 +437,7 @@ card_ringfinger_leonhard:
     flavor_text: "Come on, give yourself to Rosaria, of the Cathedral of the Deep."
     artwork_url: "https://i.ibb.co/fVTS3ySK/ringfinger-leonhard-back-estuschan-resized.jpg"
     artist: "Estuschan"
-    number: 125
+    number: 124
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
@@ -476,9 +459,28 @@ card_smoldering_rotten_flesh:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/7JgFR7KW/smouldering-rotten-flesh-necrodevourer-resize.jpg"
     artist: "necrodevourer"
-    number: 126
+    number: 125
     power: 1
     toughness: 5
+
+card_soul_of_an_old_pyromancer:
+  front:
+    name: "Soul of an Old Pyromancer"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
+      When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 126
+    color_indicator: "{R}"
 
 card_sunlight_maggot:
   front:

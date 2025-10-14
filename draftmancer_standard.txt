@@ -233,7 +233,7 @@
         "W"
     ],
     "rarity": "common",
-    "rating": 4,
+    "rating": 3,
     "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {W}. If you do each player draws a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg"
 },
@@ -473,7 +473,7 @@
         "U"
     ],
     "rarity": "common",
-    "rating": 4,
+    "rating": 3,
     "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
@@ -558,7 +558,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "If ~ leaves the battlefield, you get one soul.\n{B}: Return ~ from the graveyard to the battlefield. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.\n",
+    "oracle_text": "If ~ leaves the battlefield, you get one soul.\n{B}: Return ~ from the graveyard to the battlefield tapped. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hollow_soldier.jpeg"
 },
 {
@@ -622,6 +622,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg"
 },
 {
+    "name": "Soul of a Sorrowful Spirit",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. You lose 2 life.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/soul_of_a_sorrowful_spirit.jpeg"
+},
+{
     "name": "Undead Hound",
     "type": "Creature",
     "mana_cost": "{1}{B}",
@@ -632,18 +644,6 @@
     "rating": 2,
     "oracle_text": "Lifelink\nWhen ~ enters the battlefield target player loses life equal to the number of souls they have.\nWhenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg"
-},
-{
-    "name": "Cathedral Evangelist",
-    "type": "Creature",
-    "mana_cost": "{R}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 2,
-    "oracle_text": "When ~ enters the battlefield discard a card, then draw a card. You get two souls.",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cathedral_evangelist.jpeg"
 },
 {
     "name": "Chaos Storm",
@@ -798,8 +798,20 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get one soul.",
+    "oracle_text": "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get three souls.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/rapport.jpeg"
+},
+{
+    "name": "Soul of an Old Pyromancer",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/soul_of_an_old_pyromancer.jpeg"
 },
 {
     "name": "Sunlight Maggot",
@@ -898,7 +910,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg"
 },
 {
-    "name": "Expected Companions",
+    "name": "Evangelist of the Deep",
     "type": "Creature",
     "mana_cost": "{2}{G}",
     "colors": [
@@ -906,8 +918,8 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "~ can't be countered.\nWhen ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/expected_companions.jpeg"
+    "oracle_text": "Can't be countered\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/evangelist_of_the_deep.jpeg"
 },
 {
     "name": "Festering Goblin",
@@ -1007,14 +1019,14 @@
 },
 {
     "name": "Ravenous Crystal Lizard",
-    "type": "Creature",
+    "type": "Enchantment Creature",
     "mana_cost": "{G}{G}",
     "colors": [
         "G"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield return a creature you control to its owner's hand. Then create a treasure token.\n",
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield return a creature you control to its owner's hand. Create a treasure token.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg"
 },
 {
@@ -1026,7 +1038,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "As an additional cost to cast ~ pay X souls.\nSearch your library for a planeswalker or creature card with converted mana cost less than or equal to X, reveal that card and put it into your hand.\n",
+    "oracle_text": "You may pay any number of souls and mana as you cast ~.\nSearch your library for a nonland permanent card with converted mana cost less than or equal to the total of both souls and mana you paid as you cast ~, reveal that card and put it into your hand. \n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg"
 },
 {
@@ -1052,6 +1064,18 @@
     "rating": 2,
     "oracle_text": "Search your library for two forest cards and put them onto the battlefield tapped.\nYou may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/shaded_woods.jpeg"
+},
+{
+    "name": "Soul of a Lost Explorer",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, gain 2 life and create a treasure token.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/soul_of_a_lost_explorer.jpeg"
 },
 {
     "name": "Souls of the Living",
@@ -1098,7 +1122,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may discard a land card and pay three souls rather than pay this spell's mana cost.\nSearch your library for a Bonfire card and put that card into your hand. If you cast this spell without paying it's mana cost put that Bonfire onto the battlefield. Shuffle your library.\n",
+    "oracle_text": "You may discard a land card and pay three souls rather than pay this spell's mana cost.\nSearch your library for a bonfire or forest card. Reveal that card and put it into your hand. If you cast this spell without paying its mana cost put that card onto the battlefield instead. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg"
 },
 {
@@ -1119,8 +1143,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1550,7 +1574,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "{R}, Pay one soul: Creatures you control gain prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).\n",
+    "oracle_text": "{R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg"
 },
 {
@@ -1654,8 +1678,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1680,8 +1704,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1693,8 +1717,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1706,8 +1730,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1791,8 +1815,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1804,8 +1828,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1818,8 +1842,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "R",
         "G",
+        "R",
         "U",
         "W"
     ],
@@ -1833,8 +1857,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1846,8 +1870,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1872,8 +1896,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1885,8 +1909,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1898,8 +1922,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1911,8 +1935,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1924,8 +1948,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2099,18 +2123,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg"
 },
 {
-    "name": "Frozen Reindeer",
-    "type": "Creature",
-    "mana_cost": "{3}{B}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\n{T}: Target creature gets -3/-3 until end of turn. You lose 3 life.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/frozen_reindeer.jpeg"
-},
-{
     "name": "Grave Warden's Tome",
     "type": "Sorcery",
     "mana_cost": "{3}{B}",
@@ -2218,18 +2230,6 @@
     }
 },
 {
-    "name": "Contrasted Cursed",
-    "type": "Enchantment",
-    "mana_cost": "{2}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)\nWhenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
-},
-{
     "name": "Gaping Dragon",
     "type": "Creature",
     "mana_cost": "{2}{G}{G}",
@@ -2246,8 +2246,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,8 +2259,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2272,8 +2272,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2285,8 +2285,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 0,
@@ -2311,9 +2311,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
+        "W",
         "G",
-        "W"
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2325,8 +2325,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2338,8 +2338,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2350,8 +2350,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2363,8 +2363,8 @@
     "type": "Creature",
     "mana_cost": "{2}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2376,8 +2376,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2388,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2401,9 +2401,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2414,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
+            "B",
             "W",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2428,8 +2428,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2441,9 +2441,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
+        "B",
         "G",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2649,9 +2649,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
+        "U",
         "B",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2664,8 +2664,8 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "B",
-        "R",
         "G",
+        "R",
         "U",
         "W"
     ],
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
+        "U",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,9 +2693,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "W",
         "U",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2706,9 +2706,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "U",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2764,8 +2764,8 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "B",
-        "R",
         "G",
+        "R",
         "U",
         "W"
     ],
@@ -2800,8 +2800,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "R",
         "G",
+        "R",
         "U",
         "W"
     ],
@@ -2885,8 +2885,8 @@
 15 Parasite Worm
 15 Royal Rat Vanguard
 15 Sift through the Ashes
+15 Soul of a Sorrowful Spirit
 15 Undead Hound
-15 Cathedral Evangelist
 15 Chaos Storm
 15 Cracked Redeye Orb
 15 Cragspider
@@ -2900,6 +2900,7 @@
 15 Profaned Flame
 15 Profuse Sweat
 15 Rapport
+15 Soul of an Old Pyromancer
 15 Sunlight Maggot
 15 Taurus Demon
 15 Unkindled's Journey
@@ -2908,7 +2909,7 @@
 15 Corrode
 15 Ent of the Darkroot Garden
 15 Estus
-15 Expected Companions
+15 Evangelist of the Deep
 15 Festering Goblin
 15 Hesitant Surveyor
 15 Hollow Knight
@@ -2921,6 +2922,7 @@
 15 Seek Embers
 15 Sentinel of the Tower of Flame
 15 Shaded Woods
+15 Soul of a Lost Explorer
 15 Souls of the Living
 15 Undead Aberration
 15 Warcry
@@ -3011,7 +3013,6 @@
 3 Soul Stream
 3 Aldrich, Devourer of Gods
 3 Darkwraith
-3 Frozen Reindeer
 3 Grave Warden's Tome
 3 Nimble Shadow
 3 Skim Memories
@@ -3020,7 +3021,6 @@
 3 Forbidden Sun
 3 Hellkite Wyvern
 3 Unbreakable Patches
-3 Contrasted Cursed
 3 Gaping Dragon
 3 Ancient Wyvern
 3 Archdeacon of the Deep

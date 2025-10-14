@@ -1,0 +1,18 @@
+card_frozen_reindeer:
+  front:
+    name: "Frozen Reindeer"
+    cost: "{3}{B}{B}B"
+    super: "Snow"
+    type: "Creature"
+    sub: "Zombie Antelope Horse"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      {T}: Target creature gets -3/-3 until end of turn. You lose 3 life.
+    flavor_text: "Prepare yourself, the blizzard is upon us."
+    artwork_url: "https://www.deviantart.com/naouriredouane1998/art/Snow-Creature-By-Naouri-Redouane-707182045"
+    artist: "naouriredouane1998"
+    number: 83
+    power: 5
+    toughness: 5

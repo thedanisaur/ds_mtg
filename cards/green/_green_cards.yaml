@@ -75,24 +75,6 @@ card_amana_aberration:
     power: 2
     toughness: 2
 
-card_contrasted_cursed:
-  front:
-    name: "Contrasted Cursed"
-    cost: "{2}{G}"
-    super: ""
-    type: "Enchantment"
-    sub: "Aura Curse"
-    rarity: "Rare"
-    rating: 0
-    rules_text: |
-      Enchant player
-      Creatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)
-      Whenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.
-    flavor_text: "Occasionally, you'll want to be cursed."
-    artwork_url: ""
-    artist: ""
-    number: 134
-
 card_corrode:
   front:
     name: "Corrode"
@@ -106,7 +88,7 @@ card_corrode:
     flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
     artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
     artist: "anikoo"
-    number: 135
+    number: 134
 
 card_covenant_of_the_forest_hunter:
   front:
@@ -127,7 +109,7 @@ card_covenant_of_the_forest_hunter:
     flavor_text: "One day, all you see will become dust."
     artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
     artist: "thegoblincoach"
-    number: 136
+    number: 135
 
 card_dukes_dear_freja:
   front:
@@ -146,7 +128,7 @@ card_dukes_dear_freja:
     flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
     artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
     artist: "tatarskiskandal"
-    number: 137
+    number: 136
     power: 4
     toughness: 5
 
@@ -168,7 +150,7 @@ card_ent_of_the_darkroot_garden:
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
     artist: "legen"
-    number: 138
+    number: 137
     power: 3
     toughness: 3
 
@@ -187,24 +169,24 @@ card_estus:
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
-    number: 139
+    number: 138
 
-card_expected_companions:
+card_evangelist_of_the_deep:
   front:
-    name: "Expected Companions"
+    name: "Evangelist of the Deep"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
-    sub: "Human"
+    sub: "Cleric"
     rarity: "Common"
     rating: 2
     rules_text: |
-      ~ can't be countered.
-      When ~ enters the battlefield reveal the top four cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
-    flavor_text: "I see, you've done this before."
-    artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
-    artist: "sanekyle"
-    number: 140
+      Can't be countered
+      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.
+    flavor_text: "EEHEEE! EEE-HEE-HEE!"
+    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
+    artist: "therikaro114"
+    number: 139
     power: 3
     toughness: 3
 
@@ -223,7 +205,7 @@ card_festering_goblin:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"
-    number: 141
+    number: 140
     power: 0
     toughness: 1
 
@@ -243,7 +225,7 @@ card_gaping_dragon:
     flavor_text: "Consumed by a ravenous eternal hunger."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
     artist: "luffie"
-    number: 142
+    number: 141
     power: 4
     toughness: 4
 
@@ -263,7 +245,7 @@ card_hesitant_surveyor:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/adzerak/art/Close-The-Distance-396081114"
     artist: "adzerak"
-    number: 143
+    number: 142
     power: 1
     toughness: 1
 
@@ -282,7 +264,7 @@ card_hollow_knight:
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
     artist: "tithendar"
-    number: 144
+    number: 143
     power: 1
     toughness: 1
 
@@ -301,7 +283,7 @@ card_lothric_knight:
     flavor_text: "Knights of the royal order of Lothric, once sworn to the flame, now roam the halls hollow, relentless, and proud."
     artwork_url: "https://i.ibb.co/tpz1zy00/lothric-knight-resize.jpg"
     artist: "Draegore Nagendra"
-    number: 145
+    number: 144
     power: 3
     toughness: 3
 
@@ -321,7 +303,7 @@ card_milfanito:
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"
-    number: 146
+    number: 145
     power: 0
     toughness: 2
 
@@ -339,8 +321,8 @@ card_mimic:
       Whenever ~ is turned face up target creature blocking or blocked by ~ gets -4/-4 until end of turn.
     flavor_text: "The chest did not creak. It exhaled."
     artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
-    artist: "d&d"
-    number: 147
+    artist: "wotc"
+    number: 146
     power: 3
     toughness: 2
 
@@ -360,7 +342,7 @@ card_pagan_tree:
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
     artist: "Glenn Porter"
-    number: 148
+    number: 147
 
 card_petrifying_statue:
   front:
@@ -378,7 +360,7 @@ card_petrifying_statue:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
-    number: 149
+    number: 148
     power: "*"
     toughness: 2
 
@@ -397,9 +379,9 @@ card_proselyte_scarlett:
       {G}, {T}: Exile target permanent card from a graveyard. You gain 2 life.
       {B/G}, {T}, discard a creature card: Search your library for a creature card. Reveal it and put it into your hand.
     flavor_text: ""
-    artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
+    artwork_url: "https://i.ibb.co/Q7vd81fc/proselyte-scarlett-resize.jpg"
     artist: "Mudhorror"
-    number: 150
+    number: 149
     power: 1
     toughness: 2
 
@@ -408,17 +390,17 @@ card_ravenous_crystal_lizard:
     name: "Ravenous Crystal Lizard"
     cost: "{G}{G}"
     super: ""
-    type: "Creature"
+    type: "Enchantment Creature"
     sub: "Lizard"
     rarity: "Common"
     rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
-      When ~ enters the battlefield return a creature you control to its owner's hand. Then create a treasure token.
+      When ~ enters the battlefield return a creature you control to its owner's hand. Create a treasure token.
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
     artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
     artist: "jaqenart"
-    number: 151
+    number: 150
     power: 4
     toughness: 5
 
@@ -432,12 +414,12 @@ card_seek_embers:
     rarity: "Common"
     rating: 1
     rules_text: |
-      As an additional cost to cast ~ pay X souls.
-      Search your library for a planeswalker or creature card with converted mana cost less than or equal to X, reveal that card and put it into your hand.
+      You may pay any number of souls and mana as you cast ~.
+      Search your library for a nonland permanent card with converted mana cost less than or equal to the total of both souls and mana you paid as you cast ~, reveal that card and put it into your hand. 
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
-    number: 152
+    number: 151
 
 card_sentinel_of_the_tower_of_flame:
   front:
@@ -454,7 +436,7 @@ card_sentinel_of_the_tower_of_flame:
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
     artist: "legendary memory"
-    number: 153
+    number: 152
     power: 2
     toughness: 2
 
@@ -473,7 +455,26 @@ card_shaded_woods:
     flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
     artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
     artist: "emkun"
+    number: 153
+
+card_soul_of_a_lost_explorer:
+  front:
+    name: "Soul of a Lost Explorer"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
+      When ~ enters the battlefield you may pay {G}. If you do, gain 2 life and create a treasure token.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/Cotton-clouds-Perspective-585427710"
+    artist: "Luis Bello"
     number: 154
+    color_indicator: "{G}"
 
 card_souls_of_the_living:
   front:
@@ -564,10 +565,10 @@ card_warp_the_land:
     rating: 2
     rules_text: |
       You may discard a land card and pay three souls rather than pay this spell's mana cost.
-      Search your library for a Bonfire card and put that card into your hand. If you cast this spell without paying it's mana cost put that Bonfire onto the battlefield. Shuffle your library.
+      Search your library for a bonfire or forest card. Reveal that card and put it into your hand. If you cast this spell without paying its mana cost put that card onto the battlefield instead. Shuffle your library.
     flavor_text: "Ashen one these are not the ruins of the world—they are what's left of your memories."
-    artwork_url: "https://www.deviantart.com/karmichorror/art/Swallowed-Realms-The-Black-Hole-s-Lament-1031568713"
-    artist: "karmichorror"
+    artwork_url: "https://i.ibb.co/Y7dtVwgp/warp-the-land-red-bubble-resize.jpg"
+    artist: "redbubble"
     number: 159
 
 card_wistful_naivete:
