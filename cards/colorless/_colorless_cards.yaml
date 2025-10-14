@@ -82,7 +82,9 @@ card_hollow:
     sub: "Hollow"
     rarity: "Common"
     rating: 0
-    rules_text: "When ~ leaves the battlefield, you get two souls."
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul.
+      Sacrifice ~: Exile target card in a graveyard.
     flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
     artist: "floxyart"

@@ -30,7 +30,7 @@ card_archdeacon_of_the_deep:
     rules_text: |
       Other Wizards you control get +1/+1 and have prowess.
       Whenever a Wizard you control dies you get one soul.
-      {1}{U/R}{U/R}, {T}: Create a 1/1 blue and red Wizard creature token.
+      Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token.
     flavor_text: "The deacons were once keepers of the dead, until the Deep began to whisper. Now they serve a saint whose hunger made a god of him."
     artwork_url: "https://www.deviantart.com/underpable/art/Deacons-Of-The-Deep-673135098"
     artist: "underpable"

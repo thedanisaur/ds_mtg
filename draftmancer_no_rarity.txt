@@ -37,7 +37,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "When ~ leaves the battlefield, you get two souls.",
+    "oracle_text": "When ~ leaves the battlefield, you get one soul.\nSacrifice ~: Exile target card in a graveyard.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg"
 },
 {
@@ -1717,8 +1717,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1828,8 +1828,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1841,11 +1841,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "G",
-        "B",
         "W",
-        "U"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1870,8 +1870,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1935,8 +1935,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1948,8 +1948,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2246,8 +2246,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,12 +2259,12 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Other Wizards you control get +1/+1 and have prowess.\nWhenever a Wizard you control dies you get one soul.\n{1}{U/R}{U/R}, {T}: Create a 1/1 blue and red Wizard creature token.\n",
+    "oracle_text": "Other Wizards you control get +1/+1 and have prowess.\nWhenever a Wizard you control dies you get one soul.\nWhenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg"
 },
 {
@@ -2311,8 +2311,8 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
         "R",
+        "W",
         "G"
     ],
     "rarity": "rare",
@@ -2401,8 +2401,8 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
         "R",
+        "W",
         "B"
     ],
     "rarity": "rare",
@@ -2414,8 +2414,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "R",
+            "W",
             "B"
         ],
         "rarity": "",
@@ -2649,8 +2649,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "R",
+        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -2663,11 +2663,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
+        "U",
         "G",
-        "B",
         "W",
-        "U"
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "R",
         "W",
-        "U",
-        "R"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2763,11 +2763,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
+        "U",
         "G",
-        "B",
         "W",
-        "U"
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "G",
-        "B",
         "W",
-        "U"
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
