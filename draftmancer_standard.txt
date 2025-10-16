@@ -1490,7 +1490,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "Exile all creature cards from all graveyards. Create a 1/1 colorless Hollow creature token for each card exiled this way.",
+    "oracle_text": "Each player sacrifices all creatures they control, then exiles all creature cards from their graveyard. Then each player creates a 1/1 colorless Hollow creature token for each card they exiled this way.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/wake_the_hollows.jpeg"
 },
 {
@@ -1693,8 +1693,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1791,8 +1791,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1804,8 +1804,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1819,9 +1819,9 @@
     "colors": [
         "B",
         "R",
-        "U",
+        "W",
         "G",
-        "W"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1846,8 +1846,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1859,8 +1859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2258,8 +2258,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2271,8 +2271,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2388,8 +2388,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2400,8 +2400,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2413,9 +2413,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
         "B",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2426,9 +2426,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "B",
-            "R"
+            "R",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2648,8 +2648,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "B",
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2663,9 +2663,9 @@
     "colors": [
         "B",
         "R",
-        "U",
+        "W",
         "G",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2677,9 +2677,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "R",
         "W",
-        "U",
-        "R"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2691,8 +2691,8 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "W",
         "B",
+        "W",
         "U"
     ],
     "rarity": "mythic",
@@ -2704,8 +2704,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "B",
+            "W",
             "U"
         ],
         "rarity": "",
@@ -2718,8 +2718,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2775,9 +2775,9 @@
     "colors": [
         "B",
         "R",
-        "U",
+        "W",
         "G",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2801,9 +2801,9 @@
     "colors": [
         "B",
         "R",
-        "U",
+        "W",
         "G",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 4,

@@ -531,7 +531,8 @@ card_wake_the_hollows:
     sub: ""
     rarity: "Uncommon"
     rating: 1
-    rules_text: "Exile all creature cards from all graveyards. Create a 1/1 colorless Hollow creature token for each card exiled this way."
+    rules_text: |
+      Each player sacrifices all creatures they control, then exiles all creature cards from their graveyard. Then each player creates a 1/1 colorless Hollow creature token for each card they exiled this way.
     flavor_text: "In the land of ancient lords, not even death is rest."
     artwork_url: "https://i.ibb.co/ccQgrcDz/wake-the-hollows-aland1w-resize.jpg"
     artist: "aland1w"
