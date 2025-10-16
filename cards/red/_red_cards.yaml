@@ -63,8 +63,8 @@ card_chaos_storm:
       • Exile target artifact.
       • ~ deals 2 damage to each creature and planeswalker you don't control.
     flavor_text: "The Witch of Izalith attempted to replicate the First Flame, instead creating the Flame of Chaos."
-    artwork_url: "https://www.deviantart.com/burgia/art/Firestorm-3-1154003750"
-    artist: "burgia"
+    artwork_url: "https://www.deviantart.com/socialgatheringstar/art/The-Fire-Wyrm-Unleashed-1134311161"
+    artist: "socialgatheringstar"
     number: 104
 
 card_cracked_redeye_orb:
@@ -219,7 +219,7 @@ card_flame_whip:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
-    rating: 2
+    rating: 1
     rules_text: |
       You may cast this spell without paying it's mana cost as long as you control four or more mountains.
       Enchant creature
@@ -257,7 +257,7 @@ card_forbidden_sun:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
-    rating: 2
+    rating: 3
     rules_text: "~ deals 5 damage to target player and each creature and planeswalker he or she controls."
     flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
     artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
@@ -323,7 +323,7 @@ card_immolation:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn."
     flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
     artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
@@ -511,7 +511,9 @@ card_taurus_demon:
     sub: "Demon"
     rarity: "Common"
     rating: 2
-    rules_text: "Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn."
+    rules_text: |
+      Haste
+      Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn.
     flavor_text: "In an effort to save their culture the Demons fight the fulfilling of the prophecy."
     artwork_url: "https://i.ibb.co/MkGQRMqP/taurus-demon-autocosm.jpg"
     artist: "autocosm"

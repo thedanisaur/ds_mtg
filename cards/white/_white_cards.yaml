@@ -180,6 +180,25 @@ card_forossa_lion_knight:
     power: 2
     toughness: 2
 
+card_heretic_storyteller:
+  front:
+    name: "Heretic Storyteller"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric Mutant"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When ~ attacks you may pay {1}{W}. If you do, it gains flying and bleed until end of turn.
+      {4}{G/W}, {T}: Put two bleed counters on target creature or player.
+    flavor_text: "Corvian storytellers share tales of the Painted World to forlorn souls. These are wretched beings. Their bodies, souls, and humanity are all rotten to the core."
+    artwork_url: "https://i.pinimg.com/originals/be/05/d7/be05d73b4b08277e7005ce98720df484.jpg"
+    artist: "cobaltplasma"
+    number: 19
+    power: 2
+    toughness: 1
+
 card_infested_corpse:
   front:
     name: "Infested Corpse"
@@ -188,14 +207,15 @@ card_infested_corpse:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 0
+    rating: 1
     rules_text: |
-      Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      Whenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      Morph {0} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      When ~ is turned face up it becomes a 3/1 and gains haste
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
     artist: "cucdn"
-    number: 19
+    number: 20
     power: 1
     toughness: 1
 
@@ -206,7 +226,7 @@ card_insolent_spirits:
     super: ""
     type: "Creature"
     sub: "Spirit"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
@@ -214,24 +234,9 @@ card_insolent_spirits:
     flavor_text: "A party who long ago attempted to conquer the Undead Crypt. For this sin their deaths have been postponed, so they may serve as crypt sentries."
     artwork_url: "https://i.ibb.co/60fvgpZ7/insolent-spirits-datguy13-resize.jpg"
     artist: "datguy13"
-    number: 20
+    number: 21
     power: 4
     toughness: 4
-
-card_karmic_justice:
-  front:
-    name: "Karmic Justice"
-    cost: "{W}{W}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Uncommon"
-    rating: 1
-    rules_text: "Choose a creature or planeswalker you control. Until end of turn if that permanent would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller."
-    flavor_text: "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment."
-    artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
-    artist: "cobaltplasma"
-    number: 21
 
 card_knights_of_gwynevere:
   front:
@@ -309,7 +314,7 @@ card_mirrah_warrior:
     super: ""
     type: "Creature"
     sub: "Human"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 2
     rules_text: |
       When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.
