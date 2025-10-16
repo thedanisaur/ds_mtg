@@ -742,18 +742,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hollow_infantry.jpeg"
 },
 {
-    "name": "Immolation",
-    "type": "Instant",
-    "mana_cost": "{3}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 1,
-    "oracle_text": "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn.",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg"
-},
-{
     "name": "Pesky Mosquito",
     "type": "Creature",
     "mana_cost": "{2}{R}",
@@ -982,18 +970,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
 },
 {
-    "name": "Pagan Tree",
-    "type": "Enchantment",
-    "mana_cost": "{1}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "Pay two souls: Put an effigy counter on target permanent.\nRemove an effigy counter from ~: Until end of turn spells you cast gain, \"You may pay {X} rather than pay this spell's mana cost\". Add {G}{G}.\nSacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
-},
-{
     "name": "Petrifying Statue",
     "type": "Enchantment Creature",
     "mana_cost": "{2}{G}",
@@ -1130,8 +1106,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1691,8 +1667,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1717,8 +1693,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1730,8 +1706,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1815,8 +1791,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1828,8 +1804,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1841,11 +1817,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G",
         "R",
+        "U",
+        "W",
         "B",
-        "W"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1870,8 +1846,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1883,8 +1859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1896,8 +1872,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1922,8 +1898,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1935,8 +1911,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2207,6 +2183,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hellkite_wyvern.jpeg"
 },
 {
+    "name": "Immolation",
+    "type": "Instant",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Target creature gains double strike and trample until end of turn. At the beginning of the next end step, sacrifice it if it attacked this turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg"
+},
+{
     "name": "Unbreakable Patches",
     "type": "Creature",
     "mana_cost": "{2}{R}",
@@ -2242,12 +2230,24 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
 },
 {
+    "name": "Pagan Tree",
+    "type": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Pay two souls: Put an effigy counter on target permanent.\nRemove an effigy counter from ~: Until end of turn spells you cast gain, \"You may pay {X} rather than pay this spell's mana cost\". Add {G}{G}.\nSacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
+},
+{
     "name": "Ancient Wyvern",
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,8 +2259,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2272,8 +2272,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2298,8 +2298,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2311,9 +2311,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
+        "R",
         "W",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2363,8 +2363,8 @@
     "type": "Creature",
     "mana_cost": "{2}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2376,8 +2376,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2388,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2401,9 +2401,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "B",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2414,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "R",
             "B",
-            "W",
-            "R"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2428,8 +2428,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2441,9 +2441,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "R",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2649,8 +2649,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "R",
+        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -2663,11 +2663,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
-        "G",
         "R",
+        "U",
+        "W",
         "B",
-        "W"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "R",
         "U",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,9 +2693,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
+        "B",
         "U",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2706,9 +2706,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "U",
-            "W",
-            "B"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2763,11 +2763,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
-        "G",
         "R",
+        "U",
+        "W",
         "B",
-        "W"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G",
         "R",
+        "U",
+        "W",
         "B",
-        "W"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2895,7 +2895,6 @@
 15 Firesage Demon
 15 Flamewielding Hollow
 15 Hollow Infantry
-15 Immolation
 15 Pesky Mosquito
 15 Profaned Flame
 15 Profuse Sweat
@@ -2915,7 +2914,6 @@
 15 Hollow Knight
 15 Lothric Knight
 15 Milfanito
-15 Pagan Tree
 15 Petrifying Statue
 15 Proselyte Scarlett
 15 Ravenous Crystal Lizard
@@ -3020,8 +3018,10 @@
 3 Chaos Bed Vestiges
 3 Forbidden Sun
 3 Hellkite Wyvern
+3 Immolation
 3 Unbreakable Patches
 3 Gaping Dragon
+3 Pagan Tree
 3 Ancient Wyvern
 3 Archdeacon of the Deep
 3 Baneful Queen, Mytha

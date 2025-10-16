@@ -318,13 +318,14 @@ card_ignite_steel:
 card_immolation:
   front:
     name: "Immolation"
-    cost: "{3}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 1
-    rules_text: "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn."
+    rules_text: |
+      Target creature gains double strike and trample until end of turn. At the beginning of the next end step, sacrifice it if it attacked this turn.
     flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
     artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
