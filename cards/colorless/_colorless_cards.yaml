@@ -114,17 +114,17 @@ card_looking_glass_knight:
 card_pickle_pee_pump_a_rum:
   front:
     name: "Pickle Pee, Pump-a-Rum"
-    cost: "{2}"
+    cost: "{C}"
     super: ""
     type: "Creature"
     sub: "Shapeshifter Bird"
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 1
     rules_text: |
-      {T}, Sacrifice a noncreature permanent: Create a Treasure token.
-      {T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
+      {2}, Discard a nonland card: Draw a card.
+      {1}, Discard a land card: Create a Treasure token.
       {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
-    flavor_text: ""
+    flavor_text: "That...no...pickle pee"
     artwork_url: "https://i.pinimg.com/originals/1d/58/16/1d58161039d0619f40e6362807f69c80.jpg"
     artist: "Barbara Flowers"
     number: 7

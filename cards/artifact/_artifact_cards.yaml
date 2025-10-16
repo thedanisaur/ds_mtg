@@ -80,7 +80,7 @@ card_charm_of_the_undead_hunters:
     rating: 2
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.
-      {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
+      {T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
     flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
     artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
     artist: "unknown"
@@ -365,23 +365,6 @@ card_soul_syphoner:
     artist: "WisestProjectStudio"
     number: 206
 
-card_storm_ruler:
-  front:
-    name: "Storm Ruler"
-    cost: "{2}"
-    super: ""
-    type: "Artifact"
-    sub: "Equipment"
-    rarity: "Mythic"
-    rating: 0
-    rules_text: |
-      Whenever equipped creature attacks, defending player sacrifices a giant.
-      Equip {2}
-    flavor_text: "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder."
-    artwork_url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/11/storm-ruler-dark-souls-3.jpg"
-    artist: "fromsoft"
-    number: 207
-
 card_talisman_of_the_way_of_white:
   front:
     name: "Talisman of the Way of White"
@@ -398,7 +381,7 @@ card_talisman_of_the_way_of_white:
     flavor_text: "You defense increases, only with Faith. "
     artwork_url: "https://i.ibb.co/r1SpQxT/talisman-of-the-way-of-white-aelinlaerfineart-resize.jpg"
     artist: ""
-    number: 208
+    number: 207
 
 card_uchigatana:
   front:
@@ -416,6 +399,23 @@ card_uchigatana:
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
     artist: "Asymoney"
+    number: 208
+
+card_void_charm:
+  front:
+    name: "Void Charm"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 1
+    rules_text: |
+      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+      {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."
+    flavor_text: "Nullification, the strongest form of justice."
+    artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
+    artist: "fromsoft"
     number: 209
 
 card_wolf_knights_greatshield:

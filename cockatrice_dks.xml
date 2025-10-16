@@ -19,7 +19,7 @@
             <cmc>4</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Common" uuid="ec6a57b2-1fca-4fe1-9fbd-5b8c4d3e6e1e" num="1" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/ashen_idol.jpeg">DKS</set>
+        <set rarity="Common" uuid="b244d2bc-8a75-46c6-a586-c89dc7c262f4" num="1" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/ashen_idol.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -33,7 +33,7 @@
             <cmc>2</cmc>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="2f7cf7c1-56bc-466e-920b-181de815da7f" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/covetous_demon.jpeg">DKS</set>
+        <set rarity="Common" uuid="e5d7f6d2-d4cf-4909-a27f-365f3fec1cde" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/covetous_demon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -47,7 +47,7 @@
             <cmc>2</cmc>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="7c861d49-7667-4540-a6c1-db92d268def2" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_merchant.jpeg">DKS</set>
+        <set rarity="Common" uuid="13804fc3-f347-43b3-b2f3-51d63b037496" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_merchant.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -63,7 +63,7 @@ When ~ leaves the battlefield, each player gets four souls.</text>
             <cmc>4</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" uuid="d9704b7d-249f-406b-9efa-36a87177ef98" num="4" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/four_kings.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="0dcdcf03-1879-4edf-900b-7071094a7c39" num="4" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/four_kings.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -78,7 +78,7 @@ Sacrifice ~: Exile target card in a graveyard.</text>
             <cmc>1</cmc>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="8893afc9-8b32-46f4-a465-43d44c7f0d30" num="5" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg">DKS</set>
+        <set rarity="Common" uuid="9bd586ab-473d-4b09-8c36-653f3aac2f82" num="5" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -93,23 +93,24 @@ Sacrifice ~: Exile target card in a graveyard.</text>
             <cmc>6</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" uuid="1f927a20-1572-4fcc-b80b-00ad152fb995" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/looking_glass_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="207bcb03-9862-4c3f-81a8-ace3f5beccbc" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/looking_glass_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
         <name>Pickle Pee, Pump-a-Rum</name>
-        <text>{T}, Sacrifice a noncreature permanent: Create a Treasure token.
-{T}, Sacrifice an equipment: Search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
+        <text>{2}, Discard a nonland card: Draw a card.
+{1}, Discard a land card: Create a Treasure token.
 {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Shapeshifter Bird</type>
             <maintype>Creature</maintype>
-            <manacost>{2}</manacost>
-            <cmc>2</cmc>
+            <manacost>{C}</manacost>
+            <cmc>1</cmc>
+            <colors>C</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="4fe7dd86-9f51-4b60-8850-b87968a745e3" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pickle_pee_pump_a_rum.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="0d9716c0-1ea3-4abf-8b07-fde08bb18adf" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pickle_pee_pump_a_rum.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -124,7 +125,7 @@ Sacrifice ~: Exile target card in a graveyard.</text>
             <cmc>2</cmc>
             <pt>0/2</pt>
         </prop>
-        <set rarity="Common" uuid="30d44884-e06f-4b25-9020-19b8960f04b5" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pyrewarden_of_the_things_betwixt.jpeg">DKS</set>
+        <set rarity="Common" uuid="d5b8fd5d-26b0-4b11-9955-d37cc040b6b7" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/pyrewarden_of_the_things_betwixt.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -139,7 +140,7 @@ Sacrifice ~: Exile target card in a graveyard.</text>
             <cmc>5</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" uuid="08ebf9a3-42f0-439f-8ca3-4c5d10eda94b" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="4d705cb6-9f4c-45e3-8c98-0955d6c9d27e" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -154,7 +155,7 @@ When ~ enters the battlefield, you get two souls.</text>
             <cmc>3</cmc>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="2b45b3af-ed10-45e2-9c03-7416bf3184db" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/winged_chimera.jpeg">DKS</set>
+        <set rarity="Common" uuid="cb1706ba-2d8d-4d17-afe4-ccc609ee6f71" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/winged_chimera.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -170,7 +171,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Rare" uuid="b6a897e9-2820-4f4a-8327-1846cf9cc8fc" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="b0aa26f4-e321-4273-bce2-6e1b936c8db6" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_front.jpeg">DKS</set>
         <related>Hollow Bride</related>
         <tablerow>2</tablerow>
     </card>
@@ -187,7 +188,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <colors>W</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="" uuid="e539c54e-b34e-4ca7-b375-1e26fb9f088b" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_back.jpeg">DKS</set>
+        <set rarity="" uuid="c420e951-d490-4a7b-a9e2-8fb13b5a89bd" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_back.jpeg">DKS</set>
         <related>Anri of Astora</related>
         <tablerow>2</tablerow>
     </card>
@@ -205,7 +206,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="ce588159-4575-4f5c-b68c-2cd82c026526" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/batwing_demon.jpeg">DKS</set>
+        <set rarity="Common" uuid="15f233e6-7d81-4659-828a-deec54b87294" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/batwing_demon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -221,7 +222,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="ff9a2f84-f362-47c8-be6c-3a2c65dd2c7a" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/blessed_cleric.jpeg">DKS</set>
+        <set rarity="Common" uuid="c6b451ca-bed2-4310-8bdb-cd5140df0f3a" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/blessed_cleric.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -237,7 +238,7 @@ If you would get one or more souls transform ~.</text>
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="abef307d-704f-4237-a6ad-c6c68180a4a9" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_front.jpeg">DKS</set>
+        <set rarity="Common" uuid="f1ed24cc-ca41-4c9b-9034-680832dd6c10" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_front.jpeg">DKS</set>
         <related>Pus of Man</related>
         <tablerow>2</tablerow>
     </card>
@@ -253,7 +254,7 @@ If you would get one or more souls transform ~.</text>
             <colors>W</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="" uuid="016cd6af-3a9e-48f4-b5bb-908abf90fcff" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_back.jpeg">DKS</set>
+        <set rarity="" uuid="3349e456-31e2-4cf3-b34b-e9ea5774442a" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_back.jpeg">DKS</set>
         <related>Corrupted Hollow</related>
         <tablerow>2</tablerow>
     </card>
@@ -268,7 +269,7 @@ If you would get one or more souls transform ~.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="2e19964d-c7fd-4e5b-a581-5a4837d1705a" num="15" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/disenchant.jpeg">DKS</set>
+        <set rarity="Common" uuid="08b9cc79-db22-40a3-ad9c-0a6f4aa6628d" num="15" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/disenchant.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -282,7 +283,7 @@ If you would get one or more souls transform ~.</text>
             <cmc>4</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Rare" uuid="97685aa3-d883-44e0-ada4-90a9898d293c" num="16" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/emit_force.jpeg">DKS</set>
+        <set rarity="Rare" uuid="c2cc7b2e-61b8-4cca-913c-abd3db22ffcf" num="16" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/emit_force.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -297,7 +298,7 @@ If you would get one or more souls transform ~.</text>
             <colors>W</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="fb501868-31ca-4955-95c6-a05be427c7cc" num="17" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/flexile_sentry.jpeg">DKS</set>
+        <set rarity="Common" uuid="f2aaf1ae-6226-462d-8ca0-62dfb190e9ea" num="17" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/flexile_sentry.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -313,7 +314,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
             <colors>W</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="6777583f-76b0-4dba-a914-13ecafc77e26" num="18" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/forossa_lion_knight.jpeg">DKS</set>
+        <set rarity="Common" uuid="4a256f32-a667-4a70-b86c-146385af9bbc" num="18" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/forossa_lion_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -329,7 +330,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="ab0bfd0b-1d3d-475c-a455-414c7e67b58b" num="19" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heretic_storyteller.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="f81cdcd0-9561-40a2-aee3-2b745eabd784" num="19" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heretic_storyteller.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -346,7 +347,7 @@ When ~ is turned face up it becomes a 3/1 and gains haste</text>
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="de018a17-9387-402d-93a1-3f525ba2cf0a" num="20" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg">DKS</set>
+        <set rarity="Common" uuid="08ccf503-7315-4a33-ac3d-e5f30f38e856" num="20" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -362,7 +363,7 @@ Equip costs you pay cost {1} less.</text>
             <colors>W</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" uuid="5130bb6f-ad5d-4af8-b2b5-f5eb769abee0" num="21" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="77b40b3a-b234-4bf0-9632-71c69cbb36e6" num="21" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -377,7 +378,7 @@ Equip costs you pay cost {1} less.</text>
             <colors>W</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="63cf87c3-21d6-49ff-9ca6-91c2f60f2259" num="22" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/knights_of_gwynevere.jpeg">DKS</set>
+        <set rarity="Common" uuid="3617da22-536e-416e-94d4-df5d72c7cbcf" num="22" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/knights_of_gwynevere.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -391,7 +392,7 @@ Equip costs you pay cost {1} less.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" uuid="6afa9654-e9fa-4449-b6ab-d633664c075a" num="23" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="da0f3123-c852-4ab0-8254-e920d95a1d08" num="23" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -406,7 +407,7 @@ Return target spell to its owner's hand. You get one soul.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="f85f677f-3ca8-4288-8a84-43c278f219dc" num="24" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/magic_barrier.jpeg">DKS</set>
+        <set rarity="Common" uuid="03c3aa28-ab41-45ec-a45d-1c67609fe39a" num="24" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/magic_barrier.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -422,7 +423,7 @@ Whenever you gain one or more souls at the beginning of your next upkeep you may
             <cmc>1</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" uuid="060b0675-e322-4f3f-8dc2-26845337af86" num="25" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="ce76b8a9-6139-4801-90b7-891c17bc9058" num="25" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -438,7 +439,7 @@ Players can't search libraries.</text>
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Common" uuid="84c338b0-6dce-44d2-85d5-30f7487e51b1" num="26" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg">DKS</set>
+        <set rarity="Common" uuid="d7813dad-4b19-4aba-a68c-b2b902d605f3" num="26" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -454,7 +455,7 @@ Whenever ~ deals damage you get one soul.</text>
             <colors>W</colors>
             <pt>3/1</pt>
         </prop>
-        <set rarity="Common" uuid="beea89b0-970b-4321-a41a-bcd7c48e04b5" num="27" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/new_londo_shade.jpeg">DKS</set>
+        <set rarity="Common" uuid="7758a3aa-1dd9-4af2-b813-238351e162ce" num="27" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/new_londo_shade.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -468,7 +469,7 @@ Whenever ~ deals damage you get one soul.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" uuid="8ac638b6-9db3-4ad7-b6ac-644296ca5423" num="28" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/petrified_egg.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="1a0bfa26-fa1b-4253-8e9e-b62455df02a1" num="28" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/petrified_egg.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -482,7 +483,7 @@ Whenever ~ deals damage you get one soul.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Rare" uuid="246b4562-c8dd-4cd4-b935-99a84c0acab5" num="29" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/reforge.jpeg">DKS</set>
+        <set rarity="Rare" uuid="cc1c2ba0-f4fe-41d2-a7f2-5658c3246fa8" num="29" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/reforge.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -499,7 +500,7 @@ Noncreature spells cost {1} more to cast.</text>
             <colors>W</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="ab587bd8-f1f1-4642-81c5-8429d64ecb1f" num="30" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/resting_merchant.jpeg">DKS</set>
+        <set rarity="Common" uuid="5d8df4f0-038f-4cea-b641-d7f141c416e3" num="30" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/resting_merchant.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -516,7 +517,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>W</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="Rare" uuid="6a1ea34a-ee61-4864-8e6e-cea4e2744a69" num="31" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="71187f3f-25d5-4c14-aee3-b3009cce4f8b" num="31" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_front.jpeg">DKS</set>
         <related>Knight of Catarina</related>
         <tablerow>2</tablerow>
     </card>
@@ -532,7 +533,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>W</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="" uuid="ea80b959-c6e2-47b1-b321-c9995499561a" num="31" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_back.jpeg">DKS</set>
+        <set rarity="" uuid="734e3465-c023-4adf-b08c-f1139cfa125e" num="31" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_back.jpeg">DKS</set>
         <related>Siegmeyer of Catarina</related>
         <tablerow>2</tablerow>
     </card>
@@ -549,7 +550,7 @@ Each player can't draw more than one card each turn.</text>
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="8c235dec-1a70-400c-a516-6b6695fd9c6e" num="32" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/solaire_of_astora.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="f0c5c719-3b5c-4f19-ad58-49f1c938fdd5" num="32" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/solaire_of_astora.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -565,7 +566,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>0</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="dc81b80d-97b6-4e33-bae2-70ff1f59c50b" num="33" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg">DKS</set>
+        <set rarity="Common" uuid="3fe9c0ed-8f9d-476b-a394-ef91bfcffa99" num="33" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soul_of_a_nameless_soldier.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -581,7 +582,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <colors>W</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Common" uuid="8d9b92f0-383e-4986-96cf-d3b07c7e41be" num="34" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg">DKS</set>
+        <set rarity="Common" uuid="31180ef5-a8b6-4b8e-b33f-dd4147dc14ee" num="34" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -597,7 +598,7 @@ Pay three souls, exile ~: draw a card.</text>
             <cmc>1</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="ad946c24-8dc3-439c-8e5f-0fbc0c76eb0d" num="35" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg">DKS</set>
+        <set rarity="Common" uuid="129a08c5-e699-4413-8c98-2d7e90f2ad52" num="35" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -611,7 +612,7 @@ Pay three souls, exile ~: draw a card.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="6cc17904-3d3c-4e8f-9e96-043f8b61d808" num="36" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/transient_curse.jpeg">DKS</set>
+        <set rarity="Common" uuid="4b91d323-6b91-401d-8e98-bf6b1d342942" num="36" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/transient_curse.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -628,7 +629,7 @@ Equipped creatures you control get +1/+1.</text>
             <colors>W</colors>
             <pt>1/3</pt>
         </prop>
-        <set rarity="Common" uuid="b589a45d-38af-487a-b4a9-5a5ffd835ce3" num="37" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/village_blacksmith.jpeg">DKS</set>
+        <set rarity="Common" uuid="f732498a-0bff-431f-8bb0-c88ca9d738ae" num="37" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/village_blacksmith.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -642,7 +643,7 @@ Equipped creatures you control get +1/+1.</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" uuid="931d6e61-1128-4537-909c-585024b8536b" num="38" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/vow_of_silence.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="48586cb4-8e02-44ed-b1c7-4033a2e2806a" num="38" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/vow_of_silence.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -657,7 +658,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
             <cmc>3</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Common" uuid="1731409d-7f58-41b3-b04f-5f0872a7650d" num="39" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/weary_travelers.jpeg">DKS</set>
+        <set rarity="Common" uuid="30497bd5-b505-4b01-a482-72f5a9e27a5d" num="39" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/weary_travelers.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -672,7 +673,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
             <colors>W</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Uncommon" uuid="fb414230-a7ad-45f5-8f39-acab4c022e90" num="40" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/wight.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b0ac2885-fbf0-424d-9bbf-d1cd394297b2" num="40" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/wight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -687,7 +688,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
             <colors>U</colors>
             <pt>2/3</pt>
         </prop>
-        <set rarity="Common" uuid="03bf8cbc-0bde-4c0d-99ed-7b59037fcf0a" num="41" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/adventuring_sorcerer.jpeg">DKS</set>
+        <set rarity="Common" uuid="13cb7532-a424-4724-8f47-94dc72697123" num="41" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/adventuring_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -702,7 +703,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
             <colors>U</colors>
             <pt>0/2</pt>
         </prop>
-        <set rarity="Common" uuid="6f54ffb8-5723-4341-b2ba-85fb80ea3275" num="42" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/amana_priestess.jpeg">DKS</set>
+        <set rarity="Common" uuid="73aabe57-195b-4068-a89a-ae93526b3868" num="42" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/amana_priestess.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -719,7 +720,7 @@ When ~ becomes the target of a spell or ability your opponent controls, you may 
             <colors>U</colors>
             <pt>5/5</pt>
         </prop>
-        <set rarity="Uncommon" uuid="e19d9baa-604b-4bd7-a022-000317649de4" num="43" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/angelic_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="ed438afd-1677-4fc7-a35b-622e94dc7f0a" num="43" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/angelic_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -734,7 +735,7 @@ Whenever a bonfire enters the battlefield under your control you may return ~ fr
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" uuid="dba24979-5604-4d5e-b6b0-0e26fb74890d" num="44" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="683fda0a-66ce-4731-af24-b29311539528" num="44" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -748,7 +749,7 @@ Whenever a bonfire enters the battlefield under your control you may return ~ fr
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="a985dc31-7c79-4c0b-bb2a-d711506ce1f5" num="45" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/aural_decoy.jpeg">DKS</set>
+        <set rarity="Common" uuid="3456fcca-d74c-4b9b-89db-ebf0bd1c636f" num="45" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/aural_decoy.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -764,7 +765,7 @@ Whenever you cast a spell tap target permanent. If that permanent was already ta
             <colors>U</colors>
             <pt>5/5</pt>
         </prop>
-        <set rarity="Rare" uuid="0d5de78a-5ac3-4fc4-b91f-a986c33d6a14" num="46" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg">DKS</set>
+        <set rarity="Rare" uuid="abded581-6ce7-456e-8c9c-01646a3f0dab" num="46" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -779,7 +780,7 @@ Gain control of target creature or artifact with mana cost equal to X.</text>
             <cmc>4</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" uuid="268adc07-a830-403e-bfba-8402a6f079d5" num="47" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/burning_ambition.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b041c2c8-6af6-4d52-b551-9bfe8768fe1b" num="47" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/burning_ambition.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -793,7 +794,7 @@ Gain control of target creature or artifact with mana cost equal to X.</text>
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="d44f209a-d3cb-479f-a33b-d1ae6074e05e" num="48" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/chameleon.jpeg">DKS</set>
+        <set rarity="Common" uuid="f21b62e3-a358-4d6d-ab48-03cb8d75acb1" num="48" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/chameleon.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -807,7 +808,7 @@ Gain control of target creature or artifact with mana cost equal to X.</text>
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Rare" uuid="146955f4-d4d8-4255-ada5-8c93b976b38f" num="49" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/contemplation.jpeg">DKS</set>
+        <set rarity="Rare" uuid="c9c372bb-2c10-4cc7-8294-7672f0b1ba49" num="49" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/contemplation.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -823,7 +824,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
             <colors>U</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Common" uuid="04140a85-128a-418a-82f3-57f90cc6b52e" num="50" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/crystal_butterfly.jpeg">DKS</set>
+        <set rarity="Common" uuid="c24653b1-80ba-4103-8016-88ca337df529" num="50" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/crystal_butterfly.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -837,7 +838,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="7eceb058-2723-4e6c-9bdb-fee7ac6752a1" num="51" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg">DKS</set>
+        <set rarity="Common" uuid="3bdfa4ac-2711-4ed4-88e9-63e32ae1e68d" num="51" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -852,7 +853,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
             <colors>U</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Rare" uuid="81cd610d-90f0-464f-8a77-dfc2ce9f35bf" num="52" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg">DKS</set>
+        <set rarity="Rare" uuid="b59df456-9c7b-43eb-8876-6950a1fe5252" num="52" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -868,7 +869,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
             <colors>U</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="Common" uuid="a3a93c7c-9295-4680-a6b1-8d9980c9aeb9" num="53" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/great_crab.jpeg">DKS</set>
+        <set rarity="Common" uuid="9501112a-fc44-4b8c-aa3f-85eaee79789d" num="53" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/great_crab.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -883,7 +884,7 @@ Draw a card.</text>
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="a7215dfa-fdad-4010-b4e5-fcd86a0238dc" num="54" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_body.jpeg">DKS</set>
+        <set rarity="Common" uuid="c2033644-7b92-4b52-a11e-87042c1612ff" num="54" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_body.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -898,7 +899,7 @@ Draw a card.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="ad17f6c9-d5da-4ff2-88f4-3aea1a4d587c" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg">DKS</set>
+        <set rarity="Common" uuid="55ce1ba7-c498-49f5-9ed4-124ccf2edf2b" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -913,7 +914,7 @@ Draw a card.</text>
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="0155aab6-eaf9-485d-b3ee-923bd6e7d1e6" num="56" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg">DKS</set>
+        <set rarity="Common" uuid="6ddaabf5-bb1d-4fae-8de6-bd47482ac7ed" num="56" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -927,7 +928,7 @@ Draw a card.</text>
             <cmc>6</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Mythic" uuid="de06ed96-0e96-415c-9c12-92497c8d78cc" num="57" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/into_the_abyss.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="be1c075e-2d1a-4d3f-af22-c5169ebcddf4" num="57" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/into_the_abyss.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -943,7 +944,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="f4df2d72-93cc-485b-ba06-04d1cce6b3c2" num="58" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/invisible_hollow.jpeg">DKS</set>
+        <set rarity="Common" uuid="d0cf8fc6-cabb-4a49-badb-6ad155905f61" num="58" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/invisible_hollow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -957,7 +958,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="8159a9d9-db63-4ff1-bdbd-61bcbaba7eef" num="59" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/lost_spell_from_oolacile.jpeg">DKS</set>
+        <set rarity="Common" uuid="e0e5cef1-0715-41d7-84fd-760d72247ef6" num="59" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/lost_spell_from_oolacile.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -971,7 +972,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <cmc>4</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="5dadc576-4daa-4e57-90e6-ad3db1b73c7b" num="60" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg">DKS</set>
+        <set rarity="Common" uuid="e864faf9-2a04-4f1e-845c-04ac8549626a" num="60" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -986,7 +987,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <colors>U</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="a55f8a89-9b35-4fd1-8078-1cdd0766ccee" num="61" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg">DKS</set>
+        <set rarity="Common" uuid="8e9d5e2a-33eb-4549-9621-e430f618934e" num="61" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1003,7 +1004,7 @@ When ~ is turned face up tap target creature an opponent controls. That creature
             <colors>U</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="adb57801-d3a2-4cdd-a7f4-6bf4cd0fe912" num="62" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg">DKS</set>
+        <set rarity="Rare" uuid="aee42ffd-db40-48fd-8798-a8838b6d3867" num="62" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1020,7 +1021,7 @@ When ~ leaves the battlefield draw a card.</text>
             <cmc>3</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" uuid="45cd719b-91fa-4789-9aeb-735e3a4da46b" num="63" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="9e24d319-834d-48f8-bb2a-77848ba7003b" num="63" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1036,7 +1037,7 @@ When ~ leaves the battlefield draw a card.</text>
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="b53ce866-bba5-4b4c-8c3c-c78d2d02b7a2" num="64" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ruin_banshee.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b26cea1d-65eb-4f81-bb69-1c60f76616ea" num="64" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ruin_banshee.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1051,7 +1052,7 @@ Scry 4, then draw two cards.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" uuid="03379623-afb3-48fa-bdff-ef81caa92785" num="65" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/search_the_library.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3544e824-3949-4db0-8a94-720985a69412" num="65" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/search_the_library.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1067,7 +1068,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>0</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" uuid="d7b72b8d-83d9-4446-8981-d0343823fecf" num="66" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg">DKS</set>
+        <set rarity="Common" uuid="94fa316b-68f8-48d2-8ed0-f1a8c97f0dd5" num="66" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1081,7 +1082,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>3</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Rare" uuid="9b44c37c-0537-405c-bd56-b7688acbeaa3" num="67" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_spear.jpeg">DKS</set>
+        <set rarity="Rare" uuid="fb7bc656-13aa-4260-a82a-56a0a9e4a818" num="67" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_spear.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1096,7 +1097,7 @@ Target player puts the top X cards from his or her library into his or her grave
             <cmc>4</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Rare" uuid="ead9bff2-cd63-42bb-ba48-d370adfc0083" num="68" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_stream.jpeg">DKS</set>
+        <set rarity="Rare" uuid="4f975ea5-0bfe-43aa-9935-5feb480053ab" num="68" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_stream.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1115,7 +1116,7 @@ Target player puts the top X cards from his or her library into his or her grave
             <colors>U</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="Mythic" uuid="9cd2bffb-58c0-43ef-952f-a95c8d978218" num="69" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/vordt_and_the_dancer.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="2d6c4892-9a76-401b-bec2-a2996dd0cb78" num="69" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/vordt_and_the_dancer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1131,7 +1132,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
             <colors>U</colors>
             <pt>3/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="cc979ed7-ac52-4eba-a3ce-7ccd98f07ca7" num="70" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3868444d-7046-436c-b894-33dca42d6e6d" num="70" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1145,7 +1146,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
             <cmc>1</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="246ec3e4-b306-458f-8cae-d91a5440ad91" num="71" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg">DKS</set>
+        <set rarity="Common" uuid="fa9a8588-ba0b-4886-9367-def76d2dbd5c" num="71" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1160,7 +1161,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
             <colors>B</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" uuid="adb0b787-23de-4248-a9e5-b5796fb589a1" num="72" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg">DKS</set>
+        <set rarity="Rare" uuid="1c3ea93e-aaf0-43ca-85f2-7691425c4894" num="72" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1174,7 +1175,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" uuid="253af3f1-58ab-4716-922f-3f58f4d98483" num="73" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/bonfire_ascetic.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3711804e-9bf8-4030-87a1-c6859891bfcf" num="73" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/bonfire_ascetic.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1189,7 +1190,7 @@ Enchanted equipment has "Equipped creature has bleed. (If a creature or player w
             <cmc>1</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" uuid="31d54fc9-40c5-4873-be82-440359335d17" num="74" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/carthus_rouge.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="28e00f83-e617-4fe0-a520-4e234d2d988b" num="74" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/carthus_rouge.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1204,7 +1205,7 @@ Enchanted equipment has "Equipped creature has bleed. (If a creature or player w
             <colors>B</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Uncommon" uuid="7fe6c1c2-b072-4467-aefa-4cf3bb30d03e" num="75" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/charred_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="a728dc70-7166-4424-bc9c-b385ad77babf" num="75" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/charred_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1219,7 +1220,7 @@ Whenever you gain one or more souls, at the beginning of your next upkeep you ma
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" uuid="a50b9210-74a1-4f5e-af18-57fa44c1b0d2" num="76" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="728fdbfc-084c-4afa-862e-d4637c2fd6cc" num="76" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1236,7 +1237,7 @@ When this card is turned face up attach it to target player and destroy target c
             <cmc>2</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" uuid="1c1bb3e7-8e79-489b-aa87-6f20ddabee19" num="77" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/clawed_curse.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="51f06453-4f37-4399-ae4d-74f51ac5eae6" num="77" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/clawed_curse.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1252,7 +1253,7 @@ Whenever a creature controlled by enchanted player dies you, draw one card, lose
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Mythic" uuid="de1c91cd-3204-4341-86f4-27b6cdd93a95" num="78" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="a7a9f261-d66c-4059-a0df-0c39a12a815f" num="78" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1270,7 +1271,7 @@ Choose one -
             <cmc>2</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="2a336195-0769-454b-80f4-af700b6e2d2b" num="79" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_edge.jpeg">DKS</set>
+        <set rarity="Common" uuid="f8b26cba-19cd-494f-9025-4a5157ee5426" num="79" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_edge.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1284,7 +1285,7 @@ Choose one -
             <cmc>1</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="26edc037-b39f-41c8-b9b4-fafc0a4693b4" num="80" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_hand_of_kaathe.jpeg">DKS</set>
+        <set rarity="Common" uuid="d13e22f2-86ce-4e7e-81be-f2177e30dd17" num="80" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_hand_of_kaathe.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1300,7 +1301,7 @@ Choose one -
             <colors>B</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Rare" uuid="ffe4f0da-85e6-408d-97b6-38d6dbfbfc35" num="81" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg">DKS</set>
+        <set rarity="Rare" uuid="1aadba1a-c83c-4664-a45b-e6a0ba89d4f6" num="81" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1315,7 +1316,7 @@ You lose 3 life.</text>
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="257ad444-555f-426b-aec2-3049d00168d3" num="82" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/deep_fog.jpeg">DKS</set>
+        <set rarity="Common" uuid="f9a1db8c-1f80-4dd0-b65f-4fb50c11320d" num="82" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/deep_fog.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1331,7 +1332,7 @@ Hollow, skeleton, and zombie creatures you control get +1/+1.</text>
             <colors>B</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Common" uuid="e0332e73-18b6-4c43-a96a-7aa04d998c02" num="83" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_warden.jpeg">DKS</set>
+        <set rarity="Common" uuid="864a8d49-3ecf-4922-aa51-6151f48f99c0" num="83" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_warden.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1346,7 +1347,7 @@ Search your library for two red and/or black cards. Reveal them, then put one in
             <cmc>4</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Rare" uuid="89e86251-9ec2-4664-9c54-4593b7ec8048" num="84" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_wardens_tome.jpeg">DKS</set>
+        <set rarity="Rare" uuid="e0009df4-7b16-480f-a1e5-c17fc4b65e74" num="84" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_wardens_tome.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1363,7 +1364,7 @@ Whenever a creature dies you get one soul.</text>
             <colors>B</colors>
             <pt>10/10</pt>
         </prop>
-        <set rarity="Mythic" uuid="c0bb7603-dd62-406c-a772-db3f74e909f2" num="85" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/gravelord_nito.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="7e61cc67-edeb-423d-b057-29b722eb09b4" num="85" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/gravelord_nito.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1378,7 +1379,7 @@ Destroy target nonzombie, nonhollow creature. You lose 2 life and get two souls.
             <cmc>2</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="7f6dfcd8-d416-4727-ac07-fdd431911870" num="86" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grip_of_death.jpeg">DKS</set>
+        <set rarity="Common" uuid="2fcda855-dc1f-4148-a469-0ee10e1d30f2" num="86" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grip_of_death.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1394,7 +1395,7 @@ Destroy target nonzombie, nonhollow creature. You lose 2 life and get two souls.
             <colors>B</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="5da4dd52-621f-4a3f-af69-99c8e90bac20" num="87" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hollow_soldier.jpeg">DKS</set>
+        <set rarity="Common" uuid="4aff2edf-4329-4dc6-bcca-3e0fdab2d267" num="87" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hollow_soldier.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1410,7 +1411,7 @@ When ~ enters the battlefield target player reveals cards from their hand equal 
             <colors>B</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Common" uuid="c395d0b7-5403-4b69-9ddc-db0bf4475aa3" num="88" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hound_rat.jpeg">DKS</set>
+        <set rarity="Common" uuid="d69fd683-0ec6-46bf-ac59-95b71843d2f2" num="88" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hound_rat.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1425,7 +1426,7 @@ When ~ enters the battlefield target player reveals cards from their hand equal 
             <colors>B</colors>
             <pt>1/3</pt>
         </prop>
-        <set rarity="Uncommon" uuid="29f715ca-dc33-47e0-bc2d-6812796a5607" num="89" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/jailer.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b528d7d3-56b2-4e9f-b194-ba3eb82a975c" num="89" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/jailer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1441,7 +1442,7 @@ Other Hollow creatures you control get +1/+1</text>
             <colors>B</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="59df213a-5afe-4d04-8dca-8f0f0a8d0807" num="90" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lothric_sentry.jpeg">DKS</set>
+        <set rarity="Common" uuid="606ba6d3-fcfa-428e-871b-7bc79278b2ae" num="90" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lothric_sentry.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1457,7 +1458,7 @@ Whenever a hollow, skeleton, or zombie creature enters the battlefield you may p
             <colors>B</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Uncommon" uuid="18ef3fba-639b-4028-a791-f0c123553d90" num="91" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lordran_necromancer.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="14c0eea2-addb-496f-bacd-7e6149c0e13a" num="91" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lordran_necromancer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1474,7 +1475,7 @@ You may choose to not untap ~ during your untap step
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="7a0e1b12-fe6e-4e4e-b594-220809919ae2" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/nimble_shadow.jpeg">DKS</set>
+        <set rarity="Rare" uuid="c1ef328b-c720-483f-bf44-2bedc1a39382" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/nimble_shadow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1490,7 +1491,7 @@ You may choose to not untap ~ during your untap step
             <colors>B</colors>
             <pt>3/1</pt>
         </prop>
-        <set rarity="Common" uuid="bfc0a645-306e-467b-bda1-fbf2ecbd81a4" num="93" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/parasite_worm.jpeg">DKS</set>
+        <set rarity="Common" uuid="d8ae418d-c586-4a38-8f0c-28092d6c440c" num="93" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/parasite_worm.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1506,7 +1507,7 @@ Whenever ~ deals damage to a player put one bleed counter each creature that pla
             <colors>B</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="6baf18df-475a-488c-8d95-3c6f43eeb1ca" num="94" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/royal_rat_vanguard.jpeg">DKS</set>
+        <set rarity="Common" uuid="fe2a321f-c291-4cc5-9905-83d22445cf0d" num="94" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/royal_rat_vanguard.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1521,7 +1522,7 @@ You draw X cards, lose X life, and get X souls.</text>
             <cmc>2</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="6495f50b-0405-4cc1-a472-6050081b6929" num="95" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg">DKS</set>
+        <set rarity="Common" uuid="3b9461c0-ac8c-47fa-afc4-d14dcbb6dc54" num="95" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1536,7 +1537,7 @@ Target player reveals his or her hand. You may choose a nonland card. That playe
             <cmc>1</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Rare" uuid="b85b259b-be3c-4e3d-bbe7-7f6c4796ab2a" num="96" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg">DKS</set>
+        <set rarity="Rare" uuid="f9a049c1-ec33-4b21-8e78-db7a1220e41c" num="96" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1552,7 +1553,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>0</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" uuid="2fed26bd-50c1-450b-9f1b-703bed64c890" num="97" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/soul_of_a_sorrowful_spirit.jpeg">DKS</set>
+        <set rarity="Common" uuid="93bc50ab-5c6b-4111-8d69-50e43b8de436" num="97" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/soul_of_a_sorrowful_spirit.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1567,7 +1568,7 @@ Enchanted land has "Each land you control is a Swamp in addition to its other la
             <cmc>1</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Rare" uuid="26b7aa46-1685-4c45-ab5c-fd2329de6582" num="98" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/the_great_swamp.jpeg">DKS</set>
+        <set rarity="Rare" uuid="ba32a0f2-913e-43c4-a144-04d4f63c8c81" num="98" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/the_great_swamp.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1584,7 +1585,7 @@ Whenever ~ is dealt damage, if that damage was from a source that is red, destro
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="9c357385-5b96-466d-9e7e-949c3481fe29" num="99" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg">DKS</set>
+        <set rarity="Common" uuid="0d672c76-18a3-40c3-a39d-5735c37d7fa0" num="99" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1598,7 +1599,7 @@ Whenever ~ is dealt damage, if that damage was from a source that is red, destro
             <cmc>4</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" uuid="a7b4d783-cbb0-4b66-b469-e740c0b0f611" num="100" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/wake_the_hollows.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="34c68385-e517-46c5-b7d6-67f2d065ef26" num="100" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/wake_the_hollows.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1612,7 +1613,7 @@ Whenever ~ is dealt damage, if that damage was from a source that is red, destro
             <cmc>3</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Uncommon" uuid="20e34e10-5d66-4161-8f22-4d538091ccaf" num="101" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/acid_surge.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="1eb3f8f3-7bfd-45a6-bbc5-5fbb10f5be88" num="101" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/acid_surge.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1628,7 +1629,7 @@ When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens
             <colors>R</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="0dee6068-ebfb-4130-8057-00f87fdc5cb0" num="102" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/capra_demon.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="4e836ec2-7df0-49d5-84c5-2085dba0292f" num="102" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/capra_demon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1643,7 +1644,7 @@ When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens
             <cmc>3</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" uuid="5b4bd21c-9e3e-4a27-96dd-5f61d28761d7" num="103" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_bed_vestiges.jpeg">DKS</set>
+        <set rarity="Rare" uuid="675afc3d-bb18-4ede-bad5-dd917c8d3ce7" num="103" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_bed_vestiges.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1659,7 +1660,7 @@ When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="19895082-7494-4455-9a97-a68724264a12" num="104" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_storm.jpeg">DKS</set>
+        <set rarity="Common" uuid="6e08339e-d9bd-4a13-b688-d853bb4a6302" num="104" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/chaos_storm.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1673,7 +1674,7 @@ When ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens
             <cmc>3</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="06f1afd2-1063-4be6-a152-870e9bde7f39" num="105" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cracked_redeye_orb.jpeg">DKS</set>
+        <set rarity="Common" uuid="01fe9d82-2db5-42fe-a142-b5088f18975d" num="105" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cracked_redeye_orb.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1690,7 +1691,7 @@ Whenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of tur
             <colors>R</colors>
             <pt>2/4</pt>
         </prop>
-        <set rarity="Common" uuid="6ab3889f-6958-4349-9eee-d2215d9bcf5e" num="106" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cragspider.jpeg">DKS</set>
+        <set rarity="Common" uuid="a6ee67f0-3c10-41eb-a348-dc726bd849f0" num="106" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cragspider.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1706,7 +1707,7 @@ Whenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of tur
             <colors>R</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Common" uuid="b40b89b1-2364-4ea3-b505-a15d829a2276" num="107" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/desert_pyromancer.jpeg">DKS</set>
+        <set rarity="Common" uuid="b8b3bdec-e73c-4bf7-80bb-2adfce76f50d" num="107" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/desert_pyromancer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1722,7 +1723,7 @@ Whenever a lord leaves the battlefield put an effigy counter on ~.
             <cmc>3</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Uncommon" uuid="10b93d4d-eebb-40c9-b1b7-cd1b96e3c9a7" num="108" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fiery_soapstone.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="19264943-06f3-48b0-95a0-a164e0ae14e3" num="108" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fiery_soapstone.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1738,7 +1739,7 @@ Whenever you gain one or more souls, at the beginning of your next upkeep you ma
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Uncommon" uuid="a25ebd0c-9608-4b56-87c9-9c8bc9f43452" num="109" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="56b2ee82-7ee7-41ae-8dab-2cb9b51acda1" num="109" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1753,7 +1754,7 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="64ed6168-3a0b-4fb2-b212-6dc9f0a5c2ed" num="110" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_surge.jpeg">DKS</set>
+        <set rarity="Common" uuid="b5e1d912-97cc-406e-b681-f42af91c0100" num="110" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_surge.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1768,7 +1769,7 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
             <colors>R</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="835894b7-a7f9-4286-a5b3-badd0e4a30ff" num="111" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b155a1a9-8f6e-4d65-a469-4a27064864f7" num="111" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1784,7 +1785,7 @@ When ~ enters the battlefield, it deals 1 damage to each creature you don't cont
             <colors>R</colors>
             <pt>6/4</pt>
         </prop>
-        <set rarity="Common" uuid="6a27b093-1b85-4c2d-8869-3ab849076076" num="112" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firesage_demon.jpeg">DKS</set>
+        <set rarity="Common" uuid="6328fb09-fbd5-4c02-8b76-323ed4563095" num="112" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firesage_demon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1800,7 +1801,7 @@ Enchanted creature gains "{2}{R}{R}, {T}, Pay 2 souls: Enchanted creature deals 
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Uncommon" uuid="983fbfd9-934c-4ad1-9fdf-ab21d4b88514" num="113" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flame_whip.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="d9a071bd-fd48-4e64-82fb-770ed381360c" num="113" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flame_whip.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1817,7 +1818,7 @@ If ~ leaves the battlefield, you get one soul.
             <colors>R</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="ecec2271-c4b4-4798-a10a-86eff9466248" num="114" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flamewielding_hollow.jpeg">DKS</set>
+        <set rarity="Common" uuid="a1416c1b-9793-4b31-b563-b8a3543178b5" num="114" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flamewielding_hollow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1831,7 +1832,7 @@ If ~ leaves the battlefield, you get one soul.
             <cmc>5</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" uuid="d13a7a7d-a4b9-46fc-9ca3-1e5e312eeb8a" num="115" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/forbidden_sun.jpeg">DKS</set>
+        <set rarity="Rare" uuid="42182fec-144c-415d-9ecf-6d114ea9a7d3" num="115" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/forbidden_sun.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1847,7 +1848,7 @@ When ~ leaves the battlefield search your library for an artifact card with conv
             <colors>R</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Rare" uuid="df9b2757-fa09-4617-a7ba-0fe728073529" num="116" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hellkite_wyvern.jpeg">DKS</set>
+        <set rarity="Rare" uuid="1d1d1c08-6d60-4ecd-a8b5-ee078bd08a43" num="116" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hellkite_wyvern.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1861,7 +1862,7 @@ When ~ leaves the battlefield search your library for an artifact card with conv
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="f06e14c2-b383-4019-8898-0dffd9b663c5" num="117" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hollow_infantry.jpeg">DKS</set>
+        <set rarity="Common" uuid="6badd0dd-6d33-4d65-8f19-1f5f0dbcfbc1" num="117" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/hollow_infantry.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1876,7 +1877,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Uncommon" uuid="af73d3f5-5d25-4ce9-9c6b-97077c32489b" num="118" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ignite_steel.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="2371cf37-7a5c-4d55-a710-bbe3c9349137" num="118" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ignite_steel.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1890,7 +1891,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" uuid="a9a1716e-4ab1-46a2-ba9d-0cabc50ba154" num="119" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg">DKS</set>
+        <set rarity="Rare" uuid="68ece7d3-5a24-4c8e-af3f-de71bf3b1335" num="119" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1907,7 +1908,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <colors>R</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="cb0741b8-ceb3-4d6e-be0e-16dbd5071bca" num="120" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/pesky_mosquito.jpeg">DKS</set>
+        <set rarity="Common" uuid="d05754b3-e3ee-4c07-87bf-ec4d3b2de736" num="120" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/pesky_mosquito.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1923,7 +1924,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="668cb1b6-7683-4611-81af-d63dad103174" num="121" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profaned_flame.jpeg">DKS</set>
+        <set rarity="Common" uuid="0a2c53b9-fc31-4256-af36-5c4ddb61bca7" num="121" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profaned_flame.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1941,7 +1942,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="ceb24c95-0d6e-42b4-9380-7b4e73d1bcfc" num="122" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profuse_sweat.jpeg">DKS</set>
+        <set rarity="Common" uuid="389b46f1-cd2e-4ac9-af63-cac66d853689" num="122" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profuse_sweat.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1955,7 +1956,7 @@ Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a no
             <cmc>3</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="04d7f81d-6505-49bf-96d3-64b808033010" num="123" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/rapport.jpeg">DKS</set>
+        <set rarity="Common" uuid="2801b6a5-6569-4ebd-94d9-c060d0721370" num="123" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/rapport.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1972,7 +1973,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>R</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Mythic" uuid="2cad3c93-9e43-4435-9b05-a42fbc58ac34" num="124" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_front.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="d9110b7a-998f-46a5-9875-14b5219ff507" num="124" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_front.jpeg">DKS</set>
         <related>Rosaria's Finger</related>
         <tablerow>2</tablerow>
     </card>
@@ -1989,7 +1990,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <colors>R</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="" uuid="776e7411-a6a7-40b2-930e-8dbe0548df68" num="124" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_back.jpeg">DKS</set>
+        <set rarity="" uuid="15c0d28b-ab2a-4074-bbdd-3819794a3f0d" num="124" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_back.jpeg">DKS</set>
         <related>Ringfinger Leonhard</related>
         <tablerow>2</tablerow>
     </card>
@@ -2007,7 +2008,7 @@ When ~ is turned face up it deals 3 damage to any target.</text>
             <colors>R</colors>
             <pt>1/5</pt>
         </prop>
-        <set rarity="Uncommon" uuid="8964491c-a669-4323-9a17-ca70c6ddcc8a" num="125" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/smoldering_rotten_flesh.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="346d98f5-b5b1-4b4a-9bae-df1c8f97f732" num="125" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/smoldering_rotten_flesh.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2023,7 +2024,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>0</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="19dc4923-e400-478c-a32e-1d6ec9a9fe15" num="126" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/soul_of_an_old_pyromancer.jpeg">DKS</set>
+        <set rarity="Common" uuid="b771bb32-2708-4266-a5fb-82b4c896c704" num="126" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/soul_of_an_old_pyromancer.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2039,7 +2040,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <colors>R</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="8e82e5ae-8510-459a-a3f2-b4d2d1238efa" num="127" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/sunlight_maggot.jpeg">DKS</set>
+        <set rarity="Common" uuid="6bc36155-14a2-4dfa-b661-d717bccc11e7" num="127" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/sunlight_maggot.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2055,7 +2056,7 @@ Whenever ~ blocks or is blocked by a Human, it gains first strike until end of t
             <colors>R</colors>
             <pt>4/3</pt>
         </prop>
-        <set rarity="Common" uuid="ea63c7d1-5dc3-402a-aeea-4605789b94fd" num="128" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/taurus_demon.jpeg">DKS</set>
+        <set rarity="Common" uuid="504c6c12-e163-4d11-a9dd-625b57f32137" num="128" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/taurus_demon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2072,7 +2073,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>R</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="6a9300ce-e37a-4ae6-be7e-aed183c96f5c" num="129" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="27576456-38a8-450c-8210-b5f385cdc8f2" num="129" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_front.jpeg">DKS</set>
         <related>Lapp</related>
         <tablerow>2</tablerow>
     </card>
@@ -2088,7 +2089,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>R</colors>
             <pt>5/5</pt>
         </prop>
-        <set rarity="" uuid="c8677973-6d8b-4d25-98da-3767edb61d70" num="129" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_back.jpeg">DKS</set>
+        <set rarity="" uuid="bb86f3b1-cbad-4c82-9e51-144ad3e948d3" num="129" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_back.jpeg">DKS</set>
         <related>Unbreakable Patches</related>
         <tablerow>2</tablerow>
     </card>
@@ -2103,7 +2104,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" uuid="3e8202aa-e8bb-42aa-a17b-9e01e6afd6d2" num="130" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unkindleds_journey.jpeg">DKS</set>
+        <set rarity="Common" uuid="128d420a-3fe4-41d4-9034-fb7c2c5970ba" num="130" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unkindleds_journey.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2120,7 +2121,7 @@ Fate counters remain on ~ unless it moves to a player's hand or library.</text>
             <colors>G</colors>
             <pt>5/5</pt>
         </prop>
-        <set rarity="Mythic" uuid="30952912-2e6b-4468-bb5b-cf9e3b0cc4fa" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_front.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="e4c08ae1-49e6-4b5b-a351-c8ede4c50865" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_front.jpeg">DKS</set>
         <related>Undead Legion</related>
         <tablerow>2</tablerow>
     </card>
@@ -2137,7 +2138,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>G</colors>
             <pt>5/5</pt>
         </prop>
-        <set rarity="" uuid="9d33ef08-1459-47bc-885a-f7781f7732bf" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
+        <set rarity="" uuid="88eb7e8d-ae04-4893-80d5-b202fd165e90" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
         <related>Abyss Watchers</related>
         <tablerow>2</tablerow>
     </card>
@@ -2152,7 +2153,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="6ace745d-843d-44a4-a604-df566b794d5d" num="132" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/alluring_skull.jpeg">DKS</set>
+        <set rarity="Common" uuid="63cd3ecc-e9b2-4602-9c3b-50da519bbc70" num="132" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/alluring_skull.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2171,7 +2172,7 @@ When ~ is turned face up, Choose one -
             <colors>G</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="4ec27418-e9ec-4f3e-ace9-83786f101c26" num="133" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg">DKS</set>
+        <set rarity="Common" uuid="37b08358-28fc-457b-9e36-d8b9ed732c5b" num="133" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2185,7 +2186,7 @@ When ~ is turned face up, Choose one -
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="32bdfc72-c135-4e3f-a098-ded84b587912" num="134" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/corrode.jpeg">DKS</set>
+        <set rarity="Common" uuid="5a3cda32-9789-4042-9721-e3d6e42fd38d" num="134" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/corrode.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2204,7 +2205,7 @@ Choose one -
             <cmc>4</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Uncommon" uuid="10ae2b9b-3513-47f7-8ac1-1a5c9f30765f" num="135" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/covenant_of_the_forest_hunter.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="5e9252cc-6589-46df-ab2b-4b7db8e3266a" num="135" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/covenant_of_the_forest_hunter.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2222,7 +2223,7 @@ Whenever ~ deals damage to a creature, tap that creature. That creature doesn't 
             <colors>G</colors>
             <pt>4/5</pt>
         </prop>
-        <set rarity="Uncommon" uuid="fc3f0d9e-c5b8-45c2-b11c-fc0038911c5a" num="136" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dukes_dear_freja.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="92dea0d3-44e2-414f-bc92-81104e9db2e6" num="136" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dukes_dear_freja.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2240,7 +2241,7 @@ Whenever ~ is turned face up choose one -
             <colors>G</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="4ddf83e3-8b5b-41d0-b2e0-eea4766892ba" num="137" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg">DKS</set>
+        <set rarity="Common" uuid="8a014598-3d94-4c6b-a75d-daaf942b512f" num="137" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2255,7 +2256,7 @@ Whenever a bonfire enters the battlefield under your control return ~ from your 
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="720e4310-e9fe-44c2-9c6c-a610a14ae2fc" num="138" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg">DKS</set>
+        <set rarity="Common" uuid="2bcdf3d3-6867-420b-81f8-e7d396114454" num="138" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2271,7 +2272,7 @@ Whenever a creature enters the battlefield under your control reveal the top car
             <colors>G</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="f582c5e5-554c-4698-8379-5deefbd91498" num="139" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/evangelist_of_the_deep.jpeg">DKS</set>
+        <set rarity="Common" uuid="6409fc87-07b8-49b3-9230-eb4026e3973f" num="139" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/evangelist_of_the_deep.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2287,7 +2288,7 @@ Whenever ~ becomes tapped put a bleed counter target creature. (As long as a cre
             <colors>G</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" uuid="ab2c0d07-2c22-4e1d-a7c4-971a1bce423a" num="140" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/festering_goblin.jpeg">DKS</set>
+        <set rarity="Common" uuid="d5bd351d-7353-48e4-8e15-1af46a5c116f" num="140" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/festering_goblin.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2304,7 +2305,7 @@ Whenever ~ deals damage to a player destroy target artifact that player controls
             <colors>G</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" uuid="a5e39d76-80f0-44e8-a7ca-51a2b1ef45ce" num="141" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg">DKS</set>
+        <set rarity="Rare" uuid="75f89473-37f8-4277-877b-2e787e365e7e" num="141" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2321,7 +2322,7 @@ Whenever you play a land, if it's the second land you've played this turn put a 
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="01af9eba-f7f2-470d-87a3-787c564c12c1" num="142" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hesitant_surveyor.jpeg">DKS</set>
+        <set rarity="Common" uuid="d9ad2cfe-884a-44b3-8042-14122cad40ca" num="142" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hesitant_surveyor.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2337,7 +2338,7 @@ Whenever you play a land, if it's the second land you've played this turn put a 
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="14125a2e-5ab7-4fd3-9209-7345df08efc8" num="143" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hollow_knight.jpeg">DKS</set>
+        <set rarity="Common" uuid="db8aa68e-27be-44ea-bdb1-042a5092cc28" num="143" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hollow_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2353,7 +2354,7 @@ Whenever you play a land, if it's the second land you've played this turn put a 
             <colors>G</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="558e43cf-5d49-437e-85bc-dc881630360c" num="144" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/lothric_knight.jpeg">DKS</set>
+        <set rarity="Common" uuid="3b7c4f2d-1ed0-446d-b701-141fdf119bf4" num="144" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/lothric_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2370,7 +2371,7 @@ Pay two souls: Draw a card if an opponent has cast a blue or black spell this tu
             <colors>G</colors>
             <pt>0/2</pt>
         </prop>
-        <set rarity="Common" uuid="4bf852c8-0a57-4e95-a4bc-c2eba20a3e01" num="145" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg">DKS</set>
+        <set rarity="Common" uuid="991d0591-19b9-489e-a37c-cd6a4d71e3b5" num="145" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2386,7 +2387,7 @@ Whenever ~ is turned face up target creature blocking or blocked by ~ gets -4/-4
             <colors>G</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Uncommon" uuid="c0146e93-290c-4782-9e04-74cbd8a8d8f8" num="146" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/mimic.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="722aa5f7-9ea4-4388-9bff-7ed1da1287fa" num="146" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/mimic.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2402,7 +2403,7 @@ Sacrifice ~: Search your library for a creature, land, or enchantment card. Reve
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Rare" uuid="f3df398a-3bd4-4eaa-b1aa-f2bd9b598113" num="147" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg">DKS</set>
+        <set rarity="Rare" uuid="c4f8d829-e7fc-4ab3-b2fa-7f6b0caea801" num="147" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2419,7 +2420,7 @@ Whenever ~ deals combat damage to a creature prevent that damage. Put a stun cou
             <colors>G</colors>
             <pt>*/2</pt>
         </prop>
-        <set rarity="Common" uuid="2f5e0597-126b-4e84-899c-4eb862b0c970" num="148" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg">DKS</set>
+        <set rarity="Common" uuid="1a952ecc-73be-4703-b9bf-7b94d6879a19" num="148" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2437,7 +2438,7 @@ Whenever ~ deals combat damage to a creature prevent that damage. Put a stun cou
             <colors>G</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Common" uuid="b63b7954-a5c8-4912-87c5-211d5e151c16" num="149" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/proselyte_scarlett.jpeg">DKS</set>
+        <set rarity="Common" uuid="b50729c8-e49b-47ea-b266-e7cf24819caf" num="149" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/proselyte_scarlett.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2453,7 +2454,7 @@ When ~ enters the battlefield return a creature you control to its owner's hand.
             <colors>G</colors>
             <pt>4/5</pt>
         </prop>
-        <set rarity="Common" uuid="5a7535c6-4b85-4147-84ea-e068b6bb30fc" num="150" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg">DKS</set>
+        <set rarity="Common" uuid="cfa0936f-838e-41d1-a463-fa6553bebcc1" num="150" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2468,7 +2469,7 @@ Search your library for a nonland permanent card with converted mana cost less t
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="4ac11736-a319-4c01-b654-49b37c4afb54" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg">DKS</set>
+        <set rarity="Common" uuid="06e72315-8ae6-4ec9-86da-ac1df1bfd5bd" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2484,7 +2485,7 @@ Search your library for a nonland permanent card with converted mana cost less t
             <colors>G</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="410697fd-ad35-4c78-a23b-20406e9ad0bd" num="152" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/sentinel_of_the_tower_of_flame.jpeg">DKS</set>
+        <set rarity="Common" uuid="27e63b2c-61e1-447e-b971-c600528da2b1" num="152" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/sentinel_of_the_tower_of_flame.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2499,7 +2500,7 @@ You may pay four souls. If you do, untap those lands and create a 1/1 colorless 
             <cmc>3</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="2ba64f4e-84fa-4f59-a5ff-b19fffa82e3f" num="153" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/shaded_woods.jpeg">DKS</set>
+        <set rarity="Common" uuid="18df709f-5013-455f-ba01-bb1443cfac6d" num="153" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/shaded_woods.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2515,7 +2516,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <cmc>0</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="cc3dbaee-7863-46e0-92bc-379a1f928cfa" num="154" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/soul_of_a_lost_explorer.jpeg">DKS</set>
+        <set rarity="Common" uuid="c31d6cc5-f52b-46c1-bb93-74e96a57a9a0" num="154" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/soul_of_a_lost_explorer.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2530,7 +2531,7 @@ Whenever a creature enters the battlefield under your control, you get one soul.
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="1699864e-5a60-4162-a820-5331f9492d94" num="155" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg">DKS</set>
+        <set rarity="Common" uuid="8e053f0a-9c36-4a14-a08d-f628bd235659" num="155" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2548,7 +2549,7 @@ When ~ is turned face up, it deals damage equal to its power to up to two other 
             <colors>G</colors>
             <pt>9/9</pt>
         </prop>
-        <set rarity="Uncommon" uuid="e00b68ca-862d-44d5-8e1f-a4538e17a92a" num="156" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/the_serpent_king.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="939062b2-33cf-4c13-9c7f-5fe615885181" num="156" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/the_serpent_king.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2566,7 +2567,7 @@ When ~ is turned face up search your library for a creature or enchantment card.
             <colors>G</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Common" uuid="4422d7b5-c147-4d83-9695-2ef1c61fb844" num="157" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/undead_aberration.jpeg">DKS</set>
+        <set rarity="Common" uuid="124729e1-0785-491f-b723-8854d2f127a2" num="157" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/undead_aberration.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2583,7 +2584,7 @@ When ~ is turned face up search your library for a creature or enchantment card.
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="ebcf59c2-96c9-42e5-893c-c299a6462933" num="158" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warcry.jpeg">DKS</set>
+        <set rarity="Common" uuid="78d54b66-d22b-4841-9655-c294e69e1f62" num="158" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warcry.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2598,7 +2599,7 @@ Search your library for a bonfire or forest card. Reveal that card and put it in
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" uuid="64c0ea8f-dc8a-427e-be19-bce433bce4a3" num="159" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg">DKS</set>
+        <set rarity="Common" uuid="52810956-e58f-467c-866c-f89e7bda8196" num="159" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2614,7 +2615,7 @@ Enchanted player has "If a creature an opponent controls entering the battlefiel
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Uncommon" uuid="06129fab-8bb5-4994-94d0-9d447ed38472" num="160" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="42641e32-cd08-4332-8474-e26e1b53b086" num="160" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2628,10 +2629,10 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>RW</colors>
+            <colors>WR</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" uuid="616760dc-0451-426a-8ce9-c96cd5ab107c" num="161" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg">DKS</set>
+        <set rarity="Rare" uuid="0ba6ac66-5838-4c3e-8bb7-fe31cf13f0ce" num="161" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2648,7 +2649,7 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
             <colors>RU</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="8faf8673-a97f-48e8-b838-8f12090bf3f2" num="162" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg">DKS</set>
+        <set rarity="Rare" uuid="e7e6bb64-6203-445d-b136-e8520d934094" num="162" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2664,7 +2665,7 @@ At the beginning of each opponent's upkeep put a bleed counter on each creature 
             <colors>BG</colors>
             <pt>1/3</pt>
         </prop>
-        <set rarity="Rare" uuid="dd7f1988-55ac-47f5-bbc0-623241834433" num="163" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
+        <set rarity="Rare" uuid="1170b467-cb28-4a85-b51b-546a4fdc0264" num="163" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2681,7 +2682,7 @@ Whenever a creature you control dies, if you don't control a creature named Chao
             <colors>BR</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="Rare" uuid="4f82acf9-9fa8-40b2-ad5a-12c383f2987f" num="164" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
+        <set rarity="Rare" uuid="2de981ae-c021-4e73-aaa1-44fe73ef15c4" num="164" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2697,7 +2698,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <colors>WU</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Uncommon" uuid="fd290cf1-7188-4f84-9b1e-e73b58104a3c" num="165" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="7b41ae8e-885a-4f82-9b65-5af666955097" num="165" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2711,10 +2712,10 @@ Whenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.</te
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}</manacost>
             <cmc>2</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="05ece12a-b790-45e8-8dff-5eee73ed7bcc" num="166" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/carim_guardian.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3d22ffbc-e9a3-44d5-8ae9-47da639f1951" num="166" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/carim_guardian.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2730,7 +2731,7 @@ Whenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.</te
             <colors>BR</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="32cbadd1-34bd-49aa-a285-3e32d6b470e4" num="167" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="5105c791-b087-4216-8117-82e46f630445" num="167" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2744,10 +2745,10 @@ Whenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.</te
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Rare" uuid="c21f8aa0-baa8-4ef1-b8ea-f3c2b7d5a766" num="168" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
+        <set rarity="Rare" uuid="2357f8da-5754-4d95-a5fe-e8908f57a872" num="168" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2760,9 +2761,9 @@ Whenever ~ blocks you may pay {G/W}{G/W}, if you do destroy target artifact.</te
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RGW</colors>
+            <colors>GWR</colors>
         </prop>
-        <set rarity="Rare" uuid="eb9df516-acb4-4319-86a6-85590a21cc45" num="169" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
+        <set rarity="Rare" uuid="4cf58188-9e82-4bd9-9155-8e9b61b606e2" num="169" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2778,7 +2779,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <colors>BU</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Rare" uuid="0be047a5-6a39-4907-bd00-300f687a4e75" num="170" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
+        <set rarity="Rare" uuid="2dbb4bef-ab28-4041-b219-3b76422ba07b" num="170" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2795,7 +2796,7 @@ Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more 
             <colors>BR</colors>
             <pt>7/4</pt>
         </prop>
-        <set rarity="Rare" uuid="bb0077bf-05b3-4e56-98b8-3359d8d6839e" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="f8a33716-7cc8-4eaa-9aab-9f1ecaf8672d" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
         <related>Slave Knight Gael</related>
         <tablerow>2</tablerow>
     </card>
@@ -2813,7 +2814,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <colors>BR</colors>
             <pt>7/7</pt>
         </prop>
-        <set rarity="" uuid="7f0acc14-1e55-4403-b8d7-168ec006c4d5" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
+        <set rarity="" uuid="21255032-636c-4fae-83c0-2e96e7a40dc9" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
         <related>Gael, Seeker of Ash</related>
         <tablerow>2</tablerow>
     </card>
@@ -2828,7 +2829,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <cmc>7</cmc>
             <colors>BRU</colors>
         </prop>
-        <set rarity="Mythic" uuid="2d6faad3-4b56-47d8-a7c7-70c113b34ad8" num="172" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="53a81373-c363-4a01-ad72-b1a95ad66818" num="172" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2843,10 +2844,10 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BUGWR</colors>
+            <colors>BUWGR</colors>
             <loyalty>3</loyalty>
         </prop>
-        <set rarity="Mythic" uuid="770a6152-dac8-4b6a-8782-505cb74f9382" num="173" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="0be94619-940f-4bc2-b2f7-59346710dcbe" num="173" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2859,10 +2860,10 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{2}{R}{G}</manacost>
             <cmc>4</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" uuid="2b4bea21-120e-4cd7-bde4-25e8d032deee" num="174" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
+        <set rarity="Rare" uuid="6b93a9e6-d0f7-4ef0-89c6-0eb481ece5e5" num="174" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2879,7 +2880,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="ff78ee22-8473-4302-be22-5f66fb273f77" num="175" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="d6faa2ad-7f49-4a3c-9461-400d4c6b3e59" num="175" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
         <related>Champion Gundyr</related>
         <tablerow>2</tablerow>
     </card>
@@ -2895,7 +2896,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="" uuid="07a74cde-c2b7-445d-8ab8-8ebc8b4cb6a2" num="175" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
+        <set rarity="" uuid="e5d4ceeb-b532-4857-9181-0ed941436990" num="175" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
         <related>Iudex Gundyr</related>
         <tablerow>2</tablerow>
     </card>
@@ -2910,10 +2911,10 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RUW</colors>
+            <colors>WRU</colors>
             <loyalty>2</loyalty>
         </prop>
-        <set rarity="Mythic" uuid="e4d37686-67e6-42d4-95ee-ea4b8885b6f0" num="176" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="f55393c9-fa53-4d9a-856d-285294661c25" num="176" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -2930,7 +2931,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <colors>BWU</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Mythic" uuid="d50a15a5-32db-431d-b0e6-c8e0e18af03b" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="2e0ef55c-93aa-4a7b-b36d-cbfc8bdefaf6" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
         <related>The Abysswalker</related>
         <tablerow>2</tablerow>
     </card>
@@ -2948,7 +2949,7 @@ Whenever an opponent draws a card, you may draw a card.
             <colors>BWU</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="" uuid="3b2ec627-d518-4aa4-a996-26ddaae62c92" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
+        <set rarity="" uuid="df3759a0-39b3-43e9-9933-244cf33abac6" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
         <related>Knight Artorias</related>
         <tablerow>2</tablerow>
     </card>
@@ -2963,10 +2964,10 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>BRW</colors>
+            <colors>BWR</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" uuid="72211b70-794a-4433-a960-b75f79aebec2" num="178" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
+        <set rarity="Rare" uuid="5f607619-13c4-4bbe-ac24-5a9e0ef7774a" num="178" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
         <related>Favored Knight</related>
         <tablerow>2</tablerow>
     </card>
@@ -2980,10 +2981,10 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BRW</colors>
+            <colors>BWR</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="" uuid="1929877f-24f9-497e-8b5d-e68c3841ed21" num="178" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
+        <set rarity="" uuid="866c69bb-4a6e-4d5d-ab66-52ec5f4641c9" num="178" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
         <related>Knight Lautrec</related>
         <tablerow>2</tablerow>
     </card>
@@ -2998,10 +2999,10 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>RW</colors>
+            <colors>WR</colors>
             <loyalty>4</loyalty>
         </prop>
-        <set rarity="Mythic" uuid="6c4e5011-315f-4223-8e97-afb2141e0882" num="179" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="1dc46215-5f43-43c2-bbb4-e9b28f2255e4" num="179" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3014,10 +3015,10 @@ A deck can have any number of cards named ~.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="4d0b3065-23d1-4ffc-8214-ec7e5a99bd9e" num="180" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
+        <set rarity="Common" uuid="d925fde1-83dc-4ffb-b0c7-47af436a29f6" num="180" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3031,7 +3032,7 @@ A deck can have any number of cards named ~.</text>
             <cmc>2</cmc>
             <colors>WU</colors>
         </prop>
-        <set rarity="Common" uuid="3d6cd9b6-f036-4788-a139-2bdf4119405f" num="181" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg">DKS</set>
+        <set rarity="Common" uuid="a1955fca-7e8c-40fa-8805-4bb935e14da5" num="181" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3043,9 +3044,9 @@ A deck can have any number of cards named ~.</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RW</colors>
+            <colors>WR</colors>
         </prop>
-        <set rarity="Uncommon" uuid="e551a134-5747-4b96-b20e-8d3af22f4baa" num="182" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="165b2ad6-a86c-43d8-ae93-4be0b6e229f3" num="182" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3061,7 +3062,7 @@ A deck can have any number of cards named ~.</text>
             <cmc>2</cmc>
             <colors>BR</colors>
         </prop>
-        <set rarity="Uncommon" uuid="2b1dc7fb-b383-42cb-93de-aee436065457" num="183" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="1ebf8856-d9e6-47af-a154-87ef717665a5" num="183" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3074,9 +3075,9 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
-        <set rarity="Rare" uuid="ec64c3b7-6ead-4478-981d-a817713d83e4" num="184" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
+        <set rarity="Rare" uuid="a5502919-a427-484e-9f25-13e084552b6c" num="184" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3090,10 +3091,10 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BRG</colors>
+            <colors>BGR</colors>
             <pt>5/7</pt>
         </prop>
-        <set rarity="Rare" uuid="6e8c3536-fe0c-4d44-ba36-1ca1553c7369" num="185" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
+        <set rarity="Rare" uuid="d13d2b2b-97ed-4943-b03a-df5e6caec93d" num="185" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3106,7 +3107,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <manacost>{5}</manacost>
             <cmc>5</cmc>
         </prop>
-        <set rarity="Common" uuid="b59fe5df-1e3e-40e4-a115-e0b6795fdd11" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bell_gargoyles.jpeg">DKS</set>
+        <set rarity="Common" uuid="79e07a74-f616-4a43-a37c-464613fd2b12" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bell_gargoyles.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3121,7 +3122,7 @@ Equip {1}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="dbafb99c-1c29-4c09-bc2d-d6474f70b956" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="2b120827-7ac6-4e5d-b3ac-ed17c42aee33" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3136,7 +3137,7 @@ Equip {1}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Common" uuid="58ce9110-a7a7-4820-9917-e402dd85d552" num="188" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/broadsword.jpeg">DKS</set>
+        <set rarity="Common" uuid="314c89a2-27ed-4ecb-a05d-1dbf2b35b41c" num="188" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/broadsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3152,13 +3153,13 @@ Equip {0}</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Rare" uuid="599682fe-8ff4-4cf5-81d4-1f3e5454bd28" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg">DKS</set>
+        <set rarity="Rare" uuid="3acfd2cb-cefe-47de-bbab-61232dcc9430" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
         <name>Charm of the Undead Hunters</name>
         <text>~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.
-{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."</text>
+{T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has, "This card can't attack or block, and its activated abilities can't be activated."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>
@@ -3166,7 +3167,7 @@ Equip {0}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Common" uuid="624ae6d0-8cdf-4df0-83c9-77359def797d" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg">DKS</set>
+        <set rarity="Common" uuid="607c8fd5-0c1f-4a1a-9d9f-8461da94c1ea" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3182,7 +3183,7 @@ Equip {0}</text>
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Uncommon" uuid="da2654d5-d0f0-443e-872a-81b84b34037a" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="95cda712-565f-489a-9398-4ee75d32f839" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3198,7 +3199,7 @@ Equip {1}</text>
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Rare" uuid="bdf52504-6e31-4a8f-bf77-d2631cbd6d9e" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_greatsword.jpeg">DKS</set>
+        <set rarity="Rare" uuid="c888585b-4642-4fb6-964a-28f7cf943689" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_greatsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3213,7 +3214,7 @@ Equip {1}</text>
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" uuid="80d6ab29-268e-4b6d-a060-f3ca73126217" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_firekeeper.jpeg">DKS</set>
+        <set rarity="Rare" uuid="aa1adf80-f773-4754-ad96-de6a9bfb869a" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_firekeeper.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3228,7 +3229,7 @@ Equip {1}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="dcbe37cd-e3d8-4036-a065-75731473807e" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="724252bb-a221-48db-80c4-cc7c37c3c320" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3243,7 +3244,7 @@ Equip {1}</text>
             <cmc>3</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" uuid="3b0fdbb7-6ddd-4db6-896e-81e413ff4dba" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/heide_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="9e67ed25-d3b3-4899-a65e-14a3065b1d35" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/heide_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3256,7 +3257,7 @@ Equip {1}</text>
             <manacost>{0}</manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Mythic" uuid="fb185a25-78f2-4133-b185-3f5228074ddc" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="b3ca71dc-1836-4c4a-96be-d358636ade1e" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3270,7 +3271,7 @@ Equip {B}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="97e64260-d987-40c4-b8f3-1488fd696765" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/hornet_ring.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="1427a29f-b8e9-43a6-b105-a3adb525e4f9" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/hornet_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3285,7 +3286,7 @@ Sacrifice ~: Destroy target artifact.</text>
             <cmc>3</cmc>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="7b1979f9-6b39-4257-a175-9dbbe5b208d3" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg">DKS</set>
+        <set rarity="Common" uuid="b973d113-2620-4033-a68e-2431b0b9e50d" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3298,7 +3299,7 @@ Sacrifice ~: Destroy target artifact.</text>
             <manacost>{5}</manacost>
             <cmc>5</cmc>
         </prop>
-        <set rarity="Mythic" uuid="5e6d33a4-1477-44d6-879c-1a45ea9e3279" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="09e3b35a-b67d-47cb-bb64-951d51c0c1eb" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3313,7 +3314,7 @@ Reach</text>
             <cmc>5</cmc>
             <pt>2/5</pt>
         </prop>
-        <set rarity="Common" uuid="dc126c00-f94f-40cb-9983-53e50a7ce2d8" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg">DKS</set>
+        <set rarity="Common" uuid="c2822d3c-1b83-450d-bac6-046b27d9f04c" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3327,7 +3328,7 @@ Equip {2}</text>
             <manacost>{3}</manacost>
             <cmc>3</cmc>
         </prop>
-        <set rarity="Mythic" uuid="19bfff69-5d8c-4106-b9bc-ea51f7d55e33" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="3104f5af-3753-40e4-8859-77f42c2147b2" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3342,7 +3343,7 @@ Equip {1}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="10b2688e-7adf-4223-b285-2769b9ed7297" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b0bbd4c4-b998-442e-bd57-fc125c8b26cc" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3356,7 +3357,7 @@ Equip {2}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" uuid="22bd4c6a-215c-43c5-bcf1-c165d3671306" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg">DKS</set>
+        <set rarity="Rare" uuid="ecefa21d-9938-4ec3-b94e-888e9c1b9b4f" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3368,9 +3369,9 @@ Equip {2}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BUGWR</colors>
+            <colors>BUWGR</colors>
         </prop>
-        <set rarity="Mythic" uuid="c0168286-4fdb-4a30-8d44-3dea69e356c9" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="95029c09-fd94-425d-a45c-5c93bd6cea79" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3384,7 +3385,7 @@ Equip {1}</text>
             <manacost>{0}</manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="c0985285-e856-48e8-a1b2-aded5dbd8ff6" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_serpent_ring.jpeg">DKS</set>
+        <set rarity="Common" uuid="4ddf2c2e-747f-4504-8447-913617e5de98" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_serpent_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3398,21 +3399,7 @@ Equip {1}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="76fb0aca-d4ad-4ad7-b64a-849381bcf6f1" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg">DKS</set>
-        <tablerow>1</tablerow>
-    </card>
-    <card>
-        <name>Storm Ruler</name>
-        <text>Whenever equipped creature attacks, defending player sacrifices a giant.
-Equip {2}</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Artifact - Equipment</type>
-            <maintype>Artifact</maintype>
-            <manacost>{2}</manacost>
-            <cmc>2</cmc>
-        </prop>
-        <set rarity="Mythic" uuid="dcab7977-683b-4493-978a-814174afbea0" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/storm_ruler.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="41776324-e528-42c9-93fb-bf162a792211" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/soul_syphoner.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3428,7 +3415,7 @@ Equip {W}</text>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Rare" uuid="d1e2f07f-a961-46b0-b150-a2b163ee2348" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/talisman_of_the_way_of_white.jpeg">DKS</set>
+        <set rarity="Rare" uuid="3ef4cf68-fb14-46a8-8f45-d4931a61b9dc" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/talisman_of_the_way_of_white.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3443,7 +3430,21 @@ Equip {2}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" uuid="c9e38c1b-a88d-4bcb-8650-662ef400c92e" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/uchigatana.jpeg">DKS</set>
+        <set rarity="Rare" uuid="972d4c9f-3c5e-4af0-92a5-ce3a3941a527" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/uchigatana.jpeg">DKS</set>
+        <tablerow>1</tablerow>
+    </card>
+    <card>
+        <name>Void Charm</name>
+        <text>~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Artifact</type>
+            <maintype>Artifact</maintype>
+            <manacost>{1}</manacost>
+            <cmc>1</cmc>
+        </prop>
+        <set rarity="Common" uuid="29961b3e-1a3a-4618-bac7-a0c6a72c7c4c" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/void_charm.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3458,7 +3459,7 @@ Equip {2}</text>
             <manacost>{3}</manacost>
             <cmc>3</cmc>
         </prop>
-        <set rarity="Rare" uuid="e6981b17-de9f-4771-9e12-6e93c755379c" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/wolf_knights_greatshield.jpeg">DKS</set>
+        <set rarity="Rare" uuid="3d1ce4b2-8269-4724-a187-767f01a58c1b" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/wolf_knights_greatshield.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3471,7 +3472,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="191c53e2-3ee5-46e2-a201-17e7b72c1c12" num="211" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/anor_londo.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="a6c12ffe-ae8c-49a1-bf78-d95fff6c75de" num="211" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/anor_londo.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3485,7 +3486,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="d7d9dc67-f29d-4446-83de-29f835ad54e2" num="212" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/archdragon_peak.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3b4c5507-7262-4bc8-bfc6-e229c18d9e21" num="212" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/archdragon_peak.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3500,7 +3501,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Mythic" uuid="5252b8e9-6064-442f-b442-a66512cd3af3" num="213" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/blighttown.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="d574f58c-7355-49b7-8fd1-a6ad383d4a25" num="213" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/blighttown.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3513,7 +3514,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="c95108b4-2ff1-477d-adeb-f3aa90436637" num="214" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/bonfire.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="ac5e31e3-53e4-4eab-9362-c7802613f651" num="214" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/bonfire.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3526,7 +3527,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="4d80a3ef-d2eb-4ca1-9a5d-4b4356ac6371" num="215" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_blue.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="211e6d20-46a0-42af-8bb2-be090728b6f5" num="215" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_blue.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3540,7 +3541,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="f02724cd-b772-409b-9e36-02a249d47374" num="216" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_the_deep.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="2cd135fa-2683-4b43-81c4-eda1145c0e81" num="216" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/cathedral_of_the_deep.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3554,7 +3555,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="2375a9a0-adcb-4ed8-b52d-c2f08b7c0c25" num="217" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/darkroot_garden.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="afaf9845-5cd0-400f-ae7d-c62dffa22da6" num="217" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/darkroot_garden.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3568,7 +3569,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="4fe7317c-7802-4e2f-82b5-d1ca69c1802e" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/farron_keep.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="a3990cc1-9532-4035-ae1c-f6b77440cf26" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/farron_keep.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3584,7 +3585,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Mythic" uuid="f63e4eeb-4e54-4a6f-927f-8361aeb9fbb3" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/firelink_shrine.jpeg">DKS</set>
+        <set rarity="Mythic" uuid="b4f5baf7-c1bf-4fed-9e46-03ef98b95f5e" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/firelink_shrine.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3598,7 +3599,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="24303a74-d649-4047-986f-e350a3205e0c" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/irithyll_of_the_boreal_valley.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b0039ab6-2fd7-4f25-9580-117d5b0a2538" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/irithyll_of_the_boreal_valley.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3612,7 +3613,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="b24d2475-5f5c-45f1-9c7f-1d5f94f910c7" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lost_izalith.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="3f5f9b0f-0774-4537-bbec-f20f710c49f1" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lost_izalith.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3627,7 +3628,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Rare" uuid="e30b5888-4b17-40ae-8ff3-dc4d1234f2fb" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lothric_castle.jpeg">DKS</set>
+        <set rarity="Rare" uuid="d84ec681-7bcb-4b32-a134-704f564272cc" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/lothric_castle.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3640,7 +3641,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="ebcf8dfd-6adb-4537-a316-3c1cac5e3c43" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/road_of_sacrifices.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="695d5a0b-38e8-4de0-9075-670b66f25a8b" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/road_of_sacrifices.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3654,7 +3655,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" uuid="6d8e7ddc-5bf2-4bbb-82dc-56b72ed2aceb" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/shrine_of_amana.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="1ad5415c-ded6-402e-b0ab-16728fc0200f" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/shrine_of_amana.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -3669,7 +3670,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Rare" uuid="002fa7b7-83b6-476a-9e2d-6348769bd829" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/the_fire_fades.jpeg">DKS</set>
+        <set rarity="Rare" uuid="14b98dff-8233-49e5-9c13-5644d3ddda83" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/the_fire_fades.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3682,7 +3683,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="a16efd2d-741a-4bf7-aad9-eb9608eac9f6" num="L/01" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/plains.jpeg">DKS</set>
+        <set rarity="Common" uuid="4f7fa380-690a-4854-b0f2-e0bab8c6af9c" num="L/01" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/plains.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3695,7 +3696,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="e1ffb432-9d86-4ea3-b8ef-73ccfcdab551" num="L/02" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/island.jpeg">DKS</set>
+        <set rarity="Common" uuid="cea779c3-e0d3-44f1-8e3f-ebb6d94b298b" num="L/02" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/island.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3708,7 +3709,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="77533577-fea0-4635-8b59-1f68d4385d87" num="L/03" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/swamp.jpeg">DKS</set>
+        <set rarity="Common" uuid="e4b5cdda-e5bf-4cf2-b75a-7d2c50fb22fd" num="L/03" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/swamp.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3721,20 +3722,20 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="60bf156c-3ff7-4216-96c6-773bd317e7c3" num="L/04" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/mountain.jpeg">DKS</set>
+        <set rarity="Common" uuid="26e68383-0280-4ffe-b740-f27e0563c1e9" num="L/04" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/mountain.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Forst</name>
+        <name>Wastes</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Basic Land - Forest</type>
+            <type>Basic Land - Wastes</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" uuid="2307d647-10b7-4b40-8b34-c296448d9133" num="L/05" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/forest.jpeg">DKS</set>
+        <set rarity="Common" uuid="7605eea7-f405-47b8-8023-44393e536a89" num="L/05" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/forest.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -3749,7 +3750,7 @@ Equip {2}</text>
             <colors>B</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Uncommon" uuid="212c34a1-440a-4b0d-bf3f-f5648260c03e" num="1" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/assassin.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="ffd3c9c7-04c2-4274-8402-13a404d3c850" num="1" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/assassin.jpeg">DKS</set>
         <reverse-related>Blighttown</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3766,7 +3767,7 @@ Equip {2}</text>
             <colors>R</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Rare" uuid="f2a65b17-6db6-41e6-8462-7550007b79ac" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/chaos_bug.jpeg">DKS</set>
+        <set rarity="Rare" uuid="269d3a9a-caa6-4aa3-9c27-da3e72f089ec" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/chaos_bug.jpeg">DKS</set>
         <reverse-related>Bed of Chaos</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3783,7 +3784,7 @@ Equip {2}</text>
             <colors>C</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="5079b0d3-7c56-49c2-a8d5-54c390be1d88" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg">DKS</set>
+        <set rarity="Common" uuid="8f0782f1-3a2f-4efc-a769-e8186614ba0a" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg">DKS</set>
         <reverse-related>Wake the Hollows, Hollow Infantry, Shaded Woods, Souls of the Living, Bloodbite Ring, Broadsword, Catalyst of the Witch of Izalith, Chloranthy Ring, Halberd, Talisman of the Way of White, Uchigatana</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3800,7 +3801,7 @@ Equip {2}</text>
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="5d6226be-e55b-43aa-acd4-6dce35a670be" num="4" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow_knight.jpeg">DKS</set>
+        <set rarity="Common" uuid="fddca4bb-51c7-4df8-a78e-1d907fccd9fe" num="4" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow_knight.jpeg">DKS</set>
         <reverse-related>Lothric Castle</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3817,7 +3818,7 @@ Equip {2}</text>
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="5181fe65-c633-4fed-9c8a-885ad15df180" num="5" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human.jpeg">DKS</set>
+        <set rarity="Common" uuid="4a4df7e9-6cf9-4ffc-9481-306075a394a4" num="5" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human.jpeg">DKS</set>
         <reverse-related>Forossa Lion Knight, Solaire of Astora, Weary Travelers, Blade of the Darkmoon, Ember</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3834,7 +3835,7 @@ Equip {2}</text>
             <colors>B</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Common" uuid="ef4cec31-2729-4a90-8198-b7734bcc85c5" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_black.jpeg">DKS</set>
+        <set rarity="Common" uuid="f6423208-8ba4-43ab-babd-ad459d780715" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_black.jpeg">DKS</set>
         <reverse-related>Weary Travelers</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3851,7 +3852,7 @@ Equip {2}</text>
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Common" uuid="c1b0b0ff-8f61-4873-ba89-5479f02f1d4f" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_white.jpeg">DKS</set>
+        <set rarity="Common" uuid="fcd10eb6-bbbd-411b-af94-646814e35c05" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_white.jpeg">DKS</set>
         <reverse-related>Weary Travelers</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3868,7 +3869,7 @@ Equip {2}</text>
             <colors>W</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Common" uuid="e7d2d91d-8553-4668-8b8f-d49d6b68ee32" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/ornstein.jpeg">DKS</set>
+        <set rarity="Common" uuid="e2c4de30-f7c9-4937-8b73-0d8235613b2b" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/ornstein.jpeg">DKS</set>
         <reverse-related>Dragonslayer and Executioner</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3885,7 +3886,7 @@ Equip {2}</text>
             <colors>W</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="08872b5f-0a29-4791-91f8-bf0b6dedaa6f" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/phantom.jpeg">DKS</set>
+        <set rarity="Common" uuid="1cf1bc79-65b7-4534-9fb6-edff079a8a4f" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/phantom.jpeg">DKS</set>
         <reverse-related>Solaire of Astora, Blade of the Darkmoon, Ember</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3902,7 +3903,7 @@ Equip {2}</text>
             <colors>R</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="f9094d11-eb21-4db7-a960-8ae8dbbc6863" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/red_phantom.jpeg">DKS</set>
+        <set rarity="Common" uuid="d4f85288-39c1-48a7-b901-4373606dca47" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/red_phantom.jpeg">DKS</set>
         <reverse-related>Looking Glass Knight, Cracked Redeye Orb, Ember</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3919,7 +3920,7 @@ Equip {2}</text>
             <colors>B</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="f0282d20-7681-4130-9341-a4658d44cfc5" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/skeleton.jpeg">DKS</set>
+        <set rarity="Common" uuid="84e10454-a16e-42f5-8876-1da4e836f6d1" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/skeleton.jpeg">DKS</set>
         <reverse-related>Grave Warden, Gravelord Nito, Lordran Necromancer</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3936,7 +3937,7 @@ Equip {2}</text>
             <colors>G</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" uuid="1f38a847-3643-4303-b699-2879bbd37aa1" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/smough.jpeg">DKS</set>
+        <set rarity="Common" uuid="99aebaa7-5c02-4d68-805b-8df054ffb19c" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/smough.jpeg">DKS</set>
         <reverse-related>Dragonslayer and Executioner</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3952,7 +3953,7 @@ Equip {2}</text>
             <cmc>0</cmc>
             <colors>C</colors>
         </prop>
-        <set rarity="Uncommon" uuid="c2c41c73-0eaa-4ed6-bdbc-2af16212237e" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/treasure.jpeg">DKS</set>
+        <set rarity="Uncommon" uuid="b84b7194-70d7-4e38-a1ae-ee96460ff596" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/treasure.jpeg">DKS</set>
         <reverse-related>Pickle Pee, Pump-a-Rum, Unbreakable Patches, Duke's Dear Freja, Gaping Dragon, Ravenous Crystal Lizard, Soul of a Lost Explorer</reverse-related>
         <token>1</token>
         <tablerow>1</tablerow>
@@ -3969,7 +3970,7 @@ Equip {2}</text>
             <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" uuid="b64a08aa-fee4-4ae3-b9f9-dd42dc930336" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg">DKS</set>
+        <set rarity="Common" uuid="88dba626-01ed-48bb-a15d-fb89a4c54237" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg">DKS</set>
         <reverse-related>Archdeacon of the Deep</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -3986,7 +3987,7 @@ Equip {2}</text>
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" uuid="ed4a969b-2bf1-4de8-b835-d3c4b16c71a3" num="15" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/zombie_jackal.jpeg">DKS</set>
+        <set rarity="Common" uuid="fe658b70-50c0-4d12-a7af-ebd41cbd8743" num="15" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/zombie_jackal.jpeg">DKS</set>
         <reverse-related>Capra Demon</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
