@@ -81,6 +81,25 @@ card_charred_knight:
     power: 3
     toughness: 2
 
+card_chasm_giant:
+  front:
+    name: "Chasm Giant"
+    cost: "{4}{B}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Giant"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      This creature can't be blocked except by black creatures.
+      When ~ enters the battlefield, create two 1/1 colorless Hollow creature tokens. Then your opponents lose life equal to the number of creatures you control. You gain souls equal to the life lost this way.
+    flavor_text: "Their bodies host the souls from their ancient lineage."
+    artwork_url: "https://www.deviantart.com/liewjj/art/Dark-Souls-II-The-Last-Giant-479677730"
+    artist: "liewjj"
+    number: 76
+    power: 6
+    toughness: 6
+
 card_chosen_undead:
   front:
     name: "Chosen Undead"
@@ -96,7 +115,7 @@ card_chosen_undead:
     flavor_text: "The Unkindled will rise. Nameless and accursed."
     artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
     artist: "castaguer93"
-    number: 76
+    number: 77
 
 card_clawed_curse:
   front:
@@ -115,24 +134,6 @@ card_clawed_curse:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqmr67q2/clawed-curse-grok-resize.jpg"
     artist: "grok"
-    number: 77
-
-card_curse_of_the_dead:
-  front:
-    name: "Curse of the Dead"
-    cost: "{1}{B}{B}"
-    super: ""
-    type: "Enchantment"
-    sub: "Aura Curse"
-    rarity: "Mythic"
-    rating: 2
-    rules_text: |
-      Enchant player
-      Creatures enchanted player controls get -1/-1 and can't block.
-      Whenever a creature controlled by enchanted player dies you, draw one card, lose one life, and get one soul.
-    flavor_text: "Bearer of the curse... Seek souls, larger, more powerful souls. Lest this land swallow you whole..."
-    artwork_url: "https://www.deviantart.com/nele-diel/art/Village-of-the-Forgotten-With-Process-Video-685238094"
-    artist: "nele diel"
     number: 78
 
 card_dark_edge:
@@ -236,7 +237,7 @@ card_grave_wardens_tome:
     rating: 4
     rules_text: |
       You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.
-      Search your library for two red and/or black cards. Reveal them, then put one into your hand and one into your graveyard.
+      Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
     artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
     artist: "pitchcha"
@@ -403,7 +404,7 @@ card_parasite_worm:
     rating: 4
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
-      {B}{B}: If ~ is a creature it becomes an Enchanment Aura and loses this ability, it gains "Enchant creature". Return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature and you lose two life.
+      {B}{B}: Return ~ and another target creature from your graveyard to the battlefield tapped. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, sacrifice the enchanted \\creature and you lose two life.
     flavor_text: "Now, let this strength be yours."
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"

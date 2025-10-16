@@ -1,3 +1,21 @@
+card_curse_of_the_dead:
+  front:
+    name: "Curse of the Dead"
+    cost: "{1}{B}{B}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Mythic"
+    rating: 2
+    rules_text: |
+      Enchant player
+      Creatures enchanted player controls get -1/-1 and can't block.
+      Whenever a creature controlled by enchanted player dies you, draw one card, lose one life, and get one soul.
+    flavor_text: "Bearer of the curse... Seek souls, larger, more powerful souls. Lest this land swallow you whole..."
+    artwork_url: "https://www.deviantart.com/nele-diel/art/Village-of-the-Forgotten-With-Process-Video-685238094"
+    artist: "nele diel"
+    number: 78
+
 card_frozen_reindeer:
   front:
     name: "Frozen Reindeer"

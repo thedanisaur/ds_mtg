@@ -509,18 +509,18 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/black/chosen_undead.jpeg" alt="Chosen Undead" width="400"/><br/>
-        <strong>Chosen Undead</strong>
+        <img src="./cards/black/chasm_giant.jpeg" alt="Chasm Giant" width="400"/><br/>
+        <strong>Chasm Giant</strong>
     </td>
     <td align="center">
-        <img src="./cards/black/clawed_curse.jpeg" alt="Clawed Curse" width="400"/><br/>
-        <strong>Clawed Curse</strong>
+        <img src="./cards/black/chosen_undead.jpeg" alt="Chosen Undead" width="400"/><br/>
+        <strong>Chosen Undead</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/black/curse_of_the_dead.jpeg" alt="Curse Of The Dead" width="400"/><br/>
-        <strong>Curse Of The Dead</strong>
+        <img src="./cards/black/clawed_curse.jpeg" alt="Clawed Curse" width="400"/><br/>
+        <strong>Clawed Curse</strong>
     </td>
     <td align="center">
         <img src="./cards/black/dark_edge.jpeg" alt="Dark Edge" width="400"/><br/>
