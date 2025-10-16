@@ -236,7 +236,7 @@ card_grave_wardens_tome:
     rating: 4
     rules_text: |
       You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.
-      Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
+      Search your library for two red and/or black cards. Reveal them, then put one into your hand and one into your graveyard.
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
     artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
     artist: "pitchcha"
@@ -250,7 +250,7 @@ card_gravelord_nito:
     type: "Creature"
     sub: "Giant Skeleton Lord"
     rarity: "Mythic"
-    rating: 2
+    rating: 1
     rules_text: |
       When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.
       At the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of tapped 1/1 black Skeleton creature tokens equal to the  difference.
@@ -508,7 +508,7 @@ card_undead_hound:
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: |
       Lifelink
       When ~ enters the battlefield target player loses life equal to the number of souls they have.

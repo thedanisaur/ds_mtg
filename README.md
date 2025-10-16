@@ -219,18 +219,18 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/white/infested_corpse.jpeg" alt="Infested Corpse" width="400"/><br/>
-        <strong>Infested Corpse</strong>
+        <img src="./cards/white/heretic_storyteller.jpeg" alt="Heretic Storyteller" width="400"/><br/>
+        <strong>Heretic Storyteller</strong>
     </td>
     <td align="center">
-        <img src="./cards/white/insolent_spirits.jpeg" alt="Insolent Spirits" width="400"/><br/>
-        <strong>Insolent Spirits</strong>
+        <img src="./cards/white/infested_corpse.jpeg" alt="Infested Corpse" width="400"/><br/>
+        <strong>Infested Corpse</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/white/karmic_justice.jpeg" alt="Karmic Justice" width="400"/><br/>
-        <strong>Karmic Justice</strong>
+        <img src="./cards/white/insolent_spirits.jpeg" alt="Insolent Spirits" width="400"/><br/>
+        <strong>Insolent Spirits</strong>
     </td>
     <td align="center">
         <img src="./cards/white/knights_of_gwynevere.jpeg" alt="Knights Of Gwynevere" width="400"/><br/>

@@ -484,7 +484,7 @@ card_souls_of_the_living:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: |
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
       Whenever a creature enters the battlefield under your control, you get one soul.
@@ -543,7 +543,7 @@ card_warcry:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: |
       Choose one:
       • Put three +1/+1 counters on target creature, untap it.
@@ -579,7 +579,7 @@ card_wistful_naivete:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
-    rating: 2
+    rating: 1
     rules_text: |
       Enchant player
       Face-down cards your opponents play cost {2} less.

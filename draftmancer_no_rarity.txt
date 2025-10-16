@@ -161,21 +161,9 @@
         "W"
     ],
     "rarity": "common",
-    "rating": 0,
-    "oracle_text": "Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ deals combat damage to a creature put three bleed counters on that creature. (As long as a creature has a bleed counter on it that creature has \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg"
-},
-{
-    "name": "Insolent Spirits",
-    "type": "Creature",
-    "mana_cost": "{2}{W}{W}",
-    "colors": [
-        "W"
-    ],
-    "rarity": "common",
     "rating": 1,
-    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nEquip costs you pay cost {1} less.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg"
+    "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nMorph {0} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up it becomes a 3/1 and gains haste\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg"
 },
 {
     "name": "Knights of Gwynevere",
@@ -200,6 +188,18 @@
     "rating": 2,
     "oracle_text": "When you cast this spell you may pay {W} if you do draw a card.\nReturn target spell to its owner's hand. You get one soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/magic_barrier.jpeg"
+},
+{
+    "name": "Mirrah Warrior",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.\nPlayers can't search libraries.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
 },
 {
     "name": "New Londo Shade",
@@ -413,7 +413,7 @@
         "U"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "{T}: Scry 1. You get one soul.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg"
 },
@@ -449,7 +449,7 @@
         "U"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg"
 },
@@ -641,7 +641,7 @@
         "B"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Lifelink\nWhen ~ enters the battlefield target player loses life equal to the number of souls they have.\nWhenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg"
 },
@@ -749,7 +749,7 @@
         "R"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Target creature you control gets +3/+0 and gains double strike. Sacrifice it at the end of turn.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/immolation.jpeg"
 },
@@ -834,7 +834,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Whenever ~ blocks or is blocked by a Human, it gains first strike until end of turn.",
+    "oracle_text": "Haste\nWhenever ~ blocks or is blocked by a Human, it gains first strike until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/taurus_demon.jpeg"
 },
 {
@@ -1085,7 +1085,7 @@
         "G"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg"
 },
@@ -1109,7 +1109,7 @@
         "G"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Choose one:\n\u2022 Put three +1/+1 counters on target creature, untap it.\n\u2022 Target creature can't be the target of spells or abilities your opponents control this turn.\n\u2022 The next spell you cast this turn can't be countered.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warcry.jpeg"
 },
@@ -1130,8 +1130,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1143,8 +1143,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1242,16 +1242,28 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg"
 },
 {
-    "name": "Karmic Justice",
-    "type": "Instant",
-    "mana_cost": "{W}{W}",
+    "name": "Heretic Storyteller",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "When ~ attacks you may pay {1}{W}. If you do, it gains flying and bleed until end of turn.\n{4}{G/W}, {T}: Put two bleed counters on target creature or player.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heretic_storyteller.jpeg"
+},
+{
+    "name": "Insolent Spirits",
+    "type": "Creature",
+    "mana_cost": "{2}{W}{W}",
     "colors": [
         "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "Choose a creature or planeswalker you control. Until end of turn if that permanent would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller.",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nEquip costs you pay cost {1} less.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg"
 },
 {
     "name": "Lightning Spear",
@@ -1276,18 +1288,6 @@
     "rating": 5,
     "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
-},
-{
-    "name": "Mirrah Warrior",
-    "type": "Creature",
-    "mana_cost": "{1}{W}",
-    "colors": [
-        "W"
-    ],
-    "rarity": "uncommon",
-    "rating": 2,
-    "oracle_text": "When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.\nPlayers can't search libraries.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
 },
 {
     "name": "Petrified Egg",
@@ -1369,7 +1369,7 @@
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "As an additional cost to cast ~ pay X souls.\nGain control of target creature or artifact with mana cost equal to X.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/burning_ambition.jpeg"
 },
@@ -1585,7 +1585,7 @@
         "R"
     ],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "You may cast this spell without paying it's mana cost as long as you control four or more mountains.\nEnchant creature\nEnchanted creature gains \"{2}{R}{R}, {T}, Pay 2 souls: Enchanted creature deals 4 damage divided as you choose among one, two, three, or four targets.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/flame_whip.jpeg"
 },
@@ -1669,7 +1669,7 @@
         "G"
     ],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Enchant player\nFace-down cards your opponents play cost {2} less.\nEnchanted player has \"If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
 },
@@ -1678,8 +1678,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1691,8 +1691,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1717,8 +1717,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1730,8 +1730,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1828,8 +1828,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1843,9 +1843,9 @@
     "colors": [
         "U",
         "G",
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1857,8 +1857,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1870,8 +1870,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1883,8 +1883,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1922,8 +1922,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1935,8 +1935,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1948,8 +1948,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2131,7 +2131,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.\nSearch your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.\n",
+    "oracle_text": "You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.\nSearch your library for two red and/or black cards. Reveal them, then put one into your hand and one into your graveyard.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_wardens_tome.jpeg"
 },
 {
@@ -2190,7 +2190,7 @@
         "R"
     ],
     "rarity": "rare",
-    "rating": 2,
+    "rating": 3,
     "oracle_text": "~ deals 5 damage to target player and each creature and planeswalker he or she controls.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/forbidden_sun.jpeg"
 },
@@ -2246,8 +2246,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,8 +2259,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2298,8 +2298,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2311,9 +2311,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
+        "G",
         "W",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2363,8 +2363,8 @@
     "type": "Creature",
     "mana_cost": "{2}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2401,9 +2401,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2414,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
+            "B",
             "W",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2428,8 +2428,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2441,8 +2441,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
         "G",
+        "R",
         "B"
     ],
     "rarity": "rare",
@@ -2594,7 +2594,7 @@
         "B"
     ],
     "rarity": "mythic",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.\nAt the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of tapped 1/1 black Skeleton creature tokens equal to the  difference.\nWhenever a creature dies you get one soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/gravelord_nito.jpeg"
 },
@@ -2649,8 +2649,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "U",
+        "R",
         "B"
     ],
     "rarity": "mythic",
@@ -2665,9 +2665,9 @@
     "colors": [
         "U",
         "G",
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2679,9 +2679,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
+        "U",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2693,8 +2693,8 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "W",
         "U",
+        "W",
         "B"
     ],
     "rarity": "mythic",
@@ -2706,8 +2706,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "U",
+            "W",
             "B"
         ],
         "rarity": "",
@@ -2720,8 +2720,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2765,9 +2765,9 @@
     "colors": [
         "U",
         "G",
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2801,9 +2801,9 @@
     "colors": [
         "U",
         "G",
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2838,9 +2838,9 @@
 4 Flexile Sentry
 4 Forossa Lion Knight
 4 Infested Corpse
-4 Insolent Spirits
 4 Knights of Gwynevere
 4 Magic Barrier
+4 Mirrah Warrior
 4 New Londo Shade
 4 Resting Merchant
 4 Soul of a Nameless Soldier
@@ -2929,10 +2929,10 @@
 4 Four Kings
 4 Looking Glass Knight
 4 Sif, the Great Grey Wolf
-4 Karmic Justice
+4 Heretic Storyteller
+4 Insolent Spirits
 4 Lightning Spear
 4 Miracle of the Way of White
-4 Mirrah Warrior
 4 Petrified Egg
 4 Solaire of Astora
 4 Vow of Silence
@@ -2977,17 +2977,17 @@
 4 Hornet Ring
 4 Ring of a Great Warrior
 4 Soul Syphoner
-8 Anor Londo
-8 Archdragon Peak
-8 Bonfire
-8 Cathedral of Blue
-8 Cathedral of the Deep
-8 Darkroot Garden
-8 Farron Keep
-8 Irithyll of the Boreal Valley
-8 Lost Izalith
-8 Road of Sacrifices
-8 Shrine of Amana
+16 Anor Londo
+16 Archdragon Peak
+16 Bonfire
+16 Cathedral of Blue
+16 Cathedral of the Deep
+16 Darkroot Garden
+16 Farron Keep
+16 Irithyll of the Boreal Valley
+16 Lost Izalith
+16 Road of Sacrifices
+16 Shrine of Amana
 4 Anri of Astora
 4 Emit Force
 4 Reforge
@@ -3029,8 +3029,8 @@
 4 Talisman of the Way of White
 4 Uchigatana
 4 Wolf Knight's Greatshield
-8 Lothric Castle
-8 The Fire Fades
+16 Lothric Castle
+16 The Fire Fades
 4 Into the Abyss
 4 Vordt and the Dancer
 4 Curse of the Dead
@@ -3047,5 +3047,5 @@
 4 Moonlight Greatsword
 4 Ring of Sacrifice
 4 Storm Ruler
-8 Blighttown
-8 Firelink Shrine
+16 Blighttown
+16 Firelink Shrine

@@ -209,7 +209,7 @@ if __name__ == '__main__':
         for rarity in cards_by_rarity:
             for card in cards_by_rarity[rarity]:
                 if card['type'] == TYPE_LAND:
-                    file.write(f"8 {card['name']}\n")
+                    file.write(f"16 {card['name']}\n")
                 else:
                     file.write(f"4 {card['name']}\n")
         print(f"{draftmancer_no_rarity}: ✅ Sheets written")

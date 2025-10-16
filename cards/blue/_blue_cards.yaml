@@ -113,7 +113,7 @@ card_burning_ambition:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 1
     rules_text: |
       As an additional cost to cast ~ pay X souls.
       Gain control of target creature or artifact with mana cost equal to X.
@@ -266,7 +266,7 @@ card_hooded_sorcerer:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: "{T}: Scry 1. You get one soul."
     flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
     artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
@@ -332,7 +332,7 @@ card_magic_denial:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 1
     rules_text: "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell."
     flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
     artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
