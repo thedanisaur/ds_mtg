@@ -281,14 +281,15 @@ card_moonlight_greatsword:
 card_ring_of_a_great_warrior:
   front:
     name: "Ring of a Great Warrior"
-    cost: "{3}"
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
     rating: 0
     rules_text: |
-      Equipped creature has "When this creature attacks, creatures defending player controls lose indestructible until end of turn. {0}: Attach target Equipment to this creature. Activate this ability only on your turn.".
+      When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
+      Equipped creature gets +0/+3, has vigilance, gains "{0}: Attach target Equipment to this creature. Activate this ability only once per turn."
       Equip {1}
     flavor_text: "War, war never changes."
     artwork_url: "https://cdn.shopify.com/s/files/1/0556/4442/2319/files/1_e07bf03c-95c8-4fac-8bf0-462537775ad5_600x600.jpg?v=1744344676"
