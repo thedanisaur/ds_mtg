@@ -1209,18 +1209,18 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/artifact/storm_ruler.jpeg" alt="Storm Ruler" width="400"/><br/>
-        <strong>Storm Ruler</strong>
-    </td>
-    <td align="center">
         <img src="./cards/artifact/talisman_of_the_way_of_white.jpeg" alt="Talisman Of The Way Of White" width="400"/><br/>
         <strong>Talisman Of The Way Of White</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/artifact/uchigatana.jpeg" alt="Uchigatana" width="400"/><br/>
+        <strong>Uchigatana</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/artifact/uchigatana.jpeg" alt="Uchigatana" width="400"/><br/>
-        <strong>Uchigatana</strong>
+        <img src="./cards/artifact/void_charm.jpeg" alt="Void Charm" width="400"/><br/>
+        <strong>Void Charm</strong>
     </td>
     <td align="center">
         <img src="./cards/artifact/wolf_knights_greatshield.jpeg" alt="Wolf Knights Greatshield" width="400"/><br/>
@@ -1401,6 +1401,10 @@ Booster distribution
     <td align="center">
         <img src="./cards/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
+        <strong>Wastes</strong>
     </td>
 </tr>
 </table>

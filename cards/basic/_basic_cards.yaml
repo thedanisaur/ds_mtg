@@ -67,3 +67,17 @@ card_forest:
     artwork_url: ""
     artist: "fromsoft"
     number: L/05
+
+card_forest:
+  front:
+    name: "Wastes"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Wastes"
+    rarity: "Common"
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "fromsoft"
+    number: L/05

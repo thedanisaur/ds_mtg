@@ -12,3 +12,20 @@ card_cursed_jar:
     artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
     artist: "deepai"
     number: 192
+
+card_storm_ruler:
+  front:
+    name: "Storm Ruler"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Mythic"
+    rating: 0
+    rules_text: |
+      Whenever equipped creature attacks, defending player sacrifices a giant.
+      Equip {2}
+    flavor_text: "Yhorm the Giant once held two of these, but gave one to the humans that doubted him, and left the other to a dear friend before facing his fate as a Lord of Cinder."
+    artwork_url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/11/storm-ruler-dark-souls-3.jpg"
+    artist: "fromsoft"
+    number: 207
