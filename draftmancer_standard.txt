@@ -584,7 +584,7 @@
     ],
     "rarity": "common",
     "rating": 4,
-    "oracle_text": "As long as ~ is an enchantment it is not a creature.\n{B}{B}: If ~ is a creature it becomes an Enchanment Aura and loses this ability, it gains \"Enchant creature\". Return target creature from a graveyard to the battlefield tapped under your control then attach this Aura to it. When ~ leaves the battlefield, sacrifice the enchanted creature and you lose two life.\n",
+    "oracle_text": "As long as ~ is an enchantment it is not a creature.\n{B}{B}: Return ~ and another target creature from your graveyard to the battlefield tapped. ~ becomes an Enchanment Aura, it gains \"Enchant creature\", then attach this Aura to the other returned creature. When ~ leaves the battlefield, sacrifice the enchanted \\\\creature and you lose two life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/parasite_worm.jpeg"
 },
 {
@@ -600,16 +600,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/royal_rat_vanguard.jpeg"
 },
 {
-    "name": "Sift through the Ashes",
+    "name": "Something Petrified",
     "type": "Instant",
-    "mana_cost": "{X}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As an additional cost to cast ~ exile X cards from your graveyard.\nYou draw X cards, lose X life, and get X souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg"
+    "oracle_text": "As an additional cost to cast this spell sacrifice an artifact or creature.\nTarget player draws a card.\nTarget player discards a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/something_petrified.jpeg"
 },
 {
     "name": "Soul of a Sorrowful Spirit",
@@ -1693,8 +1693,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1791,8 +1791,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1804,8 +1804,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1818,10 +1818,10 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "G",
         "R",
-        "W",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1846,8 +1846,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1872,8 +1872,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1911,8 +1911,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2087,6 +2087,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg"
 },
 {
+    "name": "Chasm Giant",
+    "type": "Creature",
+    "mana_cost": "{4}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "This creature can't be blocked except by black creatures.\nWhen ~ enters the battlefield, create two 1/1 colorless Hollow creature tokens. Then your opponents lose life equal to the number of creatures you control. You gain souls equal to the life lost this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chasm_giant.jpeg"
+},
+{
     "name": "Darkwraith",
     "type": "Creature",
     "mana_cost": "{1}{B}{B}",
@@ -2107,7 +2119,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.\nSearch your library for two red and/or black cards. Reveal them, then put one into your hand and one into your graveyard.\n",
+    "oracle_text": "You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.\nSearch your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_wardens_tome.jpeg"
 },
 {
@@ -2246,8 +2258,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2259,8 +2271,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2272,8 +2284,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2289,8 +2301,8 @@
         "R"
     ],
     "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug\nIndestructible\nWhenever a creature you control dies, if you don't control a creature named Chaos Bug sacrifice ~.\n",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug\nAt the beginning of each opponent's end step that player sacrifices a creature or artifact.\nWhenever a creature leaves the battlefield, if you don't control a creature named \"Chaos Bug\" sacrifice ~. \n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
@@ -2311,8 +2323,8 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "G",
+        "R",
         "W"
     ],
     "rarity": "rare",
@@ -2363,8 +2375,8 @@
     "type": "Creature",
     "mana_cost": "{2}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2376,8 +2388,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2388,8 +2400,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2401,9 +2413,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "W",
         "B",
-        "R",
-        "W"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2414,9 +2426,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "W",
             "B",
-            "R",
-            "W"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2428,8 +2440,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2441,26 +2453,14 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
     "oracle_text": "Deathtouch, trample, reach\n{3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.\nWhenever a creature you control deals 5 or more damage to a player destroy up to one target land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg"
-},
-{
-    "name": "Catalyst of the Witch of Izalith",
-    "type": "Artifact",
-    "mana_cost": "{1}{U}",
-    "colors": [
-        "U"
-    ],
-    "rarity": "rare",
-    "rating": 4,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
 },
 {
     "name": "Cursed Greatsword",
@@ -2585,18 +2585,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/vordt_and_the_dancer.jpeg"
 },
 {
-    "name": "Curse of the Dead",
-    "type": "Enchantment",
-    "mana_cost": "{1}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "mythic",
-    "rating": 2,
-    "oracle_text": "Enchant player\nCreatures enchanted player controls get -1/-1 and can't block.\nWhenever a creature controlled by enchanted player dies you, draw one card, lose one life, and get one soul.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg"
-},
-{
     "name": "Gravelord Nito",
     "type": "Creature",
     "mana_cost": "{5}{B}{B}{B}{B}{B}",
@@ -2660,8 +2648,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "B",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2674,10 +2662,10 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "B",
-        "G",
         "R",
-        "W",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2689,9 +2677,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
         "W",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2703,8 +2691,8 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -2716,8 +2704,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "W",
+            "B",
             "U"
         ],
         "rarity": "",
@@ -2730,13 +2718,25 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
     "oracle_text": "{+1}: Exile target tapped nonland permanent.\n{+0}: Exile ~ then return it to the battlefield under your control.\n{-8}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \\\"At the beginning of your upkeep, this emblem deals 3 damage to you.\\\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg"
+},
+{
+    "name": "Catalyst of the Witch of Izalith",
+    "type": "Artifact",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
 },
 {
     "name": "Homeward Bone",
@@ -2774,10 +2774,10 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "B",
-        "G",
         "R",
-        "W",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2800,10 +2800,10 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "G",
         "R",
-        "W",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2883,7 +2883,7 @@
 15 Lothric Sentry
 15 Parasite Worm
 15 Royal Rat Vanguard
-15 Sift through the Ashes
+15 Something Petrified
 15 Soul of a Sorrowful Spirit
 15 Undead Hound
 15 Chaos Storm
@@ -3010,6 +3010,7 @@
 3 Soul Spear
 3 Soul Stream
 3 Aldrich, Devourer of Gods
+3 Chasm Giant
 3 Darkwraith
 3 Grave Warden's Tome
 3 Nimble Shadow
@@ -3035,7 +3036,6 @@
 3 Knight Lautrec
 3 Stream of Estus
 3 Yhorm, the Giant
-3 Catalyst of the Witch of Izalith
 3 Cursed Greatsword
 3 Eyes of a Firekeeper
 3 Ring of Favor
@@ -3049,7 +3049,6 @@
 Pickle Pee, Pump-a-Rum
 Into the Abyss
 Vordt and the Dancer
-Curse of the Dead
 Gravelord Nito
 Ringfinger Leonhard
 Abyss Watchers
@@ -3058,6 +3057,7 @@ Gwyn, Lord of Cinder
 King of the Storm
 Knight Artorias
 Lorian and Lothric
+Catalyst of the Witch of Izalith
 Homeward Bone
 Kiln of the First Flame
 Moonlight Greatsword

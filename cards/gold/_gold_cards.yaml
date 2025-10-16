@@ -65,17 +65,17 @@ card_bed_of_chaos:
     type: "Creature"
     sub: "Spellshaper Lord"
     rarity: "Rare"
-    rating: 0
+    rating: 2
     rules_text: |
       When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug
-      Indestructible
-      Whenever a creature you control dies, if you don't control a creature named Chaos Bug sacrifice ~.
-    flavor_text: "Mother of all demons."
+      At the beginning of each opponent's end step that player sacrifices a creature or artifact.
+      Whenever a creature leaves the battlefield, if you don't control a creature named "Chaos Bug" sacrifice ~. 
+    flavor_text: ""
     artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
     artist: "oniruu"
     number: 164
-    power: 3
-    toughness: 4
+    power: 7
+    toughness: 8
 
 card_blade_of_the_darkmoon:
   front:
