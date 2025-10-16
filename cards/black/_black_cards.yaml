@@ -431,23 +431,6 @@ card_royal_rat_vanguard:
     power: 3
     toughness: 3
 
-card_sift_through_the_ashes:
-  front:
-    name: "Sift through the Ashes"
-    cost: "{X}{B}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Common"
-    rating: 2
-    rules_text: |
-      As an additional cost to cast ~ exile X cards from your graveyard.
-      You draw X cards, lose X life, and get X souls.
-    flavor_text: "The fire has long since died, but ash remembers everything."
-    artwork_url: "https://i.ibb.co/gZ1v9PSB/sift-through-the-ashes-resize.jpg"
-    artist: "deepai"
-    number: 95
-
 card_skim_memories:
   front:
     name: "Skim Memories"
@@ -463,6 +446,24 @@ card_skim_memories:
     flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
     artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"
     artist: "mario sanchez nevado"
+    number: 95
+
+card_something_petrified:
+  front:
+    name: "Something Petrified"
+    cost: "{B}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      As an additional cost to cast this spell sacrifice an artifact or creature.
+      Target player draws a card.
+      Target player discards a card.
+    flavor_text: "A rare and peculiar thing, to be certain, but one without a known purpose."
+    artwork_url: "https://i.ibb.co/VYhLkQqf/something-petrified-recolor.png"
+    artist: "deepai"
     number: 96
 
 card_soul_of_a_sorrowful_spirit:
