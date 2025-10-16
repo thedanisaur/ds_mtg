@@ -600,16 +600,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/royal_rat_vanguard.jpeg"
 },
 {
-    "name": "Sift through the Ashes",
+    "name": "Something Petrified",
     "type": "Instant",
-    "mana_cost": "{X}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As an additional cost to cast ~ exile X cards from your graveyard.\nYou draw X cards, lose X life, and get X souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg"
+    "oracle_text": "As an additional cost to cast this spell sacrifice an artifact or creature.\nTarget player draws a card.\nTarget player discards a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/something_petrified.jpeg"
 },
 {
     "name": "Soul of a Sorrowful Spirit",
@@ -1096,8 +1096,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1667,8 +1667,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1680,8 +1680,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1706,8 +1706,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1817,11 +1817,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "G",
         "R",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1846,8 +1846,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1898,8 +1898,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2271,8 +2271,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2297,8 +2297,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2310,8 +2310,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2323,9 +2323,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
         "G",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2350,8 +2350,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2362,8 +2362,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2414,8 +2414,8 @@
     "mana_cost": "{R}{W}{B}",
     "colors": [
         "W",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2427,8 +2427,8 @@
         "mana_cost": "",
         "colors": [
             "W",
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2453,9 +2453,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
+        "G",
         "B",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2647,9 +2647,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "B",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2661,11 +2661,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "W",
         "B",
-        "G",
         "R",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2678,8 +2678,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "W",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2773,11 +2773,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "W",
         "B",
-        "G",
         "R",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "G",
         "R",
-        "U"
+        "U",
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2883,7 +2883,7 @@
 15 Lothric Sentry
 15 Parasite Worm
 15 Royal Rat Vanguard
-15 Sift through the Ashes
+15 Something Petrified
 15 Soul of a Sorrowful Spirit
 15 Undead Hound
 15 Chaos Storm
