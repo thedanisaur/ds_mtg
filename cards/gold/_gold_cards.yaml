@@ -199,7 +199,7 @@ card_gael_seeker_of_ash:
     type: "Creature"
     sub: "Knight Lord"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Haste
       When ~ enters the battlefield or attacks, discard two cards and draw two cards.
@@ -270,21 +270,21 @@ card_gwyn_lord_of_cinder:
 card_hawkeye_gough:
   front:
     name: "Hawkeye Gough"
-    cost: "{2}{R}{G}"
+    cost: "{5}{R}{G}"
     super: "Legendary"
     type: "Creature"
     sub: "Giant Knight"
     rarity: "Rare"
     rating: 1
     rules_text: |
-      Haste
-      {1}{R/G}, {T}, pay two souls: Deal 5 damage to target creature with flying.
+      Reach, trample, haste
+      {1}{R/G}, {T}: ~ deals 5 damage to target creature with flying. That creature loses indestructible until end of turn.
     flavor_text: "We were no match for the dragons. Their scales are as tough as steel. The strength of a thousand men… would be insufficient."
     artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/160145919_156393993002460_7498443105228099006_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kRtaRczYsFgQ7kNvwHxyyub&_nc_oc=AdkM9tRMr0iza7RCcogkI-J0xVVUSq4XcQwv2g545EGiZHp0_kJ_yYKp_2MFsO1a-yg&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=apiiHdQ9c86Qd7FCx4i2uQ&oh=00_AfMxstaQppX2ZzIJMbr9wIoLyHYaa0HbI9BYhrT2lNtGeQ&oe=68866AEA"
     artist: "Lucky Robin"
     number: 174
-    power: 4
-    toughness: 4
+    power: 8
+    toughness: 8
 
 card_iudex_gundyr:
   front:
@@ -536,7 +536,7 @@ card_yhorm_the_giant:
     type: "Creature"
     sub: "Giant Lord"
     rarity: "Rare"
-    rating: 2
+    rating: 1
     rules_text: |
       Deathtouch, trample, reach
       {3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.

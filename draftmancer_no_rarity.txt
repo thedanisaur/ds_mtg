@@ -320,7 +320,7 @@
     ],
     "rarity": "common",
     "rating": 4,
-    "oracle_text": "Return target permanent to its owner's hand. Draw a card.",
+    "oracle_text": "As you cast this spell, if it targets a land, pay an addition {1}. Otherwise, counter it.\nReturn target permanent to its owner's hand. Draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/aural_decoy.jpeg"
 },
 {
@@ -764,7 +764,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "You may pay an additional {1} as you cast this spell if you do choose two, else choose one -\n\u2022 Draw a card.\n\u2022 Until end of turn creatures you control can't have bleed counters placed on them.\n\u2022 Attach up to one target curse to target player.\n\u2022 Creatures you control gain haste until end of turn.\n",
+    "oracle_text": "You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -\n\u2022 Draw a card.\n\u2022 Until end of turn creatures you control can't have bleed counters placed on them.\n\u2022 Attach up to one target curse to target player.\n\u2022 Creatures you control gain haste until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profuse_sweat.jpeg"
 },
 {
@@ -1096,8 +1096,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1109,8 +1109,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1633,7 +1633,7 @@
         "G"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "oracle_text": "Vigilance, reach\n~ can't be countered and can't be blocked except by three or more creatures.\nMorph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/the_serpent_king.jpeg"
 },
@@ -1654,8 +1654,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1667,8 +1667,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1680,8 +1680,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1693,8 +1693,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1706,8 +1706,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1804,8 +1804,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1817,11 +1817,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B",
+        "U",
         "R",
+        "B",
         "W",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1833,8 +1833,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1846,8 +1846,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1859,8 +1859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1872,8 +1872,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1885,8 +1885,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1898,8 +1898,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1911,8 +1911,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1924,8 +1924,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2258,8 +2258,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2271,8 +2271,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2284,8 +2284,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2297,8 +2297,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2310,8 +2310,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2323,9 +2323,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
+        "G",
         "R",
-        "G"
+        "W"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2337,8 +2337,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2350,11 +2350,11 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "Haste\nWhen ~ enters the battlefield or attacks, discard two cards and draw two cards.\nWhenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg",
     "back": {
@@ -2362,8 +2362,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2373,14 +2373,14 @@
 {
     "name": "Hawkeye Gough",
     "type": "Creature",
-    "mana_cost": "{2}{R}{G}",
+    "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Haste\n{1}{R/G}, {T}, pay two souls: Deal 5 damage to target creature with flying.\n",
+    "oracle_text": "Reach, trample, haste\n{1}{R/G}, {T}: ~ deals 5 damage to target creature with flying. That creature loses indestructible until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg"
 },
 {
@@ -2413,9 +2413,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "B",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2426,9 +2426,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "R",
             "B",
-            "W",
-            "R"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2440,8 +2440,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2453,12 +2453,12 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
+        "G",
         "R",
-        "G"
+        "B"
     ],
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1,
     "oracle_text": "Deathtouch, trample, reach\n{3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.\nWhenever a creature you control deals 5 or more damage to a player destroy up to one target land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg"
 },
@@ -2647,9 +2647,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
+        "U",
         "R",
-        "U"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2661,11 +2661,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
-        "B",
+        "U",
         "R",
+        "B",
         "W",
-        "U"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2677,9 +2677,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
+        "U",
         "R",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2691,9 +2691,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2704,9 +2704,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "U",
             "B",
-            "W",
-            "U"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2718,8 +2718,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2773,11 +2773,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
-        "B",
+        "U",
         "R",
+        "B",
         "W",
-        "U"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +2799,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B",
+        "U",
         "R",
+        "B",
         "W",
-        "U"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
