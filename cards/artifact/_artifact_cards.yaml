@@ -271,7 +271,8 @@ card_moonlight_greatsword:
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      Equipped creature has "Pay one soul: ~ deals 1 damage to target creature."
+      Whenever equipped creature deals damage you get that many souls.
+      Pay one soul: ~ deals 1 damage to target creature. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.
       Equip {2}
     flavor_text: "Oceiros was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
     artwork_url: "https://www.deviantart.com/sergioskill/art/Bonfire-652960644"

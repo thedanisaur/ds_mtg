@@ -278,13 +278,14 @@ card_hooded_sorcerer:
 card_into_the_abyss:
   front:
     name: "Into the Abyss"
-    cost: "{3}{U}{U}{U}"
+    cost: "{U}{U}{U}"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: "Mythic"
     rating: 0
-    rules_text: "{U}{U}{U}: You get three souls. Shuffle your library then reveal the top card. If the revealed card is an instant, sorcery, or artifact card, then you may pay a number of souls equal to that card's converted mana cost. If you do, cast that card wihout paying it's mana cost."
+    rules_text: |
+      {U}{U}{U}: You get three souls. Shuffle your library then exile the top card. You may pay a number of souls equal to that card's converted mana cost. If you do, play that card wihout paying it's mana cost.
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
     artist: "nahelus"
