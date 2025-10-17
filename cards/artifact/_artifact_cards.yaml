@@ -409,7 +409,7 @@ card_void_charm:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 4
     rules_text: |
       ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
       {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."
