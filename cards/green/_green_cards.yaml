@@ -501,7 +501,7 @@ card_the_serpent_king:
     type: "Creature"
     sub: "Hydra"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Vigilance, reach
       ~ can't be countered and can't be blocked except by three or more creatures.
