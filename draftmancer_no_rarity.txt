@@ -1272,8 +1272,8 @@
     "type": "Creature",
     "mana_cost": "{1}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1285,8 +1285,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1954,8 +1954,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1980,8 +1980,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1991,10 +1991,10 @@
 {
     "name": "Splintering Lightning",
     "type": "Sorcery",
-    "mana_cost": "{X}{R/W}",
+    "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2006,8 +2006,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2114,8 +2114,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2127,10 +2127,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "G",
         "B",
         "U",
-        "G",
+        "R",
         "W"
     ],
     "rarity": "uncommon",
@@ -2143,8 +2143,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2156,8 +2156,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2169,8 +2169,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2208,8 +2208,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2221,8 +2221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2592,8 +2592,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2605,8 +2605,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2631,8 +2631,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2657,9 +2657,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "W",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2684,8 +2684,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2696,8 +2696,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2709,8 +2709,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2747,9 +2747,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
         "B",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2760,9 +2760,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
             "B",
-            "W"
+            "W",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2774,8 +2774,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2787,9 +2787,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
         "B",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2995,9 +2995,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "B",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3009,10 +3009,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
+        "G",
         "B",
         "U",
-        "G",
+        "R",
         "W"
     ],
     "rarity": "mythic",
@@ -3025,9 +3025,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "U",
         "W",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3040,8 +3040,8 @@
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
         "B",
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3053,8 +3053,8 @@
         "mana_cost": "",
         "colors": [
             "B",
-            "W",
-            "U"
+            "U",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3066,8 +3066,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3121,10 +3121,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
+        "G",
         "B",
         "U",
-        "G",
+        "R",
         "W"
     ],
     "rarity": "mythic",
@@ -3150,10 +3150,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "G",
         "B",
         "U",
-        "G",
+        "R",
         "W"
     ],
     "rarity": "mythic",
