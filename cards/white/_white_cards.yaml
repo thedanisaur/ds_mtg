@@ -68,7 +68,7 @@ card_blessed_cleric:
     rating: 2
     rules_text: |
       When ~ enters the battlefield you gain 2 life.
-      {W}, Sacrifice ~: Creatures you control gain indestructible until end of turn.
+      Sacrifice ~: Creatures you control gain indestructible until end of turn.
     flavor_text: "There are those who still believe the fire listens. They know...it often answers."
     artwork_url: "https://www.deviantart.com/kanenein/art/Cleric-1202027123"
     artist: "kanenein"
@@ -113,21 +113,6 @@ card_corrupted_hollow:
     frame: "Double-Faced: Night"
     color_indicator: "{W}"
 
-card_disenchant:
-  front:
-    name: "Disenchant"
-    cost: "{1}{W}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Common"
-    rating: 1
-    rules_text: "Destroy target artifact or enchantment."
-    flavor_text: "There are sorceries which are not meant to pierce flesh, but to demand peace."
-    artwork_url: "https://api.deepai.org/job-view-file/5107c913-ee3a-4477-9c1e-24306f2b22cb/outputs/output.jpg"
-    artist: "deepai"
-    number: 15
-
 card_emit_force:
   front:
     name: "Emit Force"
@@ -141,7 +126,7 @@ card_emit_force:
     flavor_text: "Throughout history, there have been many examples of imitative miracles. When discerning original from imitator is nigh impossible, which is which hardly matters."
     artwork_url: "https://www.deviantart.com/brandon-ellis/art/Siesmic-Blast-936457748"
     artist: "brandon ellis"
-    number: 16
+    number: 15
 
 card_flexile_sentry:
   front:
@@ -157,7 +142,7 @@ card_flexile_sentry:
     flavor_text: "Two merciless creatures sharing a single malformed body, bound together in perpetual motion intent to punish the Undead. "
     artwork_url: "https://www.deviantart.com/peterlof/art/Flexile-Sentry-Dark-Souls-2-883074608"
     artist: "peterlof"
-    number: 17
+    number: 16
     power: 2
     toughness: 2
 
@@ -176,7 +161,7 @@ card_forossa_lion_knight:
     flavor_text: "Through Faraam's blessing, our blades know no fear in flame."
     artwork_url: "https://i.ibb.co/b5cST3cy/dark-souls-dark-souls-ii-video-games-sword-wallpaper-preview.jpg"
     artist: "fromsoft"
-    number: 18
+    number: 17
     power: 2
     toughness: 2
 
@@ -195,9 +180,39 @@ card_heretic_storyteller:
     flavor_text: "Corvian storytellers share tales of the Painted World to forlorn souls. These are wretched beings. Their bodies, souls, and humanity are all rotten to the core."
     artwork_url: "https://i.pinimg.com/originals/be/05/d7/be05d73b4b08277e7005ce98720df484.jpg"
     artist: "cobaltplasma"
-    number: 19
+    number: 18
     power: 2
     toughness: 1
+
+card_heavenly_thunder:
+  front:
+    name: "Heavenly Thunder"
+    cost: "{4}{W}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      Exile all non-Human, non-Cleric, and non-Knight creatures. You get two souls for each creature exiled this way.
+    flavor_text: "One can never gain full control of the power of the Gods, but with a little favor from lady luck, this spell will destroy your foes."
+    artwork_url: "https://i.ibb.co/RkPTPX1p/heavenly-thunder-nanakoac-dflx854-pre.jpg"
+    artist: "nanakoac"
+    number: 19
+
+card_homeward:
+  front:
+    name: "Homeward"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: |
+      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for basic plains, reveal it, put it into your hand, then shuffle your library.
+    flavor_text: "A link to one's homeland, only the curse of the Undead has distorted its power, redirecting casters back to the transitory lands."
+    artwork_url: "https://i.pinimg.com/736x/b4/5c/bc/b45cbc55e71a6970dde0b1654e2c5c13.jpg"
+    artist: "g. ziel"
+    number: 20
 
 card_infested_corpse:
   front:
@@ -215,7 +230,7 @@ card_infested_corpse:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
     artist: "cucdn"
-    number: 20
+    number: 21
     power: 1
     toughness: 1
 
@@ -234,9 +249,25 @@ card_insolent_spirits:
     flavor_text: "A party who long ago attempted to conquer the Undead Crypt. For this sin their deaths have been postponed, so they may serve as crypt sentries."
     artwork_url: "https://i.ibb.co/60fvgpZ7/insolent-spirits-datguy13-resize.jpg"
     artist: "datguy13"
-    number: 21
+    number: 22
     power: 4
     toughness: 4
+
+card_karmic_justice:
+  front:
+    name: "Karmic Justice"
+    cost: "{W}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 1
+    rules_text: |
+      The next time a source of your choice would deal damage this turn. Prevent that damage. If damage is prevented this way ~ deals that much damage to any target.
+    flavor_text: "For each sin there is a punishment, and it is the task of Goddess Velka to define the sin, and mete out the punishment."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Two-Shields-30min-spitpaint-879723895"
+    artist: "cobaltplasma"
+    number: 23
 
 card_knights_of_gwynevere:
   front:
@@ -249,10 +280,11 @@ card_knights_of_gwynevere:
     rating: 2
     rules_text: |
       First strike, lifelink
+      When ~ enters the battlefield exile target card from a graveyard.
     flavor_text: "An order long scattered, their golden armor dulled and their miracles fading. Yet still they fight for the image of a goddess who abandoned the world."
     artwork_url: "https://img0.reactor.cc/pics/post/Silver-Knight-%28DS%29-DS-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B8-Dark-Souls-miso_kiccck-6770780.jpeg"
     artist: "miso kiccck"
-    number: 22
+    number: 24
     power: 2
     toughness: 2
 
@@ -266,11 +298,11 @@ card_lightning_spear:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Exile target nonland permanent. That permanent's controller draws two cards at the beginning of their next upkeep.
+      Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.
     flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
     artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
     artist: "4c"
-    number: 23
+    number: 25
 
 card_magic_barrier:
   front:
@@ -283,11 +315,11 @@ card_magic_barrier:
     rating: 2
     rules_text: |
       When you cast this spell you may pay {W} if you do draw a card.
-      Return target spell to its owner's hand. You get one soul.
+      Return target spell to its owner's hand. You get soul's equal to that spells converted mana cost.
     flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
     artwork_url: "https://i.ibb.co/kVCszZpr/magic-barrier-eluria14.jpg"
     artist: "eluria14"
-    number: 24
+    number: 26
 
 card_miracle_of_the_way_of_white:
   front:
@@ -305,7 +337,7 @@ card_miracle_of_the_way_of_white:
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
     artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
     artist: "dnd"
-    number: 25
+    number: 27
 
 card_mirrah_warrior:
   front:
@@ -317,12 +349,11 @@ card_mirrah_warrior:
     rarity: "Common"
     rating: 2
     rules_text: |
-      When ~ enters the battlefield you may pay one soul. If you do, put a first strike counter on target creature you control.
-      Players can't search libraries.
+      Players can't cast more than one spell per turn and can't search libraries.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"
-    number: 26
+    number: 28
     power: 2
     toughness: 1
 
@@ -336,12 +367,13 @@ card_new_londo_shade:
     rarity: "Common"
     rating: 2
     rules_text: |
+      You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals damage you get one soul.
+      Sacrifice ~: Exile all cards from target player's graveyard.
     flavor_text: "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city."
     artwork_url: "https://i.ibb.co/3YLL1qTM/londo-ghost-concept-art-header-full-resize.jpg"
     artist: "fromsoft"
-    number: 27
+    number: 29
     power: 3
     toughness: 1
 
@@ -358,7 +390,7 @@ card_petrified_egg:
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
     artist: "deepai"
-    number: 28
+    number: 30
 
 card_reforge:
   front:
@@ -373,11 +405,11 @@ card_reforge:
     flavor_text: "Reforge mighty blade... with mighty soul."
     artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
     artist: "enthing"
-    number: 29
+    number: 31
 
-card_resting_merchant:
+card_resting_thief:
   front:
-    name: "Resting Merchant"
+    name: "Resting Thief"
     cost: "{W}"
     super: ""
     type: "Creature"
@@ -391,9 +423,28 @@ card_resting_merchant:
     flavor_text: "I may be a petty thief, but I do hope I can be of help."
     artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
     artist: "pirozhochek"
-    number: 30
+    number: 32
     power: 2
     toughness: 2
+
+card_shulvas_denial:
+  front:
+    name: "Shulva's Denial"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 1
+    rules_text: |
+      You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -
+      • Destroy target artifact.
+      • Destroy target enchant.
+      • Counter target spell that targets a creature you control.
+    flavor_text: "The dragon will not be disturbed -- *Sunken King*"
+    artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
+    artist: "cobaltplasma"
+    number: 33
 
 card_siegmeyer_of_catarina:
   front:
@@ -411,7 +462,7 @@ card_siegmeyer_of_catarina:
     flavor_text: "Excuse me. I must have dozed off."
     artwork_url: "https://i.ibb.co/mCRqzTGZ/siegmeyer-of-catarina-grecia-frangos.jpg"
     artist: "grecia frangos"
-    number: 31
+    number: 34
     power: 3
     toughness: 4
     frame: "Double-Faced: Day"
@@ -427,7 +478,7 @@ card_siegmeyer_of_catarina:
     flavor_text: "Forgive me, old friend. I've failed, in everything."
     artwork_url: "https://i.ibb.co/bg8BRC49/siegmeyer-of-catarina-back-arkaimk-resize.png"
     artist: "arkaimk"
-    number: 31
+    number: 34
     power: 0
     toughness: 1
     frame: "Double-Faced: Night"
@@ -448,9 +499,25 @@ card_solaire_of_astora:
     flavor_text: "The sun is beautiful, if only I could be so grossly incandescent!"
     artwork_url: "https://i.ibb.co/nsnV1p1n/solaire-of-astora-pateas-illustration-resize.jpg"
     artist: "jakubjagoda"
-    number: 32
+    number: 35
     power: 2
     toughness: 1
+
+card_soothing_sunlight:
+  front:
+    name: "Soothing Sunlight"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Return target permanent you control to its owner's hand. You remove all bleed counters and gain life for each permanent you control.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/8c/ed/ff/8cedff1bf8997bd98516e43b5a8d6d20.jpg"
+    artist: "xin"
+    number: 36
 
 card_soul_of_a_nameless_soldier:
   front:
@@ -468,8 +535,25 @@ card_soul_of_a_nameless_soldier:
     flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
     artwork_url: "https://www.deviantart.com/luis-bello/art/The-Portal-862719596"
     artist: "Luis Bello"
-    number: 33
+    number: 37
     color_indicator: "{W}"
+
+card_sunlight_blade:
+  front:
+    name: "Sunlight Blade"
+    cost: "W"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rules_text: |
+      Enchant creature
+      Enchanted creature gets +1/+0, has lifelink, and can block creatures with shadow.
+      Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/jakubjagoda/art/By-The-Light-1050885910"
+    artist: "jakubjagoda"
+    number: 38
 
 card_swollen_mongrel:
   front:
@@ -482,13 +566,13 @@ card_swollen_mongrel:
     rating: 3
     rules_text: |
       Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-      {W}{U}, {T}: White and Blue creatures you control get +1/+1 until end of turn.
+      {W}{B/G}, {T}: Creatures you control get +1/+1 and gain bleed until end of turn.
     flavor_text: "A mutated canine born from the experiments conducted by Lord Aldia."
     artwork_url: "https://i.ibb.co/cKpwF0FV/swollen-mongrel-eemeling-resize.jpg"
     artist: "eemeling"
-    number: 34
-    power: 4
-    toughness: 4
+    number: 39
+    power: 3
+    toughness: 3
 
 card_tears_of_denial:
   front:
@@ -506,7 +590,7 @@ card_tears_of_denial:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/themefinland/art/Deflector-apprentice-777597967"
     artist: "themefinland"
-    number: 35
+    number: 40
 
 card_transient_curse:
   front:
@@ -521,7 +605,7 @@ card_transient_curse:
     flavor_text: "The only way to fight back against ghosts, who are cursed beings, is to become cursed oneself."
     artwork_url: "https://i.ibb.co/5xk5hHb9/transient-curse-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 36
+    number: 41
 
 card_village_blacksmith:
   front:
@@ -539,7 +623,7 @@ card_village_blacksmith:
     flavor_text: "Prithee, be careful"
     artwork_url: "https://i.ibb.co/wZvTSTgD/village-blacksmith-john-delvin-resize.jpg"
     artist: "John Devlin"
-    number: 37
+    number: 42
     power: 1
     toughness: 3
 
@@ -556,7 +640,7 @@ card_vow_of_silence:
     flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."
     artwork_url: "https://www.deviantart.com/alaiaorax/art/Silence-your-mind-655938148"
     artist: "alaiaorax"
-    number: 38
+    number: 43
 
 card_weary_travelers:
   front:
@@ -573,7 +657,7 @@ card_weary_travelers:
     flavor_text: "Are you too in search of the Lords of Cinder?"
     artwork_url: "https://i.ibb.co/whJnwk7J/weary-travlers-g-tea-resize.jpg"
     artist: "g tea"
-    number: 39
+    number: 44
 
 card_wight:
   front:
@@ -588,6 +672,6 @@ card_wight:
     flavor_text: "They do not speak, only sing — a hymn not of worship, but of remembrance.  "
     artwork_url: "https://i.ibb.co/rRs2LpxF/white-phantom-resize.jpg"
     artist: "adadia"
-    number: 40
+    number: 45
     power: 3
     toughness: 2

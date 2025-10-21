@@ -7,11 +7,12 @@ card_acid_surge:
     sub: ""
     rarity: "Uncommon"
     rating: 2
-    rules_text: "Destroy up to X target artifacts."
+    rules_text: |
+      Destroy up to X target artifacts. Create twice X 1/1 colorless Hollow creature tokens. Then gain haste until end of turn.
     flavor_text: "Carthus' swordsmen attached great value to victory, and would not shun the use of such pyromancies."
     artwork_url: "https://www.deviantart.com/temmaru/art/ACID-FLAME-SURGE-1091256471"
     artist: "temmaru"
-    number: 101
+    number: 116
 
 card_capra_demon:
   front:
@@ -28,9 +29,43 @@ card_capra_demon:
     flavor_text: "The Capra demons use paired greatswords in battle. While not imbued with magic, their great weight will smash foes mercilessly."
     artwork_url: "https://i.ibb.co/JWKjrc5r/capra-demon-azany-resize.jpg"
     artist: "Azany"
-    number: 102
+    number: 117
     power: 2
     toughness: 1
+
+card_carthus_beacon:
+  front:
+    name: "Carthus Beacon"
+    cost: "{1}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Enchant creature
+      Enchanted creature gains double strike and has, "Whenever this creature attacks for the first time each turn, untap it. After this phase, there is an additional combat phase."
+    flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
+    artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
+    artist: "arturtreffner"
+    number: 118
+
+card_cathedral_evangelist:
+  front:
+    name: "Cathedral Evangelist"
+    cost: "{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Common"
+    rating: 2
+    rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
+    flavor_text: "EEHEEE!"
+    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
+    artist: "therikaro114"
+    number: 119
+    power: 3
+    toughness: 2
 
 card_chaos_bed_vestiges:
   front:
@@ -47,7 +82,7 @@ card_chaos_bed_vestiges:
     flavor_text: "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Trying-to-Keep-Warm-609129608"
     artist: "cobaltplasma"
-    number: 103
+    number: 120
 
 card_chaos_storm:
   front:
@@ -65,7 +100,7 @@ card_chaos_storm:
     flavor_text: "The Witch of Izalith attempted to replicate the First Flame, instead creating the Flame of Chaos."
     artwork_url: "https://www.deviantart.com/socialgatheringstar/art/The-Fire-Wyrm-Unleashed-1134311161"
     artist: "socialgatheringstar"
-    number: 104
+    number: 121
 
 card_cracked_redeye_orb:
   front:
@@ -80,7 +115,7 @@ card_cracked_redeye_orb:
     flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
     artist: "cobaltplasma"
-    number: 105
+    number: 122
 
 card_cragspider:
   front:
@@ -98,9 +133,28 @@ card_cragspider:
     flavor_text: "She crawls in the filth beneath the world, her limbs aflame, her mind long extinguished."
     artwork_url: "https://i.ibb.co/jZQmWj14/crag-spider-fromsoft.jpg"
     artist: "fromsoft"
-    number: 106
+    number: 123
     power: 2
     toughness: 4
+
+card_demon_cleric:
+  front:
+    name: "Demon Cleric"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      {R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 2 damage to any target.
+    flavor_text: "Descending from the grievous symbol of Izalith's sin, these cleric's rituals echo the chaotic flames that birthed them."
+    artwork_url: "https://i.pinimg.com/736x/09/36/19/09361950665b1ee69ee5323245e6fbf8.jpg"
+    artist: "Vlad MRK"
+    number: 124
+    power: 1
+    toughness: 1
 
 card_desert_pyromancer:
   front:
@@ -117,14 +171,14 @@ card_desert_pyromancer:
     flavor_text: "The flame reveals all, and obscures all."
     artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
     artist: "hachiyuki"
-    number: 107
+    number: 125
     power: 2
     toughness: 1
 
 card_fiery_soapstone:
   front:
     name: "Fiery Soapstone"
-    cost: "{2}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -137,7 +191,7 @@ card_fiery_soapstone:
     flavor_text: "The rippling sign from this soapstone can summon something far worse than a dark spirit."
     artwork_url: "https://i.ibb.co/PvqBwLCn/fading-soapstone-resize.jpg"
     artist: "rintindestiny"
-    number: 108
+    number: 126
 
 card_fire_orb:
   front:
@@ -155,7 +209,7 @@ card_fire_orb:
     flavor_text: "The flame rewards those with a thirst of power."
     artwork_url: "https://i.ibb.co/Kjkp9Xq4/fire-orb-pizza-resize.jpg"
     artist: "pizza"
-    number: 109
+    number: 127
 
 card_fire_surge:
   front:
@@ -172,7 +226,7 @@ card_fire_surge:
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
     artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
     artist: "jasontn"
-    number: 110
+    number: 128
 
 card_firekeeper:
   front:
@@ -184,11 +238,12 @@ card_firekeeper:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
+      Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). 
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"
-    number: 111
+    number: 129
     power: 0
     toughness: 1
 
@@ -207,7 +262,7 @@ card_firesage_demon:
     flavor_text: "The Demon Firesage was the first demon, and the last master of the original fire arts."
     artwork_url: "https://i.ibb.co/zHTd0s3n/firesage-demon-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 112
+    number: 130
     power: 6
     toughness: 4
 
@@ -227,7 +282,7 @@ card_flame_whip:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/93kgHNfw/flame-whip-asfodelo.jpg"
     artist: "asfodelo"
-    number: 113
+    number: 131
 
 card_flamewielding_hollow:
   front:
@@ -245,7 +300,7 @@ card_flamewielding_hollow:
     flavor_text: "Pyromancy is the knowledge of controlling flame, and knowing that control is impossible."
     artwork_url: "https://i.ibb.co/gbkd4Jst/flamewielding-undead-full-maverick.jpg"
     artist: "full maverick"
-    number: 114
+    number: 132
     power: 0
     toughness: 1
 
@@ -262,7 +317,7 @@ card_forbidden_sun:
     flavor_text: "What could possibly justify such excessive destructive power? In all likelihood, the madmen of Aldia never even questioned the need."
     artwork_url: "https://i.ibb.co/mVg5wRCF/forbidden-sun-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 115
+    number: 133
 
 card_hellkite_wyvern:
   front:
@@ -274,12 +329,13 @@ card_hellkite_wyvern:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Flying, first strike
-      When ~ leaves the battlefield search your library for an artifact card with converted mana cost three or less and put it onto the battlefield.
+      Flying, first strike, haste
+      If ~ would die with one or more -1/-1 counters on it exile it instead.
+      At the beginning of combat you may pay {R}. If you do, return ~ from your graveyard to the battlefield with a -1/-1 counter on it.
     flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
     artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
     artist: "a. tarzia"
-    number: 116
+    number: 134
     power: 3
     toughness: 3
 
@@ -296,7 +352,7 @@ card_hollow_infantry:
     flavor_text: "The broken, wandering remnants of men and knights, populating the crumbling Kingdom of Lothric."
     artwork_url: "https://i.ibb.co/SXSMNK76/hollow-infantry-stepalex.jpg"
     artist: "stepalex"
-    number: 117
+    number: 135
 
 card_ignite_steel:
   front:
@@ -308,12 +364,13 @@ card_ignite_steel:
     rarity: "Uncommon"
     rating: 0
     rules_text: |
-      Enchant Equipment
-      Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
+      Enchant creature
+      Enchanted creature has prowess.
+      Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
     artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
     artist: "shadoecrewsart"
-    number: 118
+    number: 136
 
 card_immolation:
   front:
@@ -329,7 +386,24 @@ card_immolation:
     flavor_text: "If a person is truly desirous of something, perhaps being set on fire does not seem so bad."
     artwork_url: "https://i.ibb.co/pvSJWsJj/immolation-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 119
+    number: 137
+
+card_lingering_flame:
+  front:
+    name: "Lingering Flame"
+    cost: "{1}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever you cast a noncreature spell, put a charge counter on ~.
+      Sacrifice ~: ~ deals damage to any target equal to the number of charge counters it has.
+    flavor_text: "The great mage of ancient Olaphis could never settle in one place for long, but his presence remained even long after he departed."
+    artwork_url: "https://i.ibb.co/gbM4wNxk/lingering-flame-resize.jpg"
+    artist: "unknown"
+    number: 138
 
 card_pesky_mosquito:
   front:
@@ -347,9 +421,25 @@ card_pesky_mosquito:
     flavor_text: "Where do they come from?"
     artwork_url: "https://i.ibb.co/gMk9RFnW/pesky-mosquito-teyoliia.jpg"
     artist: "teyoliia"
-    number: 120
+    number: 139
     power: 2
     toughness: 2
+
+card_poison_mist:
+  front:
+    name: "Permeating Flames"
+    cost: "{1}{R}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.
+    flavor_text: "The tempestuous raging flames resemble those summoned by the Daughters of Chaos when they challenged the ancient dragons and scorched the very earth."
+    artwork_url: "https://i.pinimg.com/736x/6a/c1/e2/6ac1e257131c3627e3af8d302053112e.jpg"
+    artist: "malzmonday"
+    number: 140
 
 card_profaned_flame:
   front:
@@ -367,7 +457,7 @@ card_profaned_flame:
     flavor_text: "After Yhorm the Giant became a Lord of Cinder, the Profaned Capital was consumed by a fire that consumed naught but human flesh."
     artwork_url: "https://i.ibb.co/QSbpbyL/profaned-flame-fantasyworldonline.png"
     artist: "fantasyworldonline"
-    number: 121
+    number: 141
 
 card_profuse_sweat:
   front:
@@ -379,7 +469,7 @@ card_profuse_sweat:
     rarity: "Common"
     rating: 1
     rules_text: |
-      You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -
+      As you cast this spell choose one, then choose another at random -
       • Draw a card.
       • Until end of turn creatures you control can't have bleed counters placed on them.
       • Attach up to one target curse to target player.
@@ -387,7 +477,7 @@ card_profuse_sweat:
     flavor_text: "The yellowish sweat cures all kinds of ailments."
     artwork_url: "https://i.ibb.co/xtZXf7df/profuse-sweat-iamsointense.jpg"
     artist: "iamsointense"
-    number: 122
+    number: 142
 
 card_rapport:
   front:
@@ -402,7 +492,7 @@ card_rapport:
     flavor_text: "The living are lured by flame, and this tendency is elemental to the art of pyromancy."
     artwork_url: "https://i.ibb.co/FkDyChb2/rapport-kaido7794-resize.jpg"
     artist: "kaido7794"
-    number: 123
+    number: 143
 
 card_ringfinger_leonhard:
   front:
@@ -420,7 +510,7 @@ card_ringfinger_leonhard:
     flavor_text: "Unkindled are we...then these red eyes are for you."
     artwork_url: "https://i.ibb.co/rRfQmLTW/ringfinger-leonhard-front-aj-saitama-japan-resized.jpg"
     artist: "Aj Saitama Japan"
-    number: 124
+    number: 144
     power: 2
     toughness: 2
     frame: "Double-Faced: Day"
@@ -438,7 +528,7 @@ card_ringfinger_leonhard:
     flavor_text: "Come on, give yourself to Rosaria, of the Cathedral of the Deep."
     artwork_url: "https://i.ibb.co/fVTS3ySK/ringfinger-leonhard-back-estuschan-resized.jpg"
     artist: "Estuschan"
-    number: 124
+    number: 144
     power: 1
     toughness: 1
     frame: "Double-Faced: Night"
@@ -460,7 +550,7 @@ card_smoldering_rotten_flesh:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/7JgFR7KW/smouldering-rotten-flesh-necrodevourer-resize.jpg"
     artist: "necrodevourer"
-    number: 125
+    number: 145
     power: 1
     toughness: 5
 
@@ -478,9 +568,9 @@ card_soul_of_an_old_pyromancer:
       When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 126
+    artwork_url: "https://www.deviantart.com/luis-bello/art/Look-inside-836919995"
+    artist: "Luis Bello"
+    number: 146
     color_indicator: "{R}"
 
 card_sunlight_maggot:
@@ -493,13 +583,14 @@ card_sunlight_maggot:
     rarity: "Common"
     rating: 4
     rules_text: |
+      Haste
       When ~ enters or leaves the battlefield you get one soul.
       {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
     flavor_text: |
-      "You vermin, you dare take my friend!?" — Chosen Undead
+      "You vermin, you dare take my friend!?" — *Chosen Undead*
     artwork_url: "https://i.ibb.co/rfTQbjfC/sunlight-maggot-kingumbra.jpg"
     artist: "kingumbra"
-    number: 127
+    number: 147
     power: 0
     toughness: 1
 
@@ -518,7 +609,7 @@ card_taurus_demon:
     flavor_text: "In an effort to save their culture the Demons fight the fulfilling of the prophecy."
     artwork_url: "https://i.ibb.co/MkGQRMqP/taurus-demon-autocosm.jpg"
     artist: "autocosm"
-    number: 128
+    number: 148
     power: 4
     toughness: 3
 
@@ -538,7 +629,7 @@ card_unbreakable_patches:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/zTqR46yr/unbreakable-patches-front-sweenoy.jpg"
     artist: "Sweenoy"
-    number: 129
+    number: 149
     power: 2
     toughness: 2
     frame: "Double-Faced: Day"
@@ -554,7 +645,7 @@ card_unbreakable_patches:
     flavor_text: "...What did I come here in search of?"
     artwork_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96fe25a2-a5ae-4dda-a10d-e08106e947a5/db473zy-274e3ad3-0cf6-4e82-a24e-1ec3863ca8fb.jpg/v1/fill/w_1024,h_732,q_75,strp/daily_sketch__030_by_sethnemo_db473zy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvOTZmZTI1YTItYTVhZS00ZGRhLWExMGQtZTA4MTA2ZTk0N2E1XC9kYjQ3M3p5LTI3NGUzYWQzLTBjZjYtNGU4Mi1hMjRlLTFlYzM4NjNjYThmYi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KZYwePPhDWp8MVbtEYqBdMCU--gxIBGxbR-zy7kC4lc"
     artist: "Seth Nemo"
-    number: 129
+    number: 149
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
@@ -569,8 +660,8 @@ card_unkindleds_journey:
     sub: ""
     rarity: "Common"
     rating: 4
-    rules_text: "Discard a card, then draw two cards. You get three souls."
+    rules_text: "You get three souls. Draw two cards. Then discard a card."
     flavor_text: "Perhaps you've seen it, maybe in a dream. A murky, forgotten land. A place where souls may mend your ailing mind. You will lose everything, once branded. The symbol of the curse. An augur of darkness. Your past. Your future. Your very light. None will have meaning, and you won't even care. By then, you'll be something other than human. A thing that feeds on souls. A Hollow."
     artwork_url: "https://i.ibb.co/3yqQv9bT/fallen-knight-by-theepic1-dbwp7ji-pre.jpg"
     artist: "theepic1"
-    number: 130
+    number: 150

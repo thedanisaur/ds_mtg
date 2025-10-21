@@ -117,7 +117,7 @@ if __name__ == '__main__':
                         card = {
                             'name': card_front['name'],
                             'type': card_front['type'],
-                            'mana_cost': convert_mana_cost(str(card_front['cost'])),
+                            'mana_cost': str(card_front['cost']),
                             'colors': get_colors(card_front),
                             'rarity': card_front['rarity'].lower(),
                             'rating': card_front.get('rating', 0),
@@ -130,7 +130,7 @@ if __name__ == '__main__':
                             card['back'] = {
                                 'name': card_back['name'],
                                 'type': card_back['type'],
-                                'mana_cost': convert_mana_cost(str(card_back['cost'])),
+                                'mana_cost': str(card_back['cost']),
                                 'colors': get_colors(card_back),
                                 'rarity': card_back['rarity'].lower(),
                                 'oracle_text': card_back['rules_text'],
