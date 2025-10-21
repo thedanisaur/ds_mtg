@@ -567,7 +567,11 @@ card_twisted_wall_of_light:
     rating: 2
     rules_text: |
       You may return two islands you control to your hand rather than pay ~'s mana cost.
-      Counter target spell.
+      If you paid mana to cast this spell choose two, otherwise choose one -
+      • Return target permanent to its owners hand.
+      • Counter target activated or triggered ability.
+      • Tap each creature.
+      • Draw a card.
     flavor_text: "Orbeck returned from Oolacile with a spell that contorts the very fabric of the universe. Negating magic by denying its very claim to physicality. "
     artwork_url: "https://i.ibb.co/pvm0zw95/twisted-wall-of-light-resize.jpg"
     artist: "unknown"

@@ -508,7 +508,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may return two islands you control to your hand rather than pay ~'s mana cost.\nCounter target spell.\n",
+    "oracle_text": "You may return two islands you control to your hand rather than pay ~'s mana cost.\nIf you paid mana to cast this spell choose two, otherwise choose one -\n\u2022 Return target permanent to its owners hand.\n\u2022 Counter target activated or triggered ability.\n\u2022 Tap each creature.\n\u2022 Draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/twisted_wall_of_light.jpeg"
 },
 {
@@ -881,7 +881,7 @@
     "rarity": "common",
     "rating": 2,
     "oracle_text": "Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/poison_mist.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/permeating_flames.jpeg"
 },
 {
     "name": "Profaned Flame",
@@ -1272,8 +1272,8 @@
     "type": "Creature",
     "mana_cost": "{1}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1967,8 +1967,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1993,8 +1993,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2101,8 +2101,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2114,8 +2114,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2127,10 +2127,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U",
         "R",
         "B",
+        "U",
+        "G",
         "W"
     ],
     "rarity": "uncommon",
@@ -2182,8 +2182,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2195,8 +2195,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2221,8 +2221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2234,8 +2234,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2592,8 +2592,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2618,8 +2618,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2657,9 +2657,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
         "R",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2671,8 +2671,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2709,8 +2709,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2722,8 +2722,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2734,8 +2734,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2747,9 +2747,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2760,9 +2760,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "R",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2774,8 +2774,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2787,9 +2787,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "R",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2996,8 +2996,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3009,10 +3009,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
-        "U",
         "R",
         "B",
+        "U",
+        "G",
         "W"
     ],
     "rarity": "mythic",
@@ -3039,9 +3039,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3052,9 +3052,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "U",
-            "B"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3066,8 +3066,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3121,10 +3121,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
-        "U",
         "R",
         "B",
+        "U",
+        "G",
         "W"
     ],
     "rarity": "mythic",
@@ -3137,8 +3137,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3150,10 +3150,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U",
         "R",
         "B",
+        "U",
+        "G",
         "W"
     ],
     "rarity": "mythic",

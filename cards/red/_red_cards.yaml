@@ -425,7 +425,7 @@ card_pesky_mosquito:
     power: 2
     toughness: 2
 
-card_poison_mist:
+card_permeating_flames:
   front:
     name: "Permeating Flames"
     cost: "{1}{R}{R}"

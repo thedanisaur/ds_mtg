@@ -1403,171 +1403,175 @@ Booster distribution
         <strong>Archdragon Peak</strong>
     </td>
     <td align="center">
-        <img src="./cards/land/blighttown.jpeg" alt="Blighttown" width="400"/><br/>
-        <strong>Blighttown</strong>
+        <img src="./cards/land/bewildering_fire.jpeg" alt="Bewildering Fire" width="400"/><br/>
+        <strong>Bewildering Fire</strong>
     </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/land/blighttown.jpeg" alt="Blighttown" width="400"/><br/>
+        <strong>Blighttown</strong>
+    </td>
     <td align="center">
         <img src="./cards/land/bonfire.jpeg" alt="Bonfire" width="400"/><br/>
         <strong>Bonfire</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/cathedral_of_blue.jpeg" alt="Cathedral Of Blue" width="400"/><br/>
         <strong>Cathedral Of Blue</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/land/cathedral_of_the_deep.jpeg" alt="Cathedral Of The Deep" width="400"/><br/>
         <strong>Cathedral Of The Deep</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/darkroot_garden.jpeg" alt="Darkroot Garden" width="400"/><br/>
         <strong>Darkroot Garden</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/land/farron_keep.jpeg" alt="Farron Keep" width="400"/><br/>
         <strong>Farron Keep</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/firelink_shrine.jpeg" alt="Firelink Shrine" width="400"/><br/>
         <strong>Firelink Shrine</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/land/irithyll_of_the_boreal_valley.jpeg" alt="Irithyll Of The Boreal Valley" width="400"/><br/>
         <strong>Irithyll Of The Boreal Valley</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/lost_izalith.jpeg" alt="Lost Izalith" width="400"/><br/>
         <strong>Lost Izalith</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/land/lothric_castle.jpeg" alt="Lothric Castle" width="400"/><br/>
         <strong>Lothric Castle</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/road_of_sacrifices.jpeg" alt="Road Of Sacrifices" width="400"/><br/>
         <strong>Road Of Sacrifices</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/land/shrine_of_amana.jpeg" alt="Shrine Of Amana" width="400"/><br/>
         <strong>Shrine Of Amana</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/land/the_fire_fades.jpeg" alt="The Fire Fades" width="400"/><br/>
         <strong>The Fire Fades</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/assassin.jpeg" alt="Assassin" width="400"/><br/>
         <strong>Assassin</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/chaos_bug.jpeg" alt="Chaos Bug" width="400"/><br/>
         <strong>Chaos Bug</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/hollow.jpeg" alt="Hollow" width="400"/><br/>
         <strong>Hollow</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/hollow_knight.jpeg" alt="Hollow Knight" width="400"/><br/>
         <strong>Hollow Knight</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/human.jpeg" alt="Human" width="400"/><br/>
         <strong>Human</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/human_ally_black.jpeg" alt="Human Ally Black" width="400"/><br/>
         <strong>Human Ally Black</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/human_ally_white.jpeg" alt="Human Ally White" width="400"/><br/>
         <strong>Human Ally White</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/ornstein.jpeg" alt="Ornstein" width="400"/><br/>
         <strong>Ornstein</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/phantom.jpeg" alt="Phantom" width="400"/><br/>
         <strong>Phantom</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/red_phantom.jpeg" alt="Red Phantom" width="400"/><br/>
         <strong>Red Phantom</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/skeleton.jpeg" alt="Skeleton" width="400"/><br/>
         <strong>Skeleton</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/smough.jpeg" alt="Smough" width="400"/><br/>
         <strong>Smough</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/treasure.jpeg" alt="Treasure" width="400"/><br/>
         <strong>Treasure</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/token/wizard.jpeg" alt="Wizard" width="400"/><br/>
         <strong>Wizard</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/token/zombie_jackal.jpeg" alt="Zombie Jackal" width="400"/><br/>
         <strong>Zombie Jackal</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/basic/forest.jpeg" alt="Forest" width="400"/><br/>
         <strong>Forest</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>
