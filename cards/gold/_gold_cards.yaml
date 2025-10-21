@@ -480,7 +480,7 @@ card_sorcerers_remedy:
 card_splintering_lightning:
   front:
     name: "Splintering Lightning"
-    cost: "{X}{R/W}"
+    cost: "{X}{R}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
