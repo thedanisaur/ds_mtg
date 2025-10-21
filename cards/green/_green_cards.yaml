@@ -14,7 +14,7 @@ card_abyss_watchers:
     flavor_text: ""
     artist_url: "https://static.zerochan.net/Abyss.Watchers.full.2137078.jpg"
     artist: "jlien"
-    number: 131
+    number: 151
     power: 5
     toughness: 5
     frame: "Double-Faced: Day"
@@ -32,7 +32,7 @@ card_abyss_watchers:
     flavor_text: "Their souls twisted from the wolf's blood."
     artwork_url: "https://i.pinimg.com/originals/82/5e/1e/825e1e185e8fb45446b19e817d532b7e.jpg"
     artist: "Cal Santiago"
-    number: 131
+    number: 151
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
@@ -51,7 +51,7 @@ card_alluring_skull:
     flavor_text: "A skull with meekly lingering souls. Hollows are lured by it, and drawn toward it, often completely disregarding their own safety."
     artwork_url: "https://www.deviantart.com/jesar/art/Desktopography-2014-Disposition-484475345"
     artist: "jesar"
-    number: 132
+    number: 152
 
 card_amana_aberration:
   front:
@@ -71,9 +71,28 @@ card_amana_aberration:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/morkardfc/art/Sketch-3-703941934"
     artist: "MorkarDFC"
-    number: 133
+    number: 153
     power: 2
     toughness: 2
+
+card_contrasted_cursed:
+  front:
+    name: "Contrasted Cursed"
+    cost: "{1}{G}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Rare"
+    rating: 0
+    rules_text: |
+      Enchant player
+      Creatures enchanted player's opponents control lose shadow and can't have or gain shadow.
+      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      When ~ is turned face up, you gain 3 life. Then you may pay {B}, if you do destroy target noncreature, nonland permanent. That permanent's controller loses 3 life.
+    flavor_text: "Occasionally, you'll want to be cursed."
+    artwork_url: "https://i.ibb.co/23ykgNx1/contrasted-cursed-cobaltplasma-resized.jpg"
+    artist: "cobaltplasma"
+    number: 154
 
 card_corrode:
   front:
@@ -88,7 +107,7 @@ card_corrode:
     flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
     artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
     artist: "anikoo"
-    number: 134
+    number: 155
 
 card_covenant_of_the_forest_hunter:
   front:
@@ -109,7 +128,24 @@ card_covenant_of_the_forest_hunter:
     flavor_text: "One day, all you see will become dust."
     artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
     artist: "thegoblincoach"
-    number: 135
+    number: 156
+
+card_dark_fog:
+  front:
+    name: "Dark Fog"
+    cost: "{3}{G/P}{G/P}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Enchant player
+      Whenever a creature attacks enchanted player, unless that player pays {1}{G/P}, put a blight counter on it. Then for each blight counter on that creature put a bleed counter it.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/Hpxzz1dj/hush-rodinia-resize.jpg"
+    artist: "rodinia"
+    number: 157
 
 card_dukes_dear_freja:
   front:
@@ -128,7 +164,7 @@ card_dukes_dear_freja:
     flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
     artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
     artist: "tatarskiskandal"
-    number: 136
+    number: 158
     power: 4
     toughness: 5
 
@@ -150,7 +186,7 @@ card_ent_of_the_darkroot_garden:
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
     artist: "legen"
-    number: 137
+    number: 159
     power: 3
     toughness: 3
 
@@ -169,7 +205,7 @@ card_estus:
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
-    number: 138
+    number: 160
 
 card_evangelist_of_the_deep:
   front:
@@ -184,11 +220,27 @@ card_evangelist_of_the_deep:
       Can't be countered
       Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.
     flavor_text: "EEHEEE! EEE-HEE-HEE!"
-    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
-    artist: "therikaro114"
-    number: 139
+    artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/87043656_105494997720790_57515182666022912_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7zn9AVxr1HkQ7kNvwH6vly6&_nc_oc=AdmKlaxkGqTI0KOCL2ko-2PHEdPs61hp1zdugVbvts_jRxN79x9fX2ABJc99a6tXfOA&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rWL9KLiqt6UrKl6C9UOnEA&oh=00_AfcLrHsWyaYqgNNvktMbcov5Ffh3sjV7ywZ-1qeMZcNxNw&oe=691A8300"
+    artist: "Schastny Sergey"
+    number: 161
     power: 3
     toughness: 3
+
+card_expected_companions:
+  front:
+    name: "Expected Companions"
+    cost: "{2}{G}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Look at the top six cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+    flavor_text: "I see, you've done this before."
+    artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
+    artist: "sanekyle"
+    number: 162
 
 card_festering_goblin:
   front:
@@ -205,7 +257,7 @@ card_festering_goblin:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"
-    number: 140
+    number: 163
     power: 0
     toughness: 1
 
@@ -225,7 +277,7 @@ card_gaping_dragon:
     flavor_text: "Consumed by a ravenous eternal hunger."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
     artist: "luffie"
-    number: 141
+    number: 164
     power: 4
     toughness: 4
 
@@ -245,7 +297,7 @@ card_hesitant_surveyor:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/adzerak/art/Close-The-Distance-396081114"
     artist: "adzerak"
-    number: 142
+    number: 165
     power: 1
     toughness: 1
 
@@ -264,9 +316,26 @@ card_hollow_knight:
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
     artist: "tithendar"
-    number: 143
+    number: 166
     power: 1
     toughness: 1
+
+card_hush:
+  front:
+    name: "Hush"
+    cost: "{1}{G}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may cast ~ at any time you could cast and instant.
+      If an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
+    artist: "mudhorror"
+    number: 167
 
 card_lothric_knight:
   front:
@@ -283,7 +352,7 @@ card_lothric_knight:
     flavor_text: "Knights of the royal order of Lothric, once sworn to the flame, now roam the halls hollow, relentless, and proud."
     artwork_url: "https://i.ibb.co/tpz1zy00/lothric-knight-resize.jpg"
     artist: "Draegore Nagendra"
-    number: 144
+    number: 168
     power: 3
     toughness: 3
 
@@ -299,11 +368,11 @@ card_milfanito:
     rules_text: |
       When ~ enters the battlefield draw a card.
       {T}: Add one mana of any color to your mana pool.
-      Pay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
+      Creature cards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"
-    number: 145
+    number: 169
     power: 0
     toughness: 2
 
@@ -322,7 +391,7 @@ card_mimic:
     flavor_text: "The chest did not creak. It exhaled."
     artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
     artist: "wotc"
-    number: 146
+    number: 170
     power: 3
     toughness: 2
 
@@ -342,7 +411,7 @@ card_pagan_tree:
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
     artist: "Glenn Porter"
-    number: 147
+    number: 171
 
 card_petrifying_statue:
   front:
@@ -360,9 +429,29 @@ card_petrifying_statue:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
-    number: 148
+    number: 172
     power: "*"
     toughness: 2
+
+card_pickle_pee_pump_a_rum:
+  front:
+    name: "Pickle Pee, Pump-a-Rum"
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: "Shapeshifter Bird"
+    rarity: "Mythic"
+    rating: 1
+    rules_text: |
+      {2}, Discard a nonland card: Draw a card.
+      {1}, Discard a land card: Create a Treasure token.
+      {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
+    flavor_text: "That...no...pickle pee"
+    artwork_url: "https://i.pinimg.com/originals/1d/58/16/1d58161039d0619f40e6362807f69c80.jpg"
+    artist: "Barbara Flowers"
+    number: 173
+    power: 0
+    toughness: 1
 
 card_proselyte_scarlett:
   front:
@@ -381,7 +470,7 @@ card_proselyte_scarlett:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Q7vd81fc/proselyte-scarlett-resize.jpg"
     artist: "Mudhorror"
-    number: 149
+    number: 174
     power: 1
     toughness: 2
 
@@ -400,7 +489,7 @@ card_ravenous_crystal_lizard:
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
     artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
     artist: "jaqenart"
-    number: 150
+    number: 175
     power: 4
     toughness: 5
 
@@ -419,7 +508,7 @@ card_seek_embers:
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
-    number: 151
+    number: 176
 
 card_sentinel_of_the_tower_of_flame:
   front:
@@ -436,7 +525,7 @@ card_sentinel_of_the_tower_of_flame:
     flavor_text: "These knights were determined to fulfill their duty and while their motions are slow and ponderous, their strength is legendary."
     artwork_url: "https://i.ibb.co/wFKQsng7/sentinel-of-the-tower-of-flame-legendary-memory-resize.jpg"
     artist: "legendary memory"
-    number: 152
+    number: 177
     power: 2
     toughness: 2
 
@@ -455,7 +544,7 @@ card_shaded_woods:
     flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
     artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
     artist: "emkun"
-    number: 153
+    number: 178
 
 card_soul_of_a_lost_explorer:
   front:
@@ -473,7 +562,7 @@ card_soul_of_a_lost_explorer:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/luis-bello/art/Cotton-clouds-Perspective-585427710"
     artist: "Luis Bello"
-    number: 154
+    number: 179
     color_indicator: "{G}"
 
 card_souls_of_the_living:
@@ -491,7 +580,7 @@ card_souls_of_the_living:
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
     artist: "TimforShadeDigital"
-    number: 155
+    number: 180
 
 card_the_serpent_king:
   front:
@@ -506,11 +595,11 @@ card_the_serpent_king:
       Vigilance, reach
       ~ can't be countered and can't be blocked except by three or more creatures.
       Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      When ~ is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.
+      When ~ enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to ~.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/PsxNMdhH/the-serpent-king-sandara-recolor.jpg"
     artist: "sandara"
-    number: 156
+    number: 181
     power: 9
     toughness: 9
 
@@ -531,7 +620,7 @@ card_undead_aberration:
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 157
+    number: 182
     power: 4
     toughness: 4
 
@@ -552,7 +641,7 @@ card_warcry:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/swoldier76/art/Solaire-755239878"
     artist: "swoldier76"
-    number: 158
+    number: 183
 
 card_warp_the_land:
   front:
@@ -569,7 +658,7 @@ card_warp_the_land:
     flavor_text: "Ashen one these are not the ruins of the world—they are what's left of your memories."
     artwork_url: "https://i.ibb.co/Y7dtVwgp/warp-the-land-red-bubble-resize.jpg"
     artist: "redbubble"
-    number: 159
+    number: 184
 
 card_wistful_naivete:
   front:
@@ -579,12 +668,12 @@ card_wistful_naivete:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
-    rating: 1
+    rating: 2
     rules_text: |
       Enchant player
-      Face-down cards your opponents play cost {2} less.
-      Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time."
-    flavor_text: "Sometimes the players just don't catch on."
+      When ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+      Face-down cards your opponents play cost {2} less and if a creature they control entering the battlefield or turning face up would cause an ability to trigger, it triggers a second time.
+    flavor_text: ""
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
     artist: "thecursedbosskiller"
-    number: 160
+    number: 185

@@ -11,7 +11,7 @@ card_anor_londo:
     flavor_text: "Welcome to the lost city of Anor Londo, chosen Undead."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/anor-londo_dark-souls.jpg"
     artist: "Cook and Becker"
-    number: 211
+    number: 241
     colors: '{W}{B}'
 
 card_archdragon_peak:
@@ -27,7 +27,7 @@ card_archdragon_peak:
     flavor_text: "This is not a place, but a truth — seen only by those who forget what it means to be human."
     artwork_url: "https://www.cookandbecker.com/en/artwork/2464/archdragon-peak-dark-souls-iii-fromsoftware.html"
     artist: "Cook and Becker"
-    number: 212
+    number: 242
     colors: '{R}{W}'
 
 card_blighttown:
@@ -38,14 +38,14 @@ card_blighttown:
     type: "Land"
     sub: ""
     rarity: "Mythic"
-    rating: 5
+    rating: 2
     rules_text: |
       {T}: Add {1} to your mana pool.
-      {5}, {T}, Sacrifice a nontoken creature: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."
+      {4}{B/G}, {T}, Sacrifice a nontoken creature: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."
     flavor_text: "Blighttown? It's probably not that bad."
     artwork_url: "https://i.ibb.co/hxygybPB/blighttown-nsrocks190.jpg"
     artist: "nsrocks190"
-    number: 213
+    number: 243
 
 card_bonfire:
   front:
@@ -61,7 +61,7 @@ card_bonfire:
     flavor_text: "Ah, a bonfire!"
     artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
     artist: "SirGorke"
-    number: 214
+    number: 244
     colors: '{W}{U}{B}{R}{G}'
 
 card_cathedral_of_blue:
@@ -77,7 +77,7 @@ card_cathedral_of_blue:
     flavor_text: "An ancient shrine bathed in stormlight, where the wind still whispers oaths long broken."
     artwork_url: "https://i.ibb.co/dJVSn83h/cathedral-of-blue-princessomg50.jpg"
     artist: "princessomg50"
-    number: 215
+    number: 245
     colors: '{W}{U}'
 
 card_cathedral_of_the_deep:
@@ -93,7 +93,7 @@ card_cathedral_of_the_deep:
     flavor_text: "A house of worship turned crypt, where the faithful drown in blood, and the dead do not rest."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-deacons-of-the-deep-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
-    number: 216
+    number: 246
     colors: '{U}{R}'
 
 card_darkroot_garden:
@@ -109,7 +109,7 @@ card_darkroot_garden:
     flavor_text: "Time has slowed to a crawl beneath these boughs and the moss remembers what the stone does not."
     artwork_url: "https://i.ibb.co/Dffhw3cg/darkroot-garden-mangamusesai.jpg"
     artist: "MangaMusesAI"
-    number: 217
+    number: 247
     colors: '{W}{G}'
 
 card_farron_keep:
@@ -125,7 +125,7 @@ card_farron_keep:
     flavor_text: "Here lie the last vows of the Abyss Watchers, their watch never lifted, though their minds long have. Beneath the swamp's stillness stirs the Abyss, patient and hungry."
     artwork_url: "https://i.ibb.co/qMKW3SLZ/farron-keep-ihf95.jpg"
     artist: "ihf95"
-    number: 218
+    number: 248
     colors: '{B}{G}'
 
 card_firelink_shrine:
@@ -144,7 +144,7 @@ card_firelink_shrine:
     flavor_text: "The fire fades, and the Lords go without thrones."
     artwork_url: ""
     artist: "jjcanvas"
-    number: 219
+    number: 249
     colors: '{W}{U}{B}{R}{G}'
 
 card_irithyll_of_the_boreal_valley:
@@ -160,7 +160,7 @@ card_irithyll_of_the_boreal_valley:
     flavor_text: "A city shrouded in eternal moonlight and frost, where beauty and death entwine in cold embrace. "
     artwork_url: "https://i.ibb.co/C3MsjSRp/irithyll-of-the-boreal-valley-daedra64.jpg"
     artist: "Daedra64"
-    number: 220
+    number: 250
     colors: '{U}{B}'
 
 card_lost_izalith:
@@ -176,7 +176,7 @@ card_lost_izalith:
     flavor_text: "Here the First Flame's shadow lingers, twisted roots clutching at a dream undone by fire."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/892/130/large/ricardo-emig-izalith-1-high-res.jpg?1587253107"
     artist: "Ricardo Emig"
-    number: 221
+    number: 251
     colors: '{R}{B}'
 
 card_lothric_castle:
@@ -194,7 +194,7 @@ card_lothric_castle:
     flavor_text: "Rumored to devour men, once you've stepped foot inside Lothric Castle you'll start believing."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/lothric-castle-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
-    number: 222
+    number: 252
     colors: '{G}'
 
 card_road_of_sacrifices:
@@ -210,7 +210,7 @@ card_road_of_sacrifices:
     flavor_text: "The air hangs heavy with the weight of countless fallen souls, their blood seeping into the earth as an eternal offering."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-crystal-sages-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
-    number: 223
+    number: 253
     colors: '{G}{R}'
 
 card_shrine_of_amana:
@@ -226,7 +226,7 @@ card_shrine_of_amana:
     flavor_text: ""
     artwork_url: "https://www.cookandbecker.com/en/artwork/2156/shrine-of-amana-dark-souls-ii-fromsoftware.html"
     artist: "Cook and Becker"
-    number: 224
+    number: 254
     colors: '{G}{U}'
 
 card_the_fire_fades:
@@ -245,4 +245,4 @@ card_the_fire_fades:
       "A world without fire. Ashen one, is this truly thy wish?" And without breath the Chosen Undead let the fire fade."
     artwork_url: "https://i.ibb.co/DH2YCKm9/the-fire-fades-nocluse.jpg"
     artist: "Nocluse"
-    number: 225
+    number: 255

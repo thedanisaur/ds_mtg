@@ -468,6 +468,30 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
 {
+    "name": "Petrify",
+    "type": "Enchantment",
+    "mana_cost": "{3}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Enchant creature or artifact\nEnchanted permanent can't attack or block, and its activated abilities can't be activated.\n{1}{U}: Attach ~ to target creature or artifact. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/petrify.jpeg"
+},
+{
+    "name": "Twisted Wall of Light",
+    "type": "Instant",
+    "mana_cost": "{3}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may return two islands you control to your hand rather than pay ~'s mana cost.\nCounter target spell.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/twisted_wall_of_light.jpeg"
+},
+{
     "name": "A Hero Gone Mad",
     "type": "Sorcery",
     "mana_cost": "{B}",
@@ -634,6 +658,42 @@
     "rating": 1,
     "oracle_text": "Lifelink\nWhen ~ enters the battlefield target player loses life equal to the number of souls they have.\nWhenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg"
+},
+{
+    "name": "Resonant Flesh",
+    "type": "Enchanment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay five souls: Draw a card. Then you lose life equal to the number of souls you have.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
+},
+{
+    "name": "Resonant Soul",
+    "type": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "As you cast this spell pay any number of souls.\n~ deals damage equal to the number of souls paid as you cast this spell plus 2 to any target. You gain that much life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
+},
+{
+    "name": "Sift through the Ashes",
+    "type": "Instant",
+    "mana_cost": "{X}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "As an additional cost to cast ~ exile X cards from your graveyard.\nYou draw X cards, lose X life, and get X souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/sift_through_the_ashes.jpeg"
 },
 {
     "name": "Chaos Storm",
@@ -826,6 +886,66 @@
     "rating": 4,
     "oracle_text": "Discard a card, then draw two cards. You get three souls.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unkindleds_journey.jpeg"
+},
+{
+    "name": "Carthus Beacon",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Enchant Creature\nEnchanted creature gains double strike and has, \"Whenever this creature attacks for the first time each turn, untap it. After this phase, there is an additional combat phase.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/carthus_beacon.jpeg"
+},
+{
+    "name": "Cathedral Evangelist",
+    "type": "Creature",
+    "mana_cost": "{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield discard a card, then draw a card. You get two souls.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cathedral_evangelist.jpeg"
+},
+{
+    "name": "Demon Cleric",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield it deals 1 damage to a creature an opponent controls chosen at random.\n{1}{R}, {T}, exile two cards from your graveyard: ~ deals 2 damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/demon_cleric.jpeg"
+},
+{
+    "name": "Lingering Flame",
+    "type": "Enchantment",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Enchant Player\nWhenever enchanted player is attacked ~ deals 2 damage to target creature or planeswalker that player controls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/lingering_flame.jpeg"
+},
+{
+    "name": "Permeating Flames",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/poison_mist.jpeg"
 },
 {
     "name": "Alluring Skull",
@@ -1092,6 +1212,54 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg"
 },
 {
+    "name": "Expected Companions",
+    "type": "Sorcery",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Look at the top six cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/expected_companions.jpeg"
+},
+{
+    "name": "Dark Fog",
+    "type": "Enchantment",
+    "mana_cost": "{3}{G/P}{G/P}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Enchant player\nWhenever a creature attacks enchanted player, unless that player pays {1}{G/P}, put a blight counter on it. Then for each blight counter on that creature put a bleed counter it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dark_fog.jpeg"
+},
+{
+    "name": "Hush",
+    "type": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may cast ~ at any time you could cast and instant.\nIf an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrify.jpeg"
+},
+{
+    "name": "Stray Demon",
+    "type": "Creature",
+    "mana_cost": "{3}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ costs {1} less for each demon you control.\n~ gets +1/+1 for each demon you control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/stray_demon.jpeg"
+},
+{
     "name": "Ruin Sentinels",
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
@@ -1109,8 +1277,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1314,6 +1482,64 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/wight.jpeg"
 },
 {
+    "name": "Heavenly Thunder",
+    "type": "Sorcery",
+    "mana_cost": "{4}{W}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Exile all non-Human, non-Cleric, and non-Knight creatures. You get two souls for each creature exiled this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heavenly_thunder.jpeg"
+},
+{
+    "name": "Homeward",
+    "type": "Enchantment",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for basic plains, reveal it, put it into your hand, then shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/homeward.jpeg"
+},
+{
+    "name": "Karmic Justice",
+    "type": "Instant",
+    "mana_cost": "{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Choose a creature or planeswalker you control. Until end of turn if that permanent would be dealt damage, prevent that damage. If damage is prevented this way ~ deals that much damage to that source's controller.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
+},
+{
+    "name": "Soothing Sunlight",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Return target permanent you control to its owner's hand. You remove all bleed counters and gain life for each permanent you control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soothing_sunlight.jpeg"
+},
+{
+    "name": "Sunlight Blade",
+    "type": "Enchantment",
+    "mana_cost": "W",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Enchant Equipment\nEnchanted equipment has \"Equipped creature gets +1/+0 and has first strike and lifelink.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_blade.jpeg"
+},
+{
     "name": "Angelic Knight",
     "type": "Creature",
     "mana_cost": "{3}{U}{U}{U}",
@@ -1396,6 +1622,42 @@
     "rating": 1,
     "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/wall_spectre.jpeg"
+},
+{
+    "name": "Farron Dart",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Enchant creature\nEnchanted creature gets +1/+0 and has \"Whenever this creature deals combat damage you may draw a card.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/farron_dart.jpeg"
+},
+{
+    "name": "Magic Weapon",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Enchant Equipment\nEnchanted equipment has \"Equipped creature is unblockable.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_weapon.jpeg"
+},
+{
+    "name": "Sage's Scroll",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Players play with the top card of their libraries revealed.\nWhenever you cast a noncreature spell put a charge counter on ~.\nRemove a charge counter from ~: Target player shuffles their library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/sages_scroll.jpeg"
 },
 {
     "name": "Bonfire Ascetic",
@@ -1482,16 +1744,16 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lordran_necromancer.jpeg"
 },
 {
-    "name": "Wake the Hollows",
+    "name": "Scraps of Life",
     "type": "Sorcery",
     "mana_cost": "{2}{B}{B}",
     "colors": [
         "B"
     ],
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 2,
     "oracle_text": "Each player sacrifices all creatures they control, then exiles all creature cards from their graveyard. Then each player creates a 1/1 colorless Hollow creature token for each card they exiled this way.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/wake_the_hollows.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/scraps_of_life.jpeg"
 },
 {
     "name": "Acid Surge",
@@ -1645,8 +1907,8 @@
         "G"
     ],
     "rarity": "uncommon",
-    "rating": 1,
-    "oracle_text": "Enchant player\nFace-down cards your opponents play cost {2} less.\nEnchanted player has \"If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers a second time.\"\n",
+    "rating": 2,
+    "oracle_text": "Enchant player\nWhen ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nFace-down cards your opponents play cost {2} less and if a creature they control entering the battlefield or turning face up would cause an ability to trigger, it triggers a second time.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
 },
 {
@@ -1654,8 +1916,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1693,8 +1955,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -1791,8 +2053,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1804,8 +2066,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1817,11 +2079,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "G",
+        "W",
         "R",
         "B",
-        "W",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -1833,8 +2095,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1846,8 +2108,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1859,8 +2121,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2159,6 +2421,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/the_great_swamp.jpeg"
 },
 {
+    "name": "Frozen Reindeer",
+    "type": "Creature",
+    "mana_cost": "{3}{B}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\n{T}: Target creature gets -3/-3 until end of turn. You lose 3 life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/frozen_reindeer.jpeg"
+},
+{
     "name": "Chaos Bed Vestiges",
     "type": "Sorcery",
     "mana_cost": "{X}{R}{R}",
@@ -2254,12 +2528,24 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
 },
 {
+    "name": "Contrasted Cursed",
+    "type": "Enchantment",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow. (Creatures with shadow can block or be blocked only by creatures with shadow.)\nWhenever enchanted player is attacked they loses life equal to the number of souls they have. Then they remove half their souls rounded up.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
+},
+{
     "name": "Ancient Wyvern",
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2271,8 +2557,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2388,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -2400,8 +2686,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2413,9 +2699,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "W",
         "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2426,9 +2712,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "W",
             "R",
-            "B",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2597,6 +2883,18 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/gravelord_nito.jpeg"
 },
 {
+    "name": "Curse of the Dead",
+    "type": "Enchantment",
+    "mana_cost": "{2}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "mythic",
+    "rating": 2,
+    "oracle_text": "Enchant player\nCreatures enchanted player controls get -1/-1 and can't block.\nWhenever a creature controlled by enchanted player dies you draw a card, lose one life, and get one soul.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/curse_of_the_dead.jpeg"
+},
+{
     "name": "Ringfinger Leonhard",
     "type": "Creature",
     "mana_cost": "{R}{R}",
@@ -2647,8 +2945,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "R",
+        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -2661,11 +2959,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
+        "G",
+        "W",
         "R",
         "B",
-        "W",
-        "G"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2677,9 +2975,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
+        "W",
         "R",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2691,9 +2989,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
+        "W",
         "U",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2704,9 +3002,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "W",
             "U",
-            "B",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2718,8 +3016,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 3,
@@ -2773,11 +3071,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
+        "G",
+        "W",
         "R",
         "B",
-        "W",
-        "G"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2799,11 +3097,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "G",
+        "W",
         "R",
         "B",
-        "W",
-        "G"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -2872,6 +3170,8 @@
 15 Magic Denial
 15 Old Sorcerer
 15 Soul of an Unknown Traveler
+15 Petrify
+15 Twisted Wall of Light
 15 A Hero Gone Mad
 15 Dark Edge
 15 Dark Hand of Kaathe
@@ -2886,6 +3186,9 @@
 15 Something Petrified
 15 Soul of a Sorrowful Spirit
 15 Undead Hound
+15 Resonant Flesh
+15 Resonant Soul
+15 Sift through the Ashes
 15 Chaos Storm
 15 Cracked Redeye Orb
 15 Cragspider
@@ -2902,6 +3205,11 @@
 15 Sunlight Maggot
 15 Taurus Demon
 15 Unkindled's Journey
+15 Carthus Beacon
+15 Cathedral Evangelist
+15 Demon Cleric
+15 Lingering Flame
+15 Permeating Flames
 15 Alluring Skull
 15 Amana Aberration
 15 Corrode
@@ -2924,6 +3232,10 @@
 15 Undead Aberration
 15 Warcry
 15 Warp the Land
+15 Expected Companions
+15 Dark Fog
+15 Hush
+15 Stray Demon
 15 Ruin Sentinels
 15 Sorcerer's Remedy
 15 Bell Gargoyles
@@ -2946,6 +3258,11 @@
 7 Solaire of Astora
 7 Vow of Silence
 7 Wight
+7 Heavenly Thunder
+7 Homeward
+7 Karmic Justice
+7 Soothing Sunlight
+7 Sunlight Blade
 7 Angelic Knight
 7 Ashen Estus
 7 Burning Ambition
@@ -2953,6 +3270,9 @@
 7 Ruin Banshee
 7 Search the Library
 7 Wall Spectre
+7 Farron Dart
+7 Magic Weapon
+7 Sage's Scroll
 7 Bonfire Ascetic
 7 Carthus Rouge
 7 Charred Knight
@@ -2960,7 +3280,7 @@
 7 Clawed Curse
 7 Jailer
 7 Lordran Necromancer
-7 Wake the Hollows
+7 Scraps of Life
 7 Acid Surge
 7 Capra Demon
 7 Fiery Soapstone
@@ -3016,6 +3336,7 @@
 3 Nimble Shadow
 3 Skim Memories
 3 The Great Swamp
+3 Frozen Reindeer
 3 Chaos Bed Vestiges
 3 Forbidden Sun
 3 Hellkite Wyvern
@@ -3023,6 +3344,7 @@
 3 Unbreakable Patches
 3 Gaping Dragon
 3 Pagan Tree
+3 Contrasted Cursed
 3 Ancient Wyvern
 3 Archdeacon of the Deep
 3 Baneful Queen, Mytha
@@ -3050,6 +3372,7 @@ Pickle Pee, Pump-a-Rum
 Into the Abyss
 Vordt and the Dancer
 Gravelord Nito
+Curse of the Dead
 Ringfinger Leonhard
 Abyss Watchers
 Gravelord's Maelstrom

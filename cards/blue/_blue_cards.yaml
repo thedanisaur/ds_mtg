@@ -12,7 +12,7 @@ card_adventuring_sorcerer:
     flavor_text: "That should help you on your journey. May we meet again."
     artwork_url: "https://www.deviantart.com/elcryp7ostrike/art/Arcane-Warden-Shadows-of-the-Broken-City-1123425860"
     artist: "elcryp7ostrike"
-    number: 41
+    number: 46
     power: 2
     toughness: 3
 
@@ -30,7 +30,7 @@ card_amana_priestess:
     flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
     artwork_url: "https://i.ibb.co/k2hPhL3H/amana-priestess-cubehero-resize.jpg"
     artist: "cubehero"
-    number: 42
+    number: 47
     power: 0
     toughness: 2
 
@@ -50,7 +50,7 @@ card_angelic_knight:
     flavor_text: "Once heralds of the Angelic Faith, these fierce warriors were deemed heretical, and they were hunted."
     artwork_url: "https://www.deviantart.com/nikt2/art/Greatest-Angel-knight-by-Nikt-1500-535962773"
     artist: "nikt2"
-    number: 43
+    number: 48
     power: 5
     toughness: 5
 
@@ -69,7 +69,7 @@ card_ashen_estus:
     flavor_text: "This dark blue estus flask is a gift from Fire Keeper. It is said that it was once used to slake a great thirst."
     artwork_url: "https://i.ibb.co/mrdzqWXr/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
-    number: 44
+    number: 49
 
 card_aural_decoy:
   front:
@@ -86,12 +86,12 @@ card_aural_decoy:
     flavor_text: "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications."
     artwork_url: "https://www.deviantart.com/izmitblu3/art/Fiend-Bringer-of-Fire-888888582"
     artist: "izmitblu3"
-    number: 45
+    number: 50
 
 card_big_hat_logan:
   front:
     name: "Big Hat Logan"
-    cost: "{5}{U}{U}"
+    cost: "{3}{U}{U}"
     super: "Legendary"
     type: "Creature"
     sub: "Wizard"
@@ -103,7 +103,7 @@ card_big_hat_logan:
     flavor_text: "A tireless traveler, Logan left Vinheim with only an archive of tomes and a staff."
     artwork_url: "https://i.ibb.co/fVbPxFdZ/big-hat-logan-bonesaw999-resize.jpg"
     artist: "bonesaw999"
-    number: 46
+    number: 51
     power: 5
     toughness: 5
 
@@ -122,7 +122,7 @@ card_burning_ambition:
     flavor_text: "My knights are never far from my gaze."
     artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
     artist: "dvktheartist"
-    number: 47
+    number: 52
 
 card_chameleon:
   front:
@@ -138,7 +138,7 @@ card_chameleon:
     flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
     artwork_url: "https://i.ibb.co/sJVmxbZz/chameleon-romandubina-resize.jpg"
     artist: "romandubina"
-    number: 48
+    number: 53
 
 card_contemplation:
   front:
@@ -154,7 +154,7 @@ card_contemplation:
     flavor_text: "The mage was naive, he thought he could fix something that was broken."
     artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
     artist: "crainium3de"
-    number: 49
+    number: 54
 
 card_crystal_butterfly:
   front:
@@ -171,7 +171,7 @@ card_crystal_butterfly:
     flavor_text: "None know if it was summoned, created, or left behind—but its presence speaks of Anor Londo's long reach.  "
     artwork_url: "https://i.ibb.co/ksDg1dSw/crystal-butterfly-vohvelintu.jpg"
     artist: "vohvelintu"
-    number: 50
+    number: 55
     power: 2
     toughness: 1
 
@@ -188,7 +188,24 @@ card_dual_charm:
     flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
     artist: "cobaltplasma"
-    number: 51
+    number: 56
+
+card_farron_dart:
+  front:
+    name: "Farron Dart"
+    cost: "{U}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Enchant creature
+      Enchanted creature gets +1/+0 and has "Whenever this creature deals combat damage you may draw a card."
+    flavor_text: "Sorcerers of the Farron Legion are known for their quick and devastating prowess."
+    artwork_url: "https://i.ibb.co/JWvbb4hw/farron-dart-recolor.jpg"
+    artist: "Njarla"
+    number: 57
 
 card_fume_sorcerer:
   front:
@@ -203,7 +220,7 @@ card_fume_sorcerer:
     flavor_text: "Their tongues burned away with the words of the Bride. Now they speak only in flame and shadow."
     artwork_url: "https://i.ibb.co/bjzYnWh7/fume-sorcerer-vandemoniumx-resize.jpg"
     artist: "vandemoniumx"
-    number: 52
+    number: 58
     power: 1
     toughness: 2
 
@@ -222,7 +239,7 @@ card_great_crab:
     flavor_text: "Even the meekest of life, given enough rot, will claw its way to the surface."
     artwork_url: "https://www.deviantart.com/2wenty/art/A-Final-Payment-734364843"
     artist: "2wenty"
-    number: 53
+    number: 59
     power: 3
     toughness: 4
 
@@ -241,7 +258,7 @@ card_hidden_body:
     flavor_text: "The very nature of this spell suggests its creator was a miscreant."
     artwork_url: "https://www.deviantart.com/metalbruno/art/El-Errante-1151753328"
     artist: "metalbruno"
-    number: 54
+    number: 60
 
 card_homing_soul_mass:
   front:
@@ -258,7 +275,7 @@ card_homing_soul_mass:
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/fG0L3rgn/homing-soul-mass-juhamattipulkkinen.jpg"
     artist: "juhamattipulkkinen"
-    number: 55
+    number: 61
 
 card_hooded_sorcerer:
   front:
@@ -273,7 +290,7 @@ card_hooded_sorcerer:
     flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
     artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
     artist: "MistyStream26391"
-    number: 56
+    number: 62
     power: 1
     toughness: 1
 
@@ -291,7 +308,7 @@ card_into_the_abyss:
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
     artist: "nahelus"
-    number: 57
+    number: 63
 
 card_invisible_hollow:
   front:
@@ -308,7 +325,7 @@ card_invisible_hollow:
     flavor_text: "In hiding it waits, for the end of fire."
     artwork_url: "https://i.ibb.co/fzQtSLt7/shadows-in-the-woods-1-april-2024-by-taggedzi-dh75qu2-pre.jpg"
     artist: "taggedzi"
-    number: 58
+    number: 64
     power: 1
     toughness: 1
 
@@ -325,7 +342,7 @@ card_lost_spell_from_oolacile:
     flavor_text: "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Spitpaint-Shield-Generator-2-870637313"
     artist: "cobaltplasma"
-    number: 59
+    number: 65
 
 card_magic_denial:
   front:
@@ -340,7 +357,25 @@ card_magic_denial:
     flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
     artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
     artist: "cobaltplasma"
-    number: 60
+    number: 66
+
+card_magic_weapon:
+  front:
+    name: "Magic Weapon"
+    cost: "{U}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Enchant creature
+      Enchanted creature is unblockable.
+      Infuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+    flavor_text: "Wielding a sword and casting a sorcery are two different things young sorcerer, don't sully yourself by breeding the two. - *Melfian Magic Academy*"
+    artwork_url: "https://i.ibb.co/qL0sJPtM/magic-weapon-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 67
 
 card_old_sorcerer:
   front:
@@ -350,12 +385,12 @@ card_old_sorcerer:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rating: 0
+    rating: 1
     rules_text: "When ~ enters the battlefield draw a card. Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)"
     flavor_text: "The knowledge… it… it drives you mad…"
     artwork_url: "https://www.deviantart.com/sinto-risky/art/Old-Mage-141637765"
     artist: "sinto risky"
-    number: 61
+    number: 68
     power: 0
     toughness: 1
 
@@ -375,7 +410,7 @@ card_outrider_knight:
     flavor_text: "Every Outrider Knight devolves into a beast, constantly hounded by the Pontiff's black eyes."
     artwork_url: "https://www.deviantart.com/re-dye/art/Dark-Souls-3-Boreal-Outrider-Knight-605393677"
     artist: "re dye"
-    number: 62
+    number: 69
     power: 2
     toughness: 2
 
@@ -396,7 +431,25 @@ card_pestilent_mercury:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/5XnVCxgS/pestilent-mercury-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 63
+    number: 70
+
+card_petrify:
+  front:
+    name: "Petrify"
+    cost: "{3}{U}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Enchant creature or artifact
+      Enchanted permanent can't attack or block, and its activated abilities can't be activated.
+      {1}{U}: Attach ~ to target creature or artifact. Draw a card.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/One-Eared-Underlit-Charmed-Monster-spitpaint-891454229"
+    artist: "cobaltplasma"
+    number: 71
 
 card_ruin_banshee:
   front:
@@ -413,9 +466,27 @@ card_ruin_banshee:
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/rGR8fyd6/londo-ghost-screamer-header-full-resize.jpg"
     artist: "fromsoft"
-    number: 64
+    number: 72
     power: 1
     toughness: 1
+
+card_sages_scroll:
+  front:
+    name: "Sage's Scroll"
+    cost: "{U}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      You may look at the top card of your library any time.
+      Whenever you cast a noncreature spell put a crystal counter on ~.
+      Remove a crystal counter from ~: Target player shuffles their library.
+    flavor_text: "Written before their will was devoured, these scrolls contain the knowledge of the Crystal Sages."
+    artwork_url: "https://i.pinimg.com/originals/cd/1d/47/cd1d474410aa93f13a9258b6f3f26a65.jpg"
+    artist: "fromsoft"
+    number: 73
 
 card_search_the_library:
   front:
@@ -432,7 +503,7 @@ card_search_the_library:
     flavor_text: "What treasure remains in the archives is yours for the taking."
     artwork_url: "https://www.deviantart.com/tavenerscholar/art/Practice-578204700"
     artist: "tavenerscholar"
-    number: 65
+    number: 74
 
 card_soul_of_an_unknown_traveler:
   front:
@@ -450,7 +521,7 @@ card_soul_of_an_unknown_traveler:
     flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
     artwork_url: "https://www.deviantart.com/luis-bello/art/Distance-is-nothing-853519891"
     artist: "Luis Bello"
-    number: 66
+    number: 75
     color_indicator: "{U}"
 
 card_soul_spear:
@@ -466,7 +537,7 @@ card_soul_spear:
     flavor_text: "The spear is testament to Logan's strength in battle."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moonpool-Teleport-585703577"
     artist: "cobaltplasma"
-    number: 67
+    number: 76
 
 card_soul_stream:
   front:
@@ -483,7 +554,24 @@ card_soul_stream:
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/1YFzRvhK/arcane-blast-by-morkardfc-damygij-pre.jpg"
     artist: "morkardfc"
-    number: 68
+    number: 77
+
+card_twisted_wall_of_light:
+  front:
+    name: "Twisted Wall of Light"
+    cost: "{3}{U}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may return two islands you control to your hand rather than pay ~'s mana cost.
+      Counter target spell.
+    flavor_text: "Orbeck returned from Oolacile with a spell that contorts the very fabric of the universe. Negating magic by denying its very claim to physicality. "
+    artwork_url: "https://i.ibb.co/pvm0zw95/twisted-wall-of-light-resize.jpg"
+    artist: "unknown"
+    number: 78
 
 card_vordt_and_the_dancer:
   front:
@@ -503,7 +591,7 @@ card_vordt_and_the_dancer:
     flavor_text: "Even in exile the outrider knights fulfill their duty."
     artwork_url: "https://i.ibb.co/PHcwLwJ/vordt-and-the-dancer-oniruu.jpg"
     artist: "oniruu & chriskot"
-    number: 69
+    number: 79
     power: 3
     toughness: 4
 
@@ -517,11 +605,12 @@ card_wall_spectre:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
+      You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.
+      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it..
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/HLRwg47x/wall-sprectre-adadia-resize.jpg"
     artist: "adadia"
-    number: 70
+    number: 80
     power: 3
     toughness: 1

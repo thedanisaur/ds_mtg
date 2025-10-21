@@ -83,52 +83,13 @@ card_hollow:
     rarity: "Common"
     rating: 0
     rules_text: |
-      When ~ leaves the battlefield, you get one soul.
-      Sacrifice ~: Exile target card in a graveyard.
+      When ~ goes to the graveyard, you get one soul.
+      Discard ~: Exile target card in a graveyard.
     flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
     artist: "floxyart"
     number: 5
     power: 1
-    toughness: 1
-
-card_looking_glass_knight:
-  front:
-    name: "Looking Glass Knight"
-    cost: "{6}"
-    super: ""
-    type: "Creature"
-    sub: "Knight"
-    rarity: "Uncommon"
-    rating: 2
-    rules_text: |
-      ~ can't be the target of spells or abilities.
-      {1}{R}, {T}: Create a 3/3 red Human creature token named Red Phantom. It has prowess.
-    flavor_text: "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king."
-    artwork_url: "https://pbs.twimg.com/media/FoN2G-zWAAI7mfJ?format=jpg&name=medium"
-    artist: "NSlacka"
-    number: 6
-    power: 4
-    toughness: 4
-
-card_pickle_pee_pump_a_rum:
-  front:
-    name: "Pickle Pee, Pump-a-Rum"
-    cost: "{C}"
-    super: ""
-    type: "Creature"
-    sub: "Shapeshifter Bird"
-    rarity: "Mythic"
-    rating: 1
-    rules_text: |
-      {2}, Discard a nonland card: Draw a card.
-      {1}, Discard a land card: Create a Treasure token.
-      {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
-    flavor_text: "That...no...pickle pee"
-    artwork_url: "https://i.pinimg.com/originals/1d/58/16/1d58161039d0619f40e6362807f69c80.jpg"
-    artist: "Barbara Flowers"
-    number: 7
-    power: 0
     toughness: 1
 
 card_pyrewarden_of_the_things_betwixt:
@@ -146,7 +107,7 @@ card_pyrewarden_of_the_things_betwixt:
     flavor_text: "One day, you will stand before a decrepit gate. Without really knowing why..."
     artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
     artist: "John Devlin"
-    number: 8
+    number: 6
     power: 0
     toughness: 2
 
@@ -160,14 +121,53 @@ card_sif_the_great_grey_wolf:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      As long as you control a creature named Knight Artorias, ~ has indestructible.
-      {W}{W}: Attach target equipment to ~.
+      Vigilance, protection from black and red
+      As long as you control a creature named "Knight Artorias", ~ has indestructible.
+      {1}{W}: Attach target equipment to ~.
     flavor_text: "The sorrow in Sif's eyes reflects a tragic loyalty beyond death."
     artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"
     artist: "anatofinnstark"
-    number: 9
+    number: 7
     power: 4
     toughness: 4
+
+card_stray_demon:
+  front:
+    name: "Stray Demon"
+    cost: "{4}"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ costs {1} less for each demon you control.
+      ~ gets +1/+1 for each demon you control.
+    flavor_text: "Demons were born of the Chaos Flame, but the flame has not survived, and the demons are a dying race."
+    artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-3-Stray-Demon-614123437"
+    artist: "oniruu"
+    number: 8
+    power: 3
+    toughness: 3
+
+card_velkas_harpy:
+  front:
+    name: "Velka's Harpy"
+    cost: "{2}"
+    super: ""
+    type: "Creature"
+    sub: "Bird Demon"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Flying
+      {1}, {T}: Copy target activated or triggered ability.
+    flavor_text: "Forgiveness comes, after they have picked your bones clean."
+    artwork_url: "https://i.pinimg.com/originals/24/77/ce/2477ce0f07ce893ad3e3afb51527a02f.jpg"
+    artist: "kseniakozart"
+    number: 9
+    power: 2
+    toughness: 2
 
 card_winged_chimera:
   front:

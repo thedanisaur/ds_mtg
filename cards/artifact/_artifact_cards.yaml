@@ -11,7 +11,7 @@ card_bell_gargoyles:
     flavor_text: "Unassuming statues that guarded a Bell of Awakening in the belfry of the Undead Church"
     artwork_url: "https://i.ibb.co/JWbk7sFG/bell-gargoyles-theivoryfalcon.jpg"
     artist: "theivoryfalcon"
-    number: 186
+    number: 211
 
 card_bloodbite_ring:
   front:
@@ -29,7 +29,7 @@ card_bloodbite_ring:
     flavor_text: "Despite the dreadful rumors surrounding its creation, this ring is an unmistakable asset."
     artwork_url: "https://i.ibb.co/wrMWCx2j/bloodbite-ring.jpg"
     artist: "fromsoft"
-    number: 187
+    number: 212
 
 card_broadsword:
   front:
@@ -42,12 +42,12 @@ card_broadsword:
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature gets +1/+0 and has \"This creature can't be blocked by creatures with toughness two or less.\"
+      Equipped creature gets +1/+0 and has "This creature can't be blocked by creatures with toughness two or less."
       Equip {1}
     flavor_text: "I've seen your kind, time and time again. Such is the conceit of the self proclaimed seeker of truth. But in the end, you lack the stomach. "
     artwork_url: "https://api.deepai.org/job-view-file/df201141-8a33-4cea-bd40-066baa155c38/outputs/output.jpg"
     artist: "deepai"
-    number: 188
+    number: 213
 
 card_catalyst_of_the_witch_of_izalith:
   front:
@@ -59,13 +59,12 @@ card_catalyst_of_the_witch_of_izalith:
     rarity: "Mythic"
     rating: 4
     rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has, "{Q}: Target player puts two cards from the top of their library into their graveyard."
       Equip {0} 
     flavor_text: "With the birth of the Chaos Flame, the witches were at once both sorcerers and shamans."
     artwork_url: "https://i.ibb.co/N6WHbYSy/catalyst-of-the-witch-of-izalith-resize.jpg"
     artist: "unknown"
-    number: 189
+    number: 214
     power: ""
     toughness: ""
 
@@ -84,7 +83,7 @@ card_charm_of_the_undead_hunters:
     flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
     artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
     artist: "unknown"
-    number: 190
+    number: 215
 
 card_chloranthy_ring:
   front:
@@ -102,7 +101,7 @@ card_chloranthy_ring:
     flavor_text: "This old ring is named for its decorative green blossom, but its luster is long since faded."
     artwork_url: "https://i.ibb.co/0y9jcsRx/chloranthy-ring.jpg"
     artist: "Fromsoft"
-    number: 191
+    number: 216
 
 card_cursed_greatsword:
   front:
@@ -120,7 +119,7 @@ card_cursed_greatsword:
     flavor_text: "Sword born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."
     artwork_url: "https://i.pinimg.com/736x/83/f3/2b/83f32be2366afbff44cccfc88856cbe1--videogames-awesome-art.jpg"
     artist: "Kutty Sark"
-    number: 192
+    number: 217
 
 card_eyes_of_a_firekeeper:
   front:
@@ -137,7 +136,7 @@ card_eyes_of_a_firekeeper:
     flavor_text: "A pair of dark eyes. Said to be the eyes of the first firekeeper, they reveal to the firekeepers things that should never be seen."
     artwork_url: "https://i.ibb.co/hFxqG2Bn/eyes-of-a-firekeeper.jpg"
     artist: "grok"
-    number: 193
+    number: 218
 
 card_halberd:
   front:
@@ -155,26 +154,26 @@ card_halberd:
     flavor_text: "Only the hollowed still carry it with pride, their memories long rusted away."
     artwork_url: "https://i.ibb.co/7JXPnh3H/halberd.jpg"
     artist: "deepai"
-    number: 194
+    number: 219
 
 card_heide_knight:
   front:
     name: "Heide Knight"
-    cost: "{3}"
+    cost: "{2}"
     super: ""
     type: "Artifact Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 0
+    rating: 2
     rules_text: |
-      Double Strike
-      ~ can't attack or block unless you were dealt damage on your opponents last turn.
+      Double strike
+      When ~ dies, if you control an equipment, return it to the battlefield tapped at the beginning of your next upkeep.
     flavor_text: "The Heide Knights served as protectors for the kingdom of Heide. But the land was reduced to ashes, and swallowed by sea."
     artwork_url: "https://i.ibb.co/rfv4rTsL/heide-knight-resize.jpg"
     artist: "fromsoft"
-    number: 195
-    power: 4
-    toughness: 4
+    number: 220
+    power: 1
+    toughness: 1
 
 card_homeward_bone:
   front:
@@ -189,7 +188,7 @@ card_homeward_bone:
     flavor_text: "Bonfires are fueled by bones of the Undead. In rare cases, the strong urge of their previous owner's to seek bonfires enchants their bones with a homeward instinct."
     artwork_url: "https://i.ibb.co/Q7Ggf0rz/homeward-bone-sanskarans-resize.jpg"
     artist: "sanskarans"
-    number: 196
+    number: 221
 
 card_hornet_ring:
   front:
@@ -206,7 +205,7 @@ card_hornet_ring:
     flavor_text: "The masked Ciaran granted a swift death to any and all enemies of the throne."
     artwork_url: "https://i.ibb.co/ycnZMP0K/hornet-ring.jpg"
     artist: "fromsoft"
-    number: 197
+    number: 222
 
 card_iron_golem:
   front:
@@ -223,7 +222,7 @@ card_iron_golem:
     flavor_text: "Those who survive the traps of Sen's Fortress are few, but fewer still are those who defeat the guardian at its summit."
     artwork_url: "https://www.deviantart.com/luffie/art/Iron-Golem-872315137"
     artist: "luffie"
-    number: 198
+    number: 223
     power: 3
     toughness: 3
 
@@ -236,11 +235,31 @@ card_kiln_of_the_first_flame:
     sub: "Legendary"
     rarity: "Mythic"
     rating: 0
-    rules_text: "Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library."
+    rules_text: |
+      Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named "Gwyn, Lord of Cinder" and put it onto the battlefield. Shuffle your library.
     flavor_text: "In the Age of Ancients, the world was unformed, shrouded by fog. A land of grey crags, archtrees, and everlasting dragons. But then there was <i>Fire.</i>"
     artwork_url: "https://i.ibb.co/932F4F3V/kiln-of-the-first-flame-resize.jpg"
     artist: "Cook and Becker"
-    number: 199
+    number: 224
+
+card_looking_glass_knight:
+  front:
+    name: "Looking Glass Knight"
+    cost: "{6}"
+    super: ""
+    type: "Artifact Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      ~ can't be the target of spells or abilities.
+      {1}{R}, {T}: Create a 3/3 red Human creature token named Red Phantom. It has prowess.
+    flavor_text: "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king."
+    artwork_url: "https://pbs.twimg.com/media/FoN2G-zWAAI7mfJ?format=jpg&name=medium"
+    artist: "NSlacka"
+    number: 225
+    power: 4
+    toughness: 4
 
 card_metaleater_spider:
   front:
@@ -257,7 +276,7 @@ card_metaleater_spider:
     flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— Sir Aldren of the New Londo Guard'
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
     artist: "sohlol"
-    number: 200
+    number: 226
     power: 2
     toughness: 5
 
@@ -277,7 +296,7 @@ card_moonlight_greatsword:
     flavor_text: "Oceiros was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
     artwork_url: "https://www.deviantart.com/sergioskill/art/Bonfire-652960644"
     artist: "sergioskill"
-    number: 201
+    number: 227
 
 card_ring_of_a_great_warrior:
   front:
@@ -287,7 +306,7 @@ card_ring_of_a_great_warrior:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
-    rating: 0
+    rating: 1
     rules_text: |
       When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
       Equipped creature gets +0/+3, has vigilance, gains "{0}: Attach target Equipment to this creature. Activate this ability only once per turn."
@@ -295,7 +314,7 @@ card_ring_of_a_great_warrior:
     flavor_text: "War, war never changes."
     artwork_url: "https://cdn.shopify.com/s/files/1/0556/4442/2319/files/1_e07bf03c-95c8-4fac-8bf0-462537775ad5_600x600.jpg?v=1744344676"
     artist: "fromsoft"
-    number: 202
+    number: 228
 
 card_ring_of_favor:
   front:
@@ -312,7 +331,7 @@ card_ring_of_favor:
     flavor_text: "May the Goddess Fina favor you."
     artwork_url: "https://i.ibb.co/TqdBPZJt/ring-of-favor.jpg"
     artist: "fromsoft"
-    number: 203
+    number: 229
 
 card_ring_of_sacrifice:
   front:
@@ -325,12 +344,28 @@ card_ring_of_sacrifice:
     rating: 0
     rules_text: |
       {T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 204
-    power: ""
-    toughness: ""
+    flavor_text: "You'll lose nothing upon dead...except maybe your soul - *Velka, the Goddess of Sin*"
+    artwork_url: "https://i.ibb.co/cKWzsK9t/ring-of-sacrifice-andde14-resize.jpg"
+    artist: "andde14"
+    number: 230
+
+card_silver_charm:
+  front:
+    name: "Silver Charm"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+      {T}, Remove a charge counter from this card: As long as this card remains tapped target basic land you control becomes the basic land type of your choice in addition to its other types.
+      When this artifact is put into a graveyard from the battlefield, draw a card.
+    flavor_text: "Nullification, the strongest form of justice."
+    artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
+    artist: "fromsoft"
+    number: 231
 
 card_silver_serpent_ring:
   front:
@@ -342,12 +377,13 @@ card_silver_serpent_ring:
     rarity: "Common"
     rating: 1
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has "Whenever this creature deals damage, you get one soul."
       Equip {1}
     flavor_text: "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony."
     artwork_url: "https://i.ibb.co/8gGSbP5s/covetous-silver-serpent-ring.jpg"
     artist: "fromsoft"
-    number: 205
+    number: 232
 
 card_soul_syphoner:
   front:
@@ -364,12 +400,12 @@ card_soul_syphoner:
     flavor_text: "\"I thought I could control it. But the siphon is always hungrier than the hand.\"— Master Alestrian, exiled sage"
     artwork_url: "https://www.deviantart.com/wisestprojectstudio/art/Various-Inventions-1032369175"
     artist: "WisestProjectStudio"
-    number: 206
+    number: 233
 
 card_talisman_of_the_way_of_white:
   front:
     name: "Talisman of the Way of White"
-    cost: "{W}{W}"
+    cost: "{1}{W}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -378,11 +414,65 @@ card_talisman_of_the_way_of_white:
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature can't be the target of spells or abilities.
-      Equip {W}
+      Equip {1}
     flavor_text: "You defense increases, only with Faith. "
     artwork_url: "https://i.ibb.co/r1SpQxT/talisman-of-the-way-of-white-aelinlaerfineart-resize.jpg"
     artist: ""
-    number: 207
+    number: 234
+
+card_thorolund_talisman:
+  front:
+    name: "Thorolund Talisman"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      As ~ enters the battlefield, choose a color.
+      {T}: add one mana of the chosen color.
+      {T}: add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
+    flavor_text: "Thorolund clerics blessings come from divine protection. Thus, these talismans are not dependent upon your faltering faith."
+    artwork_url: "https://i.ibb.co/DPLfTs03/thorolund-talisman-resize.jpg"
+    artist: "fromsoft"
+    number: 235
+
+card_titanite_chunk:
+  front:
+    name: "Titanite Chunk"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Sacrifice ~: You get three souls. Then you may pay {1}, if you do, draw a card.
+      Equipped creature gets +2/+1.
+      Imbue {3} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 236
+
+card_titanite_shard:
+  front:
+    name: "Titanite Shard"
+    cost: "{0}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Sacrifice ~: You get one soul. Then you may pay {1}, if you do, draw a card.
+      Equipped creature gets +1/+0.
+      Imbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 237
 
 card_uchigatana:
   front:
@@ -400,7 +490,7 @@ card_uchigatana:
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
     artist: "Asymoney"
-    number: 208
+    number: 238
 
 card_void_charm:
   front:
@@ -417,7 +507,7 @@ card_void_charm:
     flavor_text: "Nullification, the strongest form of justice."
     artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
     artist: "fromsoft"
-    number: 209
+    number: 239
 
 card_wolf_knights_greatshield:
   front:
@@ -435,4 +525,4 @@ card_wolf_knights_greatshield:
     flavor_text: "Shield born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."
     artwork_url: "https://i.ibb.co/qP0ThWd/wolf-knights-great-shield.jpg"
     artist: "deepai"
-    number: 210
+    number: 240
