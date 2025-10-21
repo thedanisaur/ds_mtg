@@ -144,6 +144,7 @@ card_dragonslayer_and_executioner:
     rarity: "Rare"
     rating: 1
     rules_text: |
+      First strike, vigilance
       When ~ dies choose one -
       • Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.
       • Create a 3/3 green Legendary Giant creature token with vigilance named Smough.
@@ -182,7 +183,7 @@ card_fume_knight:
     rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on bottom in any order.
+      Whenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/474x/b1/45/2d/b1452dc10c0189b2bd7d1acbc3551590.jpg"
     artist: "Raime"
@@ -201,7 +202,7 @@ card_gael_seeker_of_ash:
     rating: 1
     rules_text: |
       Haste
-      When ~ enters the battlefield or attacks, discard two cards and draw two cards.
+      When ~ enters the battlefield or attacks, draw two cards and discard two cards.
       Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.
     flavor_text: "If you truly are Ash, then it must be fire that you seek?"
     artwork_url: "https://i.ibb.co/MjvJ9S7/slave-knight-gael-2.jpg"
@@ -242,8 +243,8 @@ card_gravelords_maelstrom:
     rating: 1
     rules_text: "Choose up to three creatures target player controls. ~ deals damage to that player equal to the total power of those creatures. Gain control of the chosen creatures, that player sacrifices the rest."
     flavor_text: "Miasma of the Gravelord spews forth. Many have died, and countless more will follow."
-    artwork_url: "https://www.deviantart.com/erinm31/art/Storm-337642862"
-    artist: "erinm31"
+    artwork_url: "https://www.deviantart.com/fantasyart0102/art/Storm-678128647"
+    artist: "fantasyart0102"
     number: 197
 
 card_gwyn_lord_of_cinder:
@@ -445,21 +446,21 @@ card_lorian_and_lothric:
 card_ruin_sentinels:
   front:
     name: "Ruin Sentinels"
-    cost: "{2}{G/W}"
+    cost: "{1}{G/W}"
     super: ""
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
     rating: 1
     rules_text: |
-      ~ gets +2/+2 for each other creature you control named ~.
+      ~ gets +2/+2 for each giant you control.
       A deck can have any number of cards named ~.
     flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
     artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"
     artist: "dawnweaver13"
     number: 205
-    power: 3
-    toughness: 3
+    power: 2
+    toughness: 2
 
 card_sorcerers_remedy:
   front:
@@ -479,7 +480,7 @@ card_sorcerers_remedy:
 card_splintering_lightning:
   front:
     name: "Splintering Lightning"
-    cost: "{X}{R}{W}"
+    cost: "{X}{R/W}"
     super: ""
     type: "Sorcery"
     sub: ""

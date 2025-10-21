@@ -129,78 +129,88 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/colorless/dreg-hollow_merchant.jpeg" alt="Dreg-Hollow Merchant" width="400"/><br/>
+        <strong>Dreg-Hollow Merchant</strong>
+    </td>
+    <td align="center">
         <img src="./cards/colorless/dreg_hollow_merchant.jpeg" alt="Dreg Hollow Merchant" width="400"/><br/>
         <strong>Dreg Hollow Merchant</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/colorless/four_kings.jpeg" alt="Four Kings" width="400"/><br/>
         <strong>Four Kings</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/colorless/hollow.jpeg" alt="Hollow" width="400"/><br/>
         <strong>Hollow</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/colorless/looking_glass_knight.jpeg" alt="Looking Glass Knight" width="400"/><br/>
         <strong>Looking Glass Knight</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/colorless/pickle_pee_pump_a_rum.jpeg" alt="Pickle Pee Pump A Rum" width="400"/><br/>
         <strong>Pickle Pee Pump A Rum</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/colorless/pyrewarden_of_the_things_betwixt.jpeg" alt="Pyrewarden Of The Things Betwixt" width="400"/><br/>
         <strong>Pyrewarden Of The Things Betwixt</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/colorless/sif_the_great_grey_wolf.jpeg" alt="Sif The Great Grey Wolf" width="400"/><br/>
         <strong>Sif The Great Grey Wolf</strong>
     </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/colorless/stray_demon.jpeg" alt="Stray Demon" width="400"/><br/>
+        <strong>Stray Demon</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/colorless/velkas_harpy.jpeg" alt="Velkas Harpy" width="400"/><br/>
+        <strong>Velkas Harpy</strong>
+    </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/colorless/winged_chimera.jpeg" alt="Winged Chimera" width="400"/><br/>
         <strong>Winged Chimera</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/anri_of_astora_back.jpeg" alt="Anri Of Astora Back" width="400"/><br/>
         <strong>Anri Of Astora Back</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/anri_of_astora_front.jpeg" alt="Anri Of Astora Front" width="400"/><br/>
         <strong>Anri Of Astora Front</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/batwing_demon.jpeg" alt="Batwing Demon" width="400"/><br/>
         <strong>Batwing Demon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/blessed_cleric.jpeg" alt="Blessed Cleric" width="400"/><br/>
         <strong>Blessed Cleric</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/corrupted_hollow_back.jpeg" alt="Corrupted Hollow Back" width="400"/><br/>
         <strong>Corrupted Hollow Back</strong>
     </td>
-    <td align="center">
-        <img src="./cards/white/corrupted_hollow_front.jpeg" alt="Corrupted Hollow Front" width="400"/><br/>
-        <strong>Corrupted Hollow Front</strong>
-    </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/white/disenchant.jpeg" alt="Disenchant" width="400"/><br/>
-        <strong>Disenchant</strong>
+        <img src="./cards/white/corrupted_hollow_front.jpeg" alt="Corrupted Hollow Front" width="400"/><br/>
+        <strong>Corrupted Hollow Front</strong>
     </td>
     <td align="center">
         <img src="./cards/white/emit_force.jpeg" alt="Emit Force" width="400"/><br/>
@@ -289,382 +299,392 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/white/resting_merchant.jpeg" alt="Resting Merchant" width="400"/><br/>
-        <strong>Resting Merchant</strong>
+        <img src="./cards/white/resting_thief.jpeg" alt="Resting Thief" width="400"/><br/>
+        <strong>Resting Thief</strong>
     </td>
+    <td align="center">
+        <img src="./cards/white/shulvas_denial.jpeg" alt="Shulvas Denial" width="400"/><br/>
+        <strong>Shulvas Denial</strong>
+    </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/siegmeyer_of_catarina_back.jpeg" alt="Siegmeyer Of Catarina Back" width="400"/><br/>
         <strong>Siegmeyer Of Catarina Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/siegmeyer_of_catarina_front.jpeg" alt="Siegmeyer Of Catarina Front" width="400"/><br/>
         <strong>Siegmeyer Of Catarina Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/solaire_of_astora.jpeg" alt="Solaire Of Astora" width="400"/><br/>
         <strong>Solaire Of Astora</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/soothing_sunlight.jpeg" alt="Soothing Sunlight" width="400"/><br/>
         <strong>Soothing Sunlight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/soul_of_a_nameless_soldier.jpeg" alt="Soul Of A Nameless Soldier" width="400"/><br/>
         <strong>Soul Of A Nameless Soldier</strong>
     </td>
+    <td align="center">
+        <img src="./cards/white/sunlight_blade.jpeg" alt="Sunlight Blade" width="400"/><br/>
+        <strong>Sunlight Blade</strong>
+    </td>
 </tr>
 <tr>
-    <td align="center">
-        <img src="./cards/white/sunlights_blade.jpeg" alt="Sunlights Blade" width="400"/><br/>
-        <strong>Sunlights Blade</strong>
-    </td>
     <td align="center">
         <img src="./cards/white/swollen_mongrel.jpeg" alt="Swollen Mongrel" width="400"/><br/>
         <strong>Swollen Mongrel</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/tears_of_denial.jpeg" alt="Tears Of Denial" width="400"/><br/>
         <strong>Tears Of Denial</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/transient_curse.jpeg" alt="Transient Curse" width="400"/><br/>
         <strong>Transient Curse</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/village_blacksmith.jpeg" alt="Village Blacksmith" width="400"/><br/>
         <strong>Village Blacksmith</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/vow_of_silence.jpeg" alt="Vow Of Silence" width="400"/><br/>
         <strong>Vow Of Silence</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/white/weary_travelers.jpeg" alt="Weary Travelers" width="400"/><br/>
         <strong>Weary Travelers</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/white/wight.jpeg" alt="Wight" width="400"/><br/>
         <strong>Wight</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/adventuring_sorcerer.jpeg" alt="Adventuring Sorcerer" width="400"/><br/>
         <strong>Adventuring Sorcerer</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/amana_priestess.jpeg" alt="Amana Priestess" width="400"/><br/>
         <strong>Amana Priestess</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/angelic_knight.jpeg" alt="Angelic Knight" width="400"/><br/>
         <strong>Angelic Knight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/ashen_estus.jpeg" alt="Ashen Estus" width="400"/><br/>
         <strong>Ashen Estus</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/aural_decoy.jpeg" alt="Aural Decoy" width="400"/><br/>
         <strong>Aural Decoy</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/big_hat_logan.jpeg" alt="Big Hat Logan" width="400"/><br/>
         <strong>Big Hat Logan</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/burning_ambition.jpeg" alt="Burning Ambition" width="400"/><br/>
         <strong>Burning Ambition</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/catalyst_of_the_witch_of_izalith.jpeg" alt="Catalyst Of The Witch Of Izalith" width="400"/><br/>
         <strong>Catalyst Of The Witch Of Izalith</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/chameleon.jpeg" alt="Chameleon" width="400"/><br/>
         <strong>Chameleon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/contemplation.jpeg" alt="Contemplation" width="400"/><br/>
         <strong>Contemplation</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/crystal_butterfly.jpeg" alt="Crystal Butterfly" width="400"/><br/>
         <strong>Crystal Butterfly</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/dual_charm.jpeg" alt="Dual Charm" width="400"/><br/>
         <strong>Dual Charm</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/farron_dart.jpeg" alt="Farron Dart" width="400"/><br/>
         <strong>Farron Dart</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/fume_sorcerer.jpeg" alt="Fume Sorcerer" width="400"/><br/>
         <strong>Fume Sorcerer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/great_crab.jpeg" alt="Great Crab" width="400"/><br/>
         <strong>Great Crab</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/hidden_body.jpeg" alt="Hidden Body" width="400"/><br/>
         <strong>Hidden Body</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/homing_soul_mass.jpeg" alt="Homing Soul Mass" width="400"/><br/>
         <strong>Homing Soul Mass</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/hooded_sorcerer.jpeg" alt="Hooded Sorcerer" width="400"/><br/>
         <strong>Hooded Sorcerer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/into_the_abyss.jpeg" alt="Into The Abyss" width="400"/><br/>
         <strong>Into The Abyss</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/invisible_hollow.jpeg" alt="Invisible Hollow" width="400"/><br/>
         <strong>Invisible Hollow</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/lost_spell_from_oolacile.jpeg" alt="Lost Spell From Oolacile" width="400"/><br/>
         <strong>Lost Spell From Oolacile</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/magic_denial.jpeg" alt="Magic Denial" width="400"/><br/>
         <strong>Magic Denial</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/magic_weapon.jpeg" alt="Magic Weapon" width="400"/><br/>
         <strong>Magic Weapon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/old_sorcerer.jpeg" alt="Old Sorcerer" width="400"/><br/>
         <strong>Old Sorcerer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/outrider_knight.jpeg" alt="Outrider Knight" width="400"/><br/>
         <strong>Outrider Knight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/pestilent_mercury.jpeg" alt="Pestilent Mercury" width="400"/><br/>
         <strong>Pestilent Mercury</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/petrify.jpeg" alt="Petrify" width="400"/><br/>
         <strong>Petrify</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/ruin_banshee.jpeg" alt="Ruin Banshee" width="400"/><br/>
         <strong>Ruin Banshee</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/sages_scroll.jpeg" alt="Sages Scroll" width="400"/><br/>
         <strong>Sages Scroll</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/search_the_library.jpeg" alt="Search The Library" width="400"/><br/>
         <strong>Search The Library</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/soul_of_an_unknown_traveler.jpeg" alt="Soul Of An Unknown Traveler" width="400"/><br/>
         <strong>Soul Of An Unknown Traveler</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/soul_spear.jpeg" alt="Soul Spear" width="400"/><br/>
         <strong>Soul Spear</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/soul_stream.jpeg" alt="Soul Stream" width="400"/><br/>
         <strong>Soul Stream</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/twisted_wall_of_light.jpeg" alt="Twisted Wall Of Light" width="400"/><br/>
         <strong>Twisted Wall Of Light</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/blue/vordt_and_the_dancer.jpeg" alt="Vordt And The Dancer" width="400"/><br/>
         <strong>Vordt And The Dancer</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/blue/wall_spectre.jpeg" alt="Wall Spectre" width="400"/><br/>
         <strong>Wall Spectre</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/a_hero_gone_mad.jpeg" alt="A Hero Gone Mad" width="400"/><br/>
         <strong>A Hero Gone Mad</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/aldrich_devourer_of_gods.jpeg" alt="Aldrich Devourer Of Gods" width="400"/><br/>
         <strong>Aldrich Devourer Of Gods</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/bonfire_ascetic.jpeg" alt="Bonfire Ascetic" width="400"/><br/>
         <strong>Bonfire Ascetic</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/carthus_rouge.jpeg" alt="Carthus Rouge" width="400"/><br/>
         <strong>Carthus Rouge</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/charred_knight.jpeg" alt="Charred Knight" width="400"/><br/>
         <strong>Charred Knight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/chasm_giant.jpeg" alt="Chasm Giant" width="400"/><br/>
         <strong>Chasm Giant</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/chosen_undead.jpeg" alt="Chosen Undead" width="400"/><br/>
         <strong>Chosen Undead</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/clawed_curse.jpeg" alt="Clawed Curse" width="400"/><br/>
         <strong>Clawed Curse</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/curse_of_the_dead.jpeg" alt="Curse Of The Dead" width="400"/><br/>
         <strong>Curse Of The Dead</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/dark_edge.jpeg" alt="Dark Edge" width="400"/><br/>
         <strong>Dark Edge</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/dark_hand_of_kaathe.jpeg" alt="Dark Hand Of Kaathe" width="400"/><br/>
         <strong>Dark Hand Of Kaathe</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/darkwraith.jpeg" alt="Darkwraith" width="400"/><br/>
         <strong>Darkwraith</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/deep_fog.jpeg" alt="Deep Fog" width="400"/><br/>
         <strong>Deep Fog</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/frozen_reindeer.jpeg" alt="Frozen Reindeer" width="400"/><br/>
         <strong>Frozen Reindeer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/grave_warden.jpeg" alt="Grave Warden" width="400"/><br/>
         <strong>Grave Warden</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/grave_wardens_tome.jpeg" alt="Grave Wardens Tome" width="400"/><br/>
         <strong>Grave Wardens Tome</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/gravelord_nito.jpeg" alt="Gravelord Nito" width="400"/><br/>
         <strong>Gravelord Nito</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/grip_of_death.jpeg" alt="Grip Of Death" width="400"/><br/>
         <strong>Grip Of Death</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/hollow_soldier.jpeg" alt="Hollow Soldier" width="400"/><br/>
         <strong>Hollow Soldier</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/hound_rat.jpeg" alt="Hound Rat" width="400"/><br/>
         <strong>Hound Rat</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/jailer.jpeg" alt="Jailer" width="400"/><br/>
         <strong>Jailer</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/lordran_necromancer.jpeg" alt="Lordran Necromancer" width="400"/><br/>
         <strong>Lordran Necromancer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/lothric_sentry.jpeg" alt="Lothric Sentry" width="400"/><br/>
         <strong>Lothric Sentry</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/nimble_shadow.jpeg" alt="Nimble Shadow" width="400"/><br/>
         <strong>Nimble Shadow</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/black/parasite_worm.jpeg" alt="Parasite Worm" width="400"/><br/>
         <strong>Parasite Worm</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/black/resonant_flesh.jpeg" alt="Resonant Flesh" width="400"/><br/>
         <strong>Resonant Flesh</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/black/resonant_soul.jpeg" alt="Resonant Soul" width="400"/><br/>
+        <strong>Resonant Soul</strong>
     </td>
 </tr>
 <tr>
@@ -1009,282 +1029,292 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/green/pickle_pee_pump_a_rum.jpeg" alt="Pickle Pee Pump A Rum" width="400"/><br/>
+        <strong>Pickle Pee Pump A Rum</strong>
+    </td>
+    <td align="center">
         <img src="./cards/green/proselyte_scarlett.jpeg" alt="Proselyte Scarlett" width="400"/><br/>
         <strong>Proselyte Scarlett</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/ravenous_crystal_lizard.jpeg" alt="Ravenous Crystal Lizard" width="400"/><br/>
         <strong>Ravenous Crystal Lizard</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/seek_embers.jpeg" alt="Seek Embers" width="400"/><br/>
         <strong>Seek Embers</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/sentinel_of_the_tower_of_flame.jpeg" alt="Sentinel Of The Tower Of Flame" width="400"/><br/>
         <strong>Sentinel Of The Tower Of Flame</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/shaded_woods.jpeg" alt="Shaded Woods" width="400"/><br/>
         <strong>Shaded Woods</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/soul_of_a_lost_explorer.jpeg" alt="Soul Of A Lost Explorer" width="400"/><br/>
         <strong>Soul Of A Lost Explorer</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/souls_of_the_living.jpeg" alt="Souls Of The Living" width="400"/><br/>
         <strong>Souls Of The Living</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/stray_demon.jpeg" alt="Stray Demon" width="400"/><br/>
         <strong>Stray Demon</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/the_serpent_king.jpeg" alt="The Serpent King" width="400"/><br/>
         <strong>The Serpent King</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/undead_aberration.jpeg" alt="Undead Aberration" width="400"/><br/>
         <strong>Undead Aberration</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/warcry.jpeg" alt="Warcry" width="400"/><br/>
         <strong>Warcry</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/warp_the_land.jpeg" alt="Warp The Land" width="400"/><br/>
         <strong>Warp The Land</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/wistful_naivete.jpeg" alt="Wistful Naivete" width="400"/><br/>
         <strong>Wistful Naivete</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/ancient_wyvern.jpeg" alt="Ancient Wyvern" width="400"/><br/>
         <strong>Ancient Wyvern</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/archdeacon_of_the_deep.jpeg" alt="Archdeacon Of The Deep" width="400"/><br/>
         <strong>Archdeacon Of The Deep</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/baneful_queen_mytha.jpeg" alt="Baneful Queen Mytha" width="400"/><br/>
         <strong>Baneful Queen Mytha</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/bed_of_chaos.jpeg" alt="Bed Of Chaos" width="400"/><br/>
         <strong>Bed Of Chaos</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/blade_of_the_darkmoon.jpeg" alt="Blade Of The Darkmoon" width="400"/><br/>
         <strong>Blade Of The Darkmoon</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/carim_guardian.jpeg" alt="Carim Guardian" width="400"/><br/>
         <strong>Carim Guardian</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/disembodied_wisp.jpeg" alt="Disembodied Wisp" width="400"/><br/>
         <strong>Disembodied Wisp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/dragonslayer_and_executioner.jpeg" alt="Dragonslayer And Executioner" width="400"/><br/>
         <strong>Dragonslayer And Executioner</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/ember.jpeg" alt="Ember" width="400"/><br/>
         <strong>Ember</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/fume_knight.jpeg" alt="Fume Knight" width="400"/><br/>
         <strong>Fume Knight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/gael_seeker_of_ash_back.jpeg" alt="Gael Seeker Of Ash Back" width="400"/><br/>
         <strong>Gael Seeker Of Ash Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/gael_seeker_of_ash_front.jpeg" alt="Gael Seeker Of Ash Front" width="400"/><br/>
         <strong>Gael Seeker Of Ash Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/gravelords_maelstrom.jpeg" alt="Gravelords Maelstrom" width="400"/><br/>
         <strong>Gravelords Maelstrom</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/gwyn_lord_of_cinder.jpeg" alt="Gwyn Lord Of Cinder" width="400"/><br/>
         <strong>Gwyn Lord Of Cinder</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/hawkeye_gough.jpeg" alt="Hawkeye Gough" width="400"/><br/>
         <strong>Hawkeye Gough</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/iudex_gundyr_back.jpeg" alt="Iudex Gundyr Back" width="400"/><br/>
         <strong>Iudex Gundyr Back</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/iudex_gundyr_front.jpeg" alt="Iudex Gundyr Front" width="400"/><br/>
         <strong>Iudex Gundyr Front</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/king_of_the_storm.jpeg" alt="King Of The Storm" width="400"/><br/>
         <strong>King Of The Storm</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/knight_artorias_back.jpeg" alt="Knight Artorias Back" width="400"/><br/>
         <strong>Knight Artorias Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/knight_artorias_front.jpeg" alt="Knight Artorias Front" width="400"/><br/>
         <strong>Knight Artorias Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/knight_lautrec_back.jpeg" alt="Knight Lautrec Back" width="400"/><br/>
         <strong>Knight Lautrec Back</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/knight_lautrec_front.jpeg" alt="Knight Lautrec Front" width="400"/><br/>
         <strong>Knight Lautrec Front</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/lorian_and_lothric.jpeg" alt="Lorian And Lothric" width="400"/><br/>
         <strong>Lorian And Lothric</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/ruin_sentinels.jpeg" alt="Ruin Sentinels" width="400"/><br/>
         <strong>Ruin Sentinels</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/sorcerers_remedy.jpeg" alt="Sorcerers Remedy" width="400"/><br/>
         <strong>Sorcerers Remedy</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/splintering_lightning.jpeg" alt="Splintering Lightning" width="400"/><br/>
         <strong>Splintering Lightning</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/spreading_decay.jpeg" alt="Spreading Decay" width="400"/><br/>
         <strong>Spreading Decay</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/gold/stream_of_estus.jpeg" alt="Stream Of Estus" width="400"/><br/>
         <strong>Stream Of Estus</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/gold/yhorm_the_giant.jpeg" alt="Yhorm The Giant" width="400"/><br/>
         <strong>Yhorm The Giant</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/bell_gargoyles.jpeg" alt="Bell Gargoyles" width="400"/><br/>
         <strong>Bell Gargoyles</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/bloodbite_ring.jpeg" alt="Bloodbite Ring" width="400"/><br/>
         <strong>Bloodbite Ring</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/broadsword.jpeg" alt="Broadsword" width="400"/><br/>
         <strong>Broadsword</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/catalyst_of_the_witch_of_izalith.jpeg" alt="Catalyst Of The Witch Of Izalith" width="400"/><br/>
         <strong>Catalyst Of The Witch Of Izalith</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/charm_of_the_undead_hunters.jpeg" alt="Charm Of The Undead Hunters" width="400"/><br/>
         <strong>Charm Of The Undead Hunters</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/chloranthy_ring.jpeg" alt="Chloranthy Ring" width="400"/><br/>
         <strong>Chloranthy Ring</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/cursed_greatsword.jpeg" alt="Cursed Greatsword" width="400"/><br/>
         <strong>Cursed Greatsword</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/eyes_of_a_firekeeper.jpeg" alt="Eyes Of A Firekeeper" width="400"/><br/>
         <strong>Eyes Of A Firekeeper</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/halberd.jpeg" alt="Halberd" width="400"/><br/>
         <strong>Halberd</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/heide_knight.jpeg" alt="Heide Knight" width="400"/><br/>
         <strong>Heide Knight</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/homeward_bone.jpeg" alt="Homeward Bone" width="400"/><br/>
         <strong>Homeward Bone</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/hornet_ring.jpeg" alt="Hornet Ring" width="400"/><br/>
         <strong>Hornet Ring</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/artifact/iron_golem.jpeg" alt="Iron Golem" width="400"/><br/>
         <strong>Iron Golem</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/kiln_of_the_first_flame.jpeg" alt="Kiln Of The First Flame" width="400"/><br/>
         <strong>Kiln Of The First Flame</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/artifact/looking_glass_knight.jpeg" alt="Looking Glass Knight" width="400"/><br/>
+        <strong>Looking Glass Knight</strong>
     </td>
 </tr>
 <tr>
@@ -1313,18 +1343,38 @@ Booster distribution
         <strong>Ring Of Sacrifice</strong>
     </td>
     <td align="center">
-        <img src="./cards/artifact/silver_serpent_ring.jpeg" alt="Silver Serpent Ring" width="400"/><br/>
-        <strong>Silver Serpent Ring</strong>
+        <img src="./cards/artifact/silver_charm.jpeg" alt="Silver Charm" width="400"/><br/>
+        <strong>Silver Charm</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/artifact/silver_serpent_ring.jpeg" alt="Silver Serpent Ring" width="400"/><br/>
+        <strong>Silver Serpent Ring</strong>
+    </td>
+    <td align="center">
         <img src="./cards/artifact/soul_syphoner.jpeg" alt="Soul Syphoner" width="400"/><br/>
         <strong>Soul Syphoner</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/artifact/talisman_of_the_way_of_white.jpeg" alt="Talisman Of The Way Of White" width="400"/><br/>
         <strong>Talisman Of The Way Of White</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/artifact/thorolund_talisman.jpeg" alt="Thorolund Talisman" width="400"/><br/>
+        <strong>Thorolund Talisman</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/artifact/titanite_chunk.jpeg" alt="Titanite Chunk" width="400"/><br/>
+        <strong>Titanite Chunk</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/artifact/titanite_shard.jpeg" alt="Titanite Shard" width="400"/><br/>
+        <strong>Titanite Shard</strong>
     </td>
 </tr>
 <tr>

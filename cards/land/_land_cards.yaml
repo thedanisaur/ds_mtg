@@ -30,6 +30,23 @@ card_archdragon_peak:
     number: 242
     colors: '{R}{W}'
 
+card_bewildering_fire:
+  front:
+    name: "Bewildering Fire"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: "Uncommon"
+    rating: 5
+    rules_text: |
+      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.
+    flavor_text: "Ah, a bonfire!"
+    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
+    artist: "SirGorke"
+    number: 243
+    colors: '{W}{U}{B}{R}{G}'
+
 card_blighttown:
   front:
     name: "Blighttown"
@@ -45,24 +62,8 @@ card_blighttown:
     flavor_text: "Blighttown? It's probably not that bad."
     artwork_url: "https://i.ibb.co/hxygybPB/blighttown-nsrocks190.jpg"
     artist: "nsrocks190"
-    number: 243
-
-card_bonfire:
-  front:
-    name: "Bonfire"
-    cost: ""
-    super: ""
-    type: "Land"
-    sub: "Bonfire"
-    rarity: "Uncommon"
-    rating: 5
-    rules_text: |
-      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.
-    flavor_text: "Ah, a bonfire!"
-    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
-    artist: "SirGorke"
     number: 244
-    colors: '{W}{U}{B}{R}{G}'
+    colors: '{B}{G}'
 
 card_cathedral_of_blue:
   front:

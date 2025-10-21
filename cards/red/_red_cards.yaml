@@ -43,7 +43,7 @@ card_carthus_beacon:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Enchant Creature
+      Enchant creature
       Enchanted creature gains double strike and has, "Whenever this creature attacks for the first time each turn, untap it. After this phase, there is an additional combat phase."
     flavor_text: "Carthus's aggression has been likened to an uncontrollable fire, and since ancient times its beacon has been used as a signal for war."
     artwork_url: "https://i.ibb.co/WNg6QvVG/carthus-beacon-arturtreffner-resize.jpg"
@@ -143,17 +143,17 @@ card_demon_cleric:
     cost: "{R}"
     super: ""
     type: "Creature"
-    sub: "Cleric Demon"
+    sub: "Demon"
     rarity: "Common"
     rating: 2
     rules_text: |
-      When ~ enters the battlefield it deals 1 damage to a creature an opponent controls chosen at random.
-      {1}{R}, {T}, exile two cards from your graveyard: ~ deals 2 damage to any target.
-    flavor_text: ""
+      Haste
+      {R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 2 damage to any target.
+    flavor_text: "Descending from the grievous symbol of Izalith's sin, these cleric's rituals echo the chaotic flames that birthed them."
     artwork_url: "https://i.pinimg.com/736x/09/36/19/09361950665b1ee69ee5323245e6fbf8.jpg"
     artist: "Vlad MRK"
     number: 124
-    power: 2
+    power: 1
     toughness: 1
 
 card_desert_pyromancer:
@@ -178,7 +178,7 @@ card_desert_pyromancer:
 card_fiery_soapstone:
   front:
     name: "Fiery Soapstone"
-    cost: "{2}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -238,7 +238,8 @@ card_firekeeper:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
+      Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). 
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"
@@ -328,8 +329,9 @@ card_hellkite_wyvern:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Flying, first strike
-      When ~ leaves the battlefield search your library for an artifact card with converted mana cost three or less and put it onto the battlefield.
+      Flying, first strike, haste
+      If ~ would die with one or more -1/-1 counters on it exile it instead.
+      At the beginning of combat you may pay {R}. If you do, return ~ from your graveyard to the battlefield with a -1/-1 counter on it.
     flavor_text: "Drakes are distant relatives of the ancient dragons. Even so, they are mighty foes."
     artwork_url: "https://i.ibb.co/zWbsNN4j/hellkite-wyvern-a-tarzia.jpg"
     artist: "a. tarzia"
@@ -362,8 +364,9 @@ card_ignite_steel:
     rarity: "Uncommon"
     rating: 0
     rules_text: |
-      Enchant Equipment
-      Enchanted equipment gains "Equipped creature has prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
+      Enchant creature
+      Enchanted creature has prowess.
+      Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
     artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
     artist: "shadoecrewsart"
@@ -466,7 +469,7 @@ card_profuse_sweat:
     rarity: "Common"
     rating: 1
     rules_text: |
-      You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -
+      As you cast this spell choose one, then choose another at random -
       • Draw a card.
       • Until end of turn creatures you control can't have bleed counters placed on them.
       • Attach up to one target curse to target player.
@@ -565,8 +568,8 @@ card_soul_of_an_old_pyromancer:
       When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/Look-inside-836919995"
+    artist: "Luis Bello"
     number: 146
     color_indicator: "{R}"
 
@@ -580,10 +583,11 @@ card_sunlight_maggot:
     rarity: "Common"
     rating: 4
     rules_text: |
+      Haste
       When ~ enters or leaves the battlefield you get one soul.
       {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
     flavor_text: |
-      "You vermin, you dare take my friend!?" — Chosen Undead
+      "You vermin, you dare take my friend!?" — *Chosen Undead*
     artwork_url: "https://i.ibb.co/rfTQbjfC/sunlight-maggot-kingumbra.jpg"
     artist: "kingumbra"
     number: 147

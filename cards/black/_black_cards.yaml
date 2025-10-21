@@ -56,8 +56,9 @@ card_carthus_rouge:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      Enchant equipment
-      Enchanted equipment has "Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, that creature or player gets a bleed counter for each damage received instead)"
+      Enchant creature
+      Enchanted creature has has bleed.
+      Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
     artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
     artist: "nobleones"
@@ -425,8 +426,8 @@ card_nimble_shadow:
       You may choose to not untap ~ during your untap step
       {T}: Target creature gets a bleed counter. As long as ~ is tapped that creature cannot have bleed counters removed from it. Activate this ability only during your turn.
     flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
-    artwork_url: "https://api.deepai.org/job-view-file/3c00fd16-95c2-48dd-93ac-1c5ea6115400/outputs/output.jpg"
-    artist: "deepai"
+    artwork_url: "https://i.ibb.co/J42ybj0/nimble-assassin-resize.jpg"
+    artist: "hsg artshop"
     number: 104
     power: 2
     toughness: 2
@@ -541,7 +542,7 @@ card_skim_memories:
     name: "Skim Memories"
     cost: "{B}"
     super: ""
-    type: "sorcery"
+    type: "Sorcery"
     sub: ""
     rarity: "Rare"
     rating: 4
@@ -600,8 +601,8 @@ card_the_great_swamp:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Enchant land
-      Enchanted land has "Each land you control is a Swamp in addition to its other land types. If you would tap a land for {B} it produces {B}{B} and deals 1 damage to you instead."
+      Enchant swamp
+      Enchanted land has "Each land you control is a Swamp in addition to its other land types. Whenever you tap a land for {B} add an additional {B} and lose 1 life."
     flavor_text: "It is here that pyromancy was born. A scorched and sunken land, where exiles kindle fire."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/024/986/576/large/andres-cantillo-the-great-swamp-andres-cantillo.jpg?1584200736"
     artist: "andres cantillo"

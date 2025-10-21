@@ -45,8 +45,8 @@ card_broadsword:
       Equipped creature gets +1/+0 and has "This creature can't be blocked by creatures with toughness two or less."
       Equip {1}
     flavor_text: "I've seen your kind, time and time again. Such is the conceit of the self proclaimed seeker of truth. But in the end, you lack the stomach. "
-    artwork_url: "https://api.deepai.org/job-view-file/df201141-8a33-4cea-bd40-066baa155c38/outputs/output.jpg"
-    artist: "deepai"
+    artwork_url: "https://i.ibb.co/B2BjLQgd/broadsword-resize.jpg"
+    artist: "unknown"
     number: 213
 
 card_catalyst_of_the_witch_of_izalith:
@@ -149,7 +149,7 @@ card_halberd:
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature gets +2/+0 and has first strike.
+      Equipped creature gets +1/+0 and has first strike.
       Equip {1}
     flavor_text: "Only the hollowed still carry it with pride, their memories long rusted away."
     artwork_url: "https://i.ibb.co/7JXPnh3H/halberd.jpg"
@@ -273,7 +273,7 @@ card_metaleater_spider:
     rules_text: |
       When ~ enters the battlefield, destroy up to two target artifacts.
       Reach
-    flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— Sir Aldren of the New Londo Guard'
+    flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— *Sir Aldren of the New Londo Guard*'
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
     artist: "sohlol"
     number: 226
@@ -291,7 +291,7 @@ card_moonlight_greatsword:
     rating: 1
     rules_text: |
       Whenever equipped creature deals damage you get that many souls.
-      Pay one soul: ~ deals 1 damage to target creature. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.
+      Pay one soul: ~ deals 1 damage to target creature or planeswalker. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.
       Equip {2}
     flavor_text: "Oceiros was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
     artwork_url: "https://www.deviantart.com/sergioskill/art/Bonfire-652960644"
@@ -397,7 +397,7 @@ card_soul_syphoner:
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
       {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
-    flavor_text: "\"I thought I could control it. But the siphon is always hungrier than the hand.\"— Master Alestrian, exiled sage"
+    flavor_text: "\"I thought I could control it. But the siphon is always hungrier than the hand.\"— *Master Alestrian, exiled sage*"
     artwork_url: "https://www.deviantart.com/wisestprojectstudio/art/Various-Inventions-1032369175"
     artist: "WisestProjectStudio"
     number: 233
@@ -448,7 +448,7 @@ card_titanite_chunk:
     rarity: "Common"
     rating: 0
     rules_text: |
-      Sacrifice ~: You get three souls. Then you may pay {1}, if you do, draw a card.
+      Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.
       Equipped creature gets +2/+1.
       Imbue {3} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""
@@ -466,7 +466,7 @@ card_titanite_shard:
     rarity: "Common"
     rating: 0
     rules_text: |
-      Sacrifice ~: You get one soul. Then you may pay {1}, if you do, draw a card.
+      Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.
       Equipped creature gets +1/+0.
       Imbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""

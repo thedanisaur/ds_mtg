@@ -120,7 +120,7 @@ card_burning_ambition:
       As an additional cost to cast ~ pay X souls.
       Gain control of target creature or artifact with mana cost equal to X.
     flavor_text: "My knights are never far from my gaze."
-    artwork_url: "https://www.deviantart.com/dvktheartist/art/Breaker-of-Infernos-1191929362"
+    artwork_url: "https://i.ibb.co/c9zsf4w/burning-ambition-dvktheartist.jpg"
     artist: "dvktheartist"
     number: 52
 
@@ -445,7 +445,7 @@ card_petrify:
     rules_text: |
       Enchant creature or artifact
       Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-      {1}{U}: Attach ~ to target creature or artifact. Draw a card.
+      {2}{U}: Attach ~ to target creature or artifact. Draw a card.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/One-Eared-Underlit-Charmed-Monster-spitpaint-891454229"
     artist: "cobaltplasma"
@@ -482,7 +482,7 @@ card_sages_scroll:
     rules_text: |
       You may look at the top card of your library any time.
       Whenever you cast a noncreature spell put a crystal counter on ~.
-      Remove a crystal counter from ~: Target player shuffles their library.
+      Remove three crystal counters from ~: You may cast the top card of your library if it is an instant or sorcery.
     flavor_text: "Written before their will was devoured, these scrolls contain the knowledge of the Crystal Sages."
     artwork_url: "https://i.pinimg.com/originals/cd/1d/47/cd1d474410aa93f13a9258b6f3f26a65.jpg"
     artist: "fromsoft"
@@ -607,7 +607,7 @@ card_wall_spectre:
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it..
+      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/HLRwg47x/wall-sprectre-adadia-resize.jpg"
     artist: "adadia"
