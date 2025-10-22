@@ -40,7 +40,7 @@ card_carthus_beacon:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 2
     rules_text: |
       Enchant creature
@@ -50,16 +50,17 @@ card_carthus_beacon:
     artist: "arturtreffner"
     number: 118
 
+# [drd] Rename Evangelist of the deep
 card_cathedral_evangelist:
   front:
     name: "Cathedral Evangelist"
-    cost: "{R}{R}"
+    cost: "{2/R}{R}"
     super: ""
     type: "Creature"
     sub: "Cleric"
     rarity: "Common"
     rating: 2
-    rules_text: "When ~ enters the battlefield discard a card, then draw a card. You get two souls."
+    rules_text: "When ~ enters the battlefield draw a card, then discard a card. You get two souls."
     flavor_text: "EEHEEE!"
     artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
     artist: "therikaro114"
@@ -111,7 +112,7 @@ card_cracked_redeye_orb:
     sub: ""
     rarity: "Common"
     rating: 2
-    rules_text: "Create a 3/3 red Human creature token named Red Phantom. It has prowess."
+    rules_text: "Create a 3/3 red Human creature token named Red Phantom. It has prowess. That creature gains haste until end of turn."
     flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
     artist: "cobaltplasma"
@@ -218,10 +219,10 @@ card_fire_surge:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 1
     rules_text: |
-      You may pay two souls rather than pay this spell's mana cost.
+      You may pay one soul rather than pay this spell's mana cost.
       Until end of turn, target creature gains haste, can't be blocked except by two or more creatures, and "{R}: This creature gets +1/+0 until end of turn."
     flavor_text: "Without a master, there is no pupil, but without a pupil, there is also no master."
     artwork_url: "https://i.ibb.co/TBRsqSWb/fire-surge-jasontn.jpg"
@@ -235,11 +236,11 @@ card_firekeeper:
     super: ""
     type: "Creature"
     sub: "Monk"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 1
     rules_text: |
       Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
-      {R}, Pay one soul: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). 
+      {R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). 
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"
@@ -361,7 +362,7 @@ card_ignite_steel:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 0
     rules_text: |
       Enchant creature
@@ -375,11 +376,11 @@ card_ignite_steel:
 card_immolation:
   front:
     name: "Immolation"
-    cost: "{1}{R}"
+    cost: "{R}"
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 1
     rules_text: |
       Target creature gains double strike and trample until end of turn. At the beginning of the next end step, sacrifice it if it attacked this turn.
@@ -395,7 +396,7 @@ card_lingering_flame:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Whenever you cast a noncreature spell, put a charge counter on ~.
@@ -432,7 +433,7 @@ card_permeating_flames:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.
@@ -630,7 +631,7 @@ card_unbreakable_patches:
     artwork_url: "https://i.ibb.co/zTqR46yr/unbreakable-patches-front-sweenoy.jpg"
     artist: "Sweenoy"
     number: 149
-    power: 2
+    power: 3
     toughness: 2
     frame: "Double-Faced: Day"
     color_indicator: "{R}"

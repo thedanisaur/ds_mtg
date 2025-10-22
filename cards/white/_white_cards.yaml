@@ -206,9 +206,9 @@ card_homeward:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rules_text: |
-      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for basic plains, reveal it, put it into your hand, then shuffle your library.
+      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains, reveal it, put it into your hand, then shuffle your library.
     flavor_text: "A link to one's homeland, only the curse of the Undead has distorted its power, redirecting casters back to the transitory lands."
     artwork_url: "https://i.pinimg.com/736x/b4/5c/bc/b45cbc55e71a6970dde0b1654e2c5c13.jpg"
     artist: "g. ziel"
@@ -434,8 +434,8 @@ card_shulvas_denial:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
-    rating: 1
+    rarity: "Uncommon"
+    rating: 2
     rules_text: |
       You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -
       • Destroy target artifact.
@@ -492,7 +492,7 @@ card_solaire_of_astora:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Uncommon"
-    rating: 4
+    rating: 3
     rules_text: |
       When ~ enters the battlefield you may exile a white card from your hand, if you do create a 3/3 white human ally creature token named Phantom. It has haste.
       Each player can't draw more than one card each turn.
@@ -545,7 +545,7 @@ card_sunlight_blade:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rules_text: |
       Enchant creature
       Enchanted creature gets +1/+0, has lifelink, and can block creatures with shadow.
@@ -581,7 +581,7 @@ card_tears_of_denial:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 1
     rules_text: |
       As ~ enters the battlefield choose a card name. Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack and their activated abilities can't be activated.
@@ -634,7 +634,7 @@ card_vow_of_silence:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 1
     rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack and loyalty abilities cannot be activated this turn."
     flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."

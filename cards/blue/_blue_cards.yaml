@@ -366,7 +366,7 @@ card_magic_weapon:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 2
     rules_text: |
       Enchant creature
@@ -563,7 +563,7 @@ card_twisted_wall_of_light:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       You may return two islands you control to your hand rather than pay ~'s mana cost.
@@ -607,7 +607,7 @@ card_wall_spectre:
     type: "Creature"
     sub: "Spirit"
     rarity: "Uncommon"
-    rating: 1
+    rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)

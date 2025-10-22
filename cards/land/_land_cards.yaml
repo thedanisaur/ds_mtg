@@ -30,23 +30,6 @@ card_archdragon_peak:
     number: 242
     colors: '{R}{W}'
 
-card_bewildering_fire:
-  front:
-    name: "Bewildering Fire"
-    cost: ""
-    super: ""
-    type: "Land"
-    sub: "Bonfire"
-    rarity: "Uncommon"
-    rating: 5
-    rules_text: |
-      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.
-    flavor_text: "Ah, a bonfire!"
-    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
-    artist: "SirGorke"
-    number: 243
-    colors: '{W}{U}{B}{R}{G}'
-
 card_blighttown:
   front:
     name: "Blighttown"
@@ -62,7 +45,7 @@ card_blighttown:
     flavor_text: "Blighttown? It's probably not that bad."
     artwork_url: "https://i.ibb.co/hxygybPB/blighttown-nsrocks190.jpg"
     artist: "nsrocks190"
-    number: 244
+    number: 243
     colors: '{B}{G}'
 
 card_cathedral_of_blue:
@@ -78,7 +61,7 @@ card_cathedral_of_blue:
     flavor_text: "An ancient shrine bathed in stormlight, where the wind still whispers oaths long broken."
     artwork_url: "https://i.ibb.co/dJVSn83h/cathedral-of-blue-princessomg50.jpg"
     artist: "princessomg50"
-    number: 245
+    number: 244
     colors: '{W}{U}'
 
 card_cathedral_of_the_deep:
@@ -94,8 +77,25 @@ card_cathedral_of_the_deep:
     flavor_text: "A house of worship turned crypt, where the faithful drown in blood, and the dead do not rest."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-deacons-of-the-deep-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
-    number: 246
+    number: 245
     colors: '{U}{R}'
+
+card_comforting_fire:
+  front:
+    name: "Comforting Fire"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: "Uncommon"
+    rating: 5
+    rules_text: |
+      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.
+    flavor_text: "Ah, a bonfire!"
+    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
+    artist: "SirGorke"
+    number: 246
+    colors: '{W}{U}{B}{R}{G}'
 
 card_darkroot_garden:
   front:

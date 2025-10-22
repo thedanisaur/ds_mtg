@@ -56,7 +56,7 @@ card_catalyst_of_the_witch_of_izalith:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Mythic"
+    rarity: "Rare"
     rating: 4
     rules_text: |
       Equipped creature has, "{Q}: Target player puts two cards from the top of their library into their graveyard."
@@ -437,6 +437,7 @@ card_thorolund_talisman:
     artist: "fromsoft"
     number: 235
 
+# TODO [drd] replace art
 card_titanite_chunk:
   front:
     name: "Titanite Chunk"
@@ -444,17 +445,18 @@ card_titanite_chunk:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 0
     rules_text: |
-      Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.
-      Equipped creature gets +2/+1.
-      Imbue {3} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
+      Sacrifice this artifact: You get three souls. Then you may pay {1}. If you do, draw a card.
+      Equipped creature gets +3/+1.
+      Imbue {2} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/mCqGFmfz/titanite-chunk-grok-resize.jpg"
+    artist: "grok"
     number: 236
 
+# TODO [drd] replace art
 card_titanite_shard:
   front:
     name: "Titanite Shard"
@@ -462,15 +464,15 @@ card_titanite_shard:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 0
     rules_text: |
       Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.
       Equipped creature gets +1/+0.
       Imbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/MxSGfyXM/titanie-shard-grok-resize.jpg"
+    artist: "grok"
     number: 237
 
 card_uchigatana:
@@ -498,7 +500,7 @@ card_void_charm:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 4
     rules_text: |
       ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.

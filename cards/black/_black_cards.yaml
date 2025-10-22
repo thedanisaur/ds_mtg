@@ -53,7 +53,7 @@ card_carthus_rouge:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 1
     rules_text: |
       Enchant creature
@@ -90,7 +90,7 @@ card_chasm_giant:
     super: ""
     type: "Creature"
     sub: "Giant"
-    rarity: "Rare"
+    rarity: "Common"
     rating: 2
     rules_text: |
       This creature can't be blocked except by black creatures.
@@ -458,11 +458,11 @@ card_resonant_flesh:
     super: ""
     type: "Enchanment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Whenever you get one or more souls you gain that much life.
-      Pay five souls: Draw a card. Then you lose life equal to the number of souls you have.
+      Pay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.
     flavor_text: "I see…The Dark has sparked within you…"
     artwork_url: "https://i.pinimg.com/736x/68/a6/c2/68a6c2c6263ef3854ad9f434e4f2622c.jpg"
     artist: "fromsoft"
@@ -475,7 +475,7 @@ card_resonant_soul:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       As you cast this spell pay any number of souls.

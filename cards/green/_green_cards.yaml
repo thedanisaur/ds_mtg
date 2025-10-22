@@ -83,7 +83,7 @@ card_contrasted_cursed:
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 0
     rules_text: |
       Enchant player
@@ -138,7 +138,7 @@ card_dark_fog:
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 2
     rules_text: |
       Enchant player
@@ -198,7 +198,7 @@ card_estus:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 4
     rules_text: |
       Put a card from the top of your library into your graveyard for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
@@ -208,6 +208,7 @@ card_estus:
     artist: "gwenzzo"
     number: 160
 
+# TODO [drd] rename Cathedral Evangelist
 card_evangelist_of_the_deep:
   front:
     name: "Evangelist of the Deep"
@@ -234,7 +235,7 @@ card_expected_companions:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Look at the top six cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
@@ -328,7 +329,7 @@ card_hush:
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 2
     rules_text: |
       Enchant player
@@ -346,7 +347,7 @@ card_lothric_knight:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Protection from blue and from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or black.)
@@ -422,7 +423,7 @@ card_petrifying_statue:
     super: ""
     type: "Enchantment Creature"
     sub: "Golem Lizard"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Indestructible
@@ -498,15 +499,15 @@ card_ravenous_crystal_lizard:
 card_seek_embers:
   front:
     name: "Seek Embers"
-    cost: "{1}{G}"
+    cost: "{G}"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 1
     rules_text: |
       You may pay any number of souls and mana as you cast ~.
-      Search your library for a nonland permanent card with converted mana cost less than or equal to the total of both souls and mana you paid as you cast ~, reveal that card and put it into your hand. 
+      Search your library for a permanent card with converted mana cost less than or equal to the total of both souls and mana you paid as you cast ~, reveal that card and put it into your hand. 
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
