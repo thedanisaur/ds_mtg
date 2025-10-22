@@ -328,7 +328,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Scry 2. Turn target creature face down. That creature gains \"Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)\"\n",
+    "oracle_text": "Scry 2. You get two souls. Turn target creature face down. That creature gains \"Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/chameleon.jpeg"
 },
 {
@@ -1867,8 +1867,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1880,8 +1880,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1893,8 +1893,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1906,8 +1906,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2021,8 +2021,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2034,8 +2034,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2073,11 +2073,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U",
-        "W",
         "G",
-        "B"
+        "W",
+        "R",
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -2102,8 +2102,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2128,8 +2128,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2582,8 +2582,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2608,8 +2608,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2621,8 +2621,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2647,8 +2647,8 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "W",
+        "R",
         "G"
     ],
     "rarity": "rare",
@@ -2674,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2712,8 +2712,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2724,8 +2724,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2737,9 +2737,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "B",
+        "W",
         "R",
-        "W"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2750,9 +2750,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
+            "W",
             "R",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2777,9 +2777,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
         "R",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3007,8 +3007,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "R",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3021,11 +3021,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
-        "U",
-        "W",
         "G",
-        "B"
+        "W",
+        "R",
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3037,8 +3037,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
         "W",
+        "R",
         "U"
     ],
     "rarity": "mythic",
@@ -3051,8 +3051,8 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3064,8 +3064,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "W",
+            "B",
             "U"
         ],
         "rarity": "",
@@ -3078,8 +3078,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3121,11 +3121,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
-        "U",
-        "W",
         "G",
-        "B"
+        "W",
+        "R",
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3137,8 +3137,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3150,11 +3150,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U",
-        "W",
         "G",
-        "B"
+        "W",
+        "R",
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 4,
