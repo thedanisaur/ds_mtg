@@ -736,7 +736,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\n{1}{R}, {T}, pay two souls: ~ deals 2 damage to any target.\n",
+    "oracle_text": "Haste\nWhenever ~ deals damage to a player you get one soul.\n{1}{R}, {T}, pay two souls: ~ deals 3 damage to any target.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/desert_pyromancer.jpeg"
 },
 {
@@ -1104,8 +1104,8 @@
     "type": "Creature",
     "mana_cost": "{1}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1880,8 +1880,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1906,8 +1906,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2060,8 +2060,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2073,11 +2073,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W",
-        "R",
         "B",
-        "U"
+        "G",
+        "U",
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -2089,8 +2089,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2128,8 +2128,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2141,8 +2141,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2595,8 +2595,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2621,12 +2621,12 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug\nAt the beginning of each opponent's end step that player sacrifices a creature or artifact.\nWhenever a creature leaves the battlefield, if you don't control a creature named \"Chaos Bug\" sacrifice ~. \n",
+    "oracle_text": "Trample, indestructible\nWhen ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug. When that token leaves the battlefield sacrifice ~.\nAt the beginning of your end step each opponent sacrifices a creature or artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
@@ -2634,8 +2634,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2647,9 +2647,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "G",
         "W",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2674,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2699,8 +2699,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2738,8 +2738,8 @@
     "mana_cost": "{R}{W}{B}",
     "colors": [
         "W",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2751,8 +2751,8 @@
         "mana_cost": "",
         "colors": [
             "W",
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2764,8 +2764,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2777,9 +2777,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
         "G",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3007,9 +3007,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "B",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3021,11 +3021,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
-        "W",
-        "R",
         "B",
-        "U"
+        "G",
+        "U",
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3038,8 +3038,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "W",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3052,8 +3052,8 @@
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
         "W",
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3065,8 +3065,8 @@
         "mana_cost": "",
         "colors": [
             "W",
-            "B",
-            "U"
+            "U",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3121,11 +3121,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
-        "W",
-        "R",
         "B",
-        "U"
+        "G",
+        "U",
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3150,11 +3150,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W",
-        "R",
         "B",
-        "U"
+        "G",
+        "U",
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,

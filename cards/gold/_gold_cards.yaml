@@ -68,9 +68,9 @@ card_bed_of_chaos:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug
-      At the beginning of each opponent's end step that player sacrifices a creature or artifact.
-      Whenever a creature leaves the battlefield, if you don't control a creature named "Chaos Bug" sacrifice ~. 
+      Trample, indestructible
+      When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug. When that token leaves the battlefield sacrifice ~.
+      At the beginning of your end step each opponent sacrifices a creature or artifact.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
     artist: "oniruu"
