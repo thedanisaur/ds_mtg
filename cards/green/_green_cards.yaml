@@ -506,8 +506,8 @@ card_seek_embers:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      You may pay any number of souls and mana as you cast ~.
-      Search your library for a permanent card with converted mana cost less than or equal to the total of both souls and mana you paid as you cast ~, reveal that card and put it into your hand. 
+      You may pay any number of additional mana and/or souls as you cast ~.
+      Search your library for a permanent card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
