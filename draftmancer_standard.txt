@@ -67,7 +67,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Flying\n{1}, {T}: Copy target activated or triggered ability.\n",
+    "oracle_text": "Face-down and colorless cards you play cost {2} less.\n{1}, {T}: Copy target activated or triggered ability.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/velkas_harpy.jpeg"
 },
 {
@@ -904,7 +904,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nMorph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
+    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg"
 },
 {
@@ -964,7 +964,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield return a land card from your graveyard to the battlefield. \nYou may play an additional land on each of your turns.\nWhenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.\n",
+    "oracle_text": "When ~ enters the battlefield search your library and/or graveyard for a basic land card and put it into your hand.\nYou may play an additional land on each of your turns.\nWhenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hesitant_surveyor.jpeg"
 },
 {
@@ -976,7 +976,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "When ~ leaves the battlefield, you get one soul and you may pay {2}{G}, if you do you may return a permanent card from your graveyard to your hand.\n{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.\n",
+    "oracle_text": "When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do search your library for a basic land card and put it into your hand.\n{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hollow_knight.jpeg"
 },
 {
@@ -1012,7 +1012,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield return a creature you control to its owner's hand. Create a treasure token.\n",
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield search your library for a basic land card and put it into your hand. Then return a creature you control to its owner's hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg"
 },
 {
@@ -1036,7 +1036,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Search your library for two forest cards and put them onto the battlefield tapped.\nYou may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.\n",
+    "oracle_text": "You may sacrifice a nontoken green creature rather than pay this spell's mana cost.\nSearch your library for two forest cards and put them onto the battlefield tapped. Then you may pay three souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/shaded_woods.jpeg"
 },
 {
@@ -1060,7 +1060,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul and gain 1 life.\n",
+    "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul and gain 1 life.\nFace-down cards you play cost {2} less.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg"
 },
 {
@@ -1096,7 +1096,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may discard a land card and pay three souls rather than pay this spell's mana cost.\nSearch your library for a bonfire or forest card. Reveal that card and put it into your hand. If you cast this spell without paying its mana cost put that card onto the battlefield instead. Shuffle your library.\n",
+    "oracle_text": "You may pay three souls rather than pay this spell's mana cost.\nSearch your library for a forest card, put that card onto the battlefield tapped. If you cast this spell without paying its mana cost, untap that land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/warp_the_land.jpeg"
 },
 {
@@ -1563,14 +1563,14 @@
 },
 {
     "name": "Resonant Flesh",
-    "type": "Enchanment",
+    "type": "Enchantment",
     "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
+    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\nFace-down cards you play cost {2} less.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
 },
 {
@@ -1804,13 +1804,13 @@
 {
     "name": "Petrifying Statue",
     "type": "Enchantment Creature",
-    "mana_cost": "{2}{G}",
+    "mana_cost": "{1}{G}",
     "colors": [
         "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Indestructible\n~'s power is equal to the number of enchantments you control.\nWhenever ~ deals combat damage to a creature prevent that damage. Put a stun counter on it, if that damage would have been lethal that creature gains, \"This creature can't attack or block, and its activated abilities can't be activated.\" instead.\n",
+    "oracle_text": "Bleed\n~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nFace-down cards you play cost {X} less. Where {X} is the number of enchantments you control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg"
 },
 {
@@ -1867,8 +1867,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1880,8 +1880,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1893,8 +1893,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1906,8 +1906,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2021,8 +2021,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2034,8 +2034,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2060,8 +2060,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2073,11 +2073,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
         "U",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -2102,8 +2102,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2115,8 +2115,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2128,8 +2128,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2141,8 +2141,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2582,8 +2582,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2595,8 +2595,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2608,8 +2608,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2621,8 +2621,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2647,9 +2647,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "W",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2661,8 +2661,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2674,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2699,8 +2699,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2712,8 +2712,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2724,8 +2724,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2737,9 +2737,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2750,9 +2750,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
+            "B",
             "W",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2764,8 +2764,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2777,9 +2777,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
         "R",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2992,14 +2992,14 @@
 },
 {
     "name": "Pickle Pee, Pump-a-Rum",
-    "type": "Creature",
+    "type": "Planeswalker",
     "mana_cost": "{G}",
     "colors": [
         "G"
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "{2}, Discard a nonland card: Draw a card.\n{1}, Discard a land card: Create a Treasure token.\n{T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.\n",
+    "oracle_text": "{+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Reveal a land card from your hand. If you do, search your library for a land card and put it onto the battlefield tapped. Then shuffle your library.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named \"Ring of Sacrifice\" and put it onto the battlefield. Then shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pickle_pee_pump_a_rum.jpeg"
 },
 {
@@ -3007,9 +3007,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "U",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3021,11 +3021,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "G",
         "B",
-        "R",
         "U",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3037,9 +3037,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
         "U",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3051,9 +3051,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "B",
         "U",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3064,9 +3064,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "U",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3078,8 +3078,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3121,11 +3121,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "G",
         "B",
-        "R",
         "U",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3137,8 +3137,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3150,11 +3150,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
         "U",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
