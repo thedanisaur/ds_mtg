@@ -65,7 +65,7 @@ card_amana_aberration:
     rating: 2
     rules_text: |
       {T}: Add {B} or {U} to your mana pool
-      Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       When ~ is turned face up, Choose one -
       • Target player draws two cards.
       • Target player discards two cards.
@@ -250,7 +250,7 @@ card_festering_goblin:
     cost: "{G}"
     super: ""
     type: "Creature"
-    sub: "Goblin"
+    sub: "Hollow Goblin"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -293,7 +293,7 @@ card_hesitant_surveyor:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield return a land card from your graveyard to the battlefield. 
+      When ~ enters the battlefield search your library and/or graveyard for a basic land card and put it into your hand.
       You may play an additional land on each of your turns.
       Whenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.
     flavor_text: ""
@@ -313,7 +313,7 @@ card_hollow_knight:
     rarity: "Common"
     rating: 1
     rules_text: |
-      When ~ leaves the battlefield, you get one soul and you may pay {2}{G}, if you do you may return a permanent card from your graveyard to your hand.
+      When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do search your library for a basic land card and put it into your hand.
       {1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
@@ -419,42 +419,42 @@ card_pagan_tree:
 card_petrifying_statue:
   front:
     name: "Petrifying Statue"
-    cost: "{2}{G}"
+    cost: "{1}{G}"
     super: ""
     type: "Enchantment Creature"
     sub: "Golem Lizard"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Indestructible
-      ~'s power is equal to the number of enchantments you control.
-      Whenever ~ deals combat damage to a creature prevent that damage. Put a stun counter on it, if that damage would have been lethal that creature gains, "This creature can't attack or block, and its activated abilities can't be activated." instead.
-    flavor_text: ""
+      Bleed
+      ~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
+      Face-down cards you play cost {X} less. Where {X} is the number of enchantments you control.
+    flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
     number: 172
     power: "*"
-    toughness: 2
+    toughness: "1+*"
 
 card_pickle_pee_pump_a_rum:
   front:
     name: "Pickle Pee, Pump-a-Rum"
     cost: "{G}"
-    super: ""
-    type: "Creature"
-    sub: "Shapeshifter Bird"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Pickle Pee"
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      {2}, Discard a nonland card: Draw a card.
-      {1}, Discard a land card: Create a Treasure token.
-      {T}, Sacrifice a card named Homeward Bone: Search your library for a card named Ring of Sacrifice and put it onto the battlefield. Then shuffle your library.
+      {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
+      {0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.
+      {-1}: Reveal a land card from your hand. If you do, search your library for a land card and put it onto the battlefield tapped. Then shuffle your library.
+      {-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named "Ring of Sacrifice" and put it onto the battlefield. Then shuffle your library.
     flavor_text: "That...no...pickle pee"
-    artwork_url: "https://i.pinimg.com/originals/1d/58/16/1d58161039d0619f40e6362807f69c80.jpg"
+    artwork_url: "https://i.ibb.co/q3DpmnFP/pickle-pee-pump-a-rum-2-resize.jpg"
     artist: "Barbara Flowers"
     number: 173
-    power: 0
-    toughness: 1
+    loyalty: 1
 
 card_proselyte_scarlett:
   front:
@@ -488,7 +488,7 @@ card_ravenous_crystal_lizard:
     rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
-      When ~ enters the battlefield return a creature you control to its owner's hand. Create a treasure token.
+      When ~ enters the battlefield search your library for a basic land card and put it into your hand. Then return a creature you control to its owner's hand.
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
     artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
     artist: "jaqenart"
@@ -542,8 +542,8 @@ card_shaded_woods:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Search your library for two forest cards and put them onto the battlefield tapped.
-      You may pay four souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.
+      You may sacrifice a nontoken green creature rather than pay this spell's mana cost.
+      Search your library for two forest cards and put them onto the battlefield tapped. Then you may pay three souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.
     flavor_text: "Wanderers who lose their way here risk becoming part of the eternal dusk."
     artwork_url: "https://www.deviantart.com/emkun/art/Dark-Souls-2-fan-art-514144950"
     artist: "emkun"
@@ -580,6 +580,7 @@ card_souls_of_the_living:
     rules_text: |
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
       Whenever a creature enters the battlefield under your control, you get one soul and gain 1 life.
+      Face-down cards you play cost {2} less.
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
     artist: "TimforShadeDigital"
@@ -656,8 +657,8 @@ card_warp_the_land:
     rarity: "Common"
     rating: 2
     rules_text: |
-      You may discard a land card and pay three souls rather than pay this spell's mana cost.
-      Search your library for a bonfire or forest card. Reveal that card and put it into your hand. If you cast this spell without paying its mana cost put that card onto the battlefield instead. Shuffle your library.
+      You may pay three souls rather than pay this spell's mana cost.
+      Search your library for a forest card, put that card onto the battlefield tapped. If you cast this spell without paying its mana cost, untap that land.
     flavor_text: "Ashen one these are not the ruins of the world—they are what's left of your memories."
     artwork_url: "https://i.ibb.co/Y7dtVwgp/warp-the-land-red-bubble-resize.jpg"
     artist: "redbubble"
