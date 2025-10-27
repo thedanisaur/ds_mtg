@@ -29,7 +29,7 @@ card_abyss_watchers:
     rules_text: |
       First strike, haste
       When ~ enters the battlefield, exile all creatures named "Abyss Watchers".
-      Other knight, hollow, and zombie creatures you control get +1/+1.
+      At the beginning of your end step, return a creature from your graveyard to the battlefield.
     flavor_text: "Their souls twisted from the wolf's blood."
     artwork_url: "https://i.pinimg.com/originals/82/5e/1e/825e1e185e8fb45446b19e817d532b7e.jpg"
     artist: "Cal Santiago"
@@ -37,7 +37,7 @@ card_abyss_watchers:
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
-    color_indicator: "{G}"
+    color_indicator: "{B}{G}"
 
 card_alluring_skull:
   front:
