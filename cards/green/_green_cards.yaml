@@ -65,7 +65,7 @@ card_amana_aberration:
     rating: 2
     rules_text: |
       {T}: Add {B} or {U} to your mana pool
-      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       When ~ is turned face up, Choose one -
       • Target player draws two cards.
       • Target player discards two cards.
@@ -172,16 +172,17 @@ card_dukes_dear_freja:
 card_ent_of_the_darkroot_garden:
   front:
     name: "Ent of the Darkroot Garden"
-    cost: "{G}{G}"
+    cost: "{2}{G}"
     super: ""
     type: "Creature"
     sub: "Treefolk"
     rarity: "Common"
     rating: 2
     rules_text: |
-      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Trample
+      Morph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
       Whenever ~ is turned face up choose one -
-      • Put two +1/+1 counters on it and it gains trample.
+      • Distribute three +1/+1 counters among any number of target creatures you control.
       • Destroy target artifact or enchantment.
     flavor_text: |
       "There's something odd about the trees in this garden" -- Lordran Patrol
@@ -189,7 +190,7 @@ card_ent_of_the_darkroot_garden:
     artist: "legen"
     number: 159
     power: 3
-    toughness: 3
+    toughness: 2
 
 card_estus:
   front:
@@ -238,7 +239,7 @@ card_expected_companions:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Look at the top six cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+      Look at the top four cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
     flavor_text: "Hello friend! I see, you've done this before."
     artwork_url: "https://www.deviantart.com/sanekyle/art/Embrace-the-Sun-595738780"
     artist: "sanekyle"
@@ -273,8 +274,7 @@ card_gaping_dragon:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Deathtouch, reach, trample, haste, bleed
-      When ~ attacks create a treasure token.
+      Reach, trample, haste, bleed
       Whenever ~ deals damage to a player destroy target artifact that player controls.
     flavor_text: "Consumed by a ravenous eternal hunger."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
@@ -293,7 +293,7 @@ card_hesitant_surveyor:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield search your library and/or graveyard for a basic land card and put it into your hand.
+      When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.
       You may play an additional land on each of your turns.
       Whenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.
     flavor_text: ""
@@ -382,7 +382,7 @@ card_milfanito:
 card_mimic:
   front:
     name: "Mimic"
-    cost: "{1}{G}"
+    cost: "{G}{G}"
     super: ""
     type: "Creature"
     sub: "Shapeshifter"
@@ -428,7 +428,7 @@ card_petrifying_statue:
     rules_text: |
       Bleed
       ~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-      Face-down cards you play cost {X} less. Where {X} is the number of enchantments you control.
+      Whenever a creature enters the battlefield or is turned face up under your control, if it would cause an ability to trigger, that ability triggers a second time.
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
@@ -676,8 +676,8 @@ card_wistful_naivete:
     rules_text: |
       Enchant player
       When ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
-      Face-down cards your opponents play cost {2} less and if a creature they control entering the battlefield or turning face up would cause an ability to trigger, it triggers a second time.
-    flavor_text: ""
+      Face-down cards your opponents play cost {2} less.
+    flavor_text: "Gleeful cheer may quickly become dread."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
     artist: "thecursedbosskiller"
     number: 185

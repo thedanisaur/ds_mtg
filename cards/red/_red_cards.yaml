@@ -149,7 +149,7 @@ card_demon_cleric:
     rating: 2
     rules_text: |
       Haste
-      {R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 2 damage to any target.
+      {R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 1 damage to any target.
     flavor_text: "Descending from the grievous symbol of Izalith's sin, these cleric's rituals echo the chaotic flames that birthed them."
     artwork_url: "https://i.pinimg.com/736x/09/36/19/09361950665b1ee69ee5323245e6fbf8.jpg"
     artist: "Vlad MRK"
@@ -180,7 +180,7 @@ card_desert_pyromancer:
 card_fiery_soapstone:
   front:
     name: "Fiery Soapstone"
-    cost: "{1}{R}"
+    cost: "{2}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -241,7 +241,7 @@ card_firekeeper:
     rating: 1
     rules_text: |
       Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
-      {R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). 
+      {R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
     artist: "Givinggyf"

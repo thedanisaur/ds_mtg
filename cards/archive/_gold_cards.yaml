@@ -1,0 +1,17 @@
+card_carim_guardian:
+  front:
+    name: "Carim Guardian"
+    cost: "{B/G}{B/G}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 1
+    rules_text: |
+      {B/G}, {T}, Sacrifice a noncleric creature or artifact: Put a +1/+1 on ~. Then search your library for a black or green creature with converted mana cost less than or equal to one plus the sacrificed permanent's mana cost, reveal it and put it into your hand.
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
+    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
+    artist: "drawsouls"
+    number: 191
+    power: 2
+    toughness: 1

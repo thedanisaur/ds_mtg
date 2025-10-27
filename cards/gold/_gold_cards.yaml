@@ -50,7 +50,7 @@ card_baneful_queen_mytha:
     rules_text: |
       Deathtouch, bleed
       ~ gets +1/+1 for each card type in your graveyard.
-      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target creature with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.
+      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
     artist: "igor grechanyi"
@@ -61,7 +61,7 @@ card_baneful_queen_mytha:
 card_bed_of_chaos:
   front:
     name: "Bed of Chaos"
-    cost: "{B/R}{B/R}{B/R}{B/R}"
+    cost: "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}"
     super: "Legendary"
     type: "Creature"
     sub: "Spellshaper Lord"
@@ -75,7 +75,7 @@ card_bed_of_chaos:
     artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
     artist: "oniruu"
     number: 189
-    power: 7
+    power: 8
     toughness: 8
 
 card_blade_of_the_darkmoon:
@@ -97,23 +97,21 @@ card_blade_of_the_darkmoon:
     power: 2
     toughness: 2
 
-card_carim_guardian:
+card_dark_sigil:
   front:
-    name: "Carim Guardian"
-    cost: "{B/G}{B/G}"
+    name: "Dark Sigil"
+    cost: "{B/G}"
     super: ""
-    type: "Creature"
-    sub: "Human Knight"
-    rarity: "Uncommon"
-    rating: 1
+    type: "Enchantment"
+    sub: ""
+    rarity: "Rare"
     rules_text: |
-      {B/G}, {T}, Sacrifice a noncleric creature or artifact: Put a +1/+1 on ~. Then search your library for a black or green creature with converted mana cost less than or equal to one plus the sacrificed permanent's mana cost, reveal it and put it into your hand.
-    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
-    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
-    artist: "drawsouls"
+      Face-down cards you play cost {2} less.
+      {B/G}{B/G}{B/G}: Turn target nonland permanent face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.
+    flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
     number: 191
-    power: 2
-    toughness: 1
 
 card_disembodied_wisp:
   front:
@@ -165,7 +163,7 @@ card_ember:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      When ~ enters the battlefield create a 3/3 white creature token named Phantom. It has haste. Each opponent gets an emblem with "At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess."
+      When ~ enters the battlefield your life total becomes 25. Each opponent gets an emblem with "At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess."
       {2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/C5ryGN1M/EMBER-alex-bezhko.jpg"
@@ -446,21 +444,22 @@ card_lorian_and_lothric:
 card_ruin_sentinels:
   front:
     name: "Ruin Sentinels"
-    cost: "{1}{G/W}"
+    cost: "{2}{G/W}"
     super: ""
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
     rating: 1
     rules_text: |
+      Vigilance, lifelink
       ~ gets +2/+2 for each giant you control.
-      A deck can have any number of cards named ~.
+      When ~ enters the battlefield search your library for a card named "~".
     flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
     artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"
     artist: "dawnweaver13"
     number: 205
-    power: 2
-    toughness: 2
+    power: 3
+    toughness: 3
 
 card_sorcerers_remedy:
   front:

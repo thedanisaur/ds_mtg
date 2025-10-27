@@ -196,7 +196,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Players can't cast more than one spell per turn and can't search libraries.\n",
+    "oracle_text": "Players can't cast more than one spell per turn, can't search libraries, and if a creature would be turned face up instead it doesn't, unless it's controller pays {1}.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
 },
 {
@@ -724,7 +724,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Haste\n{R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 2 damage to any target.\n",
+    "oracle_text": "Haste\n{R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 1 damage to any target.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/demon_cleric.jpeg"
 },
 {
@@ -748,7 +748,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)\n{R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.). \n",
+    "oracle_text": "Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)\n{R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/firekeeper.jpeg"
 },
 {
@@ -904,7 +904,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
+    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nMorph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg"
 },
 {
@@ -922,13 +922,13 @@
 {
     "name": "Ent of the Darkroot Garden",
     "type": "Creature",
-    "mana_cost": "{G}{G}",
+    "mana_cost": "{2}{G}",
     "colors": [
         "G"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Put two +1/+1 counters on it and it gains trample.\n\u2022 Destroy target artifact or enchantment.\n",
+    "oracle_text": "Trample\nMorph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Distribute three +1/+1 counters among any number of target creatures you control.\n\u2022 Destroy target artifact or enchantment.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg"
 },
 {
@@ -964,7 +964,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield search your library and/or graveyard for a basic land card and put it into your hand.\nYou may play an additional land on each of your turns.\nWhenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.\n",
+    "oracle_text": "When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.\nYou may play an additional land on each of your turns.\nWhenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hesitant_surveyor.jpeg"
 },
 {
@@ -1102,14 +1102,14 @@
 {
     "name": "Ruin Sentinels",
     "type": "Creature",
-    "mana_cost": "{1}{G/W}",
+    "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "~ gets +2/+2 for each giant you control.\nA deck can have any number of cards named ~.\n",
+    "oracle_text": "Vigilance, lifelink\n~ gets +2/+2 for each giant you control.\nWhen ~ enters the battlefield search your library for a card named \"~\".\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg"
 },
 {
@@ -1117,8 +1117,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1294,7 +1294,7 @@
     ],
     "rarity": "uncommon",
     "rating": 5,
-    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "As an additional cost to cast ~ pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
 },
 {
@@ -1354,7 +1354,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "As ~ enters the battlefield choose a card name. Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack and their activated abilities can't be activated.\nWhenever a creature you control dies, sacrifice ~.\nPay three souls, exile ~: draw a card.\n",
+    "oracle_text": "As ~ enters the battlefield choose a card name.\nSpells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.\nWhenever a creature you control dies, sacrifice ~ and draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg"
 },
 {
@@ -1396,7 +1396,7 @@
 {
     "name": "Burning Ambition",
     "type": "Sorcery",
-    "mana_cost": "{2}{U}{U}",
+    "mana_cost": "{2/U}{U}",
     "colors": [
         "U"
     ],
@@ -1474,7 +1474,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "You may return two islands you control to your hand rather than pay ~'s mana cost.\nIf you paid mana to cast this spell choose two, otherwise choose one -\n\u2022 Return target permanent to its owners hand.\n\u2022 Counter target activated or triggered ability.\n\u2022 Tap each creature.\n\u2022 Draw a card.\n",
+    "oracle_text": "You may return an island you control to its owner's hand rather than pay ~'s mana cost.\nIf you paid mana to cast this spell choose two, otherwise choose one -\n\u2022 Return target permanent to its owner's hand.\n\u2022 Counter target activated or triggered ability.\n\u2022 Tap each creature.\n\u2022 Draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/twisted_wall_of_light.jpeg"
 },
 {
@@ -1570,7 +1570,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\nFace-down cards you play cost {2} less.\n",
+    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
 },
 {
@@ -1624,7 +1624,7 @@
 {
     "name": "Fiery Soapstone",
     "type": "Enchantment",
-    "mana_cost": "{1}{R}",
+    "mana_cost": "{2}{R}",
     "colors": [
         "R"
     ],
@@ -1774,7 +1774,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Look at the top six cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.\n",
+    "oracle_text": "Look at the top four cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/expected_companions.jpeg"
 },
 {
@@ -1792,7 +1792,7 @@
 {
     "name": "Mimic",
     "type": "Creature",
-    "mana_cost": "{1}{G}",
+    "mana_cost": "{G}{G}",
     "colors": [
         "G"
     ],
@@ -1810,7 +1810,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Bleed\n~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nFace-down cards you play cost {X} less. Where {X} is the number of enchantments you control.\n",
+    "oracle_text": "Bleed\n~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nWhenever a creature enters the battlefield or is turned face up under your control, if it would cause an ability to trigger, that ability triggers a second time.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg"
 },
 {
@@ -1846,7 +1846,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Enchant player\nWhen ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nFace-down cards your opponents play cost {2} less and if a creature they control entering the battlefield or turning face up would cause an ability to trigger, it triggers a second time.\n",
+    "oracle_text": "Enchant player\nWhen ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nFace-down cards your opponents play cost {2} less.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
 },
 {
@@ -1854,8 +1854,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1863,25 +1863,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg"
 },
 {
-    "name": "Carim Guardian",
-    "type": "Creature",
-    "mana_cost": "{B/G}{B/G}",
-    "colors": [
-        "B",
-        "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 1,
-    "oracle_text": "{B/G}, {T}, Sacrifice a noncleric creature or artifact: Put a +1/+1 on ~. Then search your library for a black or green creature with converted mana cost less than or equal to one plus the sacrificed permanent's mana cost, reveal it and put it into your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/carim_guardian.jpeg"
-},
-{
     "name": "Disembodied Wisp",
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1893,8 +1880,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1906,8 +1893,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2021,8 +2008,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2034,8 +2021,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2047,8 +2034,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2060,8 +2047,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2073,11 +2060,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W",
         "U",
-        "G",
-        "R"
+        "B",
+        "R",
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -2089,8 +2076,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2102,8 +2089,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2115,8 +2102,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2128,8 +2115,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2141,8 +2128,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2154,8 +2141,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2218,7 +2205,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Return target artifact or enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead.",
+    "oracle_text": "Return target artifact or enchantment card from your graveyard to your hand. You may pay three souls. If you do, put that card onto the battlefield instead.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/reforge.jpeg"
 },
 {
@@ -2263,7 +2250,7 @@
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack and loyalty abilities cannot be activated this turn.",
+    "oracle_text": "Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and creatures can't be turned face up this turn.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/vow_of_silence.jpeg"
 },
 {
@@ -2550,7 +2537,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Deathtouch, reach, trample, haste, bleed\nWhen ~ attacks create a treasure token.\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n",
+    "oracle_text": "Reach, trample, haste, bleed\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
 },
 {
@@ -2582,8 +2569,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2595,8 +2582,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2608,21 +2595,21 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Deathtouch, bleed\n~ gets +1/+1 for each card type in your graveyard.\nPut a -1/-1 counter on ~, Sacrifice a permanent: Destroy target creature with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.\n",
+    "oracle_text": "Deathtouch, bleed\n~ gets +1/+1 for each card type in your graveyard.\nPut a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg"
 },
 {
     "name": "Bed of Chaos",
     "type": "Creature",
-    "mana_cost": "{B/R}{B/R}{B/R}{B/R}",
+    "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2630,12 +2617,25 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
+    "name": "Dark Sigil",
+    "type": "Enchantment",
+    "mana_cost": "{B/G}",
+    "colors": [
+        "G",
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Face-down cards you play cost {2} less.\n{B/G}{B/G}{B/G}: Turn target nonland permanent face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dark_sigil.jpeg"
+},
+{
     "name": "Dragonslayer and Executioner",
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2647,13 +2647,13 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
+        "R",
         "W",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield create a 3/3 white creature token named Phantom. It has haste. Each opponent gets an emblem with \"At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess.\"\n{2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.\n",
+    "oracle_text": "When ~ enters the battlefield your life total becomes 25. Each opponent gets an emblem with \"At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess.\"\n{2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg"
 },
 {
@@ -2661,8 +2661,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2674,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2699,8 +2699,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2712,8 +2712,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2724,8 +2724,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2737,9 +2737,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "B",
+        "R",
         "W",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2750,9 +2750,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
+            "R",
             "W",
-            "R"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2764,8 +2764,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2777,9 +2777,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
+        "R",
         "G",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2795,7 +2795,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Equipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0} \n",
+    "oracle_text": "Equipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/catalyst_of_the_witch_of_izalith.jpeg"
 },
 {
@@ -3007,9 +3007,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
+        "R",
         "U",
-        "R"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3021,11 +3021,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
-        "W",
         "U",
-        "G",
-        "R"
+        "B",
+        "R",
+        "W",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3037,9 +3037,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
+        "R",
         "W",
-        "R"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3051,9 +3051,9 @@
     "type": "Creature",
     "mana_cost": "{2}{W}{U}{B}",
     "colors": [
-        "B",
+        "W",
         "U",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3064,9 +3064,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
+            "W",
             "U",
-            "W"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3078,8 +3078,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3121,11 +3121,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
-        "W",
         "U",
-        "G",
-        "R"
+        "B",
+        "R",
+        "W",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3137,8 +3137,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3150,11 +3150,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W",
         "U",
-        "G",
-        "R"
+        "B",
+        "R",
+        "W",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3343,7 +3343,6 @@
 7 The Serpent King
 7 Wistful Naivete
 7 Blade of the Darkmoon
-7 Carim Guardian
 7 Disembodied Wisp
 7 Splintering Lightning
 7 Spreading Decay
@@ -3406,6 +3405,7 @@
 3 Archdeacon of the Deep
 3 Baneful Queen, Mytha
 3 Bed of Chaos
+3 Dark Sigil
 3 Dragonslayer and Executioner
 3 Ember
 3 Fume Knight

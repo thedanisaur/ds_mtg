@@ -110,7 +110,7 @@ card_big_hat_logan:
 card_burning_ambition:
   front:
     name: "Burning Ambition"
-    cost: "{2}{U}{U}"
+    cost: "{2/U}{U}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -566,9 +566,9 @@ card_twisted_wall_of_light:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      You may return two islands you control to your hand rather than pay ~'s mana cost.
+      You may return an island you control to its owner's hand rather than pay ~'s mana cost.
       If you paid mana to cast this spell choose two, otherwise choose one -
-      • Return target permanent to its owners hand.
+      • Return target permanent to its owner's hand.
       • Counter target activated or triggered ability.
       • Tap each creature.
       • Draw a card.

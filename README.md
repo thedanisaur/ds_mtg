@@ -1103,8 +1103,8 @@ Booster distribution
         <strong>Blade Of The Darkmoon</strong>
     </td>
     <td align="center">
-        <img src="./cards/gold/carim_guardian.jpeg" alt="Carim Guardian" width="400"/><br/>
-        <strong>Carim Guardian</strong>
+        <img src="./cards/gold/dark_sigil.jpeg" alt="Dark Sigil" width="400"/><br/>
+        <strong>Dark Sigil</strong>
     </td>
 </tr>
 <tr>
