@@ -471,7 +471,7 @@ card_profuse_sweat:
     rarity: "Common"
     rating: 1
     rules_text: |
-      As you cast this spell choose one, then choose another at random -
+      As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -
       • Draw a card.
       • Until end of turn creatures you control can't have bleed counters placed on them.
       • Attach up to one target curse to target player.

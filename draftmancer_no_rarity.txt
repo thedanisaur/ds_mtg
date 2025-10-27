@@ -820,7 +820,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "As you cast this spell choose one, then choose another at random -\n\u2022 Draw a card.\n\u2022 Until end of turn creatures you control can't have bleed counters placed on them.\n\u2022 Attach up to one target curse to target player.\n\u2022 Creatures you control gain haste until end of turn.\n",
+    "oracle_text": "As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -\n\u2022 Draw a card.\n\u2022 Until end of turn creatures you control can't have bleed counters placed on them.\n\u2022 Attach up to one target curse to target player.\n\u2022 Creatures you control gain haste until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/profuse_sweat.jpeg"
 },
 {
@@ -2047,8 +2047,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2060,8 +2060,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "B",
         "G",
         "W"
@@ -2128,8 +2128,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2141,8 +2141,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2582,8 +2582,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2648,8 +2648,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "R",
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2778,8 +2778,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3008,9 +3008,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "U",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3022,8 +3022,8 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
         "U",
+        "R",
         "B",
         "G",
         "W"
@@ -3038,8 +3038,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
         "U",
+        "R",
         "W"
     ],
     "rarity": "mythic",
@@ -3122,8 +3122,8 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
         "U",
+        "R",
         "B",
         "G",
         "W"
@@ -3151,8 +3151,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "B",
         "G",
         "W"
