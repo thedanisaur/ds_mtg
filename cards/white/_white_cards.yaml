@@ -331,9 +331,9 @@ card_miracle_of_the_way_of_white:
     rarity: "Uncommon"
     rating: 5
     rules_text: |
-      As an additional cost to cast this spell pay one soul or {1}.
+      As an additional cost to cast ~ pay one soul or {1}.
       Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
-      Whenever you gain one or more souls at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
     artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
     artist: "dnd"
@@ -349,7 +349,7 @@ card_mirrah_warrior:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Players can't cast more than one spell per turn and can't search libraries.
+      Players can't cast more than one spell per turn, can't search libraries, and if a creature would be turned face up instead it doesn't, unless it's controller pays {1}.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"
@@ -401,7 +401,7 @@ card_reforge:
     sub: ""
     rarity: "Rare"
     rating: 0
-    rules_text: "Return target artifact or enchantment card from your graveyard to your hand. You may pay five souls. If you do, put that card onto the battlefield instead."
+    rules_text: "Return target artifact or enchantment card from your graveyard to your hand. You may pay three souls. If you do, put that card onto the battlefield instead."
     flavor_text: "Reforge mighty blade... with mighty soul."
     artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
     artist: "enthing"
@@ -584,9 +584,9 @@ card_tears_of_denial:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      As ~ enters the battlefield choose a card name. Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack and their activated abilities can't be activated.
-      Whenever a creature you control dies, sacrifice ~.
-      Pay three souls, exile ~: draw a card.
+      As ~ enters the battlefield choose a card name.
+      Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.
+      Whenever a creature you control dies, sacrifice ~ and draw a card.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/themefinland/art/Deflector-apprentice-777597967"
     artist: "themefinland"
@@ -636,7 +636,7 @@ card_vow_of_silence:
     sub: ""
     rarity: "Rare"
     rating: 1
-    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, creatures can't attack and loyalty abilities cannot be activated this turn."
+    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and creatures can't be turned face up this turn."
     flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."
     artwork_url: "https://www.deviantart.com/alaiaorax/art/Silence-your-mind-655938148"
     artist: "alaiaorax"
