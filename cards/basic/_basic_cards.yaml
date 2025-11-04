@@ -6,6 +6,7 @@ card_plains:
     type: "Land"
     sub: "Plains"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""
@@ -20,6 +21,7 @@ card_island:
     type: "Land"
     sub: "Island"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""
@@ -34,6 +36,7 @@ card_swamp:
     type: "Land"
     sub: "Swamp"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""
@@ -48,6 +51,7 @@ card_mountain:
     type: "Land"
     sub: "Mountain"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""
@@ -62,6 +66,7 @@ card_forest:
     type: "Land"
     sub: "Forest"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""
@@ -76,6 +81,7 @@ card_forest:
     type: "Land"
     sub: "Wastes"
     rarity: "Common"
+    rating: 0
     rules_text: ""
     flavor_text: ""
     artwork_url: ""

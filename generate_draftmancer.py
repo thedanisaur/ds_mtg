@@ -69,14 +69,49 @@ if __name__ == '__main__':
             "weight": 1,
             "slots": [
                 {
-                    "name": "RareOrMythic", 
-                    "count": 1, 
+                    "name": "LandOrBasic",
+                    "count": 1,
                     "sheets": [
-                        {"name": "Rare",   "weight": 8}, 
-                        {"name": "Mythic", "weight": 1}
+                        {"name": "LandMythic",  "weight": 1},
+                        {"name": "LandRare",  "weight": 4},
+                        {"name": "LandUncommon",  "weight": 8},
+                        {"name": "Basic", "weight": 32},
                     ]
                 },
-                {"name": "Uncommon", "count": 3 },
+                {
+                    "name": "RareOrMythic",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "LandRare",  "weight": 16},
+                        {"name": "Rare",   "weight": 344},
+                        {"name": "LandMythic",  "weight": 2},
+                        {"name": "Mythic", "weight": 16}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand1",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
                 {"name": "Common",   "count": 11},
             ]
         }
@@ -98,8 +133,8 @@ if __name__ == '__main__':
 
     # Configurations
     folder_path = "./cards"
-    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land' ]
-    cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [] }
+    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'basic' ]
+    cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
 
     # Build list of cards
     image_markdown = '\n'
@@ -138,7 +173,12 @@ if __name__ == '__main__':
                             }
                         else:
                             card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name}.jpeg"
-                        cards_by_rarity[card_front['rarity']].append(card)
+                        if card_front['type'] == 'Land' and card_front['super'] == 'Basic':
+                            cards_by_rarity[card_front['super']].append(card)
+                        elif card_front['type'] == 'Land':
+                            cards_by_rarity[card_front['type'] + card_front['rarity']].append(card)
+                        else:
+                            cards_by_rarity[card_front['rarity']].append(card)
 
     # Write back the updated content for a standard draft
     draftmancer_standard = 'draftmancer_standard.txt'
@@ -178,8 +218,14 @@ if __name__ == '__main__':
                     file.write('15 ')
                 elif rarity == 'Uncommon':
                     file.write('7 ')
+                elif rarity == 'LandUncommon':
+                    file.write('7 ')
                 elif rarity == 'Rare':
                     file.write('3 ')
+                elif rarity == 'LandRare':
+                    file.write('3 ')
+                elif rarity == 'Basic':
+                    file.write('8 ')
                 file.write(f"{card['name']}\n")
             file.write(f"\n")
         print(f"{draftmancer_standard}: ✅ Sheets written")
