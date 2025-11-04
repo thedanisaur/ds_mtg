@@ -9,8 +9,8 @@ card_abyss_watchers:
     rating: 3
     rules_text: |
       First strike, haste
-      When ~ enters the battlefield and at the beginning of each end step the player whose turn it is creates a token that's a copy of ~, except its not legendary and doesn't have this ability.
-      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+      At the beginning of each end step, if the player whose turn it is doesn't control a nonlegendary creature named "Abyss Watchers", they create a token copy of this creature, except it's not legendary and doesn't have this ability.
+      If ~ would die, exile it instead, \\then return it to the battlefield transformed \\under its owner's control. 
     flavor_text: ""
     artist_url: "https://static.zerochan.net/Abyss.Watchers.full.2137078.jpg"
     artist: "jlien"
@@ -27,9 +27,8 @@ card_abyss_watchers:
     sub: "Knight Lord"
     rarity: ""
     rules_text: |
-      First strike, haste
-      When ~ enters the battlefield, exile all creatures named "Abyss Watchers".
-      At the beginning of your end step, return a creature from your graveyard to the battlefield.
+      ~ can't be the target of spells that are white, blue, or red.
+      When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then return a creature from your graveyard to the battlefield.
     flavor_text: "Their souls twisted from the wolf's blood."
     artwork_url: "https://i.pinimg.com/originals/82/5e/1e/825e1e185e8fb45446b19e817d532b7e.jpg"
     artist: "Cal Santiago"
@@ -494,7 +493,7 @@ card_ravenous_crystal_lizard:
     artist: "jaqenart"
     number: 175
     power: 4
-    toughness: 5
+    toughness: 4
 
 card_seek_embers:
   front:

@@ -8,7 +8,7 @@ card_a_hero_gone_mad:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Return target double-faced creature or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to it's mana cost.
+      Return target double-faced creature card or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
     artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
     artist: "lavilvile"
@@ -275,8 +275,8 @@ card_grave_wardens_tome:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      You may exile two cards, or a black card, from your hand rather than pay this spell's mana cost.
-      Search your library for a red card and a black card. Reveal them, then put one into your hand and one into your graveyard.
+      You may exile a black card from your hand rather than pay this spell's mana cost.
+      Search your library for two cards. Put one into your hand and one into your graveyard.
     flavor_text: "High Lord Wolnir succumbed to the Abyss, and discovered the black flame."
     artwork_url: "https://i.ibb.co/YBHVJY0S/grave-wardens-tome-ptichcha-resize.jpg"
     artist: "pitchcha"
@@ -443,7 +443,7 @@ card_parasite_worm:
     rating: 4
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
-      {B}{B}: Return ~ and another target creature from your graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, sacrifice the enchanted \\creature and you lose two life.
+      {B}{B}: Return ~ and another target creature from your graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.
     flavor_text: "Now, let this strength be yours."
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
