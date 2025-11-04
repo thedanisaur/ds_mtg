@@ -344,7 +344,7 @@ card_king_of_the_storm:
 card_knight_artorias:
   front:
     name: "Knight Artorias"
-    cost: "{2}{W}{U}{B}"
+    cost: "{1}{W}{U}{B}"
     super: "Legendary"
     type: "Creature"
     sub: "Knight"
@@ -372,7 +372,7 @@ card_knight_artorias:
     rules_text: |
       When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
       Whenever an opponent draws a card, you may draw a card.
-      {W}{U}{B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
+      {W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
     flavor_text: "Indeed, the Abyss may be unstoppable."
     artwork_url: "https://i.ibb.co/LXPJ55nQ/knight-artorias-back-sane-kyle-resize.jpg"
     artist: "Sane Kyle"
@@ -411,9 +411,9 @@ card_knight_lautrec:
     sub: "Hollow"
     rarity: ""
     rules_text: |
-      When ~ enters the battlefield you may cast an exiled card with a favored counter on it. If you do, target player discards a card.
+      When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.
       Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
-    flavor_text: "I'm done for, I'm afraid. I'll die soon, then lose my sanity."
+    flavor_text: "It is a terrible pity. Like a moth flittering towards a flame. You fellows... No. Don't you agree?"
     artwork_url: "https://i.ibb.co/CKHJnYNH/knight-lautrec-jdeberge-back-resize.jpg"
     artist: "jdeberge"
     number: 203
@@ -452,7 +452,7 @@ card_ruin_sentinels:
     rating: 1
     rules_text: |
       Vigilance, lifelink
-      ~ gets +2/+2 for each giant you control.
+      ~ gets +2/+2 for each other giant you control.
       When ~ enters the battlefield search your library for a card named "~".
     flavor_text: "The Ruin Sentinels, though the armor is mightier than any man, were merely vessels. Their souls were trapped within their suits, condemned to eternal duty."
     artwork_url: "https://www.deviantart.com/dawnweaver13/art/The-Sentinels-476417062"

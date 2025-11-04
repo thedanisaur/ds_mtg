@@ -180,7 +180,7 @@ card_desert_pyromancer:
 card_fiery_soapstone:
   front:
     name: "Fiery Soapstone"
-    cost: "{2}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -189,7 +189,7 @@ card_fiery_soapstone:
     rules_text: |
       ~ enters with two effigy counters.
       Whenever a lord leaves the battlefield put an effigy counter on ~.
-      {1}{R}, Remove an effigy counter from ~: You may put a creature from your hand onto the battlefield, it gains haste. Sacrifice it at the beginning of the next end step.
+      {2}{R}, Remove an effigy counter from ~: You may put a creature from your hand onto the battlefield, it gains haste. Sacrifice it at the beginning of the next end step.
     flavor_text: "The rippling sign from this soapstone can summon something far worse than a dark spirit."
     artwork_url: "https://i.ibb.co/PvqBwLCn/fading-soapstone-resize.jpg"
     artist: "rintindestiny"

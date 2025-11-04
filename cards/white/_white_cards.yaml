@@ -349,7 +349,8 @@ card_mirrah_warrior:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Players can't cast more than one spell per turn, can't search libraries, and if a creature would be turned face up instead it doesn't, unless it's controller pays {1}.
+      Players can't cast more than one spell per turn and can't search libraries
+      If a creature would be turned face up instead it doesn't, unless it's controller pays {1}.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"

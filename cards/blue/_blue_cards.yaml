@@ -82,7 +82,7 @@ card_aural_decoy:
     rarity: "Common"
     rating: 4
     rules_text: |
-      As you cast this spell, if it targets a land, pay an addition {1}. Otherwise, counter it.
+      This spell costs and additional {1} if it targets a land.
       Return target permanent to its owner's hand. Draw a card.
     flavor_text: "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications."
     artwork_url: "https://www.deviantart.com/izmitblu3/art/Fiend-Bringer-of-Fire-888888582"
@@ -418,7 +418,7 @@ card_outrider_knight:
 card_pestilent_mercury:
   front:
     name: "Pestilent Mercury"
-    cost: "{1}{U}{U}"
+    cost: "{U}{U}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -437,7 +437,7 @@ card_pestilent_mercury:
 card_petrify:
   front:
     name: "Petrify"
-    cost: "{3}{U}"
+    cost: "{2}{U}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -446,7 +446,7 @@ card_petrify:
     rules_text: |
       Enchant creature or artifact
       Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-      {2}{U}: Attach ~ to target creature or artifact. Draw a card.
+      {4}{U}: Attach ~ to target creature or artifact. Draw a card.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/One-Eared-Underlit-Charmed-Monster-spitpaint-891454229"
     artist: "cobaltplasma"
