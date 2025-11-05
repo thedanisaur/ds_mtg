@@ -288,22 +288,6 @@ card_knights_of_gwynevere:
     power: 2
     toughness: 2
 
-card_lightning_spear:
-  front:
-    name: "Lightning Spear"
-    cost: "{1}{W}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Uncommon"
-    rating: 2
-    rules_text: |
-      Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.
-    flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
-    artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
-    artist: "4c"
-    number: 25
-
 card_magic_barrier:
   front:
     name: "Magic Barrier"
@@ -319,7 +303,7 @@ card_magic_barrier:
     flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
     artwork_url: "https://i.ibb.co/kVCszZpr/magic-barrier-eluria14.jpg"
     artist: "eluria14"
-    number: 26
+    number: 25
 
 card_miracle_of_the_way_of_white:
   front:
@@ -337,7 +321,7 @@ card_miracle_of_the_way_of_white:
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
     artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
     artist: "dnd"
-    number: 27
+    number: 26
 
 card_mirrah_warrior:
   front:
@@ -354,9 +338,9 @@ card_mirrah_warrior:
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"
-    number: 28
+    number: 27
     power: 2
-    toughness: 1
+    toughness: 2
 
 card_new_londo_shade:
   front:
@@ -374,7 +358,7 @@ card_new_londo_shade:
     flavor_text: "New Londo was sacrificed to contain the Darkwraiths, but the residents still roam their city."
     artwork_url: "https://i.ibb.co/3YLL1qTM/londo-ghost-concept-art-header-full-resize.jpg"
     artist: "fromsoft"
-    number: 29
+    number: 28
     power: 3
     toughness: 1
 
@@ -391,7 +375,7 @@ card_petrified_egg:
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
     artist: "deepai"
-    number: 30
+    number: 29
 
 card_reforge:
   front:
@@ -406,7 +390,7 @@ card_reforge:
     flavor_text: "Reforge mighty blade... with mighty soul."
     artwork_url: "https://i.ibb.co/ymqzQR0L/reforge-enthing-remove.jpg"
     artist: "enthing"
-    number: 31
+    number: 30
 
 card_resting_thief:
   front:
@@ -424,7 +408,7 @@ card_resting_thief:
     flavor_text: "I may be a petty thief, but I do hope I can be of help."
     artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
     artist: "pirozhochek"
-    number: 32
+    number: 31
     power: 2
     toughness: 2
 
@@ -440,12 +424,12 @@ card_shulvas_denial:
     rules_text: |
       You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -
       • Destroy target artifact.
-      • Destroy target enchant.
-      • Counter target spell that targets a creature you control.
+      • Destroy target enchantment.
+      • Counter target spell that targets you or a permanent you control.
     flavor_text: "The dragon will not be disturbed -- *Sunken King*"
     artwork_url: "https://i.ibb.co/YF3ZNfWs/emit-force-cobaltplasma.jpg"
     artist: "cobaltplasma"
-    number: 33
+    number: 32
 
 card_siegmeyer_of_catarina:
   front:
@@ -463,7 +447,7 @@ card_siegmeyer_of_catarina:
     flavor_text: "Excuse me. I must have dozed off."
     artwork_url: "https://i.ibb.co/mCRqzTGZ/siegmeyer-of-catarina-grecia-frangos.jpg"
     artist: "grecia frangos"
-    number: 34
+    number: 33
     power: 3
     toughness: 4
     frame: "Double-Faced: Day"
@@ -479,7 +463,7 @@ card_siegmeyer_of_catarina:
     flavor_text: "Forgive me, old friend. I've failed, in everything."
     artwork_url: "https://i.ibb.co/bg8BRC49/siegmeyer-of-catarina-back-arkaimk-resize.png"
     artist: "arkaimk"
-    number: 34
+    number: 33
     power: 0
     toughness: 1
     frame: "Double-Faced: Night"
@@ -495,12 +479,12 @@ card_solaire_of_astora:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield you may exile a white card from your hand, if you do create a 3/3 white human ally creature token named Phantom. It has haste.
-      Each player can't draw more than one card each turn.
+      When ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.
+      Players can only draw one card each turn.
     flavor_text: "The sun is beautiful, if only I could be so grossly incandescent!"
     artwork_url: "https://i.ibb.co/nsnV1p1n/solaire-of-astora-pateas-illustration-resize.jpg"
     artist: "jakubjagoda"
-    number: 35
+    number: 34
     power: 2
     toughness: 1
 
@@ -518,7 +502,7 @@ card_soothing_sunlight:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/8c/ed/ff/8cedff1bf8997bd98516e43b5a8d6d20.jpg"
     artist: "xin"
-    number: 36
+    number: 35
 
 card_soul_of_a_nameless_soldier:
   front:
@@ -536,7 +520,7 @@ card_soul_of_a_nameless_soldier:
     flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
     artwork_url: "https://www.deviantart.com/luis-bello/art/The-Portal-862719596"
     artist: "Luis Bello"
-    number: 37
+    number: 36
     color_indicator: "{W}"
 
 card_sunlight_blade:
@@ -549,11 +533,27 @@ card_sunlight_blade:
     rarity: "Rare"
     rules_text: |
       Enchant creature
-      Enchanted creature gets +1/+0, has lifelink, and can block creatures with shadow.
+      Enchanted creature has lifelink, can block creatures with shadow, and has "If a creature dealt damage by enchanted creature would die, exile it instead".
       Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/jakubjagoda/art/By-The-Light-1050885910"
     artist: "jakubjagoda"
+    number: 37
+
+card_sunlight_spear:
+  front:
+    name: "Sunlight Spear"
+    cost: "{1}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.
+    flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
+    artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
+    artist: "4c"
     number: 38
 
 card_swollen_mongrel:

@@ -640,7 +640,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As an additional cost to cast this spell sacrifice an artifact or creature.\nTarget player draws a card.\nTarget player discards a card.\n",
+    "oracle_text": "As an additional cost to cast this spell sacrifice a permanent.\nTarget player draws a card.\nTarget player discards a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/something_petrified.jpeg"
 },
 {
@@ -652,7 +652,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. You lose 2 life.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. Then each opponent loses life and you gain life equal to the number of hollows you control.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/soul_of_a_sorrowful_spirit.jpeg"
 },
 {
@@ -1117,8 +1117,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1152,7 +1152,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has, \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg"
 },
 {
@@ -1176,14 +1176,14 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg"
 },
 {
-    "name": "Silver Charm",
+    "name": "Silver Amulet",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
     "rarity": "common",
     "rating": 2,
     "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this card: As long as this card remains tapped target basic land you control becomes the basic land type of your choice in addition to its other types.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_charm.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_amulet.jpeg"
 },
 {
     "name": "Silver Serpent Ring",
@@ -1274,18 +1274,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
 },
 {
-    "name": "Lightning Spear",
-    "type": "Instant",
-    "mana_cost": "{1}{W}",
-    "colors": [
-        "W"
-    ],
-    "rarity": "uncommon",
-    "rating": 2,
-    "oracle_text": "Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/lightning_spear.jpeg"
-},
-{
     "name": "Miracle of the Way of White",
     "type": "Instant",
     "mana_cost": "{W}",
@@ -1318,7 +1306,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchant.\n\u2022 Counter target spell that targets a creature you control.\n",
+    "oracle_text": "You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Counter target spell that targets you or a permanent you control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/shulvas_denial.jpeg"
 },
 {
@@ -1330,7 +1318,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield you may exile a white card from your hand, if you do create a 3/3 white human ally creature token named Phantom. It has haste.\nEach player can't draw more than one card each turn.\n",
+    "oracle_text": "When ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.\nPlayers can only draw one card each turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/solaire_of_astora.jpeg"
 },
 {
@@ -1344,6 +1332,18 @@
     "rating": 2,
     "oracle_text": "Return target permanent you control to its owner's hand. You remove all bleed counters and gain life for each permanent you control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/soothing_sunlight.jpeg"
+},
+{
+    "name": "Sunlight Spear",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_spear.jpeg"
 },
 {
     "name": "Tears of Denial",
@@ -1762,7 +1762,7 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "Put a card from the top of your library into your graveyard for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.\nWhenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.\n",
+    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and return this card to your hand instead.\nWhenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg"
 },
 {
@@ -1846,7 +1846,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Enchant player\nWhen ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nFace-down cards your opponents play cost {2} less.\n",
+    "oracle_text": "Enchant player\nWhen ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)\nFace-down cards your opponents play cost {2} less.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
 },
 {
@@ -1854,8 +1854,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1880,8 +1880,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1893,8 +1893,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1910,6 +1910,16 @@
     "rating": 1,
     "oracle_text": "When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"You can't get bleed counters. This creature can't have bleed counters placed on it.\"\nEquip {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/bloodbite_ring.jpeg"
+},
+{
+    "name": "Charm of the Abyss Watchers",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, \"This card doesn't untap during its controller's untap step.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_abyss_watchers.jpeg"
 },
 {
     "name": "Chloranthy Ring",
@@ -1992,16 +2002,6 @@
     "rating": 0,
     "oracle_text": "Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.\nEquipped creature gets +1/+0.\nImbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/titanite_shard.jpeg"
-},
-{
-    "name": "Void Charm",
-    "type": "Artifact",
-    "mana_cost": "{1}",
-    "colors": [],
-    "rarity": "uncommon",
-    "rating": 4,
-    "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, \"This card doesn't untap during its controller's untap step.\"\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/void_charm.jpeg"
 },
 {
     "name": "Anri of Astora",
@@ -2092,7 +2092,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Enchant creature\nEnchanted creature gets +1/+0, has lifelink, and can block creatures with shadow.\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and has \"If a creature dealt damage by enchanted creature would die, exile it instead\".\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_blade.jpeg"
 },
 {
@@ -2120,7 +2120,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg"
 },
 {
-    "name": "Contemplation",
+    "name": "Deliberation",
     "type": "Instant",
     "mana_cost": "{U}",
     "colors": [
@@ -2128,8 +2128,8 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Draw two cards, then put one card from your hand on top of your library.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/contemplation.jpeg"
+    "oracle_text": "Draw two cards, then put one card from your hand on top or bottom of your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/deliberation.jpeg"
 },
 {
     "name": "Fume Sorcerer",
@@ -2192,18 +2192,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_stream.jpeg"
 },
 {
-    "name": "Aldrich, Devourer of Gods",
-    "type": "Creature",
-    "mana_cost": "{3}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "{B}{B}: Exile target creature card from a graveyard. ~ has all static and activated abilities of all cards exiled with this ability.",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/aldrich_devourer_of_gods.jpeg"
-},
-{
     "name": "Carthus Rouge",
     "type": "Enchantment",
     "mana_cost": "{B}",
@@ -2214,6 +2202,18 @@
     "rating": 1,
     "oracle_text": "Enchant creature\nEnchanted creature has has bleed.\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/carthus_rouge.jpeg"
+},
+{
+    "name": "Dark Sigil",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant player\nWhenever a creature enchanted player controls dies, they draw a card and put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.\nSacrifice a creature: Draw a card for each hollowing counter on ~. Only the enchanted player may activate this ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_sigil.jpeg"
 },
 {
     "name": "Darkwraith",
@@ -2419,12 +2419,25 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
 },
 {
+    "name": "Aldrich, Devourer of Gods",
+    "type": "Creature",
+    "mana_cost": "{5}{B/G}{B/G}",
+    "colors": [
+        "G",
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast ~ from your graveyard.\n~ gets +1/+1 for each card in your graveyard.\n{B/G}{B/G}: Exile target creature card from a graveyard. ~ has abilities of all cards exiled with this ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_gods.jpeg"
+},
+{
     "name": "Ancient Wyvern",
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2471,19 +2484,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
-    "name": "Dark Sigil",
-    "type": "Enchantment",
-    "mana_cost": "{B/G}",
-    "colors": [
-        "G",
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 0,
-    "oracle_text": "Face-down cards you play cost {2} less.\n{B/G}{B/G}{B/G}: Turn target nonland permanent face down, it becomes a 1/1 colorless Hollow creature. That creature gains, Morph {3} (Turn it face up any time for its morph cost.). Activate this ability only any time you could cast a sorcery.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dark_sigil.jpeg"
-},
-{
     "name": "Dragonslayer and Executioner",
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
@@ -2501,9 +2501,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "R",
         "W",
-        "G",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2553,8 +2553,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2591,9 +2591,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "W",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2604,9 +2604,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "R",
             "W",
-            "B",
-            "R"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2618,8 +2618,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2677,14 +2677,14 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_firekeeper.jpeg"
 },
 {
-    "name": "Ring of Favor",
+    "name": "Charm of the Sunlight Princess",
     "type": "Artifact",
-    "mana_cost": "{2}",
+    "mana_cost": "{1}",
     "colors": [],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Equipped creature gets +2/+2 and has vigilance and haste.\nEquip {2}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_favor.jpeg"
+    "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_sunlight_princess.jpeg"
 },
 {
     "name": "Talisman of the Way of White",
@@ -2855,9 +2855,9 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "U",
-        "W",
-        "R",
         "B",
+        "R",
+        "W",
         "G"
     ],
     "rarity": "mythic",
@@ -2870,9 +2870,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "U",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -2884,8 +2884,8 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "W",
         "U",
+        "W",
         "B"
     ],
     "rarity": "mythic",
@@ -2897,8 +2897,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "U",
+            "W",
             "B"
         ],
         "rarity": "",
@@ -2911,8 +2911,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -2932,7 +2932,7 @@
 {
     "name": "Kiln of the First Flame",
     "type": "Artifact",
-    "mana_cost": "{5}",
+    "mana_cost": "{3}",
     "colors": [],
     "rarity": "mythic",
     "rating": 0,
@@ -2955,9 +2955,9 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "U",
-        "W",
-        "R",
         "B",
+        "R",
+        "W",
         "G"
     ],
     "rarity": "mythic",
@@ -2983,8 +2983,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2996,8 +2996,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3023,9 +3023,9 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "W",
-        "R",
         "B",
+        "R",
+        "W",
         "G"
     ],
     "rarity": "uncommon",
@@ -3077,8 +3077,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3090,8 +3090,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3103,8 +3103,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3152,9 +3152,9 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "W",
-        "R",
         "B",
+        "R",
+        "W",
         "G"
     ],
     "rarity": "mythic",
@@ -3369,7 +3369,7 @@
 15 Charm of the Undead Hunters
 15 Iron Golem
 15 Metaleater Spider
-15 Silver Charm
+15 Silver Amulet
 15 Silver Serpent Ring
 15 Thorolund Talisman
 
@@ -3380,12 +3380,12 @@
 7 Heavenly Thunder
 7 Insolent Spirits
 7 Karmic Justice
-7 Lightning Spear
 7 Miracle of the Way of White
 7 Petrified Egg
 7 Shulva's Denial
 7 Solaire of Astora
 7 Soothing Sunlight
+7 Sunlight Spear
 7 Tears of Denial
 7 Wight
 7 Angelic Knight
@@ -3433,6 +3433,7 @@
 7 Splintering Lightning
 7 Spreading Decay
 7 Bloodbite Ring
+7 Charm of the Abyss Watchers
 7 Chloranthy Ring
 7 Halberd
 7 Heide Knight
@@ -3441,7 +3442,6 @@
 7 Ring of a Great Warrior
 7 Soul Syphoner
 7 Titanite Shard
-7 Void Charm
 
 [Rare]
 3 Anri of Astora
@@ -3452,14 +3452,14 @@
 3 Sunlight Blade
 3 Vow of Silence
 3 Big Hat Logan
-3 Contemplation
+3 Deliberation
 3 Fume Sorcerer
 3 Magic Weapon
 3 Outrider Knight
 3 Soul Spear
 3 Soul Stream
-3 Aldrich, Devourer of Gods
 3 Carthus Rouge
+3 Dark Sigil
 3 Darkwraith
 3 Frozen Reindeer
 3 Grave Warden's Tome
@@ -3476,11 +3476,11 @@
 3 Gaping Dragon
 3 Hush
 3 Pagan Tree
+3 Aldrich, Devourer of Gods
 3 Ancient Wyvern
 3 Archdeacon of the Deep
 3 Baneful Queen, Mytha
 3 Bed of Chaos
-3 Dark Sigil
 3 Dragonslayer and Executioner
 3 Ember
 3 Fume Knight
@@ -3493,7 +3493,7 @@
 3 Catalyst of the Witch of Izalith
 3 Cursed Greatsword
 3 Eyes of a Firekeeper
-3 Ring of Favor
+3 Charm of the Sunlight Princess
 3 Talisman of the Way of White
 3 Titanite Chunk
 3 Uchigatana

@@ -13,6 +13,24 @@ card_cursed_jar:
     artist: "deepai"
     number: 192
 
+
+card_ring_of_favor:
+  front:
+    name: "Ring of Favor"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Rare"
+    rating: 1
+    rules_text: |
+      Equipped creature gets +2/+2 and has vigilance and haste.
+      Equip {2}
+    flavor_text: "May the Goddess Fina favor you."
+    artwork_url: "https://i.ibb.co/TqdBPZJt/ring-of-favor.jpg"
+    artist: "fromsoft"
+    number: 229
+
 card_storm_ruler:
   front:
     name: "Storm Ruler"

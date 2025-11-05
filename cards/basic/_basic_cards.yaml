@@ -11,7 +11,7 @@ card_plains:
     flavor_text: ""
     artwork_url: ""
     artist: "sparth"
-    number: L/01
+    number: L01
 
 card_island:
   front:
@@ -26,7 +26,7 @@ card_island:
     flavor_text: ""
     artwork_url: ""
     artist: "creativecut"
-    number: L/02
+    number: L02
 
 card_swamp:
   front:
@@ -41,7 +41,7 @@ card_swamp:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L/03
+    number: L03
 
 card_mountain:
   front:
@@ -56,7 +56,7 @@ card_mountain:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L/04
+    number: L04
 
 card_forest:
   front:
@@ -71,7 +71,7 @@ card_forest:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L/05
+    number: L05
 
 card_forest:
   front:
@@ -86,4 +86,4 @@ card_forest:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L/05
+    number: L05

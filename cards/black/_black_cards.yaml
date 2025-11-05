@@ -14,23 +14,6 @@ card_a_hero_gone_mad:
     artist: "lavilvile"
     number: 81
 
-card_aldrich_devourer_of_gods:
-  front:
-    name: "Aldrich, Devourer of Gods"
-    cost: "{3}{B}{B}"
-    super: "Legendary"
-    type: "Creature"
-    sub: "Cleric Ooze Lord"
-    rarity: "Rare"
-    rating: 2
-    rules_text: "{B}{B}: Exile target creature card from a graveyard. ~ has all static and activated abilities of all cards exiled with this ability."
-    flavor_text: "A right and proper cleric, with a habit of devouring men."
-    artwork_url: "https://i.ibb.co/LXB2Kdtr/aldrich-devourer-of-gods-artborne-wd-resized.jpg"
-    artist: "artborne-wd"
-    number: 82
-    power: 4
-    toughness: 4
-
 card_bonfire_ascetic:
   front:
     name: "Bonfire Ascetic"
@@ -44,7 +27,7 @@ card_bonfire_ascetic:
     flavor_text: "When the flames grow stronger, so does the curse."
     artwork_url: "https://i.ibb.co/1G96YRVQ/bonfire-ascetic-deepai.jpg"
     artist: "deepai"
-    number: 83
+    number: 82
 
 card_carthus_rouge:
   front:
@@ -62,7 +45,7 @@ card_carthus_rouge:
     flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
     artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
     artist: "nobleones"
-    number: 84
+    number: 83
 
 card_charred_knight:
   front:
@@ -79,7 +62,7 @@ card_charred_knight:
     flavor_text: "The knights of Loyce tried to contain the Chaos, but it was too late. The flames had already ravaged their flesh."
     artwork_url: "https://i.ibb.co/4n4VCPW2/charred-knight-daverapoza-resize.jpg"
     artist: "daverapoza"
-    number: 85
+    number: 84
     power: 3
     toughness: 2
 
@@ -98,7 +81,7 @@ card_chasm_giant:
     flavor_text: "Their bodies host the souls from their ancient lineage."
     artwork_url: "https://www.deviantart.com/liewjj/art/Dark-Souls-II-The-Last-Giant-479677730"
     artist: "liewjj"
-    number: 86
+    number: 85
     power: 6
     toughness: 6
 
@@ -117,7 +100,7 @@ card_chosen_undead:
     flavor_text: "The Unkindled will rise. Nameless and accursed."
     artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
     artist: "castaguer93"
-    number: 87
+    number: 86
 
 card_clawed_curse:
   front:
@@ -136,7 +119,7 @@ card_clawed_curse:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqmr67q2/clawed-curse-grok-resize.jpg"
     artist: "grok"
-    number: 88
+    number: 87
 
 card_curse_of_the_dead:
   front:
@@ -154,7 +137,7 @@ card_curse_of_the_dead:
     flavor_text: "Bearer of the curse... Seek souls, larger, more powerful souls. Lest this land swallow you whole..."
     artwork_url: "https://www.deviantart.com/nele-diel/art/Village-of-the-Forgotten-With-Process-Video-685238094"
     artist: "nele diel"
-    number: 89
+    number: 88
 
 card_dark_edge:
   front:
@@ -174,7 +157,7 @@ card_dark_edge:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/sarafiel/art/Black-Blade-of-the-Void-579307662"
     artist: "sarafiel"
-    number: 90
+    number: 89
 
 card_dark_hand_of_kaathe:
   front:
@@ -189,6 +172,23 @@ card_dark_hand_of_kaathe:
     flavor_text: "The Darkwraiths, incited by Kaathe, use the power of the dark soul to absorb humanity."
     artwork_url: "https://i.ibb.co/V032tp12/dark-hand-of-kaathe-shimhaq-resize.jpg"
     artist: "shimhaq"
+    number: 90
+
+card_dark_sigil:
+  front:
+    name: "Dark Sigil"
+    cost: "{B}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Rare"
+    rules_text: |
+      Enchant player
+      Whenever a creature enchanted player controls dies, they draw a card and put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.
+      Sacrifice a creature: Draw a card for each hollowing counter on ~. Only the enchanted player may activate this ability.
+    flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
+    artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
+    artist: "kakeranoumi"
     number: 91
 
 card_darkwraith:
@@ -564,7 +564,7 @@ card_something_petrified:
     rarity: "Common"
     rating: 2
     rules_text: |
-      As an additional cost to cast this spell sacrifice an artifact or creature.
+      As an additional cost to cast this spell sacrifice a permanent.
       Target player draws a card.
       Target player discards a card.
     flavor_text: "A rare and peculiar thing, to be certain, but one without a known purpose."
@@ -583,7 +583,7 @@ card_soul_of_a_sorrowful_spirit:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. Timing restrictions still apply.
-      When ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. You lose 2 life.
+      When ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. Then each opponent loses life and you gain life equal to the number of hollows you control.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: "Souls are the source of all life, and whether Undead, or even Hollow, one continues to seek them."
     artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"

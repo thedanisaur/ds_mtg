@@ -201,7 +201,7 @@ card_estus:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      Put a card from the top of your library into your graveyard for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and this card into your hand instead.
+      Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and return this card to your hand instead.
       Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
@@ -674,7 +674,7 @@ card_wistful_naivete:
     rating: 2
     rules_text: |
       Enchant player
-      When ~ enters the battlefield manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+      When ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)
       Face-down cards your opponents play cost {2} less.
     flavor_text: "Gleeful cheer may quickly become dread."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"

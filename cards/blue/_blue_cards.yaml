@@ -141,22 +141,6 @@ card_chameleon:
     artist: "romandubina"
     number: 53
 
-card_contemplation:
-  front:
-    name: "Contemplation"
-    cost: "{U}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Rare"
-    rating: 2
-    rules_text: |
-      Draw two cards, then put one card from your hand on top of your library.
-    flavor_text: "The mage was naive, he thought he could fix something that was broken."
-    artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
-    artist: "crainium3de"
-    number: 54
-
 card_crystal_butterfly:
   front:
     name: "Crystal Butterfly"
@@ -172,9 +156,25 @@ card_crystal_butterfly:
     flavor_text: "None know if it was summoned, created, or left behind—but its presence speaks of Anor Londo's long reach.  "
     artwork_url: "https://i.ibb.co/ksDg1dSw/crystal-butterfly-vohvelintu.jpg"
     artist: "vohvelintu"
-    number: 55
+    number: 54
     power: 2
     toughness: 1
+
+card_deliberation:
+  front:
+    name: "Deliberation"
+    cost: "{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Draw two cards, then put one card from your hand on top or bottom of your library.
+    flavor_text: "The mage was naive, he thought he could fix something that was broken."
+    artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
+    artist: "crainium3de"
+    number: 55
 
 card_dual_charm:
   front:

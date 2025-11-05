@@ -154,7 +154,7 @@ def create_card(card_front, card_back, image_url):
         <text>{card_front['rules_text'].strip()}</text>
         <prop>PROPERTIES
         </prop>
-        <set rarity="{card_front['rarity']}" uuid="{uuid.uuid4()}" num="{card_front['number']}" picurl="{image_url}">DKS</set>"""
+        <set rarity="{card_front['rarity']}" num="{card_front['number']}" picurl="{image_url}">DKS</set>"""
 
     super_type = f"{card_front['super']} " if len(card_front['super']) > 0 else ''
     sub_type = f" - {card_front['sub']}" if len(card_front['sub']) > 0 else ''
