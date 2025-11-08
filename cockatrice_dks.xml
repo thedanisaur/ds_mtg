@@ -2456,7 +2456,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -3031,7 +3031,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_gods.jpeg">DKS</set>
@@ -3082,7 +3082,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3165,7 +3165,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>GWR</colors>
+            <colors>WGR</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3248,7 +3248,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>GUWBR</colors>
+            <colors>URGBW</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3496,7 +3496,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>GBR</colors>
+            <colors>BGR</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3656,7 +3656,7 @@ Equip {1}</text>
 When ~ dies, if you control an equipment, return it to the battlefield tapped at the beginning of your next upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Artifact Creature - Knight</type>
+            <type>Artifact Creature - Hollow Knight</type>
             <maintype>Artifact Creature</maintype>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
@@ -3803,7 +3803,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>GUWBR</colors>
+            <colors>URGBW</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
