@@ -121,10 +121,10 @@ card_sif_the_great_grey_wolf:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Vigilance, protection from black and red
-      As long as you control a creature named "Knight Artorias", ~ has indestructible.
+      Vigilance
+      When ~ enters the battlefield search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
       {1}{W}: Attach target equipment to ~.
-    flavor_text: "The sorrow in Sif's eyes reflects a tragic loyalty beyond death."
+    flavor_text: "The sorrow in Sif's eyes reflect a tragic loyalty beyond death."
     artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"
     artist: "anatofinnstark"
     number: 7

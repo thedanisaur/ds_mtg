@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1290,11 +1290,11 @@
     "name": "Silver Serpent Ring",
     "super": "",
     "type": "Artifact",
-    "mana_cost": "{0}",
+    "mana_cost": "{1}",
     "colors": [],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Equipped creature has \"Whenever this creature deals damage, you get one soul.\"\nEquip {1}\n",
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has \"Whenever this creature deals damage, you get one soul.\"\nEquip {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_serpent_ring.jpeg"
 },
 {
@@ -1327,7 +1327,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Vigilance, protection from black and red\nAs long as you control a creature named \"Knight Artorias\", ~ has indestructible.\n{1}{W}: Attach target equipment to ~.\n",
+    "oracle_text": "Vigilance\nWhen ~ enters the battlefield search your library for an equipment card and put it onto the battlefield. Then shuffle your library.\n{1}{W}: Attach target equipment to ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg"
 },
 {
@@ -2012,8 +2012,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2026,8 +2026,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2054,8 +2054,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "G",
         "W",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "W",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "R",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "U",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
         "G",
         "U",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
+        "U",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "W",
         "U",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "U",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3180,22 +3180,22 @@
     "name": "Kiln of the First Flame",
     "super": "",
     "type": "Artifact",
-    "mana_cost": "{3}",
+    "mana_cost": "{5}",
     "colors": [],
     "rarity": "mythic",
     "rating": 0,
-    "oracle_text": "Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library.\n",
+    "oracle_text": "When ~ enters the battlefield, tap it. Then search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library.\n{T}: Return target legendary permanent to its owner's hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg"
 },
 {
     "name": "Moonlight Greatsword",
     "super": "Legendary",
     "type": "Artifact",
-    "mana_cost": "{3}",
+    "mana_cost": "{2}",
     "colors": [],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "Whenever equipped creature deals damage you get that many souls.\nPay one soul: ~ deals 1 damage to target creature or planeswalker. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.\nEquip {2}\n",
+    "oracle_text": "Whenever equipped creature deals damage you get that many souls.\nPay two souls: Choose one -\n\u2022 Equipped creature gets +1/+1\n\u2022 ~ deals 1 damage to target creature or planeswalker.\n\u2022 Draw a card.\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg"
 },
 {
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
         "G",
         "U",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
         "U",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
         "U",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,

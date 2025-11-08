@@ -246,15 +246,16 @@ card_iron_golem:
 card_kiln_of_the_first_flame:
   front:
     name: "Kiln of the First Flame"
-    cost: "{3}"
+    cost: "{5}"
     super: ""
     type: "Artifact"
     sub: "Legendary"
     rarity: "Mythic"
     rating: 0
     rules_text: |
-      Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named "Gwyn, Lord of Cinder" and put it onto the battlefield. Shuffle your library.
-    flavor_text: "In the Age of Ancients, the world was unformed, shrouded by fog. A land of grey crags, archtrees, and everlasting dragons. But then there was <i>Fire.</i>"
+      When ~ enters the battlefield, tap it. Then search your library for a card named "Gwyn, Lord of Cinder" and put it onto the battlefield. Shuffle your library.
+      {T}: Return target legendary permanent to its owner's hand.
+    flavor_text: "In the Age of Ancients, the world was unformed, shrouded by fog. A land of grey crags, archtrees, and everlasting dragons. But then there was *Fire*."
     artwork_url: "https://i.ibb.co/932F4F3V/kiln-of-the-first-flame-resize.jpg"
     artist: "Cook and Becker"
     number: 225
@@ -300,7 +301,7 @@ card_metaleater_spider:
 card_moonlight_greatsword:
   front:
     name: "Moonlight Greatsword"
-    cost: "{3}"
+    cost: "{2}"
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
@@ -308,9 +309,12 @@ card_moonlight_greatsword:
     rating: 1
     rules_text: |
       Whenever equipped creature deals damage you get that many souls.
-      Pay one soul: ~ deals 1 damage to target creature or planeswalker. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.
+      Pay two souls: Choose one -
+      • Equipped creature gets +1/+1
+      • ~ deals 1 damage to target creature or planeswalker.
+      • Draw a card.
       Equip {2}
-    flavor_text: "Oceiros was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
+    flavor_text: ""
     artwork_url: "https://www.deviantart.com/sergioskill/art/Bonfire-652960644"
     artist: "sergioskill"
     number: 228
@@ -387,13 +391,14 @@ card_silver_amulet:
 card_silver_serpent_ring:
   front:
     name: "Silver Serpent Ring"
-    cost: "{0}"
+    cost: "{1}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
     rating: 1
     rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has "Whenever this creature deals damage, you get one soul."
       Equip {1}
     flavor_text: "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony."

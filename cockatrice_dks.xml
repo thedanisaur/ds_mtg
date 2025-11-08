@@ -98,8 +98,8 @@ Discard ~: Exile target card in a graveyard.</text>
     </card>
     <card>
         <name>Sif, the Great Grey Wolf</name>
-        <text>Vigilance, protection from black and red
-As long as you control a creature named "Knight Artorias", ~ has indestructible.
+        <text>Vigilance
+When ~ enters the battlefield search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
 {1}{W}: Attach target equipment to ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3048,7 +3048,7 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg">DKS</set>
@@ -3165,7 +3165,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WGR</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3180,7 +3180,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
@@ -3231,7 +3231,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>UBR</colors>
+            <colors>BUR</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3248,7 +3248,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>URGBW</colors>
+            <colors>BWRUG</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3264,7 +3264,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3315,7 +3315,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>UWR</colors>
+            <colors>URW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3332,7 +3332,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>UBW</colors>
+            <colors>BUW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3350,7 +3350,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UBW</colors>
+            <colors>BUW</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3368,7 +3368,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>WBR</colors>
+            <colors>BRW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3385,7 +3385,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WBR</colors>
+            <colors>BRW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3403,7 +3403,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <loyalty>4</loyalty>
         </prop>
         <set rarity="Mythic" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg">DKS</set>
@@ -3449,7 +3449,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
         </prop>
         <set rarity="Uncommon" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3480,7 +3480,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3496,7 +3496,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BGR</colors>
+            <colors>BRG</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3709,13 +3709,14 @@ Sacrifice ~: Destroy target artifact.</text>
     </card>
     <card>
         <name>Kiln of the First Flame</name>
-        <text>Whenever a land enters the battlefield under your control, if you control five or more Bonfires with different names and a land of each basic land type you may pay {5}. If you do, search your library for a card named "Gwyn, Lord of Cinder" and put it onto the battlefield. Shuffle your library.</text>
+        <text>When ~ enters the battlefield, tap it. Then search your library for a card named "Gwyn, Lord of Cinder" and put it onto the battlefield. Shuffle your library.
+{T}: Return target legendary permanent to its owner's hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact - Legendary</type>
             <maintype>Artifact</maintype>
-            <manacost>{3}</manacost>
-            <cmc>3</cmc>
+            <manacost>{5}</manacost>
+            <cmc>5</cmc>
         </prop>
         <set rarity="Mythic" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3753,14 +3754,17 @@ Reach</text>
     <card>
         <name>Moonlight Greatsword</name>
         <text>Whenever equipped creature deals damage you get that many souls.
-Pay one soul: ~ deals 1 damage to target creature or planeswalker. Then place a charge counter on it. If ~ has 10 or more charge counters on it, sacrifice it and draw a card.
+Pay two souls: Choose one -
+• Equipped creature gets +1/+1
+• ~ deals 1 damage to target creature or planeswalker.
+• Draw a card.
 Equip {2}</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Artifact - Equipment</type>
             <maintype>Artifact</maintype>
-            <manacost>{3}</manacost>
-            <cmc>3</cmc>
+            <manacost>{2}</manacost>
+            <cmc>2</cmc>
         </prop>
         <set rarity="Mythic" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3803,7 +3807,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>URGBW</colors>
+            <colors>BWRUG</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3825,14 +3829,15 @@ When this artifact is put into a graveyard from the battlefield, draw a card.</t
     </card>
     <card>
         <name>Silver Serpent Ring</name>
-        <text>Equipped creature has "Whenever this creature deals damage, you get one soul."
+        <text>When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+Equipped creature has "Whenever this creature deals damage, you get one soul."
 Equip {1}</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact - Equipment</type>
             <maintype>Artifact</maintype>
-            <manacost>{0}</manacost>
-            <cmc>0</cmc>
+            <manacost>{1}</manacost>
+            <cmc>1</cmc>
         </prop>
         <set rarity="Common" num="233" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/silver_serpent_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4265,7 +4270,7 @@ Equip {2}</text>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg">DKS</set>
-        <reverse-related>Chasm Giant, Scraps of Life, Acid Surge, Hollow Infantry, Shaded Woods, Souls of the Living, Wistful Naivete, Bloodbite Ring, Broadsword, Chloranthy Ring, Halberd, Charm of the Sunlight Princess, Talisman of the Way of White, Uchigatana</reverse-related>
+        <reverse-related>Chasm Giant, Scraps of Life, Acid Surge, Hollow Infantry, Shaded Woods, Souls of the Living, Wistful Naivete, Bloodbite Ring, Broadsword, Chloranthy Ring, Halberd, Charm of the Sunlight Princess, Silver Serpent Ring, Talisman of the Way of White, Uchigatana</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
     </card>
