@@ -2,6 +2,7 @@
 [
 {
     "name": "Ashen Idol",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{4}",
     "colors": [],
@@ -12,6 +13,7 @@
 },
 {
     "name": "Covetous Demon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}",
     "colors": [],
@@ -22,6 +24,7 @@
 },
 {
     "name": "Dreg-Hollow Merchant",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}",
     "colors": [],
@@ -32,6 +35,7 @@
 },
 {
     "name": "Hollow",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}",
     "colors": [],
@@ -42,6 +46,7 @@
 },
 {
     "name": "Pyrewarden of the Things Betwixt",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}",
     "colors": [],
@@ -52,6 +57,7 @@
 },
 {
     "name": "Stray Demon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{4}",
     "colors": [],
@@ -62,6 +68,7 @@
 },
 {
     "name": "Velka's Harpy",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}",
     "colors": [],
@@ -72,6 +79,7 @@
 },
 {
     "name": "Winged Chimera",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}",
     "colors": [],
@@ -82,6 +90,7 @@
 },
 {
     "name": "Batwing Demon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -94,6 +103,7 @@
 },
 {
     "name": "Blessed Cleric",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W}",
     "colors": [
@@ -106,6 +116,7 @@
 },
 {
     "name": "Corrupted Hollow",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W}",
     "colors": [
@@ -117,6 +128,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_front.jpeg",
     "back": {
         "name": "Pus of Man",
+        "super": "",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
@@ -129,6 +141,7 @@
 },
 {
     "name": "Flexile Sentry",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{W}",
     "colors": [
@@ -141,6 +154,7 @@
 },
 {
     "name": "Forossa Lion Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2/W}{W}",
     "colors": [
@@ -153,6 +167,7 @@
 },
 {
     "name": "Infested Corpse",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W}",
     "colors": [
@@ -165,6 +180,7 @@
 },
 {
     "name": "Knights of Gwynevere",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W}{W}",
     "colors": [
@@ -177,6 +193,7 @@
 },
 {
     "name": "Magic Barrier",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -189,6 +206,7 @@
 },
 {
     "name": "Mirrah Warrior",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -201,6 +219,7 @@
 },
 {
     "name": "New Londo Shade",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -213,6 +232,7 @@
 },
 {
     "name": "Resting Thief",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W}",
     "colors": [
@@ -225,6 +245,7 @@
 },
 {
     "name": "Soul of a Nameless Soldier",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "",
     "colors": [
@@ -237,6 +258,7 @@
 },
 {
     "name": "Swollen Mongrel",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}{W}",
     "colors": [
@@ -249,6 +271,7 @@
 },
 {
     "name": "Transient Curse",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -261,6 +284,7 @@
 },
 {
     "name": "Village Blacksmith",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -273,6 +297,7 @@
 },
 {
     "name": "Weary Travelers",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{W}",
     "colors": [
@@ -285,6 +310,7 @@
 },
 {
     "name": "Adventuring Sorcerer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -297,6 +323,7 @@
 },
 {
     "name": "Amana Priestess",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -309,6 +336,7 @@
 },
 {
     "name": "Aural Decoy",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{U}",
     "colors": [
@@ -321,6 +349,7 @@
 },
 {
     "name": "Chameleon",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{U}",
     "colors": [
@@ -333,6 +362,7 @@
 },
 {
     "name": "Crystal Butterfly",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -345,6 +375,7 @@
 },
 {
     "name": "Dual Charm",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{U}",
     "colors": [
@@ -357,6 +388,7 @@
 },
 {
     "name": "Great Crab",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{U}",
     "colors": [
@@ -369,6 +401,7 @@
 },
 {
     "name": "Hidden Body",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{U}",
     "colors": [
@@ -381,6 +414,7 @@
 },
 {
     "name": "Homing Soul Mass",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{U}{U}",
     "colors": [
@@ -393,6 +427,7 @@
 },
 {
     "name": "Hooded Sorcerer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U}",
     "colors": [
@@ -405,6 +440,7 @@
 },
 {
     "name": "Invisible Hollow",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U}",
     "colors": [
@@ -417,6 +453,7 @@
 },
 {
     "name": "Lost spell from Oolacile",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -429,6 +466,7 @@
 },
 {
     "name": "Magic Denial",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{2}{U}{U}",
     "colors": [
@@ -441,6 +479,7 @@
 },
 {
     "name": "Old Sorcerer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U}",
     "colors": [
@@ -452,7 +491,8 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg"
 },
 {
-    "name": "Petrify",
+    "name": "Petrifying Gaze",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{2}{U}",
     "colors": [
@@ -460,11 +500,12 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Enchant creature or artifact\nEnchanted permanent can't attack or block, and its activated abilities can't be activated.\n{4}{U}: Attach ~ to target creature or artifact. Draw a card.\n",
+    "oracle_text": "Enchant nonland permanent\nEnchanted permanent can't attack or block, and its activated abilities can't be activated.\n{5}{U}{U}: Attach ~ to target nonland permanent. Draw two cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/petrify.jpeg"
 },
 {
     "name": "Soul of an Unknown Traveler",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "",
     "colors": [
@@ -477,6 +518,7 @@
 },
 {
     "name": "A Hero Gone Mad",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{B}",
     "colors": [
@@ -489,6 +531,7 @@
 },
 {
     "name": "Chasm Giant",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{4}{B}{B}",
     "colors": [
@@ -501,6 +544,7 @@
 },
 {
     "name": "Dark Edge",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{B}{B}",
     "colors": [
@@ -513,6 +557,7 @@
 },
 {
     "name": "Dark Hand of Kaathe",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{B}",
     "colors": [
@@ -525,6 +570,7 @@
 },
 {
     "name": "Deep Fog",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{B}{B}",
     "colors": [
@@ -537,6 +583,7 @@
 },
 {
     "name": "Grave Warden",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{B}",
     "colors": [
@@ -549,6 +596,7 @@
 },
 {
     "name": "Grip of Death",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -561,6 +609,7 @@
 },
 {
     "name": "Hollow Soldier",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{B}",
     "colors": [
@@ -573,6 +622,7 @@
 },
 {
     "name": "Hound Rat",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -585,6 +635,7 @@
 },
 {
     "name": "Lothric Sentry",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{B}",
     "colors": [
@@ -597,6 +648,7 @@
 },
 {
     "name": "Parasite Worm",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -609,6 +661,7 @@
 },
 {
     "name": "Royal Rat Vanguard",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{B}",
     "colors": [
@@ -621,6 +674,7 @@
 },
 {
     "name": "Sift through the Ashes",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{X}{B}",
     "colors": [
@@ -633,6 +687,7 @@
 },
 {
     "name": "Something Petrified",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{B}",
     "colors": [
@@ -645,6 +700,7 @@
 },
 {
     "name": "Soul of a Sorrowful Spirit",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "",
     "colors": [
@@ -657,6 +713,7 @@
 },
 {
     "name": "Undead Hound",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -669,6 +726,7 @@
 },
 {
     "name": "Cathedral Evangelist",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2/R}{R}",
     "colors": [
@@ -681,6 +739,7 @@
 },
 {
     "name": "Chaos Storm",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -693,6 +752,7 @@
 },
 {
     "name": "Cracked Redeye Orb",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{R}",
     "colors": [
@@ -705,6 +765,7 @@
 },
 {
     "name": "Cragspider",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{R}",
     "colors": [
@@ -717,6 +778,7 @@
 },
 {
     "name": "Demon Cleric",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}",
     "colors": [
@@ -729,6 +791,7 @@
 },
 {
     "name": "Desert Pyromancer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}",
     "colors": [
@@ -741,6 +804,7 @@
 },
 {
     "name": "Firekeeper",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}",
     "colors": [
@@ -753,6 +817,7 @@
 },
 {
     "name": "Firesage Demon",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{3}{R}{R}",
     "colors": [
@@ -765,6 +830,7 @@
 },
 {
     "name": "Flamewielding Hollow",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}",
     "colors": [
@@ -777,6 +843,7 @@
 },
 {
     "name": "Hollow Infantry",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -789,6 +856,7 @@
 },
 {
     "name": "Pesky Mosquito",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{R}",
     "colors": [
@@ -801,6 +869,7 @@
 },
 {
     "name": "Profaned Flame",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -813,6 +882,7 @@
 },
 {
     "name": "Profuse Sweat",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
     "colors": [
@@ -825,6 +895,7 @@
 },
 {
     "name": "Rapport",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{R}",
     "colors": [
@@ -837,6 +908,7 @@
 },
 {
     "name": "Soul of an Old Pyromancer",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "",
     "colors": [
@@ -849,6 +921,7 @@
 },
 {
     "name": "Sunlight Maggot",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}",
     "colors": [
@@ -861,6 +934,7 @@
 },
 {
     "name": "Taurus Demon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{R}{R}",
     "colors": [
@@ -873,6 +947,7 @@
 },
 {
     "name": "Unkindled's Journey",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{R}",
     "colors": [
@@ -885,6 +960,7 @@
 },
 {
     "name": "Alluring Skull",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{G}",
     "colors": [
@@ -897,6 +973,7 @@
 },
 {
     "name": "Amana Aberration",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -909,6 +986,7 @@
 },
 {
     "name": "Corrode",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{G}",
     "colors": [
@@ -921,6 +999,7 @@
 },
 {
     "name": "Ent of the Darkroot Garden",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{G}",
     "colors": [
@@ -933,6 +1012,7 @@
 },
 {
     "name": "Evangelist of the Deep",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{G}",
     "colors": [
@@ -945,6 +1025,7 @@
 },
 {
     "name": "Festering Goblin",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{G}",
     "colors": [
@@ -957,6 +1038,7 @@
 },
 {
     "name": "Hesitant Surveyor",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -969,6 +1051,7 @@
 },
 {
     "name": "Hollow Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{G}",
     "colors": [
@@ -981,6 +1064,7 @@
 },
 {
     "name": "Milfanito",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -993,6 +1077,7 @@
 },
 {
     "name": "Proselyte Scarlett",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{G}",
     "colors": [
@@ -1005,6 +1090,7 @@
 },
 {
     "name": "Ravenous Crystal Lizard",
+    "super": "",
     "type": "Enchantment Creature",
     "mana_cost": "{G}{G}",
     "colors": [
@@ -1017,6 +1103,7 @@
 },
 {
     "name": "Sentinel of the Tower of Flame",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -1029,6 +1116,7 @@
 },
 {
     "name": "Shaded Woods",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{2}{G}",
     "colors": [
@@ -1041,6 +1129,7 @@
 },
 {
     "name": "Soul of a Lost Explorer",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "",
     "colors": [
@@ -1053,6 +1142,7 @@
 },
 {
     "name": "Souls of the Living",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{G}",
     "colors": [
@@ -1065,6 +1155,7 @@
 },
 {
     "name": "Undead Aberration",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{G}",
     "colors": [
@@ -1077,6 +1168,7 @@
 },
 {
     "name": "Warcry",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -1089,6 +1181,7 @@
 },
 {
     "name": "Warp the Land",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -1101,11 +1194,12 @@
 },
 {
     "name": "Ruin Sentinels",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1114,6 +1208,7 @@
 },
 {
     "name": "Sorcerer's Remedy",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
@@ -1127,6 +1222,7 @@
 },
 {
     "name": "Bell Gargoyles",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{5}",
     "colors": [],
@@ -1137,6 +1233,7 @@
 },
 {
     "name": "Broadsword",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1147,6 +1244,7 @@
 },
 {
     "name": "Charm of the Undead Hunters",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1157,6 +1255,7 @@
 },
 {
     "name": "Iron Golem",
+    "super": "",
     "type": "Artifact Creature",
     "mana_cost": "{3}",
     "colors": [],
@@ -1167,6 +1266,7 @@
 },
 {
     "name": "Metaleater Spider",
+    "super": "",
     "type": "Artifact Creature",
     "mana_cost": "{5}",
     "colors": [],
@@ -1177,6 +1277,7 @@
 },
 {
     "name": "Silver Amulet",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1187,6 +1288,7 @@
 },
 {
     "name": "Silver Serpent Ring",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{0}",
     "colors": [],
@@ -1197,16 +1299,18 @@
 },
 {
     "name": "Thorolund Talisman",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{2}",
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "As ~ enters the battlefield, choose a color.\n{T}: add one mana of the chosen color.\n{T}: add {C}{C}{C}. Spend this mana only on colorless spells and abilities.\n",
+    "oracle_text": "As ~ enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/thorolund_talisman.jpeg"
 },
 {
     "name": "Four Kings",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{4}",
     "colors": [],
@@ -1217,6 +1321,7 @@
 },
 {
     "name": "Sif, the Great Grey Wolf",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{5}",
     "colors": [],
@@ -1227,6 +1332,7 @@
 },
 {
     "name": "Heretic Storyteller",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -1239,6 +1345,7 @@
 },
 {
     "name": "Heavenly Thunder",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{4}{W}{W}{W}",
     "colors": [
@@ -1251,6 +1358,7 @@
 },
 {
     "name": "Insolent Spirits",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{W}{W}",
     "colors": [
@@ -1263,6 +1371,7 @@
 },
 {
     "name": "Karmic Justice",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}{W}",
     "colors": [
@@ -1275,6 +1384,7 @@
 },
 {
     "name": "Miracle of the Way of White",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}",
     "colors": [
@@ -1287,6 +1397,7 @@
 },
 {
     "name": "Petrified Egg",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -1299,6 +1410,7 @@
 },
 {
     "name": "Shulva's Denial",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}",
     "colors": [
@@ -1311,6 +1423,7 @@
 },
 {
     "name": "Solaire of Astora",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{W}",
     "colors": [
@@ -1323,6 +1436,7 @@
 },
 {
     "name": "Soothing Sunlight",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}",
     "colors": [
@@ -1335,6 +1449,7 @@
 },
 {
     "name": "Sunlight Spear",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -1347,6 +1462,7 @@
 },
 {
     "name": "Tears of Denial",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{W}",
     "colors": [
@@ -1359,6 +1475,7 @@
 },
 {
     "name": "Wight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{W}",
     "colors": [
@@ -1371,6 +1488,7 @@
 },
 {
     "name": "Angelic Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{U}{U}{U}",
     "colors": [
@@ -1383,6 +1501,7 @@
 },
 {
     "name": "Ashen Estus",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{U}",
     "colors": [
@@ -1395,6 +1514,7 @@
 },
 {
     "name": "Burning Ambition",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2/U}{U}",
     "colors": [
@@ -1407,6 +1527,7 @@
 },
 {
     "name": "Farron Dart",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}",
     "colors": [
@@ -1419,6 +1540,7 @@
 },
 {
     "name": "Pestilent Mercury",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}{U}",
     "colors": [
@@ -1431,6 +1553,7 @@
 },
 {
     "name": "Ruin Banshee",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -1443,6 +1566,7 @@
 },
 {
     "name": "Sage's Scroll",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}",
     "colors": [
@@ -1455,6 +1579,7 @@
 },
 {
     "name": "Search the Library",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{U}{U}",
     "colors": [
@@ -1467,6 +1592,7 @@
 },
 {
     "name": "Twisted Wall of Light",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{3}{U}{U}",
     "colors": [
@@ -1479,6 +1605,7 @@
 },
 {
     "name": "Wall Spectre",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{U}",
     "colors": [
@@ -1491,6 +1618,7 @@
 },
 {
     "name": "Bonfire Ascetic",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{X}{B}{B}",
     "colors": [
@@ -1503,6 +1631,7 @@
 },
 {
     "name": "Charred Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{B}{B}",
     "colors": [
@@ -1515,6 +1644,7 @@
 },
 {
     "name": "Chosen Undead",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{1}{B}{B}",
     "colors": [
@@ -1527,6 +1657,7 @@
 },
 {
     "name": "Clawed Curse",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -1539,6 +1670,7 @@
 },
 {
     "name": "Jailer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{B}",
     "colors": [
@@ -1551,6 +1683,7 @@
 },
 {
     "name": "Lordran Necromancer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{B}",
     "colors": [
@@ -1563,6 +1696,7 @@
 },
 {
     "name": "Resonant Flesh",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{B}",
     "colors": [
@@ -1575,6 +1709,7 @@
 },
 {
     "name": "Resonant Soul",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{B}",
     "colors": [
@@ -1587,6 +1722,7 @@
 },
 {
     "name": "Scraps of Life",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{B}{B}",
     "colors": [
@@ -1599,6 +1735,7 @@
 },
 {
     "name": "Acid Surge",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{X}{X}{R}",
     "colors": [
@@ -1611,6 +1748,7 @@
 },
 {
     "name": "Capra Demon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{2}{R}",
     "colors": [
@@ -1623,6 +1761,7 @@
 },
 {
     "name": "Fiery Soapstone",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -1635,6 +1774,7 @@
 },
 {
     "name": "Fire Orb",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
     "colors": [
@@ -1647,6 +1787,7 @@
 },
 {
     "name": "Fire Surge",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
     "colors": [
@@ -1659,6 +1800,7 @@
 },
 {
     "name": "Flame Whip",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -1671,6 +1813,7 @@
 },
 {
     "name": "Immolation",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
     "colors": [
@@ -1683,6 +1826,7 @@
 },
 {
     "name": "Lingering Flame",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -1695,6 +1839,7 @@
 },
 {
     "name": "Permeating Flames",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{R}{R}",
     "colors": [
@@ -1707,6 +1852,7 @@
 },
 {
     "name": "Smoldering Rotten Flesh",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{3}{R}",
     "colors": [
@@ -1719,6 +1865,7 @@
 },
 {
     "name": "Contrasted Cursed",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -1731,6 +1878,7 @@
 },
 {
     "name": "Covenant of the Forest Hunter",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{G}{G}{G}{G}",
     "colors": [
@@ -1743,6 +1891,7 @@
 },
 {
     "name": "Duke's Dear Freja",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{3}{G}{G}",
     "colors": [
@@ -1755,6 +1904,7 @@
 },
 {
     "name": "Estus",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{G}",
     "colors": [
@@ -1767,6 +1917,7 @@
 },
 {
     "name": "Expected Companions",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{G}",
     "colors": [
@@ -1779,6 +1930,7 @@
 },
 {
     "name": "Lothric Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{G}{G}",
     "colors": [
@@ -1791,6 +1943,7 @@
 },
 {
     "name": "Mimic",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{G}{G}",
     "colors": [
@@ -1803,6 +1956,7 @@
 },
 {
     "name": "Petrifying Statue",
+    "super": "",
     "type": "Enchantment Creature",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -1810,11 +1964,12 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Bleed\n~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nWhenever a creature enters the battlefield or is turned face up under your control, if it would cause an ability to trigger, that ability triggers a second time.\n",
+    "oracle_text": "~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nWhenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, \"At the beginning of each end step, if this permanent has more petrification counters on it than its mana cost, sacrifice it. Otherwise remove a petrification counter from it.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/petrifying_statue.jpeg"
 },
 {
     "name": "Seek Embers",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{G}",
     "colors": [
@@ -1827,6 +1982,7 @@
 },
 {
     "name": "The Serpent King",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{5}{G}{G}",
     "colors": [
@@ -1839,6 +1995,7 @@
 },
 {
     "name": "Wistful Naivete",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{G}",
     "colors": [
@@ -1851,6 +2008,7 @@
 },
 {
     "name": "Blade of the Darkmoon",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
@@ -1864,11 +2022,12 @@
 },
 {
     "name": "Disembodied Wisp",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -1877,6 +2036,7 @@
 },
 {
     "name": "Splintering Lightning",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
@@ -1890,11 +2050,12 @@
 },
 {
     "name": "Spreading Decay",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -1903,6 +2064,7 @@
 },
 {
     "name": "Bloodbite Ring",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1913,6 +2075,7 @@
 },
 {
     "name": "Charm of the Abyss Watchers",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1923,6 +2086,7 @@
 },
 {
     "name": "Chloranthy Ring",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{G}",
     "colors": [
@@ -1935,6 +2099,7 @@
 },
 {
     "name": "Halberd",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{2}",
     "colors": [],
@@ -1945,6 +2110,7 @@
 },
 {
     "name": "Heide Knight",
+    "super": "",
     "type": "Artifact Creature",
     "mana_cost": "{2}",
     "colors": [],
@@ -1955,6 +2121,7 @@
 },
 {
     "name": "Hornet Ring",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1965,6 +2132,7 @@
 },
 {
     "name": "Looking Glass Knight",
+    "super": "",
     "type": "Artifact Creature",
     "mana_cost": "{6}",
     "colors": [],
@@ -1975,6 +2143,7 @@
 },
 {
     "name": "Ring of a Great Warrior",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1985,6 +2154,7 @@
 },
 {
     "name": "Soul Syphoner",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -1995,6 +2165,7 @@
 },
 {
     "name": "Titanite Shard",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{0}",
     "colors": [],
@@ -2005,6 +2176,7 @@
 },
 {
     "name": "Anri of Astora",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -2016,6 +2188,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_front.jpeg",
     "back": {
         "name": "Hollow Bride",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
@@ -2028,6 +2201,7 @@
 },
 {
     "name": "Emit Force",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{2}{W}{W}",
     "colors": [
@@ -2040,6 +2214,7 @@
 },
 {
     "name": "Homeward",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{W}",
     "colors": [
@@ -2052,6 +2227,7 @@
 },
 {
     "name": "Reforge",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -2064,6 +2240,7 @@
 },
 {
     "name": "Siegmeyer of Catarina",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{1}{W}{W}",
     "colors": [
@@ -2075,6 +2252,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/siegmeyer_of_catarina_front.jpeg",
     "back": {
         "name": "Knight of Catarina",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
@@ -2087,6 +2265,7 @@
 },
 {
     "name": "Sunlight Blade",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "W",
     "colors": [],
@@ -2097,6 +2276,7 @@
 },
 {
     "name": "Vow of Silence",
+    "super": "",
     "type": "Instant",
     "mana_cost": "{W}{W}",
     "colors": [
@@ -2109,6 +2289,7 @@
 },
 {
     "name": "Big Hat Logan",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{3}{U}{U}",
     "colors": [
@@ -2120,19 +2301,8 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg"
 },
 {
-    "name": "Deliberation",
-    "type": "Instant",
-    "mana_cost": "{U}",
-    "colors": [
-        "U"
-    ],
-    "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "Draw two cards, then put one card from your hand on top or bottom of your library.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/deliberation.jpeg"
-},
-{
     "name": "Fume Sorcerer",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -2145,6 +2315,7 @@
 },
 {
     "name": "Magic Weapon",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}",
     "colors": [
@@ -2157,6 +2328,7 @@
 },
 {
     "name": "Outrider Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U}{U}",
     "colors": [
@@ -2168,7 +2340,21 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg"
 },
 {
+    "name": "Rumination",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Draw two cards, then put one card from your hand on top or bottom of your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/rumination.jpeg"
+},
+{
     "name": "Soul Spear",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{2}{U}",
     "colors": [
@@ -2181,6 +2367,7 @@
 },
 {
     "name": "Soul Stream",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{U}{U}{U}{U}",
     "colors": [
@@ -2193,6 +2380,7 @@
 },
 {
     "name": "Carthus Rouge",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{B}",
     "colors": [
@@ -2205,6 +2393,7 @@
 },
 {
     "name": "Dark Sigil",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{B}",
     "colors": [
@@ -2217,6 +2406,7 @@
 },
 {
     "name": "Darkwraith",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}{B}",
     "colors": [
@@ -2229,6 +2419,7 @@
 },
 {
     "name": "Frozen Reindeer",
+    "super": "Snow",
     "type": "Creature",
     "mana_cost": "{3}{B}{B}{B}",
     "colors": [
@@ -2241,6 +2432,7 @@
 },
 {
     "name": "Grave Warden's Tome",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{3}{B}",
     "colors": [
@@ -2253,6 +2445,7 @@
 },
 {
     "name": "Nimble Shadow",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}",
     "colors": [
@@ -2265,6 +2458,7 @@
 },
 {
     "name": "Skim Memories",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{B}",
     "colors": [
@@ -2277,6 +2471,7 @@
 },
 {
     "name": "The Great Swamp",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{B}",
     "colors": [
@@ -2289,6 +2484,7 @@
 },
 {
     "name": "Carthus Beacon",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{R}",
     "colors": [
@@ -2301,6 +2497,7 @@
 },
 {
     "name": "Chaos Bed Vestiges",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{X}{R}{R}",
     "colors": [
@@ -2313,6 +2510,7 @@
 },
 {
     "name": "Forbidden Sun",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{3}{R}{R}",
     "colors": [
@@ -2325,6 +2523,7 @@
 },
 {
     "name": "Hellkite Wyvern",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R}{R}{R}",
     "colors": [
@@ -2337,6 +2536,7 @@
 },
 {
     "name": "Ignite Steel",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{R}",
     "colors": [
@@ -2349,6 +2549,7 @@
 },
 {
     "name": "Unbreakable Patches",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{2}{R}",
     "colors": [
@@ -2360,6 +2561,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/unbreakable_patches_front.jpeg",
     "back": {
         "name": "Lapp",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
@@ -2372,6 +2574,7 @@
 },
 {
     "name": "Dark Fog",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{2}{G/P}{G/P}",
     "colors": [
@@ -2384,6 +2587,7 @@
 },
 {
     "name": "Gaping Dragon",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{2}{G}{G}",
     "colors": [
@@ -2396,6 +2600,7 @@
 },
 {
     "name": "Hush",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -2408,6 +2613,7 @@
 },
 {
     "name": "Pagan Tree",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{1}{G}",
     "colors": [
@@ -2420,11 +2626,12 @@
 },
 {
     "name": "Aldrich, Devourer of Gods",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2433,6 +2640,7 @@
 },
 {
     "name": "Ancient Wyvern",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
@@ -2446,6 +2654,7 @@
 },
 {
     "name": "Archdeacon of the Deep",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
@@ -2459,11 +2668,12 @@
 },
 {
     "name": "Baneful Queen, Mytha",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2472,11 +2682,12 @@
 },
 {
     "name": "Bed of Chaos",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2485,11 +2696,12 @@
 },
 {
     "name": "Dragonslayer and Executioner",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2498,6 +2710,7 @@
 },
 {
     "name": "Ember",
+    "super": "Legendary",
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
@@ -2512,11 +2725,12 @@
 },
 {
     "name": "Fume Knight",
+    "super": "",
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2525,11 +2739,12 @@
 },
 {
     "name": "Gael, Seeker of Ash",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2537,11 +2752,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg",
     "back": {
         "name": "Slave Knight Gael",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2550,6 +2766,7 @@
 },
 {
     "name": "Hawkeye Gough",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
@@ -2563,11 +2780,12 @@
 },
 {
     "name": "Iudex Gundyr",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2575,11 +2793,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg",
     "back": {
         "name": "Champion Gundyr",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2588,12 +2807,13 @@
 },
 {
     "name": "Knight Lautrec",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "R",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2601,12 +2821,13 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg",
     "back": {
         "name": "Favored Knight",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "R",
-            "W",
-            "B"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2615,6 +2836,7 @@
 },
 {
     "name": "Stream of Estus",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
@@ -2628,12 +2850,13 @@
 },
 {
     "name": "Yhorm, the Giant",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2642,6 +2865,7 @@
 },
 {
     "name": "Catalyst of the Witch of Izalith",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}{U}",
     "colors": [
@@ -2654,6 +2878,7 @@
 },
 {
     "name": "Cursed Greatsword",
+    "super": "Legendary",
     "type": "Artifact",
     "mana_cost": "{2}{B}",
     "colors": [
@@ -2666,6 +2891,7 @@
 },
 {
     "name": "Eyes of a Firekeeper",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{R}",
     "colors": [
@@ -2678,6 +2904,7 @@
 },
 {
     "name": "Charm of the Sunlight Princess",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -2688,6 +2915,7 @@
 },
 {
     "name": "Talisman of the Way of White",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}{W}",
     "colors": [
@@ -2700,6 +2928,7 @@
 },
 {
     "name": "Titanite Chunk",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{1}",
     "colors": [],
@@ -2710,6 +2939,7 @@
 },
 {
     "name": "Uchigatana",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{2}",
     "colors": [],
@@ -2720,6 +2950,7 @@
 },
 {
     "name": "Wolf Knight's Greatshield",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{3}",
     "colors": [],
@@ -2730,6 +2961,7 @@
 },
 {
     "name": "Into the Abyss",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}{U}{U}",
     "colors": [
@@ -2742,6 +2974,7 @@
 },
 {
     "name": "Vordt and the Dancer",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{2}{U}{U}",
     "colors": [
@@ -2754,6 +2987,7 @@
 },
 {
     "name": "Curse of the Dead",
+    "super": "",
     "type": "Enchantment",
     "mana_cost": "{2}{B}{B}",
     "colors": [
@@ -2766,6 +3000,7 @@
 },
 {
     "name": "Gravelord Nito",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{5}{B}{B}{B}{B}{B}",
     "colors": [
@@ -2778,6 +3013,7 @@
 },
 {
     "name": "Ringfinger Leonhard",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{R}{R}",
     "colors": [
@@ -2789,6 +3025,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ringfinger_leonhard_front.jpeg",
     "back": {
         "name": "Rosaria's Finger",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
@@ -2801,6 +3038,7 @@
 },
 {
     "name": "Abyss Watchers",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{3}{G}{G}",
     "colors": [
@@ -2812,11 +3050,12 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_front.jpeg",
     "back": {
         "name": "Undead Legion",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -2825,6 +3064,7 @@
 },
 {
     "name": "Pickle Pee, Pump-a-Rum",
+    "super": "Legendary",
     "type": "Planeswalker",
     "mana_cost": "{G}",
     "colors": [
@@ -2837,12 +3077,13 @@
 },
 {
     "name": "Gravelord's Maelstrom",
+    "super": "",
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
+        "B",
         "U",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -2851,14 +3092,15 @@
 },
 {
     "name": "Gwyn, Lord of Cinder",
+    "super": "Legendary",
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
-        "B",
         "R",
-        "W",
-        "G"
+        "U",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -2867,6 +3109,7 @@
 },
 {
     "name": "King of the Storm",
+    "super": "Legendary",
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
@@ -2881,12 +3124,13 @@
 },
 {
     "name": "Knight Artorias",
+    "super": "Legendary",
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "B",
         "U",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -2894,12 +3138,13 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg",
     "back": {
         "name": "The Abysswalker",
+        "super": "Legendary",
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "U",
-            "W",
-            "B"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -2908,6 +3153,7 @@
 },
 {
     "name": "Lorian and Lothric",
+    "super": "Legendary",
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
@@ -2921,6 +3167,7 @@
 },
 {
     "name": "Homeward Bone",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{0}",
     "colors": [],
@@ -2931,6 +3178,7 @@
 },
 {
     "name": "Kiln of the First Flame",
+    "super": "",
     "type": "Artifact",
     "mana_cost": "{3}",
     "colors": [],
@@ -2941,6 +3189,7 @@
 },
 {
     "name": "Moonlight Greatsword",
+    "super": "Legendary",
     "type": "Artifact",
     "mana_cost": "{3}",
     "colors": [],
@@ -2951,14 +3200,15 @@
 },
 {
     "name": "Ring of Sacrifice",
+    "super": "Legendary",
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
-        "B",
         "R",
-        "W",
-        "G"
+        "U",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -2967,11 +3217,12 @@
 },
 {
     "name": "Anor Londo",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2980,6 +3231,7 @@
 },
 {
     "name": "Archdragon Peak",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -2993,6 +3245,7 @@
 },
 {
     "name": "Cathedral of Blue",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3006,6 +3259,7 @@
 },
 {
     "name": "Cathedral of the Deep",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3019,14 +3273,15 @@
 },
 {
     "name": "Comforting Fire",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B",
         "R",
-        "W",
-        "G"
+        "U",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3035,11 +3290,12 @@
 },
 {
     "name": "Darkroot Garden",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3048,11 +3304,12 @@
 },
 {
     "name": "Farron Keep",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3061,11 +3318,12 @@
 },
 {
     "name": "Irithyll of the Boreal Valley",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3074,11 +3332,12 @@
 },
 {
     "name": "Lost Izalith",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3087,11 +3346,12 @@
 },
 {
     "name": "Road of Sacrifices",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3100,6 +3360,7 @@
 },
 {
     "name": "Shrine of Amana",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3113,6 +3374,7 @@
 },
 {
     "name": "Lothric Castle",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3125,6 +3387,7 @@
 },
 {
     "name": "The Fire Fades",
+    "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3135,11 +3398,12 @@
 },
 {
     "name": "Blighttown",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3148,14 +3412,15 @@
 },
 {
     "name": "Firelink Shrine",
+    "super": "Legendary",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B",
         "R",
-        "W",
-        "G"
+        "U",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3164,6 +3429,7 @@
 },
 {
     "name": "Plains",
+    "super": "Basic",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3174,6 +3440,7 @@
 },
 {
     "name": "Island",
+    "super": "Basic",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3184,6 +3451,7 @@
 },
 {
     "name": "Swamp",
+    "super": "Basic",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3194,6 +3462,7 @@
 },
 {
     "name": "Mountain",
+    "super": "Basic",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3204,6 +3473,7 @@
 },
 {
     "name": "Wastes",
+    "super": "Basic",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3264,7 +3534,7 @@
 4 Lost spell from Oolacile
 4 Magic Denial
 4 Old Sorcerer
-4 Petrify
+4 Petrifying Gaze
 4 Soul of an Unknown Traveler
 4 A Hero Gone Mad
 4 Chasm Giant
@@ -3404,10 +3674,10 @@
 4 Sunlight Blade
 4 Vow of Silence
 4 Big Hat Logan
-4 Deliberation
 4 Fume Sorcerer
 4 Magic Weapon
 4 Outrider Knight
+4 Rumination
 4 Soul Spear
 4 Soul Stream
 4 Carthus Rouge
@@ -3481,8 +3751,3 @@
 16 The Fire Fades
 16 Blighttown
 16 Firelink Shrine
-16 Plains
-16 Island
-16 Swamp
-16 Mountain
-16 Wastes

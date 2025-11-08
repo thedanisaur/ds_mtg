@@ -3,6 +3,7 @@ import os
 import re
 import yaml
 
+TYPE_BASIC='Basic'
 TYPE_LAND='Land'
 
 def colors_from_mana_cost(mana_cost):
@@ -151,6 +152,7 @@ if __name__ == '__main__':
                         card_back = content[card_name].get('back', None)
                         card = {
                             'name': card_front['name'],
+                            'super': card_front['super'],
                             'type': card_front['type'],
                             'mana_cost': str(card_front['cost']),
                             'colors': get_colors(card_front),
@@ -164,6 +166,7 @@ if __name__ == '__main__':
                             card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
                             card['back'] = {
                                 'name': card_back['name'],
+                                'super': card_back['super'],
                                 'type': card_back['type'],
                                 'mana_cost': str(card_back['cost']),
                                 'colors': get_colors(card_back),
@@ -254,7 +257,9 @@ if __name__ == '__main__':
         file.write(f"[Common]\n")
         for rarity in cards_by_rarity:
             for card in cards_by_rarity[rarity]:
-                if card['type'] == TYPE_LAND:
+                if card['type'] == TYPE_LAND and card['super'] == TYPE_BASIC:
+                    continue
+                elif card['type'] == TYPE_LAND:
                     file.write(f"16 {card['name']}\n")
                 else:
                     file.write(f"4 {card['name']}\n")

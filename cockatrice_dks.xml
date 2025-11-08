@@ -891,20 +891,6 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Deliberation</name>
-        <text>Draw two cards, then put one card from your hand on top or bottom of your library.</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Instant</type>
-            <maintype>Instant</maintype>
-            <manacost>{U}</manacost>
-            <cmc>1</cmc>
-            <colors>U</colors>
-        </prop>
-        <set rarity="Rare" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/deliberation.jpeg">DKS</set>
-        <tablerow>3</tablerow>
-    </card>
-    <card>
         <name>Dual Charm</name>
         <text>Counter target creature or instant spell unless its controller pays {2}</text>
         <prop><layout>normal</layout>
@@ -915,7 +901,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="56" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg">DKS</set>
+        <set rarity="Common" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -930,7 +916,7 @@ Enchanted creature gets +1/+0 and has "Whenever this creature deals combat damag
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" num="57" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/farron_dart.jpeg">DKS</set>
+        <set rarity="Uncommon" num="56" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/farron_dart.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -945,7 +931,7 @@ Enchanted creature gets +1/+0 and has "Whenever this creature deals combat damag
             <colors>U</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Rare" num="58" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg">DKS</set>
+        <set rarity="Rare" num="57" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -961,7 +947,7 @@ Enchanted creature gets +1/+0 and has "Whenever this creature deals combat damag
             <colors>U</colors>
             <pt>3/4</pt>
         </prop>
-        <set rarity="Common" num="59" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/great_crab.jpeg">DKS</set>
+        <set rarity="Common" num="58" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/great_crab.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -976,7 +962,7 @@ Draw a card.</text>
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="60" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_body.jpeg">DKS</set>
+        <set rarity="Common" num="59" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_body.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -991,7 +977,7 @@ Draw a card.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="61" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg">DKS</set>
+        <set rarity="Common" num="60" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/homing_soul_mass.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1006,7 +992,7 @@ Draw a card.</text>
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" num="62" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg">DKS</set>
+        <set rarity="Common" num="61" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hooded_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1020,7 +1006,7 @@ Draw a card.</text>
             <cmc>3</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Mythic" num="63" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/into_the_abyss.jpeg">DKS</set>
+        <set rarity="Mythic" num="62" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/into_the_abyss.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1036,7 +1022,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" num="64" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/invisible_hollow.jpeg">DKS</set>
+        <set rarity="Common" num="63" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/invisible_hollow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1050,7 +1036,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="65" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/lost_spell_from_oolacile.jpeg">DKS</set>
+        <set rarity="Common" num="64" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/lost_spell_from_oolacile.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1064,7 +1050,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
             <cmc>4</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="66" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg">DKS</set>
+        <set rarity="Common" num="65" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1080,7 +1066,7 @@ Infuse {U} (You may cast this spell for its infuse cost or activate this ability
             <cmc>1</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Rare" num="67" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_weapon.jpeg">DKS</set>
+        <set rarity="Rare" num="66" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_weapon.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1095,7 +1081,7 @@ Infuse {U} (You may cast this spell for its infuse cost or activate this ability
             <colors>U</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" num="68" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg">DKS</set>
+        <set rarity="Common" num="67" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/old_sorcerer.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1112,7 +1098,7 @@ When ~ is turned face up tap target creature an opponent controls. That creature
             <colors>U</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" num="69" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg">DKS</set>
+        <set rarity="Rare" num="68" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1129,14 +1115,14 @@ When ~ leaves the battlefield draw a card.</text>
             <cmc>2</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Uncommon" num="70" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg">DKS</set>
+        <set rarity="Uncommon" num="69" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Petrify</name>
-        <text>Enchant creature or artifact
+        <name>Petrifying Gaze</name>
+        <text>Enchant nonland permanent
 Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-{4}{U}: Attach ~ to target creature or artifact. Draw a card.</text>
+{5}{U}{U}: Attach ~ to target nonland permanent. Draw two cards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura</type>
@@ -1145,7 +1131,7 @@ Enchanted permanent can't attack or block, and its activated abilities can't be 
             <cmc>3</cmc>
             <colors>U</colors>
         </prop>
-        <set rarity="Common" num="71" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/petrify.jpeg">DKS</set>
+        <set rarity="Common" num="70" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/petrify.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -1161,8 +1147,22 @@ Enchanted permanent can't attack or block, and its activated abilities can't be 
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Uncommon" num="72" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ruin_banshee.jpeg">DKS</set>
+        <set rarity="Uncommon" num="71" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ruin_banshee.jpeg">DKS</set>
         <tablerow>2</tablerow>
+    </card>
+    <card>
+        <name>Rumination</name>
+        <text>Draw two cards, then put one card from your hand on top or bottom of your library.</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Instant</type>
+            <maintype>Instant</maintype>
+            <manacost>{U}</manacost>
+            <cmc>1</cmc>
+            <colors>U</colors>
+        </prop>
+        <set rarity="Rare" num="72" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/rumination.jpeg">DKS</set>
+        <tablerow>3</tablerow>
     </card>
     <card>
         <name>Sage's Scroll</name>
@@ -2456,7 +2456,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -2791,9 +2791,8 @@ Sacrifice ~: Search your library for a creature, land, or enchantment card. Reve
     </card>
     <card>
         <name>Petrifying Statue</name>
-        <text>Bleed
-~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-Whenever a creature enters the battlefield or is turned face up under your control, if it would cause an ability to trigger, that ability triggers a second time.</text>
+        <text>~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
+Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana cost, sacrifice it. Otherwise remove a petrification counter from it."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Golem Lizard</type>
@@ -3032,7 +3031,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_gods.jpeg">DKS</set>
@@ -3083,7 +3082,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3150,7 +3149,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3166,7 +3165,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WRG</colors>
+            <colors>GWR</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3249,7 +3248,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BGUWR</colors>
+            <colors>GUWBR</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3265,7 +3264,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3282,7 +3281,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{W}{B}</manacost>
             <cmc>2</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
@@ -3298,7 +3297,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
@@ -3333,7 +3332,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>UWB</colors>
+            <colors>UBW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3351,7 +3350,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UWB</colors>
+            <colors>UBW</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3421,7 +3420,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3481,7 +3480,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3497,7 +3496,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BRG</colors>
+            <colors>GBR</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3804,7 +3803,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BGUWR</colors>
+            <colors>GUWBR</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3871,8 +3870,8 @@ Equip {1}</text>
     <card>
         <name>Thorolund Talisman</name>
         <text>As ~ enters the battlefield, choose a color.
-{T}: add one mana of the chosen color.
-{T}: add {C}{C}{C}. Spend this mana only on colorless spells and abilities.</text>
+{T}: Add one mana of the chosen color.
+{T}: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>

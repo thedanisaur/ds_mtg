@@ -447,8 +447,8 @@ card_thorolund_talisman:
     rating: 0
     rules_text: |
       As ~ enters the battlefield, choose a color.
-      {T}: add one mana of the chosen color.
-      {T}: add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
+      {T}: Add one mana of the chosen color.
+      {T}: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
     flavor_text: "Thorolund clerics blessings come from divine protection. Thus, these talismans are not dependent upon your faltering faith."
     artwork_url: "https://i.ibb.co/DPLfTs03/thorolund-talisman-resize.jpg"
     artist: "fromsoft"

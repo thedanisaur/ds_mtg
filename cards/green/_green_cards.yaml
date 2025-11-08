@@ -425,9 +425,8 @@ card_petrifying_statue:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Bleed
       ~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-      Whenever a creature enters the battlefield or is turned face up under your control, if it would cause an ability to trigger, that ability triggers a second time.
+      Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana cost, sacrifice it. Otherwise remove a petrification counter from it."
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"

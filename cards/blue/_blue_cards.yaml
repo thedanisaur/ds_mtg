@@ -160,22 +160,6 @@ card_crystal_butterfly:
     power: 2
     toughness: 1
 
-card_deliberation:
-  front:
-    name: "Deliberation"
-    cost: "{U}"
-    super: ""
-    type: "Instant"
-    sub: ""
-    rarity: "Rare"
-    rating: 2
-    rules_text: |
-      Draw two cards, then put one card from your hand on top or bottom of your library.
-    flavor_text: "The mage was naive, he thought he could fix something that was broken."
-    artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
-    artist: "crainium3de"
-    number: 55
-
 card_dual_charm:
   front:
     name: "Dual Charm"
@@ -189,7 +173,7 @@ card_dual_charm:
     flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
     artist: "cobaltplasma"
-    number: 56
+    number: 55
 
 card_farron_dart:
   front:
@@ -206,7 +190,7 @@ card_farron_dart:
     flavor_text: "Sorcerers of the Farron Legion are known for their quick and devastating prowess."
     artwork_url: "https://i.ibb.co/JWvbb4hw/farron-dart-recolor.jpg"
     artist: "Njarla"
-    number: 57
+    number: 56
 
 card_fume_sorcerer:
   front:
@@ -221,7 +205,7 @@ card_fume_sorcerer:
     flavor_text: "Their tongues burned away with the words of the Bride. Now they speak only in flame and shadow."
     artwork_url: "https://i.ibb.co/bjzYnWh7/fume-sorcerer-vandemoniumx-resize.jpg"
     artist: "vandemoniumx"
-    number: 58
+    number: 57
     power: 1
     toughness: 2
 
@@ -240,7 +224,7 @@ card_great_crab:
     flavor_text: "Even the meekest of life, given enough rot, will claw its way to the surface."
     artwork_url: "https://www.deviantart.com/2wenty/art/A-Final-Payment-734364843"
     artist: "2wenty"
-    number: 59
+    number: 58
     power: 3
     toughness: 4
 
@@ -259,7 +243,7 @@ card_hidden_body:
     flavor_text: "The very nature of this spell suggests its creator was a miscreant."
     artwork_url: "https://www.deviantart.com/metalbruno/art/El-Errante-1151753328"
     artist: "metalbruno"
-    number: 60
+    number: 59
 
 card_homing_soul_mass:
   front:
@@ -276,7 +260,7 @@ card_homing_soul_mass:
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/fG0L3rgn/homing-soul-mass-juhamattipulkkinen.jpg"
     artist: "juhamattipulkkinen"
-    number: 61
+    number: 60
 
 card_hooded_sorcerer:
   front:
@@ -291,7 +275,7 @@ card_hooded_sorcerer:
     flavor_text: "In the quest to fulfill the prophecy the chosen undead collect many souls."
     artwork_url: "https://i.ibb.co/BYxQGmg/a-dark-enchanted-forest-at-dusk-by-mistystream26391-djgyeuc-pre.jpg"
     artist: "MistyStream26391"
-    number: 62
+    number: 61
     power: 1
     toughness: 1
 
@@ -309,7 +293,7 @@ card_into_the_abyss:
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
     artist: "nahelus"
-    number: 63
+    number: 62
 
 card_invisible_hollow:
   front:
@@ -326,7 +310,7 @@ card_invisible_hollow:
     flavor_text: "In hiding it waits, for the end of fire."
     artwork_url: "https://i.ibb.co/fzQtSLt7/shadows-in-the-woods-1-april-2024-by-taggedzi-dh75qu2-pre.jpg"
     artist: "taggedzi"
-    number: 64
+    number: 63
     power: 1
     toughness: 1
 
@@ -343,7 +327,7 @@ card_lost_spell_from_oolacile:
     flavor_text: "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Spitpaint-Shield-Generator-2-870637313"
     artist: "cobaltplasma"
-    number: 65
+    number: 64
 
 card_magic_denial:
   front:
@@ -358,7 +342,7 @@ card_magic_denial:
     flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
     artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
     artist: "cobaltplasma"
-    number: 66
+    number: 65
 
 card_magic_weapon:
   front:
@@ -376,7 +360,7 @@ card_magic_weapon:
     flavor_text: "Wielding a sword and casting a sorcery are two different things young sorcerer, don't sully yourself by breeding the two. - *Melfian Magic Academy*"
     artwork_url: "https://i.ibb.co/qL0sJPtM/magic-weapon-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 67
+    number: 66
 
 card_old_sorcerer:
   front:
@@ -391,7 +375,7 @@ card_old_sorcerer:
     flavor_text: "The knowledge… it… it drives you mad…"
     artwork_url: "https://www.deviantart.com/sinto-risky/art/Old-Mage-141637765"
     artist: "sinto risky"
-    number: 68
+    number: 67
     power: 0
     toughness: 1
 
@@ -411,7 +395,7 @@ card_outrider_knight:
     flavor_text: "Every Outrider Knight devolves into a beast, constantly hounded by the Pontiff's black eyes."
     artwork_url: "https://www.deviantart.com/re-dye/art/Dark-Souls-3-Boreal-Outrider-Knight-605393677"
     artist: "re dye"
-    number: 69
+    number: 68
     power: 2
     toughness: 2
 
@@ -432,11 +416,11 @@ card_pestilent_mercury:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/5XnVCxgS/pestilent-mercury-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
-    number: 70
+    number: 69
 
 card_petrify:
   front:
-    name: "Petrify"
+    name: "Petrifying Gaze"
     cost: "{2}{U}"
     super: ""
     type: "Enchantment"
@@ -444,13 +428,13 @@ card_petrify:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Enchant creature or artifact
+      Enchant nonland permanent
       Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-      {4}{U}: Attach ~ to target creature or artifact. Draw a card.
-    flavor_text: ""
+      {5}{U}{U}: Attach ~ to target nonland permanent. Draw two cards.
+    flavor_text: "Woe to the Undead that stare into the abyss. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/One-Eared-Underlit-Charmed-Monster-spitpaint-891454229"
     artist: "cobaltplasma"
-    number: 71
+    number: 70
 
 card_ruin_banshee:
   front:
@@ -467,9 +451,25 @@ card_ruin_banshee:
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/rGR8fyd6/londo-ghost-screamer-header-full-resize.jpg"
     artist: "fromsoft"
-    number: 72
+    number: 71
     power: 1
     toughness: 1
+
+card_rumination:
+  front:
+    name: "Rumination"
+    cost: "{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Draw two cards, then put one card from your hand on top or bottom of your library.
+    flavor_text: "The mage was naive, he thought he could fix something that was broken."
+    artwork_url: "https://i.ibb.co/BVqc2wL4/contemplation-crainium3de-resize.jpg"
+    artist: "crainium3de"
+    number: 72
 
 card_sages_scroll:
   front:
