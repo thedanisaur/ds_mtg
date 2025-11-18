@@ -75,6 +75,25 @@ card_amana_aberration:
     power: 2
     toughness: 2
 
+card_cathedral_evangelist:
+  front:
+    name: "Cathedral Evangelist"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Can't be countered
+      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.
+    flavor_text: "EEHEEE! EEE-HEE-HEE!"
+    artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/87043656_105494997720790_57515182666022912_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7zn9AVxr1HkQ7kNvwH6vly6&_nc_oc=AdmKlaxkGqTI0KOCL2ko-2PHEdPs61hp1zdugVbvts_jRxN79x9fX2ABJc99a6tXfOA&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rWL9KLiqt6UrKl6C9UOnEA&oh=00_AfcLrHsWyaYqgNNvktMbcov5Ffh3sjV7ywZ-1qeMZcNxNw&oe=691A8300"
+    artist: "Schastny Sergey"
+    number: 154
+    power: 3
+    toughness: 3
+
 card_contrasted_cursed:
   front:
     name: "Contrasted Cursed"
@@ -92,7 +111,7 @@ card_contrasted_cursed:
     flavor_text: "Occasionally, you'll want to be cursed."
     artwork_url: "https://i.ibb.co/23ykgNx1/contrasted-cursed-cobaltplasma-resized.jpg"
     artist: "cobaltplasma"
-    number: 154
+    number: 155
 
 card_corrode:
   front:
@@ -107,7 +126,7 @@ card_corrode:
     flavor_text: "Those who seek the dark are destined to lead the world into its truest end — a world without flame."
     artwork_url: "https://i.ibb.co/GDTd8Mw/corrode-anikoo-watermark.jpg"
     artist: "anikoo"
-    number: 155
+    number: 156
 
 card_covenant_of_the_forest_hunter:
   front:
@@ -128,7 +147,7 @@ card_covenant_of_the_forest_hunter:
     flavor_text: "One day, all you see will become dust."
     artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
     artist: "thegoblincoach"
-    number: 156
+    number: 157
 
 card_dark_fog:
   front:
@@ -145,7 +164,7 @@ card_dark_fog:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Hpxzz1dj/hush-rodinia-resize.jpg"
     artist: "rodinia"
-    number: 157
+    number: 158
 
 card_dukes_dear_freja:
   front:
@@ -164,7 +183,7 @@ card_dukes_dear_freja:
     flavor_text: "The Duke, a frail and obsessed fool, only kept a writhing beast as his pet."
     artwork_url: "https://www.deviantart.com/tatarskiskandal/art/wake-up-my-children-639615016"
     artist: "tatarskiskandal"
-    number: 158
+    number: 159
     power: 4
     toughness: 5
 
@@ -187,7 +206,7 @@ card_ent_of_the_darkroot_garden:
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
     artist: "legen"
-    number: 159
+    number: 160
     power: 3
     toughness: 2
 
@@ -206,27 +225,7 @@ card_estus:
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
-    number: 160
-
-# TODO [drd] rename Cathedral Evangelist
-card_evangelist_of_the_deep:
-  front:
-    name: "Evangelist of the Deep"
-    cost: "{2}{G}"
-    super: ""
-    type: "Creature"
-    sub: "Cleric"
-    rarity: "Common"
-    rating: 2
-    rules_text: |
-      Can't be countered
-      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.
-    flavor_text: "EEHEEE! EEE-HEE-HEE!"
-    artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/87043656_105494997720790_57515182666022912_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7zn9AVxr1HkQ7kNvwH6vly6&_nc_oc=AdmKlaxkGqTI0KOCL2ko-2PHEdPs61hp1zdugVbvts_jRxN79x9fX2ABJc99a6tXfOA&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rWL9KLiqt6UrKl6C9UOnEA&oh=00_AfcLrHsWyaYqgNNvktMbcov5Ffh3sjV7ywZ-1qeMZcNxNw&oe=691A8300"
-    artist: "Schastny Sergey"
     number: 161
-    power: 3
-    toughness: 3
 
 card_expected_companions:
   front:
@@ -444,12 +443,12 @@ card_pickle_pee_pump_a_rum:
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
+      {+1}:       {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
       {0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.
-      {-1}: Reveal a land card from your hand. If you do, search your library for a land card and put it onto the battlefield tapped. Then shuffle your library.
-      {-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named "Ring of Sacrifice" and put it onto the battlefield. Then shuffle your library.
+      {-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Then shuffle your library. You may put a land from your hand onto the battlefield.
+      {-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.
     flavor_text: "That...no...pickle pee"
-    artwork_url: "https://i.ibb.co/q3DpmnFP/pickle-pee-pump-a-rum-2-resize.jpg"
+    artwork_url: "https://i.ibb.co/q3gYpSWM/pickle-pee-pump-a-rum-2-resize-2.jpg"
     artist: "Barbara Flowers"
     number: 173
     loyalty: 1
@@ -486,13 +485,13 @@ card_ravenous_crystal_lizard:
     rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
-      When ~ enters the battlefield search your library for a basic land card and put it into your hand. Then return a creature you control to its owner's hand.
+      When ~ enters the battlefield search your library for a basic land card, reveal it, and put it into your hand. Then return a creature you control to its owner's hand.
     flavor_text: "This deformed, unnatural creature must surely be the product of some serious misdeeds. Who created this monstrosity, and is it what they intended?"
     artwork_url: "https://i.ibb.co/RGtYPh5C/crystal-lizard-jaqenart-resize.jpg"
     artist: "jaqenart"
     number: 175
     power: 4
-    toughness: 4
+    toughness: 3
 
 card_seek_embers:
   front:

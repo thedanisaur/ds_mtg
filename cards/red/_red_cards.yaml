@@ -50,24 +50,6 @@ card_carthus_beacon:
     artist: "arturtreffner"
     number: 118
 
-# [drd] Rename Evangelist of the deep
-card_cathedral_evangelist:
-  front:
-    name: "Cathedral Evangelist"
-    cost: "{2/R}{R}"
-    super: ""
-    type: "Creature"
-    sub: "Cleric"
-    rarity: "Common"
-    rating: 2
-    rules_text: "When ~ enters the battlefield draw a card, then discard a card. You get two souls."
-    flavor_text: "EEHEEE!"
-    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
-    artist: "therikaro114"
-    number: 119
-    power: 3
-    toughness: 2
-
 card_chaos_bed_vestiges:
   front:
     name: "Chaos Bed Vestiges"
@@ -83,7 +65,7 @@ card_chaos_bed_vestiges:
     flavor_text: "Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Trying-to-Keep-Warm-609129608"
     artist: "cobaltplasma"
-    number: 120
+    number: 119
 
 card_chaos_storm:
   front:
@@ -101,7 +83,7 @@ card_chaos_storm:
     flavor_text: "The Witch of Izalith attempted to replicate the First Flame, instead creating the Flame of Chaos."
     artwork_url: "https://www.deviantart.com/socialgatheringstar/art/The-Fire-Wyrm-Unleashed-1134311161"
     artist: "socialgatheringstar"
-    number: 121
+    number: 120
 
 card_cracked_redeye_orb:
   front:
@@ -116,7 +98,7 @@ card_cracked_redeye_orb:
     flavor_text: "Become one with the Dark, my servant. Let the true Darkwraith appear."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Mana-Orb-30min-spitpaint-860777755"
     artist: "cobaltplasma"
-    number: 122
+    number: 121
 
 card_cragspider:
   front:
@@ -134,7 +116,7 @@ card_cragspider:
     flavor_text: "She crawls in the filth beneath the world, her limbs aflame, her mind long extinguished."
     artwork_url: "https://i.ibb.co/jZQmWj14/crag-spider-fromsoft.jpg"
     artist: "fromsoft"
-    number: 123
+    number: 122
     power: 2
     toughness: 4
 
@@ -153,7 +135,7 @@ card_demon_cleric:
     flavor_text: "Descending from the grievous symbol of Izalith's sin, these cleric's rituals echo the chaotic flames that birthed them."
     artwork_url: "https://i.pinimg.com/736x/09/36/19/09361950665b1ee69ee5323245e6fbf8.jpg"
     artist: "Vlad MRK"
-    number: 124
+    number: 123
     power: 1
     toughness: 1
 
@@ -173,9 +155,26 @@ card_desert_pyromancer:
     flavor_text: "The flame reveals all, and obscures all."
     artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
     artist: "hachiyuki"
-    number: 125
+    number: 124
     power: 2
     toughness: 1
+
+card_evangelist_of_the_deep:
+  front:
+    name: "Evangelist of the Deep"
+    cost: "{2/R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Common"
+    rating: 2
+    rules_text: "When ~ enters the battlefield discard two cards, then draw two cards. You get two souls."
+    flavor_text: "EEHEEE!"
+    artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
+    artist: "therikaro114"
+    number: 125
+    power: 3
+    toughness: 2
 
 card_fiery_soapstone:
   front:
@@ -583,7 +582,7 @@ card_sunlight_maggot:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
-    rating: 4
+    rating: 2
     rules_text: |
       Haste
       When ~ enters or leaves the battlefield you get one soul.

@@ -282,7 +282,7 @@ card_looking_glass_knight:
 card_metaleater_spider:
   front:
     name: "Metaleater Spider"
-    cost: "{5}"
+    cost: "{6}"
     super: ""
     type: "Artifact Creature"
     sub: "Spider"
@@ -291,12 +291,13 @@ card_metaleater_spider:
     rules_text: |
       When ~ enters the battlefield, destroy up to two target artifacts.
       Reach
+      Whenever an artifact dies put a +1/+1 counter on ~.
     flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— *Sir Aldren of the New Londo Guard*'
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
     artist: "sohlol"
     number: 227
     power: 2
-    toughness: 5
+    toughness: 3
 
 card_moonlight_greatsword:
   front:

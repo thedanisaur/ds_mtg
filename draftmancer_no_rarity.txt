@@ -565,7 +565,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Target creature gets -2/-2 until end of turn. If that creature would die this way, remove two souls from that creature's controller and you get two souls.",
+    "oracle_text": "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn instead.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_hand_of_kaathe.jpeg"
 },
 {
@@ -591,7 +591,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "~ can't be blocked as long as you control another black or green permanent.\nHollow, skeleton, and zombie creatures you control get +1/+1.\n",
+    "oracle_text": "~ can't be blocked as long as you control another black or green permanent.\nOther hollow, skeleton, and zombie creatures you control get +1/+1.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/grave_warden.jpeg"
 },
 {
@@ -630,7 +630,7 @@
     ],
     "rarity": "common",
     "rating": 4,
-    "oracle_text": "Deathtouch\nWhen ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card.\n",
+    "oracle_text": "~ can't block.\nWhen ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card. \n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/hound_rat.jpeg"
 },
 {
@@ -725,19 +725,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/undead_hound.jpeg"
 },
 {
-    "name": "Cathedral Evangelist",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{2/R}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 2,
-    "oracle_text": "When ~ enters the battlefield draw a card, then discard a card. You get two souls.",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/cathedral_evangelist.jpeg"
-},
-{
     "name": "Chaos Storm",
     "super": "",
     "type": "Sorcery",
@@ -801,6 +788,19 @@
     "rating": 3,
     "oracle_text": "Haste\nWhenever ~ deals damage to a player you get one soul.\n{1}{R}, {T}, pay two souls: ~ deals 3 damage to any target.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/desert_pyromancer.jpeg"
+},
+{
+    "name": "Evangelist of the Deep",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2/R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield discard two cards, then draw two cards. You get two souls.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/evangelist_of_the_deep.jpeg"
 },
 {
     "name": "Firekeeper",
@@ -928,7 +928,7 @@
         "R"
     ],
     "rarity": "common",
-    "rating": 4,
+    "rating": 2,
     "oracle_text": "Haste\nWhen ~ enters or leaves the battlefield you get one soul.\n{T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/sunlight_maggot.jpeg"
 },
@@ -985,6 +985,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg"
 },
 {
+    "name": "Cathedral Evangelist",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Can't be countered\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/cathedral_evangelist.jpeg"
+},
+{
     "name": "Corrode",
     "super": "",
     "type": "Instant",
@@ -1009,19 +1022,6 @@
     "rating": 2,
     "oracle_text": "Trample\nMorph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Distribute three +1/+1 counters among any number of target creatures you control.\n\u2022 Destroy target artifact or enchantment.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg"
-},
-{
-    "name": "Evangelist of the Deep",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{2}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "common",
-    "rating": 2,
-    "oracle_text": "Can't be countered\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/evangelist_of_the_deep.jpeg"
 },
 {
     "name": "Festering Goblin",
@@ -1098,7 +1098,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield search your library for a basic land card and put it into your hand. Then return a creature you control to its owner's hand.\n",
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield search your library for a basic land card, reveal it, and put it into your hand. Then return a creature you control to its owner's hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ravenous_crystal_lizard.jpeg"
 },
 {
@@ -1268,11 +1268,11 @@
     "name": "Metaleater Spider",
     "super": "",
     "type": "Artifact Creature",
-    "mana_cost": "{5}",
+    "mana_cost": "{6}",
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield, destroy up to two target artifacts.\nReach\n",
+    "oracle_text": "When ~ enters the battlefield, destroy up to two target artifacts.\nReach\nWhenever an artifact dies put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg"
 },
 {
@@ -1370,17 +1370,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/insolent_spirits.jpeg"
 },
 {
-    "name": "Karmic Justice",
+    "name": "Karmic Righteousness",
     "super": "",
     "type": "Instant",
-    "mana_cost": "{W}{W}",
+    "mana_cost": "{W}",
     "colors": [
         "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
     "oracle_text": "The next time a source of your choice would deal damage this turn. Prevent that damage. If damage is prevented this way ~ deals that much damage to any target.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_justice.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/karmic_righteousness.jpeg"
 },
 {
     "name": "Miracle of the Way of White",
@@ -1646,13 +1646,13 @@
     "name": "Chosen Undead",
     "super": "",
     "type": "Instant",
-    "mana_cost": "{1}{B}{B}",
+    "mana_cost": "{1}{B}",
     "colors": [
         "B"
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/chosen_undead.jpeg"
 },
 {
@@ -2222,7 +2222,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains, reveal it, put it into your hand, then shuffle your library.\n",
+    "oracle_text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/homeward.jpeg"
 },
 {
@@ -2362,7 +2362,7 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Put target creature or planeswalker on top of its owner's library. Then that player shuffles his or her library.",
+    "oracle_text": "The owner of target creature or planeswalker shuffles it into his or her library.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_spear.jpeg"
 },
 {
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,8 +2854,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "B",
+        "G",
         "R"
     ],
     "rarity": "rare",
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3072,7 +3072,7 @@
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "{+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Reveal a land card from your hand. If you do, search your library for a land card and put it onto the battlefield tapped. Then shuffle your library.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named \"Ring of Sacrifice\" and put it onto the battlefield. Then shuffle your library.\n",
+    "oracle_text": "{+1}:       {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Then shuffle your library. You may put a land from your hand onto the battlefield.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pickle_pee_pump_a_rum.jpeg"
 },
 {
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "B",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "R",
         "G",
-        "U",
         "B",
-        "W",
-        "R"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
         "W",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "R",
         "G",
-        "U",
         "B",
-        "W",
-        "R"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "G",
-        "U",
         "B",
-        "W",
-        "R"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "G",
-        "U",
         "B",
-        "W",
-        "R"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3552,12 +3552,12 @@
 4 Something Petrified
 4 Soul of a Sorrowful Spirit
 4 Undead Hound
-4 Cathedral Evangelist
 4 Chaos Storm
 4 Cracked Redeye Orb
 4 Cragspider
 4 Demon Cleric
 4 Desert Pyromancer
+4 Evangelist of the Deep
 4 Firekeeper
 4 Firesage Demon
 4 Flamewielding Hollow
@@ -3572,9 +3572,9 @@
 4 Unkindled's Journey
 4 Alluring Skull
 4 Amana Aberration
+4 Cathedral Evangelist
 4 Corrode
 4 Ent of the Darkroot Garden
-4 Evangelist of the Deep
 4 Festering Goblin
 4 Hesitant Surveyor
 4 Hollow Knight
@@ -3603,7 +3603,7 @@
 4 Heretic Storyteller
 4 Heavenly Thunder
 4 Insolent Spirits
-4 Karmic Justice
+4 Karmic Righteousness
 4 Miracle of the Way of White
 4 Petrified Egg
 4 Shulva's Denial

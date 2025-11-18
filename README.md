@@ -239,8 +239,8 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/white/karmic_justice.jpeg" alt="Karmic Justice" width="400"/><br/>
-        <strong>Karmic Justice</strong>
+        <img src="./cards/white/karmic_righteousness.jpeg" alt="Karmic Righteousness" width="400"/><br/>
+        <strong>Karmic Righteousness</strong>
     </td>
     <td align="center">
         <img src="./cards/white/knights_of_gwynevere.jpeg" alt="Knights Of Gwynevere" width="400"/><br/>
@@ -729,38 +729,38 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/red/cathedral_evangelist.jpeg" alt="Cathedral Evangelist" width="400"/><br/>
-        <strong>Cathedral Evangelist</strong>
-    </td>
-    <td align="center">
         <img src="./cards/red/chaos_bed_vestiges.jpeg" alt="Chaos Bed Vestiges" width="400"/><br/>
         <strong>Chaos Bed Vestiges</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/red/chaos_storm.jpeg" alt="Chaos Storm" width="400"/><br/>
         <strong>Chaos Storm</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/red/cracked_redeye_orb.jpeg" alt="Cracked Redeye Orb" width="400"/><br/>
         <strong>Cracked Redeye Orb</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/red/cragspider.jpeg" alt="Cragspider" width="400"/><br/>
         <strong>Cragspider</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/red/demon_cleric.jpeg" alt="Demon Cleric" width="400"/><br/>
         <strong>Demon Cleric</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/red/desert_pyromancer.jpeg" alt="Desert Pyromancer" width="400"/><br/>
         <strong>Desert Pyromancer</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/red/evangelist_of_the_deep.jpeg" alt="Evangelist Of The Deep" width="400"/><br/>
+        <strong>Evangelist Of The Deep</strong>
     </td>
     <td align="center">
         <img src="./cards/red/fiery_soapstone.jpeg" alt="Fiery Soapstone" width="400"/><br/>
@@ -919,42 +919,42 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/green/cathedral_evangelist.jpeg" alt="Cathedral Evangelist" width="400"/><br/>
+        <strong>Cathedral Evangelist</strong>
+    </td>
+    <td align="center">
         <img src="./cards/green/contrasted_cursed.jpeg" alt="Contrasted Cursed" width="400"/><br/>
         <strong>Contrasted Cursed</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/corrode.jpeg" alt="Corrode" width="400"/><br/>
         <strong>Corrode</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/covenant_of_the_forest_hunter.jpeg" alt="Covenant Of The Forest Hunter" width="400"/><br/>
         <strong>Covenant Of The Forest Hunter</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/dark_fog.jpeg" alt="Dark Fog" width="400"/><br/>
         <strong>Dark Fog</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/dukes_dear_freja.jpeg" alt="Dukes Dear Freja" width="400"/><br/>
         <strong>Dukes Dear Freja</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/green/ent_of_the_darkroot_garden.jpeg" alt="Ent Of The Darkroot Garden" width="400"/><br/>
         <strong>Ent Of The Darkroot Garden</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/green/estus.jpeg" alt="Estus" width="400"/><br/>
         <strong>Estus</strong>
-    </td>
-    <td align="center">
-        <img src="./cards/green/evangelist_of_the_deep.jpeg" alt="Evangelist Of The Deep" width="400"/><br/>
-        <strong>Evangelist Of The Deep</strong>
     </td>
 </tr>
 <tr>

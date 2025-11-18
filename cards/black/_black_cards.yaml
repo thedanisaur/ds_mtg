@@ -88,7 +88,7 @@ card_chasm_giant:
 card_chosen_undead:
   front:
     name: "Chosen Undead"
-    cost: "{1}{B}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Instant"
     sub: ""
@@ -96,7 +96,7 @@ card_chosen_undead:
     rating: 4
     rules_text: |
       Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
-      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The Unkindled will rise. Nameless and accursed."
     artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
     artist: "castaguer93"
@@ -168,8 +168,8 @@ card_dark_hand_of_kaathe:
     sub: ""
     rarity: "Common"
     rating: 3
-    rules_text: "Target creature gets -2/-2 until end of turn. If that creature would die this way, remove two souls from that creature's controller and you get two souls."
-    flavor_text: "The Darkwraiths, incited by Kaathe, use the power of the dark soul to absorb humanity."
+    rules_text: "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn instead."
+    flavor_text: "The Darkwraiths use the power of the dark soul to absorb humanity."
     artwork_url: "https://i.ibb.co/V032tp12/dark-hand-of-kaathe-shimhaq-resize.jpg"
     artist: "shimhaq"
     number: 90
@@ -257,13 +257,13 @@ card_grave_warden:
     rating: 2
     rules_text: |
       ~ can't be blocked as long as you control another black or green permanent.
-      Hollow, skeleton, and zombie creatures you control get +1/+1.
+      Other hollow, skeleton, and zombie creatures you control get +1/+1.
     flavor_text: "Grave wardens were tasked with disposing of the ever rising corpses that plagued the cathedral. Their clothes are utterly putrid, drenched in the blood and mucilage of their undertaking."
     artwork_url: "https://i.ibb.co/Mywwqhrj/grave-warden-eemeling-resize.jpg"
     artist: "eemeling"
     number: 95
-    power: 2
-    toughness: 1
+    power: 3
+    toughness: 2
 
 card_grave_wardens_tome:
   front:
@@ -348,14 +348,14 @@ card_hound_rat:
     rarity: "Common"
     rating: 4
     rules_text: |
-      Deathtouch
-      When ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card.
+      ~ can't block.
+      When ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card. 
     flavor_text: "Grotesquely swollen and ravenous, the Hound Rat stalks the filth-choked tunnels beneath fallen kingdoms."
     artwork_url: "https://i.ibb.co/YF2jShN6/hound-rat-ovenbakedcheese-resize.jpg"
     artist: "ovenbakedcheese"
     number: 100
     power: 1
-    toughness: 2
+    toughness: 1
 
 card_jailer:
   front:
