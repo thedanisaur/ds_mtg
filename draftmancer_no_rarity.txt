@@ -74,7 +74,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Face-down and colorless cards you play cost {2} less.\n{1}, {T}: Copy target activated or triggered ability.\n",
+    "oracle_text": "Colorless cards you play and colorless abilities of other creatures you control cost {2} less.\n{1}, {T}: Copy target activated or triggered ability.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/velkas_harpy.jpeg"
 },
 {
@@ -135,7 +135,7 @@
             "W"
         ],
         "rarity": "",
-        "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\n",
+        "oracle_text": "First strike, bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/corrupted_hollow_back.jpeg"
     }
 },
@@ -175,7 +175,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nMorph {0} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up it becomes a 3/1 and gains haste\n",
+    "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nChameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it becomes a 3/1 and gains haste\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg"
 },
 {
@@ -214,7 +214,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Players can't cast more than one spell per turn and can't search libraries\nIf a creature would be turned face up instead it doesn't, unless it's controller pays {1}.\n",
+    "oracle_text": "Players can't cast more than one spell per turn.\nIf a creature would be turned face up instead it doesn't, unless it's controller pays {2}.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
 },
 {
@@ -240,7 +240,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may cast ~ at any time you could cast and instant.\nWhen ~ enters the battlefield, return a creature you control to its owner's hand.\nNoncreature spells cost {1} more to cast.\n",
+    "oracle_text": "You may cast ~ at any time you could cast and instant.\nWhen ~ enters the battlefield, counter target ability. Then return a creature you control to its owner's hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/resting_thief.jpeg"
 },
 {
@@ -305,7 +305,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Create a 1/2 black Human Ally creature token. It has deathtouch.\nCreate a 2/1 white Human Ally creature token. It has lifelink.\n",
+    "oracle_text": "If you would discard this card you may cast it without paying its mana cost instead.\nCreate a 1/2 black Human Ally creature token. It has deathtouch.\nCreate a 2/1 white Human Ally creature token. It has lifelink.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/weary_travelers.jpeg"
 },
 {
@@ -357,7 +357,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Scry 2. You get two souls. Turn target creature face down. That creature gains \"Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)\"\n",
+    "oracle_text": "Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains \"Chameleon {X}, where X is it's mana cost. (Turn it face up any time for its chameleon cost.)\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/chameleon.jpeg"
 },
 {
@@ -468,13 +468,13 @@
     "name": "Magic Denial",
     "super": "",
     "type": "Instant",
-    "mana_cost": "{2}{U}{U}",
+    "mana_cost": "{1}{U}{U}",
     "colors": [
         "U"
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell.",
+    "oracle_text": "Choose a spell. You get one soul. Scry 1, then draw a card. You may counter the chosen spell.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg"
 },
 {
@@ -565,7 +565,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn instead.",
+    "oracle_text": "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn and that creature's controller loses life equal to the number of souls they have instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_hand_of_kaathe.jpeg"
 },
 {
@@ -799,7 +799,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield discard two cards, then draw two cards. You get two souls.",
+    "oracle_text": "Can't be countered.\nWhen ~ enters the battlefield discard two cards, then draw two cards. You get two souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/evangelist_of_the_deep.jpeg"
 },
 {
@@ -981,7 +981,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nMorph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
+    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nChameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/amana_aberration.jpeg"
 },
 {
@@ -1020,7 +1020,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Trample\nMorph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever ~ is turned face up choose one -\n\u2022 Distribute three +1/+1 counters among any number of target creatures you control.\n\u2022 Destroy target artifact or enchantment.\n",
+    "oracle_text": "Trample\nChameleon {3}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up choose one -\n\u2022 Distribute three +1/+1 counters among any number of target creatures you control.\n\u2022 Destroy up to two target artifacts and/or enchantments.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/ent_of_the_darkroot_garden.jpeg"
 },
 {
@@ -1150,7 +1150,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul and gain 1 life.\nFace-down cards you play cost {2} less.\n",
+    "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul and gain 1 life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/souls_of_the_living.jpeg"
 },
 {
@@ -1163,7 +1163,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.\nDeathtouch, trample\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.\n",
+    "oracle_text": "As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.\nDeathtouch, trample\nChameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/undead_aberration.jpeg"
 },
 {
@@ -1340,7 +1340,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "When ~ attacks you may pay {1}{W}. If you do, it gains flying and bleed until end of turn.\n{4}{G/W}, {T}: Put two bleed counters on target creature or player.\n",
+    "oracle_text": "When ~ attacks you may pay {W}. If you do, it gains flying and bleed until end of turn.\n{4}{G/W}, {T}: Put two bleed counters on target creature or player.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/heretic_storyteller.jpeg"
 },
 {
@@ -1392,7 +1392,7 @@
     ],
     "rarity": "uncommon",
     "rating": 5,
-    "oracle_text": "As an additional cost to cast ~ pay one soul or {1}.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.\nExile target creature or planeswalker. It's controller gains life equal to its mana cost.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/miracle_of_the_way_of_white.jpeg"
 },
 {
@@ -1405,7 +1405,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards.",
+    "oracle_text": "When ~ enters the battlefield remove all souls from all players.\nPlayers can't get souls.\nExile ~: Each player chooses a bonfire they control then sacrifices the rest.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/petrified_egg.jpeg"
 },
 {
@@ -1457,7 +1457,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.\n",
+    "oracle_text": "Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_spear.jpeg"
 },
 {
@@ -1483,7 +1483,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "{W}{W}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost.",
+    "oracle_text": "{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's converted mana cost.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/wight.jpeg"
 },
 {
@@ -1548,7 +1548,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "Enchant creature\nWhen ~ enters the battlefield Scry 2.\nAt the beginning of your upkeep, put a -1/-1 counter on enchanted creature.\nWhen ~ leaves the battlefield draw a card.\n",
+    "oracle_text": "Enchant creature\nWhen ~ enters the battlefield Scry 2.\nAt the beginning of your end step, put a -1/-1 counter on enchanted creature.\nWhen ~ leaves the battlefield draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/pestilent_mercury.jpeg"
 },
 {
@@ -1574,7 +1574,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "You may look at the top card of your library any time.\nWhenever you cast a noncreature spell put a crystal counter on ~.\nRemove three crystal counters from ~: You may cast the top card of your library if it is an instant or sorcery.\n",
+    "oracle_text": "You may look at the top card of your library any time.\nWhenever you cast a noncreature spell put a crystal counter on ~.\nRemove three crystal counters from ~: You may cast the top card of your library if it is a noncreature card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/sages_scroll.jpeg"
 },
 {
@@ -1665,7 +1665,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.\nMorph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen this card is turned face up attach it to target player and destroy target creature they control.\n",
+    "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.\nChameleon {2}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen this card is turned face up attach it to target player and destroy target creature they control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/clawed_curse.jpeg"
 },
 {
@@ -1860,7 +1860,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "~ can block creatures with shadow as though they didn't have shadow.\nMorph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).\nWhen ~ is turned face up it deals 3 damage to any target.\n",
+    "oracle_text": "~ can block creatures with shadow as though they didn't have shadow.\nChameleon {3}{R} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it deals 3 damage to any target.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/smoldering_rotten_flesh.jpeg"
 },
 {
@@ -1873,7 +1873,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow.\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen ~ is turned face up, you gain 3 life. Then you may pay {B}, if you do destroy target noncreature, nonland permanent. That permanent's controller loses 3 life.\n",
+    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up, you gain 3 life. Then you may pay {B/G}, if you do destroy target noncreature, nonland permanent.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/contrasted_cursed.jpeg"
 },
 {
@@ -1951,7 +1951,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).\nWhenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.\n",
+    "oracle_text": "Chameleon {4} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/mimic.jpeg"
 },
 {
@@ -1990,7 +1990,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "Vigilance, reach\n~ can't be countered and can't be blocked except by three or more creatures.\nMorph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen this creature enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to it.\n",
+    "oracle_text": "Vigilance, reach\n~ can't be countered and can't be blocked except by three or more creatures.\nChameleon {2}{G}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen this creature enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/the_serpent_king.jpeg"
 },
 {
@@ -2003,7 +2003,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Enchant player\nWhen ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)\nFace-down cards your opponents play cost {2} less.\n",
+    "oracle_text": "Enchant player\nWhen ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)\nEnchanted player has \"If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers an additional time.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/wistful_naivete.jpeg"
 },
 {
@@ -2184,7 +2184,7 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "First strike, lifelink\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "oracle_text": "First strike, lifelink\nPlayers can't search libraries.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/anri_of_astora_front.jpeg",
     "back": {
         "name": "Hollow Bride",
@@ -2229,7 +2229,7 @@
     "name": "Reforge",
     "super": "",
     "type": "Sorcery",
-    "mana_cost": "{1}{W}",
+    "mana_cost": "{W}",
     "colors": [
         "W"
     ],
@@ -2336,7 +2336,7 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nMorph {1}{U}\nWhen ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.\n",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nChameleon {2}{U}\nWhen ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/outrider_knight.jpeg"
 },
 {
@@ -2595,7 +2595,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Reach, trample, haste, bleed\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n",
+    "oracle_text": "Vigilance, reach, trample, haste, bleed\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n{X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
 },
 {
@@ -2630,13 +2630,13 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast ~ from your graveyard.\n~ gets +1/+1 for each card in your graveyard.\n{B/G}{B/G}: Exile target creature card from a graveyard. ~ has abilities of all cards exiled with this ability.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_gods.jpeg"
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast ~ from your graveyard.\n~ gets +1/+1 for each card type in your graveyard.\n{B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all cards exiled with this ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_lords.jpeg"
 },
 {
     "name": "Ancient Wyvern",
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "W",
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,8 +2811,8 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "B",
         "W",
+        "B",
         "R"
     ],
     "rarity": "rare",
@@ -2825,8 +2825,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "W",
+            "B",
             "R"
         ],
         "rarity": "",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2982,7 +2982,7 @@
     ],
     "rarity": "mythic",
     "rating": 2,
-    "oracle_text": "During combat if ~ would die due to damage, instead it doesn't.\n{B}, {T}: Target player discards a card.\n{U}{U}: Tap target creature an opponent controls.\n{1}: ~ gets +1/-1 until end of turn.\n{1}: ~ gets -1/+1 until end of turn.\n",
+    "oracle_text": "During combat if ~ would die due to damage, instead it doesn't.\n{B}, {T}: Target player discards a card.\n{U}: Tap target creature an opponent controls.\n{1}: ~ gets +1/-1 until end of turn.\n{1}: ~ gets -1/+1 until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/vordt_and_the_dancer.jpeg"
 },
 {
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3072,7 +3072,7 @@
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "{+1}:       {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Then shuffle your library. You may put a land from your hand onto the battlefield.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.\n",
+    "oracle_text": "{+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Shuffle your library. You may put a land from your hand onto the battlefield.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pickle_pee_pump_a_rum.jpeg"
 },
 {
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "B",
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
-        "B",
         "W",
         "U",
-        "G"
+        "G",
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "W",
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,8 +3128,8 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3142,8 +3142,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "W",
+            "B",
             "U"
         ],
         "rarity": "",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
-        "B",
         "W",
         "U",
-        "G"
+        "G",
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B",
         "W",
         "U",
-        "G"
+        "G",
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B",
         "W",
         "U",
-        "G"
+        "G",
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,

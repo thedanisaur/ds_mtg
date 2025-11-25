@@ -64,7 +64,7 @@ card_amana_aberration:
     rating: 2
     rules_text: |
       {T}: Add {B} or {U} to your mana pool
-      Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Chameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up, Choose one -
       • Target player draws two cards.
       • Target player discards two cards.
@@ -106,8 +106,8 @@ card_contrasted_cursed:
     rules_text: |
       Enchant player
       Creatures enchanted player's opponents control lose shadow and can't have or gain shadow.
-      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      When ~ is turned face up, you gain 3 life. Then you may pay {B}, if you do destroy target noncreature, nonland permanent. That permanent's controller loses 3 life.
+      Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      When ~ is turned face up, you gain 3 life. Then you may pay {B/G}, if you do destroy target noncreature, nonland permanent.
     flavor_text: "Occasionally, you'll want to be cursed."
     artwork_url: "https://i.ibb.co/23ykgNx1/contrasted-cursed-cobaltplasma-resized.jpg"
     artist: "cobaltplasma"
@@ -198,10 +198,10 @@ card_ent_of_the_darkroot_garden:
     rating: 2
     rules_text: |
       Trample
-      Morph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-      Whenever ~ is turned face up choose one -
+      Chameleon {3}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      When ~ is turned face up choose one -
       • Distribute three +1/+1 counters among any number of target creatures you control.
-      • Destroy target artifact or enchantment.
+      • Destroy up to two target artifacts and/or enchantments.
     flavor_text: |
       "There's something odd about the trees in this garden" -- Lordran Patrol
     artwork_url: "https://i.ibb.co/SDNrPXdr/ent-legen-resize.jpg"
@@ -272,8 +272,9 @@ card_gaping_dragon:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Reach, trample, haste, bleed
+      Vigilance, reach, trample, haste, bleed
       Whenever ~ deals damage to a player destroy target artifact that player controls.
+      {X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.
     flavor_text: "Consumed by a ravenous eternal hunger."
     artwork_url: "https://i.ibb.co/bD06nmV/gaping-dragon-luffie.jpg"
     artist: "luffie"
@@ -387,7 +388,7 @@ card_mimic:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+      Chameleon {4} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       Whenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.
     flavor_text: "The chest did not creak. It exhaled."
     artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
@@ -443,9 +444,9 @@ card_pickle_pee_pump_a_rum:
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      {+1}:       {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
+      {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
       {0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.
-      {-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Then shuffle your library. You may put a land from your hand onto the battlefield.
+      {-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Shuffle your library. You may put a land from your hand onto the battlefield.
       {-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.
     flavor_text: "That...no...pickle pee"
     artwork_url: "https://i.ibb.co/q3gYpSWM/pickle-pee-pump-a-rum-2-resize-2.jpg"
@@ -577,7 +578,6 @@ card_souls_of_the_living:
     rules_text: |
       When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
       Whenever a creature enters the battlefield under your control, you get one soul and gain 1 life.
-      Face-down cards you play cost {2} less.
     flavor_text: "Most living souls are squandered — bartered, fed to flame, or lost in despair. To find one intact is to feel, if only briefly, what it meant to live without fear."
     artwork_url: "https://i.ibb.co/YBR6gzwK/souls-of-the-living-timforshadedigital-remove-watermark.jpg"
     artist: "TimforShadeDigital"
@@ -595,7 +595,7 @@ card_the_serpent_king:
     rules_text: |
       Vigilance, reach
       ~ can't be countered and can't be blocked except by three or more creatures.
-      Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Chameleon {2}{G}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When this creature enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to it.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/PsxNMdhH/the-serpent-king-sandara-recolor.jpg"
@@ -616,7 +616,7 @@ card_undead_aberration:
     rules_text: |
       As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
       Deathtouch, trample
-      Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Chameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.
     flavor_text: ""
     artwork_url: ""
@@ -673,7 +673,7 @@ card_wistful_naivete:
     rules_text: |
       Enchant player
       When ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)
-      Face-down cards your opponents play cost {2} less.
+      Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers an additional time."
     flavor_text: "Gleeful cheer may quickly become dread."
     artwork_url: "https://www.deviantart.com/thecursedbosskiller/art/Save-me-from-my-own-review-script-Jesus-665167432"
     artist: "thecursedbosskiller"

@@ -1,4 +1,4 @@
-card_aldrich_devourer_of_gods:
+card_aldrich_devourer_of_lords:
   front:
     name: "Aldrich, Devourer of Gods"
     cost: "{5}{B/G}{B/G}"
@@ -10,8 +10,8 @@ card_aldrich_devourer_of_gods:
     rules_text: |
       As you cast ~, each card you exile from your graveyard pays for {1}.
       You may cast ~ from your graveyard.
-      ~ gets +1/+1 for each card in your graveyard.
-      {B/G}{B/G}: Exile target creature card from a graveyard. ~ has abilities of all cards exiled with this ability.
+      ~ gets +1/+1 for each card type in your graveyard.
+      {B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all cards exiled with this ability.
     flavor_text: "A right and proper cleric, with a habit of devouring men."
     artwork_url: "https://i.ibb.co/LXB2Kdtr/aldrich-devourer-of-gods-artborne-wd-resized.jpg"
     artist: "artborne-wd"

@@ -135,7 +135,7 @@ card_chameleon:
     rarity: "Common"
     rating: 1
     rules_text: |
-      Scry 2. You get two souls. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)"
+      Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana cost. (Turn it face up any time for its chameleon cost.)"
     flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
     artwork_url: "https://i.ibb.co/sJVmxbZz/chameleon-romandubina-resize.jpg"
     artist: "romandubina"
@@ -332,13 +332,14 @@ card_lost_spell_from_oolacile:
 card_magic_denial:
   front:
     name: "Magic Denial"
-    cost: "{2}{U}{U}"
+    cost: "{1}{U}{U}"
     super: ""
     type: "Instant"
     sub: ""
     rarity: "Common"
     rating: 1
-    rules_text: "Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell."
+    rules_text: |
+      Choose a spell. You get one soul. Scry 1, then draw a card. You may counter the chosen spell.
     flavor_text: "Distrustful of the strength of sorcery, Logan made this spell to suppress magic, and in effect, remove one's own."
     artwork_url: "https://i.ibb.co/8LBJQmCy/magic-denial-cobaltplasma.jpg"
     artist: "cobaltplasma"
@@ -390,7 +391,7 @@ card_outrider_knight:
     rating: 2
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-      Morph {1}{U}
+      Chameleon {2}{U}
       When ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.
     flavor_text: "Every Outrider Knight devolves into a beast, constantly hounded by the Pontiff's black eyes."
     artwork_url: "https://www.deviantart.com/re-dye/art/Dark-Souls-3-Boreal-Outrider-Knight-605393677"
@@ -411,7 +412,7 @@ card_pestilent_mercury:
     rules_text: |
       Enchant creature
       When ~ enters the battlefield Scry 2.
-      At the beginning of your upkeep, put a -1/-1 counter on enchanted creature.
+      At the beginning of your end step, put a -1/-1 counter on enchanted creature.
       When ~ leaves the battlefield draw a card.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/5XnVCxgS/pestilent-mercury-cobaltplasma-resize.jpg"
@@ -483,7 +484,7 @@ card_sages_scroll:
     rules_text: |
       You may look at the top card of your library any time.
       Whenever you cast a noncreature spell put a crystal counter on ~.
-      Remove three crystal counters from ~: You may cast the top card of your library if it is an instant or sorcery.
+      Remove three crystal counters from ~: You may cast the top card of your library if it is a noncreature card.
     flavor_text: "Written before their will was devoured, these scrolls contain the knowledge of the Crystal Sages."
     artwork_url: "https://i.pinimg.com/originals/cd/1d/47/cd1d474410aa93f13a9258b6f3f26a65.jpg"
     artist: "fromsoft"
@@ -590,7 +591,7 @@ card_vordt_and_the_dancer:
     rules_text: |
       During combat if ~ would die due to damage, instead it doesn't.
       {B}, {T}: Target player discards a card.
-      {U}{U}: Tap target creature an opponent controls.
+      {U}: Tap target creature an opponent controls.
       {1}: ~ gets +1/-1 until end of turn.
       {1}: ~ gets -1/+1 until end of turn.
     flavor_text: "Even in exile the outrider knights fulfill their duty."

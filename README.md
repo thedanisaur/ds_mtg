@@ -1079,8 +1079,8 @@ Booster distribution
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/gold/aldrich_devourer_of_gods.jpeg" alt="Aldrich Devourer Of Gods" width="400"/><br/>
-        <strong>Aldrich Devourer Of Gods</strong>
+        <img src="./cards/gold/aldrich_devourer_of_lords.jpeg" alt="Aldrich Devourer Of Lords" width="400"/><br/>
+        <strong>Aldrich Devourer Of Lords</strong>
     </td>
     <td align="center">
         <img src="./cards/gold/ancient_wyvern.jpeg" alt="Ancient Wyvern" width="400"/><br/>

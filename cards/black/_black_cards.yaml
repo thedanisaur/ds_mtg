@@ -114,7 +114,7 @@ card_clawed_curse:
     rules_text: |
       Enchant player
       At the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.
-      Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Chameleon {2}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When this card is turned face up attach it to target player and destroy target creature they control.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqmr67q2/clawed-curse-grok-resize.jpg"
@@ -168,7 +168,8 @@ card_dark_hand_of_kaathe:
     sub: ""
     rarity: "Common"
     rating: 3
-    rules_text: "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn instead."
+    rules_text: |
+      Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn and that creature's controller loses life equal to the number of souls they have instead.
     flavor_text: "The Darkwraiths use the power of the dark soul to absorb humanity."
     artwork_url: "https://i.ibb.co/V032tp12/dark-hand-of-kaathe-shimhaq-resize.jpg"
     artist: "shimhaq"

@@ -419,7 +419,8 @@ card_soul_syphoner:
     rules_text: |
       {T}: Remove one soul from target player. You get one soul.
       {1}, Sacrifice ~: Remove all souls from target player. Draw a card.
-    flavor_text: "\"I thought I could control it. But the siphon is always hungrier than the hand.\"— *Master Orbeck, exiled sage*"
+    flavor_text: |
+      "I thought I could control it. But the siphon is always hungrier than the hand."— *Master Orbeck, exiled sage*"
     artwork_url: "https://www.deviantart.com/wisestprojectstudio/art/Various-Inventions-1032369175"
     artist: "WisestProjectStudio"
     number: 234

@@ -9,6 +9,7 @@ card_anri_of_astora:
     rating: 2
     rules_text: |
       First strike, lifelink
+      Players can't search libraries.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Oh, Horace, where have you run off to? Have you abandoned me?"
     artwork_url: "https://i.ibb.co/xKnr6MPb/anri-of-astora-front-blacknivalis-resize.jpg"
@@ -103,7 +104,7 @@ card_corrupted_hollow:
     sub: "Hollow Ooze"
     rarity: ""
     rules_text: |
-      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      First strike, bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
     flavor_text: "Corrupted forms of Humanity burst from the Abyss, flooding the Kingdom of Lothric. "
     artwork_url: "https://i.ibb.co/8nM0ZSPB/corrupted-hollow-back-resize.jpg"
     artist: "fromsoft"
@@ -175,7 +176,7 @@ card_heretic_storyteller:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      When ~ attacks you may pay {1}{W}. If you do, it gains flying and bleed until end of turn.
+      When ~ attacks you may pay {W}. If you do, it gains flying and bleed until end of turn.
       {4}{G/W}, {T}: Put two bleed counters on target creature or player.
     flavor_text: "Corvian storytellers share tales of the Painted World to forlorn souls. These are wretched beings. Their bodies, souls, and humanity are all rotten to the core."
     artwork_url: "https://i.pinimg.com/originals/be/05/d7/be05d73b4b08277e7005ce98720df484.jpg"
@@ -225,7 +226,7 @@ card_infested_corpse:
     rating: 1
     rules_text: |
       Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-      Morph {0} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+      Chameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up it becomes a 3/1 and gains haste
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
@@ -315,7 +316,7 @@ card_miracle_of_the_way_of_white:
     rarity: "Uncommon"
     rating: 5
     rules_text: |
-      As an additional cost to cast ~ pay one soul or {1}.
+      As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.
       Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
       Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
@@ -333,8 +334,8 @@ card_mirrah_warrior:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Players can't cast more than one spell per turn and can't search libraries
-      If a creature would be turned face up instead it doesn't, unless it's controller pays {1}.
+      Players can't cast more than one spell per turn.
+      If a creature would be turned face up instead it doesn't, unless it's controller pays {2}.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"
@@ -371,7 +372,10 @@ card_petrified_egg:
     sub: ""
     rarity: "Uncommon"
     rating: 0
-    rules_text: "Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards."
+    rules_text: |
+      When ~ enters the battlefield remove all souls from all players.
+      Players can't get souls.
+      Exile ~: Each player chooses a bonfire they control then sacrifices the rest.
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
     artist: "deepai"
@@ -380,7 +384,7 @@ card_petrified_egg:
 card_reforge:
   front:
     name: "Reforge"
-    cost: "{1}{W}"
+    cost: "{W}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -403,7 +407,7 @@ card_resting_thief:
     rating: 2
     rules_text: |
       You may cast ~ at any time you could cast and instant.
-      When ~ enters the battlefield, return a creature you control to its owner's hand.
+      When ~ enters the battlefield return a creature you control to its owner's hand.
       Noncreature spells cost {1} more to cast.
     flavor_text: "I may be a petty thief, but I do hope I can be of help."
     artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
@@ -550,7 +554,7 @@ card_sunlight_spear:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.
+      Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.
     flavor_text: "I am an adherent of the Lord of Sunlight, have at you! -- Solaire of Astora"
     artwork_url: "https://i.ibb.co/LDLNffBD/lightning-spear-4c-resize.jpg"
     artist: "4c"
@@ -588,7 +592,7 @@ card_tears_of_denial:
       As ~ enters the battlefield choose a card name.
       Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.
       Whenever a creature you control dies, sacrifice ~ and draw a card.
-    flavor_text: ""
+    flavor_text: "Intended to grant the dying a few moments for a final farewell."
     artwork_url: "https://www.deviantart.com/themefinland/art/Deflector-apprentice-777597967"
     artist: "themefinland"
     number: 40
@@ -653,6 +657,7 @@ card_weary_travelers:
     rarity: "Common"
     rating: 2
     rules_text: |
+      If you would discard this card you may cast it without paying its mana cost instead.
       Create a 1/2 black Human Ally creature token. It has deathtouch.
       Create a 2/1 white Human Ally creature token. It has lifelink.
     flavor_text: "Are you too in search of the Lords of Cinder?"
@@ -669,7 +674,7 @@ card_wight:
     sub: "Human Spirit"
     rarity: "Uncommon"
     rating: 2
-    rules_text: "{W}{W}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost."
+    rules_text: "{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's converted mana cost."
     flavor_text: "They do not speak, only sing — a hymn not of worship, but of remembrance.  "
     artwork_url: "https://i.ibb.co/rRs2LpxF/white-phantom-resize.jpg"
     artist: "adadia"

@@ -1,0 +1,18 @@
+card_resting_thief:
+  front:
+    name: "Resting Thief"
+    cost: "{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may cast ~ at any time you could cast and instant.
+      When ~ enters the battlefield, counter target ability. Then return a creature you control to its owner's hand.
+    flavor_text: "I may be a petty thief, but I do hope I can be of help."
+    artwork_url: "https://www.deviantart.com/pirozhochek/art/Greirat-of-the-Undead-Settlement-702877696"
+    artist: "pirozhochek"
+    number: 31
+    power: 2
+    toughness: 2

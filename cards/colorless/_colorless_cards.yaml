@@ -160,7 +160,7 @@ card_velkas_harpy:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Face-down and colorless cards you play cost {2} less.
+      Colorless cards you play and colorless abilities of other creatures you control cost {2} less.
       {1}, {T}: Copy target activated or triggered ability.
     flavor_text: "Forgiveness comes, after they have picked your bones clean."
     artwork_url: "https://i.pinimg.com/originals/24/77/ce/2477ce0f07ce893ad3e3afb51527a02f.jpg"
