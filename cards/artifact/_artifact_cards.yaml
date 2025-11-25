@@ -234,7 +234,7 @@ card_iron_golem:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Nonartifact spells cost {2} more to cast.
+      Colored nonartifact spells cost {2} more to cast.
       Sacrifice ~: Destroy target artifact.
     flavor_text: "Those who survive the traps of Sen's Fortress are few, but fewer still are those who defeat the guardian at its summit."
     artwork_url: "https://www.deviantart.com/luffie/art/Iron-Golem-872315137"

@@ -122,7 +122,7 @@ card_sif_the_great_grey_wolf:
     rating: 2
     rules_text: |
       Vigilance
-      When ~ enters the battlefield search your library for an equipment card and put it onto the battlefield. Then shuffle your library.
+      When ~ enters the battlefield search your library for an equipment card with mana cost three or less and put it onto the battlefield. Then shuffle your library.
       {1}{W}: Attach target equipment to ~.
     flavor_text: "The sorrow in Sif's eyes reflect a tragic loyalty beyond death."
     artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"

@@ -1261,7 +1261,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Nonartifact spells cost {2} more to cast.\nSacrifice ~: Destroy target artifact.\n",
+    "oracle_text": "Colored nonartifact spells cost {2} more to cast.\nSacrifice ~: Destroy target artifact.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg"
 },
 {
@@ -1327,7 +1327,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Vigilance\nWhen ~ enters the battlefield search your library for an equipment card and put it onto the battlefield. Then shuffle your library.\n{1}{W}: Attach target equipment to ~.\n",
+    "oracle_text": "Vigilance\nWhen ~ enters the battlefield search your library for an equipment card with mana cost three or less and put it onto the battlefield. Then shuffle your library.\n{1}{W}: Attach target equipment to ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/sif_the_great_grey_wolf.jpeg"
 },
 {
@@ -2040,8 +2040,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
         "G",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2812,8 +2812,8 @@
     "mana_cost": "{R}{W}{B}",
     "colors": [
         "B",
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2826,8 +2826,8 @@
         "mana_cost": "",
         "colors": [
             "B",
-            "W",
-            "R"
+            "R",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -3098,9 +3098,9 @@
     "colors": [
         "R",
         "U",
-        "W",
         "B",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "U",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3157,8 +3157,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3206,9 +3206,9 @@
     "colors": [
         "R",
         "U",
-        "W",
         "B",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3235,8 +3235,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3279,9 +3279,9 @@
     "colors": [
         "R",
         "U",
-        "W",
         "B",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3418,9 +3418,9 @@
     "colors": [
         "R",
         "U",
-        "W",
         "B",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
