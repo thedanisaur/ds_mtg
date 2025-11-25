@@ -129,7 +129,7 @@ When ~ enters the battlefield search your library for an equipment card and put 
     </card>
     <card>
         <name>Velka's Harpy</name>
-        <text>Face-down and colorless cards you play cost {2} less.
+        <text>Colorless cards you play and colorless abilities of other creatures you control cost {2} less.
 {1}, {T}: Copy target activated or triggered ability.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -160,6 +160,7 @@ When ~ enters the battlefield, you get two souls.</text>
     <card>
         <name>Anri of Astora</name>
         <text>First strike, lifelink
+Players can't search libraries.
 If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.</text>
         <prop><layout>transform</layout>
             <side>front</side>
@@ -243,7 +244,7 @@ If you would get one or more souls transform ~.</text>
     </card>
     <card>
         <name>Pus of Man</name>
-        <text>Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)</text>
+        <text>First strike, bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Creature - Hollow Ooze</type>
@@ -304,7 +305,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
     </card>
     <card>
         <name>Heretic Storyteller</name>
-        <text>When ~ attacks you may pay {1}{W}. If you do, it gains flying and bleed until end of turn.
+        <text>When ~ attacks you may pay {W}. If you do, it gains flying and bleed until end of turn.
 {4}{G/W}, {T}: Put two bleed counters on target creature or player.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -349,7 +350,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
     <card>
         <name>Infested Corpse</name>
         <text>Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-Morph {0} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Chameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up it becomes a 3/1 and gains haste</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -426,7 +427,7 @@ Return target spell to its owner's hand. You get soul's equal to that spells con
     </card>
     <card>
         <name>Miracle of the Way of White</name>
-        <text>As an additional cost to cast ~ pay one soul or {1}.
+        <text>As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.
 Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
 Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
@@ -442,8 +443,8 @@ Whenever you gain one or more souls, at the beginning of your next upkeep you ma
     </card>
     <card>
         <name>Mirrah Warrior</name>
-        <text>Players can't cast more than one spell per turn and can't search libraries
-If a creature would be turned face up instead it doesn't, unless it's controller pays {1}.</text>
+        <text>Players can't cast more than one spell per turn.
+If a creature would be turned face up instead it doesn't, unless it's controller pays {2}.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
@@ -475,7 +476,9 @@ Sacrifice ~: Exile all cards from target player's graveyard.</text>
     </card>
     <card>
         <name>Petrified Egg</name>
-        <text>Exile ~: Exile all spells and counter all abilities that used souls as cost to cast or activate. Until end of turn players can't pay souls. Exile all cards from all graveyards.</text>
+        <text>When ~ enters the battlefield remove all souls from all players.
+Players can't get souls.
+Exile ~: Each player chooses a bonfire they control then sacrifices the rest.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -494,8 +497,8 @@ Sacrifice ~: Exile all cards from target player's graveyard.</text>
             <side>front</side>
             <type>Sorcery</type>
             <maintype>Sorcery</maintype>
-            <manacost>{1}{W}</manacost>
-            <cmc>2</cmc>
+            <manacost>{W}</manacost>
+            <cmc>1</cmc>
             <colors>W</colors>
         </prop>
         <set rarity="Rare" num="30" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/reforge.jpeg">DKS</set>
@@ -504,7 +507,7 @@ Sacrifice ~: Exile all cards from target player's graveyard.</text>
     <card>
         <name>Resting Thief</name>
         <text>You may cast ~ at any time you could cast and instant.
-When ~ enters the battlefield, return a creature you control to its owner's hand.
+When ~ enters the battlefield return a creature you control to its owner's hand.
 Noncreature spells cost {1} more to cast.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -632,7 +635,7 @@ Infuse {W} (You may cast this spell for its infuse cost or activate this ability
     </card>
     <card>
         <name>Sunlight Spear</name>
-        <text>Exile target nonland permanent. That permanent's controller creates a treasure token and draws a card at the beginning of their next upkeep.</text>
+        <text>Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -723,7 +726,8 @@ Equipped creatures you control get +1/+1.</text>
     </card>
     <card>
         <name>Weary Travelers</name>
-        <text>Create a 1/2 black Human Ally creature token. It has deathtouch.
+        <text>If you would discard this card you may cast it without paying its mana cost instead.
+Create a 1/2 black Human Ally creature token. It has deathtouch.
 Create a 2/1 white Human Ally creature token. It has lifelink.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -738,7 +742,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
     </card>
     <card>
         <name>Wight</name>
-        <text>{W}{W}, Sacrifice ~: Exile target Legendary permanent. You get souls equal to that permanent's converted mana cost.</text>
+        <text>{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's converted mana cost.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Spirit</type>
@@ -862,7 +866,7 @@ Gain control of target creature or artifact with mana cost equal to X.</text>
     </card>
     <card>
         <name>Chameleon</name>
-        <text>Scry 2. You get two souls. Turn target creature face down. That creature gains "Morph X, where X is it's mana cost (Turn it face up any time for its morph cost.)"</text>
+        <text>Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana cost. (Turn it face up any time for its chameleon cost.)"</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1041,13 +1045,13 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
     </card>
     <card>
         <name>Magic Denial</name>
-        <text>Choose a spell. You get one soul. Scry 2, then draw a card. You may counter the chosen spell.</text>
+        <text>Choose a spell. You get one soul. Scry 1, then draw a card. You may counter the chosen spell.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{2}{U}{U}</manacost>
-            <cmc>4</cmc>
+            <manacost>{1}{U}{U}</manacost>
+            <cmc>3</cmc>
             <colors>U</colors>
         </prop>
         <set rarity="Common" num="65" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_denial.jpeg">DKS</set>
@@ -1087,7 +1091,7 @@ Infuse {U} (You may cast this spell for its infuse cost or activate this ability
     <card>
         <name>Outrider Knight</name>
         <text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-Morph {1}{U}
+Chameleon {2}{U}
 When ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1105,7 +1109,7 @@ When ~ is turned face up tap target creature an opponent controls. That creature
         <name>Pestilent Mercury</name>
         <text>Enchant creature
 When ~ enters the battlefield Scry 2.
-At the beginning of your upkeep, put a -1/-1 counter on enchanted creature.
+At the beginning of your end step, put a -1/-1 counter on enchanted creature.
 When ~ leaves the battlefield draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1168,7 +1172,7 @@ Enchanted permanent can't attack or block, and its activated abilities can't be 
         <name>Sage's Scroll</name>
         <text>You may look at the top card of your library any time.
 Whenever you cast a noncreature spell put a crystal counter on ~.
-Remove three crystal counters from ~: You may cast the top card of your library if it is an instant or sorcery.</text>
+Remove three crystal counters from ~: You may cast the top card of your library if it is a noncreature card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -1263,7 +1267,7 @@ If you paid mana to cast this spell choose two, otherwise choose one -
         <name>Vordt and the Dancer</name>
         <text>During combat if ~ would die due to damage, instead it doesn't.
 {B}, {T}: Target player discards a card.
-{U}{U}: Tap target creature an opponent controls.
+{U}: Tap target creature an opponent controls.
 {1}: ~ gets +1/-1 until end of turn.
 {1}: ~ gets -1/+1 until end of turn.</text>
         <prop><layout>normal</layout>
@@ -1390,7 +1394,7 @@ Whenever you gain one or more souls, at the beginning of your next upkeep you ma
         <name>Clawed Curse</name>
         <text>Enchant player
 At the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.
-Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Chameleon {2}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When this card is turned face up attach it to target player and destroy target creature they control.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1439,7 +1443,7 @@ Choose one -
     </card>
     <card>
         <name>Dark Hand of Kaathe</name>
-        <text>Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn instead.</text>
+        <text>Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn and that creature's controller loses life equal to the number of souls they have instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1985,7 +1989,8 @@ Whenever ~ deals damage to a player you get one soul.
     </card>
     <card>
         <name>Evangelist of the Deep</name>
-        <text>When ~ enters the battlefield discard two cards, then draw two cards. You get two souls.</text>
+        <text>Can't be countered.
+When ~ enters the battlefield discard two cards, then draw two cards. You get two souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Cleric</type>
@@ -2317,7 +2322,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
     <card>
         <name>Smoldering Rotten Flesh</name>
         <text>~ can block creatures with shadow as though they didn't have shadow.
-Morph {1}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+Chameleon {3}{R} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up it deals 3 damage to any target.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2456,7 +2461,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -2480,7 +2485,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
     <card>
         <name>Amana Aberration</name>
         <text>{T}: Add {B} or {U} to your mana pool
-Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Chameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up, Choose one -
 • Target player draws two cards.
 • Target player discards two cards.</text>
@@ -2516,8 +2521,8 @@ Whenever a creature enters the battlefield under your control reveal the top car
         <name>Contrasted Cursed</name>
         <text>Enchant player
 Creatures enchanted player's opponents control lose shadow and can't have or gain shadow.
-Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When ~ is turned face up, you gain 3 life. Then you may pay {B}, if you do destroy target noncreature, nonland permanent. That permanent's controller loses 3 life.</text>
+Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+When ~ is turned face up, you gain 3 life. Then you may pay {B/G}, if you do destroy target noncreature, nonland permanent.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura Curse</type>
@@ -2598,10 +2603,10 @@ Whenever ~ deals damage to a creature, tap that creature. That creature doesn't 
     <card>
         <name>Ent of the Darkroot Garden</name>
         <text>Trample
-Morph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-Whenever ~ is turned face up choose one -
+Chameleon {3}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+When ~ is turned face up choose one -
 • Distribute three +1/+1 counters among any number of target creatures you control.
-• Destroy target artifact or enchantment.</text>
+• Destroy up to two target artifacts and/or enchantments.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Treefolk</type>
@@ -2661,8 +2666,9 @@ Whenever ~ becomes tapped put a bleed counter target creature. (As long as a cre
     </card>
     <card>
         <name>Gaping Dragon</name>
-        <text>Reach, trample, haste, bleed
-Whenever ~ deals damage to a player destroy target artifact that player controls.</text>
+        <text>Vigilance, reach, trample, haste, bleed
+Whenever ~ deals damage to a player destroy target artifact that player controls.
+{X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Demon Dragon</type>
@@ -2759,7 +2765,7 @@ Creature cards in graveyards and libraries can't enter the battlefield. Players 
     </card>
     <card>
         <name>Mimic</name>
-        <text>Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.).
+        <text>Chameleon {4} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 Whenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2807,9 +2813,9 @@ Whenever ~ deals damage to a permanent, put that many petrification counters on 
     </card>
     <card>
         <name>Pickle Pee, Pump-a-Rum</name>
-        <text>{+1}:       {+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
+        <text>{+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.
 {0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.
-{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Then shuffle your library. You may put a land from your hand onto the battlefield.
+{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Shuffle your library. You may put a land from your hand onto the battlefield.
 {-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2922,8 +2928,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
     <card>
         <name>Souls of the Living</name>
         <text>When ~ enters the battlefield create a 1/1 colorless Hollow creature token.
-Whenever a creature enters the battlefield under your control, you get one soul and gain 1 life.
-Face-down cards you play cost {2} less.</text>
+Whenever a creature enters the battlefield under your control, you get one soul and gain 1 life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -2939,7 +2944,7 @@ Face-down cards you play cost {2} less.</text>
         <name>The Serpent King</name>
         <text>Vigilance, reach
 ~ can't be countered and can't be blocked except by three or more creatures.
-Morph {2}{G}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Chameleon {2}{G}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When this creature enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2957,7 +2962,7 @@ When this creature enters the battlefield or is turned face up, it deals damage 
         <name>Undead Aberration</name>
         <text>As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.
 Deathtouch, trample
-Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Chameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3007,7 +3012,7 @@ Search your library for a forest card, put that card onto the battlefield tapped
         <name>Wistful Naivete</name>
         <text>Enchant player
 When ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)
-Face-down cards your opponents play cost {2} less.</text>
+Enchanted player has "If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers an additional time."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura Curse</type>
@@ -3023,18 +3028,18 @@ Face-down cards your opponents play cost {2} less.</text>
         <name>Aldrich, Devourer of Gods</name>
         <text>As you cast ~, each card you exile from your graveyard pays for {1}.
 You may cast ~ from your graveyard.
-~ gets +1/+1 for each card in your graveyard.
-{B/G}{B/G}: Exile target creature card from a graveyard. ~ has abilities of all cards exiled with this ability.</text>
+~ gets +1/+1 for each card type in your graveyard.
+{B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all cards exiled with this ability.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Cleric Ooze Lord</type>
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_gods.jpeg">DKS</set>
+        <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3082,7 +3087,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3231,7 +3236,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>RBU</colors>
+            <colors>BRU</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3248,7 +3253,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>RGBUW</colors>
+            <colors>UGWRB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3496,7 +3501,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>RBG</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3808,7 +3813,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>RGBUW</colors>
+            <colors>UGWRB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4169,7 +4174,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" num="L01" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/plains.jpeg">DKS</set>
+        <set rarity="Common" num="256" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/plains.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -4182,7 +4187,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" num="L02" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/island.jpeg">DKS</set>
+        <set rarity="Common" num="257" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/island.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -4195,7 +4200,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" num="L03" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/swamp.jpeg">DKS</set>
+        <set rarity="Common" num="258" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/swamp.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -4208,7 +4213,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" num="L04" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/mountain.jpeg">DKS</set>
+        <set rarity="Common" num="259" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/mountain.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -4221,7 +4226,7 @@ Equip {2}</text>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Common" num="L05" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/forest.jpeg">DKS</set>
+        <set rarity="Common" num="261" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/forest.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
@@ -4271,7 +4276,7 @@ Equip {2}</text>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg">DKS</set>
-        <reverse-related>Chasm Giant, Scraps of Life, Acid Surge, Hollow Infantry, Shaded Woods, Souls of the Living, Wistful Naivete, Bloodbite Ring, Broadsword, Chloranthy Ring, Halberd, Charm of the Sunlight Princess, Silver Serpent Ring, Talisman of the Way of White, Uchigatana</reverse-related>
+        <reverse-related>Infested Corpse, Chameleon, Chasm Giant, Clawed Curse, Scraps of Life, Acid Surge, Hollow Infantry, Smoldering Rotten Flesh, Amana Aberration, Contrasted Cursed, Ent of the Darkroot Garden, Mimic, Shaded Woods, Souls of the Living, The Serpent King, Undead Aberration, Wistful Naivete, Bloodbite Ring, Broadsword, Chloranthy Ring, Halberd, Charm of the Sunlight Princess, Silver Serpent Ring, Talisman of the Way of White, Uchigatana</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
     </card>
@@ -4440,7 +4445,7 @@ Equip {2}</text>
             <colors>C</colors>
         </prop>
         <set rarity="Uncommon" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/treasure.jpeg">DKS</set>
-        <reverse-related>Sunlight Spear, Unbreakable Patches, Duke's Dear Freja, Hush, Soul of a Lost Explorer</reverse-related>
+        <reverse-related>Unbreakable Patches, Duke's Dear Freja, Hush, Soul of a Lost Explorer</reverse-related>
         <token>1</token>
         <tablerow>1</tablerow>
     </card>

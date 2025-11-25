@@ -11,7 +11,7 @@ card_plains:
     flavor_text: ""
     artwork_url: ""
     artist: "sparth"
-    number: L01
+    number: 256
 
 card_island:
   front:
@@ -26,7 +26,7 @@ card_island:
     flavor_text: ""
     artwork_url: ""
     artist: "creativecut"
-    number: L02
+    number: 257
 
 card_swamp:
   front:
@@ -41,7 +41,7 @@ card_swamp:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L03
+    number: 258
 
 card_mountain:
   front:
@@ -56,11 +56,11 @@ card_mountain:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L04
+    number: 259
 
 card_forest:
   front:
-    name: "Forst"
+    name: "Forest"
     cost: ""
     super: "Basic"
     type: "Land"
@@ -71,7 +71,7 @@ card_forest:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L05
+    number: 260
 
 card_forest:
   front:
@@ -86,4 +86,4 @@ card_forest:
     flavor_text: ""
     artwork_url: ""
     artist: "fromsoft"
-    number: L05
+    number: 261
