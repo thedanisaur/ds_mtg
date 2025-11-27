@@ -8,7 +8,7 @@ card_a_hero_gone_mad:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Return target double-faced creature card or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.
+      Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
     artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
     artist: "lavilvile"
@@ -17,7 +17,7 @@ card_a_hero_gone_mad:
 card_bonfire_ascetic:
   front:
     name: "Bonfire Ascetic"
-    cost: "{X}{B}{B}"
+    cost: "{X}{B}"
     super: ""
     type: "Sorcery"
     sub: ""

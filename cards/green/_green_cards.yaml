@@ -370,7 +370,7 @@ card_milfanito:
     rules_text: |
       When ~ enters the battlefield draw a card.
       {T}: Add one mana of any color to your mana pool.
-      Creature cards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.
+      Cards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"

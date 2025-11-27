@@ -4,6 +4,7 @@ import re
 import yaml
 
 TYPE_ARTIFACT='Artifact'
+TYPE_BASIC='Basic'
 TYPE_CREATURE='Creature'
 TYPE_ENCHANTMENT='Enchantment'
 TYPE_INSTANT='Instant'
@@ -147,8 +148,8 @@ def convert_mana_cost(mana_string):
 def create_card(card_front, card_back, image_url):
     # Adjust card name for tokens because there are different tokens with the same name and cockatrice can't figure that out.
     card_name = card_front['name']
-    if TYPE_TOKEN in card_front['super']:
-        card_name = f"{card_front['name']} - {colors_from_mana_cost(card_front['color_indicator'])}"
+    if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
+        card_name = f"{card_front['name']} - DKS"
 
     general_tags = f"""        <name>{card_name}</name>
         <text>{card_front['rules_text'].strip()}</text>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Wed Nov 26 23:54:45 2025</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="4" name="Desert Pyromancer" setShortName="DKS"/>
+        <card number="4" name="Sunlight Maggot" setShortName="DKS"/>
+        <card number="4" name="Unkindled's Journey" setShortName="DKS"/>
+        <card number="4" name="Profaned Flame" setShortName="DKS"/>
+        <card number="4" name="Capra Demon" setShortName="DKS"/>
+        <card number="4" name="Hellkite Wyvern" setShortName="DKS"/>
+        <card number="4" name="Homeward Bone" setShortName="DKS"/>
+        <card number="1" name="Firelink Shrine" setShortName="DKS"/>
+        <card number="4" name="The Fire Fades" setShortName="DKS"/>
+        <card number="8" name="Mountain" setShortName="DKS"/>
+        <card number="3" name="Disembodied Wisp" setShortName="DKS" collectorNumber="192"/>
+        <card number="4" name="Fire Orb" setShortName="DKS" collectorNumber="127"/>
+        <card number="4" name="Archdragon Peak" setShortName="DKS" collectorNumber="242"/>
+        <card number="4" name="Soul of an Old Pyromancer" setShortName="DKS" collectorNumber="146"/>
+        <card number="4" name="Ringfinger Leonhard" setShortName="DKS" collectorNumber="144"/>
+    </zone>
+    <zone name="side">
+        <card number="2" name="Profuse Sweat" setShortName="DKS"/>
+        <card number="2" name="Chaos Bed Vestiges" setShortName="DKS"/>
+        <card number="3" name="Chaos Storm" setShortName="DKS" collectorNumber="120"/>
+        <card number="3" name="Tears of Denial" setShortName="DKS" collectorNumber="40"/>
+        <card number="3" name="Hollow" setShortName="DKS" collectorNumber="5"/>
+        <card number="2" name="Lingering Flame" setShortName="DKS" collectorNumber="138"/>
+    </zone>
+</cockatrice_deck>

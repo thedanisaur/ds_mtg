@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Wed Nov 26 23:28:04 2025</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="4" name="Homeward Bone" setShortName="DKS" collectorNumber="222"/>
+        <card number="3" name="Gael, Seeker of Ash" setShortName="DKS" collectorNumber="196"/>
+        <card number="1" name="Gravelord Nito" setShortName="DKS" collectorNumber="97"/>
+        <card number="4" name="Parasite Worm" setShortName="DKS" collectorNumber="105"/>
+        <card number="4" name="Soul of a Sorrowful Spirit" setShortName="DKS" collectorNumber="113"/>
+        <card number="4" name="Soul of an Old Pyromancer" setShortName="DKS" collectorNumber="146"/>
+        <card number="4" name="The Great Swamp" setShortName="DKS" collectorNumber="114"/>
+        <card number="4" name="Something Petrified" setShortName="DKS" collectorNumber="112"/>
+        <card number="4" name="Comforting Fire" setShortName="DKS" collectorNumber="246"/>
+        <card number="4" name="Irithyll of the Boreal Valley" setShortName="DKS" collectorNumber="250"/>
+        <card number="4" name="Lost Izalith" setShortName="DKS" collectorNumber="251"/>
+        <card number="4" name="Grave Warden's Tome" setShortName="DKS" collectorNumber="96"/>
+        <card number="4" name="Skim Memories" setShortName="DKS" collectorNumber="111"/>
+        <card number="4" name="Unkindled's Journey" setShortName="DKS" collectorNumber="150"/>
+        <card number="4" name="Chasm Giant" setShortName="DKS" collectorNumber="85"/>
+        <card number="4" name="Bonfire Ascetic" setShortName="DKS" collectorNumber="82"/>
+    </zone>
+    <zone name="side">
+        <card number="2" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
+        <card number="4" name="Chaos Storm" setShortName="DKS" collectorNumber="120"/>
+        <card number="2" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
+        <card number="4" name="Fiery Soapstone" setShortName="DKS" collectorNumber="126"/>
+        <card number="3" name="Capra Demon" setShortName="DKS" collectorNumber="117"/>
+    </zone>
+</cockatrice_deck>

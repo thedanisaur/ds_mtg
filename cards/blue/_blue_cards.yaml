@@ -92,15 +92,16 @@ card_aural_decoy:
 card_big_hat_logan:
   front:
     name: "Big Hat Logan"
-    cost: "{3}{U}{U}"
+    cost: "{5}{U}{U}"
     super: "Legendary"
     type: "Creature"
     sub: "Wizard"
     rarity: "Rare"
     rating: 3
     rules_text: |
+      As you cast ~, each card you exile from your graveyard pays for {1}.
       You may cast this spell any time you could cast an instant.
-      Whenever you cast a spell tap target permanent. If that permanent was already tapped return that card to it's owners hand and that player puts one card from the top of their library into their graveyard instead.
+      Whenever you cast a spell tap target permanent. If that permanent was already tapped return that card to its owner's hand instead.
     flavor_text: "A tireless traveler, Logan left Vinheim with only an archive of tomes and a staff."
     artwork_url: "https://i.ibb.co/fVbPxFdZ/big-hat-logan-bonesaw999-resize.jpg"
     artist: "bonesaw999"
@@ -169,7 +170,7 @@ card_dual_charm:
     sub: ""
     rarity: "Common"
     rating: 3
-    rules_text: "Counter target creature or instant spell unless its controller pays {2}"
+    rules_text: "Counter target creature, instant, or enchantment spell unless its controller pays {2}"
     flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
     artist: "cobaltplasma"

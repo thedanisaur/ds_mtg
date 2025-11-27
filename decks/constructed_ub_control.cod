@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Sat Nov 22 01:30:55 2025</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="4" name="Resonant Flesh" setShortName="DKS" collectorNumber="106"/>
+        <card number="4" name="Hound Rat" setShortName="DKS" collectorNumber="100"/>
+        <card number="4" name="Hollow Soldier" setShortName="DKS" collectorNumber="99"/>
+        <card number="4" name="Something Petrified" setShortName="DKS" collectorNumber="112"/>
+        <card number="2" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
+        <card number="2" name="Chosen Undead" setShortName="DKS" collectorNumber="86"/>
+        <card number="4" name="Homeward Bone" setShortName="DKS" collectorNumber="222"/>
+        <card number="4" name="Comforting Fire" setShortName="DKS" collectorNumber="246"/>
+        <card number="1" name="Firelink Shrine" setShortName="DKS" collectorNumber="249"/>
+        <card number="3" name="Irithyll of the Boreal Valley" setShortName="DKS" collectorNumber="250"/>
+        <card number="2" name="Aldrich, Devourer of Gods" setShortName="DKS" collectorNumber="186"/>
+        <card number="4" name="Clawed Curse" setShortName="DKS" collectorNumber="87"/>
+        <card number="1" name="Swamp" setShortName="DKS" collectorNumber="503"/>
+        <card number="4" name="Skim Memories" setShortName="DKS" collectorNumber="111"/>
+        <card number="2" name="Soul of a Sorrowful Spirit" setShortName="DKS" collectorNumber="113"/>
+        <card number="3" name="Soul of an Old Pyromancer" setShortName="DKS" collectorNumber="146"/>
+        <card number="2" name="Lost Izalith" setShortName="DKS" collectorNumber="251"/>
+        <card number="4" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
+        <card number="2" name="Sift through the Ashes" setShortName="DKS" collectorNumber="110"/>
+        <card number="1" name="Into the Abyss" setShortName="DKS" collectorNumber="62"/>
+        <card number="1" name="Sage's Scroll" setShortName="DKS" collectorNumber="73"/>
+        <card number="1" name="Anor Londo" setShortName="DKS" collectorNumber="241"/>
+        <card number="1" name="Cathedral of Blue" setShortName="DKS" collectorNumber="244"/>
+    </zone>
+    <zone name="side">
+        <card number="3" name="Chaos Storm" setShortName="DKS" collectorNumber="121"/>
+        <card number="2" name="Wall Spectre" setShortName="DKS" collectorNumber="80"/>
+        <card number="4" name="Mirrah Warrior" setShortName="DKS" collectorNumber="27"/>
+        <card number="4" name="Tears of Denial" setShortName="DKS" collectorNumber="40"/>
+        <card number="2" name="Charm of the Undead Hunters" setShortName="DKS" collectorNumber="216"/>
+    </zone>
+</cockatrice_deck>

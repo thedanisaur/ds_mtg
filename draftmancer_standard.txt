@@ -383,7 +383,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Counter target creature or instant spell unless its controller pays {2}",
+    "oracle_text": "Counter target creature, instant, or enchantment spell unless its controller pays {2}",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg"
 },
 {
@@ -526,7 +526,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Return target double-faced creature card or lord card from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.\n",
+    "oracle_text": "Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/a_hero_gone_mad.jpeg"
 },
 {
@@ -1072,7 +1072,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nCreature cards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.\n",
+    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nCards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1620,7 +1620,7 @@
     "name": "Bonfire Ascetic",
     "super": "",
     "type": "Sorcery",
-    "mana_cost": "{X}{B}{B}",
+    "mana_cost": "{X}{B}",
     "colors": [
         "B"
     ],
@@ -2012,8 +2012,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2291,13 +2291,13 @@
     "name": "Big Hat Logan",
     "super": "Legendary",
     "type": "Creature",
-    "mana_cost": "{3}{U}{U}",
+    "mana_cost": "{5}{U}{U}",
     "colors": [
         "U"
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhenever you cast a spell tap target permanent. If that permanent was already tapped return that card to it's owners hand and that player puts one card from the top of their library into their graveyard instead.\n",
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast this spell any time you could cast an instant.\nWhenever you cast a spell tap target permanent. If that permanent was already tapped return that card to its owner's hand instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/big_hat_logan.jpeg"
 },
 {
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "R",
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3081,8 +3081,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "U",
+        "R",
         "B"
     ],
     "rarity": "mythic",
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
         "B",
+        "R",
         "W",
-        "G",
-        "R"
+        "U",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "U",
         "R",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "U",
         "W",
-        "B",
-        "U"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "U",
             "W",
-            "B",
-            "U"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
         "B",
+        "R",
         "W",
-        "G",
-        "R"
+        "U",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
+        "R",
         "W",
-        "G",
-        "R"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
+        "R",
         "W",
-        "G",
-        "R"
+        "U",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3472,7 +3472,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/mountain.jpeg"
 },
 {
-    "name": "Wastes",
+    "name": "Forest",
     "super": "Basic",
     "type": "Land",
     "mana_cost": "",
@@ -3481,6 +3481,17 @@
     "rating": 0,
     "oracle_text": "",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/forest.jpeg"
+},
+{
+    "name": "Wastes",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/basic/wastes.jpeg"
 },
 ]
 
@@ -3813,5 +3824,6 @@ Firelink Shrine
 8 Island
 8 Swamp
 8 Mountain
+8 Forest
 8 Wastes
 
