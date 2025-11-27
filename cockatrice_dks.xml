@@ -805,7 +805,7 @@ When ~ becomes the target of a spell or ability your opponent controls, you may 
     </card>
     <card>
         <name>Ashen Estus</name>
-        <text>Draw a card. Then for each bonfire you control add one mana of a color that land could produce to your mana pool.
+        <text>Draw a card. Then untap each bonfire you control.
 Whenever a bonfire enters the battlefield under your control you may return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2052,8 +2052,8 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
     </card>
     <card>
         <name>Firekeeper</name>
-        <text>Whenever a creature you control attacks, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
-{R}: Creatures you control gain haste and prowess until end of turn. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.).</text>
+        <text>Whenever a creature you control attacks look at the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+{R}: Creatures you control gain haste and prowess until end of turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Monk</type>
@@ -3029,7 +3029,7 @@ Enchanted player has "If a creature an opponent controls entering the battlefiel
         <text>As you cast ~, each card you exile from your graveyard pays for {1}.
 You may cast ~ from your graveyard.
 ~ gets +1/+1 for each card type in your graveyard.
-{B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all cards exiled with this ability.</text>
+{B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all creature cards exiled with this ability.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Cleric Ooze Lord</type>
@@ -3070,7 +3070,7 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
             <maintype>Creature</maintype>
             <manacost>{U/R}{U/R}{U/R}</manacost>
             <cmc>3</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="188" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg">DKS</set>
@@ -3104,7 +3104,7 @@ At the beginning of your end step each opponent sacrifices a creature or artifac
             <maintype>Creature</maintype>
             <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>6</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
@@ -3136,7 +3136,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{B/R}</manacost>
             <cmc>1</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg">DKS</set>
@@ -3170,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>GRW</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3202,7 +3202,7 @@ Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more 
             <maintype>Creature</maintype>
             <manacost>{3}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/4</pt>
         </prop>
         <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
@@ -3220,7 +3220,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
@@ -3236,7 +3236,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>BUR</colors>
+            <colors>RBU</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3253,7 +3253,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>RWGBU</colors>
+            <colors>WBURG</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3269,7 +3269,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3320,7 +3320,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>URW</colors>
+            <colors>RUW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3373,7 +3373,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>BRW</colors>
+            <colors>RBW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3390,7 +3390,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BRW</colors>
+            <colors>RBW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3470,7 +3470,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Instant</maintype>
             <manacost>{R}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
         </prop>
         <set rarity="Uncommon" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3485,7 +3485,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3501,7 +3501,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>GBR</colors>
+            <colors>RBG</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3672,7 +3672,7 @@ When ~ dies, if you control an equipment, return it to the battlefield tapped at
     </card>
     <card>
         <name>Homeward Bone</name>
-        <text>{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.</text>
+        <text>{T}, exile ~: Search your library for a Bonfire card and put it onto the battlefield.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>
@@ -3813,7 +3813,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>RWGBU</colors>
+            <colors>WBURG</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4450,7 +4450,7 @@ Equip {2}</text>
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Wizard - UR</name>
+        <name>Wizard - RU</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4458,7 +4458,7 @@ Equip {2}</text>
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg">DKS</set>
