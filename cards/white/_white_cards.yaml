@@ -335,7 +335,7 @@ card_mirrah_warrior:
     rating: 2
     rules_text: |
       Players can't cast more than one spell per turn.
-      If a creature would be turned face up instead it doesn't, unless it's controller pays {2}.
+      If a creature would be turned face up instead it doesn't, unless its controller pays {2}.
     flavor_text: "The knights of Mirrah are expected to fight honorably, with reliance only upon swordsmanship."
     artwork_url: "https://i.ibb.co/9mxmPBnZ/mirrah-warrior-bashfulrayarts-resize.jpg"
     artist: "bashfulrayarts"
@@ -375,7 +375,7 @@ card_petrified_egg:
     rules_text: |
       When ~ enters the battlefield remove all souls from all players.
       Players can't get souls.
-      Exile ~: Each player chooses a bonfire they control then sacrifices the rest.
+      Exile ~: Each player sacrifices all bonfires they control.
     flavor_text: "A shell once held by Filianore. She once slept in eternal slumber to preserve the illusion. When she awakens the painting will begin anew."
     artwork_url: "https://api.deepai.org/job-view-file/f8c9583e-d6e2-4be2-9357-2fc477e1bbea/outputs/output.jpg"
     artist: "deepai"
@@ -483,8 +483,8 @@ card_solaire_of_astora:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.
       Players can only draw one card each turn.
+      When ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.
     flavor_text: "The sun is beautiful, if only I could be so grossly incandescent!"
     artwork_url: "https://i.ibb.co/nsnV1p1n/solaire-of-astora-pateas-illustration-resize.jpg"
     artist: "jakubjagoda"

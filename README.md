@@ -953,8 +953,8 @@ Booster distribution
         <strong>Ent Of The Darkroot Garden</strong>
     </td>
     <td align="center">
-        <img src="./cards/green/estus.jpeg" alt="Estus" width="400"/><br/>
-        <strong>Estus</strong>
+        <img src="./cards/green/estus_flask.jpeg" alt="Estus Flask" width="400"/><br/>
+        <strong>Estus Flask</strong>
     </td>
 </tr>
 <tr>

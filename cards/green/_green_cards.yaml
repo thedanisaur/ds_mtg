@@ -210,9 +210,9 @@ card_ent_of_the_darkroot_garden:
     power: 3
     toughness: 2
 
-card_estus:
+card_estus_flask:
   front:
-    name: "Estus"
+    name: "Estus Flask"
     cost: "{G}"
     super: ""
     type: "Instant"
@@ -220,8 +220,8 @@ card_estus:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and return this card to your hand instead.
-      Whenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.
+      Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.
+      Whenever a bonfire enters the battlefield under your control, you may pay {G}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The journey of an Undead has always traced the bonfires..."
     artwork_url: "https://i.ibb.co/MkJtqBpK/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
@@ -370,7 +370,7 @@ card_milfanito:
     rules_text: |
       When ~ enters the battlefield draw a card.
       {T}: Add one mana of any color to your mana pool.
-      Cards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.
+      Pay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.
     flavor_text: "We hear a song in the distance."
     artwork_url: "https://www.deviantart.com/derkna/art/Dark-Souls-2-A-Song-of-Comfort-547936518"
     artist: "derkna"
@@ -558,7 +558,7 @@ card_soul_of_a_lost_explorer:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {G}. If you do, gain 2 life and create a treasure token for each permanent spell cast this turn.
+      When ~ enters the battlefield you may pay {G}. If you do, gain one life and create a treasure token for each permanent spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/luis-bello/art/Cotton-clouds-Perspective-585427710"

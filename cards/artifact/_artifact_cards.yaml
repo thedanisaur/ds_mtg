@@ -65,8 +65,6 @@ card_catalyst_of_the_witch_of_izalith:
     artwork_url: "https://i.ibb.co/N6WHbYSy/catalyst-of-the-witch-of-izalith-resize.jpg"
     artist: "unknown"
     number: 214
-    power: ""
-    toughness: ""
 
 card_charm_of_the_abyss_watchers:
   front:
@@ -201,7 +199,7 @@ card_homeward_bone:
     sub: ""
     rarity: "Mythic"
     rating: 5
-    rules_text: "{T}, exile ~: Search your library for a Bonfire card and put it onto the battlefield."
+    rules_text: "{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield."
     flavor_text: "Bonfires are fueled by bones of the Undead. In rare cases, the strong urge of their previous owner's to seek bonfires enchants their bones with a homeward instinct."
     artwork_url: "https://i.ibb.co/Q7Ggf0rz/homeward-bone-sanskarans-resize.jpg"
     artist: "sanskarans"

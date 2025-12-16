@@ -214,7 +214,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Players can't cast more than one spell per turn.\nIf a creature would be turned face up instead it doesn't, unless it's controller pays {2}.\n",
+    "oracle_text": "Players can't cast more than one spell per turn.\nIf a creature would be turned face up instead it doesn't, unless its controller pays {2}.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/mirrah_warrior.jpeg"
 },
 {
@@ -546,13 +546,13 @@
     "name": "Dark Edge",
     "super": "",
     "type": "Sorcery",
-    "mana_cost": "{B}{B}",
+    "mana_cost": "{3}{B}{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As an additional cost to cast ~ discard a card or pay {3}.\nChoose one -\n\u2022 ~ deals 5 damage to player. You gain 5 life.\n\u2022 Destroy target nonblack creature. You gain life equal to it's toughness.\n\u2022 Destroy target planeswalker. You gain life equal to it's loyalty.\n",
+    "oracle_text": "You may discard a card or sacrifice a creature then pay {B}{B} rather than pay ~'s mana cost.\nChoose one -\n\u2022 Destroy target nonblack creature. You gain life equal to it's toughness.\n\u2022 Destroy target nonblack planeswalker. You gain life equal to it's loyalty.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_edge.jpeg"
 },
 {
@@ -1072,7 +1072,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nCards in graveyards and libraries can't enter the battlefield. Players can't cast spells from graveyards or libraries.\n",
+    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nPay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
 },
 {
@@ -1137,7 +1137,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, gain 2 life and create a treasure token for each permanent spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, gain one life and create a treasure token for each permanent spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/soul_of_a_lost_explorer.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1405,7 +1405,7 @@
     ],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "When ~ enters the battlefield remove all souls from all players.\nPlayers can't get souls.\nExile ~: Each player chooses a bonfire they control then sacrifices the rest.\n",
+    "oracle_text": "When ~ enters the battlefield remove all souls from all players.\nPlayers can't get souls.\nExile ~: Each player sacrifices all bonfires they control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/petrified_egg.jpeg"
 },
 {
@@ -1431,7 +1431,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.\nPlayers can only draw one card each turn.\n",
+    "oracle_text": "Players can only draw one card each turn.\nWhen ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/solaire_of_astora.jpeg"
 },
 {
@@ -1509,7 +1509,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Draw a card. Then untap each bonfire you control.\nWhenever a bonfire enters the battlefield under your control you may return ~ from your graveyard to your hand.\n",
+    "oracle_text": "Draw a card. Then untap each bonfire you control.\nWhenever a bonfire enters the battlefield under your control, you may pay {U}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg"
 },
 {
@@ -1903,7 +1903,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/dukes_dear_freja.jpeg"
 },
 {
-    "name": "Estus",
+    "name": "Estus Flask",
     "super": "",
     "type": "Instant",
     "mana_cost": "{G}",
@@ -1912,8 +1912,8 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand. If that card is a bonfire, put it onto the battlefield and return this card to your hand instead.\nWhenever a bonfire enters the battlefield under your control return ~ from your graveyard to your hand.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus.jpeg"
+    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.\nWhenever a bonfire enters the battlefield under your control, you may pay {G}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus_flask.jpeg"
 },
 {
     "name": "Expected Companions",
@@ -2012,8 +2012,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2040,8 +2040,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "W",
         "R",
-        "G",
-        "W"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2811,8 +2811,8 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
         "W",
+        "R",
         "B"
     ],
     "rarity": "rare",
@@ -2825,8 +2825,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
             "W",
+            "R",
             "B"
         ],
         "rarity": "",
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
-        "R",
-        "W",
         "U",
-        "G"
+        "R",
+        "G",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "W",
         "U",
-        "R",
-        "W"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,8 +3128,8 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "U",
         "W",
+        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -3142,8 +3142,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
             "W",
+            "U",
             "B"
         ],
         "rarity": "",
@@ -3157,12 +3157,12 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "{+1}: Exile target tapped nonland permanent.\n{+0}: Exile ~ then return it to the battlefield under your control.\n{-8}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \\\"At the beginning of your upkeep, this emblem deals 3 damage to you.\\\"\n",
+    "oracle_text": "{+1}: Exile up to one target tapped nonland permanent.\n{+0}: Exile ~ then return it to the battlefield under your control at the beginning of your next upkeep.\n{-7}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \\\"At the beginning of your upkeep, this emblem deals 3 damage to you.\\\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg"
 },
 {
@@ -3173,7 +3173,7 @@
     "colors": [],
     "rarity": "mythic",
     "rating": 5,
-    "oracle_text": "{T}, exile ~: Search your library for a Bonfire card and put it onto the battlefield.",
+    "oracle_text": "{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg"
 },
 {
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
-        "R",
-        "W",
         "U",
-        "G"
+        "R",
+        "G",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3235,8 +3235,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R",
-        "W",
         "U",
-        "G"
+        "R",
+        "G",
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R",
-        "W",
         "U",
-        "G"
+        "R",
+        "G",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3655,7 +3655,7 @@
 4 Contrasted Cursed
 4 Covenant of the Forest Hunter
 4 Duke's Dear Freja
-4 Estus
+4 Estus Flask
 4 Expected Companions
 4 Lothric Knight
 4 Mimic

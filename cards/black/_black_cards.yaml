@@ -142,18 +142,17 @@ card_curse_of_the_dead:
 card_dark_edge:
   front:
     name: "Dark Edge"
-    cost: "{B}{B}"
+    cost: "{3}{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
     rarity: "Common"
     rating: 3
     rules_text: |
-      As an additional cost to cast ~ discard a card or pay {3}.
+      You may discard a card or sacrifice a creature then pay {B}{B} rather than pay ~'s mana cost.
       Choose one -
-      • ~ deals 5 damage to player. You gain 5 life.
       • Destroy target nonblack creature. You gain life equal to it's toughness.
-      • Destroy target planeswalker. You gain life equal to it's loyalty.
+      • Destroy target nonblack planeswalker. You gain life equal to it's loyalty.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/sarafiel/art/Black-Blade-of-the-Void-579307662"
     artist: "sarafiel"

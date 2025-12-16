@@ -437,9 +437,9 @@ card_lorian_and_lothric:
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      {+1}: Exile target tapped nonland permanent.
-      {+0}: Exile ~ then return it to the battlefield under your control.
-      {-8}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"
+      {+1}: Exile up to one target tapped nonland permanent.
+      {+0}: Exile ~ then return it to the battlefield under your control at the beginning of your next upkeep.
+      {-7}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\"
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/artborne-wd/art/Lorian-and-Lothric-612398081"
     artist: "artborne-wd"
