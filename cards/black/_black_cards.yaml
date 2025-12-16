@@ -149,7 +149,7 @@ card_dark_edge:
     rarity: "Common"
     rating: 3
     rules_text: |
-      You may discard a card or sacrifice a creature then pay {B}{B} rather than pay ~'s mana cost.
+      You may pay {B}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.
       Choose one -
       • Destroy target nonblack creature. You gain life equal to it's toughness.
       • Destroy target nonblack planeswalker. You gain life equal to it's loyalty.
