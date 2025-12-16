@@ -462,7 +462,7 @@ card_resonant_flesh:
     rating: 2
     rules_text: |
       Whenever you get one or more souls you gain that much life.
-      Pay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.
+      Pay two souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.
     flavor_text: "I see…The Dark has sparked within you…"
     artwork_url: "https://i.pinimg.com/736x/68/a6/c2/68a6c2c6263ef3854ad9f434e4f2622c.jpg"
     artist: "fromsoft"

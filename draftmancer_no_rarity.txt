@@ -1704,7 +1704,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay three souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
+    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay two souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
 },
 {
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "W",
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "B",
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "R",
+        "W",
         "U",
         "G",
-        "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "R",
+        "W",
         "U",
         "G",
-        "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
+        "W",
         "U",
         "G",
-        "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
+        "W",
         "U",
         "G",
-        "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
