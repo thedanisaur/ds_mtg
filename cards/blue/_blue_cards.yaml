@@ -65,7 +65,7 @@ card_ashen_estus:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Draw a card. Then untap each bonfire you control.
+      Draw a card. Untap each bonfire you control.
       Whenever a bonfire enters the battlefield under your control, you may pay {U}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "This dark blue estus flask is a gift from Fire Keeper. It is said that it was once used to slake a great thirst."
     artwork_url: "https://i.ibb.co/mrdzqWXr/estus-flask-gwenzzo-resize.jpg"
