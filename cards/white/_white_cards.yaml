@@ -292,7 +292,7 @@ card_knights_of_gwynevere:
 card_magic_barrier:
   front:
     name: "Magic Barrier"
-    cost: "{1}{W}"
+    cost: "{W}"
     super: ""
     type: "Instant"
     sub: ""
