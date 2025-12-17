@@ -483,9 +483,9 @@ card_sages_scroll:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      You may look at the top card of your library any time.
-      Whenever you cast a noncreature spell put a crystal counter on ~.
-      Remove three crystal counters from ~: You may cast the top card of your library if it is a noncreature card.
+      You may look at the top card of your library at any time.
+      Whenever you cast a noncreature spell you get one soul.
+      Pay three souls: You may cast the top card of your library if it is a noncreature card. (You still pay its costs)
     flavor_text: "Written before their will was devoured, these scrolls contain the knowledge of the Crystal Sages."
     artwork_url: "https://i.pinimg.com/originals/cd/1d/47/cd1d474410aa93f13a9258b6f3f26a65.jpg"
     artist: "fromsoft"

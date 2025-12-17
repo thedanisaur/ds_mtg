@@ -31,13 +31,14 @@ Existing:
 - Indestructible (Effects that say destroy do not destroy this.)
 - Haste
 - Protection
+- Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 - Shadow (This creature can block or be blocked by only creatures with shadow.)
 
 New:
 - Bleed
 ```
 
-Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, *bleed*.
+Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *bleed*.
 
 #### New Rules
 
@@ -60,11 +61,8 @@ Bleed (similar in function to 702.90. Infect)
 ### Abilities
 
 ```
-Existing:
-- Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-- Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-
 New:
+- Chameleon (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 - Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
 ```
 

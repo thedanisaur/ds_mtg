@@ -209,7 +209,8 @@ card_homeward:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.
+      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library. 
+      Whenever a land enters the battlefield under your control, you gain 1 life.
     flavor_text: "A link to one's homeland, only the curse of the Undead has distorted its power, redirecting casters back to the transitory lands."
     artwork_url: "https://i.pinimg.com/736x/b4/5c/bc/b45cbc55e71a6970dde0b1654e2c5c13.jpg"
     artist: "g. ziel"
