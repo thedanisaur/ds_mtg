@@ -644,7 +644,7 @@ Infuse {W} (You may cast this spell for its infuse cost or activate this ability
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" num="38" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_spear.jpeg">DKS</set>
+        <set rarity="Common" num="38" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_spear.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -660,7 +660,7 @@ Infuse {W} (You may cast this spell for its infuse cost or activate this ability
             <colors>W</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" num="39" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg">DKS</set>
+        <set rarity="Uncommon" num="39" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/swollen_mongrel.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -820,7 +820,7 @@ Whenever a bonfire enters the battlefield under your control, you may pay {U}. I
     </card>
     <card>
         <name>Aural Decoy</name>
-        <text>This spell costs and additional {1} if it targets a land.
+        <text>This spell costs an additional {1} if it targets a land.
 Return target permanent to its owner's hand. Draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1484,7 +1484,7 @@ Sacrifice a creature: Draw a card for each hollowing counter on ~. Only the ench
             <colors>B</colors>
             <pt>3/2</pt>
         </prop>
-        <set rarity="Rare" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg">DKS</set>
+        <set rarity="Uncommon" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2021,7 +2021,7 @@ Whenever a lord leaves the battlefield put an effigy counter on ~.
     </card>
     <card>
         <name>Fire Orb</name>
-        <text>As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
+        <text>As you cast this spell you may pay {R}{R}{R}. If you do, double this spell's damage.
 ~ deals 2 damage to any target.
 Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
@@ -2052,7 +2052,7 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
     </card>
     <card>
         <name>Firekeeper</name>
-        <text>Whenever a creature you control attacks look at the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+        <text>Whenever a creature you control attacks reveal the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
 {R}: Creatures you control gain haste and prowess until end of turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2229,8 +2229,8 @@ Sacrifice ~: ~ deals damage to any target equal to the number of charge counters
             <side>front</side>
             <type>Enchantment</type>
             <maintype>Enchantment</maintype>
-            <manacost>{1}{R}{R}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{R}</manacost>
+            <cmc>2</cmc>
             <colors>R</colors>
         </prop>
         <set rarity="Uncommon" num="140" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/permeating_flames.jpeg">DKS</set>
@@ -2256,7 +2256,7 @@ Sacrifice ~: ~ deals damage to any target equal to the number of charge counters
         <name>Profuse Sweat</name>
         <text>As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -
 • Draw a card.
-• Until end of turn creatures you control can't have bleed counters placed on them.
+• Until end of turn you and permanents you control can't have bleed counters placed on them.
 • Attach up to one target curse to target player.
 • Creatures you control gain haste until end of turn.</text>
         <prop><layout>normal</layout>
@@ -2461,7 +2461,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -3036,7 +3036,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
@@ -3087,7 +3087,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3154,7 +3154,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3170,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RWG</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3253,7 +3253,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BWGUR</colors>
+            <colors>UGWRB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3286,7 +3286,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{W}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
@@ -3302,7 +3302,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
@@ -3337,7 +3337,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>UBW</colors>
+            <colors>UWB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3355,7 +3355,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UBW</colors>
+            <colors>UWB</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3373,7 +3373,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>RWB</colors>
+            <colors>RBW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3390,7 +3390,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>RWB</colors>
+            <colors>RBW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3425,7 +3425,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3501,7 +3501,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>RBG</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3567,7 +3567,7 @@ Equip {0}</text>
     </card>
     <card>
         <name>Charm of the Abyss Watchers</name>
-        <text>~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+        <text>~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
 {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3580,8 +3580,22 @@ Equip {0}</text>
         <tablerow>1</tablerow>
     </card>
     <card>
+        <name>Charm of the Sunlight Princess</name>
+        <text>~ enters the battlefield with four charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Artifact</type>
+            <maintype>Artifact</maintype>
+            <manacost>{1}</manacost>
+            <cmc>1</cmc>
+        </prop>
+        <set rarity="Rare" num="216" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_sunlight_princess.jpeg">DKS</set>
+        <tablerow>1</tablerow>
+    </card>
+    <card>
         <name>Charm of the Undead Hunters</name>
-        <text>~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+        <text>~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
 {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3590,7 +3604,7 @@ Equip {0}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Common" num="216" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg">DKS</set>
+        <set rarity="Common" num="217" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_undead_hunters.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3606,7 +3620,7 @@ Equip {0}</text>
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Uncommon" num="217" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg">DKS</set>
+        <set rarity="Uncommon" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/chloranthy_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3622,7 +3636,7 @@ Equip {1}</text>
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Rare" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_greatsword.jpeg">DKS</set>
+        <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/cursed_greatsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3637,7 +3651,7 @@ Equip {1}</text>
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_firekeeper.jpeg">DKS</set>
+        <set rarity="Rare" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/eyes_of_a_firekeeper.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3652,7 +3666,7 @@ Equip {1}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Uncommon" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg">DKS</set>
+        <set rarity="Uncommon" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/halberd.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3667,7 +3681,7 @@ When ~ dies, if you control an equipment, return it to the battlefield tapped at
             <cmc>2</cmc>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Uncommon" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/heide_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/heide_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3680,7 +3694,7 @@ When ~ dies, if you control an equipment, return it to the battlefield tapped at
             <manacost>{0}</manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Mythic" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg">DKS</set>
+        <set rarity="Mythic" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3694,7 +3708,7 @@ Equip {B}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/hornet_ring.jpeg">DKS</set>
+        <set rarity="Uncommon" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/hornet_ring.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3709,7 +3723,7 @@ Sacrifice ~: Destroy target artifact.</text>
             <cmc>3</cmc>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg">DKS</set>
+        <set rarity="Common" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/iron_golem.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3723,7 +3737,7 @@ Sacrifice ~: Destroy target artifact.</text>
             <manacost>{5}</manacost>
             <cmc>5</cmc>
         </prop>
-        <set rarity="Mythic" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg">DKS</set>
+        <set rarity="Mythic" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/kiln_of_the_first_flame.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3738,7 +3752,7 @@ Sacrifice ~: Destroy target artifact.</text>
             <cmc>6</cmc>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Uncommon" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/looking_glass_knight.jpeg">DKS</set>
+        <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/looking_glass_knight.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3754,7 +3768,7 @@ Whenever an artifact dies put a +1/+1 counter on ~.</text>
             <cmc>6</cmc>
             <pt>2/3</pt>
         </prop>
-        <set rarity="Common" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg">DKS</set>
+        <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/metaleater_spider.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3772,7 +3786,7 @@ Equip {2}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Mythic" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg">DKS</set>
+        <set rarity="Mythic" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/moonlight_greatsword.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3787,21 +3801,7 @@ Equip {1}</text>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg">DKS</set>
-        <tablerow>1</tablerow>
-    </card>
-    <card>
-        <name>Charm of the Sunlight Princess</name>
-        <text>~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
-{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Artifact</type>
-            <maintype>Artifact</maintype>
-            <manacost>{1}</manacost>
-            <cmc>1</cmc>
-        </prop>
-        <set rarity="Rare" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_sunlight_princess.jpeg">DKS</set>
+        <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_a_great_warrior.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3813,7 +3813,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BWGUR</colors>
+            <colors>UGWRB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4289,7 +4289,7 @@ Equip {2}</text>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg">DKS</set>
-        <reverse-related>Infested Corpse, Chameleon, Chasm Giant, Clawed Curse, Scraps of Life, Acid Surge, Hollow Infantry, Smoldering Rotten Flesh, Amana Aberration, Contrasted Cursed, Ent of the Darkroot Garden, Mimic, Shaded Woods, Souls of the Living, The Serpent King, Undead Aberration, Wistful Naivete, Bloodbite Ring, Broadsword, Chloranthy Ring, Halberd, Charm of the Sunlight Princess, Silver Serpent Ring, Talisman of the Way of White, Uchigatana</reverse-related>
+        <reverse-related>Infested Corpse, Chameleon, Chasm Giant, Clawed Curse, Scraps of Life, Acid Surge, Hollow Infantry, Smoldering Rotten Flesh, Amana Aberration, Contrasted Cursed, Ent of the Darkroot Garden, Mimic, Shaded Woods, Souls of the Living, The Serpent King, Undead Aberration, Wistful Naivete, Bloodbite Ring, Broadsword, Charm of the Sunlight Princess, Chloranthy Ring, Halberd, Silver Serpent Ring, Talisman of the Way of White, Uchigatana</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
     </card>

@@ -198,7 +198,7 @@ card_darkwraith:
     super: ""
     type: "Creature"
     sub: "Wraith"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Protection from red and from white.

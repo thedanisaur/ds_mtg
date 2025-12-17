@@ -551,7 +551,7 @@ card_sunlight_spear:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 2
     rules_text: |
       Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.
@@ -567,7 +567,7 @@ card_swollen_mongrel:
     super: ""
     type: "Creature"
     sub: "Mutant"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)

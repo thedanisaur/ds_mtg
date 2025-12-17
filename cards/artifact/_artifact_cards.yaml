@@ -76,12 +76,29 @@ card_charm_of_the_abyss_watchers:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."
     flavor_text: "Nullification, the strongest form of justice."
     artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
     artist: "fromsoft"
     number: 215
+
+card_charm_of_the_sunlight_princess:
+  front:
+    name: "Charm of the Sunlight Princess"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 1
+    rules_text: |
+      ~ enters the battlefield with four charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      {T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/75/0c/44/750c44717bd7f7500643706543add7ef.jpg"
+    artist: "fromsoft"
+    number: 216
 
 card_charm_of_the_undead_hunters:
   front:
@@ -93,12 +110,12 @@ card_charm_of_the_undead_hunters:
     rarity: "Common"
     rating: 2
     rules_text: |
-      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
     flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
     artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
     artist: "unknown"
-    number: 216
+    number: 217
 
 card_chloranthy_ring:
   front:
@@ -116,7 +133,7 @@ card_chloranthy_ring:
     flavor_text: "This old ring is named for its decorative green blossom, but its luster is long since faded."
     artwork_url: "https://i.ibb.co/0y9jcsRx/chloranthy-ring.jpg"
     artist: "Fromsoft"
-    number: 217
+    number: 218
 
 card_cursed_greatsword:
   front:
@@ -134,7 +151,7 @@ card_cursed_greatsword:
     flavor_text: "Sword born from the soul of the great grey wolf Sif, guardian of the grave of the Abysswalker Knight Artorias."
     artwork_url: "https://i.pinimg.com/736x/83/f3/2b/83f32be2366afbff44cccfc88856cbe1--videogames-awesome-art.jpg"
     artist: "Kutty Sark"
-    number: 218
+    number: 219
 
 card_eyes_of_a_firekeeper:
   front:
@@ -151,7 +168,7 @@ card_eyes_of_a_firekeeper:
     flavor_text: "A pair of dark eyes. Said to be the eyes of the first firekeeper, they reveal to the firekeepers things that should never be seen."
     artwork_url: "https://i.ibb.co/hFxqG2Bn/eyes-of-a-firekeeper.jpg"
     artist: "grok"
-    number: 219
+    number: 220
 
 card_halberd:
   front:
@@ -169,7 +186,7 @@ card_halberd:
     flavor_text: "Only the hollowed still carry it with pride, their memories long rusted away."
     artwork_url: "https://i.ibb.co/7JXPnh3H/halberd.jpg"
     artist: "deepai"
-    number: 220
+    number: 221
 
 card_heide_knight:
   front:
@@ -186,7 +203,7 @@ card_heide_knight:
     flavor_text: "The Heide Knights served as protectors for the kingdom of Heide. But the land was reduced to ashes, and swallowed by sea."
     artwork_url: "https://i.ibb.co/rfv4rTsL/heide-knight-resize.jpg"
     artist: "fromsoft"
-    number: 221
+    number: 222
     power: 1
     toughness: 1
 
@@ -203,7 +220,7 @@ card_homeward_bone:
     flavor_text: "Bonfires are fueled by bones of the Undead. In rare cases, the strong urge of their previous owner's to seek bonfires enchants their bones with a homeward instinct."
     artwork_url: "https://i.ibb.co/Q7Ggf0rz/homeward-bone-sanskarans-resize.jpg"
     artist: "sanskarans"
-    number: 222
+    number: 223
 
 card_hornet_ring:
   front:
@@ -220,7 +237,7 @@ card_hornet_ring:
     flavor_text: "The masked Ciaran granted a swift death to any and all enemies of the throne."
     artwork_url: "https://i.ibb.co/ycnZMP0K/hornet-ring.jpg"
     artist: "fromsoft"
-    number: 223
+    number: 224
 
 card_iron_golem:
   front:
@@ -237,7 +254,7 @@ card_iron_golem:
     flavor_text: "Those who survive the traps of Sen's Fortress are few, but fewer still are those who defeat the guardian at its summit."
     artwork_url: "https://www.deviantart.com/luffie/art/Iron-Golem-872315137"
     artist: "luffie"
-    number: 224
+    number: 225
     power: 3
     toughness: 3
 
@@ -256,7 +273,7 @@ card_kiln_of_the_first_flame:
     flavor_text: "In the Age of Ancients, the world was unformed, shrouded by fog. A land of grey crags, archtrees, and everlasting dragons. But then there was *Fire*."
     artwork_url: "https://i.ibb.co/932F4F3V/kiln-of-the-first-flame-resize.jpg"
     artist: "Cook and Becker"
-    number: 225
+    number: 226
 
 card_looking_glass_knight:
   front:
@@ -273,7 +290,7 @@ card_looking_glass_knight:
     flavor_text: "Long ago, the King's Passage was a route taken by the bravest warriors to prove themselves, but now it only prevents one from pursuing the runaway king."
     artwork_url: "https://pbs.twimg.com/media/FoN2G-zWAAI7mfJ?format=jpg&name=medium"
     artist: "NSlacka"
-    number: 226
+    number: 227
     power: 4
     toughness: 4
 
@@ -293,7 +310,7 @@ card_metaleater_spider:
     flavor_text: '"It ate my halberd, spat out the shaft. I gave it another. Longer."— *Sir Aldren of the New Londo Guard*'
     artwork_url: "https://www.deviantart.com/sohlol/art/Dark-Souls-2-Vengarl-s-NEW-Head-522090033"
     artist: "sohlol"
-    number: 227
+    number: 228
     power: 2
     toughness: 3
 
@@ -316,7 +333,7 @@ card_moonlight_greatsword:
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/sergioskill/art/Bonfire-652960644"
     artist: "sergioskill"
-    number: 228
+    number: 229
 
 card_ring_of_a_great_warrior:
   front:
@@ -333,23 +350,6 @@ card_ring_of_a_great_warrior:
       Equip {1}
     flavor_text: "War, war never changes."
     artwork_url: "https://cdn.shopify.com/s/files/1/0556/4442/2319/files/1_e07bf03c-95c8-4fac-8bf0-462537775ad5_600x600.jpg?v=1744344676"
-    artist: "fromsoft"
-    number: 229
-
-card_charm_of_the_sunlight_princess:
-  front:
-    name: "Charm of the Sunlight Princess"
-    cost: "{1}"
-    super: ""
-    type: "Artifact"
-    sub: ""
-    rarity: "Rare"
-    rating: 1
-    rules_text: |
-      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
-      {T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.
-    flavor_text: ""
-    artwork_url: "https://i.pinimg.com/736x/75/0c/44/750c44717bd7f7500643706543add7ef.jpg"
     artist: "fromsoft"
     number: 230
 

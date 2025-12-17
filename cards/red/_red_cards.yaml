@@ -206,7 +206,7 @@ card_fire_orb:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      As you cast this spell you may pay {R}{R}{R}, if you do double this spell's damage.
+      As you cast this spell you may pay {R}{R}{R}. If you do, double this spell's damage.
       ~ deals 2 damage to any target.
       Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The flame rewards those with a thirst of power."
@@ -241,7 +241,7 @@ card_firekeeper:
     rarity: "Common"
     rating: 1
     rules_text: |
-      Whenever a creature you control attacks look at the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+      Whenever a creature you control attacks reveal the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
       {R}: Creatures you control gain haste and prowess until end of turn.
     flavor_text: "Very well. Then touch the darkness within me."
     artwork_url: "https://www.deviantart.com/givinggyf/art/fire-keeper-DS3-609933765"
@@ -431,7 +431,7 @@ card_pesky_mosquito:
 card_permeating_flames:
   front:
     name: "Permeating Flames"
-    cost: "{1}{R}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -474,7 +474,7 @@ card_profuse_sweat:
     rules_text: |
       As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -
       • Draw a card.
-      • Until end of turn creatures you control can't have bleed counters placed on them.
+      • Until end of turn you and permanents you control can't have bleed counters placed on them.
       • Attach up to one target curse to target player.
       • Creatures you control gain haste until end of turn.
     flavor_text: "The yellowish sweat cures all kinds of ailments."

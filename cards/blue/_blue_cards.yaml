@@ -82,7 +82,7 @@ card_aural_decoy:
     rarity: "Common"
     rating: 4
     rules_text: |
-      This spell costs and additional {1} if it targets a land.
+      This spell costs an additional {1} if it targets a land.
       Return target permanent to its owner's hand. Draw a card.
     flavor_text: "This spell is not the first choice for serious sorcerers, but it has a surprising amount of applications."
     artwork_url: "https://www.deviantart.com/izmitblu3/art/Fiend-Bringer-of-Fire-888888582"
