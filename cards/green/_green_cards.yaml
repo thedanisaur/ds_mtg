@@ -254,7 +254,7 @@ card_festering_goblin:
     rating: 3
     rules_text: |
       {T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.
-      Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has  "At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"

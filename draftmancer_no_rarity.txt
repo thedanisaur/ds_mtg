@@ -578,7 +578,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has \\\"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\\\")\nYou lose 3 life.\n",
+    "oracle_text": "Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has, \"If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\nYou lose 3 life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/deep_fog.jpeg"
 },
 {
@@ -1033,7 +1033,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "{T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.\nWhenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has  \"At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\n",
+    "oracle_text": "{T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.\nWhenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has, \"If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/festering_goblin.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W}{U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2447,13 +2447,13 @@
     "name": "Nimble Shadow",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{1}{B}",
+    "mana_cost": "{2}{B}",
     "colors": [
         "B"
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nYou may choose to not untap ~ during your untap step\n{T}: Target creature gets a bleed counter. As long as ~ is tapped that creature cannot have bleed counters removed from it. Activate this ability only during your turn.\n",
+    "oracle_text": "Bleed, shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever a permanent with a bleed counter on it would die, put a +1/+1 counter on ~.\n{T}: Put a number of bleed counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/nimble_shadow.jpeg"
 },
 {
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "W",
         "R",
-        "G",
-        "W"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2812,8 +2812,8 @@
     "mana_cost": "{R}{W}{B}",
     "colors": [
         "R",
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2826,8 +2826,8 @@
         "mana_cost": "",
         "colors": [
             "R",
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -3081,8 +3081,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "R",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
         "W",
-        "B",
+        "G",
         "U",
-        "G"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "W",
         "B",
-        "U",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "W",
             "B",
-            "U",
-            "W"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
         "W",
-        "B",
+        "G",
         "U",
-        "G"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "W",
-        "B",
+        "G",
         "U",
-        "G"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "W",
-        "B",
+        "G",
         "U",
-        "G"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,

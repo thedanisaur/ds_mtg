@@ -220,7 +220,7 @@ card_deep_fog:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has \"If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.\")
+      Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
       You lose 3 life.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/oldskvll/art/OLDSKVLL-Treasury-055-1185671580"
@@ -415,16 +415,16 @@ card_lordran_necromancer:
 card_nimble_shadow:
   front:
     name: "Nimble Shadow"
-    cost: "{1}{B}"
+    cost: "{2}{B}"
     super: ""
     type: "Creature"
     sub: "Hollow Assassin"
     rarity: "Rare"
     rating: 2
     rules_text: |
-      Shadow (This creature can block or be blocked by only creatures with shadow.)
-      You may choose to not untap ~ during your untap step
-      {T}: Target creature gets a bleed counter. As long as ~ is tapped that creature cannot have bleed counters removed from it. Activate this ability only during your turn.
+      Bleed, shadow (This creature can block or be blocked by only creatures with shadow.)
+      Whenever a permanent with a bleed counter on it would die, put a +1/+1 counter on ~.
+      {T}: Put a number of bleed counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.
     flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
     artwork_url: "https://i.ibb.co/J42ybj0/nimble-assassin-resize.jpg"
     artist: "hsg artshop"
