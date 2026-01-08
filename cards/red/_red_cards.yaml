@@ -206,7 +206,7 @@ card_fire_orb:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      As you cast this spell you may pay {R}{R}{R}. If you do, double this spell's damage.
+      As you cast this spell you may pay {2}{R}. If you do, double this spell's damage.
       ~ deals 2 damage to any target.
       Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The flame rewards those with a thirst of power."
@@ -569,7 +569,7 @@ card_soul_of_an_old_pyromancer:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.
+      When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each noncreature spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/luis-bello/art/Look-inside-836919995"

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Wed Nov 26 22:34:36 2025</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Sun Jan 4 21:25:09 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
     <tags/>
     <zone name="main">
         <card number="2" name="Amana Priestess" setShortName="DKS" collectorNumber="47"/>
-        <card number="4" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
         <card number="4" name="Aural Decoy" setShortName="DKS" collectorNumber="50"/>
         <card number="2" name="Vordt and the Dancer" setShortName="DKS" collectorNumber="79"/>
         <card number="3" name="Dual Charm" setShortName="DKS" collectorNumber="55"/>
-        <card number="1" name="Homing Soul Mass" setShortName="DKS" collectorNumber="60"/>
         <card number="2" name="Lost spell from Oolacile" setShortName="DKS" collectorNumber="64"/>
         <card number="4" name="Miracle of the Way of White" setShortName="DKS" collectorNumber="26"/>
         <card number="4" name="Anor Londo" setShortName="DKS" collectorNumber="241"/>
@@ -21,19 +19,21 @@
         <card number="4" name="Soul of a Nameless Soldier" setShortName="DKS" collectorNumber="36"/>
         <card number="4" name="Rumination" setShortName="DKS" collectorNumber="72"/>
         <card number="4" name="Clawed Curse" setShortName="DKS" collectorNumber="87"/>
-        <card number="2" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
+        <card number="1" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
         <card number="2" name="Resonant Flesh" setShortName="DKS" collectorNumber="106"/>
-        <card number="3" name="Island" setShortName="DKS" collectorNumber="257"/>
-        <card number="1" name="Swamp" setShortName="DKS" collectorNumber="258"/>
-        <card number="2" name="Plains" setShortName="DKS" collectorNumber="256"/>
+        <card number="3" name="Island - DKS" setShortName="DKS" collectorNumber="257"/>
+        <card number="2" name="Plains - DKS" setShortName="DKS" collectorNumber="256"/>
+        <card number="1" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
+        <card number="2" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
+        <card number="4" name="Twisted Wall of Light" setShortName="DKS" collectorNumber="78"/>
     </zone>
     <zone name="side">
-        <card number="2" name="Homing Soul Mass" setShortName="DKS" collectorNumber="60"/>
+        <card number="3" name="Homing Soul Mass" setShortName="DKS" collectorNumber="60"/>
         <card number="4" name="Skim Memories" setShortName="DKS" collectorNumber="111"/>
         <card number="2" name="Chosen Undead" setShortName="DKS" collectorNumber="86"/>
         <card number="1" name="Dual Charm" setShortName="DKS" collectorNumber="55"/>
-        <card number="2" name="The Fire Fades" setShortName="DKS" collectorNumber="255"/>
         <card number="2" name="Charm of the Undead Hunters" setShortName="DKS" collectorNumber="216"/>
         <card number="2" name="Tears of Denial" setShortName="DKS" collectorNumber="40"/>
+        <card number="1" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
     </zone>
 </cockatrice_deck>

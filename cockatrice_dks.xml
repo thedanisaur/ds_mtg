@@ -69,7 +69,7 @@ When ~ leaves the battlefield, each player gets four souls.</text>
     <card>
         <name>Hollow</name>
         <text>When ~ goes to the graveyard, you get one soul.
-Discard ~: Exile target card in a graveyard.</text>
+Discard ~: Exile up to two target cards in graveyards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow</type>
@@ -295,7 +295,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
             <side>front</side>
             <type>Creature - Human Knight</type>
             <maintype>Creature</maintype>
-            <manacost>{2/W}{W}</manacost>
+            <manacost>{1}{W}</manacost>
             <cmc>2</cmc>
             <colors>W</colors>
             <pt>2/2</pt>
@@ -335,7 +335,7 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
     </card>
     <card>
         <name>Homeward</name>
-        <text>At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library. 
+        <text>At the beginning of your upkeep, if an opponent controls the same number or more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.
 Whenever a land enters the battlefield under your control, you gain 1 life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -351,7 +351,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</tex
     <card>
         <name>Infested Corpse</name>
         <text>Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-Chameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up it becomes a 3/1 and gains haste</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -666,9 +666,9 @@ Infuse {W} (You may cast this spell for its infuse cost or activate this ability
     </card>
     <card>
         <name>Tears of Denial</name>
-        <text>As ~ enters the battlefield choose a card name.
+        <text>When ~ enters the battlefield look at target players hand, then name a card.
 Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.
-Whenever a creature you control dies, sacrifice ~ and draw a card.</text>
+Exile ~: draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -687,8 +687,8 @@ Whenever a creature you control dies, sacrifice ~ and draw a card.</text>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{1}{W}</manacost>
-            <cmc>2</cmc>
+            <manacost>{W}</manacost>
+            <cmc>1</cmc>
             <colors>W</colors>
         </prop>
         <set rarity="Common" num="41" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/transient_curse.jpeg">DKS</set>
@@ -807,7 +807,7 @@ When ~ becomes the target of a spell or ability your opponent controls, you may 
     <card>
         <name>Ashen Estus</name>
         <text>Draw a card. Untap each bonfire you control.
-Whenever a bonfire enters the battlefield under your control, you may pay {U}. If you do, return ~ from your graveyard to your hand.</text>
+Whenever a bonfire enters the battlefield under your control, you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -898,7 +898,7 @@ Whenever ~ deals damage to a player that player puts X cards from the top of his
     </card>
     <card>
         <name>Dual Charm</name>
-        <text>Counter target creature, instant, or enchantment spell unless its controller pays {2}</text>
+        <text>Counter target spell unless its controller pays {1}. You may pay two souls. If you do, counter that spell unless its controller pays {3} instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1204,7 +1204,7 @@ Scry 4, then draw two cards.</text>
     <card>
         <name>Soul of an Unknown Traveler</name>
         <text>As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-When ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.
+When ~ enters the battlefield you may pay {U}. If you do target player puts two cards from the top of his or her library into his or her graveyard for each noncreature spell cast this turn.
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1771,8 +1771,7 @@ You draw X cards, lose X life, and get X souls.</text>
     </card>
     <card>
         <name>Skim Memories</name>
-        <text>As an additional cost to cast this spell pay one soul or {1}.
-Target player reveals his or her hand. You may choose a nonland card. That player discards that card.</text>
+        <text>Target player reveals his or her hand. You may choose a nonland card. That player discards that card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -2022,7 +2021,7 @@ Whenever a lord leaves the battlefield put an effigy counter on ~.
     </card>
     <card>
         <name>Fire Orb</name>
-        <text>As you cast this spell you may pay {R}{R}{R}. If you do, double this spell's damage.
+        <text>As you cast this spell you may pay {2}{R}. If you do, double this spell's damage.
 ~ deals 2 damage to any target.
 Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
@@ -2341,7 +2340,7 @@ When ~ is turned face up it deals 3 damage to any target.</text>
     <card>
         <name>Soul of an Old Pyromancer</name>
         <text>As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.
+When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each noncreature spell cast this turn.
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2624,7 +2623,7 @@ When ~ is turned face up choose one -
     <card>
         <name>Estus Flask</name>
         <text>Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.
-Whenever a bonfire enters the battlefield under your control, you may pay {G}. If you do, return ~ from your graveyard to your hand.</text>
+Whenever a bonfire enters the battlefield under your control, you may pay {1}{G}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2750,15 +2749,14 @@ If an opponent would draw a card except the first one they draw in each of their
     </card>
     <card>
         <name>Milfanito</name>
-        <text>When ~ enters the battlefield draw a card.
-{T}: Add one mana of any color to your mana pool.
-Pay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.</text>
+        <text>{T}: Add one mana of any color to your mana pool.
+Pay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered and you and permanents you control can't be the targets of blue or black spells or abilities this turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
             <maintype>Creature</maintype>
-            <manacost>{1}{G}</manacost>
-            <cmc>2</cmc>
+            <manacost>{G}</manacost>
+            <cmc>1</cmc>
             <colors>G</colors>
             <pt>0/2</pt>
         </prop>
@@ -2784,7 +2782,7 @@ Whenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5
     <card>
         <name>Pagan Tree</name>
         <text>Pay two souls: Put an effigy counter on target permanent.
-Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} rather than pay this spell's mana cost". Add {G}{G}.
+Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} where X is this spell's converted mana cost rather than pay this spell's mana cost". Add {G}{G}.
 Sacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2867,8 +2865,8 @@ When ~ enters the battlefield search your library for a basic land card, reveal 
     </card>
     <card>
         <name>Seek Embers</name>
-        <text>You may pay any number of additional mana and/or souls as you cast ~.
-Search your library for a permanent card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.</text>
+        <text>You may pay any amount of additional mana and/or souls as you cast ~.
+Search your library for a creature or planeswalker card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -3122,7 +3120,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{W/U}{W/U}</manacost>
             <cmc>2</cmc>
-            <colors>UW</colors>
+            <colors>WU</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg">DKS</set>
@@ -3172,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>GRW</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3255,7 +3253,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BGRUW</colors>
+            <colors>WRGUB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3271,7 +3269,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3322,7 +3320,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RUW</colors>
+            <colors>RWU</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3339,7 +3337,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>UWB</colors>
+            <colors>BWU</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3357,7 +3355,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UWB</colors>
+            <colors>BWU</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3375,7 +3373,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>RWB</colors>
+            <colors>RBW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3392,7 +3390,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>RWB</colors>
+            <colors>RBW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3442,7 +3440,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Instant</maintype>
             <manacost>{W}{U}</manacost>
             <cmc>2</cmc>
-            <colors>UW</colors>
+            <colors>WU</colors>
         </prop>
         <set rarity="Common" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3487,7 +3485,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3503,7 +3501,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>GRB</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3569,7 +3567,7 @@ Equip {0}</text>
     </card>
     <card>
         <name>Charm of the Abyss Watchers</name>
-        <text>~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+        <text>~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
 {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3583,7 +3581,7 @@ Equip {0}</text>
     </card>
     <card>
         <name>Charm of the Sunlight Princess</name>
-        <text>~ enters the battlefield with four charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+        <text>~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
 {T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3688,7 +3686,7 @@ When ~ dies, if you control an equipment, return it to the battlefield tapped at
     </card>
     <card>
         <name>Homeward Bone</name>
-        <text>{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.</text>
+        <text>{T}, Exile ~: Search your library for a Bonfire card and put it onto the battlefield.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>
@@ -3815,7 +3813,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BGRUW</colors>
+            <colors>WRGUB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4070,7 +4068,7 @@ Equip {2}</text>
         <name>Firelink Shrine</name>
         <text>~ enters the battlefield tapped unless you control another bonfire.
 {T}: Add one mana of any color.
-{T}: Return target creature card from a graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all soul counters.</text>
+{T}: Return target creature card from your graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Land - Bonfire</type>

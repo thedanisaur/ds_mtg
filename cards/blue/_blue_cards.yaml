@@ -66,7 +66,7 @@ card_ashen_estus:
     rating: 2
     rules_text: |
       Draw a card. Untap each bonfire you control.
-      Whenever a bonfire enters the battlefield under your control, you may pay {U}. If you do, return ~ from your graveyard to your hand.
+      Whenever a bonfire enters the battlefield under your control, you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "This dark blue estus flask is a gift from Fire Keeper. It is said that it was once used to slake a great thirst."
     artwork_url: "https://i.ibb.co/mrdzqWXr/estus-flask-gwenzzo-resize.jpg"
     artist: "gwenzzo"
@@ -170,7 +170,8 @@ card_dual_charm:
     sub: ""
     rarity: "Common"
     rating: 3
-    rules_text: "Counter target creature, instant, or enchantment spell unless its controller pays {2}"
+    rules_text: |
+      Counter target spell unless its controller pays {1}. You may pay two souls. If you do, counter that spell unless its controller pays {3} instead.
     flavor_text: "Holy no longer, its power remains — not to heal, but to deny."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Absorbing-30min-spitpaint-861161542"
     artist: "cobaltplasma"
@@ -519,7 +520,7 @@ card_soul_of_an_unknown_traveler:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.
+      When ~ enters the battlefield you may pay {U}. If you do target player puts two cards from the top of his or her library into his or her graveyard for each noncreature spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: "Tiny beasts of Eleum Loyce, once timid burrowers, now twisted by the creeping frost. Their bodies bristle with cursed ice, and they driven by the echo of something colder still."
     artwork_url: "https://www.deviantart.com/luis-bello/art/Distance-is-nothing-853519891"

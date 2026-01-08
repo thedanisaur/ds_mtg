@@ -76,7 +76,7 @@ card_charm_of_the_abyss_watchers:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."
     flavor_text: "Nullification, the strongest form of justice."
     artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
@@ -93,7 +93,7 @@ card_charm_of_the_sunlight_princess:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      ~ enters the battlefield with four charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/75/0c/44/750c44717bd7f7500643706543add7ef.jpg"
@@ -216,7 +216,7 @@ card_homeward_bone:
     sub: ""
     rarity: "Mythic"
     rating: 5
-    rules_text: "{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield."
+    rules_text: "{T}, Exile ~: Search your library for a Bonfire card and put it onto the battlefield."
     flavor_text: "Bonfires are fueled by bones of the Undead. In rare cases, the strong urge of their previous owner's to seek bonfires enchants their bones with a homeward instinct."
     artwork_url: "https://i.ibb.co/Q7Ggf0rz/homeward-bone-sanskarans-resize.jpg"
     artist: "sanskarans"

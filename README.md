@@ -35,27 +35,27 @@ Existing:
 - Shadow (This creature can block or be blocked by only creatures with shadow.)
 
 New:
-- Bleed
+- Blight
 ```
 
-Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *bleed*.
+Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *blight*.
 
 #### New Rules
 
 ```
-Bleed (similar in function to 702.90. Infect)
+Blight (similar in function to 702.90. Infect)
 
-- a) Bleed is a static ability.
-- b) Damage dealt to a player by a source with bleed doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many bleed counters. See rule 120.3b to infer how to deal with this change.
-    - 1) As long as a player has atleast one bleed counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many bleed counters instead. At the beginning of each endstep this emblem deals damage to you equal to the number of bleed counters you have, then remove a bleed counter."
-    - 2) If a player has no bleed counters their bleed emblem ceases to exist.
-    - 3) A player may only have one bleed emblem at a time.
-- c) Damage dealt to a creature by a source with bleed isn’t marked on that creature. Rather, it causes that source’s controller to put that many bleed counters on that creature. See rule 120.3d to infer how to deal with this change.
-    - 1) As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it."
-- d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had bleed.
-- e) The bleed rules function no matter what zone an object with bleed deals damage from.
-- f) Multiple instances of bleed on the same object are redundant.
-- g) Reminder text: If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received
+- a) Blight is a static ability.
+- b) Damage dealt to a player by a source with blight doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many blight counters. See rule 120.3b to infer how to deal with this change.
+    - 1) As long as a player has atleast one blight counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many blight counters instead. At the beginning of each endstep this emblem deals damage to you equal to the number of blight counters you have, then remove a blight counter."
+    - 2) If a player has no blight counters their blight emblem ceases to exist.
+    - 3) A player may only have one blight emblem at a time.
+- c) Damage dealt to a creature by a source with blight isn’t marked on that creature. Rather, it causes that source’s controller to put that many blight counters on that creature. See rule 120.3d to infer how to deal with this change.
+    - 1) As long as a creature has a blight counter on it that creature has, "If this creature is dealt damage it gets a blight counter. At the beginning of each endstep deal X damage to this creature where X is the number of blight counters on it, then remove a blight counter from it."
+- d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had blight.
+- e) The blight rules function no matter what zone an object with blight deals damage from.
+- f) Multiple instances of blight on the same object are redundant.
+- g) Reminder text: If a creature or player would be dealt damage by a source with blight, instead that creature or player gets a blight counter for each damage received
 ```
 
 ### Abilities

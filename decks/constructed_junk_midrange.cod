@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Sun Jan 4 03:32:52 2026</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="4" name="Resting Thief" setShortName="DKS" collectorNumber="31"/>
+        <card number="4" name="Mirrah Warrior" setShortName="DKS" collectorNumber="27"/>
+        <card number="2" name="Anri of Astora" setShortName="DKS" collectorNumber="11"/>
+        <card number="4" name="Solaire of Astora" setShortName="DKS" collectorNumber="34"/>
+        <card number="4" name="Soul of a Nameless Soldier" setShortName="DKS" collectorNumber="36"/>
+        <card number="4" name="Hound Rat" setShortName="DKS" collectorNumber="100"/>
+        <card number="4" name="Skim Memories" setShortName="DKS" collectorNumber="111"/>
+        <card number="4" name="Miracle of the Way of White" setShortName="DKS" collectorNumber="26"/>
+        <card number="4" name="Soul of a Sorrowful Spirit" setShortName="DKS" collectorNumber="113"/>
+        <card number="4" name="Homeward Bone" setShortName="DKS" collectorNumber="222"/>
+        <card number="4" name="Anor Londo" setShortName="DKS" collectorNumber="241"/>
+        <card number="1" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
+        <card number="1" name="Plains - DKS" setShortName="DKS" collectorNumber="256"/>
+        <card number="4" name="The Fire Fades" setShortName="DKS" collectorNumber="255"/>
+        <card number="1" name="Soul of a Lost Explorer" setShortName="DKS" collectorNumber="179"/>
+        <card number="1" name="Farron Keep" setShortName="DKS" collectorNumber="248"/>
+        <card number="1" name="Darkroot Garden" setShortName="DKS" collectorNumber="247"/>
+        <card number="2" name="Iudex Gundyr" setShortName="DKS" collectorNumber="200"/>
+        <card number="2" name="New Londo Shade" setShortName="DKS" collectorNumber="28"/>
+        <card number="1" name="Firelink Shrine" setShortName="DKS" collectorNumber="249"/>
+        <card number="4" name="Comforting Fire" setShortName="DKS" collectorNumber="246"/>
+    </zone>
+    <zone name="side">
+        <card number="2" name="Petrified Egg" setShortName="DKS" collectorNumber="29"/>
+        <card number="4" name="Tears of Denial" setShortName="DKS" collectorNumber="40"/>
+        <card number="3" name="Charm of the Abyss Watchers" setShortName="DKS" collectorNumber="215"/>
+        <card number="2" name="New Londo Shade" setShortName="DKS" collectorNumber="28"/>
+        <card number="2" name="Hush" setShortName="DKS" collectorNumber="167"/>
+        <card number="2" name="Seek Embers" setShortName="DKS" collectorNumber="176"/>
+    </zone>
+</cockatrice_deck>

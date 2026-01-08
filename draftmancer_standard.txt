@@ -41,7 +41,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "When ~ goes to the graveyard, you get one soul.\nDiscard ~: Exile target card in a graveyard.\n",
+    "oracle_text": "When ~ goes to the graveyard, you get one soul.\nDiscard ~: Exile up to two target cards in graveyards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/hollow.jpeg"
 },
 {
@@ -156,7 +156,7 @@
     "name": "Forossa Lion Knight",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{2/W}{W}",
+    "mana_cost": "{1}{W}",
     "colors": [
         "W"
     ],
@@ -175,7 +175,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nChameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it becomes a 3/1 and gains haste\n",
+    "oracle_text": "Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)\nChameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it becomes a 3/1 and gains haste\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/infested_corpse.jpeg"
 },
 {
@@ -273,7 +273,7 @@
     "name": "Transient Curse",
     "super": "",
     "type": "Instant",
-    "mana_cost": "{1}{W}",
+    "mana_cost": "{W}",
     "colors": [
         "W"
     ],
@@ -383,7 +383,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Counter target creature, instant, or enchantment spell unless its controller pays {2}",
+    "oracle_text": "Counter target spell unless its controller pays {1}. You may pay two souls. If you do, counter that spell unless its controller pays {3} instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/dual_charm.jpeg"
 },
 {
@@ -513,7 +513,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}. If you do target player puts one card from the top of his or her library into his or her graveyard for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}. If you do target player puts two cards from the top of his or her library into his or her graveyard for each noncreature spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_of_an_unknown_traveler.jpeg"
 },
 {
@@ -916,7 +916,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each noncreature spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/soul_of_an_old_pyromancer.jpeg"
 },
 {
@@ -1066,13 +1066,13 @@
     "name": "Milfanito",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{1}{G}",
+    "mana_cost": "{G}",
     "colors": [
         "G"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield draw a card.\n{T}: Add one mana of any color to your mana pool.\nPay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn.\n",
+    "oracle_text": "{T}: Add one mana of any color to your mana pool.\nPay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered and you and permanents you control can't be the targets of blue or black spells or abilities this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1470,7 +1470,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "As ~ enters the battlefield choose a card name.\nSpells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.\nWhenever a creature you control dies, sacrifice ~ and draw a card.\n",
+    "oracle_text": "When ~ enters the battlefield look at target players hand, then name a card.\nSpells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.\nExile ~: draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/tears_of_denial.jpeg"
 },
 {
@@ -1509,7 +1509,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Draw a card. Untap each bonfire you control.\nWhenever a bonfire enters the battlefield under your control, you may pay {U}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "Draw a card. Untap each bonfire you control.\nWhenever a bonfire enters the battlefield under your control, you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/ashen_estus.jpeg"
 },
 {
@@ -1795,7 +1795,7 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "As you cast this spell you may pay {R}{R}{R}. If you do, double this spell's damage.\n~ deals 2 damage to any target.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "As you cast this spell you may pay {2}{R}. If you do, double this spell's damage.\n~ deals 2 damage to any target.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/fire_orb.jpeg"
 },
 {
@@ -1925,7 +1925,7 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.\nWhenever a bonfire enters the battlefield under your control, you may pay {G}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.\nWhenever a bonfire enters the battlefield under your control, you may pay {1}{G}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/estus_flask.jpeg"
 },
 {
@@ -1990,7 +1990,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "You may pay any number of additional mana and/or souls as you cast ~.\nSearch your library for a permanent card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.\n",
+    "oracle_text": "You may pay any amount of additional mana and/or souls as you cast ~.\nSearch your library for a creature or planeswalker card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg"
 },
 {
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2094,7 +2094,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, \"This card doesn't untap during its controller's untap step.\"\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, \"This card doesn't untap during its controller's untap step.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_abyss_watchers.jpeg"
 },
 {
@@ -2235,7 +2235,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library. \nWhenever a land enters the battlefield under your control, you gain 1 life.\n",
+    "oracle_text": "At the beginning of your upkeep, if an opponent controls the same number or more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.\nWhenever a land enters the battlefield under your control, you gain 1 life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/homeward.jpeg"
 },
 {
@@ -2466,7 +2466,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nTarget player reveals his or her hand. You may choose a nonland card. That player discards that card.\n",
+    "oracle_text": "Target player reveals his or her hand. You may choose a nonland card. That player discards that card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg"
 },
 {
@@ -2621,7 +2621,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Pay two souls: Put an effigy counter on target permanent.\nRemove an effigy counter from ~: Until end of turn spells you cast gain, \"You may pay {X} rather than pay this spell's mana cost\". Add {G}{G}.\nSacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.\n",
+    "oracle_text": "Pay two souls: Put an effigy counter on target permanent.\nRemove an effigy counter from ~: Until end of turn spells you cast gain, \"You may pay {X} where X is this spell's converted mana cost rather than pay this spell's mana cost\". Add {G}{G}.\nSacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/pagan_tree.jpeg"
 },
 {
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "G",
         "W",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "W",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "R",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
+        "G",
         "B",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2884,7 +2884,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "~ enters the battlefield with four charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/charm_of_the_sunlight_princess.jpeg"
 },
 {
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "R",
+        "G",
         "B",
         "U",
-        "R",
-        "W",
-        "G"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3129,8 +3129,8 @@
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
         "U",
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3143,8 +3143,8 @@
         "mana_cost": "",
         "colors": [
             "U",
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3173,7 +3173,7 @@
     "colors": [],
     "rarity": "mythic",
     "rating": 5,
-    "oracle_text": "{T}, sacrifice ~: Search your library for a Bonfire card and put it onto the battlefield.",
+    "oracle_text": "{T}, Exile ~: Search your library for a Bonfire card and put it onto the battlefield.",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/homeward_bone.jpeg"
 },
 {
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "R",
+        "G",
         "B",
         "U",
-        "R",
-        "W",
-        "G"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
+        "G",
         "B",
         "U",
-        "R",
-        "W",
-        "G"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,15 +3416,15 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
+        "G",
         "B",
         "U",
-        "R",
-        "W",
-        "G"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
-    "oracle_text": "~ enters the battlefield tapped unless you control another bonfire.\n{T}: Add one mana of any color.\n{T}: Return target creature card from a graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all soul counters.\n",
+    "oracle_text": "~ enters the battlefield tapped unless you control another bonfire.\n{T}: Add one mana of any color.\n{T}: Return target creature card from your graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/land/firelink_shrine.jpeg"
 },
 {

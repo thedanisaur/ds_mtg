@@ -150,7 +150,7 @@ card_flexile_sentry:
 card_forossa_lion_knight:
   front:
     name: "Forossa Lion Knight"
-    cost: "{2/W}{W}"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Human Knight"
@@ -209,7 +209,7 @@ card_homeward:
     sub: ""
     rarity: "Rare"
     rules_text: |
-      At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library. 
+      At the beginning of your upkeep, if an opponent controls the same number or more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.
       Whenever a land enters the battlefield under your control, you gain 1 life.
     flavor_text: "A link to one's homeland, only the curse of the Undead has distorted its power, redirecting casters back to the transitory lands."
     artwork_url: "https://i.pinimg.com/736x/b4/5c/bc/b45cbc55e71a6970dde0b1654e2c5c13.jpg"
@@ -227,7 +227,7 @@ card_infested_corpse:
     rating: 1
     rules_text: |
       Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-      Chameleon {1} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up it becomes a 3/1 and gains haste
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
@@ -590,9 +590,9 @@ card_tears_of_denial:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      As ~ enters the battlefield choose a card name.
+      When ~ enters the battlefield look at target players hand, then name a card.
       Spells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.
-      Whenever a creature you control dies, sacrifice ~ and draw a card.
+      Exile ~: draw a card.
     flavor_text: "Intended to grant the dying a few moments for a final farewell."
     artwork_url: "https://www.deviantart.com/themefinland/art/Deflector-apprentice-777597967"
     artist: "themefinland"
@@ -601,7 +601,7 @@ card_tears_of_denial:
 card_transient_curse:
   front:
     name: "Transient Curse"
-    cost: "{1}{W}"
+    cost: "{W}"
     super: ""
     type: "Instant"
     sub: ""
