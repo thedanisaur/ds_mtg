@@ -40,7 +40,7 @@ card_carthus_rouge:
     rating: 1
     rules_text: |
       Enchant creature
-      Enchanted creature has has bleed.
+      Enchanted creature has has plague.
       Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
     artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
@@ -220,7 +220,7 @@ card_deep_fog:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Put three plague counters on each creature. (As long as a creature has a plague counter on it that creature has, "If this creature is dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")
       You lose 3 life.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/oldskvll/art/OLDSKVLL-Treasury-055-1185671580"
@@ -415,16 +415,16 @@ card_lordran_necromancer:
 card_nimble_shadow:
   front:
     name: "Nimble Shadow"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Hollow Assassin"
     rarity: "Rare"
     rating: 2
     rules_text: |
-      Bleed, shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever a permanent with a bleed counter on it would die, put a +1/+1 counter on ~.
-      {T}: Put a number of bleed counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.
+      Plague, shadow (This creature can block or be blocked by only creatures with shadow.)
+      Whenever a permanent with a plague counter on it would die, put a +1/+1 counter on ~.
+      {T}: Put a number of plague counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.
     flavor_text: "In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were Hollowed themselves."
     artwork_url: "https://i.ibb.co/J42ybj0/nimble-assassin-resize.jpg"
     artist: "hsg artshop"
@@ -443,7 +443,7 @@ card_parasite_worm:
     rating: 4
     rules_text: |
       As long as ~ is an enchantment it is not a creature.
-      {B}{B}: Return ~ and another target creature from your graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.
+      {B}{B}: Return ~ and another target creature from a graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.
     flavor_text: "Now, let this strength be yours."
     artwork_url: "https://i.ibb.co/RTccKL1r/parasite-worm-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -496,7 +496,7 @@ card_royal_rat_vanguard:
     rating: 2
     rules_text: |
       ~ gets +2/+2 for each other rat you control.
-      Whenever ~ deals damage to a player put one bleed counter each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Whenever ~ deals damage to a player put one plague counter each creature that player controls. (As long as a creature has a plague counter on it that creature has, "If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gZLNQZ0t/royal-rat-vanguard.webp"
     artist: "u/krakonner"

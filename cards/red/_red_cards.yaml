@@ -262,7 +262,7 @@ card_firesage_demon:
     rating: 2
     rules_text: |
       Haste
-      When ~ enters the battlefield, it deals 1 damage to each creature you don't control. Tap those creatures.
+      When ~ enters the battlefield, it deals 2 damage to each creature.
     flavor_text: "The Demon Firesage was the first demon, and the last master of the original fire arts."
     artwork_url: "https://i.ibb.co/zHTd0s3n/firesage-demon-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -475,7 +475,7 @@ card_profuse_sweat:
     rules_text: |
       As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -
       • Draw a card.
-      • Until end of turn you and permanents you control can't have bleed counters placed on them.
+      • Until end of turn you and permanents you control can't have plague counters placed on them.
       • Attach up to one target curse to target player.
       • Creatures you control gain haste until end of turn.
     flavor_text: "The yellowish sweat cures all kinds of ailments."

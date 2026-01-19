@@ -69,9 +69,9 @@ card_baneful_queen_mytha:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      Deathtouch, bleed
+      Deathtouch, plague
       ~ gets +1/+1 for each card type in your graveyard.
-      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.
+      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then that permanent's controller puts a plague counter on each creature they control. Activate this ability only once per turn.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
     artist: "igor grechanyi"
@@ -82,7 +82,7 @@ card_baneful_queen_mytha:
 card_bed_of_chaos:
   front:
     name: "Bed of Chaos"
-    cost: "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}"
+    cost: "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}"
     super: "Legendary"
     type: "Creature"
     sub: "Spellshaper Lord"
@@ -90,14 +90,14 @@ card_bed_of_chaos:
     rating: 1
     rules_text: |
       Trample, indestructible
-      When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug. When that token leaves the battlefield sacrifice ~.
-      At the beginning of your end step each opponent sacrifices a creature or artifact.
+      When ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.
+      At the beginning of your end step each opponent sacrifices a creature or artifact at random.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
     artist: "oniruu"
     number: 190
-    power: 8
-    toughness: 8
+    power: 7
+    toughness: 7
 
 card_blade_of_the_darkmoon:
   front:
@@ -469,13 +469,15 @@ card_ruin_sentinels:
 card_sorcerers_remedy:
   front:
     name: "Sorcerer's Remedy"
-    cost: "{W}{U}"
+    cost: "{W/U}"
     super: ""
     type: "Instant"
     sub: ""
     rarity: "Common"
     rating: 0
-    rules_text: "Remove all bleed counters from you and creatures you control. Draw a card."
+    rules_text: |
+      Remove all plague counters from you and permanents you control.
+      Draw a card.
     flavor_text: "Perhaps Yulva abandoned her Sealer duty to take her healing arts back to Blighttown."
     artwork_url: "https://www.deviantart.com/vitogh/art/Swamp-Ritual-1049502161"
     artist: "vitogh"

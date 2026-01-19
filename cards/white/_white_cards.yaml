@@ -104,7 +104,7 @@ card_corrupted_hollow:
     sub: "Hollow Ooze"
     rarity: ""
     rules_text: |
-      First strike, bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      First strike, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
     flavor_text: "Corrupted forms of Humanity burst from the Abyss, flooding the Kingdom of Lothric. "
     artwork_url: "https://i.ibb.co/8nM0ZSPB/corrupted-hollow-back-resize.jpg"
     artist: "fromsoft"
@@ -176,8 +176,8 @@ card_heretic_storyteller:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      When ~ attacks you may pay {W}. If you do, it gains flying and bleed until end of turn.
-      {4}{G/W}, {T}: Put two bleed counters on target creature or player.
+      When ~ attacks you may pay {W}. If you do, it gains flying and plague until end of turn.
+      {4}{G/W}, {T}: Put two plague counters on target creature or player.
     flavor_text: "Corvian storytellers share tales of the Painted World to forlorn souls. These are wretched beings. Their bodies, souls, and humanity are all rotten to the core."
     artwork_url: "https://i.pinimg.com/originals/be/05/d7/be05d73b4b08277e7005ce98720df484.jpg"
     artist: "cobaltplasma"
@@ -226,7 +226,7 @@ card_infested_corpse:
     rarity: "Common"
     rating: 1
     rules_text: |
-      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
       Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up it becomes a 3/1 and gains haste
     flavor_text: ""
@@ -503,7 +503,7 @@ card_soothing_sunlight:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Return target permanent you control to its owner's hand. You remove all bleed counters and gain life for each permanent you control.
+      Return target permanent you control to its owner's hand. You remove all plague counters and gain life for each permanent you control. Draw a card.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/8c/ed/ff/8cedff1bf8997bd98516e43b5a8d6d20.jpg"
     artist: "xin"
@@ -571,8 +571,8 @@ card_swollen_mongrel:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-      {W}{B/G}, {T}: Creatures you control get +1/+1 and gain bleed until end of turn.
+      Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
+      {W}{B/G}, {T}: Creatures you control get +1/+1 and gain plague until end of turn.
     flavor_text: "A mutated canine born from the experiments conducted by Lord Aldia."
     artwork_url: "https://i.ibb.co/cKpwF0FV/swollen-mongrel-eemeling-resize.jpg"
     artist: "eemeling"

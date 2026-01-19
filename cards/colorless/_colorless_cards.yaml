@@ -27,7 +27,7 @@ card_covetous_demon:
     rarity: "Common"
     rating: 2
     rules_text: |
-      {1}{G}: ~ gains bleed until end of turn (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      {1}{G}: ~ gains plague until end of turn (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/spoofdecator/art/Creature-from-the-Black-Lagoon-390998651"
     artist: "spoofdecator"

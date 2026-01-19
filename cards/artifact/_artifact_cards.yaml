@@ -23,8 +23,8 @@ card_bloodbite_ring:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has, "You can't get bleed counters. This creature can't have bleed counters placed on it."
+      When this equipment enters the battlefield you remove all plague counters and create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has, "You can't get plague counters. This creature can't have or get plague counters."
       Equip {1}
     flavor_text: "Despite the dreadful rumors surrounding its creation, this ring is an unmistakable asset."
     artwork_url: "https://i.ibb.co/wrMWCx2j/bloodbite-ring.jpg"
@@ -508,7 +508,7 @@ card_uchigatana:
     rating: 3
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+      Equipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
       Equip {2}
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"

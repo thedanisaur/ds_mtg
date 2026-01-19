@@ -35,27 +35,27 @@ Existing:
 - Shadow (This creature can block or be blocked by only creatures with shadow.)
 
 New:
-- Blight
+- Plague
 ```
 
-Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *blight*.
+Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *plague*.
 
 #### New Rules
 
 ```
-Blight (similar in function to 702.90. Infect)
+Plague (similar in function to 702.90. Infect)
 
-- a) Blight is a static ability.
-- b) Damage dealt to a player by a source with blight doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many blight counters. See rule 120.3b to infer how to deal with this change.
-    - 1) As long as a player has atleast one blight counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many blight counters instead. At the beginning of each endstep this emblem deals damage to you equal to the number of blight counters you have, then remove a blight counter."
-    - 2) If a player has no blight counters their blight emblem ceases to exist.
-    - 3) A player may only have one blight emblem at a time.
-- c) Damage dealt to a creature by a source with blight isn’t marked on that creature. Rather, it causes that source’s controller to put that many blight counters on that creature. See rule 120.3d to infer how to deal with this change.
-    - 1) As long as a creature has a blight counter on it that creature has, "If this creature is dealt damage it gets a blight counter. At the beginning of each endstep deal X damage to this creature where X is the number of blight counters on it, then remove a blight counter from it."
-- d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had blight.
-- e) The blight rules function no matter what zone an object with blight deals damage from.
-- f) Multiple instances of blight on the same object are redundant.
-- g) Reminder text: If a creature or player would be dealt damage by a source with blight, instead that creature or player gets a blight counter for each damage received
+- a) Plague is a static ability.
+- b) Damage dealt to a player by a source with plague doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many plague counters. See rule 120.3b to infer how to deal with this change.
+    - 1) As long as a player has atleast one plague counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many plague counters instead. At the beginning of each endstep this emblem deals damage to you equal to the number of plague counters you have, then remove a plague counter."
+    - 2) If a player has no plague counters their plague emblem ceases to exist.
+    - 3) A player may only have one plague emblem at a time.
+- c) Damage dealt to a creature by a source with plague isn’t marked on that creature. Rather, it causes that source’s controller to put that many plague counters on that creature. See rule 120.3d to infer how to deal with this change.
+    - 1) As long as a creature has a plague counter on it that creature has, "If this creature is dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it."
+- d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had plague.
+- e) The plague rules function no matter what zone an object with plague deals damage from.
+- f) Multiple instances of plague on the same object are redundant.
+- g) Reminder text: If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received
 ```
 
 ### Abilities

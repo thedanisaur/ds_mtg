@@ -86,9 +86,9 @@ card_cathedral_evangelist:
     rating: 2
     rules_text: |
       Can't be countered
-      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.
+      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a plague counter on target creature or player, then put the card back or put it into your graveyard.
     flavor_text: "EEHEEE! EEE-HEE-HEE!"
-    artwork_url: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/87043656_105494997720790_57515182666022912_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7zn9AVxr1HkQ7kNvwH6vly6&_nc_oc=AdmKlaxkGqTI0KOCL2ko-2PHEdPs61hp1zdugVbvts_jRxN79x9fX2ABJc99a6tXfOA&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rWL9KLiqt6UrKl6C9UOnEA&oh=00_AfcLrHsWyaYqgNNvktMbcov5Ffh3sjV7ywZ-1qeMZcNxNw&oe=691A8300"
+    artwork_url: "https://www.google.com/imgres?q=cathedral%20evangelist%20dark%20souls&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D105494991054124&imgrefurl=https%3A%2F%2Fwww.facebook.com%2F100063454394475%2Fposts%2Fdark-souls-3cathedral-evangelist-t-%2F105496681053955%2F&docid=2h7e-MBIJjzjkM&tbnid=bS-XVGgonboO6M&vet=12ahUKEwjiq9b546yQAxWJliYFHQdiOMoQM3oECCMQAA..i&w=1149&h=997&hcb=2&ved=2ahUKEwjiq9b546yQAxWJliYFHQdiOMoQM3oECCMQAA"
     artist: "Schastny Sergey"
     number: 154
     power: 3
@@ -160,8 +160,11 @@ card_dark_fog:
     rating: 2
     rules_text: |
       Enchant player
-      Whenever a creature attacks enchanted player, unless that player pays {2} or {G/P}, put a blight counter on it. Then for each blight counter on that creature put a bleed counter it.
-    flavor_text: ""
+      ~ enters the battlefield with a number of plague counters equal to the mana spent to cast it.
+      Whenever a creature attacks enchanted player put a plague counter on it for each one on ~.
+      {G/P}: Add or remove a plague counter from ~.
+      When there are no creatures on the battlefield, enchanted player loses life equal to the number of plague counters on ~ then sacrifices it.
+    flavor_text: "From the depths of the Abyss, Dark Fog is a terrible poison and a reflection of cruelty against your own."
     artwork_url: "https://i.ibb.co/Hpxzz1dj/hush-rodinia-resize.jpg"
     artist: "rodinia"
     number: 158
@@ -254,7 +257,7 @@ card_festering_goblin:
     rating: 3
     rules_text: |
       {T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.
-      Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+      Whenever ~ becomes tapped put a plague counter target creature. (As long as a creature has a plague counter on it that creature has, "If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/daveallsop/art/Goblin-Warrior-Token-Card-90631634"
     artist: "daveallsop"
@@ -272,7 +275,7 @@ card_gaping_dragon:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Vigilance, reach, trample, haste, bleed
+      Vigilance, reach, trample, haste, plague
       Whenever ~ deals damage to a player destroy target artifact that player controls.
       {X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.
     flavor_text: "Consumed by a ravenous eternal hunger."
@@ -375,7 +378,7 @@ card_milfanito:
     artist: "derkna"
     number: 169
     power: 0
-    toughness: 2
+    toughness: 1
 
 card_mimic:
   front:

@@ -24,7 +24,7 @@
     </card>
     <card>
         <name>Covetous Demon</name>
-        <text>{1}{G}: ~ gains bleed until end of turn (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)</text>
+        <text>{1}{G}: ~ gains plague until end of turn (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Demon</type>
@@ -244,7 +244,7 @@ If you would get one or more souls transform ~.</text>
     </card>
     <card>
         <name>Pus of Man</name>
-        <text>First strike, bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)</text>
+        <text>First strike, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Creature - Hollow Ooze</type>
@@ -305,8 +305,8 @@ If ~ would be dealt damage by a source that's red prevent 1 of that damage.</tex
     </card>
     <card>
         <name>Heretic Storyteller</name>
-        <text>When ~ attacks you may pay {W}. If you do, it gains flying and bleed until end of turn.
-{4}{G/W}, {T}: Put two bleed counters on target creature or player.</text>
+        <text>When ~ attacks you may pay {W}. If you do, it gains flying and plague until end of turn.
+{4}{G/W}, {T}: Put two plague counters on target creature or player.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Cleric Mutant</type>
@@ -350,7 +350,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</tex
     </card>
     <card>
         <name>Infested Corpse</name>
-        <text>Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+        <text>Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
 Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 When ~ is turned face up it becomes a 3/1 and gains haste</text>
         <prop><layout>normal</layout>
@@ -591,7 +591,7 @@ When ~ enters the battlefield, if it's not the first turn of the game, you may e
     </card>
     <card>
         <name>Soothing Sunlight</name>
-        <text>Return target permanent you control to its owner's hand. You remove all bleed counters and gain life for each permanent you control.</text>
+        <text>Return target permanent you control to its owner's hand. You remove all plague counters and gain life for each permanent you control. Draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -650,8 +650,8 @@ Infuse {W} (You may cast this spell for its infuse cost or activate this ability
     </card>
     <card>
         <name>Swollen Mongrel</name>
-        <text>Bleed (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
-{W}{B/G}, {T}: Creatures you control get +1/+1 and gain bleed until end of turn.</text>
+        <text>Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
+{W}{B/G}, {T}: Creatures you control get +1/+1 and gain plague until end of turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Mutant</type>
@@ -1332,7 +1332,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
     <card>
         <name>Carthus Rouge</name>
         <text>Enchant creature
-Enchanted creature has has bleed.
+Enchanted creature has has plague.
 Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1490,7 +1490,7 @@ Sacrifice a creature: Draw a card for each hollowing counter on ~. Only the ench
     </card>
     <card>
         <name>Deep Fog</name>
-        <text>Put three bleed counters on each creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")
+        <text>Put three plague counters on each creature. (As long as a creature has a plague counter on it that creature has, "If this creature is dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")
 You lose 3 life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1663,15 +1663,15 @@ Whenever a hollow, skeleton, or zombie creature enters the battlefield you may p
     </card>
     <card>
         <name>Nimble Shadow</name>
-        <text>Bleed, shadow (This creature can block or be blocked by only creatures with shadow.)
-Whenever a permanent with a bleed counter on it would die, put a +1/+1 counter on ~.
-{T}: Put a number of bleed counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.</text>
+        <text>Plague, shadow (This creature can block or be blocked by only creatures with shadow.)
+Whenever a permanent with a plague counter on it would die, put a +1/+1 counter on ~.
+{T}: Put a number of plague counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow Assassin</type>
             <maintype>Creature</maintype>
-            <manacost>{2}{B}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{B}</manacost>
+            <cmc>2</cmc>
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
@@ -1681,7 +1681,7 @@ Whenever a permanent with a bleed counter on it would die, put a +1/+1 counter o
     <card>
         <name>Parasite Worm</name>
         <text>As long as ~ is an enchantment it is not a creature.
-{B}{B}: Return ~ and another target creature from your graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.</text>
+{B}{B}: Return ~ and another target creature from a graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains "Enchant creature", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wurm</type>
@@ -1727,7 +1727,7 @@ Pay two souls: Draw a card. Then you lose life equal to the number of souls you 
     <card>
         <name>Royal Rat Vanguard</name>
         <text>~ gets +2/+2 for each other rat you control.
-Whenever ~ deals damage to a player put one bleed counter each creature that player controls. (As long as a creature has a bleed counter on it that creature has "If this creature is dealt damage it gets a bleed counter. At the beginning of each upkeep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")</text>
+Whenever ~ deals damage to a player put one plague counter each creature that player controls. (As long as a creature has a plague counter on it that creature has, "If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant Zombie Rat</type>
@@ -2070,7 +2070,7 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
     <card>
         <name>Firesage Demon</name>
         <text>Haste
-When ~ enters the battlefield, it deals 1 damage to each creature you don't control. Tap those creatures.</text>
+When ~ enters the battlefield, it deals 2 damage to each creature.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Demon</type>
@@ -2257,7 +2257,7 @@ Sacrifice ~: ~ deals damage to any target equal to the number of charge counters
         <name>Profuse Sweat</name>
         <text>As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -
 • Draw a card.
-• Until end of turn you and permanents you control can't have bleed counters placed on them.
+• Until end of turn you and permanents you control can't have plague counters placed on them.
 • Attach up to one target curse to target player.
 • Creatures you control gain haste until end of turn.</text>
         <prop><layout>normal</layout>
@@ -2505,7 +2505,7 @@ When ~ is turned face up, Choose one -
     <card>
         <name>Cathedral Evangelist</name>
         <text>Can't be countered
-Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a bleed counter on target creature or player, then put the card back or put it into your graveyard.</text>
+Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a plague counter on target creature or player, then put the card back or put it into your graveyard.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Cleric</type>
@@ -2571,7 +2571,10 @@ Choose one -
     <card>
         <name>Dark Fog</name>
         <text>Enchant player
-Whenever a creature attacks enchanted player, unless that player pays {2} or {G/P}, put a blight counter on it. Then for each blight counter on that creature put a bleed counter it.</text>
+~ enters the battlefield with a number of plague counters equal to the mana spent to cast it.
+Whenever a creature attacks enchanted player put a plague counter on it for each one on ~.
+{G/P}: Add or remove a plague counter from ~.
+When there are no creatures on the battlefield, enchanted player loses life equal to the number of plague counters on ~ then sacrifices it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura Curse</type>
@@ -2652,7 +2655,7 @@ Whenever a bonfire enters the battlefield under your control, you may pay {1}{G}
     <card>
         <name>Festering Goblin</name>
         <text>{T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.
-Whenever ~ becomes tapped put a bleed counter target creature. (As long as a creature has a bleed counter on it that creature has, "If this creature is dealt damage it gets a bleed counter. At the beginning of each endstep deal X damage to this creature where X is the number of bleed counters on it, then remove a bleed counter from it.")</text>
+Whenever ~ becomes tapped put a plague counter target creature. (As long as a creature has a plague counter on it that creature has, "If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.")</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow Goblin</type>
@@ -2667,7 +2670,7 @@ Whenever ~ becomes tapped put a bleed counter target creature. (As long as a cre
     </card>
     <card>
         <name>Gaping Dragon</name>
-        <text>Vigilance, reach, trample, haste, bleed
+        <text>Vigilance, reach, trample, haste, plague
 Whenever ~ deals damage to a player destroy target artifact that player controls.
 {X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.</text>
         <prop><layout>normal</layout>
@@ -2758,7 +2761,7 @@ Pay two souls: Draw a card if an opponent has cast a blue or black spell this tu
             <manacost>{G}</manacost>
             <cmc>1</cmc>
             <colors>G</colors>
-            <pt>0/2</pt>
+            <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="169" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/milfanito.jpeg">DKS</set>
         <tablerow>2</tablerow>
@@ -3070,7 +3073,7 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
             <maintype>Creature</maintype>
             <manacost>{U/R}{U/R}{U/R}</manacost>
             <cmc>3</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="188" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg">DKS</set>
@@ -3078,9 +3081,9 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
     </card>
     <card>
         <name>Baneful Queen, Mytha</name>
-        <text>Deathtouch, bleed
+        <text>Deathtouch, plague
 ~ gets +1/+1 for each card type in your graveyard.
-Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then put a bleed counter on each creature that player controls. Activate this ability only once per turn.</text>
+Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then that permanent's controller puts a plague counter on each creature they control. Activate this ability only once per turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Naga Gorgon</type>
@@ -3096,16 +3099,16 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
     <card>
         <name>Bed of Chaos</name>
         <text>Trample, indestructible
-When ~ enters the battlefield create a 0/1 red Insect creature token named Chaos Bug. When that token leaves the battlefield sacrifice ~.
-At the beginning of your end step each opponent sacrifices a creature or artifact.</text>
+When ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.
+At the beginning of your end step each opponent sacrifices a creature or artifact at random.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Spellshaper Lord</type>
             <maintype>Creature</maintype>
-            <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
-            <cmc>6</cmc>
+            <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
+            <cmc>7</cmc>
             <colors>RB</colors>
-            <pt>8/8</pt>
+            <pt>7/7</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
         <tablerow>2</tablerow>
@@ -3120,7 +3123,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{W/U}{W/U}</manacost>
             <cmc>2</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg">DKS</set>
@@ -3154,7 +3157,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3170,7 +3173,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RGW</colors>
+            <colors>RWG</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3185,7 +3188,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
@@ -3236,7 +3239,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>RBU</colors>
+            <colors>URB</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3253,7 +3256,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>WRGUB</colors>
+            <colors>RBWGU</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3286,7 +3289,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{W}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
@@ -3302,7 +3305,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
@@ -3320,7 +3323,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RWU</colors>
+            <colors>URW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3337,7 +3340,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>BWU</colors>
+            <colors>UWB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3355,7 +3358,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BWU</colors>
+            <colors>UWB</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3373,7 +3376,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>RBW</colors>
+            <colors>RWB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3390,7 +3393,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>RBW</colors>
+            <colors>RWB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3425,7 +3428,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3433,14 +3436,15 @@ When ~ enters the battlefield search your library for a card named "~".</text>
     </card>
     <card>
         <name>Sorcerer's Remedy</name>
-        <text>Remove all bleed counters from you and creatures you control. Draw a card.</text>
+        <text>Remove all plague counters from you and permanents you control.
+Draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{W}{U}</manacost>
-            <cmc>2</cmc>
-            <colors>WU</colors>
+            <manacost>{W/U}</manacost>
+            <cmc>1</cmc>
+            <colors>UW</colors>
         </prop>
         <set rarity="Common" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3522,8 +3526,8 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
     </card>
     <card>
         <name>Bloodbite Ring</name>
-        <text>When this equipment enters the battlefield you remove all bleed counters and create a 1/1 colorless Hollow creature token, then attach this to it.
-Equipped creature has, "You can't get bleed counters. This creature can't have bleed counters placed on it."
+        <text>When this equipment enters the battlefield you remove all plague counters and create a 1/1 colorless Hollow creature token, then attach this to it.
+Equipped creature has, "You can't get plague counters. This creature can't have or get plague counters."
 Equip {1}</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3813,7 +3817,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>WRGUB</colors>
+            <colors>RBWGU</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3926,7 +3930,7 @@ Imbue {1} (Attach this artifact to target equipment, this artifact loses this ab
     <card>
         <name>Uchigatana</name>
         <text>When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-Equipped creature has bleed. (If a creature or player would be dealt damage by a source with bleed, instead that creature or player gets a bleed counter for each damage received)
+Equipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
 Equip {2}</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4264,7 +4268,7 @@ Equip {2}</text>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Token Creature - Insect</type>
+            <type>Legendary Token Creature - Insect</type>
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4471,7 +4475,7 @@ Equip {2}</text>
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg">DKS</set>
