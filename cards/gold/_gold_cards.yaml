@@ -71,7 +71,7 @@ card_baneful_queen_mytha:
     rules_text: |
       Deathtouch, plague
       ~ gets +1/+1 for each card type in your graveyard.
-      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then that permanent's controller puts a plague counter on each creature they control. Activate this ability only once per turn.
+      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Activate this ability only once per turn.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
     artist: "igor grechanyi"
@@ -91,7 +91,7 @@ card_bed_of_chaos:
     rules_text: |
       Trample, indestructible
       When ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.
-      At the beginning of your end step each opponent sacrifices a creature or artifact at random.
+      At the beginning of your end step each opponent sacrifices a nonland permanent at random.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/oniruu/art/Dark-Souls-Bed-of-Chaos-601546590"
     artist: "oniruu"

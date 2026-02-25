@@ -10,7 +10,7 @@ card_abyss_watchers:
     rules_text: |
       First strike, haste
       At the beginning of each end step, if the player whose turn it is doesn't control a nonlegendary creature named "Abyss Watchers", they create a token copy of this creature, except it's not legendary and doesn't have this ability.
-      If ~ would die, exile it instead, \\then return it to the battlefield transformed \\under its owner's control. 
+      If ~ would die, exile it instead, \\then return it to the battlefield transformed \\under its owner's control.
     flavor_text: ""
     artist_url: "https://static.zerochan.net/Abyss.Watchers.full.2137078.jpg"
     artist: "jlien"
@@ -560,7 +560,7 @@ card_soul_of_a_lost_explorer:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {G}. If you do, gain one life and create a treasure token for each permanent spell cast this turn.
+      When ~ enters the battlefield you may pay {G}. If you do, create a treasure token for each permanent spell cast this turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/luis-bello/art/Cotton-clouds-Perspective-585427710"

@@ -432,14 +432,14 @@ card_pesky_mosquito:
 card_permeating_flames:
   front:
     name: "Permeating Flames"
-    cost: "{1}{R}"
+    cost: "{1}{R}{R}"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.
+      At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana cost.
     flavor_text: "The tempestuous raging flames resemble those summoned by the Daughters of Chaos when they challenged the ancient dragons and scorched the very earth."
     artwork_url: "https://i.pinimg.com/736x/6a/c1/e2/6ac1e257131c3627e3af8d302053112e.jpg"
     artist: "malzmonday"

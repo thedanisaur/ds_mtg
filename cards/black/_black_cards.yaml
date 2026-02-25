@@ -142,18 +142,16 @@ card_curse_of_the_dead:
 card_dark_edge:
   front:
     name: "Dark Edge"
-    cost: "{3}{B}{B}"
+    cost: "{2}{B}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
     rarity: "Common"
     rating: 3
     rules_text: |
-      You may pay {B}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.
-      Choose one -
-      • Destroy target nonblack creature. You gain life equal to it's toughness.
-      • Destroy target nonblack planeswalker. You gain life equal to it's loyalty.
-    flavor_text: ""
+      You may pay {1}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.
+      Destroy target creature or planeswalker. That permanent's controller discards a card at random.
+    flavor_text: "A forbidden dark sorcery. The young girl never swung it more than once."
     artwork_url: "https://www.deviantart.com/sarafiel/art/Black-Blade-of-the-Void-579307662"
     artist: "sarafiel"
     number: 89
@@ -547,7 +545,7 @@ card_skim_memories:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Target player reveals his or her hand. You may choose a nonland card. That player discards that card.
+      Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana cost and put it into your hand.
     flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
     artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"
     artist: "mario sanchez nevado"

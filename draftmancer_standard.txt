@@ -546,13 +546,13 @@
     "name": "Dark Edge",
     "super": "",
     "type": "Sorcery",
-    "mana_cost": "{3}{B}{B}",
+    "mana_cost": "{2}{B}{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "You may pay {B}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.\nChoose one -\n\u2022 Destroy target nonblack creature. You gain life equal to it's toughness.\n\u2022 Destroy target nonblack planeswalker. You gain life equal to it's loyalty.\n",
+    "oracle_text": "You may pay {1}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.\nDestroy target creature or planeswalker. That permanent's controller discards a card at random.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/dark_edge.jpeg"
 },
 {
@@ -1137,7 +1137,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, gain one life and create a treasure token for each permanent spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, create a treasure token for each permanent spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/soul_of_a_lost_explorer.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1854,13 +1854,13 @@
     "name": "Permeating Flames",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "{1}{R}",
+    "mana_cost": "{1}{R}{R}",
     "colors": [
         "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Whenever a land enters the battlefield, ~ deals 2 damage to that land's controller.\n",
+    "oracle_text": "At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana cost.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/permeating_flames.jpeg"
 },
 {
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2466,7 +2466,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Target player reveals his or her hand. You may choose a nonland card. That player discards that card.\n",
+    "oracle_text": "Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana cost and put it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/skim_memories.jpeg"
 },
 {
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2672,12 +2672,12 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Deathtouch, plague\n~ gets +1/+1 for each card type in your graveyard.\nPut a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Then that permanent's controller puts a plague counter on each creature they control. Activate this ability only once per turn.\n",
+    "oracle_text": "Deathtouch, plague\n~ gets +1/+1 for each card type in your graveyard.\nPut a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Activate this ability only once per turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg"
 },
 {
@@ -2686,12 +2686,12 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Trample, indestructible\nWhen ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.\nAt the beginning of your end step each opponent sacrifices a creature or artifact at random.\n",
+    "oracle_text": "Trample, indestructible\nWhen ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.\nAt the beginning of your end step each opponent sacrifices a nonland permanent at random.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg"
 },
 {
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
+        "G",
         "R",
-        "G"
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2811,8 +2811,8 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
         "B",
+        "R",
         "W"
     ],
     "rarity": "rare",
@@ -2825,8 +2825,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
             "B",
+            "R",
             "W"
         ],
         "rarity": "",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
+        "G",
         "B",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3046,7 +3046,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "First strike, haste\nAt the beginning of each end step, if the player whose turn it is doesn't control a nonlegendary creature named \"Abyss Watchers\", they create a token copy of this creature, except it's not legendary and doesn't have this ability.\nIf ~ would die, exile it instead, \\\\then return it to the battlefield transformed \\\\under its owner's control. \n",
+    "oracle_text": "First strike, haste\nAt the beginning of each end step, if the player whose turn it is doesn't control a nonlegendary creature named \"Abyss Watchers\", they create a token copy of this creature, except it's not legendary and doesn't have this ability.\nIf ~ would die, exile it instead, \\\\then return it to the battlefield transformed \\\\under its owner's control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_front.jpeg",
     "back": {
         "name": "Undead Legion",
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "W",
-        "B",
         "U",
+        "G",
         "R",
-        "G"
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "W",
-        "B",
         "U",
+        "G",
         "R",
-        "G"
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B",
         "U",
+        "G",
         "R",
-        "G"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B",
         "U",
+        "G",
         "R",
-        "G"
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
