@@ -49,9 +49,9 @@ card_archdeacon_of_the_deep:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      Other Wizards you control get +1/+1 and have prowess.
-      Whenever a Wizard you control dies you get one soul.
-      Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token.
+      Other Wizards you control get +1/+1.
+      Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+      Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token with prowess.
     flavor_text: "The deacons were once keepers of the dead, until the Deep began to whisper. Now they serve a saint whose hunger made a god of him."
     artwork_url: "https://www.deviantart.com/underpable/art/Deacons-Of-The-Deep-673135098"
     artist: "underpable"
@@ -71,7 +71,7 @@ card_baneful_queen_mytha:
     rules_text: |
       Deathtouch, plague
       ~ gets +1/+1 for each card type in your graveyard.
-      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Activate this ability only once per turn.
+      Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana value 3 or less. Activate this ability only once per turn.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/67fLp3dq/baneful-queen-igor-grechanyi-resize.jpg"
     artist: "igor grechanyi"
@@ -105,7 +105,7 @@ card_blade_of_the_darkmoon:
     cost: "{W/U}{W/U}"
     super: ""
     type: "Creature"
-    sub: "Knight"
+    sub: "Sprit Knight"
     rarity: "Uncommon"
     rating: 1
     rules_text: |
@@ -299,8 +299,8 @@ card_iudex_gundyr:
     rarity: "Rare"
     rating: 1
     rules_text: |
-      When ~ enters the battlefield, you get two souls and you lose 2 life.
-      At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana cost.
+      When ~ enters the battlefield, you get two souls.
+      At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana value.
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: "Gundyr became a sheath to a coiled sword in the hopes that someday, the first flame would be linked once more. "
     artwork_url: "https://i.ibb.co/j9sdRj4K/iudex-gundyr-oniruu.jpg"
@@ -417,7 +417,7 @@ card_knight_lautrec:
     rarity: ""
     rules_text: |
       When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.
-      Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
     flavor_text: "It is a terrible pity. Like a moth flittering towards a flame. You fellows... No. Don't you agree?"
     artwork_url: "https://i.ibb.co/CKHJnYNH/knight-lautrec-jdeberge-back-resize.jpg"
     artist: "jdeberge"

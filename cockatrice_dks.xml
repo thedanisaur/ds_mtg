@@ -41,11 +41,11 @@
         <text>{1}{U}, pay one soul: Draw a card, then discard a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature - Spirit</type>
+            <type>Creature - Hag</type>
             <maintype>Creature</maintype>
-            <manacost>{2}</manacost>
-            <cmc>2</cmc>
-            <pt>2/2</pt>
+            <manacost>{1}</manacost>
+            <cmc>1</cmc>
+            <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="3" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/colorless/dreg_hollow_merchant.jpeg">DKS</set>
         <tablerow>2</tablerow>
@@ -83,8 +83,8 @@ Discard ~: Exile up to two target cards in graveyards.</text>
     </card>
     <card>
         <name>Pyrewarden of the Things Betwixt</name>
-        <text>Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana cost.
-{T}: Reveal the top card of your library. You may pay souls equal to that card's mana cost and put it in your hand. If you don't put that card into your graveyard.</text>
+        <text>Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana value.
+{T}: Reveal the top card of your library. You may pay souls equal to that card's mana value and put it in your hand. If you don't put that card into your graveyard.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hag</type>
@@ -99,7 +99,7 @@ Discard ~: Exile up to two target cards in graveyards.</text>
     <card>
         <name>Sif, the Great Grey Wolf</name>
         <text>Vigilance
-When ~ enters the battlefield search your library for an equipment card with mana cost three or less and put it onto the battlefield. Then shuffle your library.
+When ~ enters the battlefield search your library for an equipment card with mana value three or less and put it onto the battlefield. Then shuffle your library.
 {1}{W}: Attach target equipment to ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -178,7 +178,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
     <card>
         <name>Hollow Bride</name>
         <text>Spells your opponents control cost {1} more to cast.
-Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
+Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Legendary Creature - Hollow</type>
@@ -352,7 +352,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</tex
         <name>Infested Corpse</name>
         <text>Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
 Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-When ~ is turned face up it becomes a 3/1 and gains haste</text>
+When ~ is turned face up it becomes 3/1 and gains haste.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow</type>
@@ -368,7 +368,7 @@ When ~ is turned face up it becomes a 3/1 and gains haste</text>
     <card>
         <name>Insolent Spirits</name>
         <text>Shadow (This creature can block or be blocked by only creatures with shadow.)
-Equip costs you pay cost {1} less.</text>
+Other spirits you control get +1/+1 and have shadow.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Spirit</type>
@@ -414,7 +414,7 @@ When ~ enters the battlefield exile target card from a graveyard.</text>
     <card>
         <name>Magic Barrier</name>
         <text>When you cast this spell you may pay {W} if you do draw a card.
-Return target spell to its owner's hand. You get soul's equal to that spells converted mana cost.</text>
+Return target spell to its owner's hand. You get souls equal to that spell's mana value.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -429,7 +429,7 @@ Return target spell to its owner's hand. You get soul's equal to that spells con
     <card>
         <name>Miracle of the Way of White</name>
         <text>As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.
-Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
+Exile target creature or planeswalker. It's controller gains life equal to its mana value.
 Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -559,7 +559,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
     </card>
     <card>
         <name>Knight of Catarina</name>
-        <text>Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
+        <text>Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Legendary Creature - Hollow</type>
@@ -713,12 +713,12 @@ Equipped creatures you control get +1/+1.</text>
     </card>
     <card>
         <name>Vow of Silence</name>
-        <text>Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and creatures can't be turned face up this turn.</text>
+        <text>Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and cards can't be turned face up this turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{W}{W}</manacost>
+            <manacost>{1}{W}</manacost>
             <cmc>2</cmc>
             <colors>W</colors>
         </prop>
@@ -743,7 +743,7 @@ Create a 2/1 white Human Ally creature token. It has lifelink.</text>
     </card>
     <card>
         <name>Wight</name>
-        <text>{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's converted mana cost.</text>
+        <text>{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's mana value.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Spirit</type>
@@ -853,8 +853,8 @@ Whenever you cast a spell tap target permanent. If that permanent was already ta
     </card>
     <card>
         <name>Burning Ambition</name>
-        <text>As an additional cost to cast ~ pay X souls.
-Gain control of target creature or artifact with mana cost equal to X.</text>
+        <text>You get one soul, then you may pay any number of souls.
+Gain control of target creature or artifact with mana value less than or equal to the number of souls paid this way.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -868,7 +868,7 @@ Gain control of target creature or artifact with mana cost equal to X.</text>
     </card>
     <card>
         <name>Chameleon</name>
-        <text>Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana cost. (Turn it face up any time for its chameleon cost.)"</text>
+        <text>Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana value. (Turn it face up any time for its chameleon cost.)"</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1003,7 +1003,7 @@ Draw a card.</text>
     </card>
     <card>
         <name>Into the Abyss</name>
-        <text>{U}{U}{U}: You get three souls. Shuffle your library then exile the top card. You may pay a number of souls equal to that card's converted mana cost. If you do, play that card wihout paying it's mana cost.</text>
+        <text>{U}{U}{U}: You get three souls. Exile the top card of your library. You may pay a number of souls equal to that card's mana value. If you do, play that card wihout paying it's mana cost.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -1033,7 +1033,7 @@ If ~ leaves the battlefield, draw a card and you get one soul.</text>
     </card>
     <card>
         <name>Lost spell from Oolacile</name>
-        <text>Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's converted mana cost. If you do counter that spell.</text>
+        <text>Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's mana value. If you do counter that spell.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1233,8 +1233,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
     </card>
     <card>
         <name>Soul Stream</name>
-        <text>As and additional cost to cast ~ pay X souls.
-Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls spent to cast ~.</text>
+        <text>Pay X souls, then target player puts the top X cards from his or her library into his or her graveyard where X is four times the number of souls paid.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -1288,7 +1287,7 @@ If you paid mana to cast this spell choose two, otherwise choose one -
         <name>Wall Spectre</name>
         <text>You may cast this spell any time you could cast an instant.
 Shadow (This creature can block or be blocked by only creatures with shadow.)
-Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.</text>
+Whenever ~ deals damage to a player cast up to one target instant or sorcery card with mana value less than or equal to ~'s power from your graveyard. Then exile it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Spirit</type>
@@ -1303,7 +1302,7 @@ Whenever ~ deals damage to a player cast up to one target instant or sorcery car
     </card>
     <card>
         <name>A Hero Gone Mad</name>
-        <text>Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.</text>
+        <text>Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana value.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -1457,7 +1456,7 @@ Destroy target creature or planeswalker. That permanent's controller discards a 
     <card>
         <name>Dark Sigil</name>
         <text>Enchant player
-Whenever a creature enchanted player controls dies, they draw a card and put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.
+Whenever a creature enchanted player controls dies put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.
 Sacrifice a creature: Draw a card for each hollowing counter on ~. Only the enchanted player may activate this ability.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1646,7 +1645,7 @@ Other Hollow creatures you control get +1/+1</text>
     <card>
         <name>Lordran Necromancer</name>
         <text>{1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
-Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do you get one soul and draw a card.</text>
+Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do, you get one soul and draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow Zombie Wizard</type>
@@ -1709,8 +1708,8 @@ Pay two souls: Draw a card. Then you lose life equal to the number of souls you 
     </card>
     <card>
         <name>Resonant Soul</name>
-        <text>As you cast this spell pay any number of souls.
-~ deals damage equal to the number of souls paid as you cast this spell plus 2 to any target.</text>
+        <text>You get two souls, then you may pay any number of souls.
+~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -1769,7 +1768,7 @@ You draw X cards, lose X life, and get X souls.</text>
     </card>
     <card>
         <name>Skim Memories</name>
-        <text>Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana cost and put it into your hand.</text>
+        <text>Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana value and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -2050,7 +2049,7 @@ Until end of turn, target creature gains haste, can't be blocked except by two o
     </card>
     <card>
         <name>Firekeeper</name>
-        <text>{T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+        <text>{T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana value. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
 {R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.
 {U/R}, {T}: Creatures you control gain haste and prowess until end of turn.</text>
         <prop><layout>normal</layout>
@@ -2223,7 +2222,7 @@ Sacrifice ~: ~ deals damage to any target equal to the number of charge counters
     </card>
     <card>
         <name>Permeating Flames</name>
-        <text>At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana cost.</text>
+        <text>At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana value.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -2304,7 +2303,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
     <card>
         <name>Rosaria's Finger</name>
         <text>When this creature enters the battlefield, you get three souls.
-Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
+Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Legendary Creature - Hollow</type>
@@ -2404,7 +2403,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
     </card>
     <card>
         <name>Lapp</name>
-        <text>Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
+        <text>Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Legendary Creature - Hollow</type>
@@ -2460,7 +2459,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -2702,7 +2701,7 @@ Whenever you play a land, if it's the second land you've played this turn put a 
     </card>
     <card>
         <name>Hollow Knight</name>
-        <text>When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do search your library for a basic land card and put it into your hand.
+        <text>When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do return another target card from your graveyard to your hand.
 {1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2783,7 +2782,7 @@ Whenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5
     <card>
         <name>Pagan Tree</name>
         <text>Pay two souls: Put an effigy counter on target permanent.
-Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} where X is this spell's converted mana cost rather than pay this spell's mana cost". Add {G}{G}.
+Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} where X is this spell's mana value rather than pay this spell's mana cost". Add {G}{G}.
 Sacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2799,7 +2798,7 @@ Sacrifice ~: Search your library for a creature, land, or enchantment card. Reve
     <card>
         <name>Petrifying Statue</name>
         <text>~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana cost, sacrifice it. Otherwise remove a petrification counter from it."</text>
+Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana value, sacrifice it. Otherwise remove a petrification counter from it."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Golem Lizard</type>
@@ -2866,14 +2865,14 @@ When ~ enters the battlefield search your library for a basic land card, reveal 
     </card>
     <card>
         <name>Seek Embers</name>
-        <text>You may pay any amount of additional mana and/or souls as you cast ~.
-Search your library for a creature or planeswalker card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.</text>
+        <text>As you cast ~, each soul you pay will pay for {1}.
+Search your library for a creature or planeswalker card with mana value less than or equal to the cost paid to cast ~, reveal that card and put it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{G}</manacost>
-            <cmc>1</cmc>
+            <manacost>{X}{G}</manacost>
+            <cmc>2</cmc>
             <colors>G</colors>
         </prop>
         <set rarity="Uncommon" num="176" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/seek_embers.jpeg">DKS</set>
@@ -2997,7 +2996,7 @@ When ~ is turned face up search your library for a creature or enchantment card.
     <card>
         <name>Warp the Land</name>
         <text>You may pay three souls rather than pay this spell's mana cost.
-Search your library for a forest card, put that card onto the battlefield tapped. If you cast this spell without paying its mana cost, untap that land.</text>
+Search your library for a forest card, put that card onto the battlefield tapped then shuffle your library. If you cast this spell without paying its mana cost, untap that land.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -3037,7 +3036,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
@@ -3054,7 +3053,7 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg">DKS</set>
@@ -3062,9 +3061,9 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
     </card>
     <card>
         <name>Archdeacon of the Deep</name>
-        <text>Other Wizards you control get +1/+1 and have prowess.
-Whenever a Wizard you control dies you get one soul.
-Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token.</text>
+        <text>Other Wizards you control get +1/+1.
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token with prowess.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wizard</type>
@@ -3081,14 +3080,14 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
         <name>Baneful Queen, Mytha</name>
         <text>Deathtouch, plague
 ~ gets +1/+1 for each card type in your graveyard.
-Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana cost 3 or less. Activate this ability only once per turn.</text>
+Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana value 3 or less. Activate this ability only once per turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Naga Gorgon</type>
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3105,7 +3104,7 @@ At the beginning of your end step each opponent sacrifices a nonland permanent a
             <maintype>Creature</maintype>
             <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
@@ -3117,11 +3116,11 @@ At the beginning of your end step each opponent sacrifices a nonland permanent a
 Whenever a creature named "Red Phantom" dies draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature - Knight</type>
+            <type>Creature - Sprit Knight</type>
             <maintype>Creature</maintype>
             <manacost>{W/U}{W/U}</manacost>
             <cmc>2</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/blade_of_the_darkmoon.jpeg">DKS</set>
@@ -3137,7 +3136,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{B/R}</manacost>
             <cmc>1</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg">DKS</set>
@@ -3155,7 +3154,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3171,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WRG</colors>
+            <colors>GRW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3186,7 +3185,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
@@ -3203,7 +3202,7 @@ Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more 
             <maintype>Creature</maintype>
             <manacost>{3}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>7/4</pt>
         </prop>
         <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
@@ -3221,7 +3220,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
@@ -3237,7 +3236,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>RUB</colors>
+            <colors>BRU</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3254,7 +3253,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>WRGUB</colors>
+            <colors>GRWBU</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3270,7 +3269,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3278,8 +3277,8 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
     </card>
     <card>
         <name>Iudex Gundyr</name>
-        <text>When ~ enters the battlefield, you get two souls and you lose 2 life.
-At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana cost.
+        <text>When ~ enters the battlefield, you get two souls.
+At the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana value.
 If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.</text>
         <prop><layout>transform</layout>
             <side>front</side>
@@ -3287,7 +3286,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{W}{B}</manacost>
             <cmc>2</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
@@ -3303,7 +3302,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
@@ -3338,7 +3337,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>WUB</colors>
+            <colors>BUW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3356,7 +3355,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WUB</colors>
+            <colors>BUW</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3374,7 +3373,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>WRB</colors>
+            <colors>BRW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3384,14 +3383,14 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
     <card>
         <name>Favored Knight</name>
         <text>When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.
-Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
+Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)</text>
         <prop><layout>transform</layout>
             <side>front</side>
             <type>Legendary Creature - Hollow</type>
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WRB</colors>
+            <colors>BRW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3409,7 +3408,7 @@ Kindle (You may pay a number of souls equal to this card's converted mana cost, 
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <loyalty>4</loyalty>
         </prop>
         <set rarity="Mythic" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg">DKS</set>
@@ -3426,7 +3425,7 @@ When ~ enters the battlefield search your library for a card named "~".</text>
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3442,7 +3441,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
         </prop>
         <set rarity="Common" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/sorcerers_remedy.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3456,7 +3455,7 @@ Draw a card.</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
         </prop>
         <set rarity="Uncommon" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3472,7 +3471,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{R}{B}</manacost>
             <cmc>2</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
         </prop>
         <set rarity="Uncommon" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3487,7 +3486,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3503,7 +3502,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>RGB</colors>
+            <colors>GBR</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3815,7 +3814,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>WRGUB</colors>
+            <colors>GRWBU</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4070,7 +4069,7 @@ Equip {2}</text>
         <name>Firelink Shrine</name>
         <text>~ enters the battlefield tapped unless you control another bonfire.
 {T}: Add one mana of any color.
-{T}: Return target creature card from your graveyard with converted mana cost less than or equal to the number of souls you have to the battlefield under your control. You lose all souls.</text>
+{T}: Return target creature card from your graveyard with mana value less than or equal to the number of souls you have to the battlefield under your control. You lose all souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Land - Bonfire</type>

@@ -8,7 +8,7 @@ card_a_hero_gone_mad:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana cost.
+      Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana value.
     flavor_text: "I can feel it... ever so slowly, I'm slipping... into the darkness..."
     artwork_url: "https://i.ibb.co/MxybRPD8/a-hero-gone-mad-lavilvile.jpg"
     artist: "lavilvile"
@@ -182,7 +182,7 @@ card_dark_sigil:
     rarity: "Rare"
     rules_text: |
       Enchant player
-      Whenever a creature enchanted player controls dies, they draw a card and put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.
+      Whenever a creature enchanted player controls dies put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.
       Sacrifice a creature: Draw a card for each hollowing counter on ~. Only the enchanted player may activate this ability.
     flavor_text: "The darkness of humanity seeps from this bottomless pitch-back hole, the gap filled by the accumulation of the curse."
     artwork_url: "https://i.ibb.co/xKVw3fCc/dark-sigil-kakeranoumi-recolor.jpg"
@@ -402,7 +402,7 @@ card_lordran_necromancer:
     rating: 2
     rules_text: |
       {1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.
-      Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do you get one soul and draw a card.
+      Whenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do, you get one soul and draw a card.
     flavor_text: "With lanterns lit by cursed flame, they bind bones to soul and soul to flame."
     artwork_url: "https://www.deviantart.com/jasonengle/art/Dar-Thul-Raiser-of-the-dead-622493220"
     artist: "jasonengle"
@@ -476,8 +476,8 @@ card_resonant_soul:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      As you cast this spell pay any number of souls.
-      ~ deals damage equal to the number of souls paid as you cast this spell plus 2 to any target.
+      You get two souls, then you may pay any number of souls.
+      ~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.
     flavor_text: "The pilgrims of the gulch distort the power of life with hexes that would mortify clerics."
     artwork_url: "https://i.pinimg.com/736x/30/9c/1e/309c1e857a4a181c054f345b42d54e26.jpg"
     artist: "fromsoft"
@@ -545,7 +545,7 @@ card_skim_memories:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana cost and put it into your hand.
+      Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana value and put it into your hand.
     flavor_text: "Eventually you'll go hollow. Losing all memories, identity, and your soul."
     artwork_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/deliberation-mario-sanchez-nevado.jpg"
     artist: "mario sanchez nevado"

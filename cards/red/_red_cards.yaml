@@ -241,7 +241,7 @@ card_firekeeper:
     rarity: "Common"
     rating: 1
     rules_text: |
-      {T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana cost. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+      {T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana value. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
       {R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.
       {U/R}, {T}: Creatures you control gain haste and prowess until end of turn.
     flavor_text: "Very well. Then touch the darkness within me."
@@ -439,7 +439,7 @@ card_permeating_flames:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana cost.
+      At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana value.
     flavor_text: "The tempestuous raging flames resemble those summoned by the Daughters of Chaos when they challenged the ancient dragons and scorched the very earth."
     artwork_url: "https://i.pinimg.com/736x/6a/c1/e2/6ac1e257131c3627e3af8d302053112e.jpg"
     artist: "malzmonday"
@@ -528,7 +528,7 @@ card_ringfinger_leonhard:
     rarity: ""
     rules_text: |
       When this creature enters the battlefield, you get three souls.
-      Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
     flavor_text: "Come on, give yourself to Rosaria, of the Cathedral of the Deep."
     artwork_url: "https://i.ibb.co/fVTS3ySK/ringfinger-leonhard-back-estuschan-resized.jpg"
     artist: "Estuschan"
@@ -645,7 +645,7 @@ card_unbreakable_patches:
     type: "Creature"
     sub: "Hollow"
     rarity: ""
-    rules_text: "Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)"
+    rules_text: "Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)"
     flavor_text: "...What did I come here in search of?"
     artwork_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96fe25a2-a5ae-4dda-a10d-e08106e947a5/db473zy-274e3ad3-0cf6-4e82-a24e-1ec3863ca8fb.jpg/v1/fill/w_1024,h_732,q_75,strp/daily_sketch__030_by_sethnemo_db473zy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvOTZmZTI1YTItYTVhZS00ZGRhLWExMGQtZTA4MTA2ZTk0N2E1XC9kYjQ3M3p5LTI3NGUzYWQzLTBjZjYtNGU4Mi1hMjRlLTFlYzM4NjNjYThmYi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KZYwePPhDWp8MVbtEYqBdMCU--gxIBGxbR-zy7kC4lc"
     artist: "Seth Nemo"

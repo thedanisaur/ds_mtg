@@ -38,10 +38,10 @@ card_covetous_demon:
 card_dreg_hollow_merchant:
   front:
     name: "Dreg-Hollow Merchant"
-    cost: "{2}"
+    cost: "{1}"
     super: ""
     type: "Creature"
-    sub: "Spirit"
+    sub: "Hag"
     rarity: "Common"
     rating: 2
     rules_text: |
@@ -50,8 +50,8 @@ card_dreg_hollow_merchant:
     artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/aa/DARK_SOULS%E2%84%A2_II_Scholar_of_the_First_Sin_20151026000408.jpg/revision/latest/scale-to-width-down/1000?cb=20151028141607"
     artist: "fromsoft"
     number: 3
-    power: 2
-    toughness: 2
+    power: 1
+    toughness: 1
 
 card_four_kings:
   front:
@@ -102,8 +102,8 @@ card_pyrewarden_of_the_things_betwixt:
     rarity: "Common"
     rating: 4
     rules_text: |
-      Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana cost.
-      {T}: Reveal the top card of your library. You may pay souls equal to that card's mana cost and put it in your hand. If you don't put that card into your graveyard.
+      Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana value.
+      {T}: Reveal the top card of your library. You may pay souls equal to that card's mana value and put it in your hand. If you don't put that card into your graveyard.
     flavor_text: "One day, you will stand before a decrepit gate. Without really knowing why..."
     artwork_url: "https://64.media.tumblr.com/df0b1ea4c5d4ffb419df4e89a9f11a27/tumblr_ne0p1yoJw61s7nd13o1_640.jpg"
     artist: "John Devlin"
@@ -122,7 +122,7 @@ card_sif_the_great_grey_wolf:
     rating: 2
     rules_text: |
       Vigilance
-      When ~ enters the battlefield search your library for an equipment card with mana cost three or less and put it onto the battlefield. Then shuffle your library.
+      When ~ enters the battlefield search your library for an equipment card with mana value three or less and put it onto the battlefield. Then shuffle your library.
       {1}{W}: Attach target equipment to ~.
     flavor_text: "The sorrow in Sif's eyes reflect a tragic loyalty beyond death."
     artwork_url: "https://i.ibb.co/39LMJ0r0/sif-anatofinnstark.jpg"

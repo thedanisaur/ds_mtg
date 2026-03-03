@@ -119,8 +119,8 @@ card_burning_ambition:
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      As an additional cost to cast ~ pay X souls.
-      Gain control of target creature or artifact with mana cost equal to X.
+      You get one soul, then you may pay any number of souls.
+      Gain control of target creature or artifact with mana value less than or equal to the number of souls paid this way.
     flavor_text: "My knights are never far from my gaze."
     artwork_url: "https://i.ibb.co/c9zsf4w/burning-ambition-dvktheartist.jpg"
     artist: "dvktheartist"
@@ -136,7 +136,7 @@ card_chameleon:
     rarity: "Common"
     rating: 1
     rules_text: |
-      Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana cost. (Turn it face up any time for its chameleon cost.)"
+      Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains "Chameleon {X}, where X is it's mana value. (Turn it face up any time for its chameleon cost.)"
     flavor_text: "Those who fear the unseen are cowards. Those who never doubt their eyes are fools."
     artwork_url: "https://i.ibb.co/sJVmxbZz/chameleon-romandubina-resize.jpg"
     artist: "romandubina"
@@ -291,7 +291,7 @@ card_into_the_abyss:
     rarity: "Mythic"
     rating: 0
     rules_text: |
-      {U}{U}{U}: You get three souls. Shuffle your library then exile the top card. You may pay a number of souls equal to that card's converted mana cost. If you do, play that card wihout paying it's mana cost.
+      {U}{U}{U}: You get three souls. Exile the top card of your library. You may pay a number of souls equal to that card's mana value. If you do, play that card wihout paying it's mana cost.
     flavor_text: "Even now, there are only embers, and man sees not light, but only endless nights."
     artwork_url: "https://www.deviantart.com/nahelus/art/Manus-father-of-the-abyss-Dark-souls-fan-art-345724622"
     artist: "nahelus"
@@ -325,7 +325,7 @@ card_lost_spell_from_oolacile:
     sub: ""
     rarity: "Common"
     rating: 4
-    rules_text: "Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's converted mana cost. If you do counter that spell."
+    rules_text: "Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's mana value. If you do counter that spell."
     flavor_text: "A closely-guarded spell that contorts the very fabric of fundamental laws, negating magic by denying its claim to physicality."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Spitpaint-Shield-Generator-2-870637313"
     artist: "cobaltplasma"
@@ -553,8 +553,7 @@ card_soul_stream:
     rarity: "Rare"
     rating: 0
     rules_text: |
-      As and additional cost to cast ~ pay X souls.
-      Target player puts the top X cards from his or her library into his or her graveyard where X is three times the number of souls spent to cast ~.
+      Pay X souls, then target player puts the top X cards from his or her library into his or her graveyard where X is four times the number of souls paid.
     flavor_text: "The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince."
     artwork_url: "https://i.ibb.co/1YFzRvhK/arcane-blast-by-morkardfc-damygij-pre.jpg"
     artist: "morkardfc"
@@ -615,7 +614,7 @@ card_wall_spectre:
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with converted mana cost less than or equal to ~'s power from your graveyard. Then exile it.
+      Whenever ~ deals damage to a player cast up to one target instant or sorcery card with mana value less than or equal to ~'s power from your graveyard. Then exile it.
     flavor_text: "It is said that their scream attracts other ghosts, but their red eyes know you will die before any arrive."
     artwork_url: "https://i.ibb.co/HLRwg47x/wall-sprectre-adadia-resize.jpg"
     artist: "adadia"

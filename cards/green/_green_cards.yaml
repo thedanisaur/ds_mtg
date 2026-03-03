@@ -315,7 +315,7 @@ card_hollow_knight:
     rarity: "Common"
     rating: 1
     rules_text: |
-      When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do search your library for a basic land card and put it into your hand.
+      When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do return another target card from your graveyard to your hand.
       {1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.
     flavor_text: "Though Hollow, the Alonne Knights remained honorable, choosing to die with blade in hand, rather than fade in despair."
     artwork_url: "https://i.ibb.co/HLzWhVJH/hollow-knight-tithendar-resize.jpg"
@@ -410,7 +410,7 @@ card_pagan_tree:
     rating: 3
     rules_text: |
       Pay two souls: Put an effigy counter on target permanent.
-      Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} where X is this spell's converted mana cost rather than pay this spell's mana cost". Add {G}{G}.
+      Remove an effigy counter from ~: Until end of turn spells you cast gain, "You may pay {X} where X is this spell's mana value rather than pay this spell's mana cost". Add {G}{G}.
       Sacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.
     flavor_text: "Its bark is not wood. Its roots are not soil. It grew from something forgotten... and someone."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/493/032/large/glenn-porter-waypoint-medium.jpg?1585959117"
@@ -428,7 +428,7 @@ card_petrifying_statue:
     rating: 2
     rules_text: |
       ~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-      Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana cost, sacrifice it. Otherwise remove a petrification counter from it."
+      Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana value, sacrifice it. Otherwise remove a petrification counter from it."
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"
@@ -499,15 +499,15 @@ card_ravenous_crystal_lizard:
 card_seek_embers:
   front:
     name: "Seek Embers"
-    cost: "{G}"
+    cost: "{X}{G}"
     super: ""
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
     rating: 1
     rules_text: |
-      You may pay any amount of additional mana and/or souls as you cast ~.
-      Search your library for a creature or planeswalker card with converted mana cost less than or equal to the sum of both mana and souls you paid as you cast ~, reveal that card and put it into your hand.
+      As you cast ~, each soul you pay will pay for {1}.
+      Search your library for a creature or planeswalker card with mana value less than or equal to the cost paid to cast ~, reveal that card and put it into your hand.
     flavor_text: "And so it is… that ash seeketh embers"
     artwork_url: "https://i.ibb.co/BK2zwHbv/seek-embers-pitchcha-resize.jpg"
     artist: "pitchcha"
@@ -657,7 +657,7 @@ card_warp_the_land:
     rating: 2
     rules_text: |
       You may pay three souls rather than pay this spell's mana cost.
-      Search your library for a forest card, put that card onto the battlefield tapped. If you cast this spell without paying its mana cost, untap that land.
+      Search your library for a forest card, put that card onto the battlefield tapped then shuffle your library. If you cast this spell without paying its mana cost, untap that land.
     flavor_text: "Ashen one these are not the ruins of the world—they are what's left of your memories."
     artwork_url: "https://i.ibb.co/Y7dtVwgp/warp-the-land-red-bubble-resize.jpg"
     artist: "redbubble"

@@ -28,7 +28,7 @@ card_anri_of_astora:
     rarity: ""
     rules_text: |
       Spells your opponents control cost {1} more to cast.
-      Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
     flavor_text: "Oh, Horace, everyone, forgive me. I was weak on my own."
     number: 11
     artwork_url: "https://i.ibb.co/RG41zwzK/oscar-of-astora-back-theknightstars-resize.jpg"
@@ -228,7 +228,7 @@ card_infested_corpse:
     rules_text: |
       Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
       Chameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-      When ~ is turned face up it becomes a 3/1 and gains haste
+      When ~ is turned face up it becomes 3/1 and gains haste.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rftTkQ4w/infested-corpse-cucdn-resize.jpg"
     artist: "cucdn"
@@ -247,7 +247,7 @@ card_insolent_spirits:
     rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Equip costs you pay cost {1} less.
+      Other spirits you control get +1/+1 and have shadow.
     flavor_text: "A party who long ago attempted to conquer the Undead Crypt. For this sin their deaths have been postponed, so they may serve as crypt sentries."
     artwork_url: "https://i.ibb.co/60fvgpZ7/insolent-spirits-datguy13-resize.jpg"
     artist: "datguy13"
@@ -301,7 +301,7 @@ card_magic_barrier:
     rating: 2
     rules_text: |
       When you cast this spell you may pay {W} if you do draw a card.
-      Return target spell to its owner's hand. You get soul's equal to that spells converted mana cost.
+      Return target spell to its owner's hand. You get souls equal to that spell's mana value.
     flavor_text: "It became necessary for even simple clerics to have some means of opposing magic."
     artwork_url: "https://i.ibb.co/kVCszZpr/magic-barrier-eluria14.jpg"
     artist: "eluria14"
@@ -318,7 +318,7 @@ card_miracle_of_the_way_of_white:
     rating: 5
     rules_text: |
       As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.
-      Exile target creature or planeswalker. It's controller gains life equal to its mana cost.
+      Exile target creature or planeswalker. It's controller gains life equal to its mana value.
       Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "Those who yearned for the long-lost aureoles fully believed that they would return, one day."
     artwork_url: "https://i.ibb.co/jPNdq1Ws/miracle-of-the-way-of-white-dnd-recolor.jpg"
@@ -464,7 +464,7 @@ card_siegmeyer_of_catarina:
     type: "Creature"
     sub: "Hollow"
     rarity: ""
-    rules_text: "Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)"
+    rules_text: "Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)"
     flavor_text: "Forgive me, old friend. I've failed, in everything."
     artwork_url: "https://i.ibb.co/bg8BRC49/siegmeyer-of-catarina-back-arkaimk-resize.png"
     artist: "arkaimk"
@@ -636,13 +636,13 @@ card_village_blacksmith:
 card_vow_of_silence:
   front:
     name: "Vow of Silence"
-    cost: "{W}{W}"
+    cost: "{1}{W}"
     super: ""
     type: "Instant"
     sub: ""
     rarity: "Rare"
     rating: 1
-    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and creatures can't be turned face up this turn."
+    rules_text: "Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and cards can't be turned face up this turn."
     flavor_text: "Velka, the Goddess of Sin, is a rogue deity, and her followers are few, but they see their path clearly."
     artwork_url: "https://www.deviantart.com/alaiaorax/art/Silence-your-mind-655938148"
     artist: "alaiaorax"
@@ -675,7 +675,7 @@ card_wight:
     sub: "Human Spirit"
     rarity: "Uncommon"
     rating: 2
-    rules_text: "{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's converted mana cost."
+    rules_text: "{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's mana value."
     flavor_text: "They do not speak, only sing — a hymn not of worship, but of remembrance.  "
     artwork_url: "https://i.ibb.co/rRs2LpxF/white-phantom-resize.jpg"
     artist: "adadia"
