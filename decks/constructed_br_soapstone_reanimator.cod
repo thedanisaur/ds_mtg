@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Thu Mar 5 14:28:15 2026</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="4" name="Fiery Soapstone"/>
+        <card number="4" name="Unkindled's Journey"/>
+        <card number="4" name="Sunlight Maggot"/>
+        <card number="4" name="Fire Orb"/>
+        <card number="4" name="Demon Cleric"/>
+        <card number="4" name="Parasite Worm"/>
+        <card number="4" name="Something Petrified"/>
+        <card number="4" name="Chasm Giant"/>
+        <card number="4" name="Gael, Seeker of Ash"/>
+        <card number="4" name="Lost Izalith"/>
+        <card number="4" name="Comforting Fire"/>
+        <card number="2" name="Firelink Shrine"/>
+        <card number="3" name="Skim Memories"/>
+        <card number="4" name="Grave Warden's Tome"/>
+        <card number="4" name="Mountain - DKS" setShortName="DKS" collectorNumber="259"/>
+        <card number="3" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
+    </zone>
+    <zone name="side">
+        <card number="4" name="Chaos Storm"/>
+        <card number="1" name="Skim Memories"/>
+        <card number="4" name="Soul Syphoner"/>
+        <card number="3" name="Firesage Demon"/>
+        <card number="3" name="Clawed Curse"/>
+    </zone>
+</cockatrice_deck>

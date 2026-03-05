@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Sat Jan 3 23:21:37 2026</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Thu Mar 5 14:30:40 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -17,12 +17,13 @@
         <card number="4" name="Aural Decoy" setShortName="DKS" collectorNumber="50"/>
         <card number="4" name="Dual Charm" setShortName="DKS" collectorNumber="55"/>
         <card number="4" name="Lost spell from Oolacile" setShortName="DKS" collectorNumber="64"/>
-        <card number="2" name="Cathedral of Blue" setShortName="DKS" collectorNumber="244"/>
+        <card number="1" name="Cathedral of Blue" setShortName="DKS" collectorNumber="244"/>
         <card number="4" name="Cathedral of the Deep" setShortName="DKS" collectorNumber="245"/>
         <card number="2" name="Comforting Fire" setShortName="DKS" collectorNumber="246"/>
         <card number="4" name="The Fire Fades" setShortName="DKS" collectorNumber="255"/>
         <card number="4" name="Unkindled's Journey" setShortName="DKS" collectorNumber="150"/>
         <card number="2" name="Fire Orb" setShortName="DKS" collectorNumber="127"/>
+        <card number="1" name="Firelink Shrine" setShortName="DKS" collectorNumber="249"/>
     </zone>
     <zone name="side">
         <card number="3" name="Charm of the Undead Hunters" setShortName="DKS" collectorNumber="216"/>

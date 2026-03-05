@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Wed Nov 26 23:54:45 2025</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Thu Mar 5 14:31:35 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -15,12 +15,12 @@
         <card number="4" name="Homeward Bone" setShortName="DKS"/>
         <card number="1" name="Firelink Shrine" setShortName="DKS"/>
         <card number="4" name="The Fire Fades" setShortName="DKS"/>
-        <card number="8" name="Mountain" setShortName="DKS"/>
         <card number="3" name="Disembodied Wisp" setShortName="DKS" collectorNumber="192"/>
         <card number="4" name="Fire Orb" setShortName="DKS" collectorNumber="127"/>
         <card number="4" name="Archdragon Peak" setShortName="DKS" collectorNumber="242"/>
         <card number="4" name="Soul of an Old Pyromancer" setShortName="DKS" collectorNumber="146"/>
         <card number="4" name="Ringfinger Leonhard" setShortName="DKS" collectorNumber="144"/>
+        <card number="8" name="Mountain - DKS" setShortName="DKS" collectorNumber="259"/>
     </zone>
     <zone name="side">
         <card number="2" name="Profuse Sweat" setShortName="DKS"/>
