@@ -170,7 +170,7 @@ card_evangelist_of_the_deep:
     rating: 2
     rules_text: |
       Can't be countered.
-      When ~ enters the battlefield discard two cards, then draw two cards. You get two souls.
+      Whenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land, ~ deals 1 damage to target player or planeswalker, then put the card back or put it into your graveyard. Otherwise, discard a card, then draw a card.
     flavor_text: "EEHEEE!"
     artwork_url: "https://www.deviantart.com/therikaro114/art/Dark-Souls-3-Evangelist-fanart-867094898"
     artist: "therikaro114"

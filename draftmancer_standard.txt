@@ -799,7 +799,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Can't be countered.\nWhen ~ enters the battlefield discard two cards, then draw two cards. You get two souls.\n",
+    "oracle_text": "Can't be countered.\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land, ~ deals 1 damage to target player or planeswalker, then put the card back or put it into your graveyard. Otherwise, discard a card, then draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/evangelist_of_the_deep.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "G",
         "W",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
+        "G",
         "R",
-        "G"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3096,15 +3096,15 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
-        "W",
-        "G",
         "B",
+        "U",
+        "G",
+        "W",
         "R"
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield, return all creatures to their owner's hand.\n{+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.\n{-1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.\n{-7}:  Restart the game, leaving ~ on the battlefield. Set ~ loyalty to 3. Your starting life total becomes 5 less than your starting life total in the previous game.\n",
+    "oracle_text": "When ~ enters the battlefield, return all creatures to their owner's hand.\n{+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.\n{-1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.\n{-7}: Restart the game, leaving ~ on the battlefield. Set its loyalty to 3. Your starting life total becomes 5 less than your starting life total.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg"
 },
 {
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "U",
-            "B"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,10 +3204,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
-        "W",
-        "G",
         "B",
+        "U",
+        "G",
+        "W",
         "R"
     ],
     "rarity": "mythic",
@@ -3277,10 +3277,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W",
-        "G",
         "B",
+        "U",
+        "G",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,10 +3416,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W",
-        "G",
         "B",
+        "U",
+        "G",
+        "W",
         "R"
     ],
     "rarity": "mythic",

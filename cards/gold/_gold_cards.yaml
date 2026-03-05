@@ -263,7 +263,7 @@ card_gwyn_lord_of_cinder:
       When ~ enters the battlefield, return all creatures to their owner's hand.
       {+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.
       {-1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.
-      {-7}:  Restart the game, leaving ~ on the battlefield. Set ~ loyalty to 3. Your starting life total becomes 5 less than your starting life total in the previous game.
+      {-7}: Restart the game, leaving ~ on the battlefield. Set its loyalty to 3. Your starting life total becomes 5 less than your starting life total.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/4R8Kknq7/gwyn-lord-of-cinder-fromsoft-resize.png"
     artist: "fromsoft"
