@@ -390,7 +390,7 @@ card_mimic:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      Chameleon {4} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Chameleon {3} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       Whenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.
     flavor_text: "The chest did not creak. It exhaled."
     artwork_url: "https://www.christiancordella.com/sites/default/files/styles/max_1300x1300/public/images/gallery/2024/dungeons-and-dragons-honor-among-thieves-mimic-monster-11-4.jpg.webp?itok=3V5KQLfX"
