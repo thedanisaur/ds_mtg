@@ -643,7 +643,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Zombie creatures you control get +1/+1\nOther Hollow creatures you control get +1/+1\n",
+    "oracle_text": "Skeleton and zombie creatures you control get +1/+1.\nOther Hollow creatures you control get +1/+1.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/lothric_sentry.jpeg"
 },
 {
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1678,7 +1678,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Protection from red and from white.\n{1}{B}, {T}: Target player loses life equal to the number of souls they have. Then remove half their souls rounded up and you get that many souls.\n",
+    "oracle_text": "Protection from red and from white.\n{2}{B}, {T}: Target player gets two souls then loses life equal to the number of souls they have. Remove half their souls rounded up and you get that many souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/darkwraith.jpeg"
 },
 {
@@ -1719,19 +1719,6 @@
     "rating": 2,
     "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay two souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
-},
-{
-    "name": "Resonant Soul",
-    "super": "",
-    "type": "Sorcery",
-    "mana_cost": "{2}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "uncommon",
-    "rating": 2,
-    "oracle_text": "You get two souls, then you may pay any number of souls.\n~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
 },
 {
     "name": "Scraps of Life",
@@ -1964,7 +1951,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Chameleon {4} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.\n",
+    "oracle_text": "Chameleon {3} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/mimic.jpeg"
 },
 {
@@ -2025,8 +2012,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2039,8 +2026,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2054,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2284,7 +2271,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and has \"If a creature dealt damage by enchanted creature would die, exile it instead\".\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and has \"If a creature dealt damage by enchanted creature would die, exile it instead\".\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_blade.jpeg"
 },
 {
@@ -2327,7 +2314,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/fume_sorcerer.jpeg"
 },
 {
-    "name": "Magic Weapon",
+    "name": "Hidden Weapon",
     "super": "",
     "type": "Enchantment",
     "mana_cost": "{U}",
@@ -2336,8 +2323,8 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Enchant creature\nEnchanted creature is unblockable.\nInfuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/magic_weapon.jpeg"
+    "oracle_text": "Enchant creature\nEnchanted creature is unblockable.\nInfuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_weapon.jpeg"
 },
 {
     "name": "Outrider Knight",
@@ -2392,19 +2379,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/soul_stream.jpeg"
 },
 {
-    "name": "Carthus Rouge",
-    "super": "",
-    "type": "Enchantment",
-    "mana_cost": "{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 1,
-    "oracle_text": "Enchant creature\nEnchanted creature has has plague.\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/carthus_rouge.jpeg"
-},
-{
     "name": "Dark Sigil",
     "super": "",
     "type": "Enchantment",
@@ -2455,6 +2429,19 @@
     "rating": 2,
     "oracle_text": "Plague, shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever a permanent with a plague counter on it would die, put a +1/+1 counter on ~.\n{T}: Put a number of plague counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/nimble_shadow.jpeg"
+},
+{
+    "name": "Resonant Weapon",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Enchant creature\nEnchanted creature has \"Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn.\"\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
 },
 {
     "name": "Skim Memories",
@@ -2544,7 +2531,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Enchant creature\nEnchanted creature has prowess.\nInfuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has prowess.\nInfuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ignite_steel.jpeg"
 },
 {
@@ -2573,6 +2560,19 @@
     }
 },
 {
+    "name": "Carthus Rouge",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Enchant creature\nEnchanted creature has has plague.\nInfuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/carthus_rouge.jpeg"
+},
+{
     "name": "Dark Fog",
     "super": "",
     "type": "Enchantment",
@@ -2599,19 +2599,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/gaping_dragon.jpeg"
 },
 {
-    "name": "Hush",
-    "super": "",
-    "type": "Enchantment",
-    "mana_cost": "{1}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "Enchant player\nYou may cast ~ at any time you could cast and instant.\nIf an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/hush.jpeg"
-},
-{
     "name": "Pagan Tree",
     "super": "",
     "type": "Enchantment",
@@ -2630,8 +2617,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2645,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2659,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2673,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2730,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2743,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2784,8 +2771,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2784,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2798,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "W",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2812,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "R",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2854,9 +2841,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "B",
         "G",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3041,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3082,8 +3069,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "B",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3083,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "R",
         "B",
         "U",
         "G",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,13 +3100,13 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "U",
         "W",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
-    "oracle_text": "{+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)\n{-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.\n{-5}: Target players life total becomes 5. Destroy all nondragon creatures your opponents control.\n",
+    "oracle_text": "{+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)\n{-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.\n{-5}: Target player's life total becomes 5. Destroy all nondragon creatures your opponents control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg"
 },
 {
@@ -3129,8 +3116,8 @@
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
         "B",
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3143,8 +3130,8 @@
         "mana_cost": "",
         "colors": [
             "B",
-            "W",
-            "U"
+            "U",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3191,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "R",
         "B",
         "U",
         "G",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3208,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3236,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3250,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3264,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "B",
         "U",
         "G",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3295,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3323,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3351,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3389,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3403,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "B",
         "U",
         "G",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3641,7 +3628,6 @@
 4 Jailer
 4 Lordran Necromancer
 4 Resonant Flesh
-4 Resonant Soul
 4 Scraps of Life
 4 Acid Surge
 4 Capra Demon
@@ -3687,16 +3673,16 @@
 4 Vow of Silence
 4 Big Hat Logan
 4 Fume Sorcerer
-4 Magic Weapon
+4 Hidden Weapon
 4 Outrider Knight
 4 Rumination
 4 Soul Spear
 4 Soul Stream
-4 Carthus Rouge
 4 Dark Sigil
 4 Frozen Reindeer
 4 Grave Warden's Tome
 4 Nimble Shadow
+4 Resonant Weapon
 4 Skim Memories
 4 The Great Swamp
 4 Carthus Beacon
@@ -3705,9 +3691,9 @@
 4 Hellkite Wyvern
 4 Ignite Steel
 4 Unbreakable Patches
+4 Carthus Rouge
 4 Dark Fog
 4 Gaping Dragon
-4 Hush
 4 Pagan Tree
 4 Aldrich, Devourer of Gods
 4 Ancient Wyvern

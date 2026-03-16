@@ -1,0 +1,17 @@
+card_hush:
+  front:
+    name: "Hush"
+    cost: "{1}{G}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Enchant player
+      You may cast ~ at any time you could cast and instant.
+      If an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
+    artist: "mudhorror"
+    number: 167

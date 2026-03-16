@@ -133,7 +133,7 @@ if __name__ == '__main__':
 }'''
 
     # Configurations
-    folder_path = "./cards"
+    folder_path = "./cards/dks"
     order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'basic' ]
     cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
 

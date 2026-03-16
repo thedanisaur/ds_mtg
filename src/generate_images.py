@@ -2,7 +2,7 @@ if __name__ == '__main__':
     import os
 
     # Configurations
-    folder_path = "./cards"
+    folder_path = "./cards/dks"
     markdown_file = "README.md"
     section_header = "## Full Set"
     order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'token', 'basic']
