@@ -610,7 +610,7 @@ When ~ enters the battlefield you may pay {W}. If you do each player draws a car
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment</type>
+            <type>Enchantment - Soul</type>
             <maintype>Enchantment</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -1208,7 +1208,7 @@ When ~ enters the battlefield you may pay {U}. If you do target player puts two 
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment</type>
+            <type>Enchantment - Soul</type>
             <maintype>Enchantment</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -1788,7 +1788,7 @@ When ~ enters the battlefield you may pay {B}. If you do, return target hollow f
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment</type>
+            <type>Enchantment - Soul</type>
             <maintype>Enchantment</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -2326,7 +2326,7 @@ When ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to an
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment</type>
+            <type>Enchantment - Soul</type>
             <maintype>Enchantment</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -2901,7 +2901,7 @@ When ~ enters the battlefield you may pay {G}. If you do, create a treasure toke
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment</type>
+            <type>Enchantment - Soul</type>
             <maintype>Enchantment</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -3055,7 +3055,7 @@ Whenever you cast a noncreature spell create a 1/1 blue and red Wizard creature 
             <maintype>Creature</maintype>
             <manacost>{U/R}{U/R}{U/R}</manacost>
             <cmc>3</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="188" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/archdeacon_of_the_deep.jpeg">DKS</set>
@@ -3155,7 +3155,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WGR</colors>
+            <colors>WRG</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3221,7 +3221,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>BUR</colors>
+            <colors>BRU</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3238,7 +3238,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BRWGU</colors>
+            <colors>WRUGB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3254,7 +3254,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3305,7 +3305,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WUR</colors>
+            <colors>WRU</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3471,7 +3471,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3487,7 +3487,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BGR</colors>
+            <colors>BRG</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3799,7 +3799,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BRWGU</colors>
+            <colors>WRUGB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4457,7 +4457,7 @@ Equip {2}</text>
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg">DKS</set>
