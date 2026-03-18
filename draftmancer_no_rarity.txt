@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2012,8 +2012,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2026,8 +2026,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2054,8 +2054,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2271,7 +2271,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and has \"If a creature dealt damage by enchanted creature would die, exile it instead\".\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and whenever a creature dealt damage by enchanted creature would die, exile it instead.\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/white/sunlight_blade.jpeg"
 },
 {
@@ -2323,7 +2323,7 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "Enchant creature\nEnchanted creature is unblockable.\nInfuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature is unblockable.\nInfuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/blue/hidden_weapon.jpeg"
 },
 {
@@ -2440,7 +2440,7 @@
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Enchant creature\nEnchanted creature has \"Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn.\"\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has \"Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn.\"\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
 },
 {
@@ -2531,7 +2531,7 @@
     ],
     "rarity": "rare",
     "rating": 0,
-    "oracle_text": "Enchant creature\nEnchanted creature has prowess.\nInfuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has prowess.\nInfuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/red/ignite_steel.jpeg"
 },
 {
@@ -2569,7 +2569,7 @@
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Enchant creature\nEnchanted creature has has plague.\nInfuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has has plague.\nInfuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/carthus_rouge.jpeg"
 },
 {
@@ -2617,8 +2617,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2659,8 +2659,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2673,8 +2673,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2687,8 +2687,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2702,8 +2702,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "R",
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2716,8 +2716,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2730,8 +2730,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2841,9 +2841,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "B",
         "R",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3041,8 +3041,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3068,9 +3068,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
+        "B",
         "R",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3083,10 +3083,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "R",
         "W",
         "U",
         "G",
-        "R",
         "B"
     ],
     "rarity": "mythic",
@@ -3101,8 +3101,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3116,8 +3116,8 @@
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
         "B",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3130,8 +3130,8 @@
         "mana_cost": "",
         "colors": [
             "B",
-            "U",
-            "W"
+            "W",
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3191,10 +3191,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "R",
         "W",
         "U",
         "G",
-        "R",
         "B"
     ],
     "rarity": "mythic",
@@ -3236,8 +3236,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3264,10 +3264,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "W",
         "U",
         "G",
-        "R",
         "B"
     ],
     "rarity": "uncommon",
@@ -3281,8 +3281,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3295,8 +3295,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3309,8 +3309,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3323,8 +3323,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3389,8 +3389,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3403,10 +3403,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "W",
         "U",
         "G",
-        "R",
         "B"
     ],
     "rarity": "mythic",

@@ -622,11 +622,11 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
     <card>
         <name>Sunlight Blade</name>
         <text>Enchant creature
-Enchanted creature has lifelink, can block creatures with shadow, and has "If a creature dealt damage by enchanted creature would die, exile it instead".
-Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
+Enchanted creature has lifelink, can block creatures with shadow, and whenever a creature dealt damage by enchanted creature would die, exile it instead.
+Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment - Aura</type>
+            <type>Enchantment - Aura Infusion</type>
             <maintype>Enchantment</maintype>
             <manacost>W</manacost>
             <cmc>0</cmc>
@@ -975,10 +975,10 @@ Draw a card.</text>
         <name>Hidden Weapon</name>
         <text>Enchant creature
 Enchanted creature is unblockable.
-Infuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
+Infuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment - Aura</type>
+            <type>Enchantment - Aura Infusion</type>
             <maintype>Enchantment</maintype>
             <manacost>{U}</manacost>
             <cmc>1</cmc>
@@ -1694,10 +1694,10 @@ Pay two souls: Draw a card. Then you lose life equal to the number of souls you 
         <name>Resonant Weapon</name>
         <text>Enchant creature
 Enchanted creature has "Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn."
-Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
+Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment - Aura</type>
+            <type>Enchantment - Aura Infusion</type>
             <maintype>Enchantment</maintype>
             <manacost>{B}</manacost>
             <cmc>1</cmc>
@@ -2147,10 +2147,10 @@ At the beginning of combat you may pay {R}. If you do, return ~ from your gravey
         <name>Ignite Steel</name>
         <text>Enchant creature
 Enchanted creature has prowess.
-Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
+Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment - Aura</type>
+            <type>Enchantment - Aura Infusion</type>
             <maintype>Enchantment</maintype>
             <manacost>{R}</manacost>
             <cmc>1</cmc>
@@ -2444,7 +2444,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/green/abyss_watchers_back.jpeg">DKS</set>
@@ -2488,10 +2488,10 @@ When ~ is turned face up, Choose one -
         <name>Carthus Rouge</name>
         <text>Enchant creature
 Enchanted creature has has plague.
-Infuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
+Infuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Enchantment - Aura</type>
+            <type>Enchantment - Aura Infusion</type>
             <maintype>Enchantment</maintype>
             <manacost>{G}</manacost>
             <cmc>1</cmc>
@@ -3021,7 +3021,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
@@ -3038,7 +3038,7 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ancient_wyvern.jpeg">DKS</set>
@@ -3072,7 +3072,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3089,7 +3089,7 @@ At the beginning of your end step each opponent sacrifices a nonland permanent a
             <maintype>Creature</maintype>
             <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/bed_of_chaos.jpeg">DKS</set>
@@ -3121,7 +3121,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{B/R}</manacost>
             <cmc>1</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/disembodied_wisp.jpeg">DKS</set>
@@ -3155,7 +3155,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WRG</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3170,7 +3170,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/fume_knight.jpeg">DKS</set>
@@ -3187,7 +3187,7 @@ Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more 
             <maintype>Creature</maintype>
             <manacost>{3}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/4</pt>
         </prop>
         <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
@@ -3205,7 +3205,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
@@ -3221,7 +3221,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>BRU</colors>
+            <colors>RUB</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3238,7 +3238,7 @@ Exile two cards from your graveyard: ~ gains flying until end of turn.
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>WRUGB</colors>
+            <colors>WGBRU</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3271,7 +3271,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{W}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_front.jpeg">DKS</set>
@@ -3287,7 +3287,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="" num="200" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/iudex_gundyr_back.jpeg">DKS</set>
@@ -3305,7 +3305,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WRU</colors>
+            <colors>RUW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3322,7 +3322,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>BWU</colors>
+            <colors>WUB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3340,7 +3340,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BWU</colors>
+            <colors>WUB</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3358,7 +3358,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>BWR</colors>
+            <colors>RWB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3375,7 +3375,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BWR</colors>
+            <colors>RWB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3393,7 +3393,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <loyalty>4</loyalty>
         </prop>
         <set rarity="Mythic" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/lorian_and_lothric.jpeg">DKS</set>
@@ -3440,7 +3440,7 @@ Draw a card.</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
         </prop>
         <set rarity="Uncommon" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3456,7 +3456,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{R}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
         </prop>
         <set rarity="Uncommon" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3487,7 +3487,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BRG</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3799,7 +3799,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>WRUGB</colors>
+            <colors>WGBRU</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
