@@ -1,0 +1,18 @@
+card_1:
+  front:
+    name: "Lucky Creature"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever ~ attacks exile the top card of your library with a luck counter on it.
+      {R}, {T}: Cast a spell you own with a luck counter on it, at random, from exile without paying its mana cost. If you can't create a Rubbish token.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 2

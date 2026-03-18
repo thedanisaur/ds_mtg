@@ -1,0 +1,88 @@
+card_1:
+  front:
+    name: "Bonfire of Hollows"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Add one mana of any color to your mana pool. Spend this mana only to cast hollow spells and activate abilities of hollow cards.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_2:
+  front:
+    name: "Crystal Mine"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with 3 crystal counters on it.
+      {T}, Remove a crystal counter from ~: Add one mana of any color to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_3:
+  front:
+    name: "Early Dual"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless it's your first, second, or third turn of the game.
+      {T}: Add {U} or {W} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_4:
+  front:
+    name: "Crystal Bonfire"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Colorless and artifact spells you control cost {1} less.
+      {T}: Add {C} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_5:
+  front:
+    name: "Lotus Bonfire"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}, Sacrifice ~: Add three mana of any one color to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1

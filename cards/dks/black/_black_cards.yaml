@@ -471,13 +471,13 @@ card_resonant_soul:
     cost: "{B}"
     super: ""
     type: "Enchantment"
-    sub: "Aura"
+    sub: "Aura Infusion"
     rarity: "Rare"
     rating: 1
     rules_text: |
       Enchant creature
       Enchanted creature has "Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn."
-      Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+      Infuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: ""
     artwork_url: "https://uploads.worldanvil.com/uploads/images/4dbad7cea4eb88f0c6147a299ec40af3.jpg"
     artist: "Roy Rochester"

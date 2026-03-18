@@ -1,170 +1,171 @@
-week_1: # 10
-    day_1:
-        firelink shrine
-        seek embers
-        capra demon
-        swollen mongrel
-        knight artorias
-    day_2:
-        soul of a nameless soldier
-        pestilent mercury
-    day_3:
-        iudex gundyr
-        tarus demon
-        ruin banshee
-week_2: # 12
-    day_4:
-        unkindled's journey
-        amana aberration
-        ancient wyvern
-        stream of estus
-        broadsword
-    day_5:
-        the great swamp
-        dual charm
-        profuse sweat
-    bonus_1:
-        hollow knight
-        hollow
-        hollow soldier
-        invisible hollow
-        corrupted hollow
-    day_6:
-        village blacksmith
-        bonfire
-        couvetous silver serpent ring
-        halberd
-week_3: # 12
-    day_7:
-        chloranthy ring
-        hornet ring
-        ring of favor
-        bloodbite ring
-    day_8:
-        talisman of the way of white
-        catalyst of the witch of izalith
-        kiln of the first flame
-        heide knight
-        ring of a great warrior
-    day_9:
-        moonlight greatsword
-        wolf knights greatshield
-        uchigatana
-week_4: # 14
-    day_10:
-        wistful naivete
-        dark sigil
-        flame whip
-        carthus rouge
-        reforge
-    day_11:
-        souls of the living
-        ember
-        curse of the dead
-        sunlight blade
-    day_12:
-        contrasted curse
-        clawed curse
-        into the abyss
-        ignite steel
-        pagan tree
-week_5: # 12
-    day_13:
-        mimic
-        chameleon
-        carim guardian
-    day_14:
-        miracle of the way of white
-        dark edge
-        grip of death
-        smoldering rotten flesh
-        heavenly thunder
-        alluring skull
-    day_15:
-        cursed greatsword
-        outrider knight
-        dargonslayer and executioner
-week_6: # 14
-    day_16:
-        homeward bone
-        warp the land
-    day_17:
-        hesitant surveyor
-        shaded woods
-    day_18:
-        anor londo
-        archdragon peak
-        cathedral of blue
-        cathedral of the deep
-        darkroot garden
-        farron keep
-        irithyll of the boreal valley
-        lost izalith
-        road of sacrifices
-        shrine of amana
-week_7: # 14
-    day_19:
-        adventuring wizard
-        a hero gone mad
-        sift through the ashes
-        ent
-    day_20:
-        bonfire ascetic
-        grave wardens tome
-        estus
-        ashen estus
-        sunlight maggot
-        search the library
-    day_21:
-        baneful queen mytha
-        contemplation
-        chosen undead
-        skim memories
-week_8: # 12
-    day_22:
-        eyes of a firekeeper
-        the fire fades
-        amana priestess
-        corrode
-        acid surge
-    day_23:
-        soul syphoner
-        petrified egg
-        mirrah warrior
-        magic denial
-    day_24:
-        lost spell from oolacile
-        magic barrier
-        creeping corrosion
-        milfanito
-week_9: # 11
-    day_25:
-        abyss walkers
-        gravelord nito
-        four kings
-    day_26:
-        aldrich devourer of gods
-        the serpent king
-        sentinel of the tower of flame
-        yhorm the giant
-        vordt and the dancer
-    day_27:
-        sif the great grey wolf
-        dukes dear freja
-        bed of chaos
-week_10: # 12
-    day_30:
-        anri of astora
-        unbreakable patches
-        knight lautrec
-        siegmeyer of catarina
-    day_31:
-        chaos bed vestiges
-        soul stream
-        emit force
-        gravelords maelstrom
-    day_32:
-        ring of sacrifice
-        lorian and lothric
-        king of the storm
-        gwyn lord of cinder
+dks:
+    week_1: # 10
+        day_1:
+            firelink shrine
+            seek embers
+            capra demon
+            swollen mongrel
+            knight artorias
+        day_2:
+            soul of a nameless soldier
+            pestilent mercury
+        day_3:
+            iudex gundyr
+            tarus demon
+            ruin banshee
+    week_2: # 12
+        day_4:
+            unkindled's journey
+            amana aberration
+            ancient wyvern
+            stream of estus
+            broadsword
+        day_5:
+            the great swamp
+            dual charm
+            profuse sweat
+        bonus_1:
+            hollow knight
+            hollow
+            hollow soldier
+            invisible hollow
+            corrupted hollow
+        day_6:
+            village blacksmith
+            bonfire
+            couvetous silver serpent ring
+            halberd
+    week_3: # 12
+        day_7:
+            chloranthy ring
+            hornet ring
+            ring of favor
+            bloodbite ring
+        day_8:
+            talisman of the way of white
+            catalyst of the witch of izalith
+            kiln of the first flame
+            heide knight
+            ring of a great warrior
+        day_9:
+            moonlight greatsword
+            wolf knights greatshield
+            uchigatana
+    week_4: # 14
+        day_10:
+            wistful naivete
+            dark sigil
+            flame whip
+            carthus rouge
+            reforge
+        day_11:
+            souls of the living
+            ember
+            curse of the dead
+            sunlight blade
+        day_12:
+            contrasted curse
+            clawed curse
+            into the abyss
+            ignite steel
+            pagan tree
+    week_5: # 12
+        day_13:
+            mimic
+            chameleon
+            carim guardian
+        day_14:
+            miracle of the way of white
+            dark edge
+            grip of death
+            smoldering rotten flesh
+            heavenly thunder
+            alluring skull
+        day_15:
+            cursed greatsword
+            outrider knight
+            dargonslayer and executioner
+    week_6: # 14
+        day_16:
+            homeward bone
+            warp the land
+        day_17:
+            hesitant surveyor
+            shaded woods
+        day_18:
+            anor londo
+            archdragon peak
+            cathedral of blue
+            cathedral of the deep
+            darkroot garden
+            farron keep
+            irithyll of the boreal valley
+            lost izalith
+            road of sacrifices
+            shrine of amana
+    week_7: # 14
+        day_19:
+            adventuring wizard
+            a hero gone mad
+            sift through the ashes
+            ent
+        day_20:
+            bonfire ascetic
+            grave wardens tome
+            estus
+            ashen estus
+            sunlight maggot
+            search the library
+        day_21:
+            baneful queen mytha
+            contemplation
+            chosen undead
+            skim memories
+    week_8: # 12
+        day_22:
+            eyes of a firekeeper
+            the fire fades
+            amana priestess
+            corrode
+            acid surge
+        day_23:
+            soul syphoner
+            petrified egg
+            mirrah warrior
+            magic denial
+        day_24:
+            lost spell from oolacile
+            magic barrier
+            creeping corrosion
+            milfanito
+    week_9: # 11
+        day_25:
+            abyss walkers
+            gravelord nito
+            four kings
+        day_26:
+            aldrich devourer of gods
+            the serpent king
+            sentinel of the tower of flame
+            yhorm the giant
+            vordt and the dancer
+        day_27:
+            sif the great grey wolf
+            dukes dear freja
+            bed of chaos
+    week_10: # 12
+        day_30:
+            anri of astora
+            unbreakable patches
+            knight lautrec
+            siegmeyer of catarina
+        day_31:
+            chaos bed vestiges
+            soul stream
+            emit force
+            gravelords maelstrom
+        day_32:
+            ring of sacrifice
+            lorian and lothric
+            king of the storm
+            gwyn lord of cinder

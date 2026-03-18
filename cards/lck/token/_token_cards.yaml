@@ -1,0 +1,14 @@
+card_rubbish:
+  front:
+    name: "Rubbish"
+    cost: ""
+    super: "Token"
+    type: "Artifact"
+    sub: ""
+    rarity: "Uncommon"
+    rules_text: "{T}, Sacrifice ~: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library."
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    color_indicator: "{C}"

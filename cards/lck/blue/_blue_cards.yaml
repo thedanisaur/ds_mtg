@@ -1,0 +1,85 @@
+card_1:
+  front:
+    name: "Faint Amnesia"
+    cost: "{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      You may reveal a blue card from your hand rather than pay ~'s mana cost.
+      Exile target spell with mana value 1 or less.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_2:
+  front:
+    name: "Free Counter"
+    cost: "{2}{U}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
+      Counter target spell. If no mana was spent to cast this spell, counter target spell unless its controller pays X where X is the number of cards in your hand instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_3:
+  front:
+    name: "Soul Draw"
+    cost: "{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Draw a card. If you have 7 or more souls draw 3 cards instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_4:
+  front:
+    name: "Counter Wizard"
+    cost: "{1}{U}{U}"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Tap an untapped wizard you control: Counter target spell unless its controller pays {1}.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 2
+
+card_5:
+  front:
+    name: "Tap Wizard"
+    cost: "{2}{U}{U}"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Tap an untapped wizard you control: Tap target creature or artifact.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 3

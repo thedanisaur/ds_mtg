@@ -253,13 +253,13 @@ card_hidden_weapon:
     cost: "{U}"
     super: ""
     type: "Enchantment"
-    sub: "Aura"
+    sub: "Aura Infusion"
     rarity: "Rare"
     rating: 2
     rules_text: |
       Enchant creature
       Enchanted creature is unblockable.
-      Infuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+      Infuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "Wielding a sword and casting a sorcery are two different things young sorcerer, don't sully yourself by breeding the two. - *Melfian Magic Academy*"
     artwork_url: "https://i.ibb.co/qL0sJPtM/magic-weapon-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"

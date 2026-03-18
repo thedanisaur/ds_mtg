@@ -1,0 +1,18 @@
+card_1:
+  front:
+    name: "Keeper of the Grand Archives"
+    cost: "{3}"
+    super: ""
+    type: "Artifact Creature"
+    sub: "Construct"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Draft ~ face up.
+      As you draft a card, you may draft an additional card from that booster pack. If you do, turn this card face down, then pass the next booster pack without drafting a card from it.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3

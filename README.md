@@ -1,6 +1,6 @@
 # Design
 
-## Ablities & Keywords
+## Ablities, Keywords, & Types
 
 ### Keywords
 
@@ -25,6 +25,15 @@ New:
 
 Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *plague*.
 
+### Abilities
+
+```
+- Chameleon (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+- Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+- Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received.)
+Infuse {X} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+```
+
 #### New Rules
 
 ```
@@ -42,33 +51,42 @@ Plague (similar in function to 702.90. Infect)
 - f) Multiple instances of plague on the same object are redundant.
 - g) Reminder text: If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received
 ```
-
-### Abilities
-
 ```
-New:
-- Chameleon (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-- Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
-- Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received.)
+Infuse
+- a) Infuse is an keyword ability of Aura cards that functions in a player's hand and on the battlefield.
+    - 1) In the player's hand, any time that player could cast a sorcery they may cast a card with infuse.
+        - 1a) “Infuse [cost]” means “You may pay [cost] rather than pay this spell's mana cost anytime you could cast a sorcery. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of 'enchanted creature' it says 'equipped creature'.”
+    - 2) On the battlefield, any time that player could cast a sorcery they may activate this ability.
+        - 2a) “Infuse [cost]” means “[Cost]: This enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach this permanent to target equipment. The enchanted equipment gains the abilities of this enchantment, except instead of 'enchanted creature' it says 'equipped creature'. Activate only as a sorcery.”
+- c) Activating the Infuse ability results in a text changing effect (see rule 612, Text-Changing Effects).
+- d) Reminder text: You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature"
 ```
 
+### Card types
 
-## Set layout & tidbits
-
-
-### New creature types
+Subtypes:
 
 ```
 Hollow
+Soul
 ```
+
+## Sets
 
 ### Dark Souls (DKS) Card Distribution
 
-Color Distribution
+Count
 
 ```
-255 total
+Cards 255
+Tokens 15
+Basics 6
+Total 276
+```
 
+Type Distribution
+
+```
 10 colorless cards
 35 white cards
 35 blue cards
@@ -76,8 +94,9 @@ Color Distribution
 35 red cards
 35 green cards
 25 gold cards
-30 artifacts
+30 artifact cards
 15 nonbasic lands
+06 basic lands
 15 tokens
 ```
 
@@ -102,37 +121,7 @@ Booster distribution
 
 Color Distribution
 
-```
-250 total
-
-10 colorless cards
-30 white cards
-30 blue cards
-30 black cards
-30 red cards
-30 green cards
-20 gold cards
-40 artifacts
-30 nonbasic lands
-15 tokens
-```
-
-Rarity Distribution
-```
-101 common
-80 uncommon
-55 rare
-14 mythic
-```
-
-Booster distribution
-```
-- 11 commons
-- 3 uncommons
-- 1 rare
-- 1 in 8 rare is replaced with mythic
-- 1 land slot
-```
+TBD
 
 ### The Fire Fades (TFF) Card Distribution
 

@@ -81,13 +81,13 @@ card_carthus_rouge:
     cost: "{G}"
     super: ""
     type: "Enchantment"
-    sub: "Aura"
+    sub: "Aura Infusion"
     rarity: "Rare"
     rating: 1
     rules_text: |
       Enchant creature
       Enchanted creature has has plague.
-      Infuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+      Infuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "The blades of the warriors of Carthus take on the hues of their scarlet plants...and the spatters of their victim's blood."
     artwork_url: "https://i.ibb.co/6cwSBYgj/carthus-rouge-nobleones-resize.jpg"
     artist: "nobleones"

@@ -364,13 +364,13 @@ card_ignite_steel:
     cost: "{R}"
     super: ""
     type: "Enchantment"
-    sub: "Aura"
+    sub: "Aura Infusion"
     rarity: "Rare"
     rating: 0
     rules_text: |
       Enchant creature
       Enchanted creature has prowess.
-      Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+      Infuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: "Pyromancy and sorcery are said to be like oil and water, but in fact their origins can be traced to a common source."
     artwork_url: "https://i.ibb.co/Zpp1S4qz/ignite-steel-shadoecrewsart.jpg"
     artist: "shadoecrewsart"

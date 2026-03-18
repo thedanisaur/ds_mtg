@@ -1,0 +1,89 @@
+card_plains:
+  front:
+    name: "Plains"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Plains"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "sparth"
+    number: 256
+
+card_island:
+  front:
+    name: "Island"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Island"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "creativecut"
+    number: 257
+
+card_swamp:
+  front:
+    name: "Swamp"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Swamp"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 258
+
+card_mountain:
+  front:
+    name: "Mountain"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Mountain"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 259
+
+card_forest:
+  front:
+    name: "Forest"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Forest"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 260
+
+card_wastes:
+  front:
+    name: "Wastes"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Wastes"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 261

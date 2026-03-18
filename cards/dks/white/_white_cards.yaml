@@ -534,12 +534,12 @@ card_sunlight_blade:
     cost: "W"
     super: ""
     type: "Enchantment"
-    sub: "Aura"
+    sub: "Aura Infusion"
     rarity: "Rare"
     rules_text: |
       Enchant creature
-      Enchanted creature has lifelink, can block creatures with shadow, and has "If a creature dealt damage by enchanted creature would die, exile it instead".
-      Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+      Enchanted creature has lifelink, can block creatures with shadow, and whenever a creature dealt damage by enchanted creature would die, exile it instead.
+      Infuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/jakubjagoda/art/By-The-Light-1050885910"
     artist: "jakubjagoda"

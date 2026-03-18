@@ -1,0 +1,34 @@
+card_1:
+  front:
+    name: "Soul Life Drain"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield target player gets two souls.
+      Whenever a creature enters the battlefield under your control you may have target player gain two souls.
+      Sacrifice ~: Defending player loses X life and you gain X life where X is the number of souls defending player has. Activate only if you attacked with 5 or more creatures this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_2:
+  front:
+    name: "Flickering Phantoms"
+    cost: "{1}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever you discard a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
+      Cycling {W} ({W}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

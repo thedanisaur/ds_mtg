@@ -1,0 +1,105 @@
+card_1:
+  front:
+    name: "Grafdigger's Cage"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Creature cards in graveyards and libraries can't enter the battlefield.
+      Players can't cast spells from graveyards or libraries.
+      OR
+      Gravewarden's Cage?
+      Cards in graveyards and libraries can't enter the battlefield.
+      Players can't cast spells from graveyards or libraries.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_2:
+  front:
+    name: "Storm is bad"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever an opponent casts a spell you may gain 1 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_3:
+  front:
+    name: "Budding Lotus"
+    cost: "{0}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      At the beginning of your upkeep put a petal counter on ~.
+      {T}, Sacrifice ~: Add X mana of any one color to your mana pool where X is the number of petal counters on ~.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_4:
+  front:
+    name: "Hollow's Amulet"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_5:
+  front:
+    name: "Curator of the Grand Archives"
+    cost: "{2}"
+    super: ""
+    type: "Artifact Creature"
+    sub: "Construct"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Draft ~ face up.
+      As you draft a card, you may draft an additional card from that booster pack. If you do, put ~ into that booster pack.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_6:
+  front:
+    name: "Pyrewarden's Stone"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Pay one soul: Look at the top four cards of your library, then put them back in any order. Activate only once per turn.
+      {T}: Draw a card, then shuffle ~ into its owner's library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
