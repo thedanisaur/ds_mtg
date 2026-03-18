@@ -1,22 +1,17 @@
-if __name__ == '__main__':
-    import os
+import os
 
-    # Configurations
-    folder_path = "./cards/dks"
-    markdown_file = "README.md"
-    section_header = "## Full Set"
-    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'token', 'basic']
+from generate_docs import CARD_ORDER
+from generate_docs import CARD_PATH
+from generate_docs import IMAGE_EXTENSIONS
 
-    # Supported image types
-    image_extensions = ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.svg', '.webp')
-
+def _generate_table(set_path):
     # Get sorted list of image files
     count = 0
     row_open = False
     image_markdown = '\n<table>\n'
-    for folder in order:
-        for file in sorted(os.listdir(f"{folder_path}/{folder}/")):
-            if file.lower().endswith(image_extensions):
+    for card_type in CARD_ORDER:
+        for file in sorted(os.listdir(f"{set_path}/{card_type}/")):
+            if file.lower().endswith(IMAGE_EXTENSIONS):
                 formatted_title = file.rsplit('.', 1)[0].replace('_', ' ').title()
                 if count % 2 == 0:
                     if row_open:
@@ -26,7 +21,7 @@ if __name__ == '__main__':
 
                 # Add image with title above
                 image_markdown += f"""    <td align="center">
-        <img src="{folder_path}/{folder}/{file}" alt="{formatted_title}" width="400"/><br/>
+        <img src="{set_path}/{card_type}/{file}" alt="{formatted_title}" width="400"/><br/>
         <strong>{formatted_title}</strong>
     </td>\n"""
 
@@ -37,21 +32,37 @@ if __name__ == '__main__':
         image_markdown += "</tr>\n"
     image_markdown += "</table>\n"
 
-    # Read the existing Markdown file
-    with open(markdown_file, "r", encoding="utf-8") as file:
-        content = file.read()
+    return image_markdown
 
-    # Find the position of the header
-    header_index = content.find(section_header)
-    if header_index == -1:
-        raise ValueError(f"Header '{section_header}' not found in {markdown_file}")
+def generate_images():
+    # Configurations
+    set_list_header_text = "# Set List"
 
-    # Keep content up to the header and that line
-    header_line_end = content.find("\n", header_index) + 1
-    new_content = content[:header_line_end] + "\n" + image_markdown + "\n"
+    for set_folder in sorted(os.listdir(CARD_PATH)):
+        # skip folders that aren't sets
+        if set_folder.startswith("_"):
+            continue
+        image_markdown = _generate_table(f"{CARD_PATH}/{set_folder}")
+        markdown_file = f"{set_folder}.md"
 
-    # Write back the updated content
-    with open(markdown_file, "w", encoding="utf-8") as file:
-        file.write(new_content)
+        # Read the existing Markdown file
+        with open(markdown_file, "r", encoding="utf-8") as file:
+            content = file.read()
 
-    print(f"✅ Updated '{markdown_file}' with image list from '{folder_path}' after '{section_header}'")
+        # Find the position of the header
+        header_index = content.find(set_list_header_text)
+        if header_index == -1:
+            raise ValueError(f"Header '{set_list_header_text}' not found in {markdown_file}")
+
+        # Keep content up to the header and that line
+        header_line_end = content.find("\n", header_index) + 1
+        new_content = content[:header_line_end] + "\n" + image_markdown + "\n"
+
+        # Write back the updated content
+        with open(markdown_file, "w", encoding="utf-8") as file:
+            file.write(new_content)
+
+        print(f"✅ Updated '{markdown_file}' with image list from '{CARD_PATH}' after '{set_list_header_text}'")
+
+if __name__ == '__main__':
+    generate_images()

@@ -1,40 +1,14 @@
+import importlib
 import json
 import os
 import re
 import yaml
 
-TYPE_BASIC='Basic'
-TYPE_LAND='Land'
-
-def colors_from_mana_cost(mana_cost):
-    """
-    Extract colors from a mana cost string.
-    
-    Args:
-        mana_cost (str): Mana cost like '{G}{U}{2}{G/U}{X}'
-    
-    Returns:
-        Set[str]: A set of color names (e.g., {'Green', 'Blue'})
-    """
-    valid_colors = {
-        'G',
-        'W',
-        'U',
-        'B',
-        'R',
-    }
-    mana_cost_str = str(mana_cost)
-    symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
-    colors = set()
-
-    for symbol in symbols:
-        # Handle hybrid or Phyrexian like G/U, G/P
-        parts = re.split(r'[\/]', symbol)
-        for part in parts:
-            if part in valid_colors:
-                colors.add(part)
-    
-    return list(colors)
+from generate_docs import CARD_ORDER
+from generate_docs import CARD_PATH
+from generate_docs import colors_from_mana_cost
+from generate_docs import TYPE_BASIC
+from generate_docs import TYPE_LAND
 
 def convert_mana_cost(mana_string):
     # Regular expression to find all mana symbols
@@ -59,88 +33,9 @@ def get_colors(card):
         colors = colors_from_mana_cost(card.get('color_indicator', ''))
     return colors
 
-if __name__ == '__main__':
-
-    # Settings
-    settings_standard = '''
-[Settings]
-{
-    "layouts": {
-        "Default": {
-            "weight": 1,
-            "slots": [
-                {
-                    "name": "LandOrBasic",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "LandMythic",  "weight": 1},
-                        {"name": "LandRare",  "weight": 4},
-                        {"name": "LandUncommon",  "weight": 8},
-                        {"name": "Basic", "weight": 32},
-                    ]
-                },
-                {
-                    "name": "RareOrMythic",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "LandRare",  "weight": 16},
-                        {"name": "Rare",   "weight": 344},
-                        {"name": "LandMythic",  "weight": 2},
-                        {"name": "Mythic", "weight": 16}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand1",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 69},
-                        {"name": "LandUncommon",  "weight": 11}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand2",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 69},
-                        {"name": "LandUncommon",  "weight": 11}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand3",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 69},
-                        {"name": "LandUncommon",  "weight": 11}
-                    ]
-                },
-                {"name": "Common",   "count": 11},
-            ]
-        }
-    }
-}'''
-
-    settings_no_rarity = '''
-[Settings]
-{
-    "layouts": {
-        "Default": {
-            "weight": 1,
-            "slots": [
-                {"name": "Common",   "count": 15},
-            ]
-        }
-    }
-}'''
-
-    # Configurations
-    folder_path = "./cards/dks"
-    order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', 'basic' ]
-    cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
-
-    # Build list of cards
-    image_markdown = '\n'
-    for folder in order:
-        path = f"{folder_path}/{folder}/"
+def _generate_card_list(set_path, cards_by_rarity):
+    for card_type in CARD_ORDER:
+        path = f"{set_path}/{card_type}/"
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
@@ -163,7 +58,7 @@ if __name__ == '__main__':
                         if card_back is not None:
                             image_name_front = image_name + "_front"
                             image_name_back = image_name + "_back"
-                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name_front}.jpeg"
                             card['back'] = {
                                 'name': card_back['name'],
                                 'super': card_back['super'],
@@ -172,10 +67,10 @@ if __name__ == '__main__':
                                 'colors': get_colors(card_back),
                                 'rarity': card_back['rarity'].lower(),
                                 'oracle_text': card_back['rules_text'],
-                                'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
+                                'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name_back}.jpeg"
                             }
                         else:
-                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name}.jpeg"
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name}.jpeg"
                         if card_front['type'] == 'Land' and card_front['super'] == 'Basic':
                             cards_by_rarity[card_front['super']].append(card)
                         elif card_front['type'] == 'Land':
@@ -183,8 +78,13 @@ if __name__ == '__main__':
                         else:
                             cards_by_rarity[card_front['rarity']].append(card)
 
+    return cards_by_rarity
+
+def _write_standard_settings(set, cards_by_rarity):
+    module_name = f"{set}_draftmancer_standard_settings"
+    module = importlib.import_module(module_name)
     # Write back the updated content for a standard draft
-    draftmancer_standard = 'draftmancer_standard.txt'
+    draftmancer_standard = f"{set}_draftmancer_standard.txt"
     with open(draftmancer_standard, "w", encoding="utf-8") as file:
         print(f"{draftmancer_standard}: Writing custom cards")
         file.write('[CustomCards]\n')
@@ -199,7 +99,7 @@ if __name__ == '__main__':
         print(f"{draftmancer_standard}: ✅ Cards written")
 
         print(f"{draftmancer_standard}: Writing settings")
-        file.write(f"{settings_standard}\n")
+        file.write(f"{module.settings}\n")
         print(f"{draftmancer_standard}: ✅ Settings written")
 
         print(f"{draftmancer_standard}: Writing sheets")
@@ -234,8 +134,11 @@ if __name__ == '__main__':
         print(f"{draftmancer_standard}: ✅ Sheets written")
     print(f"{draftmancer_standard}: ✅ Updated successfully")
 
+def _write_no_rarity_settings(set, cards_by_rarity):
+    module_name = f"{set}_draftmancer_no_rarity_settings"
+    module = importlib.import_module(module_name)
     # Write back the updated content for a no rarity draft
-    draftmancer_no_rarity = 'draftmancer_no_rarity.txt'
+    draftmancer_no_rarity = f"{set}_draftmancer_no_rarity.txt"
     with open(draftmancer_no_rarity, "w", encoding="utf-8") as file:
         print(f"{draftmancer_no_rarity}: Writing custom cards")
         file.write('[CustomCards]\n')
@@ -250,7 +153,7 @@ if __name__ == '__main__':
         print(f"{draftmancer_no_rarity}: ✅ Cards written")
 
         print(f"{draftmancer_no_rarity}: Writing settings")
-        file.write(f"{settings_no_rarity}\n")
+        file.write(f"{module.settings}\n")
         print(f"{draftmancer_no_rarity}: ✅ Settings written")
 
         print(f"{draftmancer_no_rarity}: Writing sheets")
@@ -265,3 +168,19 @@ if __name__ == '__main__':
                     file.write(f"4 {card['name']}\n")
         print(f"{draftmancer_no_rarity}: ✅ Sheets written")
     print(f"{draftmancer_no_rarity}: ✅ Updated successfully")
+
+def generate_draftmancer():
+    # Configurations
+    cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
+
+    for set_folder in sorted(os.listdir(CARD_PATH)):
+        # skip folders that aren't sets
+        if set_folder.startswith("_"):
+            continue
+        # Build list of cards
+        cards_by_rarity = _generate_card_list(f"{CARD_PATH}/{set_folder}", cards_by_rarity)
+        _write_standard_settings(set_folder, cards_by_rarity)
+        _write_no_rarity_settings(set_folder, cards_by_rarity)
+
+if __name__ == '__main__':
+    generate_draftmancer()

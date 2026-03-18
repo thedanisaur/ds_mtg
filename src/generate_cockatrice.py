@@ -1,23 +1,19 @@
-import uuid
 import os
 import re
 import yaml
 
-TYPE_ARTIFACT='Artifact'
-TYPE_BASIC='Basic'
-TYPE_CREATURE='Creature'
-TYPE_ENCHANTMENT='Enchantment'
-TYPE_INSTANT='Instant'
-TYPE_LAND='Land'
-TYPE_PLANESWALKER='Planeswalker'
-TYPE_SORCERY='Sorcery'
-TYPE_TOKEN='Token'
+from generate_docs import CARD_ORDER
+from generate_docs import CARD_PATH
+from generate_docs import colors_from_mana_cost
+from generate_docs import TYPE_BASIC
+from generate_docs import TYPE_CREATURE
+from generate_docs import TYPE_INSTANT
+from generate_docs import TYPE_LAND
+from generate_docs import TYPE_PLANESWALKER
+from generate_docs import TYPE_SORCERY
+from generate_docs import TYPE_TOKEN
 
-folder_path = "./cards/dks"
-order = [ 'colorless', 'white', 'blue', 'black', 'red', 'green', 'gold', 'artifact', 'land', "basic", "token" ]
-
-
-def creates_this_token(token):
+def creates_this_token(set, token):
     color_map = {
         '{W}': 'white',
         '{U}': 'blue',
@@ -29,8 +25,8 @@ def creates_this_token(token):
     }
 
     cards = []
-    for folder in order:
-        path = f"{folder_path}/{folder}/"
+    for folder in CARD_ORDER:
+        path = f"{CARD_PATH}/{set}/{folder}/"
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
@@ -54,7 +50,6 @@ def creates_this_token(token):
                                 cards.append(card_back['name'])
     return ', '.join(cards)
 
-
 def type_to_tablerow(type):
     if TYPE_CREATURE in type:
         return 2
@@ -64,39 +59,6 @@ def type_to_tablerow(type):
         return 3
     else:
         return 1
-
-
-def colors_from_mana_cost(mana_cost):
-    """
-    Extract colors from a mana cost string.
-    
-    Args:
-        mana_cost (str): Mana cost like '{G}{U}{2}{G/U}{X}'
-    
-    Returns:
-        Set[str]: A set of color names (e.g., {'Green', 'Blue'})
-    """
-    valid_colors = {
-        'G',
-        'W',
-        'U',
-        'B',
-        'R',
-        'C',
-    }
-    mana_cost_str = str(mana_cost)
-    symbols = re.findall(r'\{(.*?)\}', mana_cost_str.upper())
-    colors = set()
-
-    for symbol in symbols:
-        # Handle hybrid or Phyrexian like G/U, G/P
-        parts = re.split(r'[\/]', symbol)
-        for part in parts:
-            if part in valid_colors:
-                colors.add(part)
-    
-    return "".join(colors)
-
 
 def mana_cost_to_cmc(mana_cost, x_value=0):
     """
@@ -130,22 +92,7 @@ def mana_cost_to_cmc(mana_cost, x_value=0):
             cmc += 1
     return cmc
 
-
-def convert_mana_cost(mana_string):
-    # Regular expression to find all mana symbols
-    # Match hybrid and phyrexian mana first (e.g., 2/R, W/U, G/P), then single letters/numbers
-    pattern = r'\d+\/[WUBRGCS]|\d+|[WUBRGCSXYZ]\/[WUBRGCS]|[WUBRGCSXYZ]'
-    
-    # Find all matching symbols
-    symbols = re.findall(pattern, mana_string)
-    
-    # Wrap each symbol in {}
-    wrapped = ''.join(f'{{{s}}}' for s in symbols)
-    
-    return wrapped
-
-
-def create_card(card_front, card_back, image_url):
+def create_card(set, card_front, card_back, image_url):
     # Adjust card name for tokens because there are different tokens with the same name and cockatrice can't figure that out.
     card_name = card_front['name']
     if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
@@ -166,9 +113,9 @@ def create_card(card_front, card_back, image_url):
             <maintype>{card_front['type']}</maintype>
             <manacost>{card_front['cost']}</manacost>
             <cmc>{mana_cost_to_cmc(card_front['cost'])}</cmc>"""
-    color_str = colors_from_mana_cost(card_front['cost'])
+    color_str = "".join(colors_from_mana_cost(card_front['cost']))
     if len(color_str) == 0:
-        color_str = colors_from_mana_cost(card_front.get('color_indicator'))
+        color_str = "".join(colors_from_mana_cost(card_front.get('color_indicator')))
     if len(color_str) != 0:
         property_tags += f"\n            <colors>{color_str}</colors>"
 
@@ -188,7 +135,7 @@ def create_card(card_front, card_back, image_url):
 
     # Type token tag
     if TYPE_TOKEN in card_front['super']:
-        related_cards = creates_this_token(card_front)
+        related_cards = creates_this_token(set, card_front)
         general_tags += f"""
         <reverse-related>{related_cards}</reverse-related>
         <token>1</token>"""
@@ -204,12 +151,11 @@ def create_card(card_front, card_back, image_url):
     card = f"\n{general_tags.replace('PROPERTIES', property_tags)}\n"
     return card
 
-
-if __name__ == '__main__':
+def _generate_set(set):
     # Build list of cards
     cards = []
-    for folder in order:
-        path = f"{folder_path}/{folder}/"
+    for folder in CARD_ORDER:
+        path = f"{CARD_PATH}/{set}/{folder}/"
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
@@ -220,21 +166,23 @@ if __name__ == '__main__':
                         card_front = content[card_name]['front']
                         card_back = content[card_name].get('back', None)
                         image_name_front = image_name + '_front' if card_back is not None else image_name
-                        image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_front}.jpeg"
-                        card_front_xml = create_card(card_front, card_back, image_url)
+                        image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{folder}/{image_name_front}.jpeg"
+                        card_front_xml = create_card(set, card_front, card_back, image_url)
                         card_front_xml = f"""    <card>{card_front_xml}    </card>\n"""
                         cards.append(card_front_xml)
 
                         if card_back:
                             # Reversing this for transform cards.
                             image_name_back = image_name + "_back"
-                            image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{folder}/{image_name_back}.jpeg"
-                            card_back_xml = create_card(card_back, card_front, image_url)
+                            image_url = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{folder}/{image_name_back}.jpeg"
+                            card_back_xml = create_card(set, card_back, card_front, image_url)
                             card_back_xml = f"""    <card>{card_back_xml}    </card>\n"""
                             cards.append(card_back_xml)
+    return cards
 
+def _write_cockatrice_set_file(set, cards):
     # Write the file
-    cockatrice_set_file = 'cockatrice_dks.xml'
+    cockatrice_set_file = f"{set}_cockatrice.xml"
     with open(cockatrice_set_file, "w", encoding="utf-8") as file:
         print(f"{cockatrice_set_file}: Writing set")
         xml_start = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -253,3 +201,15 @@ if __name__ == '__main__':
         xml_end = f"""</cards>\n</cockatrice_carddatabase>"""
         file.write(xml_end)
         print(f"{cockatrice_set_file}: ✅ Set written")
+
+def generate_cockatrice():
+    for set_folder in sorted(os.listdir(CARD_PATH)):
+        # skip folders that aren't sets
+        if set_folder.startswith("_"):
+            continue
+        # Build list of cards
+        cards = _generate_set(set_folder)
+        _write_cockatrice_set_file(set_folder, cards)
+
+if __name__ == '__main__':
+    generate_cockatrice()

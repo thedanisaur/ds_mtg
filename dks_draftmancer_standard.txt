@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1307,6 +1307,161 @@
     "rating": 0,
     "oracle_text": "As ~ enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/thorolund_talisman.jpeg"
+},
+{
+    "name": "Hollow",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow.jpeg"
+},
+{
+    "name": "Hollow Knight",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/hollow_knight.jpeg"
+},
+{
+    "name": "Human",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human.jpeg"
+},
+{
+    "name": "Human Ally",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Deathtouch",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_black.jpeg"
+},
+{
+    "name": "Human Ally",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Lifelink",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/human_ally_white.jpeg"
+},
+{
+    "name": "Ornstein",
+    "super": "Legendary Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "First strike\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/ornstein.jpeg"
+},
+{
+    "name": "Phantom",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Haste\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/phantom.jpeg"
+},
+{
+    "name": "Red Phantom",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/red_phantom.jpeg"
+},
+{
+    "name": "Skeleton",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/skeleton.jpeg"
+},
+{
+    "name": "Smough",
+    "super": "Legendary Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Vigilance",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/smough.jpeg"
+},
+{
+    "name": "Wizard",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/wizard.jpeg"
+},
+{
+    "name": "Zombie Jackal",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/zombie_jackal.jpeg"
 },
 {
     "name": "Four Kings",
@@ -2012,8 +2167,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2026,8 +2181,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2054,8 +2209,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2173,6 +2328,30 @@
     "rating": 0,
     "oracle_text": "Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.\nEquipped creature gets +1/+0.\nImbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/titanite_shard.jpeg"
+},
+{
+    "name": "Assassin",
+    "super": "Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Whenever this creature deals combat damage to a player, that player loses the game.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/assassin.jpeg"
+},
+{
+    "name": "Treasure",
+    "super": "Token",
+    "type": "Artifact",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "{T}, Sacrifice ~: Add one mana of any color.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/treasure.jpeg"
 },
 {
     "name": "Anri of Astora",
@@ -2673,8 +2852,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2730,8 +2909,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2922,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
@@ -2798,8 +2977,8 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "B",
         "R",
+        "B",
         "W"
     ],
     "rarity": "rare",
@@ -2812,8 +2991,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "R",
+            "B",
             "W"
         ],
         "rarity": "",
@@ -2841,8 +3020,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
         "R",
+        "B",
         "G"
     ],
     "rarity": "rare",
@@ -2945,6 +3124,19 @@
     "rating": 3,
     "oracle_text": "Equipped creature has +1/+1, lifelink, and indestructible.\nWhenever the equipped creature is dealt damage, you may draw a card.\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/artifact/wolf_knights_greatshield.jpeg"
+},
+{
+    "name": "Chaos Bug",
+    "super": "Legendary Token",
+    "type": "Creature",
+    "mana_cost": "",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/token/chaos_bug.jpeg"
 },
 {
     "name": "Into the Abyss",
@@ -3068,8 +3260,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "R",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3085,9 +3277,9 @@
     "colors": [
         "R",
         "W",
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3115,9 +3307,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3129,9 +3321,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "U",
             "B",
-            "W",
-            "U"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3193,9 +3385,9 @@
     "colors": [
         "R",
         "W",
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3236,8 +3428,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3266,9 +3458,9 @@
     "colors": [
         "R",
         "W",
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3281,8 +3473,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3323,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3405,9 +3597,9 @@
     "colors": [
         "R",
         "W",
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3488,263 +3680,343 @@
         "Default": {
             "weight": 1,
             "slots": [
-                {"name": "Common",   "count": 15},
+                {
+                    "name": "LandOrBasic",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "LandMythic",  "weight": 1},
+                        {"name": "LandRare",  "weight": 4},
+                        {"name": "LandUncommon",  "weight": 8},
+                        {"name": "Basic", "weight": 32},
+                    ]
+                },
+                {
+                    "name": "RareOrMythic",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "LandRare",  "weight": 16},
+                        {"name": "Rare",   "weight": 344},
+                        {"name": "LandMythic",  "weight": 2},
+                        {"name": "Mythic", "weight": 16}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand1",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 69},
+                        {"name": "LandUncommon",  "weight": 11}
+                    ]
+                },
+                {"name": "Common",   "count": 11},
             ]
         }
     }
 }
 [Common]
-4 Ashen Idol
-4 Covetous Demon
-4 Dreg-Hollow Merchant
-4 Hollow
-4 Pyrewarden of the Things Betwixt
-4 Stray Demon
-4 Velka's Harpy
-4 Winged Chimera
-4 Batwing Demon
-4 Blessed Cleric
-4 Corrupted Hollow
-4 Flexile Sentry
-4 Forossa Lion Knight
-4 Infested Corpse
-4 Knights of Gwynevere
-4 Magic Barrier
-4 Mirrah Warrior
-4 New Londo Shade
-4 Resting Thief
-4 Soul of a Nameless Soldier
-4 Sunlight Spear
-4 Transient Curse
-4 Village Blacksmith
-4 Weary Travelers
-4 Adventuring Sorcerer
-4 Amana Priestess
-4 Aural Decoy
-4 Chameleon
-4 Crystal Butterfly
-4 Dual Charm
-4 Great Crab
-4 Hidden Body
-4 Homing Soul Mass
-4 Hooded Sorcerer
-4 Invisible Hollow
-4 Lost spell from Oolacile
-4 Magic Denial
-4 Old Sorcerer
-4 Petrifying Gaze
-4 Soul of an Unknown Traveler
-4 A Hero Gone Mad
-4 Chasm Giant
-4 Dark Edge
-4 Dark Hand of Kaathe
-4 Deep Fog
-4 Grave Warden
-4 Grip of Death
-4 Hollow Soldier
-4 Hound Rat
-4 Lothric Sentry
-4 Parasite Worm
-4 Royal Rat Vanguard
-4 Sift through the Ashes
-4 Something Petrified
-4 Soul of a Sorrowful Spirit
-4 Undead Hound
-4 Chaos Storm
-4 Cracked Redeye Orb
-4 Cragspider
-4 Demon Cleric
-4 Desert Pyromancer
-4 Evangelist of the Deep
-4 Firekeeper
-4 Firesage Demon
-4 Flamewielding Hollow
-4 Hollow Infantry
-4 Pesky Mosquito
-4 Profaned Flame
-4 Profuse Sweat
-4 Rapport
-4 Soul of an Old Pyromancer
-4 Sunlight Maggot
-4 Taurus Demon
-4 Unkindled's Journey
-4 Alluring Skull
-4 Amana Aberration
-4 Cathedral Evangelist
-4 Corrode
-4 Ent of the Darkroot Garden
-4 Festering Goblin
-4 Hesitant Surveyor
-4 Hollow Knight
-4 Milfanito
-4 Proselyte Scarlett
-4 Ravenous Crystal Lizard
-4 Sentinel of the Tower of Flame
-4 Shaded Woods
-4 Soul of a Lost Explorer
-4 Souls of the Living
-4 Undead Aberration
-4 Warcry
-4 Warp the Land
-4 Ruin Sentinels
-4 Sorcerer's Remedy
-4 Bell Gargoyles
-4 Broadsword
-4 Charm of the Undead Hunters
-4 Iron Golem
-4 Metaleater Spider
-4 Silver Amulet
-4 Silver Serpent Ring
-4 Thorolund Talisman
-4 Four Kings
-4 Sif, the Great Grey Wolf
-4 Heretic Storyteller
-4 Heavenly Thunder
-4 Insolent Spirits
-4 Karmic Righteousness
-4 Miracle of the Way of White
-4 Petrified Egg
-4 Shulva's Denial
-4 Solaire of Astora
-4 Soothing Sunlight
-4 Swollen Mongrel
-4 Tears of Denial
-4 Wight
-4 Angelic Knight
-4 Ashen Estus
-4 Burning Ambition
-4 Farron Dart
-4 Pestilent Mercury
-4 Ruin Banshee
-4 Sage's Scroll
-4 Search the Library
-4 Twisted Wall of Light
-4 Wall Spectre
-4 Bonfire Ascetic
-4 Charred Knight
-4 Chosen Undead
-4 Clawed Curse
-4 Darkwraith
-4 Jailer
-4 Lordran Necromancer
-4 Resonant Flesh
-4 Scraps of Life
-4 Acid Surge
-4 Capra Demon
-4 Fiery Soapstone
-4 Fire Orb
-4 Fire Surge
-4 Flame Whip
-4 Immolation
-4 Lingering Flame
-4 Permeating Flames
-4 Smoldering Rotten Flesh
-4 Contrasted Cursed
-4 Covenant of the Forest Hunter
-4 Duke's Dear Freja
-4 Estus Flask
-4 Expected Companions
-4 Lothric Knight
-4 Mimic
-4 Petrifying Statue
-4 Seek Embers
-4 The Serpent King
-4 Wistful Naivete
-4 Blade of the Darkmoon
-4 Disembodied Wisp
-4 Splintering Lightning
-4 Spreading Decay
-4 Bloodbite Ring
-4 Charm of the Abyss Watchers
-4 Chloranthy Ring
-4 Halberd
-4 Heide Knight
-4 Hornet Ring
-4 Looking Glass Knight
-4 Ring of a Great Warrior
-4 Soul Syphoner
-4 Titanite Shard
-4 Anri of Astora
-4 Emit Force
-4 Homeward
-4 Reforge
-4 Siegmeyer of Catarina
-4 Sunlight Blade
-4 Vow of Silence
-4 Big Hat Logan
-4 Fume Sorcerer
-4 Hidden Weapon
-4 Outrider Knight
-4 Rumination
-4 Soul Spear
-4 Soul Stream
-4 Dark Sigil
-4 Frozen Reindeer
-4 Grave Warden's Tome
-4 Nimble Shadow
-4 Resonant Weapon
-4 Skim Memories
-4 The Great Swamp
-4 Carthus Beacon
-4 Chaos Bed Vestiges
-4 Forbidden Sun
-4 Hellkite Wyvern
-4 Ignite Steel
-4 Unbreakable Patches
-4 Carthus Rouge
-4 Dark Fog
-4 Gaping Dragon
-4 Pagan Tree
-4 Aldrich, Devourer of Gods
-4 Ancient Wyvern
-4 Archdeacon of the Deep
-4 Baneful Queen, Mytha
-4 Bed of Chaos
-4 Dragonslayer and Executioner
-4 Ember
-4 Fume Knight
-4 Gael, Seeker of Ash
-4 Hawkeye Gough
-4 Iudex Gundyr
-4 Knight Lautrec
-4 Stream of Estus
-4 Yhorm, the Giant
-4 Catalyst of the Witch of Izalith
-4 Charm of the Sunlight Princess
-4 Cursed Greatsword
-4 Eyes of a Firekeeper
-4 Talisman of the Way of White
-4 Titanite Chunk
-4 Uchigatana
-4 Wolf Knight's Greatshield
-4 Into the Abyss
-4 Vordt and the Dancer
-4 Curse of the Dead
-4 Gravelord Nito
-4 Ringfinger Leonhard
-4 Abyss Watchers
-4 Pickle Pee, Pump-a-Rum
-4 Gravelord's Maelstrom
-4 Gwyn, Lord of Cinder
-4 King of the Storm
-4 Knight Artorias
-4 Lorian and Lothric
-4 Homeward Bone
-4 Kiln of the First Flame
-4 Moonlight Greatsword
-4 Ring of Sacrifice
-16 Anor Londo
-16 Archdragon Peak
-16 Cathedral of Blue
-16 Cathedral of the Deep
-16 Comforting Fire
-16 Darkroot Garden
-16 Farron Keep
-16 Irithyll of the Boreal Valley
-16 Lost Izalith
-16 Road of Sacrifices
-16 Shrine of Amana
-16 Lothric Castle
-16 The Fire Fades
-16 Blighttown
-16 Firelink Shrine
+15 Ashen Idol
+15 Covetous Demon
+15 Dreg-Hollow Merchant
+15 Hollow
+15 Pyrewarden of the Things Betwixt
+15 Stray Demon
+15 Velka's Harpy
+15 Winged Chimera
+15 Batwing Demon
+15 Blessed Cleric
+15 Corrupted Hollow
+15 Flexile Sentry
+15 Forossa Lion Knight
+15 Infested Corpse
+15 Knights of Gwynevere
+15 Magic Barrier
+15 Mirrah Warrior
+15 New Londo Shade
+15 Resting Thief
+15 Soul of a Nameless Soldier
+15 Sunlight Spear
+15 Transient Curse
+15 Village Blacksmith
+15 Weary Travelers
+15 Adventuring Sorcerer
+15 Amana Priestess
+15 Aural Decoy
+15 Chameleon
+15 Crystal Butterfly
+15 Dual Charm
+15 Great Crab
+15 Hidden Body
+15 Homing Soul Mass
+15 Hooded Sorcerer
+15 Invisible Hollow
+15 Lost spell from Oolacile
+15 Magic Denial
+15 Old Sorcerer
+15 Petrifying Gaze
+15 Soul of an Unknown Traveler
+15 A Hero Gone Mad
+15 Chasm Giant
+15 Dark Edge
+15 Dark Hand of Kaathe
+15 Deep Fog
+15 Grave Warden
+15 Grip of Death
+15 Hollow Soldier
+15 Hound Rat
+15 Lothric Sentry
+15 Parasite Worm
+15 Royal Rat Vanguard
+15 Sift through the Ashes
+15 Something Petrified
+15 Soul of a Sorrowful Spirit
+15 Undead Hound
+15 Chaos Storm
+15 Cracked Redeye Orb
+15 Cragspider
+15 Demon Cleric
+15 Desert Pyromancer
+15 Evangelist of the Deep
+15 Firekeeper
+15 Firesage Demon
+15 Flamewielding Hollow
+15 Hollow Infantry
+15 Pesky Mosquito
+15 Profaned Flame
+15 Profuse Sweat
+15 Rapport
+15 Soul of an Old Pyromancer
+15 Sunlight Maggot
+15 Taurus Demon
+15 Unkindled's Journey
+15 Alluring Skull
+15 Amana Aberration
+15 Cathedral Evangelist
+15 Corrode
+15 Ent of the Darkroot Garden
+15 Festering Goblin
+15 Hesitant Surveyor
+15 Hollow Knight
+15 Milfanito
+15 Proselyte Scarlett
+15 Ravenous Crystal Lizard
+15 Sentinel of the Tower of Flame
+15 Shaded Woods
+15 Soul of a Lost Explorer
+15 Souls of the Living
+15 Undead Aberration
+15 Warcry
+15 Warp the Land
+15 Ruin Sentinels
+15 Sorcerer's Remedy
+15 Bell Gargoyles
+15 Broadsword
+15 Charm of the Undead Hunters
+15 Iron Golem
+15 Metaleater Spider
+15 Silver Amulet
+15 Silver Serpent Ring
+15 Thorolund Talisman
+15 Hollow
+15 Hollow Knight
+15 Human
+15 Human Ally
+15 Human Ally
+15 Ornstein
+15 Phantom
+15 Red Phantom
+15 Skeleton
+15 Smough
+15 Wizard
+15 Zombie Jackal
+
+[Uncommon]
+7 Four Kings
+7 Sif, the Great Grey Wolf
+7 Heretic Storyteller
+7 Heavenly Thunder
+7 Insolent Spirits
+7 Karmic Righteousness
+7 Miracle of the Way of White
+7 Petrified Egg
+7 Shulva's Denial
+7 Solaire of Astora
+7 Soothing Sunlight
+7 Swollen Mongrel
+7 Tears of Denial
+7 Wight
+7 Angelic Knight
+7 Ashen Estus
+7 Burning Ambition
+7 Farron Dart
+7 Pestilent Mercury
+7 Ruin Banshee
+7 Sage's Scroll
+7 Search the Library
+7 Twisted Wall of Light
+7 Wall Spectre
+7 Bonfire Ascetic
+7 Charred Knight
+7 Chosen Undead
+7 Clawed Curse
+7 Darkwraith
+7 Jailer
+7 Lordran Necromancer
+7 Resonant Flesh
+7 Scraps of Life
+7 Acid Surge
+7 Capra Demon
+7 Fiery Soapstone
+7 Fire Orb
+7 Fire Surge
+7 Flame Whip
+7 Immolation
+7 Lingering Flame
+7 Permeating Flames
+7 Smoldering Rotten Flesh
+7 Contrasted Cursed
+7 Covenant of the Forest Hunter
+7 Duke's Dear Freja
+7 Estus Flask
+7 Expected Companions
+7 Lothric Knight
+7 Mimic
+7 Petrifying Statue
+7 Seek Embers
+7 The Serpent King
+7 Wistful Naivete
+7 Blade of the Darkmoon
+7 Disembodied Wisp
+7 Splintering Lightning
+7 Spreading Decay
+7 Bloodbite Ring
+7 Charm of the Abyss Watchers
+7 Chloranthy Ring
+7 Halberd
+7 Heide Knight
+7 Hornet Ring
+7 Looking Glass Knight
+7 Ring of a Great Warrior
+7 Soul Syphoner
+7 Titanite Shard
+7 Assassin
+7 Treasure
+
+[Rare]
+3 Anri of Astora
+3 Emit Force
+3 Homeward
+3 Reforge
+3 Siegmeyer of Catarina
+3 Sunlight Blade
+3 Vow of Silence
+3 Big Hat Logan
+3 Fume Sorcerer
+3 Hidden Weapon
+3 Outrider Knight
+3 Rumination
+3 Soul Spear
+3 Soul Stream
+3 Dark Sigil
+3 Frozen Reindeer
+3 Grave Warden's Tome
+3 Nimble Shadow
+3 Resonant Weapon
+3 Skim Memories
+3 The Great Swamp
+3 Carthus Beacon
+3 Chaos Bed Vestiges
+3 Forbidden Sun
+3 Hellkite Wyvern
+3 Ignite Steel
+3 Unbreakable Patches
+3 Carthus Rouge
+3 Dark Fog
+3 Gaping Dragon
+3 Pagan Tree
+3 Aldrich, Devourer of Gods
+3 Ancient Wyvern
+3 Archdeacon of the Deep
+3 Baneful Queen, Mytha
+3 Bed of Chaos
+3 Dragonslayer and Executioner
+3 Ember
+3 Fume Knight
+3 Gael, Seeker of Ash
+3 Hawkeye Gough
+3 Iudex Gundyr
+3 Knight Lautrec
+3 Stream of Estus
+3 Yhorm, the Giant
+3 Catalyst of the Witch of Izalith
+3 Charm of the Sunlight Princess
+3 Cursed Greatsword
+3 Eyes of a Firekeeper
+3 Talisman of the Way of White
+3 Titanite Chunk
+3 Uchigatana
+3 Wolf Knight's Greatshield
+3 Chaos Bug
+
+[Mythic]
+Into the Abyss
+Vordt and the Dancer
+Curse of the Dead
+Gravelord Nito
+Ringfinger Leonhard
+Abyss Watchers
+Pickle Pee, Pump-a-Rum
+Gravelord's Maelstrom
+Gwyn, Lord of Cinder
+King of the Storm
+Knight Artorias
+Lorian and Lothric
+Homeward Bone
+Kiln of the First Flame
+Moonlight Greatsword
+Ring of Sacrifice
+
+[LandUncommon]
+7 Anor Londo
+7 Archdragon Peak
+7 Cathedral of Blue
+7 Cathedral of the Deep
+7 Comforting Fire
+7 Darkroot Garden
+7 Farron Keep
+7 Irithyll of the Boreal Valley
+7 Lost Izalith
+7 Road of Sacrifices
+7 Shrine of Amana
+
+[LandRare]
+3 Lothric Castle
+3 The Fire Fades
+
+[LandMythic]
+Blighttown
+Firelink Shrine
+
+[Basic]
+8 Plains
+8 Island
+8 Swamp
+8 Mountain
+8 Forest
+8 Wastes
+
