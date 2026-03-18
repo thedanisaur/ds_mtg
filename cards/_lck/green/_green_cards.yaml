@@ -1,40 +1,16 @@
-card_double_face_template:
+card_1:
   front:
-    name: "Knight Artorias"
-    cost: "{1}{W}{U}{B}"
-    super: "Legendary"
-    type: "Creature"
-    sub: "Knight"
-    rarity: "Mythic"
-    rating: 1
-    rules_text: |
-      Whenever ~ attacks, defending player discards a card and you draw a card.
-      Whenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.
-      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
-    flavor_text: "..."
-    artwork_url: "https://i.ibb.co/zWpwTvQm/knight-artorias-back-remainaery-resize.jpg"
-    artist: "remainaery"
-    number: 202
-    power: 4
-    toughness: 4
-    frame: "Double-Faced: Day"
-    color_indicator: ""
-  back:
-    name: "The Abysswalker"
-    cost: ""
-    super: "Legendary"
-    type: "Creature"
-    sub: "Hollow"
+    name: "Best Ramp"
+    cost: "{G}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
     rarity: ""
+    rating: 2
     rules_text: |
-      When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
-      Whenever an opponent draws a card, you may draw a card.
-      {W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
-    flavor_text: "Indeed, the Abyss may be unstoppable."
-    artwork_url: "https://i.ibb.co/LXPJ55nQ/knight-artorias-back-sane-kyle-resize.jpg"
-    artist: "Sane Kyle"
-    number: 202
-    power: 3
-    toughness: 4
-    frame: "Double-Faced: Night"
-    color_indicator: "{W}{U}{B}"
+      When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard.
+      At the beginning of your upkeep you may return a basic land from your graveyard to your hand.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

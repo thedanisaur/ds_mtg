@@ -103,3 +103,20 @@ card_6:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_7:
+  front:
+    name: "Hate Seal"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Key"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {4}, {T}, Sacrifice ~: Destroy target noncreature artifact or enchantment.
+      When ~ goes to the graveyard you may pay one soul. If you do, draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

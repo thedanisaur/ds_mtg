@@ -17,3 +17,20 @@ card_1:
     number: 1
     power: 1
     toughness: 2
+
+card_2:
+  front:
+    name: "Twisted Humanity"
+    cost: "{2}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      As you cast ~ you may pay two souls. If you don't, you lose 2 life.
+      Destroy target non-Human creature or enchantment.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
