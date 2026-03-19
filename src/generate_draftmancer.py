@@ -33,9 +33,11 @@ def get_colors(card):
         colors = colors_from_mana_cost(card.get('color_indicator', ''))
     return colors
 
-def _generate_card_list(set_path, cards_by_rarity):
+def _generate_card_list(set, cards_by_rarity):
     for card_type in CARD_ORDER:
-        path = f"{set_path}/{card_type}/"
+        if card_type == 'token':
+            continue
+        path = f"{CARD_PATH}/{set}/{card_type}/"
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
@@ -58,7 +60,7 @@ def _generate_card_list(set_path, cards_by_rarity):
                         if card_back is not None:
                             image_name_front = image_name + "_front"
                             image_name_back = image_name + "_back"
-                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name_front}.jpeg"
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{card_type}/{image_name_front}.jpeg"
                             card['back'] = {
                                 'name': card_back['name'],
                                 'super': card_back['super'],
@@ -67,10 +69,10 @@ def _generate_card_list(set_path, cards_by_rarity):
                                 'colors': get_colors(card_back),
                                 'rarity': card_back['rarity'].lower(),
                                 'oracle_text': card_back['rules_text'],
-                                'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name_back}.jpeg"
+                                'image': f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{card_type}/{image_name_back}.jpeg"
                             }
                         else:
-                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{card_type}/{image_name}.jpeg"
+                            card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{card_type}/{image_name}.jpeg"
                         if card_front['type'] == 'Land' and card_front['super'] == 'Basic':
                             cards_by_rarity[card_front['super']].append(card)
                         elif card_front['type'] == 'Land':
@@ -178,7 +180,7 @@ def generate_draftmancer():
         if set_folder.startswith("_"):
             continue
         # Build list of cards
-        cards_by_rarity = _generate_card_list(f"{CARD_PATH}/{set_folder}", cards_by_rarity)
+        cards_by_rarity = _generate_card_list(set_folder, cards_by_rarity)
         _write_standard_settings(set_folder, cards_by_rarity)
         _write_no_rarity_settings(set_folder, cards_by_rarity)
 
