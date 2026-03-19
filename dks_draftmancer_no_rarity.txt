@@ -1203,7 +1203,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Vigilance, lifelink\n~ gets +2/+2 for each other giant you control.\nWhen ~ enters the battlefield search your library for a card named \"~\".\n",
+    "oracle_text": "Vigilance, lifelink\n~ gets +2/+2 for each other giant you control.\nWhen ~ enters the battlefield, you may search your library for any number of cards named \"~\", reveal them, and put them into your hand. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/gold/ruin_sentinels.jpeg"
 },
 {
@@ -1442,8 +1442,8 @@
     "type": "Creature",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1874,6 +1874,19 @@
     "rating": 2,
     "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay two souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_flesh.jpeg"
+},
+{
+    "name": "Resonant Soul",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You get two souls, then you may pay any number of souls.\n~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
 },
 {
     "name": "Scraps of Life",
@@ -2620,7 +2633,7 @@
     "rarity": "rare",
     "rating": 1,
     "oracle_text": "Enchant creature\nEnchanted creature has \"Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn.\"\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_soul.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/black/resonant_weapon.jpeg"
 },
 {
     "name": "Skim Memories",
@@ -2824,8 +2837,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2895,8 +2908,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3260,9 +3273,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
+        "U",
         "R",
-        "B",
-        "U"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3275,11 +3288,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
-        "W",
-        "B",
         "U",
-        "G"
+        "R",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3292,9 +3305,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "U",
         "R",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3383,11 +3396,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
-        "W",
-        "B",
         "U",
-        "G"
+        "R",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3442,8 +3455,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3456,11 +3469,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W",
-        "B",
         "U",
-        "G"
+        "R",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3501,8 +3514,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3595,11 +3608,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W",
-        "B",
         "U",
-        "G"
+        "R",
+        "G",
+        "B",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3832,6 +3845,7 @@
 4 Jailer
 4 Lordran Necromancer
 4 Resonant Flesh
+4 Resonant Soul
 4 Scraps of Life
 4 Acid Surge
 4 Capra Demon
