@@ -30,7 +30,6 @@ def creates_this_token(set, token):
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
-                    print(f"card file: {card_file}")
                     content = yaml.safe_load(card_file)
                     for card_name in content:
                         card_front = content[card_name]['front']
@@ -96,8 +95,8 @@ def mana_cost_to_cmc(mana_cost, x_value=0):
 def create_card(set, card_front, card_back, image_url):
     # Adjust card name for tokens because there are different tokens with the same name and cockatrice can't figure that out.
     card_name = card_front['name']
-    if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
-        card_name = f"{card_front['name']} - DKS"
+    # if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
+    #     card_name = f"{card_front['name']} - DKS"
 
     general_tags = f"""        <name>{card_name}</name>
         <text>{card_front['rules_text'].strip()}</text>

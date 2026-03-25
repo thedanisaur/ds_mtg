@@ -83,26 +83,9 @@ card_human:
     toughness: 1
     color_indicator: "{W}"
 
-card_human_ally_black:
+card_human_ally_anri:
   front:
-    name: "Human Ally"
-    cost: ""
-    super: "Token"
-    type: "Creature"
-    sub: "Human Ally"
-    rarity: "Token"
-    rules_text: "Deathtouch"
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/gLkJnft9/human-ally-black-trashbagartist-resize.jpg"
-    artist: "trashbagartist"
-    number: 6
-    power: 1
-    toughness: 2
-    color_indicator: "{B}"
-
-card_human_ally_white:
-  front:
-    name: "Human Ally"
+    name: "Human Ally Anri"
     cost: ""
     super: "Token"
     type: "Creature"
@@ -112,10 +95,27 @@ card_human_ally_white:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/5hGfXc2R/human-ally-white-martianzombie-resize.jpg"
     artist: "martianzombie"
-    number: 7
+    number: 6
     power: 2
     toughness: 1
     color_indicator: "{W}"
+
+card_human_ally_horus:
+  front:
+    name: "Human Ally Horus"
+    cost: ""
+    super: "Token"
+    type: "Creature"
+    sub: "Human Ally"
+    rarity: "Token"
+    rules_text: "Deathtouch"
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/gLkJnft9/human-ally-black-trashbagartist-resize.jpg"
+    artist: "trashbagartist"
+    number: 7
+    power: 1
+    toughness: 2
+    color_indicator: "{B}"
 
 card_ornstein:
   front:

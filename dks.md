@@ -1358,14 +1358,14 @@
         <strong>Human</strong>
     </td>
     <td align="center">
-        <img src="./cards/dks/token/human_ally_black.jpeg" alt="Human Ally Black" width="400"/><br/>
-        <strong>Human Ally Black</strong>
+        <img src="./cards/dks/token/human_ally_anri.jpeg" alt="Human Ally Anri" width="400"/><br/>
+        <strong>Human Ally Anri</strong>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/dks/token/human_ally_white.jpeg" alt="Human Ally White" width="400"/><br/>
-        <strong>Human Ally White</strong>
+        <img src="./cards/dks/token/human_ally_horus.jpeg" alt="Human Ally Horus" width="400"/><br/>
+        <strong>Human Ally Horus</strong>
     </td>
     <td align="center">
         <img src="./cards/dks/token/ornstein.jpeg" alt="Ornstein" width="400"/><br/>

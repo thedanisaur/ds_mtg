@@ -728,8 +728,8 @@ Equipped creatures you control get +1/+1.</text>
     <card>
         <name>Weary Travelers</name>
         <text>If you would discard this card you may cast it without paying its mana cost instead.
-Create a 1/2 black Human Ally creature token. It has deathtouch.
-Create a 2/1 white Human Ally creature token. It has lifelink.</text>
+Create a 1/2 black Human Ally Horus creature token. It has deathtouch.
+Create a 2/1 white Human Ally Anri creature token. It has lifelink.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -2459,7 +2459,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/abyss_watchers_back.jpeg">DKS</set>
@@ -3036,7 +3036,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
@@ -3053,7 +3053,7 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ancient_wyvern.jpeg">DKS</set>
@@ -3087,7 +3087,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3104,7 +3104,7 @@ At the beginning of your end step each opponent sacrifices a nonland permanent a
             <maintype>Creature</maintype>
             <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/bed_of_chaos.jpeg">DKS</set>
@@ -3136,7 +3136,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{B/R}</manacost>
             <cmc>1</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/disembodied_wisp.jpeg">DKS</set>
@@ -3154,7 +3154,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3170,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WGR</colors>
+            <colors>GRW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3185,7 +3185,7 @@ Whenever ~ deals combat damage to a player, that player reveals the top X cards 
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/fume_knight.jpeg">DKS</set>
@@ -3203,7 +3203,7 @@ Whenever ~ is dealt damage you lose that much life and if damage dealt to this c
             <maintype>Creature</maintype>
             <manacost>{3}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/4</pt>
         </prop>
         <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
@@ -3221,7 +3221,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
@@ -3237,7 +3237,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>BUR</colors>
+            <colors>UBR</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3254,7 +3254,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>BWGUR</colors>
+            <colors>RGWUB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3321,7 +3321,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>UWR</colors>
+            <colors>URW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3338,7 +3338,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>BUW</colors>
+            <colors>UBW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3356,7 +3356,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BUW</colors>
+            <colors>UBW</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3374,7 +3374,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>BWR</colors>
+            <colors>RBW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3391,7 +3391,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BWR</colors>
+            <colors>RBW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3409,7 +3409,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <loyalty>4</loyalty>
         </prop>
         <set rarity="Mythic" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/lorian_and_lothric.jpeg">DKS</set>
@@ -3426,7 +3426,7 @@ When ~ enters the battlefield, you may search your library for any number of car
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3456,7 +3456,7 @@ Draw a card.</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
         </prop>
         <set rarity="Uncommon" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3472,7 +3472,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{R}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
         </prop>
         <set rarity="Uncommon" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3503,7 +3503,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>BGR</colors>
+            <colors>GRB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3815,7 +3815,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>BWGUR</colors>
+            <colors>RGWUB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4167,7 +4167,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Assassin - DKS</name>
+        <name>Assassin</name>
         <text>Whenever this creature deals combat damage to a player, that player loses the game.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4184,7 +4184,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Chaos Bug - DKS</name>
+        <name>Chaos Bug</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4201,7 +4201,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Hollow - DKS</name>
+        <name>Hollow</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4217,7 +4217,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Hollow Knight - DKS</name>
+        <name>Hollow Knight</name>
         <text>{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4234,7 +4234,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Human - DKS</name>
+        <name>Human</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4251,24 +4251,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Human Ally - DKS</name>
-        <text>Deathtouch</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Token Creature - Human Ally</type>
-            <maintype>Creature</maintype>
-            <manacost></manacost>
-            <cmc>0</cmc>
-            <colors>B</colors>
-            <pt>1/2</pt>
-        </prop>
-        <set rarity="Token" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_black.jpeg">DKS</set>
-        <reverse-related>Weary Travelers</reverse-related>
-        <token>1</token>
-        <tablerow>2</tablerow>
-    </card>
-    <card>
-        <name>Human Ally - DKS</name>
+        <name>Human Ally Anri</name>
         <text>Lifelink</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4279,13 +4262,30 @@ Equip {2}</text>
             <colors>W</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_white.jpeg">DKS</set>
+        <set rarity="Token" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_anri.jpeg">DKS</set>
         <reverse-related>Weary Travelers</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Ornstein - DKS</name>
+        <name>Human Ally Horus</name>
+        <text>Deathtouch</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Token Creature - Human Ally</type>
+            <maintype>Creature</maintype>
+            <manacost></manacost>
+            <cmc>0</cmc>
+            <colors>B</colors>
+            <pt>1/2</pt>
+        </prop>
+        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_horus.jpeg">DKS</set>
+        <reverse-related>Weary Travelers</reverse-related>
+        <token>1</token>
+        <tablerow>2</tablerow>
+    </card>
+    <card>
+        <name>Ornstein</name>
         <text>First strike</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4302,7 +4302,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Phantom - DKS</name>
+        <name>Phantom</name>
         <text>Haste</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4319,7 +4319,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Plague Counter - DKS</name>
+        <name>Plague Counter</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4334,7 +4334,7 @@ Equip {2}</text>
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Red Phantom - DKS</name>
+        <name>Red Phantom</name>
         <text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4351,7 +4351,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Skeleton - DKS</name>
+        <name>Skeleton</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4368,7 +4368,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Smough - DKS</name>
+        <name>Smough</name>
         <text>Vigilance</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4385,7 +4385,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Treasure - DKS</name>
+        <name>Treasure</name>
         <text>{T}, Sacrifice ~: Add one mana of any color.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4400,7 +4400,7 @@ Equip {2}</text>
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Wizard - DKS</name>
+        <name>Wizard</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4417,7 +4417,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Zombie Jackal - DKS</name>
+        <name>Zombie Jackal</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4434,7 +4434,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Plains - DKS</name>
+        <name>Plains</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4447,7 +4447,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Island - DKS</name>
+        <name>Island</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4460,7 +4460,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Swamp - DKS</name>
+        <name>Swamp</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4473,7 +4473,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Mountain - DKS</name>
+        <name>Mountain</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4486,7 +4486,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Forest - DKS</name>
+        <name>Forest</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4499,7 +4499,7 @@ Equip {2}</text>
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Wastes - DKS</name>
+        <name>Wastes</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
