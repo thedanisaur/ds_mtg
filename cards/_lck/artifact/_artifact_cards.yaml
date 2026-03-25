@@ -171,3 +171,21 @@ card_uchigatana:
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
     artist: "Asymoney"
     number: 239
+
+card_9:
+  front:
+    name: "Crown of the Old Iron King"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Nonartifact spells cost {1} more to cast.
+      Equipped creature has "Spells cost {1} more to cast."
+      Equip {2}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
