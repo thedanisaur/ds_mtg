@@ -1,44 +1,3 @@
-card_double_face_template:
-  front:
-    name: "Knight Artorias"
-    cost: "{1}{W}{U}{B}"
-    super: "Legendary"
-    type: "Creature"
-    sub: "Knight"
-    rarity: "Mythic"
-    rating: 1
-    rules_text: |
-      Whenever ~ attacks, defending player discards a card and you draw a card.
-      Whenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.
-      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
-    flavor_text: "..."
-    artwork_url: "https://i.ibb.co/zWpwTvQm/knight-artorias-back-remainaery-resize.jpg"
-    artist: "remainaery"
-    number: 202
-    power: 4
-    toughness: 4
-    frame: "Double-Faced: Day"
-    color_indicator: ""
-  back:
-    name: "The Abysswalker"
-    cost: ""
-    super: "Legendary"
-    type: "Creature"
-    sub: "Hollow"
-    rarity: ""
-    rules_text: |
-      When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.
-      Whenever an opponent draws a card, you may draw a card.
-      {W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.
-    flavor_text: "Indeed, the Abyss may be unstoppable."
-    artwork_url: "https://i.ibb.co/LXPJ55nQ/knight-artorias-back-sane-kyle-resize.jpg"
-    artist: "Sane Kyle"
-    number: 202
-    power: 3
-    toughness: 4
-    frame: "Double-Faced: Night"
-    color_indicator: "{W}{U}{B}"
-
 card_1:
   front:
     name: "Crystal Hollow"
@@ -118,14 +77,112 @@ card_4:
 card_5:
   front:
     name: "Blood Hollow"
-    cost: "{1}{B/W}"
+    cost: "{B/W}"
     super: ""
     type: "Creature"
     sub: "Hollow"
     rarity: ""
     rating: 1
     rules_text: |
-      Whenever ~ or another creature dies, each opponent loses 1 life and you gain 1 life.
+      Whenever ~ or another creature dies, each opponent loses 1 life and you get one soul.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_6:
+  front:
+    name: "Grow Hollow"
+    cost: "{U/G}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul.
+      Whenever ~ or another creature you control enters the battlefield, put a +1/+1 counter on target hollow.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_7:
+  front:
+    name: "Helix Hollow"
+    cost: "{R/W}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul.
+      Whenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_8:
+  front:
+    name: "Hidden Hollow"
+    cost: "{1}{U/B}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul.
+      Whenever ~ deals damage to a player choose one, if a card went to your graveyard this turn choose both instead -
+      • Target player draws a card.
+      • Target player discards a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_9:
+  front:
+    name: "Angry Hollow"
+    cost: "{U/R}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      Flying, haste
+      Whenever you discard a card ~ gets +2/+0 until end of turn and you get one soul.
+      Whenever ~ deals damage to a player, if you discarded one or more cards this turn draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_10:
+  front:
+    name: "Value Hollow"
+    cost: "{B/G}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ leaves the battlefield, you get one soul.
+      Sacrifice another creature: Return target creature from your graveyard to the battlefield. Return ~ to your hand.
     flavor_text: ""
     artwork_url: ""
     artist: ""
