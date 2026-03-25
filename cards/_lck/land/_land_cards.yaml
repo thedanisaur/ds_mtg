@@ -2,9 +2,9 @@ card_1:
   front:
     name: "Bonfire of Hollows"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
@@ -19,9 +19,9 @@ card_2:
   front:
     name: "Crystal Mine"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
@@ -37,9 +37,9 @@ card_3:
   front:
     name: "Early Dual"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
@@ -55,9 +55,9 @@ card_4:
   front:
     name: "Crystal Bonfire"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
@@ -73,14 +73,142 @@ card_5:
   front:
     name: "Lotus Bonfire"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped.
       {T}, Sacrifice ~: Add three mana of any one color to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_6:
+  front:
+    name: "Untapped Bonfire"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return an untapped island or untapped mountain to your hand.
+      {T}: Add {U} or {R} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_7:
+  front:
+    name: "Double Bonfire"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield sacrifice it unless you return an untapped island or untapped mountain to your hand.
+      {T}: Add {U}{U}, {R}{R}, or {U}{R} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_8:
+  front:
+    name: "Swamp Grixis Cycler"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: "Swamp"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for an Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_9:
+  front:
+    name: "Nonbasic Fetch"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 5
+    rules_text: |
+      {T}, Sacrifice ~: Search your library for a nonbasic island or nonbasic mountain and put it onto the battlefield. Shuffle your library.
+    flavor_text: "Ah, a bonfire!"
+    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
+    artist: "SirGorke"
+    number: 246
+    colors: '{W}{U}{B}{R}{G}'
+
+card_10:
+  front:
+    name: "Bonfire Destruction"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Add {1} to your mana pool.
+      {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_the_grand_archives:
+  front:
+    name: "The Grand Archives"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      You have no maximum hand size.
+      {T}: Add {U} or {R} to your mana pool.
+      {U/R}{U/R}, {T}: Draw a card, then discard a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    colors: '{U}{R}'
+
+card_glorious_land_destruction:
+  front:
+    name: "Glorious Land Destruction"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: ""
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      {T}: Add {1} to your mana pool.
+      {1}, {T}, Sacrifice ~: Destroy target land.
     flavor_text: |
       ""
     artwork_url: ""

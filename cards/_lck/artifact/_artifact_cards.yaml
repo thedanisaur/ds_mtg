@@ -1,6 +1,6 @@
 card_1:
   front:
-    name: "Grafdigger's Cage"
+    name: "The Great Seal of Thorolund"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -8,12 +8,8 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
-      Creature cards in graveyards and libraries can't enter the battlefield.
-      Players can't cast spells from graveyards or libraries.
-      OR
-      Gravewarden's Cage?
-      Cards in graveyards and libraries can't enter the battlefield.
-      Players can't cast spells from graveyards or libraries.
+      Cards can't enter the battlefield unless it's from the stack.
+      Players can't cast spells unless it's from their hand.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -63,6 +59,7 @@ card_4:
     rating: 2
     rules_text: |
       {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+      When ~ goes to the graveyard you may pay one soul. If you do, draw a card.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -97,7 +94,7 @@ card_6:
     rarity: ""
     rating: 2
     rules_text: |
-      Pay one soul: Look at the top four cards of your library, then put them back in any order. Activate only once per turn.
+      Pay one soul: Look at the top four cards of your library, then put them back in any order.
       {T}: Draw a card, then shuffle ~ into its owner's library.
     flavor_text: ""
     artwork_url: ""
@@ -120,3 +117,57 @@ card_7:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_8:
+  front:
+    name: "The Champion's Tablet"
+    cost: "{X}{1}"
+    super: ""
+    type: "Legendary Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with X awestone counters on it.
+      At the beginning of your upkeep you may put an awestone counter on ~.
+      Play with the top card of your library revealed.
+      {T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from your library onto the battlefield.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_ring_of_favor:
+  front:
+    name: "Ring of Favor"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Rare"
+    rating: 1
+    rules_text: |
+      Equipped creature gets +2/+2 and has vigilance, haste, and "Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost."
+      Equip {2}
+    flavor_text: "May the Goddess Fina favor you."
+    artwork_url: "https://i.ibb.co/TqdBPZJt/ring-of-favor.jpg"
+    artist: "fromsoft"
+    number: 1
+
+card_uchigatana:
+  front:
+    name: "Uchigatana"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has bleed. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      Equip {2}
+    flavor_text: "The soul never notices it's already bled dry."
+    artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
+    artist: "Asymoney"
+    number: 239

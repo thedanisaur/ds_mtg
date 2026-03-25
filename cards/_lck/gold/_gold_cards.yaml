@@ -80,7 +80,7 @@ card_2:
 card_3:
   front:
     name: "Tribal Hollow"
-    cost: "{B/W}"
+    cost: "{G/W}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -115,20 +115,20 @@ card_4:
     power: 2
     toughness: 2
 
-card_carim_guardian:
+card_5:
   front:
-    name: "Carim Guardian"
-    cost: "{W}{W}"
+    name: "Blood Hollow"
+    cost: "{1}{B/W}"
     super: ""
     type: "Creature"
-    sub: "Human Knight"
-    rarity: "Uncommon"
-    rating: 2
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
     rules_text: |
-      {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
-    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
-    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
-    artist: "drawsouls"
-    number: 191
-    power: 2
+      Whenever ~ or another creature dies, each opponent loses 1 life and you gain 1 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
     toughness: 1

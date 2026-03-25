@@ -321,7 +321,7 @@ card_hollow_soldier:
 card_hound_rat:
   front:
     name: "Hound Rat"
-    cost: "{1}{B}"
+    cost: "{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Rat"
@@ -451,7 +451,7 @@ card_resonant_flesh:
 card_resonant_soul:
   front:
     name: "Resonant Soul"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Sorcery"
     sub: ""

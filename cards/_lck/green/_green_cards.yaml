@@ -14,3 +14,154 @@ card_1:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_soul:
+  front:
+    name: "Soul of a"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {X}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library. Spend only green mana on X.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
+    number: 1
+    color_indicator: "{G}"
+
+card_2:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      You may reveal a green card or forest from your hand rather than pay ~'s mana cost.
+      Reveal the top four cards of your library. You may put a permanent card from among them into your hand. Then you may discard any number of cards.
+      For each card discarded you may put an additional card from among the revealed cards into your hand. Put the rest into your graveyard.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_3:
+  front:
+    name: "Madness Creature"
+    cost: "{3}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Trample
+      If this spell's madness cost was paid, put two +1/+1 counters on it.
+      Madness {2}{G} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_3:
+  front:
+    name: "Sideboard Tutor Creature"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Reach, deathtouch
+      When ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 3
+
+card_4:
+  front:
+    name: "Wall"
+    cost: "{1}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ can't attack.
+      When ~ enters the battlefield you may search your library for a basic land card, reveal it, and put it into your hand. Shuffle your library.
+      Whenever a land enters the battlefield under your control you may pay {3}{G}. If you do, put a +1/+1 counter on ~.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 4
+
+card_5:
+  front:
+    name: "Pump"
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped if its madness cost was paid.
+      {G}, Discard ~: Target attacking creature gets +1/+1 and gains deathtouch until end of turn.
+      Madness {G} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_6:
+  front:
+    name: "Fog"
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      You may discard a card rather than pay this spell's mana cost.
+      Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_hush:
+  front:
+    name: "Hush"
+    cost: "{1}{G}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Enchant player
+      You may cast ~ at any time you could cast and instant.
+      If an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
+    artist: "mudhorror"
+    number: 167

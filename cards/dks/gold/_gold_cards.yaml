@@ -205,8 +205,9 @@ card_gael_seeker_of_ash:
     rating: 1
     rules_text: |
       Haste
-      When ~ enters the battlefield or attacks, draw two cards and discard two cards.
-      Whenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.
+      {B/R}, Pay 1 life: ~ Deals 1 damage to any target.
+      Whenever you lose life, draw that many cards. (Damage causes loss of life.)
+      Whenever ~ is dealt damage you lose that much life and if damage dealt to this creature would cause it to die, you may exile it and then return it to the battlefield transformed instead.
     flavor_text: "If you truly are Ash, then it must be fire that you seek?"
     artwork_url: "https://i.ibb.co/MjvJ9S7/slave-knight-gael-2.jpg"
     artist: "moshi06185"
@@ -223,9 +224,9 @@ card_gael_seeker_of_ash:
     sub: "Avatar Lord"
     rarity: ""
     rules_text: |
-      When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.
-      Exile two cards from your graveyard: ~ gains flying until end of turn.
-      {B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.
+      Flying, lifelink
+      At the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.
+      When ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.
     flavor_text: "Hand it over. That thing, your dark soul."
     artwork_url: "https://i.ibb.co/xqt9JnTf/slave-knight-gael-1.jpg"
     artist: "unknown"

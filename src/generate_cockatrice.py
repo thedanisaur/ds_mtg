@@ -30,6 +30,7 @@ def creates_this_token(set, token):
         for file in sorted(os.listdir(path)):
             if file.lower().endswith('.yaml'):
                 with open(f"{path}{file}", "r", encoding="utf-8") as card_file:
+                    print(f"card file: {card_file}")
                     content = yaml.safe_load(card_file)
                     for card_name in content:
                         card_front = content[card_name]['front']
@@ -39,7 +40,7 @@ def creates_this_token(set, token):
                         # exceptions for treasure tokens
                         token_rules_text = '' if token_name == 'treasure' else re.sub(r'\s*\(.*?\)', '', token_rules_text)
                         token_sub_type = '' if token_name == 'treasure' else token['sub'].lower()
-                        color = '' if token_name == 'treasure' else color_map.get(token['color_indicator'])
+                        color = '' if token_name == 'treasure' else color_map.get(token.get('color_indicator', ''), '')
                         if color in card_front_rules_text and token_name in card_front_rules_text and token_rules_text in card_front_rules_text and token_sub_type in card_front_rules_text:
                             cards.append(card_front['name'])
 

@@ -624,7 +624,7 @@
     "name": "Hound Rat",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{1}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1724,7 +1724,7 @@
     "name": "Resonant Soul",
     "super": "",
     "type": "Sorcery",
-    "mana_cost": "{2}{B}",
+    "mana_cost": "{1}{B}",
     "colors": [
         "B"
     ],
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "W",
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,12 +2743,12 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Haste\nWhen ~ enters the battlefield or attacks, draw two cards and discard two cards.\nWhenever ~ is dealt damage you lose that much life. If that damage is 4 or more exile ~ and return it to the battlefield transformed.\n",
+    "oracle_text": "Haste\n{B/R}, Pay 1 life: ~ Deals 1 damage to any target.\nWhenever you lose life, draw that many cards. (Damage causes loss of life.)\nWhenever ~ is dealt damage you lose that much life and if damage dealt to this creature would cause it to die, you may exile it and then return it to the battlefield transformed instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_front.jpeg",
     "back": {
         "name": "Slave Knight Gael",
@@ -2756,11 +2756,11 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
-        "oracle_text": "When ~ enters the battlefield it deals 3 damage to each creature and planeswalker.\nExile two cards from your graveyard: ~ gains flying until end of turn.\n{B/R}: ~ deals 1 damage to target creature or planeswalker. Draw a card and lose 1 life.\n",
+        "oracle_text": "Flying, lifelink\nAt the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.\nWhen ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_back.jpeg"
     }
 },
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "W",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "R",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "R",
         "B",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2914,6 +2914,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/eyes_of_a_firekeeper.jpeg"
 },
 {
+    "name": "Shinku Doku Hitokiri",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/shinku_hitokiri.jpeg"
+},
+{
     "name": "Talisman of the Way of White",
     "super": "",
     "type": "Artifact",
@@ -2936,17 +2947,6 @@
     "rating": 0,
     "oracle_text": "Sacrifice this artifact: You get three souls. Then you may pay {2}. If you do, draw two cards.\nEquipped creature gets +3/+1.\nImbue {2} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/titanite_chunk.jpeg"
-},
-{
-    "name": "Uchigatana",
-    "super": "",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\nEquip {2}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/uchigatana.jpeg"
 },
 {
     "name": "Wolf Knight's Greatshield",
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
+        "B",
         "U",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
-        "G",
-        "R",
+        "B",
         "W",
-        "B"
+        "G",
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,8 +3113,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "U",
+        "W",
         "R"
     ],
     "rarity": "mythic",
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "W",
+        "B",
         "U",
-        "B"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
+            "B",
             "U",
-            "B"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
-        "G",
-        "R",
+        "B",
         "W",
-        "B"
+        "G",
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3245,12 +3245,12 @@
 },
 {
     "name": "Cathedral of Blue",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3259,7 +3259,7 @@
 },
 {
     "name": "Cathedral of the Deep",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3277,20 +3277,20 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G",
-        "R",
+        "B",
         "W",
-        "B"
+        "G",
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
-    "oracle_text": "{T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.\n",
+    "oracle_text": "{T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/comforting_fire.jpeg"
 },
 {
     "name": "Darkroot Garden",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3304,7 +3304,7 @@
 },
 {
     "name": "Farron Keep",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3318,12 +3318,12 @@
 },
 {
     "name": "Irithyll of the Boreal Valley",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3332,12 +3332,12 @@
 },
 {
     "name": "Lost Izalith",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3346,12 +3346,12 @@
 },
 {
     "name": "Road of Sacrifices",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3360,7 +3360,7 @@
 },
 {
     "name": "Shrine of Amana",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3374,7 +3374,7 @@
 },
 {
     "name": "Lothric Castle",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -3382,12 +3382,12 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "{T}: Add {1} to your mana pool.\n{4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\n",
+    "oracle_text": "{T}: Add {1} to your mana pool.\n{3}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/lothric_castle.jpeg"
 },
 {
     "name": "The Fire Fades",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
@@ -3412,15 +3412,15 @@
 },
 {
     "name": "Firelink Shrine",
-    "super": "Legendary",
+    "super": "Legendary Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G",
-        "R",
+        "B",
         "W",
-        "B"
+        "G",
+        "U",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3775,9 +3775,9 @@
 3 Charm of the Sunlight Princess
 3 Cursed Greatsword
 3 Eyes of a Firekeeper
+3 Shinku Doku Hitokiri
 3 Talisman of the Way of White
 3 Titanite Chunk
-3 Uchigatana
 3 Wolf Knight's Greatshield
 
 [Mythic]

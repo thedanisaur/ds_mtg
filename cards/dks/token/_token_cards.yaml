@@ -5,7 +5,7 @@ card_assassin:
     super: "Token"
     type: "Creature"
     sub: "Assassin"
-    rarity: "Uncommon"
+    rarity: "Token"
     rules_text: "Whenever this creature deals combat damage to a player, that player loses the game."
     flavor_text: ""
     artwork_url: "https://i.ibb.co/d4sG5q1Y/assassin-jansteinky-resize.jpg"
@@ -22,7 +22,7 @@ card_chaos_bug:
     super: "Legendary Token"
     type: "Creature"
     sub: "Insect"
-    rarity: "Rare"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Hfk9NgH6/chaos-bug-reptilloyd-recolor.jpg"
@@ -39,7 +39,7 @@ card_hollow:
     super: "Token"
     type: "Creature"
     sub: "Hollow"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Q7zYVCHM/hollow-fromsoft.jpg"
@@ -56,7 +56,7 @@ card_hollow_knight:
     super: "Token"
     type: "Creature"
     sub: "Hollow Knight"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
     flavor_text: ""
     artwork_url: "https://i.ibb.co/n8jxhZsR/hollow-knight-lifelessmech.png"
@@ -73,7 +73,7 @@ card_human:
     super: "Token"
     type: "Creature"
     sub: "Human"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/9mPgpFXt/human-ethicallychallenged.jpg"
@@ -90,7 +90,7 @@ card_human_ally_black:
     super: "Token"
     type: "Creature"
     sub: "Human Ally"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: "Deathtouch"
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gLkJnft9/human-ally-black-trashbagartist-resize.jpg"
@@ -107,7 +107,7 @@ card_human_ally_white:
     super: "Token"
     type: "Creature"
     sub: "Human Ally"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: "Lifelink"
     flavor_text: ""
     artwork_url: "https://i.ibb.co/5hGfXc2R/human-ally-white-martianzombie-resize.jpg"
@@ -124,7 +124,7 @@ card_ornstein:
     super: "Legendary Token"
     type: "Creature"
     sub: "Giant"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: |
       First strike
     flavor_text: ""
@@ -142,7 +142,7 @@ card_phantom:
     super: "Token"
     type: "Creature"
     sub: "Human Ally"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: |
       Haste
     flavor_text: ""
@@ -153,6 +153,20 @@ card_phantom:
     toughness: 3
     color_indicator: "{W}"
 
+card_plague_counter:
+  front:
+    name: "Plague Counter"
+    cost: ""
+    super: "Token"
+    type: ""
+    sub: ""
+    rarity: "Token"
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/0b/22/16/0b2216bb390ededb8acd9448fc455b95.jpg"
+    artist: "none"
+    number: 10
+
 card_red_phantom:
   front:
     name: "Red Phantom"
@@ -160,13 +174,13 @@ card_red_phantom:
     super: "Token"
     type: "Creature"
     sub: "Human"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/HTmbD274/red-phantom-karmichorror-recolor.jpg"
     artist: "karmichorror"
-    number: 10
+    number: 11
     power: 3
     toughness: 3
     color_indicator: "{R}"
@@ -178,12 +192,12 @@ card_skeleton:
     super: "Token"
     type: "Creature"
     sub: "Skeleton"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/NgfcyXnr/skeleton-harryosborn-recolor.jpg"
     artist: "harryosborn"
-    number: 11
+    number: 16
     power: 1
     toughness: 1
     color_indicator: "{B}"
@@ -195,12 +209,12 @@ card_smough:
     super: "Legendary Token"
     type: "Creature"
     sub: "Giant"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: "Vigilance"
     flavor_text: ""
     artwork_url: "https://i.ibb.co/sJ9qZVmy/smough-juan-acosta.jpg"
     artist: "juan acosta"
-    number: 12
+    number: 13
     power: 3
     toughness: 3
     color_indicator: "{G}"
@@ -217,7 +231,7 @@ card_treasure:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/PzYCvVbK/treasure-miggs69.jpg"
     artist: "miggs69"
-    number: 13
+    number: 14
     power: 1
     toughness: 1
     color_indicator: "{C}"
@@ -229,12 +243,12 @@ card_wizard:
     super: "Token"
     type: "Creature"
     sub: "Wizard"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/3mR3x0WJ/wizard-razorb.jpg"
     artist: "razorb"
-    number: 14
+    number: 15
     power: 1
     toughness: 1
     color_indicator: "{U/R}"
@@ -246,12 +260,12 @@ card_zombie_jackal:
     super: "Token"
     type: "Creature"
     sub: "Zombie Jackal"
-    rarity: "Common"
+    rarity: "Token"
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Y7fzbkK8/zombie-jackal-dark-sheyn-resize.jpg"
     artist: "dark sheyn"
-    number: 15
+    number: 16
     power: 2
     toughness: 2
     color_indicator: "{B}"

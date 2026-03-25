@@ -34,3 +34,185 @@ card_2:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_3:
+  front:
+    name: "Sacrifice Hollow"
+    cost: "{B}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      ~ can't block.
+      When ~ leaves the battlefield you get one soul.
+      Sacrifice a creature: Put a +1/+1 counter on ~.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_4:
+  front:
+    name: "Tutor Hollow"
+    cost: "{B}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ leaves the battlefield you get one soul.
+      {1}{B}, pay 2 life: Return ~ from your graveyard to your hand.
+      Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_5:
+  front:
+    name: "Dark Bead"
+    cost: "{B}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Target creature gets -2/-2 until end of turn. If that creature was dealt damage this turn, destroy it instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_6:
+  front:
+    name: "Skeleton Necromancer"
+    cost: "{2}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Skeleton"
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ enters the battlefield create three 1/1 black Skeleton creature tokens.
+      At the beginning of your upkeep if you control less than three 1/1 black Skeleton creature tokens create a number equal to the difference.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_soul:
+  front:
+    name: "Soul of a"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
+    number: 1
+    color_indicator: "{B}"
+
+card_7:
+  front:
+    name: ""
+    cost: "{2}{B}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      Whenever you discard a card you may draw a card. If you lose, you lose 1 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_8:
+  front:
+    name: "Discard random"
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever ~ deals damage to a player, that player discards a card at random.
+      Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_9:
+  front:
+    name: "Rat"
+    cost: "{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Rat"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ can't block.
+      When ~ enters the battlefield, target player discards a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_10:
+  front:
+    name: "Rat"
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Rat"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever ~ deals damage to a player, target player discards a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_11:
+  front:
+    name: "Value reanimate"
+    cost: "{1}{B}{B}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {B}{B}, Pay 2 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

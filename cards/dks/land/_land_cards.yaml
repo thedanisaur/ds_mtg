@@ -52,9 +52,9 @@ card_cathedral_of_blue:
   front:
     name: "Cathedral of Blue"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Plains Island"
+    sub: "Plains Island"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -68,9 +68,9 @@ card_cathedral_of_the_deep:
   front:
     name: "Cathedral of the Deep"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Island Mountain"
+    sub: "Island Mountain"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -90,7 +90,7 @@ card_comforting_fire:
     rarity: "Uncommon"
     rating: 5
     rules_text: |
-      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield.
+      {T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield. Shuffle your library.
     flavor_text: "Ah, a bonfire!"
     artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
     artist: "SirGorke"
@@ -101,9 +101,9 @@ card_darkroot_garden:
   front:
     name: "Darkroot Garden"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Plains Forset"
+    sub: "Plains Forset"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -117,9 +117,9 @@ card_farron_keep:
   front:
     name: "Farron Keep"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Swamp Forest"
+    sub: "Swamp Forest"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -133,9 +133,9 @@ card_firelink_shrine:
   front:
     name: "Firelink Shrine"
     cost: ""
-    super: "Legendary"
+    super: "Legendary Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: "Mythic"
     rating: 4
     rules_text: |
@@ -152,9 +152,9 @@ card_irithyll_of_the_boreal_valley:
   front:
     name: "Irithyll of the Boreal Valley"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Swamp Island"
+    sub: "Swamp Island"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -168,9 +168,9 @@ card_lost_izalith:
   front:
     name: "Lost Izalith"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Mountain Swamp"
+    sub: "Mountain Swamp"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -184,14 +184,14 @@ card_lothric_castle:
   front:
     name: "Lothric Castle"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: "Rare"
     rating: 2
     rules_text: |
       {T}: Add {1} to your mana pool.
-      {4}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
+      {3}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
     flavor_text: "Rumored to devour men, once you've stepped foot inside Lothric Castle you'll start believing."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/lothric-castle-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
@@ -202,9 +202,9 @@ card_road_of_sacrifices:
   front:
     name: "Road of Sacrifices"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Forest Mountain"
+    sub: "Forest Mountain"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -218,9 +218,9 @@ card_shrine_of_amana:
   front:
     name: "Shrine of Amana"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire - Forest Island"
+    sub: "Forest Island"
     rarity: "Uncommon"
     rating: 3
     rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
@@ -234,9 +234,9 @@ card_the_fire_fades:
   front:
     name: "The Fire Fades"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: "Rare"
     rating: 3
     rules_text: |

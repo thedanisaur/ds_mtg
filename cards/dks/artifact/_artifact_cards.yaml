@@ -369,6 +369,24 @@ card_ring_of_sacrifice:
     artist: "andde14"
     number: 231
 
+card_shinku_hitokiri:
+  front:
+    name: "Shinku Doku Hitokiri"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
+      Equip {2}
+    flavor_text: "The body never notices it's already pestilent."
+    artwork_url: "https://i.ibb.co/gFMRsNX5/the-manslayer-by-musashi-recolor.jpg"
+    artist: "None"
+    number: 232
+
 card_silver_amulet:
   front:
     name: "Silver Amulet"
@@ -385,7 +403,7 @@ card_silver_amulet:
     flavor_text: "Nullification, the strongest form of justice."
     artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
     artist: "fromsoft"
-    number: 232
+    number: 233
 
 card_silver_serpent_ring:
   front:
@@ -403,7 +421,7 @@ card_silver_serpent_ring:
     flavor_text: "The serpent is an imperfect dragon and symbol of the Undead. Its habit of devouring prey even larger than itself has led to an association of gluttony."
     artwork_url: "https://i.ibb.co/8gGSbP5s/covetous-silver-serpent-ring.jpg"
     artist: "fromsoft"
-    number: 233
+    number: 234
 
 card_soul_syphoner:
   front:
@@ -421,7 +439,7 @@ card_soul_syphoner:
       "I thought I could control it. But the siphon is always hungrier than the hand."— *Master Orbeck, exiled sage*"
     artwork_url: "https://www.deviantart.com/wisestprojectstudio/art/Various-Inventions-1032369175"
     artist: "WisestProjectStudio"
-    number: 234
+    number: 235
 
 card_talisman_of_the_way_of_white:
   front:
@@ -439,7 +457,7 @@ card_talisman_of_the_way_of_white:
     flavor_text: "You defense increases, only with Faith. "
     artwork_url: "https://i.ibb.co/r1SpQxT/talisman-of-the-way-of-white-aelinlaerfineart-resize.jpg"
     artist: ""
-    number: 235
+    number: 236
 
 card_thorolund_talisman:
   front:
@@ -457,9 +475,8 @@ card_thorolund_talisman:
     flavor_text: "Thorolund clerics blessings come from divine protection. Thus, these talismans are not dependent upon your faltering faith."
     artwork_url: "https://i.ibb.co/DPLfTs03/thorolund-talisman-resize.jpg"
     artist: "fromsoft"
-    number: 236
+    number: 237
 
-# TODO [drd] replace art
 card_titanite_chunk:
   front:
     name: "Titanite Chunk"
@@ -474,11 +491,10 @@ card_titanite_chunk:
       Equipped creature gets +3/+1.
       Imbue {2} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""
-    artwork_url: "https://i.ibb.co/mCqGFmfz/titanite-chunk-grok-resize.jpg"
-    artist: "grok"
-    number: 237
+    artwork_url: "https://i.ibb.co/dsyts0Md/titanite-chunk-recolor.jpg"
+    artist: "fromsoft"
+    number: 238
 
-# TODO [drd] replace art
 card_titanite_shard:
   front:
     name: "Titanite Shard"
@@ -493,26 +509,8 @@ card_titanite_shard:
       Equipped creature gets +1/+0.
       Imbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)
     flavor_text: ""
-    artwork_url: "https://i.ibb.co/MxSGfyXM/titanie-shard-grok-resize.jpg"
-    artist: "grok"
-    number: 238
-
-card_uchigatana:
-  front:
-    name: "Uchigatana"
-    cost: "{2}"
-    super: ""
-    type: "Artifact"
-    sub: "Equipment"
-    rarity: "Rare"
-    rating: 3
-    rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
-      Equip {2}
-    flavor_text: "The soul never notices it's already bled dry."
-    artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
-    artist: "Asymoney"
+    artwork_url: "https://i.ibb.co/ynLpY5wP/titanite-shard-recolor.jpg"
+    artist: "fromsoft"
     number: 239
 
 card_wolf_knights_greatshield:

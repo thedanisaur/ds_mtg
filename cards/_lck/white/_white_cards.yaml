@@ -32,3 +32,106 @@ card_2:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_3:
+  front:
+    name: "Flowing Curse"
+    cost: "{1}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      At the beginning of your end step, put a curse counter on ~.
+      Creatures gets -1/-1 for each curse counter on ~.
+      When there are no creatures on the battlefield, sacrifice this enchantment.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_4:
+  front:
+    name: "Seal of the Champions"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library in any order.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_5:
+  front:
+    name: "Exile"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Exile target creature. Its controller creatures two tapped rubbish tokens.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_6:
+  front:
+    name: "Divine Will"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      All black creatures get -1/-1
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_carim_guardian:
+  front:
+    name: "Carim Guardian"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
+    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
+    artist: "drawsouls"
+    number: 191
+    power: 2
+    toughness: 1
+
+card_soul:
+  front:
+    name: "Soul of a"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {1}{W}. If you do, destroy target land. Then add one mana of any kind that land could produce to your mana pool.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
+    number: 1
+    color_indicator: "{W}"

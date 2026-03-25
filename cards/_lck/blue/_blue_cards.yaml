@@ -8,7 +8,7 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
-      You may reveal a blue card from your hand rather than pay ~'s mana cost.
+      You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
       Exile target spell with mana value 1 or less.
     flavor_text: ""
     artwork_url: ""
@@ -42,7 +42,7 @@ card_3:
     rarity: ""
     rating: 2
     rules_text: |
-      Draw a card. If you have 7 or more souls draw 3 cards instead.
+      Draw a card. If you have 7 or more souls, draw 3 cards instead.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -83,3 +83,110 @@ card_5:
     number: 1
     power: 2
     toughness: 3
+
+card_6:
+  front:
+    name: "Orbeck of Vinheim"
+    cost: "{1}{U}{U}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Wizard Rogue"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      You may cast ~ any time you could cast an instant.
+      When ~ enters the battlefield, return target spell or permanent to its owner's hand.
+      If you have 7 or more cards in your graveyard, counter that spell or shuffle that permanent into its owner's library instead.
+    flavor_text: "Enough of you...I'll do it myself."
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 1
+
+card_7:
+  front:
+    name: "Cycling Counter"
+    cost: "{1}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Counter target spell unless its controller pays X, where X is 7 minus the number of cards in your graveyard.
+      Cycling {U} ({U}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_8:
+  front:
+    name: "Profound Still"
+    cost: "{U}{U}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with three hex counters on it.
+      Whenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.
+      Exile five cards from your graveyard: Put a hex counter on ~.
+    flavor_text: "Only the will remains. Everything else... falls silent."
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_soul:
+  front:
+    name: "Soul of a"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {1}{U}. If you do, return target permanent to its owners hand. Draw a card, then discard a card.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
+    number: 1
+    color_indicator: "{U}"
+
+card_9:
+  front:
+    name: ""
+    cost: "{1}{U}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Until end of turn, each creature target player controls loses all abilities and becomes a green Boar with base power and toughness 2/2.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_10:
+  front:
+    name: ""
+    cost: "{1}{U}{U}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Mythic"
+    rating: 2
+    rules_text: |
+      Target player takes an extra turn after this one. If you target an opponent with this spell, at the beginning of your next upkeep reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+

@@ -1214,42 +1214,42 @@
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/dks/artifact/shinku_doku_hitokiri.jpeg" alt="Shinku Doku Hitokiri" width="400"/><br/>
+        <strong>Shinku Doku Hitokiri</strong>
+    </td>
+    <td align="center">
         <img src="./cards/dks/artifact/silver_amulet.jpeg" alt="Silver Amulet" width="400"/><br/>
         <strong>Silver Amulet</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/artifact/silver_serpent_ring.jpeg" alt="Silver Serpent Ring" width="400"/><br/>
         <strong>Silver Serpent Ring</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/artifact/soul_syphoner.jpeg" alt="Soul Syphoner" width="400"/><br/>
         <strong>Soul Syphoner</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/artifact/talisman_of_the_way_of_white.jpeg" alt="Talisman Of The Way Of White" width="400"/><br/>
         <strong>Talisman Of The Way Of White</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/artifact/thorolund_talisman.jpeg" alt="Thorolund Talisman" width="400"/><br/>
         <strong>Thorolund Talisman</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/artifact/titanite_chunk.jpeg" alt="Titanite Chunk" width="400"/><br/>
         <strong>Titanite Chunk</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/artifact/titanite_shard.jpeg" alt="Titanite Shard" width="400"/><br/>
         <strong>Titanite Shard</strong>
-    </td>
-    <td align="center">
-        <img src="./cards/dks/artifact/uchigatana.jpeg" alt="Uchigatana" width="400"/><br/>
-        <strong>Uchigatana</strong>
     </td>
 </tr>
 <tr>
@@ -1378,61 +1378,65 @@
         <strong>Phantom</strong>
     </td>
     <td align="center">
-        <img src="./cards/dks/token/red_phantom.jpeg" alt="Red Phantom" width="400"/><br/>
-        <strong>Red Phantom</strong>
+        <img src="./cards/dks/token/plague_counter.jpeg" alt="Plague Counter" width="400"/><br/>
+        <strong>Plague Counter</strong>
     </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/dks/token/red_phantom.jpeg" alt="Red Phantom" width="400"/><br/>
+        <strong>Red Phantom</strong>
+    </td>
     <td align="center">
         <img src="./cards/dks/token/skeleton.jpeg" alt="Skeleton" width="400"/><br/>
         <strong>Skeleton</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/token/smough.jpeg" alt="Smough" width="400"/><br/>
         <strong>Smough</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/token/treasure.jpeg" alt="Treasure" width="400"/><br/>
         <strong>Treasure</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/token/wizard.jpeg" alt="Wizard" width="400"/><br/>
         <strong>Wizard</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/token/zombie_jackal.jpeg" alt="Zombie Jackal" width="400"/><br/>
         <strong>Zombie Jackal</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/forest.jpeg" alt="Forest" width="400"/><br/>
         <strong>Forest</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>

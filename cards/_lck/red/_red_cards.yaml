@@ -8,11 +8,103 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
-      Whenever ~ attacks exile the top card of your library with a luck counter on it.
-      {R}, {T}: Cast a spell you own with a luck counter on it, at random, from exile without paying its mana cost. If you can't create a Rubbish token.
+      Whenever ~ attacks exile the top card of your library with a favored counter on it.
+      {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Rubbish token.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
     power: 1
+    toughness: 2
+
+card_2:
+  front:
+    name: "Orb"
+    cost: "{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Choose target creature or planeswalker. You get two souls, then you may pay any amount of souls. ~ deals that much damage to that creature or planeswalker.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_3:
+  front:
+    name: "Lightning Urn"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      As an additional cost to cast this spell, sacrifice a hollow or artifact.
+      ~ deals 5 damage to any target.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_soul:
+  front:
+    name: "Soul of a"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Rubbish token.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-dragon-s-lair-842069407"
+    artist: "Luis Bello"
+    number: 1
+    color_indicator: "{R}"
+
+card_4:
+  front:
+    name: "Lucky Dragon"
+    cost: "{2}{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Dragon"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)
+      When ~ enters the battlefield exile the top three cards of your library with a favored counter on each of them.
+      Whenever ~ deals combat damage to a player, you may play a card you own in exile with a favored counter on it. (You still pay its costs.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_5:
+  front:
+    name: ""
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Haste
+      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, ~ deals 2 damage to target player or planeswalker.
+      Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
     toughness: 2

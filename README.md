@@ -41,11 +41,11 @@ Plague (similar in function to 702.90. Infect)
 
 - a) Plague is a static ability.
 - b) Damage dealt to a player by a source with plague doesn’t cause that player to lose life. Rather, it causes that source’s controller to give the player that many plague counters. See rule 120.3b to infer how to deal with this change.
-    - 1) As long as a player has atleast one plague counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many plague counters instead. At the beginning of each endstep this emblem deals damage to you equal to the number of plague counters you have, then remove a plague counter."
+    - 1) As long as a player has atleast one plague counter that player has an emblem with "If you would be dealt damage prevent that damage and you recieve that many plague counters instead. At the beginning of each end step this emblem deals damage to you equal to the number of plague counters you have, then remove a plague counter."
     - 2) If a player has no plague counters their plague emblem ceases to exist.
     - 3) A player may only have one plague emblem at a time.
 - c) Damage dealt to a creature by a source with plague isn’t marked on that creature. Rather, it causes that source’s controller to put that many plague counters on that creature. See rule 120.3d to infer how to deal with this change.
-    - 1) As long as a creature has a plague counter on it that creature has, "If this creature is dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it."
+    - 1) As long as a creature has a plague counter on it that creature has, "If this creature is dealt damage it gets a plague counter. At the beginning of each end step deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it."
 - d) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had plague.
 - e) The plague rules function no matter what zone an object with plague deals damage from.
 - f) Multiple instances of plague on the same object are redundant.
@@ -80,9 +80,9 @@ Count
 
 ```
 Cards 255
-Tokens 15
+Tokens 16
 Basics 6
-Total 276
+Total 277
 ```
 
 Type Distribution
@@ -98,7 +98,7 @@ Type Distribution
 30 artifact cards
 15 nonbasic lands
 06 basic lands
-15 tokens
+16 tokens
 ```
 
 Rarity Distribution
