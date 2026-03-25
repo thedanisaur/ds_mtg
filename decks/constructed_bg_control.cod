@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Thu Mar 5 14:30:58 2026</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Wed Mar 25 00:42:06 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -23,8 +23,8 @@
         <card number="2" name="Resonant Flesh" setShortName="DKS" collectorNumber="106"/>
         <card number="1" name="Hound Rat" setShortName="DKS" collectorNumber="100"/>
         <card number="3" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
-        <card number="4" name="Forest - DKS" setShortName="DKS" collectorNumber="260"/>
-        <card number="4" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
+        <card number="4" name="Forest" setShortName="DKS" collectorNumber="260"/>
+        <card number="4" name="Swamp" setShortName="DKS" collectorNumber="258"/>
     </zone>
     <zone name="side">
         <card number="2" name="Deep Fog" setShortName="DKS" collectorNumber="93"/>

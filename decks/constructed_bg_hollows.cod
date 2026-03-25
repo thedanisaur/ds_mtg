@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Thu Mar 5 14:31:03 2026</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Wed Mar 25 00:42:32 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -15,13 +15,13 @@
         <card number="2" name="Blighttown" setShortName="DKS" collectorNumber="243"/>
         <card number="2" name="Dark Edge" setShortName="DKS" collectorNumber="89"/>
         <card number="4" name="Hound Rat" setShortName="DKS" collectorNumber="100"/>
-        <card number="7" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
         <card number="4" name="Expected Companions" setShortName="DKS" collectorNumber="162"/>
         <card number="4" name="Undead Aberration" setShortName="DKS" collectorNumber="182"/>
         <card number="4" name="Soul of a Sorrowful Spirit" setShortName="DKS" collectorNumber="113"/>
-        <card number="7" name="Forest - DKS" setShortName="DKS" collectorNumber="260"/>
         <card number="4" name="Grave Warden" setShortName="DKS" collectorNumber="95"/>
         <card number="2" name="Lordran Necromancer" setShortName="DKS" collectorNumber="103"/>
+        <card number="7" name="Swamp" setShortName="DKS" collectorNumber="258"/>
+        <card number="7" name="Forest" setShortName="DKS" collectorNumber="260"/>
     </zone>
     <zone name="side">
         <card number="2" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>

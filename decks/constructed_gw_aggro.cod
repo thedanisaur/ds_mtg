@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Thu Mar 5 14:31:25 2026</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Wed Mar 25 00:45:34 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -16,13 +16,13 @@
         <card number="4" name="Darkroot Garden" setShortName="DKS" collectorNumber="247"/>
         <card number="4" name="Comforting Fire" setShortName="DKS" collectorNumber="246"/>
         <card number="3" name="Pagan Tree" setShortName="DKS" collectorNumber="171"/>
-        <card number="3" name="Plains - DKS" setShortName="DKS" collectorNumber="256"/>
-        <card number="3" name="Forest - DKS" setShortName="DKS" collectorNumber="260"/>
         <card number="4" name="Infested Corpse" setShortName="DKS" collectorNumber="21"/>
         <card number="4" name="Milfanito" setShortName="DKS" collectorNumber="169"/>
         <card number="1" name="Firelink Shrine" setShortName="DKS" collectorNumber="249"/>
         <card number="4" name="Corrupted Hollow" setShortName="DKS" collectorNumber="14"/>
         <card number="3" name="Resting Thief" setShortName="DKS" collectorNumber="31"/>
+        <card number="3" name="Forest" setShortName="DKS" collectorNumber="260"/>
+        <card number="3" name="Plains" setShortName="DKS" collectorNumber="256"/>
     </zone>
     <zone name="side">
         <card number="4" name="Tears of Denial" setShortName="DKS" collectorNumber="40"/>

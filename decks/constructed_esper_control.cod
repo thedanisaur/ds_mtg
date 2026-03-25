@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_deck version="1">
-    <lastLoadedTimestamp>Thu Mar 5 14:29:54 2026</lastLoadedTimestamp>
+    <lastLoadedTimestamp>Wed Mar 25 00:43:41 2026</lastLoadedTimestamp>
     <deckname></deckname>
     <bannerCard providerId=""></bannerCard>
     <comments></comments>
@@ -21,11 +21,11 @@
         <card number="4" name="Clawed Curse" setShortName="DKS" collectorNumber="87"/>
         <card number="1" name="Dark Hand of Kaathe" setShortName="DKS" collectorNumber="90"/>
         <card number="2" name="Resonant Flesh" setShortName="DKS" collectorNumber="106"/>
-        <card number="3" name="Island - DKS" setShortName="DKS" collectorNumber="257"/>
-        <card number="2" name="Plains - DKS" setShortName="DKS" collectorNumber="256"/>
-        <card number="1" name="Swamp - DKS" setShortName="DKS" collectorNumber="258"/>
         <card number="2" name="Soul Syphoner" setShortName="DKS" collectorNumber="234"/>
         <card number="4" name="Twisted Wall of Light" setShortName="DKS" collectorNumber="78"/>
+        <card number="3" name="Island" setShortName="DKS" collectorNumber="257"/>
+        <card number="2" name="Plains" setShortName="DKS" collectorNumber="256"/>
+        <card number="1" name="Swamp" setShortName="DKS" collectorNumber="258"/>
     </zone>
     <zone name="side">
         <card number="3" name="Homing Soul Mass" setShortName="DKS" collectorNumber="60"/>
