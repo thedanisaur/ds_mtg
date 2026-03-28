@@ -1,17 +1,16 @@
 card_land_template:
   front:
-    name: "The Fire Fades"
+    name: "The First Fire"
     cost: ""
-    super: ""
+    super: "Legendary"
     type: "Land"
     sub: "Bonfire"
-    rarity: "Rare"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
-      {T}: Add {1} to your mana pool.
-      {T}, Sacrifice ~: Destroy target Bonfire.
+      {T}: Add one mana of any color to your mana pool for each bonfire you control.
     flavor_text: |
-      "A world without fire. Ashen one, is this truly thy wish?" And without breath the Chosen Undead let the fire fade."
-    artwork_url: "https://i.ibb.co/DH2YCKm9/the-fire-fades-nocluse.jpg"
-    artist: "Nocluse"
-    number: 255
+      Placeholder
+    artwork_url: ""
+    artist: ""
+    number: 1

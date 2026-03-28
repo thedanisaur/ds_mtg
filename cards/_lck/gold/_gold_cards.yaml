@@ -189,3 +189,53 @@ card_10:
     number: 1
     power: 1
     toughness: 1
+
+card_11:
+  front:
+    name: "Pillage the Bog"
+    cost: "{B}{G}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 1
+    rules_text: |
+      Look at the top X cards of your library, where X is twice the number of lands you control. Put one of them into your hand and one into your graveyard, put the rest on the bottom of your library in a random order. At the beginning of your next upkeep return a card from your graveyard to your hand.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_12:
+  front:
+    name: "Chaos"
+    cost: "{U}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 1
+    rules_text: |
+      When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells you've cast this turn.
+      Once each turn you may cast a card you own in exile. (You still pay its costs.)
+      Sacrifice ~: You may cast a card you own in exile without paying its mana cost.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_13:
+  front:
+    name: "The End of Fire"
+    cost: "{B}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 1
+    rules_text: |
+      Destory X permanents where X is two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

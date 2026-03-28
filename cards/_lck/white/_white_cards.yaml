@@ -135,3 +135,35 @@ card_soul:
     artist: "Luis Bello"
     number: 1
     color_indicator: "{W}"
+
+card_7:
+  front:
+    name: "Graveyard Matters"
+    cost: "{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      For each creature card in all graveyards, creature a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_8:
+  front:
+    name: "Buff"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Creatures you control get +0/+1 and have vigilance.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

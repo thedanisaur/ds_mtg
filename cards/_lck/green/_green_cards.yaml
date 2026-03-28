@@ -9,7 +9,7 @@ card_1:
     rating: 2
     rules_text: |
       When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard.
-      At the beginning of your upkeep you may return a basic land from your graveyard to your hand.
+      At the beginning of your upkeep, you may return a basic land from your graveyard to your hand.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -165,3 +165,36 @@ card_hush:
     artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
     artist: "mudhorror"
     number: 167
+
+card_7:
+  front:
+    name: "Second Best Ramp"
+    cost: "{G}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, search your library for a number of land cards equal to the number of permanent cards in your graveyard and exile them. Shuffle your library.
+      At the beginning of your upkeep, you may put a land you own in exile onto the battlefield.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_7:
+  front:
+    name: "Inevitablility"
+    cost: "{G}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever a land enters the battlefield under your control or goes to your graveyard, put a +1/+1 counter on each creature you control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

@@ -190,3 +190,34 @@ card_10:
     artist: ""
     number: 1
 
+card_11:
+  front:
+    name: "Dig with Graveyard"
+    cost: "{1}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Look at the top X cards of your library, where X is the number of instant and sorcery cards in your graveyard. Put up to two of those cards on top of your library, put the rest on the bottom of your library, then draw two cards.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_11:
+  front:
+    name: "Multi Bounce"
+    cost: "{1}{U}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Return target permanent and all other permanents with the same name to their owner's hands. You draw a card for each permanent returned this way then discard that many cards.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

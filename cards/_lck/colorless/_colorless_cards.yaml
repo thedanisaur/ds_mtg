@@ -9,7 +9,7 @@ card_1:
     rating: 0
     rules_text: |
       When ~ goes to the graveyard, you get one soul.
-      Discard a card: You get one soul.
+      Discard a card: Scry 1. You get one soul.
       Hollowcycling {1} ({1}, Discard this card: Search your library for a hollow creature card, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"

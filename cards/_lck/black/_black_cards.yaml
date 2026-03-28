@@ -139,7 +139,7 @@ card_7:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever you discard a card you may draw a card. If you lose, you lose 1 life.
+      Whenever you discard a card you may draw a card. If you do, you lose 1 life.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -166,7 +166,7 @@ card_8:
 
 card_9:
   front:
-    name: "Rat"
+    name: "Undead Rat"
     cost: "{B}"
     super: ""
     type: "Creature"
@@ -174,7 +174,7 @@ card_9:
     rarity: ""
     rating: 2
     rules_text: |
-      ~ can't block.
+      ~ can't block and can't be blocked.
       When ~ enters the battlefield, target player discards a card.
     flavor_text: ""
     artwork_url: ""
@@ -185,7 +185,7 @@ card_9:
 
 card_10:
   front:
-    name: "Rat"
+    name: "Sewer Rat"
     cost: "{1}{B}"
     super: ""
     type: "Creature"
@@ -193,7 +193,7 @@ card_10:
     rarity: ""
     rating: 2
     rules_text: |
-      Whenever ~ deals damage to a player, target player discards a card.
+      Whenever ~ deals damage to a player, target player puts a card from their hand on top of their library.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -212,6 +212,57 @@ card_11:
     rating: 2
     rules_text: |
       {B}{B}, Pay 2 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_12:
+  front:
+    name: "Rat"
+    cost: "{2}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Rat"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Sacrifice an artifact or creature: Discard a card unless a card went to your graveyard this turn. Draw a card. You lose 1 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_13:
+  front:
+    name: "Graveyard Matters"
+    cost: "{3}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life equal to the damage dealt this way.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_14:
+  front:
+    name: "Sac spell"
+    cost: "{1}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Target player sacrifices a creature with mana value 3 or less.
+      Exile ~ from your graveyard, Sacrifice a creature: Target player sacrifices a creature.
     flavor_text: ""
     artwork_url: ""
     artist: ""

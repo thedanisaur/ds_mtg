@@ -16,3 +16,21 @@ card_1:
     number: 1
     power: 3
     toughness: 3
+
+card_kokkeikoku:
+  front:
+    name: "Kokkeikoku"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature can't be blocked.
+      Equip {2}
+    flavor_text: "The soul never notices it's already bled dry."
+    artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
+    artist: "Asymoney"
+    number: 239

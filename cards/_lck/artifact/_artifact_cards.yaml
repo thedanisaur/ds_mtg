@@ -41,6 +41,7 @@ card_3:
     rarity: ""
     rating: 2
     rules_text: |
+      ~ enters the battlefield tapped with a petal counter on it.
       At the beginning of your upkeep put a petal counter on ~.
       {T}, Sacrifice ~: Add X mana of any one color to your mana pool where X is the number of petal counters on ~.
     flavor_text: ""
@@ -59,7 +60,7 @@ card_4:
     rating: 2
     rules_text: |
       {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
-      When ~ goes to the graveyard you may pay one soul. If you do, draw a card.
+      When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -112,7 +113,7 @@ card_7:
     rating: 2
     rules_text: |
       {4}, {T}, Sacrifice ~: Destroy target noncreature artifact or enchantment.
-      When ~ goes to the graveyard you may pay one soul. If you do, draw a card.
+      When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -170,7 +171,7 @@ card_uchigatana:
     flavor_text: "The soul never notices it's already bled dry."
     artwork_url: "https://www.deviantart.com/asymoney/art/Red-Falls-1193191595"
     artist: "Asymoney"
-    number: 239
+    number: 1
 
 card_9:
   front:
@@ -189,3 +190,61 @@ card_9:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_10:
+  front:
+    name: "Cycling Reducer"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Cycling abilities you activate cost {1} less to activate.
+      Cycling {1} ({1}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_11:
+  front:
+    name: "Sen's Fortifications"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Fortification"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      When fortified land becomes tapped, create an Arrow Trap token, a Guillotine Token, or a Boulder Trap token. If ~ is fortifying Sen's Fortress, create one of each instead.
+      Arrow Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.”)
+      Guillotine Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.”)
+      Boulder Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.”)
+      Equip {3}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_tarkus_iron_knight:
+  front:
+    name: "Tarkus, Iron Knight"
+    cost: "{3}"
+    super: "Legendary"
+    type: "Artifact Creature"
+    sub: "Hollow Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped.
+      When ~ enters the battlefield, if an opponent controls a Giant, you gain 4 life.
+      ~ gets +2/+2 for each equipment attached to it.
+      When ~ is dealt damage by a creature with more power than toughness, destroy ~.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3

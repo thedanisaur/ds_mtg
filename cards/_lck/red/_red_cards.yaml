@@ -108,3 +108,40 @@ card_5:
     number: 1
     power: 2
     toughness: 2
+
+card_6:
+  front:
+    name: "Hasty Boy"
+    cost: "{1}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Create a X/X red Hollow creature token where X is the number of noncreature nonland cards in your graveyard. It has haste and "{R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target."
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_7:
+  front:
+    name: "Damage Spell"
+    cost: "{1}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ deals 3 damage to any target. If a card went to your graveyard this turn, draw a card then discard a card.
+      or
+      Choose one, if a card went to your graveyard this turn choose two instead -
+      • ~ deals 3 damage to each opponent.
+      • ~ deals 4 damage to target creature or planeswalker.
+      • Draw a card then discard a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
