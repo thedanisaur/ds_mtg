@@ -100,9 +100,9 @@ card_human_ally_anri:
     toughness: 1
     color_indicator: "{W}"
 
-card_human_ally_horus:
+card_human_ally_horace:
   front:
-    name: "Human Ally Horus"
+    name: "Human Ally Horace"
     cost: ""
     super: "Token"
     type: "Creature"

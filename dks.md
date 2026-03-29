@@ -1358,8 +1358,8 @@
         <strong>Human Ally Anri</strong>
     </td>
     <td align="center">
-        <img src="./cards/dks/token/human_ally_horus.jpeg" alt="Human Ally Horus" width="400"/><br/>
-        <strong>Human Ally Horus</strong>
+        <img src="./cards/dks/token/human_ally_horace.jpeg" alt="Human Ally Horace" width="400"/><br/>
+        <strong>Human Ally Horace</strong>
     </td>
 </tr>
 <tr>

@@ -728,7 +728,7 @@ Equipped creatures you control get +1/+1.</text>
     <card>
         <name>Weary Travelers</name>
         <text>If you would discard this card you may cast it without paying its mana cost instead.
-Create a 1/2 black Human Ally Horus creature token. It has deathtouch.
+Create a 1/2 black Human Ally Horace creature token. It has deathtouch.
 Create a 2/1 white Human Ally Anri creature token. It has lifelink.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3154,7 +3154,7 @@ When ~ dies choose one -
             <maintype>Creature</maintype>
             <manacost>{G/W}{G/W}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/dragonslayer_and_executioner.jpeg">DKS</set>
@@ -3170,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>GWR</colors>
+            <colors>WRG</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3254,7 +3254,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>WGRBU</colors>
+            <colors>GRWBU</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3270,7 +3270,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3426,7 +3426,7 @@ When ~ enters the battlefield, you may search your library for any number of car
             <maintype>Creature</maintype>
             <manacost>{2}{G/W}</manacost>
             <cmc>3</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="205" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ruin_sentinels.jpeg">DKS</set>
@@ -3487,7 +3487,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3503,7 +3503,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>GRB</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3815,7 +3815,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>WGRBU</colors>
+            <colors>GRWBU</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4268,7 +4268,7 @@ Equip {2}</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Human Ally Horus</name>
+        <name>Human Ally Horace</name>
         <text>Deathtouch</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4279,7 +4279,7 @@ Equip {2}</text>
             <colors>B</colors>
             <pt>1/2</pt>
         </prop>
-        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_horus.jpeg">DKS</set>
+        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/token/human_ally_horace.jpeg">DKS</set>
         <reverse-related>Weary Travelers</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
