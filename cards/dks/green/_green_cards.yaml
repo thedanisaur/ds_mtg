@@ -157,10 +157,10 @@ card_covenant_of_the_forest_hunter:
     rating: 1
     rules_text: |
       You may exile a green card from your hand rather than pay this spell's mana cost.
-      Choose one -
+      Choose two -
       • Destroy all artifacts.
       • Destroy all enchantments.
-      • Target player sacrifices a creature with flying.
+      • Each player sacrifices all creatures with flying.
       • Exile all cards from all graveyards.
     flavor_text: "One day, all you see will become dust."
     artwork_url: "https://goblincoach.com/wp-content/uploads/2024/06/Viscous-Bolt-1024x683.webp"
@@ -428,7 +428,7 @@ card_petrifying_statue:
     rating: 2
     rules_text: |
       ~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.
-      Whenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, "At the beginning of each end step, if this permanent has more petrification counters on it than its mana value, sacrifice it. Otherwise remove a petrification counter from it."
+      Accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://www.deviantart.com/drake1024/art/Try-Harder-484298835"
     artist: "drake1024"

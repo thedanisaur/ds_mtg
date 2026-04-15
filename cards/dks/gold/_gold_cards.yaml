@@ -186,7 +186,7 @@ card_fume_knight:
     rating: 1
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
-      Whenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order.
+      Whenever ~ deals combat damage to a player, they reveal the top X cards of his or her library, where X is ~'s power. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/474x/b1/45/2d/b1452dc10c0189b2bd7d1acbc3551590.jpg"
     artist: "Raime"

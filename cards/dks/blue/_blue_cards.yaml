@@ -203,7 +203,8 @@ card_fume_sorcerer:
     sub: "Zombie Wizard"
     rarity: "Rare"
     rating: 2
-    rules_text: "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process."
+    rules_text: |
+      {U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.
     flavor_text: "Their tongues burned away with the words of the Bride. Now they speak only in flame and shadow."
     artwork_url: "https://i.ibb.co/bjzYnWh7/fume-sorcerer-vandemoniumx-resize.jpg"
     artist: "vandemoniumx"

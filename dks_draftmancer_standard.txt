@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -1250,7 +1250,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/charm_of_the_undead_hunters.jpeg"
 },
 {
@@ -1899,7 +1899,7 @@
     ],
     "rarity": "uncommon",
     "rating": 1,
-    "oracle_text": "You may exile a green card from your hand rather than pay this spell's mana cost.\nChoose one -\n\u2022 Destroy all artifacts.\n\u2022 Destroy all enchantments.\n\u2022 Target player sacrifices a creature with flying.\n\u2022 Exile all cards from all graveyards.\n",
+    "oracle_text": "You may exile a green card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 Destroy all artifacts.\n\u2022 Destroy all enchantments.\n\u2022 Each player sacrifices all creatures with flying.\n\u2022 Exile all cards from all graveyards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/covenant_of_the_forest_hunter.jpeg"
 },
 {
@@ -1977,7 +1977,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nWhenever ~ deals damage to a permanent, put that many petrification counters on that permanent. That permanent has, \"At the beginning of each end step, if this permanent has more petrification counters on it than its mana value, sacrifice it. Otherwise remove a petrification counter from it.\"\n",
+    "oracle_text": "~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nAccursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/petrifying_statue.jpeg"
 },
 {
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2053,8 +2053,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2094,7 +2094,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, \"This card doesn't untap during its controller's untap step.\"\n",
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped, that permanent has \"This card doesn't untap during its controller's untap step.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/charm_of_the_abyss_watchers.jpeg"
 },
 {
@@ -2323,7 +2323,7 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "oracle_text": "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.",
+    "oracle_text": "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/fume_sorcerer.jpeg"
 },
 {
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "W",
         "R",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2734,7 +2734,7 @@
     ],
     "rarity": "rare",
     "rating": 1,
-    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player, that player reveals the top X cards of his or her library, where X is equal to this creature's power. You may choose a card type. If you do, then put all cards of the chosen type into that players graveyard and place the rest back on top in any order.\n",
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player, they reveal the top X cards of his or her library, where X is ~'s power. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/fume_knight.jpeg"
 },
 {
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "W",
         "R",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
             "R",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -3096,10 +3096,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
-        "R",
         "W",
         "B",
+        "R",
+        "G",
         "U"
     ],
     "rarity": "mythic",
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "R",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "W",
+        "B",
         "U",
-        "B"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
+            "B",
             "U",
-            "B"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3157,8 +3157,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,10 +3204,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
-        "R",
         "W",
         "B",
+        "R",
+        "G",
         "U"
     ],
     "rarity": "mythic",
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3235,8 +3235,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,10 +3277,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R",
         "W",
         "B",
+        "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,10 +3416,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R",
         "W",
         "B",
+        "R",
+        "G",
         "U"
     ],
     "rarity": "mythic",

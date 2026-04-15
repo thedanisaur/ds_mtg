@@ -77,7 +77,7 @@ card_charm_of_the_abyss_watchers:
     rating: 4
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
-      {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped that permanent has, "This card doesn't untap during its controller's untap step."
+      {T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped, that permanent has "This card doesn't untap during its controller's untap step."
     flavor_text: "Nullification, the strongest form of justice."
     artwork_url: "https://i.pinimg.com/originals/dc/4e/8f/dc4e8f147f304f10a982c5839ca2971a.jpg"
     artist: "fromsoft"
@@ -111,7 +111,7 @@ card_charm_of_the_undead_hunters:
     rating: 2
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
-      {T}, Remove a charge counter from this artifact: As long as this card remains tapped target artifact has, "This card can't attack or block, and its activated abilities can't be activated."
+      {T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has "This card can't attack or block, and its activated abilities can't be activated."
     flavor_text: "Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on."
     artwork_url: "https://i.ibb.co/HTBrVRDX/charm-of-the-undead-hunters-resize.png"
     artist: "unknown"
