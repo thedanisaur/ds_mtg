@@ -129,3 +129,19 @@ card_stone_humped_old_hag:
     number: 1
     power: 0
     toughness: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{7}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target nonland permanent. You get souls equal to that permanent's mana value.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

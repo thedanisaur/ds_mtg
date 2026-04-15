@@ -34,41 +34,6 @@ card_3:
     artist: ""
     number: 1
 
-card_7:
-  front:
-    name: "Double Bonfire"
-    cost: ""
-    super: ""
-    type: "Land"
-    sub: "Bonfire"
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped island or untapped mountain to your hand.
-      {T}: Add {U}{U}, {R}{R}, or {U}{R} to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_9:
-  front:
-    name: "Nonbasic Fetch"
-    cost: ""
-    super: ""
-    type: "Land"
-    sub: ""
-    rarity: "Uncommon"
-    rating: 5
-    rules_text: |
-      {T}, Sacrifice ~: Search your library for a nonbasic island or nonbasic mountain and put it onto the battlefield. Shuffle your library.
-    flavor_text: "Ah, a bonfire!"
-    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
-    artist: "SirGorke"
-    number: 246
-    colors: '{W}{U}{B}{R}{G}'
-
 card_firelink_altar:
   front:
     name: "Firelink Altar"
@@ -128,18 +93,17 @@ card_mountain_naya_cycler:
     artist: ""
     number: 1
 
-# ----- Temur (URG) -----
-card_forest_temur_cycler:
+card_plains_naya_cycler:
   front:
-    name: "Forest Temur Cycler"
+    name: "Plains Naya Cycler"
     cost: ""
-    super: "Bonfire"
+    super: ""
     type: "Land"
-    sub: "Forest"
+    sub: "Plains"
     rules_text: |
       ~ enters the battlefield tapped.
-      {T}: Add {G}
-      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      {T}: Add {W}
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
       Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: |
       ""
@@ -221,6 +185,42 @@ card_mountain_mardu_cycler:
     artist: ""
     number: 1
 
+card_plains_mardu_cycler:
+  front:
+    name: "Plains Mardu Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_swamp_mardu_cycler:
+  front:
+    name: "Swamp Mardu Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
 # ----- Bant (WUG) -----
 card_plains_bant_cycler:
   front:
@@ -270,61 +270,6 @@ card_forest_bant_cycler:
       {T}: Add {G}
       Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-# ----- Grixis (UBR) -----
-card_island_grixis_cycler:
-  front:
-    name: "Island Grixis Cycler"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: "Island"
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}: Add {U}
-      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
-      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_swamp_grixis_cycler:
-  front:
-    name: "Swamp Grixis Cycler"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: "Swamp"
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}: Add {B}
-      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
-      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_mountain_grixis_cycler:
-  front:
-    name: "Mountain Grixis Cycler"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: "Mountain"
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}: Add {R}
-      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
-      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: |
       ""
     artwork_url: ""
@@ -385,6 +330,117 @@ card_plains_jeskai_cycler:
     artwork_url: ""
     artist: ""
     number: 1
+
+# ----- Sultai (BUG) -----
+card_swamp_sultai_cycler:
+  front:
+    name: "Swamp Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_island_sultai_cycler:
+  front:
+    name: "Island Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_forest_sultai_cycler:
+  front:
+    name: "Forest Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Forest"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {G}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Jund (BRG) -----
+card_swamp_jund_cycler:
+  front:
+    name: "Swamp Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_plains_jund_cycler:
+  front:
+    name: "Plains Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_island_jund_cycler:
+  front:
+    name: "Island Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
 
 # ========================================================================
 # ----- Cycling lands -----

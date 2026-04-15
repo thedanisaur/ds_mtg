@@ -145,9 +145,9 @@ card_7:
     artist: ""
     number: 1
 
-card_lightning_bolt:
+card_splintering_bolt:
   front:
-    name: "Lightning Bolt"
+    name: "Splintering Bolt"
     cost: "{R}"
     super: ""
     type: "Instant"
@@ -155,7 +155,8 @@ card_lightning_bolt:
     rarity: ""
     rating: 2
     rules_text: |
-      ~ deals 3 damage to any target.
+      As an additional cost to cast ~ pay {1} or return a mountain you control to its owner's hand.
+      ~ deals 3 damage divided as you choose to up to three targets.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -220,7 +221,7 @@ card_9:
 card_10:
   front:
     name: "Corrosive Organics"
-    cost: "{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -598,3 +599,179 @@ card_boss_gate:
     number: 1
     power: 0
     toughness: 3
+
+card_crimson_wyvern:
+  front:
+    name: "Crimson Wyvern"
+    cost: "{R}{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Drake"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Flying, bleed
+      When ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.
+      When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_:
+  front:
+    name: ""
+    cost: "{3}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Trample
+      Whenever a card goes to your graveyard, ~ gets +X/+0 until end of turn, where X is that card's mana value.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 5
+
+card_10:
+  front:
+    name: "Corrosive Slime"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {1}, Scarifice ~:
+      Choose one -
+        • ~ deals 2 damage to target creature or planeswalker.
+        • Destroy target colorless nonland permanent.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 3
+
+card_chaos_maggot:
+  front:
+    name: "Chaos Maggot"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Insect"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      ~ enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+      {T}, Sacrifice ~: Add {R}{R} to your mana pool.
+    flavor_text: |
+      "You vermin, you dare take my friend!?" — *Chosen Undead*
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever ~ is exiled from your hand or you cast a spell from exile, create a 1/1 colorless Hollow creature token.
+      Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      Discard a nonland card, pay one soul: Draw a card. Target creature can't block this turn. ~ doesn't untap during your next untap step.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      {1}, {T}: Create a Rubbish token.
+      {T}, Sacrifice a Rubbish token: Until end of turn, target creature gets your choice of haste, trample, or +1/+1.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever one or more creatures you control attacks, exile the top card of your library with a luck counter on it.
+      {T}: Put a card you own in exile with a luck counter on it into your hand.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{3}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Play with the top card of your library revealed, you may play lands and cast spells from the top of your library.
+      You can't play lands or cast spells from your hand.
+      Pay one soul: Exile the top card of your library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1

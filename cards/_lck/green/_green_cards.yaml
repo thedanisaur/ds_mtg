@@ -403,7 +403,7 @@ card_royal_rat_authority:
     rating: 2
     rules_text: |
       ~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.
-      {+1}: Create a 1/1 black Rat creature token with bleed.
+      {+1}: Create a 1/1 green Rat creature token with bleed.
       {-1}: Destroy target land. Its controller gets one bleed counter.
       {-7}: Target player gets seven bleed counters.
     flavor_text: ""
@@ -710,7 +710,7 @@ card_:
     rating: 2
     rules_text: |
       ~ enters the battlefield with twice X +1/+1 counters on it.
-      When ~ dies, create a 1/1 Tentacle creature token and you get one soul for each +1/+1 counter on it.
+      When ~ dies, create a 1/1 green Tentacle creature token and you get one soul for each +1/+1 counter on it.
     flavor_text: ""
     artwork_url: ""
     artist: ""

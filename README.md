@@ -124,25 +124,25 @@ Count
 
 ```
 Cards 304
-Tokens ?
+Tokens 14
 Basics 6
-Total ?
+Total 324
 ```
 
 Type Distribution
 
 ```
-10 colorless cards
+07 colorless cards
 42 white cards
 42 blue cards
 42 black cards
 42 red cards
 42 green cards
-15 gold cards
+14 gold cards
 40 artifact cards
-29 nonbasic lands
+33 nonbasic lands
 06 basic lands
-?? tokens
+14 tokens
 ```
 
 ### The Fire Fades (TFF) Card Distribution
