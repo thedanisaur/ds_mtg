@@ -1,10 +1,10 @@
-card_1:
+card_undead_burg:
   front:
-    name: "Bonfire of Hollows"
+    name: "Undead Burg"
     cost: ""
-    super: "Bonfire"
+    super: ""
     type: "Land"
-    sub: ""
+    sub: "Bonfire"
     rarity: ""
     rating: 2
     rules_text: |
@@ -15,49 +15,13 @@ card_1:
     artist: ""
     number: 1
 
-card_2:
+card_crystal_cave:
   front:
-    name: "Crystal Mine"
+    name: "Crystal Cave"
     cost: ""
-    super: "Bonfire"
+    super: ""
     type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield with 3 crystal counters on it.
-      {T}, Remove a crystal counter from ~: Add one mana of any color to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_3:
-  front:
-    name: "Early Dual"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield tapped unless it's your first, second, or third turn of the game.
-      {T}: Add {U} or {W} to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_4:
-  front:
-    name: "Crystal Bonfire"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
+    sub: "Bonfire"
     rarity: ""
     rating: 2
     rules_text: |
@@ -69,122 +33,13 @@ card_4:
     artist: ""
     number: 1
 
-card_5:
-  front:
-    name: "Lotus Bonfire"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}, Sacrifice ~: Add three mana of any one color to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_6:
-  front:
-    name: "Untapped Bonfire"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield tapped unless you return an untapped island or untapped mountain to your hand.
-      {T}: Add {U} or {R} to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_7:
-  front:
-    name: "Double Bonfire"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped island or untapped mountain to your hand.
-      {T}: Add {U}{U}, {R}{R}, or {U}{R} to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_8:
-  front:
-    name: "Swamp Grixis Cycler"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: "Swamp"
-    rarity: ""
-    rating: 2
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}: Add {B}
-      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
-      Mountaincycling {1} ({1}, Discard this card: Search your library for an Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_9:
-  front:
-    name: "Nonbasic Fetch"
-    cost: ""
-    super: ""
-    type: "Land"
-    sub: ""
-    rarity: "Uncommon"
-    rating: 5
-    rules_text: |
-      {T}, Sacrifice ~: Search your library for a nonbasic island or nonbasic mountain and put it onto the battlefield. Shuffle your library.
-    flavor_text: "Ah, a bonfire!"
-    artwork_url: "https://i.ibb.co/wFKj9t8C/bonfire.jpg"
-    artist: "SirGorke"
-    number: 246
-    colors: '{W}{U}{B}{R}{G}'
-
-card_10:
-  front:
-    name: "Bonfire Destruction"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: ""
-    rarity: ""
-    rating: 2
-    rules_text: |
-      {T}: Add {1} to your mana pool.
-      {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
 card_the_grand_archives:
   front:
     name: "The Grand Archives"
     cost: ""
-    super: "Bonfire"
+    super: ""
     type: "Land"
-    sub: ""
+    sub: "Bonfire"
     rarity: "Rare"
     rating: 2
     rules_text: |
@@ -197,18 +52,474 @@ card_the_grand_archives:
     number: 1
     colors: '{U}{R}'
 
-card_glorious_land_destruction:
+card_the_dreg_heap:
   front:
-    name: "Glorious Land Destruction"
+    name: "The Dreg Heap"
     cost: ""
-    super: "Bonfire"
+    super: "Legendary"
     type: "Land"
-    sub: ""
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Add {1} to your mana pool.
+      {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_fireless_shrine:
+  front:
+    name: "Fireless Shrine"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
     rarity: "Rare"
     rating: 3
     rules_text: |
       {T}: Add {1} to your mana pool.
       {1}, {T}, Sacrifice ~: Destroy target land.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_cleansing_chapel:
+  front:
+    name: "Cleansing Chapel"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.
+      {T}: Add {U} or {R} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_heides_tower_of_flame:
+  front:
+    name: "Heide's Tower of Flame"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.
+      {T}: Add {U} or {W} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_church_of_yorshka:
+  front:
+    name: "Church of Yorshka"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.
+      {T}: Add {U} or {B} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_crumbled_ruins:
+  front:
+    name: "Crumbled Ruins"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.
+      {T}: Add {U} or {G} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_dragon_kin_mausoleum:
+  front:
+    name: "Dragon-Kin Mausoleum"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a mountin or plains you control to its owner's hand.
+      {T}: Add {R} or {W} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_demon_ruins:
+  front:
+    name: "Demon Ruins"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.
+      {T}: Add {B} or {R} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_halfway_fortress:
+  front:
+    name: "Halfway Fortress"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.
+      {T}: Add {R} or {G} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_chamber_of_the_princess:
+  front:
+    name: "Chamber of the Princess"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.
+      {T}: Add {B} or {W} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_old_wolf_of_farron:
+  front:
+    name: "Old Wolf of Farron"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.
+      {T}: Add {B} or {G} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_darkroot_basin:
+  front:
+    name: "Darkroot Basin"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Bonfire"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.
+      {T}: Add {G} or {W} to your mana pool.
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Esper (WUB) -----
+card_frozen_eleum_loyce:
+  front:
+    name: "Frozen Eleum Loyce"
+    cost: ""
+    super: "Snow"
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_ice_cracked_crag:
+  front:
+    name: "Icecracked Crag"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_irithyll_dungeon:
+  front:
+    name: "Irithyll Dungeon"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Sultai (BUG) -----
+card_swamp_sultai_cycler:
+  front:
+    name: "Swamp Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_island_sultai_cycler:
+  front:
+    name: "Island Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_forest_sultai_cycler:
+  front:
+    name: "Forest Sultai Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Forest"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {G}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Jund (BRG) -----
+card_swamp_jund_cycler:
+  front:
+    name: "Swamp Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_plains_jund_cycler:
+  front:
+    name: "Plains Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_island_jund_cycler:
+  front:
+    name: "Island Jund Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Temur (URG) -----
+card_island_temur_cycler:
+  front:
+    name: "Island Temur Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Island"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_mountain_temur_cycler:
+  front:
+    name: "Mountain Temur Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Mountain"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {R}
+      Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Mardu (WRB) -----
+card_plains_mardu_cycler:
+  front:
+    name: "Plains Mardu Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_swamp_mardu_cycler:
+  front:
+    name: "Swamp Mardu Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Swamp"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {B}
+      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: |
+      ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+# ----- Naya (WRG) -----
+card_plains_naya_cycler:
+  front:
+    name: "Plains Naya Cycler"
+    cost: ""
+    super: ""
+    type: "Land"
+    sub: "Plains"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: |
       ""
     artwork_url: ""
