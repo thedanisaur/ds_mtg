@@ -1,6 +1,6 @@
-card_1:
+card_praying_hollow:
   front:
-    name: "Cycling Hollow"
+    name: "Praying Hollow"
     cost: "{1}"
     super: ""
     type: "Creature"
@@ -14,6 +14,118 @@ card_1:
     flavor_text": "All undead will, one day, lose their mind and go Hollow."
     artwork_url: "https://www.deviantart.com/floxyart/art/Dark-Assassin-Under-the-Blood-Moon-1135126775"
     artist: "floxyart"
-    number: 5
+    number: 1
     power: 1
     toughness: 1
+
+card_sinh_the_slumbering_dragon:
+  front:
+    name: "Sinh, the Slumbering Dragon"
+    cost: "{7}"
+    super: ""
+    type: "Creature"
+    sub: "Dragon"
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Flying
+      When ~ dies, each player gets seven souls.
+      Sacrifice an artifact: ~ gets +1/+1 and can't be the target of spells or abilities until end of turn.
+    flavor_text": ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 7
+    toughness: 7
+
+card_the_pursuer:
+  front:
+    name: "The Pursuer"
+    cost: "{5}"
+    super: "Legendary"
+    type: "Enchantment Creature"
+    sub: "Elemental"
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Flying, haste, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
+      When ~ dies, each opponent creates a Resistance token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls.")
+    flavor_text": ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_olaphis_statue:
+  front:
+    name: "Olaphis Statue"
+    cost: "{1}"
+    super: "Legendary"
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with 5 curse counters on it.
+      When ~ has no curse counters on it, transform it.
+      {T}, Remove a curse from ~: Put a curse counter on target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."
+    flavor_text: ""
+    artist_url: ""
+    artist: ""
+    number: 1
+    frame: "Double-Faced: Day"
+  back:
+    name: "Straid of Olaphis"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Wizard"
+    rarity: ""
+    rules_text: |
+      Discard a card: Search your library for a card with the same type, reveal it, and put it into your hand. Shuffle your library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 5
+    toughness: 5
+    frame: "Double-Faced: Night"
+    color_indicator: "{W}{U}{B}{R}{G}"
+
+card_traveling_merchant:
+  front:
+    name: "Traveling Merchant"
+    cost: "{1}"
+    super: ""
+    type: "Creature"
+    sub: "Hag"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      {1}, {T}, pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.
+    flavor_text: "Heh heh heh heh hah hah hah… Many thanks!"
+    artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/aa/DARK_SOULS%E2%84%A2_II_Scholar_of_the_First_Sin_20151026000408.jpg/revision/latest/scale-to-width-down/1000?cb=20151028141607"
+    artist: "fromsoft"
+    number: 1
+    power: 1
+    toughness: 1
+
+card_stone_humped_old_hag:
+  front:
+    name: "Stone-Humped Old Hag"
+    cost: "{2}"
+    super: ""
+    type: "Creature"
+    sub: "Hag"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Discard a card: You get souls equal to 1 plus the discarded card's mana value.
+      {2}, {T}: Choose a nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.
+    flavor_text: "Keep your marbles intact, love. At least until I lose mine."
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 1
+    power: 0
+    toughness: 2
