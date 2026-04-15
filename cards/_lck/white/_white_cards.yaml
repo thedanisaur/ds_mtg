@@ -77,7 +77,7 @@ card_5:
     rarity: ""
     rating: 2
     rules_text: |
-      Exile target creature. Its controller creatures two tapped rubbish tokens.
+      Exile target creature. Its controller creates two tapped rubbish tokens.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -93,7 +93,8 @@ card_6:
     rarity: ""
     rating: 2
     rules_text: |
-      All black creatures get -1/-1
+      All black creatures get -1/-1.
+      Cycling {W} ({W}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -139,14 +140,15 @@ card_soul:
 card_7:
   front:
     name: "Graveyard Matters"
-    cost: "{W}"
+    cost: "{2}{W}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
     rarity: ""
     rating: 2
     rules_text: |
-      For each creature card in all graveyards, creature a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
+      As you cast ~ you may reveal a white card or a planes from your hand rather than pay this spell's mana cost.
+      For each creature card in all graveyards, create a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -155,7 +157,7 @@ card_7:
 card_8:
   front:
     name: "Buff"
-    cost: "{W}"
+    cost: "{1}{W}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -167,3 +169,618 @@ card_8:
     artwork_url: ""
     artist: ""
     number: 1
+
+card_unveil:
+  front:
+    name: "Unveil"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Turn target facedown permanent face up.
+      Cycling {W} ({W}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_covenant_of_the_chaos_servant:
+  front:
+    name: "Covenant of the Warriors of Sunlight"
+    cost: "{W}{W}{W}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 1
+    rules_text: |
+      You may exile a white card from your hand rather than pay this spell's mana cost.
+      Choose two -
+      • Destroy all lands.
+      • Destroy all creatures with mana value 4 or greater.
+      • Create four 1/1 white Human creature tokens with lifelink.
+      • Put a card you own in exile into your hand. (If you paid this card's alternate casting cost, you can't choose the card exiled to pay for this spell.)
+    flavor_text: "Praise the Sun! \\\\[T]/"
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_carim_guardian:
+  front:
+    name: "Channeler Servant"
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance, lifelink
+      Other creatures you control get +0/+3.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 3
+
+card_9:
+  front:
+    name: "Divine Tome of Carim"
+    cost: "{1}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Fragment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
+      Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)
+    flavor_text: "In the Way of White, you don't need eyes to see."
+    artwork_url: "https://i.pinimg.com/736x/de/e5/89/dee589954764ab05fe581cd300999797.jpg"
+    artist: ""
+    number: 1
+
+card_10:
+  front:
+    name: ""
+    cost: "{2}{W}{W}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance, lifelink
+      When ~ enters the battlefield, create two 1/1 white Human creature tokens on to the battlefield. If a card went to your graveyard this turn, put a +1/+1 counter on each creature you control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_:
+  front:
+    name: "Sword Master"
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Samurai"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      First strike, bleed
+      Discard a card: ~ gains protection from the color of your choice until end of turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      Lifelink
+      At the beginning of each end step, create a 1/1 white Human creature token if a card went to your graveyard this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_:
+  front:
+    name: "Lucatiel of Mirrah"
+    cost: "{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      ~ can't be blocked.
+      If a player would draw a card except for the first one in their draw step, they put a card from their hand on top of their library instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: "Aslatiel of Mirrah"
+    cost: "{1}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      First strike, bleed
+      If a player would would search their library, they search the top 4 cards of their library instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: "Sweet Shalquoir"
+    cost: "{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Cat"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      Noncreature spells cost {1} more to cast.
+      Sacrifice ~: Search your library for an artifact card with mana value 2 or less.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
+    flavor_text: "The only way to fight back against ghosts, who are cursed beings, is to become cursed oneself."
+    artwork_url: "https://i.ibb.co/5xk5hHb9/transient-curse-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
+    number: 41
+
+card_lorian_crown_prince:
+  front:
+    name: "Lorian, Crown Prince"
+    cost: "{3}{W}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Lord"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Vigilance, haste, protection from sources with plague
+      {1}{W}: Exile ~ and up to one other target creature. At the beginning of the next end step, return them to the battlefield under thier owner's control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 5
+    toughness: 5
+
+card_lothric_oaths_forsaken:
+  front:
+    name: "Lothric, Oath's Forsaken"
+    cost: "{2}{W}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Lord"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Lifelink, protection from sources with plague
+      Exile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 4
+
+card_velstadt_the_royal_ageis:
+  front:
+    name: "Velstadt, the Royal Aegis"
+    cost: "{3}{W}{W}"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Velstadt Lord"
+    rarity: "Mythic"
+    rating: 1
+    rules_text: |
+      If one or more creature tokens would be created under your control, twice that many of those tokens are created instead.
+      {+1}: Creatures you control get +1/+1 and gain vigilance until the beginning of your next turn.
+      {0}: Create two 1/1 white creature tokens named Royal Guard.
+      {-3}: Exile target artifact, enchantment, or tapped creature.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    loyalty: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{3}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Destroy all artifacts and creatures.
+      When you cycle ~ you may destroy target artifact or nonwhite creature.
+      Cycling {1}{W} ({W}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, exile target nonland permanent until ~ leaves the battlefield.
+      When you cycle ~ Scry 2 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{5}{W}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If a creature or planeswalker entered the battlefield under an opponent's control this turn and it wasn't cast, you may pay {W} rather than pay ~'s mana cost.
+      Put all creatures and planeswalkers on the bottom of their owner's library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
+      You can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      As an additional cost to cast ~, exile a card from your hand and a card from your graveyard.
+      Flying, vigilance, lifelink
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Whenever a spell or ability you control would exile a permanent, put a +1/+1 counter on ~.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Lifelink
+      When ~ enters the battlefield, destroy target artifact or enchantment.
+      {T}: Draw a card, then each opponent may draw a card. If at least one does, sacrifice ~ and you draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Create two 1/1 white Human creature tokens with lifelink.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_5:
+  front:
+    name: "Exile 2"
+    cost: "{1}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: "Delay Knight"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance
+      {T}, tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes delayed.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_thorolund_shade:
+  front:
+    name: "Thorolund Shade"
+    cost: "{W}"
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Common"
+    rating: 1
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_catacomb_blacksmith:
+  front:
+    name: "Catacomb Blacksmith"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Skeleton"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
+      Exile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.
+      Equip costs you pay cost {1} less. If a card went to your graveyard this turn, equipment you control have equip {0}.
+    flavor_text: "Be gone with you! ...You'll spoil my focus."
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 3
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{W}{W}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+      Sacrifice ~: Counter target activated ability an opponent controls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_painted_guardian:
+  front:
+    name: "Painted Guardian"
+    cost: "{1}{W}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      {T}: Creatures you control with bleed can't be the target of spells this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_kirk_knight_of_thorns:
+  front:
+    name: "Kirk, Knight of Thorns"
+    cost: "{2}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      When ~ enters the battlefield or is turned face up, each player gets a bleed counter.
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Day"
+    color_indicator: "{W}"
+  back:
+    name: "Kirk, Servant of Chaos"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Spirit"
+    rarity: ""
+    rules_text: |
+      When ~ enters the battlefield, each player gets a bleed counter.
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Night"
+    color_indicator: "{R}"
+
+card_:
+  front:
+    name: ""
+    cost: "{X}{X}{2}{W}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Create twice X 4/4 white Angel creature tokens with flying and lifelink.
+      When you cycle ~ create X 1/1 Human creature tokens with lifelink.
+      Cycling {X}{2}{W} ({W}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_archdrake_cleric:
+  front:
+    name: "Archdrake Cleric"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Cleric"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
+      Whenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 2
+
+card_winged_knight:
+  front:
+    name: "Winged Knight"
+    cost: "{3}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Angle Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Flying, protection from black and red.
+      {W}, Discard a card and exile two cards from your graveyard: Prevent all damage a source of your choice would deal to ~ this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 3
