@@ -8,7 +8,7 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
-      When ~ enters the battlefield destroy target nonblack creature or nonblack planeswalker an opponent controls.
+      When ~ enters the battlefield destroy target nonblack creature or nonblack planeswalker an opponent controls. You get souls equal to its mana value.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
       Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
     flavor_text: ""
@@ -139,7 +139,7 @@ card_7:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever you discard a card you may draw a card. If you do, you lose 1 life.
+      Whenever you discard a card you may draw a card. If you do, you lose 1 life and get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -174,6 +174,7 @@ card_9:
     rarity: ""
     rating: 2
     rules_text: |
+      Plague
       ~ can't block and can't be blocked.
       When ~ enters the battlefield, target player discards a card.
     flavor_text: ""
@@ -211,7 +212,7 @@ card_11:
     rarity: ""
     rating: 2
     rules_text: |
-      {B}{B}, Pay 2 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
+      {B}{B}, Pay 3 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -219,7 +220,7 @@ card_11:
 
 card_12:
   front:
-    name: "Rat"
+    name: "Corpse Rat"
     cost: "{2}{B}"
     super: ""
     type: "Creature"
@@ -227,7 +228,7 @@ card_12:
     rarity: ""
     rating: 2
     rules_text: |
-      Sacrifice an artifact or creature: Discard a card unless a card went to your graveyard this turn. Draw a card. You lose 1 life.
+      Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. You draw a card, lose 1 life, and get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -245,7 +246,7 @@ card_13:
     rarity: ""
     rating: 2
     rules_text: |
-      ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life equal to the damage dealt this way.
+      ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -262,7 +263,514 @@ card_14:
     rating: 2
     rules_text: |
       Target player sacrifices a creature with mana value 3 or less.
-      Exile ~ from your graveyard, Sacrifice a creature: Target player sacrifices a creature.
+      Exile ~ from your graveyard, sacrifice a creature: Target player sacrifices a creature.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_15:
+  front:
+    name: "Shadowy Tome of the Gravelord"
+    cost: "{2}{B}"
+    super: ""
+    type: "Instant"
+    sub: "Fragment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Search your library for a card and put it into your hand. Shuffle your library.
+      Fragment {B} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_16:
+  front:
+    name: ""
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {1}{B}, discard a card: Return ~ from your graveyard to your hand. You get two souls.
+      As long as there are seven or more cards in your graveyard ~ gets +3/+3
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_17:
+  front:
+    name: ""
+    cost: ""
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Deathtouch, lifelink
+      Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_big_guy:
+  front:
+    name: "Big Guy"
+    cost: "{3}{B/P}{B/P}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Flying
+      When ~ deals combat damage to a player each player loses 1 life and draws a card.
+      {B/P}: ~ gains haste until end of turn.
+      Madness {B/P}{B/P}{B/P} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_18:
+  front:
+    name: "{B}"
+    cost: ""
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      As you cast ~, you may discard any number of cards.
+      Target player reveals a number of cards from their hand equal to three plus three times the number of cards you discarded. You may choose a nonland card from among them. If you do, that player discards that card. Otherwise both players reveal the top card of their libraries, lose life equal to their card's mana value, then both players draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_bigger_guy:
+  front:
+    name: "Bigger Guy"
+    cost: "{5}{B}{B}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Lifelink, protection from white.
+      Cycling {B} ({B}, Discard this card: Draw a card.)
+      When you cycle ~, all creatures get -2/-2 until end of turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 7
+    toughness: 5
+
+card_19:
+  front:
+    name: ""
+    cost: "{B/P}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Exile target nonland card from a graveyard. If a card went to your graveyard this turn, search your opponent's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
+      Cycling {B} ({B}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_20:
+  front:
+    name: ""
+    cost: "{B}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Put a -1/-1 counter on target creature. When that creature is put into a graveyard this turn, its controller gets three plague counters.
+      Cycling {B} ({B}, Discard this card: Draw a card.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_dark_queen_nashandra:
+  front:
+    name: "Dark Queen Nashandra"
+    cost: "{3}{B}{B}{B}"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Nashandra Lord"
+    rarity: "Mythic"
+    rating: 1
+    rules_text: |
+      At the beginning of each upkeep each opponent loses 1 life. You gain life equal to the life lost.
+      {+1}: Target player discards a card at random.
+      {-2}: Choose a nonland, nonenchantment permanent. That permanent's controller sacrifices it. You gain life equal to its mana value.
+      {-8}: Each opponent gets an emblem with "At the beginning of your upkeep, you get three plague counters."
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    loyalty: 5
+
+card_afflicted_graverobber:
+  front:
+    name: "Afflicted Graverobber"
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Lifelink, shadow (This creature can block or be blocked by only creatures with shadow.)
+      When ~ enters the battlefield, you may pay {B}{B}, if you do target player discards two cards at random. If a card went to your graveyard this turn, put a permanent card from among the discarded cards onto the battlefield under your control.
+    flavor_text: "Alva journeyed in search of a cure for Serreta's sickness, and instead found a cure for death."
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{B}{B}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If an opponent gained souls this turn, you may pay {0} rather than pay ~'s mana cost.
+      Each opponent loses life equal to the number of souls they have, then remove all souls they have. You gain life equal to the life lost this way and get that many souls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{4}{B}{B}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
+      Creatures lose indestructible until end of turn. Destroy all creatures.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: "Bearing the Curse"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      Enchant player
+      If enchanted player would lose the game due to life lose, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, then their life total becomes their starting life total, they shuffle their library and draw seven cards, then they take an extra turn after their next turn instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_cursed_jar:
+  front:
+    name: "Cursed Jar"
+    cost: "{2}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Elemental"
+    rarity: "Common"
+    rules_text: |
+      When ~ dies, put one curse counter on target creature, player, or planeswalker, then double the number of curse counters on all creatures, players, and planeswalkers.
+    flavor_text: "The jar trembles softly, not from within — but from the weight of prayers long abandoned."
+    artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
+    artist: "deepai"
+    number: 1
+    power: 0
+    toughness: 3
+
+card_royal_sorcerer:
+  front:
+    name: "Royal Sorcerer"
+    cost: "{1}{B}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Human"
+    rarity: "Common"
+    rules_text: |
+      If this card's madness cost was paid, it enters the battlefield transformed.
+      Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Day"
+    color_indicator: "{B}"
+  back:
+    name: "Malevolent Fiend"
+    cost: ""
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: ""
+    rules_text: |
+      Deathtouch
+      When ~ enters the battlefield, destroy target creature.
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+    frame: "Double-Faced: Night"
+    color_indicator: "{B}"
+
+card_wandering_huntsman:
+  front:
+    name: "Wandering Huntsman"
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Common"
+    rules_text: |
+      As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
+      Deathtouch
+      When ~ enters the battlefield or dies, each player sacrifices a creature.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_deserter_of_the_watch:
+  front:
+    name: "Deserter of the Watch"
+    cost: "{B}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Common"
+    rules_text: |
+      As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
+      When ~ enters the battlefield or dies, each player gets three souls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_catacombs_gravebinder:
+  front:
+    name: "Catacombs Gravebinder"
+    cost: "{3}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Skeleton Wizard"
+    rarity: "Common"
+    rules_text: |
+      Whenever ~ enters the battlefield or is exiled from your graveyard, until end of turn whenever a creature enters the battlefield that wasn't cast, you lose 1 life, draw a card, and get a soul.
+      Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 5
+    toughness: 1
+
+card_abyss_jackel:
+  front:
+    name: "Abyss Jackel"
+    cost: "{1}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie Jackal"
+    rarity: "Common"
+    rules_text: |
+      Haste
+      ~ can't block.
+      {B}, discard a card: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_chained_prisoner:
+  front:
+    name: "Chained Prisoner"
+    cost: "{2}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie"
+    rarity: "Common"
+    rules_text: |
+      When ~ becomes the target of a spell or ability, sacrifice it.
+      ~ has indestructible if a card went to your graveyard this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 4
+
+card_dripping_slime:
+  front:
+    name: "Dripping Slime"
+    cost: "{2}{B}"
+    super: ""
+    type: "Creature"
+    sub: "Zombie"
+    rarity: "Common"
+    rules_text: |
+      Indestructible
+      Whenever ~ is dealt damage, if that damage was from a source that is white or green, sacrifice it.
+      Chameleon {3}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      When ~ is turned face up, destroy target nonblack creature if a card went to your graveyard this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 5
+
+card_spreading_contamination:
+  front:
+    name: "Spreading Contamination"
+    cost: "{1}{B}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura Curse"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Enchant land
+      Enchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no nonswamp lands on the battlefield remove all contamination counters and sacrifice ~.
+      Each land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{B}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Target creature gains shadow until end of turn. Each opponenet loses 2 life and you gain life equal to the life lost this way.
+      (Creatures with shadow can block or be blocked by only other creatures with shadow.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{X}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      As you cast ~, each card you exile from your graveyard pays for {1}.
+      Each opponenet discards X cards at random and you lose X life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Return target creature or planeswalker card from your graveyard to your hand. Target player gets two souls, then loses life equal to the number of souls they have, you gain that much life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ deals 1 damage to each opponent. Each opponent discards a card. You gain 1 life and return a creature card from your graveyard to your hand.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{B}{B}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.
     flavor_text: ""
     artwork_url: ""
     artist: ""
