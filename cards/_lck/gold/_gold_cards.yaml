@@ -1,6 +1,6 @@
-card_1:
+card_conjuring_hollow:
   front:
-    name: "Crystal Hollow"
+    name: "Conjuring Hollow"
     cost: "{U/W}"
     super: ""
     type: "Creature"
@@ -18,9 +18,9 @@ card_1:
     power: 1
     toughness: 1
 
-card_2:
+card_soul_scoured_hollow:
   front:
-    name: "Mana Hollow"
+    name: "Soul-Scoured Hollow"
     cost: "{R/G}"
     super: ""
     type: "Creature"
@@ -28,7 +28,8 @@ card_2:
     rarity: ""
     rating: 1
     rules_text: |
-      {T}: add {R} or {G}
+      When ~ leaves the battlefield, you get one soul.
+      {T}: add {R} or {G}. You get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -36,9 +37,9 @@ card_2:
     power: 1
     toughness: 1
 
-card_3:
+card_ashen_keep_sentinel:
   front:
-    name: "Tribal Hollow"
+    name: "Ashen Keep Sentinel"
     cost: "{G/W}"
     super: ""
     type: "Creature"
@@ -55,9 +56,9 @@ card_3:
     power: 0
     toughness: 1
 
-card_4:
+card_rupturing_hollow:
   front:
-    name: "Kill Hollow"
+    name: "Rupturing Hollow"
     cost: "{2}{B/R}{B/R}"
     super: ""
     type: "Creature"
@@ -65,7 +66,7 @@ card_4:
     rarity: ""
     rating: 2
     rules_text: |
-      Deathtouch, lifelink
+      Deathtouch, haste
       Sacrifice ~: Destroy target creature or planeswalker.
     flavor_text: ""
     artwork_url: ""
@@ -74,9 +75,9 @@ card_4:
     power: 2
     toughness: 2
 
-card_5:
+card_skittering_slave:
   front:
-    name: "Blood Hollow"
+    name: "Skittering Slave"
     cost: "{B/W}"
     super: ""
     type: "Creature"
@@ -84,6 +85,7 @@ card_5:
     rarity: ""
     rating: 1
     rules_text: |
+      Lifelink
       Whenever ~ or another creature dies, each opponent loses 1 life and you get one soul.
     flavor_text: ""
     artwork_url: ""
@@ -92,9 +94,9 @@ card_5:
     power: 1
     toughness: 1
 
-card_6:
+card_warden_of_the_forgotten_tower:
   front:
-    name: "Grow Hollow"
+    name: "Warden of the Forgotten Tower"
     cost: "{U/G}"
     super: ""
     type: "Creature"
@@ -111,9 +113,9 @@ card_6:
     power: 0
     toughness: 1
 
-card_7:
+card_hollow_warrior:
   front:
-    name: "Helix Hollow"
+    name: "Hollow Warrior"
     cost: "{R/W}"
     super: ""
     type: "Creature"
@@ -130,9 +132,9 @@ card_7:
     power: 1
     toughness: 1
 
-card_8:
+card_forsworn_shell:
   front:
-    name: "Hidden Hollow"
+    name: "Forsworn Shell"
     cost: "{1}{U/B}"
     super: ""
     type: "Creature"
@@ -141,7 +143,7 @@ card_8:
     rating: 1
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
-      Whenever ~ deals damage to a player choose one, if a card went to your graveyard this turn choose both instead -
+      Whenever ~ deals damage to a player choose one, if you cycled a card this turn choose both instead -
       • Target player draws a card.
       • Target player discards a card.
     flavor_text: ""
@@ -151,13 +153,13 @@ card_8:
     power: 1
     toughness: 1
 
-card_9:
+card_engorged_hollow:
   front:
-    name: "Angry Hollow"
+    name: "Engorged Hollow"
     cost: "{U/R}"
     super: ""
     type: "Creature"
-    sub: "Hollow"
+    sub: "Hollow Ooze"
     rarity: ""
     rating: 1
     rules_text: |
@@ -171,9 +173,9 @@ card_9:
     power: 1
     toughness: 1
 
-card_10:
+card_hollow_priest:
   front:
-    name: "Value Hollow"
+    name: "Hollow Priest"
     cost: "{B/G}"
     super: ""
     type: "Creature"
@@ -190,10 +192,10 @@ card_10:
     power: 1
     toughness: 1
 
-card_11:
+card_serpents_regrowth:
   front:
-    name: "Pillage the Bog"
-    cost: "{B}{G}"
+    name: "Serpents Regrowth"
+    cost: "{1}{B}{G}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -206,35 +208,55 @@ card_11:
     artist: ""
     number: 1
 
-card_12:
+card_chant_of_oolacile:
   front:
-    name: "Chaos"
-    cost: "{U}{R}"
+    name: "Chant of Oolacile"
+    cost: "{U/R}{U/R}"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: ""
     rating: 1
     rules_text: |
-      When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells you've cast this turn.
+      When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells cast this turn.
       Once each turn you may cast a card you own in exile. (You still pay its costs.)
+      If a source would deal damage to you, it deals that much damage plus 1 to you instead.
       Sacrifice ~: You may cast a card you own in exile without paying its mana cost.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_13:
+card_the_end_of_fire:
   front:
     name: "The End of Fire"
-    cost: "{B}{W}"
+    cost: "{2}{B}{W}"
     super: ""
     type: "Sorcery"
     sub: ""
     rarity: ""
     rating: 1
     rules_text: |
-      Destory X permanents where X is two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.
+      Destroy X permanents where X is two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_1:
+  front:
+    name: ""
+    cost: "{U}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: ""
+    rating: 1
+    rules_text: |
+      Choose one -
+        • Counter target spell unless its controller pays {2}.
+        • ~ deals 2 damage divided as you choose to up to two target creatures and/or planeswalkers.
+        • Draw two cards, then discard two cards.
     flavor_text: ""
     artwork_url: ""
     artist: ""
