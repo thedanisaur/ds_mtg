@@ -1,6 +1,6 @@
-card_1:
+card_the_lordvessel:
   front:
-    name: "Best Ramp"
+    name: "The Lordvessel"
     cost: "{G}"
     super: ""
     type: "Enchantment"
@@ -8,8 +8,9 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
-      When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard.
-      At the beginning of your upkeep, you may return a basic land from your graveyard to your hand.
+      When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard. Shuffle your library.
+      At the beginning of your upkeep, you may return a basic land from your graveyard onto the battlefield.
+      Whenever a land enters the battlefield under your control, you get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -34,9 +35,9 @@ card_soul:
     number: 1
     color_indicator: "{G}"
 
-card_2:
+card_truth_of_the_old_words:
   front:
-    name: ""
+    name: "Truth of the Old Words"
     cost: "{1}{G}"
     super: ""
     type: "Instant"
@@ -46,15 +47,15 @@ card_2:
     rules_text: |
       You may reveal a green card or forest from your hand rather than pay ~'s mana cost.
       Reveal the top four cards of your library. You may put a permanent card from among them into your hand. Then you may discard any number of cards.
-      For each card discarded you may put an additional card from among the revealed cards into your hand. Put the rest into your graveyard.
+      For each card discarded you get one soul and you may put an additional card from among the revealed cards into your hand. Put the rest into your graveyard.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_3:
+card_titanite_demon:
   front:
-    name: "Madness Creature"
+    name: "Titanite Demon"
     cost: "{3}{G}"
     super: ""
     type: "Creature"
@@ -63,8 +64,8 @@ card_3:
     rating: 2
     rules_text: |
       Trample
-      If this spell's madness cost was paid, put two +1/+1 counters on it.
-      Madness {2}{G} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      When ~ dies, create a Rubbish token. (It's an artifact with {T}, "Sacrifice ~: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library.")
+      When ~ enters the battlefield if a card went to your graveyard this turn it enters the battlefield with two +1/+1 counters.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -72,17 +73,19 @@ card_3:
     power: 4
     toughness: 4
 
-card_3:
+card_deep_accursed:
   front:
-    name: "Sideboard Tutor Creature"
+    name: "Deep Accursed"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Spider"
     rarity: ""
     rating: 2
     rules_text: |
+      You may cast this spell any time you could cast and instant.
       Reach, deathtouch
+      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.
       When ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.
     flavor_text: ""
     artwork_url: ""
@@ -91,19 +94,19 @@ card_3:
     power: 2
     toughness: 3
 
-card_4:
+card_farron_keep_perimeter:
   front:
-    name: "Wall"
+    name: "Farron Keep Perimeter"
     cost: "{1}{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Wall"
     rarity: ""
     rating: 2
     rules_text: |
       ~ can't attack.
       When ~ enters the battlefield you may search your library for a basic land card, reveal it, and put it into your hand. Shuffle your library.
-      Whenever a land enters the battlefield under your control you may pay {3}{G}. If you do, put a +1/+1 counter on ~.
+      Whenever a land enters the battlefield under your control you may pay {2}{G}. If you do, put a +1/+1 counter on ~.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -111,9 +114,9 @@ card_4:
     power: 0
     toughness: 4
 
-card_5:
+card_blowdart_sniper:
   front:
-    name: "Pump"
+    name: "Blowdart Sniper"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -121,9 +124,8 @@ card_5:
     rarity: ""
     rating: 2
     rules_text: |
-      ~ enters the battlefield tapped if its madness cost was paid.
-      {G}, Discard ~: Target attacking creature gets +1/+1 and gains deathtouch until end of turn.
-      Madness {G} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Deathtouch
+      {G}, Discard ~: Target attacking creature gets +1/+1 and gains deathtouch until end of turn. If another card went to your graveyard this turn, put a +1/+1 counter and a deathtouch counter on that creature instead.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -131,9 +133,9 @@ card_5:
     power: 1
     toughness: 1
 
-card_6:
+card_persevering_mist:
   front:
-    name: "Fog"
+    name: "Persevering Mist"
     cost: "{1}{G}"
     super: ""
     type: "Instant"
@@ -142,15 +144,15 @@ card_6:
     rating: 2
     rules_text: |
       You may discard a card rather than pay this spell's mana cost.
-      Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn.
+      Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You get two souls.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_hush:
+card_hush_dear_accursed:
   front:
-    name: "Hush"
+    name: "Hush Dear Accursed"
     cost: "{1}{G}"
     super: ""
     type: "Enchantment"
@@ -160,41 +162,631 @@ card_hush:
     rules_text: |
       Enchant player
       You may cast ~ at any time you could cast and instant.
-      If an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)
+      If an opponent would draw a card except the first one they draw in each of their draw steps, instead you get a soul and create a Treasure token. (It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
     artist: "mudhorror"
     number: 167
 
-card_7:
+card_marching_inevitability:
   front:
-    name: "Second Best Ramp"
-    cost: "{G}"
+    name: "Marching Inevitablility"
+    cost: "{2}{G}"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: ""
     rating: 2
     rules_text: |
-      When ~ enters the battlefield, search your library for a number of land cards equal to the number of permanent cards in your graveyard and exile them. Shuffle your library.
-      At the beginning of your upkeep, you may put a land you own in exile onto the battlefield.
+      Whenever a land enters the battlefield under your control or goes to your graveyard, you get a soul and put a +1/+1 counter on each creature you control.
+      Delayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_7:
+card_petrifying_basilisk:
   front:
-    name: "Inevitablility"
-    cost: "{G}"
+    name: "Petrifying Basilisk"
+    cost: "{1}{G}"
     super: ""
-    type: "Enchantment"
-    sub: ""
-    rarity: ""
+    type: "Enchantment Creature"
+    sub: "Lizard"
+    rarity: "Common"
     rating: 2
     rules_text: |
-      Whenever a land enters the battlefield under your control or goes to your graveyard, put a +1/+1 counter on each creature you control.
+      Accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")
+    flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
+    artwork_url: "https://i.ibb.co/WWdz4ryM/petrifying-basilisk-rjpalmer-resize.jpg"
+    artist: "rjpalmer"
+    number: 1
+    power: 2
+    toughness: 2
+
+card_undead_pigs:
+  front:
+    name: "Undead Pigs"
+    cost: "{2}{G}"
+    super: ""
+    type: "Enchantment Creature"
+    sub: "Zombie Boar"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Vigilance, accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
+    power: 3
+    toughness: 3
+
+card_1:
+  front:
+    name: "Divine Tome of Londor"
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: "Fragment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Search your library for a creature or planeswalker card, reveal it, and put it into your hand. Shuffle your library.
+      Fragment {G} - While searching your library, you may reveal this card from your library. If you do, choose two target creatures. Each of those creatures deals damage equal to its power to the other. (Only activate one fragment ability per search.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_possessed_foliage:
+  front:
+    name: "Possessed Foliage"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: "Demon Treefolk"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      This creature can't be the target of spells or abilities.
+      ~'s power and toughtness are each equal to the number of lands you control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: "*"
+    toughness: "*"
+
+card_big_guy:
+  front:
+    name: "Big Guy"
+    cost: "{4}{G}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      ~ can't be countered.
+      When ~ enters the battlefield destroy target artifact, enchantment, or land. If a card went to your graveyard this turn, destroy target artifact, enchantment, and land instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 6
+    toughness: 6
+
+card_2:
+  front:
+    name: "Warry Warrior"
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever you exile a card from your hand, if that card's mana value is greater than ~'s' power put a +1/+1 counter on it.
+      {1}{G}: Move a +1/+1 counter to another target creature.
+      Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_3:
+  front:
+    name: ""
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Flying
+      {T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_4:
+  front:
+    name: ""
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Add one mana of any color to your mana pool for each card you own in exile.
+      {G}, {T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_5:
+  front:
+    name: ""
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Add {G} to your mana pool.
+      Whenever ~ becomes tapped, target player gets a bleed counter.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 1
+
+card_twisted_landscape:
+  front:
+    name: "Twisted Landscape"
+    cost: "{G}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may pay three souls rather than pay this spell's mana cost.
+      As an additional cost to cast this spell, sacrifice a creature or land.
+      Search your library for up to two basic land cards, put those cards onto the battlefield tapped, and shuffle your library. If you cast this spell without paying its mana cost, untap those lands.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_banished_butcher:
+  front:
+    name: "Banished Butcher"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      When ~ enters the battlefield destroy target artifact.
+      Whenever an artifact goes to the graveyard put a +1/+1 counter on ~ or move a +1/+1 counter from ~ to another target creature.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_royal_rat_authority:
+  front:
+    name: "Royal Rat Authority"
+    cost: "{2}{G}{G}"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Rat Lord"
+    rarity: "Mythic"
+    rating: 2
+    rules_text: |
+      ~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.
+      {+1}: Create a 1/1 black Rat creature token with bleed.
+      {-1}: Destroy target land. Its controller gets one bleed counter.
+      {-7}: Target player gets seven bleed counters.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    loyalty: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}{G}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If an opponent cycled a card this turn, you may pay {1}{G} rather than pay ~'s mana cost.
+      Lands you control become 3/3 creatures and gain trample until end of turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If an opponent paid a madness cost this turn, you may pay {0} rather than pay ~'s mana cost.
+      Permanents you control can't be the target of spells or abilities and can't be sacrificed this turn. If a card went to your graveyard this turn, draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_growing_phalanx:
+  front:
+    name: "Growing Phalanx"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: "Ooze"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever another card goes to your graveyard, create a token copy of ~.
+      When ~ dies, each player gets one soul.
+      Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{3}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield you gain life and get a number of souls equal to its power.
+      ~'s power and toughness are both equal to the number of creature cards in your graveyard.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: "*"
+    toughness: "*"
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Creatures you control with +1/+1 counters on them have trample.
+      Whenever a creature enters the battlefield under your control, target player gets a soul.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. Shuffle your library.
+      Whenever a land enters the battlefield under your control, target player gets two souls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 2
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.
+      ~ gets +2/+2 and has trample as long as you cast a spell from anywhere other than your hand this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, destroy target artifact or enchantment.
+      ~ has bleed as long as a card went to your graveyard this turn. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 3
+
+card_:
+  front:
+    name: ""
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Trample
+      Whenever a creature enters the battlefield under your control, you may gain 1 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever a creature you control is turned face up, untap target creature you control.
+      Chameleon {2} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      When ~ is turned face up, add {G}{U}{R} to your mana pool.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever a creature you control attacks, you may gain 1 life and get one soul.
+      At the beginning of combat on your turn, if you have seven or more souls, target creature you control gains haste until end of turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{5}{G}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Flying, trample, haste
+      Chameleon {4}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Whenever a creature you control is turned face up, put a +1/+1 counter on each creature you control.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 4
+    toughness: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Creatures with power less than ~'s power can't block it.
+      Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      When ~ is turned face up, put a +1/+1 counter on it. You get one soul.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Deathtouch
+      When ~ dies, create a Rubbish token. (It's an artifact with {T}, "Sacrifice ~: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library.")
+      {1}{G}: Return ~ from your graveyard to the battlefield. Activate only if a card went to your graveyard this turn.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 3
+    toughness: 3
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ gets +1/+1 and has whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1} as long as you have seven or more souls.
+      Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Whenever a creature you control is turned face up, destroy target artifact or enchantment.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{X}{G}{G}{G}"
+    super: ""
+    type: "Creature"
+    sub: "Hydra"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with twice X +1/+1 counters on it.
+      When ~ dies, create a 1/1 Tentacle creature token and you get one soul for each +1/+1 counter on it.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 0
+    toughness: 0
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Target creature you control and target creature an opponent controls each deals damage equal to its power the other. If at least one creature would die this way, draw a card and you get two souls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}{G}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Choose one. If a card went to your graveyard this turn, choose two instead -
+      • Destory target blue or black noncreature permanent. You gain 2 life and get two souls.
+      • Spells you control can't be countered this turn. You and permanents you control can't be the target of spells or abilities that are blue or black until end of turn. Draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Reach
+      When ~ enters the battlefield you gain 4 life. If ~ wasn't cast from your hand you gain 8 life instead.
+      Delayed {5}{G} (You may pay {5}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 2
+    toughness: 4
+
+card_:
+  front:
+    name: ""
+    cost: "{G}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      If one or more counters would be put on a permanent or player, that many plus one counters are put on it instead.
+      Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    power: 1
+    toughness: 1
