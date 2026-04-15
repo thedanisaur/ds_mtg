@@ -1,4 +1,4 @@
-card_1:
+card_the_great_seal_of_thorolund:
   front:
     name: "The Great Seal of Thorolund"
     cost: "{1}"
@@ -10,28 +10,29 @@ card_1:
     rules_text: |
       Cards can't enter the battlefield unless it's from the stack.
       Players can't cast spells unless it's from their hand.
+      Players can't activate abilities of cards while searching their library.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_2:
+card_resplendent_projection:
   front:
-    name: "Storm is bad"
+    name: "Resplendent Projection"
     cost: "{1}"
     super: ""
-    type: "Artifact"
+    type: "Enchantment Artifact"
     sub: ""
     rarity: ""
     rating: 2
     rules_text: |
-      Whenever an opponent casts a spell you may gain 1 life.
+      Whenever an opponent casts a spell you may gain 1 life and get one soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_3:
+card_budding_lotus:
   front:
     name: "Budding Lotus"
     cost: "{0}"
@@ -49,7 +50,7 @@ card_3:
     artist: ""
     number: 1
 
-card_4:
+card_hollows_amulet:
   front:
     name: "Hollow's Amulet"
     cost: "{1}"
@@ -66,7 +67,7 @@ card_4:
     artist: ""
     number: 1
 
-card_5:
+card_curator_of_the_grand_archives:
   front:
     name: "Curator of the Grand Archives"
     cost: "{2}"
@@ -85,7 +86,7 @@ card_5:
     power: 1
     toughness: 1
 
-card_6:
+card_pyrewardens_stone:
   front:
     name: "Pyrewarden's Stone"
     cost: "{1}"
@@ -102,13 +103,13 @@ card_6:
     artist: ""
     number: 1
 
-card_7:
+card_corrosive_urn:
   front:
-    name: "Hate Seal"
+    name: "Corrosive Urn"
     cost: "{1}"
     super: ""
     type: "Artifact"
-    sub: "Key"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
@@ -119,7 +120,7 @@ card_7:
     artist: ""
     number: 1
 
-card_8:
+card_the_champions_tablet:
   front:
     name: "The Champion's Tablet"
     cost: "{X}{1}"
@@ -173,27 +174,9 @@ card_uchigatana:
     artist: "Asymoney"
     number: 1
 
-card_9:
+card_darkmoon_seance_idol:
   front:
-    name: "Crown of the Old Iron King"
-    cost: "{2}"
-    super: ""
-    type: "Artifact"
-    sub: "Equipment"
-    rarity: ""
-    rating: 2
-    rules_text: |
-      Nonartifact spells cost {1} more to cast.
-      Equipped creature has "Spells cost {1} more to cast."
-      Equip {2}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 1
-
-card_10:
-  front:
-    name: "Cycling Reducer"
+    name: "Darkmoon Seance Idol"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -208,7 +191,7 @@ card_10:
     artist: ""
     number: 1
 
-card_11:
+card_sens_fortifications:
   front:
     name: "Sen's Fortifications"
     cost: "{2}"
@@ -218,11 +201,8 @@ card_11:
     rarity: "Rare"
     rating: 2
     rules_text: |
-      When fortified land becomes tapped, create an Arrow Trap token, a Guillotine Token, or a Boulder Trap token. If ~ is fortifying Sen's Fortress, create one of each instead.
-      Arrow Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.”)
-      Guillotine Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.”)
-      Boulder Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.”)
-      Equip {3}
+      When fortified land becomes tapped, search your library for a trap card. If ~ is fortifying Sen's Fortress, search your library for two trap cards instead.
+      Fortify {2}
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -248,3 +228,372 @@ card_tarkus_iron_knight:
     number: 1
     power: 3
     toughness: 3
+
+card_crown_of_the_sunken_king:
+  front:
+    name: "Crown of the Sunken King"
+    cost: "{2}"
+    super: "Legendary"
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)
+      Equipped creature has "Sacrifice three artifacts: Search your library for a Dragon card, put it onto the battlefield. Shuffle your library. Activate only as a sorcery."
+      Equip {3}
+    flavor_text: "The king's eternal sanctum crumbled."
+    artwork_url: "https://i.ibb.co/9H0n1xSj/crown-of-the-sunken-king-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 1
+
+card_crown_of_the_old_iron_king:
+  front:
+    name: "Crown of the Old Iron King"
+    cost: "{2}"
+    super: "Legendary"
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Colored nonartifact spells cost {1} more to cast.
+      Equipped creature has "Spells you control cost {1} less to cast."
+      Equip {2}
+    flavor_text: "The king sunk below the scorching iron and became Ichorous Earth."
+    artwork_url: "https://i.ibb.co/Zzm5GW8g/crown-of-the-old-iron-king-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 1
+
+card_crown_of_the_ivory_king:
+  front:
+    name: "Crown of the Ivory King"
+    cost: "{2}"
+    super: "Legendary"
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)
+      Equipped creature has "Whenever a colored nonartifact permanent is untapped you gain 1 lifeand get one soul."
+      Equip {1}
+    flavor_text: "In the frozen north, the king's soul faded."
+    artwork_url: ""
+    artist: "fromsoft"
+    number: 1
+
+card_crown_of_the_covetous_king:
+  front:
+    name: "Crown of the Covetous King"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: ""
+    rating: 2
+    rules_text: |
+      At the beginning of your end step, if you control cards named Crown of the Sunken King, Crown of the Old Iron King, and Crown of the Ivory King you win the game.
+      Equipped creature has "You can't lose the game and your opponents can't win the game."
+      Equip {4}
+    flavor_text: "What makes a king? A crown, or is it just... want."
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_fragrant_branch_of_yore:
+  front:
+    name: "Fragrant Branch of Yore"
+    cost: "{0}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      {1}, {T}: Remove all curse counters from target permanent.
+      When ~ is put into a graveyard from the battlefield, draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_mox_citrine:
+  front:
+    name: "Mox Citrine"
+    cost: "{0}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      {T}: Add one mana of any color to your mana pool that a land an opponent controls could produce.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{6}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield you get two souls and choose one -
+      • Target creature gets -10/-10.
+      • Remove 10 loyalty counters from target planeswalker.
+      • Draw four cards. Then discard two cards unless you discard an artifact.
+      {8}: Return ~ to its owner's hand.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{0}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      If you would choose one or more modes when casting a spell, you may choose one additional mode.
+      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on colorless or artifact spells and abilities.
+      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on spells and abilities that have no color.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: "Axe"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature gets +1/+0 and has trample.
+      Equip {1}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: "Talisman of Want"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has "{T}: For each spell you cast this turn it costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
+      Equip {2}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: "Zweihander"
+    cost: "{C/P}{C/P}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature gets +2/+1 and can't be blocked except by two or more creatures.
+      Equip {3}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_new_londo_talisman:
+  front:
+    name: "New Londo Talisman"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      This artifact doesn't untap during your untap step.
+      {1}, pay one soul: Untap ~.
+      {T}, pay one soul: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_seal_of_a_slumbering_dragon:
+  front:
+    name: "Seal of a Slumbering Dragon"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Players can't cast artifact or colorless spells.
+      Abilities of artifacts and colorless nonland permanents can't be activated.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_charm_of_the_forest_hunters:
+  front:
+    name: "Charm of the Forest Hunters"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 4
+    rules_text: |
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      {T}, Remove a charge counter from this card: As long as this card remains tapped, target permanent can't deal damage and its loyalty abilities can't be activated.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_charm_of_the_darkmoon_blades:
+  front:
+    name: "Charm of the Darkmoon Blades"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 4
+    rules_text: |
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      {T}, Remove a charge counter from this card: As long as this card remains tapped, if a token would enter the battlefield you draw a card instead.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_charm_of_the_darkwraiths:
+  front:
+    name: "Charm of the Darkwraiths"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 4
+    rules_text: |
+      ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
+      {T}, Remove a charge counter from this card: As long as this card remains tapped, whenever target land becomes tapped, its controller sacrifices it and loses life equal to the number of souls they have.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: ""
+    rating: 2
+    rules_text: |
+      {T}: Put target card in a graveyard on the bottom of its owner's library. Then target player gets one soul.
+      {1}, Sacrifice ~: Exile all cards from target player's graveyard. You get one soul for each card exiled this way.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_sunless_amulet:
+  front:
+    name: "Sunless Amulet"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
+      {T}, Remove a charge counter from this card: As long as this card remains tapped target basic land an opponent controls becomes the basic land type of your choice. Whenever it's tapped for mana its controller gets one soul.
+      When this artifact is put into a graveyard from the battlefield, draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_fortification_1:
+  front:
+    name: ""
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Fortification"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Fortified land has "{U/W}, {T}: Draw a card. Activate this ability only if you have 5 or more cards in hand."
+      Fortify {1}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_fortification_2:
+  front:
+    name: ""
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Fortification"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Fortified land has "{B/G}, {T}: Return a permanent card from your graveyard to your hand. Activate this ability only if your life total changed this turn."
+      Fortify {1}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_palisades_of_ash:
+  front:
+    name: "Palisades of Ash"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Fortification"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Fortified land has "{2/R}, {T}: Choose a nonland card controlled by a player. Shuffle that card into its owners library. That card's controller reveals cards from the top of their library until they reveal a card that shares a type with the chosen card. If that card was a permanent they put that card onto the battlefield. Otherwise they cast it as a spell."
+      Fortify {2}
+    flavor_text: "Exiled by Gwyn, this place is home to the pygmies."
+    artwork_url: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/dark-souls-3-the-ringed-city-narrator.jpg"
+    artist: "fromsoft"
+    number: 1

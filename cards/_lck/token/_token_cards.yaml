@@ -5,10 +5,47 @@ card_rubbish:
     super: "Token"
     type: "Artifact"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Token"
     rules_text: "{T}, Sacrifice ~: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library."
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
     color_indicator: "{C}"
+
+card_bleed_counter:
+  front:
+    name: "Bleed Counter"
+    cost: ""
+    super: ""
+    type: ""
+    sub: ""
+    rarity: "Token"
+    rules_text: |
+      Whenever you have 5, plus the number of resistance tokens you control, or more bleed counters, you take that much damage.
+      You remove all bleed counters and create a Resistance token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls.")
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    color_indicator: "{C}"
+
+card_resistance:
+  front:
+    name: "Resistance"
+    cost: ""
+    super: "Token"
+    type: "Artifact"
+    sub: ""
+    rarity: "Token"
+    rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls."
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+    color_indicator: "{C}"
+
+
+# Arrow Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.”)
+# Guillotine Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.”)
+# Boulder Trap: (It's an artifact with “{1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.”)
