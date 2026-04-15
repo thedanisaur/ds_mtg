@@ -616,7 +616,7 @@ card_undead_hound:
     rating: 1
     rules_text: |
       Lifelink
-      When ~ enters the battlefield target player loses life equal to the number of souls they have.
+      When ~ enters the battlefield target player gets two souls, then loses life equal to the number of souls they have.
       Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.
     flavor_text: ""
     artwork_url: "https://64.media.tumblr.com/7dd7cc14afed1b83a4f05d062b500c11/tumblr_mj9eb2ev6f1r426wco1_1280.jpg"
