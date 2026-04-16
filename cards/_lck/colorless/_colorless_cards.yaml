@@ -49,7 +49,7 @@ card_the_pursuer:
     rating: 0
     rules_text: |
       Flying, haste, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
-      When ~ dies, each opponent creates a Resistance token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls.")
+      When ~ dies, each opponent creates a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1.")
     flavor_text": ""
     artwork_url: ""
     artist: ""

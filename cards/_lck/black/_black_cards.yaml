@@ -575,7 +575,7 @@ card_wandering_huntsman:
     rules_text: |
       As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
       Deathtouch
-      When ~ enters the battlefield or dies, each player sacrifices a creature.
+      When ~ enters the battlefield or dies, each player sacrifices a nontoken creature.
     flavor_text: ""
     artwork_url: ""
     artist: ""

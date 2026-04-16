@@ -81,7 +81,7 @@ card_4:
     rules_text: |
       Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)
       When ~ enters the battlefield exile the top three cards of your library with a favored counter on each of them.
-      Whenever ~ deals combat damage to a player, you may play a card you own in exile with a favored counter on it. (You still pay its costs.)
+      Whenever ~ deals combat damage to a player, you may play a card you own in exile with a favored counter on it until end of turn. (You still pay its costs.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -193,7 +193,7 @@ card_8:
     rarity: ""
     rating: 2
     rules_text: |
-      {1}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Then, starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
+      {1}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
     flavor_text: ""
     artwork_url: ""
     artist: ""

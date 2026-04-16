@@ -22,23 +22,23 @@ card_bleed_counter:
     sub: ""
     rarity: "Token"
     rules_text: |
-      Whenever you have 5, plus the number of resistance tokens you control, or more bleed counters, you take that much damage.
-      You remove all bleed counters and create a Resistance token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls.")
+      Whenever you have 5, plus the number of Moss Clump tokens you control, or more bleed counters, you take that much damage.
+      You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1.")
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
     color_indicator: "{C}"
 
-card_resistance:
+card_moss_clump:
   front:
-    name: "Resistance"
+    name: "Moss Clump"
     cost: ""
     super: "Token"
     type: "Artifact"
     sub: ""
     rarity: "Token"
-    rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get 2 souls."
+    rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1."
     flavor_text: ""
     artwork_url: ""
     artist: ""

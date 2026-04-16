@@ -185,6 +185,7 @@ card_darkmoon_seance_idol:
     rating: 2
     rules_text: |
       Cycling abilities you activate cost {1} less to activate.
+      Whenever you cycle ~ or another card, target player gets one soul.
       Cycling {1} ({1}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
@@ -311,8 +312,8 @@ card_fragrant_branch_of_yore:
     rarity: "Rare"
     rating: 2
     rules_text: |
-      {1}, {T}: Remove all curse counters from target permanent.
-      When ~ is put into a graveyard from the battlefield, draw a card.
+      {2}, {T}: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
+      When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -365,16 +366,15 @@ card_:
     rating: 2
     rules_text: |
       If you would choose one or more modes when casting a spell, you may choose one additional mode.
-      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on colorless or artifact spells and abilities.
-      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on spells and abilities that have no color.
+      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on spells and abilities from sources that have no color.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
 
-card_:
+card_hand_axe:
   front:
-    name: "Axe"
+    name: "Hand Axe"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -383,8 +383,26 @@ card_:
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature gets +1/+0 and has trample.
+      Equipped creature gets +1/+0 and has "Whenever this creature attacks alone, it deals 1 damage to any target."
       Equip {1}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_dragon_slayer_greatsword:
+  front:
+    name: "Dragon Slayer Greatsword"
+    cost: "{3}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature gets +3/+0, can't be blocked except by three or more creatures, and has trample.
+      Equip {3}
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -596,4 +614,90 @@ card_palisades_of_ash:
     flavor_text: "Exiled by Gwyn, this place is home to the pygmies."
     artwork_url: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/dark-souls-3-the-ringed-city-narrator.jpg"
     artist: "fromsoft"
+    number: 1
+
+card_shield:
+  front:
+    name: "Shield"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature gets +0/+3 and can't be the target of spells or abilities.
+      Equip {3}
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_:
+  front:
+    name: ""
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have seven or more souls.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_seal_of_the_dark_void:
+  front:
+    name: "Seal of the Dark Void"
+    cost: "{2}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      If a card would enter or leave exile, that card's owner loses 2 life.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_purple_moss_clump:
+  front:
+    name: "Purple Moss Clump"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {2}, {T}, Sacrifice this artifact: Remove all plague counters from you and permanents you control.
+      When ~ goes to the graveyard from the battlefield add two mana of any one color to your mana pool and draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    number: 1
+
+card_bloodred_moss_clump:
+  front:
+    name: "Bloodred Moss Clump"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: ""
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {1}, {T}, Sacrifice this artifact: You remove all bleed counters.
+      When ~ goes to the graveyard from the battlefield add one mana of any color to your mana pool and draw a card.
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
     number: 1
