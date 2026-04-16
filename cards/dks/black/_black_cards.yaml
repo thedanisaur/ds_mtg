@@ -77,8 +77,8 @@ card_chosen_undead:
     rarity: "Uncommon"
     rating: 4
     rules_text: |
-      Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
-      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
+      As you cast ~ choose  creature token, nontoken creature, or planeswalker. Target player sacrifices a permanent of the chosen type.
+      Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.
     flavor_text: "The Unkindled will rise. Nameless and accursed."
     artwork_url: "https://i.ibb.co/p6wzGMBP/chosen-undead-castaguer93-resize.jpg"
     artist: "castaguer93"

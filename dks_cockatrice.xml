@@ -773,7 +773,7 @@ Create a 2/1 white Human Ally Anri creature token. It has lifelink.</text>
     </card>
     <card>
         <name>Amana Priestess</name>
-        <text>{X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~.  You may activate this ability as though this creature had haste.
+        <text>{X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~. You may activate this ability as though this creature had haste.
 {1}{U}, Discard ~: Counter target spell unless it's controller pays {1}.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1362,8 +1362,8 @@ When ~ enters the battlefield, create two 1/1 colorless Hollow creature tokens. 
     </card>
     <card>
         <name>Chosen Undead</name>
-        <text>Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.
-Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.</text>
+        <text>As you cast ~ choose  creature token, nontoken creature, or planeswalker. Target player sacrifices a permanent of the chosen type.
+Whenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -3053,7 +3053,7 @@ When ~ blocks or becomes blocked by a creature with first strike or double strik
             <maintype>Creature</maintype>
             <manacost>{R/W}{R/W}{R/W}{R/W}{R/W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="187" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ancient_wyvern.jpeg">DKS</set>
@@ -3104,7 +3104,7 @@ At the beginning of your end step each opponent sacrifices a nonland permanent a
             <maintype>Creature</maintype>
             <manacost>{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="Rare" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/bed_of_chaos.jpeg">DKS</set>
@@ -3136,7 +3136,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{B/R}</manacost>
             <cmc>1</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/disembodied_wisp.jpeg">DKS</set>
@@ -3170,7 +3170,7 @@ When ~ dies choose one -
             <maintype>Enchantment</maintype>
             <manacost>{R}{G}{W}</manacost>
             <cmc>3</cmc>
-            <colors>GWR</colors>
+            <colors>RGW</colors>
         </prop>
         <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ember.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3185,7 +3185,7 @@ Whenever ~ deals combat damage to a player, they reveal the top X cards of his o
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/fume_knight.jpeg">DKS</set>
@@ -3203,7 +3203,7 @@ Whenever ~ is dealt damage you lose that much life and if damage dealt to this c
             <maintype>Creature</maintype>
             <manacost>{3}{B/R}{B/R}{B/R}{B/R}</manacost>
             <cmc>7</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/4</pt>
         </prop>
         <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_front.jpeg">DKS</set>
@@ -3221,7 +3221,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>7/7</pt>
         </prop>
         <set rarity="" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_back.jpeg">DKS</set>
@@ -3237,7 +3237,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>BRU</colors>
+            <colors>RUB</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3254,7 +3254,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>GWBRU</colors>
+            <colors>GBURW</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3270,7 +3270,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Creature</maintype>
             <manacost>{5}{R}{G}</manacost>
             <cmc>7</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>8/8</pt>
         </prop>
         <set rarity="Rare" num="199" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/hawkeye_gough.jpeg">DKS</set>
@@ -3321,7 +3321,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WRU</colors>
+            <colors>RWU</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3338,7 +3338,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>WBU</colors>
+            <colors>WUB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3356,7 +3356,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WBU</colors>
+            <colors>WUB</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3374,7 +3374,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{R}{W}{B}</manacost>
             <cmc>3</cmc>
-            <colors>WBR</colors>
+            <colors>RWB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_front.jpeg">DKS</set>
@@ -3391,7 +3391,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WBR</colors>
+            <colors>RWB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="" num="203" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_back.jpeg">DKS</set>
@@ -3409,7 +3409,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <maintype>Planeswalker</maintype>
             <manacost>{3}{R}{W}</manacost>
             <cmc>5</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <loyalty>4</loyalty>
         </prop>
         <set rarity="Mythic" num="204" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/lorian_and_lothric.jpeg">DKS</set>
@@ -3456,7 +3456,7 @@ Draw a card.</text>
             <maintype>Sorcery</maintype>
             <manacost>{X}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
         </prop>
         <set rarity="Uncommon" num="207" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/splintering_lightning.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3472,7 +3472,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{R}{B}</manacost>
             <cmc>2</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
         </prop>
         <set rarity="Uncommon" num="208" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/spreading_decay.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3487,7 +3487,7 @@ Whenever a player taps a land for mana, that player adds one mana of a color tha
             <maintype>Enchantment</maintype>
             <manacost>{2/R}{2/G}</manacost>
             <cmc>2</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="209" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/stream_of_estus.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3503,7 +3503,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>GBR</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3815,7 +3815,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>GWBRU</colors>
+            <colors>GBURW</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>

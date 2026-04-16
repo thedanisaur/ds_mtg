@@ -331,7 +331,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "{X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~.  You may activate this ability as though this creature had haste.\n{1}{U}, Discard ~: Counter target spell unless it's controller pays {1}.\n",
+    "oracle_text": "{X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~. You may activate this ability as though this creature had haste.\n{1}{U}, Discard ~: Counter target spell unless it's controller pays {1}.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/amana_priestess.jpeg"
 },
 {
@@ -1652,7 +1652,7 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
-    "oracle_text": "Target player sacrifices a planeswalker or legendary creature. If that player doesn't, they sacrifice a creature instead.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
+    "oracle_text": "As you cast ~ choose  creature token, nontoken creature, or planeswalker. Target player sacrifices a permanent of the chosen type.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/chosen_undead.jpeg"
 },
 {
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2053,8 +2053,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "R",
         "G",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "Flying, lifelink\nAt the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.\nWhen ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "W",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "R",
             "W",
-            "B",
-            "R"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "R",
         "G",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "B",
         "R",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3097,10 +3097,10 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "G",
-        "W",
         "B",
+        "U",
         "R",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,8 +3113,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "W",
         "R",
+        "W",
         "U"
     ],
     "rarity": "mythic",
@@ -3129,8 +3129,8 @@
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
         "W",
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3143,8 +3143,8 @@
         "mana_cost": "",
         "colors": [
             "W",
-            "B",
-            "U"
+            "U",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3157,8 +3157,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3205,10 +3205,10 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "G",
-        "W",
         "B",
+        "U",
         "R",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3235,8 +3235,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3278,10 +3278,10 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "W",
         "B",
+        "U",
         "R",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3417,10 +3417,10 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "W",
         "B",
+        "U",
         "R",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,

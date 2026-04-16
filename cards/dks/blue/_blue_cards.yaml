@@ -26,7 +26,7 @@ card_amana_priestess:
     rarity: "Common"
     rating: 2
     rules_text: |
-      {X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~.  You may activate this ability as though this creature had haste.
+      {X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~. You may activate this ability as though this creature had haste.
       {1}{U}, Discard ~: Counter target spell unless it's controller pays {1}.
     flavor_text: "The Demon was contained within the shrine by sacred rituals. but over time the tradition was lost, and the Demon set free."
     artwork_url: "https://i.ibb.co/k2hPhL3H/amana-priestess-cubehero-resize.jpg"
