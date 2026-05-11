@@ -17,7 +17,7 @@ card_1:
 
 card_2:
   front:
-    name: "Free Counter"
+    name: "Twisted Barricade"
     cost: "{2}{U}{U}"
     super: ""
     type: "Instant"
@@ -34,7 +34,7 @@ card_2:
 
 card_3:
   front:
-    name: "Soul Draw"
+    name: "Echoes of Clarity"
     cost: "{U}"
     super: ""
     type: "Instant"
@@ -50,7 +50,7 @@ card_3:
 
 card_4:
   front:
-    name: "Counter Wizard"
+    name: "Mage of Oolacile"
     cost: "{1}{U}{U}"
     super: ""
     type: "Creature"
@@ -69,7 +69,7 @@ card_4:
 
 card_5:
   front:
-    name: "Tap Wizard"
+    name: "Logan's Apprentice"
     cost: "{3}{U}{U}"
     super: ""
     type: "Creature"
@@ -109,7 +109,7 @@ card_6:
 
 card_7:
   front:
-    name: "Cycling Counter"
+    name: "Repel the Abyss"
     cost: "{1}{U}"
     super: ""
     type: "Instant"
@@ -142,9 +142,9 @@ card_8:
     artist: ""
     number: 1
 
-card_soul:
+card_soul_of_a_lost_undead:
   front:
-    name: "Soul of a"
+    name: "Soul of a Lost Undead"
     cost: ""
     super: ""
     type: "Enchantment"
@@ -163,7 +163,7 @@ card_soul:
 
 card_9:
   front:
-    name: ""
+    name: "Oolacile Transfiguration"
     cost: "{1}{U}{U}"
     super: ""
     type: "Instant"
@@ -179,7 +179,7 @@ card_9:
 
 card_10:
   front:
-    name: ""
+    name: "Time Distortion"
     cost: "{1}{U}{U}"
     super: ""
     type: "Sorcery"
@@ -187,7 +187,7 @@ card_10:
     rarity: "Mythic"
     rating: 2
     rules_text: |
-      Target player takes an extra turn after this one. If you target an opponent with this spell, at the beginning of your next upkeep reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
+      Target player takes an extra turn after this one. If you target an opponent with this spell, at the beginning of your next upkeep reveal the top seven cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -195,7 +195,7 @@ card_10:
 
 card_11:
   front:
-    name: "Dig with Graveyard"
+    name: "Scour The Archives"
     cost: "{1}{U}"
     super: ""
     type: "Instant"
@@ -211,7 +211,7 @@ card_11:
 
 card_11:
   front:
-    name: "Multi Bounce"
+    name: "Fall Control"
     cost: "{1}{U}"
     super: ""
     type: "Instant"
@@ -247,7 +247,7 @@ card_12:
 
 card_12:
   front:
-    name: ""
+    name: "Daughters of Crystal"
     cost: "{2}{U}"
     super: ""
     type: "Creature"
@@ -284,7 +284,7 @@ card_9:
 
 card_10:
   front:
-    name: ""
+    name: "Dream Vortex"
     cost: "{U}"
     super: ""
     type: "Sorcery"
@@ -301,7 +301,7 @@ card_10:
 
 card_daring_sorcerer:
   front:
-    name: ""
+    name: "Daring Sorcerer"
     cost: "{1}{U}"
     super: ""
     type: "Creature"
@@ -339,11 +339,11 @@ card_14:
 
 card_15:
   front:
-    name: "Chanty chanter"
+    name: "Introspective Channeler"
     cost: "{U}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Wizard"
     rarity: ""
     rating: 2
     rules_text: |
@@ -358,7 +358,7 @@ card_15:
 
 card_16:
   front:
-    name: "Delayed Counter"
+    name: "Promised Walk of Peace"
     cost: "{U}{U}{U}"
     super: ""
     type: "Instant"
@@ -369,7 +369,7 @@ card_16:
       Choose one -
         • Counter target spell.
         • Gain control of target artifact or creature with mana value 3 or less.
-        • Draw a card.
+        • Draw two cards.
       Delayed {2}{U}{U} (You may pay {2}{U}{U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: ""
@@ -378,7 +378,7 @@ card_16:
 
 card_17:
   front:
-    name: "Snappy"
+    name: "Ancient Researcher"
     cost: "{1}{U}"
     super: ""
     type: "Creature"
@@ -421,11 +421,10 @@ card_amana_charmer:
     cost: "{1}{U}"
     super: ""
     type: "Creature"
-    sub: "Wizard"
+    sub: "Human Wizard"
     rarity: "Common"
     rating: 2
     rules_text: |
-      Flying
       When you cycle ~, counter target spell or ability you don't control unless it's controller pays {2}.
       Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
     flavor_text: ""
@@ -433,20 +432,20 @@ card_amana_charmer:
     artist: ""
     number: 1
     power: 1
-    toughness: 2
+    toughness: 3
 
 card_:
   front:
-    name: ""
+    name: "Pontiff Sulyvan"
     cost: "{4}{U}"
-    super: ""
+    super: "Legendary"
     type: "Creature"
-    sub: ""
+    sub: "Knight"
     rarity: "Common"
     rating: 2
     rules_text: |
       When ~ enters the battlefield gain control of target artifact or creature until ~ leaves the battlefield.
-      This creature can't attack unless there are seven or more cards in your graveyard.
+      Whenever ~ attacks you may pay {1}{U}. If you do, creatures you control, but don't own gain Shadow until end of turn. (Creatures with shadow can block or be blocked by only creatures with shadow.)
       Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
@@ -457,7 +456,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Bloated Flies"
     cost: "{1}{U}"
     super: ""
     type: "Creature"
@@ -477,7 +476,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Forger of Vinheim"
     cost: "{3}{U}"
     super: ""
     type: "Creature"
@@ -486,7 +485,7 @@ card_:
     rating: 2
     rules_text: |
       Artifact spells you control cost {1} less to cast.
-      Whenever you discard a card, if it's the second card you've discarded this turn you may return ~ from your graveyard to the battlefield tapped.
+      Whenever you discard your second card this turn, you may return ~ from your graveyard to the battlefield tapped.
       Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
@@ -497,7 +496,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Simpleton's Spice"
     cost: "{1}{U}"
     super: ""
     type: "Enchantment"
@@ -515,7 +514,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Archive Scholar"
     cost: "{1}{U}"
     super: ""
     type: "Creature"
@@ -534,7 +533,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Valley of the Drakes"
     cost: "{2}{U}"
     super: ""
     type: "Enchantment"
@@ -551,7 +550,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Reckless Alchemist"
     cost: "{2}{U}"
     super: ""
     type: "Creature"
@@ -570,7 +569,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Twisted Atonement"
     cost: "{2}{U}{U}"
     super: ""
     type: "Instant"
@@ -587,7 +586,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Cerebral Snap"
     cost: "{2}{U}{U}{U}"
     super: ""
     type: "Instant"
@@ -659,7 +658,7 @@ card_amana_void_whisperer:
 
 card_:
   front:
-    name: ""
+    name: "Mound-maker Adept"
     cost: "{U}"
     super: ""
     type: "Creature"
@@ -670,7 +669,7 @@ card_:
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       Whenever you cast a noncreature spell, draw a card, then discard a card. You get one soul.
       ~ has flying as long as you have seven or more souls.
-    flavor_text: ""
+    flavor_text: "The hunt for souls is the only thing that will save you... or rather, me."
     artwork_url: ""
     artist: ""
     number: 1
@@ -679,7 +678,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Murkman"
     cost: "{2}{U}"
     super: ""
     type: "Creature"
@@ -699,7 +698,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Calculating Intellect"
     cost: "{U}"
     super: ""
     type: "Enchantment"
@@ -716,7 +715,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Bell Keeper"
     cost: "{2}{U}"
     super: ""
     type: "Creature"
@@ -724,7 +723,8 @@ card_:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Whenever you cast a noncreature spell, create a 1/1 blue Gnome Spirit creature token with shadow. (Creature with shadow can block or be blocked by only creatures with shadow.)
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      Whenever you cast a noncreature spell, create a 1/1 blue Gnome Spirit creature token with shadow.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -734,7 +734,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Ashen Nōmuki"
     cost: "{3}{U}"
     super: ""
     type: "Creature"
@@ -754,7 +754,7 @@ card_:
 card_:
   front:
     name: "Encase in Crystal"
-    cost: "{2}{U}"
+    cost: "{1}{U}"
     super: ""
     type: "Enchantment"
     sub: "Aura"
@@ -763,7 +763,7 @@ card_:
     rules_text: |
       Enchant creature
       Enchanted creature loses all abilities and is an artifact creature with base power and toughness 0/3 in addition to its other types.
-      Madness {1}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Madness {2}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: ""
     artist: ""

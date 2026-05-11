@@ -16,9 +16,9 @@ card_the_lordvessel:
     artist: ""
     number: 1
 
-card_soul:
+card_soul_of_a_crestfallen_knight:
   front:
-    name: "Soul of a"
+    name: "Soul of a Crestfallen Adventurer"
     cost: ""
     super: ""
     type: "Enchantment"
@@ -248,8 +248,9 @@ card_possessed_foliage:
     rarity: "Common"
     rating: 2
     rules_text: |
-      This creature can't be the target of spells or abilities.
+      ~ can't be the target of spells or abilities.
       ~'s power and toughtness are each equal to the number of lands you control.
+      Soullink 3 (If you would draw a card, instead you may pay 3 souls and put 3 cards from the top of your library into your graveyard. If you do, cast this card from your graveyard without paying its mana cost.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -257,9 +258,9 @@ card_possessed_foliage:
     power: "*"
     toughness: "*"
 
-card_big_guy:
+card_bloodlet_giant:
   front:
-    name: "Big Guy"
+    name: "Bloodlet Giant"
     cost: "{4}{G}{G}"
     super: ""
     type: "Creature"
@@ -279,7 +280,7 @@ card_big_guy:
 
 card_2:
   front:
-    name: "Warry Warrior"
+    name: "Dogged Contender"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -299,7 +300,7 @@ card_2:
 
 card_3:
   front:
-    name: ""
+    name: "Darkroot Spores"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -318,7 +319,7 @@ card_3:
 
 card_4:
   front:
-    name: ""
+    name: "Darkroot Dryad"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -337,7 +338,7 @@ card_4:
 
 card_5:
   front:
-    name: ""
+    name: "Darkroot Vines"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -356,7 +357,7 @@ card_5:
 
 card_twisted_landscape:
   front:
-    name: "Twisted Landscape"
+    name: "Sundering Grove"
     cost: "{G}"
     super: ""
     type: "Sorcery"
@@ -414,7 +415,7 @@ card_royal_rat_authority:
 
 card_:
   front:
-    name: ""
+    name: "From the Shaded Woods"
     cost: "{2}{G}{G}"
     super: ""
     type: "Instant"
@@ -431,7 +432,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Overwhelming Numbness"
     cost: "{1}{G}"
     super: ""
     type: "Instant"
@@ -468,7 +469,7 @@ card_growing_phalanx:
 
 card_:
   front:
-    name: ""
+    name: "Company Captain"
     cost: "{3}{G}"
     super: ""
     type: "Creature"
@@ -478,6 +479,7 @@ card_:
     rules_text: |
       When ~ enters the battlefield you gain life and get a number of souls equal to its power.
       ~'s power and toughness are both equal to the number of creature cards in your graveyard.
+      Soullink 4 (If you would draw a card, instead you may pay 4 souls and put 4 cards from the top of your library into your graveyard. If you do, cast this card from your graveyard without paying its mana cost.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -487,7 +489,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Shrine Drakekeeper"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
@@ -496,17 +498,17 @@ card_:
     rating: 2
     rules_text: |
       Creatures you control with +1/+1 counters on them have trample.
-      Whenever a creature enters the battlefield under your control, target player gets a soul.
+      Whenever a creature enters the battlefield under your control put a +1/+1 counter on it. Target player gets a soul.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
-    power: 2
-    toughness: 4
+    power: 1
+    toughness: 3
 
 card_:
   front:
-    name: ""
+    name: "Adept Cartographer"
     cost: "{1}{G}"
     super: ""
     type: "Creature"
@@ -514,8 +516,9 @@ card_:
     rarity: ""
     rating: 2
     rules_text: |
-      When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. Shuffle your library.
+      When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.
       Whenever a land enters the battlefield under your control, target player gets two souls.
+      Soullink 2 (If you would draw a card, instead you may pay 2 souls and put 2 cards from the top of your library into your graveyard. If you do, cast this card from your graveyard without paying its mana cost.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -525,7 +528,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Old Ironclad Troll"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
@@ -544,7 +547,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Dark Stalker"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
@@ -563,7 +566,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Amana Shaman"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -582,7 +585,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Suspicious Shadow"
     cost: "{1}{G}"
     super: ""
     type: "Creature"
@@ -602,7 +605,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Drangleic Ogre"
     cost: "{2}{G}{G}"
     super: ""
     type: "Creature"
@@ -612,6 +615,7 @@ card_:
     rules_text: |
       Whenever a creature you control attacks, you may gain 1 life and get one soul.
       At the beginning of combat on your turn, if you have seven or more souls, target creature you control gains haste until end of turn.
+      Soullink 4 (If you would draw a card, instead you may pay 4 souls and put 4 cards from the top of your library into your graveyard. If you do, cast this card from your graveyard without paying its mana cost.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -621,16 +625,16 @@ card_:
 
 card_:
   front:
-    name: ""
-    cost: "{5}{G}{G}"
+    name: "Parasite-ridden Dragon"
+    cost: "{4}{G}{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Dragon"
     rarity: ""
     rating: 2
     rules_text: |
       Flying, trample, haste
-      Chameleon {4}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Chameleon {3}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       Whenever a creature you control is turned face up, put a +1/+1 counter on each creature you control.
     flavor_text: ""
     artwork_url: ""
@@ -641,7 +645,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Brume Tower Warrior"
     cost: "{1}{G}"
     super: ""
     type: "Creature"
@@ -661,7 +665,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Drangleic Kobold"
     cost: "{1}{G}{G}"
     super: ""
     type: "Creature"
@@ -681,11 +685,11 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Amana Lizardman"
     cost: "{1}{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Hollow"
     rarity: ""
     rating: 2
     rules_text: |
@@ -701,7 +705,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Hounding Hydra"
     cost: "{X}{G}{G}{G}"
     super: ""
     type: "Creature"
@@ -720,7 +724,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Honorable Dual"
     cost: "{1}{G}"
     super: ""
     type: "Instant"
@@ -728,7 +732,8 @@ card_:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Target creature you control and target creature an opponent controls each deals damage equal to its power the other. If at least one creature would die this way, draw a card and you get two souls.
+      Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.
+      Soullink 2 (If you would draw a card, instead you may pay 2 souls and put 2 cards from the top of your library into your graveyard. If you do, cast this card from your graveyard without paying its mana cost.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -736,7 +741,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Deep Veil"
     cost: "{1}{G}"
     super: ""
     type: "Instant"
@@ -754,7 +759,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Imperious Knight"
     cost: "{2}{G}"
     super: ""
     type: "Creature"
@@ -774,7 +779,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Caged Bargainer"
     cost: "{G}"
     super: ""
     type: "Creature"
@@ -783,7 +788,7 @@ card_:
     rating: 2
     rules_text: |
       If one or more counters would be put on a permanent or player, that many plus one counters are put on it instead.
-      Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: ""
     artist: ""

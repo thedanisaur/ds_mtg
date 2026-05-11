@@ -1,6 +1,6 @@
 card_1:
   front:
-    name: "Lucky Creature"
+    name: "Blitz Hound"
     cost: "{R}"
     super: ""
     type: "Creature"
@@ -8,6 +8,7 @@ card_1:
     rarity: ""
     rating: 2
     rules_text: |
+      Haste
       Whenever ~ attacks exile the top card of your library with a favored counter on it.
       {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Rubbish token.
     flavor_text: ""
@@ -15,11 +16,11 @@ card_1:
     artist: ""
     number: 1
     power: 1
-    toughness: 2
+    toughness: 1
 
 card_2:
   front:
-    name: "Orb"
+    name: "Cleansing Orb"
     cost: "{R}"
     super: ""
     type: "Instant"
@@ -50,9 +51,9 @@ card_3:
     artist: ""
     number: 1
 
-card_soul:
+card_soul_of_a_kindled_conjurer:
   front:
-    name: "Soul of a"
+    name: "Soul of a Kindled Conjurer"
     cost: ""
     super: ""
     type: "Enchantment"
@@ -71,7 +72,7 @@ card_soul:
 
 card_4:
   front:
-    name: "Lucky Dragon"
+    name: "Winged Fortune"
     cost: "{2}{R}{R}"
     super: ""
     type: "Creature"
@@ -100,7 +101,7 @@ card_5:
     rating: 2
     rules_text: |
       Haste
-      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, ~ deals 2 damage to target player or planeswalker.
+      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker.
       Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: ""
@@ -111,7 +112,7 @@ card_5:
 
 card_6:
   front:
-    name: "Hasty Boy"
+    name: "Sloughtender"
     cost: "{1}{R}"
     super: ""
     type: "Sorcery"
@@ -127,7 +128,7 @@ card_6:
 
 card_7:
   front:
-    name: "Damage Spell"
+    name: "Fire Tempest"
     cost: "{1}{R}"
     super: ""
     type: "Sorcery"
@@ -185,21 +186,21 @@ card_covenant_of_the_mother_of_rebirth:
 
 card_8:
   front:
-    name: "Chaos Boy"
+    name: "Chaos Demon"
     cost: "{2}{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Demon"
     rarity: ""
     rating: 2
     rules_text: |
-      {1}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
+      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
     flavor_text: ""
     artwork_url: ""
     artist: ""
     number: 1
-    power: 1
-    toughness: 3
+    power: 2
+    toughness: 2
 
 card_9:
   front:
@@ -315,7 +316,7 @@ card_devout_of_the_deep:
 
 card_14:
   front:
-    name: ""
+    name: "Bonewheel"
     cost: "{R}"
     super: ""
     type: "Creature"
@@ -372,11 +373,11 @@ card_16:
 
 card_big_guy:
   front:
-    name: "Big Guy"
+    name: "Preeminent Giant"
     cost: "{3}{R}{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Giant"
     rarity: "Common"
     rating: 2
     rules_text: |
@@ -391,8 +392,8 @@ card_big_guy:
 
 card_17:
   front:
-    name: ""
-    cost: "{2}{R}"
+    name: "Generous Sunlight"
+    cost: "{1}{R}"
     super: ""
     type: "Instant"
     sub: ""
@@ -408,7 +409,7 @@ card_17:
 
 card_18:
   front:
-    name: ""
+    name: "Menacing Theif"
     cost: "{1}{R}"
     super: ""
     type: "Creature"
@@ -427,7 +428,7 @@ card_18:
 
 card_19:
   front:
-    name: ""
+    name: "Volgen Falconer"
     cost: "{R}"
     super: ""
     type: "Creature"
@@ -446,7 +447,7 @@ card_19:
 
 card_20:
   front:
-    name: ""
+    name: "Scream of Defiance"
     cost: "{R}"
     super: ""
     type: "Instant"
@@ -454,7 +455,7 @@ card_20:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Counter target red or white spell unless its controller pays {2}. If a card went to your graveyard this turn counter that spell instead.
+      Counter target blue or white spell unless its controller pays {2}. If a card went to your graveyard this turn counter that spell instead.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -462,7 +463,7 @@ card_20:
 
 card_21:
   front:
-    name: ""
+    name: "Deflecting Whipsers"
     cost: "{R}"
     super: ""
     type: "Instant"
@@ -478,7 +479,7 @@ card_21:
 
 card_22:
   front:
-    name: ""
+    name: "Shimmering Void"
     cost: "{R}"
     super: ""
     type: "Sorcery"
@@ -495,7 +496,7 @@ card_22:
 
 card_23:
   front:
-    name: ""
+    name: "Flame Swathe"
     cost: "{X}{R}"
     super: ""
     type: "Sorcery"
@@ -549,7 +550,7 @@ card_smelter_demon:
 
 card_:
   front:
-    name: ""
+    name: "Ashen Strike"
     cost: "{3}{R}{R}"
     super: ""
     type: "Instant"
@@ -566,7 +567,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Soothing Voice"
     cost: "{1}{R}"
     super: ""
     type: "Instant"
@@ -581,9 +582,9 @@ card_:
     artist: ""
     number: 1
 
-card_boss_gate:
+card_brume_gate:
   front:
-    name: "Boss Gate"
+    name: "Brume Gate"
     cost: "{2}{R}"
     super: ""
     type: "Creature"
@@ -622,7 +623,7 @@ card_crimson_wyvern:
 
 card_:
   front:
-    name: ""
+    name: "Screeching Undead"
     cost: "{3}{R}"
     super: ""
     type: "Creature"
@@ -683,7 +684,7 @@ card_chaos_maggot:
 
 card_:
   front:
-    name: ""
+    name: "Flamebourne Captain"
     cost: "{R}"
     super: ""
     type: "Creature"
@@ -702,7 +703,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Aldia's Forlorn"
     cost: "{2}{R}"
     super: ""
     type: "Creature"
@@ -721,7 +722,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Shaded Scorpion"
     cost: "{R}"
     super: ""
     type: "Creature"
@@ -741,7 +742,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Flaming Golem"
     cost: "{1}{R}"
     super: ""
     type: "Creature"
@@ -760,8 +761,8 @@ card_:
 
 card_:
   front:
-    name: ""
-    cost: "{3}{R}"
+    name: "Smoldering Idolatry"
+    cost: "{2}{R}"
     super: ""
     type: "Enchantment"
     sub: ""

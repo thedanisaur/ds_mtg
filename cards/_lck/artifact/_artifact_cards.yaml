@@ -335,9 +335,9 @@ card_mox_citrine:
     artist: ""
     number: 1
 
-card_:
+card_ballista_tower:
   front:
-    name: ""
+    name: "Ballista Tower"
     cost: "{6}"
     super: ""
     type: "Artifact"
@@ -355,7 +355,7 @@ card_:
     artist: ""
     number: 1
 
-card_:
+card_shattered_dusk_ring:
   front:
     name: ""
     cost: "{0}"
@@ -366,15 +366,15 @@ card_:
     rating: 2
     rules_text: |
       If you would choose one or more modes when casting a spell, you may choose one additional mode.
-      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool. Spend this mana only on spells and abilities from sources that have no color.
-    flavor_text: ""
+      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool.
+    flavor_text: "These fragments of the ring gifted to the Princess of Oolacile at birth still grant immense power to any that possess them."
     artwork_url: ""
     artist: ""
     number: 1
 
-card_hand_axe:
+card_golem_hand_axe:
   front:
-    name: "Hand Axe"
+    name: "Golem Hand Axe"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -408,7 +408,7 @@ card_dragon_slayer_greatsword:
     artist: ""
     number: 1
 
-card_:
+card_talisman_of_want:
   front:
     name: "Talisman of Want"
     cost: "{1}"
@@ -426,7 +426,7 @@ card_:
     artist: ""
     number: 1
 
-card_:
+card_zweihander:
   front:
     name: "Zweihander"
     cost: "{C/P}{C/P}"
@@ -530,9 +530,9 @@ card_charm_of_the_darkwraiths:
     artist: ""
     number: 1
 
-card_:
+card_glinting_sigil:
   front:
-    name: ""
+    name: "Glinting Sigil"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -540,8 +540,8 @@ card_:
     rarity: ""
     rating: 2
     rules_text: |
-      {T}: Put target card in a graveyard on the bottom of its owner's library. Then target player gets one soul.
-      {1}, Sacrifice ~: Exile all cards from target player's graveyard. You get one soul for each card exiled this way.
+      {T}: Put target card in a graveyard on the bottom of its owner's library. Then target player gains 1 life and gets one soul.
+      {1}, Sacrifice ~: Exile all cards from target player's graveyard. You gain life and get souls equal to the number of cards exiled this way.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -565,9 +565,9 @@ card_sunless_amulet:
     artist: ""
     number: 1
 
-card_fortification_1:
+card_seat_of_the_archives:
   front:
-    name: ""
+    name: "Seat of the Archives"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -582,9 +582,9 @@ card_fortification_1:
     artist: ""
     number: 1
 
-card_fortification_2:
+card_moaning_sanctum:
   front:
-    name: ""
+    name: "Moaning Sanctum"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -616,9 +616,9 @@ card_palisades_of_ash:
     artist: "fromsoft"
     number: 1
 
-card_shield:
+card_golden_wing_crest_shield:
   front:
-    name: "Shield"
+    name: "Golden Wing Crest Shield"
     cost: "{2}"
     super: ""
     type: "Artifact"
@@ -634,9 +634,9 @@ card_shield:
     artist: ""
     number: 1
 
-card_:
+card_burnt_offering:
   front:
-    name: ""
+    name: "Burnt Offering"
     cost: "{1}"
     super: ""
     type: "Artifact"

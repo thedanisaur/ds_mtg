@@ -1,6 +1,6 @@
-card_1:
+card_harvest_valley_banedigger:
   front:
-    name: "Kill Hollow"
+    name: "Harvest Valley Banedigger"
     cost: "{1}{B}{B}"
     super: ""
     type: "Creature"
@@ -18,7 +18,7 @@ card_1:
     power: 1
     toughness: 2
 
-card_2:
+card_twisted_humanity:
   front:
     name: "Twisted Humanity"
     cost: "{2}{B}"
@@ -35,9 +35,9 @@ card_2:
     artist: ""
     number: 1
 
-card_3:
+card_necrotic_husk:
   front:
-    name: "Sacrifice Hollow"
+    name: "Necrotic Husk"
     cost: "{B}"
     super: ""
     type: "Creature"
@@ -57,7 +57,7 @@ card_3:
 
 card_4:
   front:
-    name: "Tutor Hollow"
+    name: "Watcher at the Ramparts"
     cost: "{B}"
     super: ""
     type: "Creature"
@@ -93,7 +93,7 @@ card_5:
 
 card_6:
   front:
-    name: "Skeleton Necromancer"
+    name: "Skeletal Necromancer"
     cost: "{2}{B}"
     super: ""
     type: "Creature"
@@ -110,9 +110,9 @@ card_6:
     power: 0
     toughness: 1
 
-card_soul:
+card_soul_of_a_deserted_corpse:
   front:
-    name: "Soul of a"
+    name: "Soul of a Deserted Corpse"
     cost: ""
     super: ""
     type: "Enchantment"
@@ -131,7 +131,7 @@ card_soul:
 
 card_7:
   front:
-    name: ""
+    name: "Statue of Absolution"
     cost: "{2}{B}"
     super: ""
     type: "Enchantment"
@@ -147,7 +147,7 @@ card_7:
 
 card_8:
   front:
-    name: "Discard random"
+    name: "Deranged Inhabitant"
     cost: "{1}{B}"
     super: ""
     type: "Creature"
@@ -155,9 +155,10 @@ card_8:
     rarity: ""
     rating: 2
     rules_text: |
+      Deathtouch
       Whenever ~ deals damage to a player, that player discards a card at random.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
-    flavor_text: ""
+    flavor_text: "Oolacile"
     artwork_url: ""
     artist: ""
     number: 1
@@ -166,7 +167,7 @@ card_8:
 
 card_9:
   front:
-    name: "Undead Rat"
+    name: "Festering Undead Rat"
     cost: "{B}"
     super: ""
     type: "Creature"
@@ -186,7 +187,7 @@ card_9:
 
 card_10:
   front:
-    name: "Sewer Rat"
+    name: "Burg-Sewer Rats"
     cost: "{1}{B}"
     super: ""
     type: "Creature"
@@ -204,8 +205,8 @@ card_10:
 
 card_11:
   front:
-    name: "Value reanimate"
-    cost: "{1}{B}{B}"
+    name: "Oath of the Undead Curse"
+    cost: "{2}{B}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -220,7 +221,7 @@ card_11:
 
 card_12:
   front:
-    name: "Corpse Rat"
+    name: "Gnawing Corpse Rat"
     cost: "{2}{B}"
     super: ""
     type: "Creature"
@@ -238,7 +239,7 @@ card_12:
 
 card_13:
   front:
-    name: "Graveyard Matters"
+    name: "Dead Again"
     cost: "{3}{B}"
     super: ""
     type: "Sorcery"
@@ -254,7 +255,7 @@ card_13:
 
 card_14:
   front:
-    name: "Sac spell"
+    name: "Whisper of Despair"
     cost: "{1}{B}"
     super: ""
     type: "Sorcery"
@@ -288,11 +289,11 @@ card_15:
 
 card_16:
   front:
-    name: ""
+    name: "Soulbound Wretched Undead"
     cost: "{1}{B}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Zombie"
     rarity: ""
     rating: 2
     rules_text: |
@@ -307,11 +308,11 @@ card_16:
 
 card_17:
   front:
-    name: ""
+    name: "Sir Vilhelm"
     cost: ""
-    super: ""
+    super: "Legendary"
     type: "Creature"
-    sub: ""
+    sub: "Human Knight"
     rarity: ""
     rating: 2
     rules_text: |
@@ -327,16 +328,16 @@ card_17:
 
 card_big_guy:
   front:
-    name: "Big Guy"
+    name: "The Darklurker"
     cost: "{3}{B/P}{B/P}"
-    super: ""
+    super: "Legendary"
     type: "Creature"
-    sub: ""
+    sub: "Demon"
     rarity: "Common"
     rating: 2
     rules_text: |
       Flying
-      When ~ deals combat damage to a player each player loses 1 life and draws a card.
+      When ~ deals combat damage to a player, each player loses 1 life and draws a card.
       {B/P}: ~ gains haste until end of turn.
       Madness {B/P}{B/P}{B/P} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
@@ -348,8 +349,8 @@ card_big_guy:
 
 card_18:
   front:
-    name: "{B}"
-    cost: ""
+    name: "Syphon Hope"
+    cost: "{B}"
     super: ""
     type: "Sorcery"
     sub: ""
@@ -365,11 +366,11 @@ card_18:
 
 card_bigger_guy:
   front:
-    name: "Bigger Guy"
+    name: "Harald Legion Knight"
     cost: "{5}{B}{B}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Giant"
     rarity: "Common"
     rating: 2
     rules_text: |
@@ -385,7 +386,7 @@ card_bigger_guy:
 
 card_19:
   front:
-    name: ""
+    name: "Etched Erasure"
     cost: "{B/P}"
     super: ""
     type: "Instant"
@@ -393,8 +394,8 @@ card_19:
     rarity: ""
     rating: 2
     rules_text: |
-      Exile target nonland card from a graveyard. If a card went to your graveyard this turn, search your opponent's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
-      Cycling {B} ({B}, Discard this card: Draw a card.)
+      Exile target card, other than a basic land card, from a graveyard. If a card went to your graveyard this turn, search that card's owner's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
+      Cycling {B/P} ({B/P}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -402,7 +403,7 @@ card_19:
 
 card_20:
   front:
-    name: ""
+    name: "Hexing Curse from Olaphis"
     cost: "{B}"
     super: ""
     type: "Instant"
@@ -458,7 +459,7 @@ card_afflicted_graverobber:
 
 card_:
   front:
-    name: ""
+    name: "Numbness"
     cost: "{2}{B}{B}"
     super: ""
     type: "Instant"
@@ -467,7 +468,7 @@ card_:
     rating: 2
     rules_text: |
       If an opponent gained souls this turn, you may pay {0} rather than pay ~'s mana cost.
-      Each opponent loses life equal to the number of souls they have, then remove all souls they have. You gain life equal to the life lost this way and get that many souls.
+      Each opponent loses life equal to the number of souls they have, then remove all souls they have. You gain life and get souls equal to the life lost this way.
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -475,7 +476,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Heretic's Darkstorm"
     cost: "{4}{B}{B}"
     super: ""
     type: "Instant"
@@ -696,7 +697,7 @@ card_spreading_contamination:
 
 card_:
   front:
-    name: ""
+    name: "Veiled Cloak"
     cost: "{B}"
     super: ""
     type: "Instant"
@@ -713,7 +714,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Twisted Recollection"
     cost: "{X}{B}"
     super: ""
     type: "Sorcery"
@@ -730,7 +731,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Resonant Life"
     cost: "{2}{B}"
     super: ""
     type: "Sorcery"
@@ -746,7 +747,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Creeping Constraint"
     cost: "{B}"
     super: ""
     type: "Sorcery"
@@ -762,7 +763,7 @@ card_:
 
 card_:
   front:
-    name: ""
+    name: "Waning Prudence"
     cost: "{1}{B}{B}"
     super: ""
     type: "Sorcery"

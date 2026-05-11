@@ -194,7 +194,7 @@ card_hollow_priest:
 
 card_serpents_regrowth:
   front:
-    name: "Serpents Regrowth"
+    name: "Serpent's Regrowth"
     cost: "{1}{B}{G}"
     super: ""
     type: "Sorcery"
@@ -245,7 +245,7 @@ card_the_end_of_fire:
 
 card_1:
   front:
-    name: ""
+    name: "Pledged Anathema"
     cost: "{U}{R}"
     super: ""
     type: "Instant"
