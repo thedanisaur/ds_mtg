@@ -12,8 +12,8 @@ card_harvest_valley_banedigger:
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
       Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/c8/eb/c6/c8ebc66cbc70bd236a289051667fc4db.jpg"
+    artist: "Ashfaq Wazir"
     number: 1
     power: 1
     toughness: 2
@@ -30,9 +30,9 @@ card_twisted_humanity:
     rules_text: |
       As you cast ~ you may pay two souls. If you don't, you lose 2 life.
       Destroy target non-Human creature or enchantment.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Humanity's will feels envy, or perhaps love, and despite the inevitable trite and tragic ending, the it sees no alternative, and is driven madly towards its target."
+    artwork_url: "https://i.ibb.co/Wp48sxHJ/twisted-humanity-by-anthonygamer-reize.jpg"
+    artist: "anthonygamer"
     number: 1
 
 card_necrotic_husk:
@@ -48,9 +48,9 @@ card_necrotic_husk:
       ~ can't block.
       When ~ leaves the battlefield you get one soul.
       Sacrifice a creature: Put a +1/+1 counter on ~.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "From the flesh of the undead it rises."
+    artwork_url: "https://i.pinimg.com/736x/33/43/53/33435391421f5e8fce858be927848bd5.jpg"
+    artist: "Creighton v. Mirrah"
     number: 1
     power: 0
     toughness: 1
@@ -69,8 +69,8 @@ card_4:
       {1}{B}, pay 2 life: Return ~ from your graveyard to your hand.
       Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/YFMxYy0Z/watcher-at-the-ramparts-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
     power: 1
     toughness: 1
@@ -86,9 +86,9 @@ card_5:
     rating: 2
     rules_text: |
       Target creature gets -2/-2 until end of turn. If that creature was dealt damage this turn, destroy it instead.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "...Curses... How could I... "
+    artwork_url: "https://i.ibb.co/KxKq76H5/dark-bead-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_6:
@@ -103,9 +103,9 @@ card_6:
     rules_text: |
       When ~ enters the battlefield create three 1/1 black Skeleton creature tokens.
       At the beginning of your upkeep if you control less than three 1/1 black Skeleton creature tokens create a number equal to the difference.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Rise! The aroma of ash is suffocating."
+    artwork_url: "https://i.pinimg.com/736x/6b/89/50/6b895048a5147058aa443aa9538d7fb4.jpg"
+    artist: "unknown"
     number: 1
     power: 0
     toughness: 1
@@ -120,7 +120,7 @@ card_soul_of_a_deserted_corpse:
     rarity: "Common"
     rating: 3
     rules_text: |
-      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
@@ -140,9 +140,9 @@ card_7:
     rating: 3
     rules_text: |
       Whenever you discard a card you may draw a card. If you do, you lose 1 life and get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Undead, you are not here just to suffer. Take solace in these gifts, you are forgiven."
+    artwork_url: "https://i.ibb.co/PvPzZDJW/statue-of-absolution-by-jane-lysa-resize.jpg"
+    artist: "Jane Lysa"
     number: 1
 
 card_8:
@@ -151,16 +151,16 @@ card_8:
     cost: "{1}{B}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Wraith"
     rarity: ""
     rating: 2
     rules_text: |
       Deathtouch
       Whenever ~ deals damage to a player, that player discards a card at random.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
-    flavor_text: "Oolacile"
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Once the seal to the abyss was broken, the inhabitants of Oolacile tore each other apart."
+    artwork_url: "https://i.ibb.co/zhVNh72Q/deranged-ihabitant-by-nasukichan-resize.jpg"
+    artist: "Nasukichan"
     number: 1
     power: 2
     toughness: 2
@@ -178,9 +178,9 @@ card_9:
       Plague
       ~ can't block and can't be blocked.
       When ~ enters the battlefield, target player discards a card.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Gnawing flesh from bone these beasts ingest all manner of toxins... all the better to hunt with."
+    artwork_url: "https://i.ibb.co/7xTyBtJW/festering-undead-rat-by-spiralworlds-resize.jpg"
+    artist: "spiralworlds"
     number: 1
     power: 1
     toughness: 1
@@ -196,9 +196,9 @@ card_10:
     rating: 2
     rules_text: |
       Whenever ~ deals damage to a player, target player puts a card from their hand on top of their library.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Be wary. The sewers of the Undead-Burg are teaming with all manner of vermin."
+    artwork_url: "https://i.pinimg.com/736x/99/cf/89/99cf891c2522c6b794f0d97c77229787.jpg"
+    artist: "Dol Caleb"
     number: 1
     power: 2
     toughness: 1
@@ -214,9 +214,9 @@ card_11:
     rating: 2
     rules_text: |
       {B}{B}, Pay 3 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The furtive pygmy split up the Dark Soul into shards, these souls never fade, they only yearn for darkness... and yet, so it is that ash seekth embers."
+    artwork_url: "https://i.pinimg.com/736x/49/00/c2/4900c2649eaeaa3a52d3c7eab3465c60.jpg"
+    artist: "Wendy Cavallero"
     number: 1
 
 card_12:
@@ -230,9 +230,9 @@ card_12:
     rating: 2
     rules_text: |
       Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. You draw a card, lose 1 life, and get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Rodents always find food sources with the highest nutrition."
+    artwork_url: "https://i.pinimg.com/736x/d0/ca/6d/d0ca6d7727c55162b3bd5910c99bc682.jpg"
+    artist: "Hex Arcana"
     number: 1
     power: 1
     toughness: 1
@@ -248,9 +248,9 @@ card_13:
     rating: 2
     rules_text: |
       ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Londor, the Hollow Realm, is a society of undead, comprised of those who led unsavory lives. Is such blessing really something one must ponder?"
+    artwork_url: "https://i.ibb.co/RT8wPkGR/dead-again-by-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 1
 
 card_14:
@@ -265,9 +265,9 @@ card_14:
     rules_text: |
       Target player sacrifices a creature with mana value 3 or less.
       Exile ~ from your graveyard, sacrifice a creature: Target player sacrifices a creature.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Cries turn to exhale as flesh is stripped from bone."
+    artwork_url: "https://i.ibb.co/N6LP9sBj/whisper-of-despair-by-parleenmazumdar-resize.jpg"
+    artist: "Parleenmazumdar"
     number: 1
 
 card_15:
@@ -282,9 +282,9 @@ card_15:
     rules_text: |
       Search your library for a card and put it into your hand. Shuffle your library.
       Fragment {B} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "All that's left of the secrets of the lord soul are tattered pages of a tome long forgotten."
+    artwork_url: "https://i.ibb.co/gLY1hbp8/shadowy-tome-of-the-gravelord-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
 
 card_16:
@@ -297,11 +297,12 @@ card_16:
     rarity: ""
     rating: 2
     rules_text: |
-      {1}{B}, discard a card: Return ~ from your graveyard to your hand. You get two souls.
-      As long as there are seven or more cards in your graveyard ~ gets +3/+3
+      As you cast, you may discard a card. If you do, you get four souls.
+      As long as there are seven or more cards in your graveyard ~ gets +3/+3.
+      Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/c6/90/22/c690221db66cf5c4fad14330193610c2.jpg"
+    artist: "S.Koidl"
     number: 1
     power: 1
     toughness: 1
@@ -320,11 +321,12 @@ card_17:
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
       Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/23/84/5f/23845f78be2adfcf52e2fe722bb70877.jpg"
+    artist: "fromsoft"
     number: 1
     power: 3
     toughness: 3
+    color_indicator: "{B}"
 
 card_big_guy:
   front:
@@ -339,10 +341,10 @@ card_big_guy:
       Flying
       When ~ deals combat damage to a player, each player loses 1 life and draws a card.
       {B/P}: ~ gains haste until end of turn.
-      Madness {B/P}{B/P}{B/P} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Madness {1}{B/P}{B/P} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://64.media.tumblr.com/e47e1b197c73c48b5061cf582dd2278d/tumblr_p2kqowF8Ei1sccgsyo1_1280.pnj"
+    artist: "gregzillagt"
     number: 1
     power: 4
     toughness: 4
@@ -360,8 +362,8 @@ card_18:
       As you cast ~, you may discard any number of cards.
       Target player reveals a number of cards from their hand equal to three plus three times the number of cards you discarded. You may choose a nonland card from among them. If you do, that player discards that card. Otherwise both players reveal the top card of their libraries, lose life equal to their card's mana value, then both players draw a card.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/6RH3v9PY/syphon-hope-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
 
 card_bigger_guy:
@@ -375,11 +377,11 @@ card_bigger_guy:
     rating: 2
     rules_text: |
       Lifelink, protection from white.
-      Cycling {B} ({B}, Discard this card: Draw a card.)
+      Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)
       When you cycle ~, all creatures get -2/-2 until end of turn.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/71/6c/a2/716ca22efbab68d93cf98ac966138b29.jpg"
+    artist: "Creighton v. Mirrah"
     number: 1
     power: 7
     toughness: 5
@@ -394,11 +396,12 @@ card_19:
     rarity: ""
     rating: 2
     rules_text: |
-      Exile target card, other than a basic land card, from a graveyard. If a card went to your graveyard this turn, search that card's owner's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
+      Exile target card, other than a basic land card, from a graveyard.
+      If a card went to your graveyard this turn, search that card's owner's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
       Cycling {B/P} ({B/P}, Discard this card: Draw a card.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/a2/42/62/a242623fe245418fbee05188b2c6db23.jpg"
+    artist: "Krakjoun"
     number: 1
 
 card_20:
@@ -428,13 +431,13 @@ card_dark_queen_nashandra:
     rarity: "Mythic"
     rating: 1
     rules_text: |
-      At the beginning of each upkeep each opponent loses 1 life. You gain life equal to the life lost.
+      At the beginning of each upkeep each opponent loses 2 life. You gain life equal to the life lost.
       {+1}: Target player discards a card at random.
-      {-2}: Choose a nonland, nonenchantment permanent. That permanent's controller sacrifices it. You gain life equal to its mana value.
+      {-2}: Choose a nonland, nonenchantment permanent. Its controller sacrifices it. You gain life equal to its mana value.
       {-8}: Each opponent gets an emblem with "At the beginning of your upkeep, you get three plague counters."
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/dJc1K11L/dark-queen-nashandra-by-fromsoft-resize.webp"
+    artist: "fromsoft"
     number: 1
     loyalty: 5
 
@@ -451,8 +454,8 @@ card_afflicted_graverobber:
       Lifelink, shadow (This creature can block or be blocked by only creatures with shadow.)
       When ~ enters the battlefield, you may pay {B}{B}, if you do target player discards two cards at random. If a card went to your graveyard this turn, put a permanent card from among the discarded cards onto the battlefield under your control.
     flavor_text: "Alva journeyed in search of a cure for Serreta's sickness, and instead found a cure for death."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/fzbNYzDJ/afflicted-graverobber-andrejzt-resize.jpg"
+    artist: "andrejzt"
     number: 1
     power: 2
     toughness: 1
@@ -467,11 +470,11 @@ card_:
     rarity: "Common"
     rating: 2
     rules_text: |
-      If an opponent gained souls this turn, you may pay {0} rather than pay ~'s mana cost.
+      If an opponent gained souls this turn, you may pay {0} rather than pay ~'' mana cost.
       Each opponent loses life equal to the number of souls they have, then remove all souls they have. You gain life and get souls equal to the life lost this way.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/nqYvx3r1/numbness-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
 
 card_:
@@ -486,9 +489,9 @@ card_:
     rules_text: |
       If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
       Creatures lose indestructible until end of turn. Destroy all creatures.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The heretic Navlaan made a deal with beasts from the abyss. He was executed along with his entire village, and the mere utterance of his name became a crime."
+    artwork_url: "https://i.pinimg.com/736x/86/8a/94/868a94119eb1ab6ee62b93deaa12e747.jpg"
+    artist: "unknown"
     number: 1
 
 card_:
@@ -503,9 +506,9 @@ card_:
     rules_text: |
       Enchant player
       If enchanted player would lose the game due to life lose, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, then their life total becomes their starting life total, they shuffle their library and draw seven cards, then they take an extra turn after their next turn instead.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "You will lose everything, once branded."
+    artwork_url: "https://i.ibb.co/DHRnvq3j/bearing-the-curse-shimhaq-resize.jpg"
+    artist: "shimhaq"
     number: 1
 
 card_cursed_jar:
@@ -531,15 +534,15 @@ card_royal_sorcerer:
     cost: "{1}{B}{B}"
     super: ""
     type: "Creature"
-    sub: "Human"
+    sub: "Human Wizard"
     rarity: "Common"
     rules_text: |
       If this card's madness cost was paid, it enters the battlefield transformed.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
       If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/CK712XkG/royal-sorcerer-by-wotc-recolor.jpg"
+    artist: "Wizards of the Coast"
     number: 1
     power: 3
     toughness: 3
@@ -557,8 +560,8 @@ card_royal_sorcerer:
       When ~ enters the battlefield, destroy target creature.
       Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/nNrTd8VM/malevolent-fiend-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
     power: 1
     toughness: 1
@@ -578,8 +581,8 @@ card_wandering_huntsman:
       Deathtouch
       When ~ enters the battlefield or dies, each player sacrifices a nontoken creature.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/xK55R713/wandering-huntsman-by-peta-patkin-resize.jpg"
+    artist: "Peta Patkin"
     number: 1
     power: 4
     toughness: 4
@@ -595,9 +598,9 @@ card_deserter_of_the_watch:
     rules_text: |
       As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
       When ~ enters the battlefield or dies, each player gets three souls.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The poor wretched souls... Be they lord or legend, the curse shows no mercy. What a sham."
+    artwork_url: "https://i.ibb.co/VcftWMLg/deserter-of-the-watch-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
     power: 2
     toughness: 1
@@ -611,11 +614,11 @@ card_catacombs_gravebinder:
     sub: "Skeleton Wizard"
     rarity: "Common"
     rules_text: |
-      Whenever ~ enters the battlefield or is exiled from your graveyard, until end of turn whenever a creature enters the battlefield that wasn't cast, you lose 1 life, draw a card, and get a soul.
+      Whenever ~ enters the battlefield or is exiled from your graveyard, until end of turn whenever a creature enters the battlefield that wasn't cast, you lose 1 life, draw a card, and get one soul.
       Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/mV5N6Mxt/catacombs-gravebinder-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
     power: 5
     toughness: 1
@@ -633,8 +636,8 @@ card_abyss_jackel:
       ~ can't block.
       {B}, discard a card: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/23/94/7f/23947f720ba53ef178cec2cadbeffcf1.jpg"
+    artist: "Akashi"
     number: 1
     power: 2
     toughness: 2
@@ -650,9 +653,9 @@ card_chained_prisoner:
     rules_text: |
       When ~ becomes the target of a spell or ability, sacrifice it.
       ~ has indestructible if a card went to your graveyard this turn.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A bizarre, swollen mass of filth with legs."
+    artwork_url: "https://i.ibb.co/4n6c63YP/chained-prisoner-by-baron-bruce-resize.jpg"
+    artist: "menas"
     number: 1
     power: 3
     toughness: 4
@@ -671,8 +674,8 @@ card_dripping_slime:
       Chameleon {3}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up, destroy target nonblack creature if a card went to your graveyard this turn.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/CKqJYP6y/dripping-slime-by-unknown-recolor.jpg"
+    artist: "unknown"
     number: 1
     power: 1
     toughness: 5
@@ -688,11 +691,11 @@ card_spreading_contamination:
     rating: 3
     rules_text: |
       Enchant land
-      Enchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no nonswamp lands on the battlefield remove all contamination counters and sacrifice ~.
+      Enchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~.
       Each land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/05/fromsoftware-poison-swamp-defense.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_:
@@ -705,11 +708,10 @@ card_:
     rarity: ""
     rating: 2
     rules_text: |
-      Target creature gains shadow until end of turn. Each opponenet loses 2 life and you gain life equal to the life lost this way.
-      (Creatures with shadow can block or be blocked by only other creatures with shadow.)
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+      Target creature gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
+    flavor_text: "Straid was invited to the old kingdom of Olaphis for his wisdom, but its depth was a dreadful trap."
+    artwork_url: "https://i.ibb.co/V0TP44Z8/veiled-cloak-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_:
@@ -724,30 +726,30 @@ card_:
     rules_text: |
       As you cast ~, each card you exile from your graveyard pays for {1}.
       Each opponenet discards X cards at random and you lose X life.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "...Ahh, please, someone tell me... Who am I? Why am I here?..."
+    artwork_url: "https://i.pinimg.com/736x/fa/38/68/fa38689a6b81f471e6490bf768530004.jpg"
+    artist: "Pixel Pulse"
     number: 1
 
 card_:
   front:
     name: "Resonant Life"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Sorcery"
     sub: ""
     rarity: ""
     rating: 2
     rules_text: |
-      Return target creature or planeswalker card from your graveyard to your hand. Target player gets two souls, then loses life equal to the number of souls they have, you gain that much life.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+      Return target planeswalker or creature card from your graveyard to your hand. Target player gets two souls, then loses life equal to the number of souls they have, you gain that much life.
+    flavor_text: "Something gained, something lost."
+    artwork_url: "https://i.ibb.co/tw2CkNJt/resonant-life-by-aloisio-vieira-resize.jpg"
+    artist: "Aloisio Vieira"
     number: 1
 
 card_:
   front:
-    name: "Creeping Constraint"
+    name: "Creeping Constraints"
     cost: "{B}"
     super: ""
     type: "Sorcery"
@@ -755,10 +757,10 @@ card_:
     rarity: ""
     rating: 2
     rules_text: |
-      ~ deals 1 damage to each opponent. Each opponent discards a card. You gain 1 life and return a creature card from your graveyard to your hand.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+      ~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a land. You gain 1 life and return a creature card from your graveyard to your hand.
+    flavor_text: "As the land came alive it was too late for the undead to notice the spreading corruption."
+    artwork_url: "https://i.pinimg.com/736x/7c/a6/2b/7ca62b69ca5358975af92f4234a3467a.jpg"
+    artist: "unknown"
     number: 1
 
 card_:
@@ -772,7 +774,7 @@ card_:
     rating: 2
     rules_text: |
       Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Every breath taken without consumption of souls, the Ash's inhibition fades."
+    artwork_url: "https://i.ibb.co/pjcfzJLX/waning-prudence-by-unknown-resize.jpg"
+    artist: "thedanisaur"
     number: 1

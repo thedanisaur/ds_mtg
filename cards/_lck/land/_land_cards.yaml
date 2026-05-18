@@ -2,53 +2,55 @@ card_undead_burg:
   front:
     name: "Undead Burg"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       {T}: Add one mana of any color to your mana pool. Spend this mana only to cast hollow spells and activate abilities of hollow cards.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      You'd have done better to rot in the Undead Asylum...
+    artwork_url: "https://i.ibb.co/rGs74Rs2/undead-burg-by-patience-farseer-resize.jpg"
+    artist: "Patience Farseer"
     number: 1
+    colors: '{W}{U}{B}{R}{G}'
 
 card_crystal_cave:
   front:
     name: "Crystal Cave"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       Colorless and artifact spells you control cost {1} less.
       {T}: Add {C} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The mysteries of souls, crystals and the sorceries are deeply intertwined.
+    artwork_url: "https://i.ibb.co/Q3rQZTX4/crystal-cave-by-flowing-horse-resize.jpg"
+    artist: "Flowing Horse"
     number: 1
+    colors: '{C}'
 
 card_the_grand_archives:
   front:
     name: "The Grand Archives"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: "Rare"
     rating: 2
     rules_text: |
       You have no maximum hand size.
       {T}: Add {U} or {R} to your mana pool.
       {U/R}{U/R}, {T}: Draw a card, then discard a card.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The scholars of the Grand Archives were obsessed with finding a way to transcend death."
+    artwork_url: "https://i.ibb.co/fz3M3t3j/the-grand-archives-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
     colors: '{U}{R}'
 
@@ -56,216 +58,216 @@ card_the_dreg_heap:
   front:
     name: "The Dreg Heap"
     cost: ""
-    super: "Legendary"
+    super: "Legendary Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       {T}: Add {1} to your mana pool.
       {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The world began without knowledge, and without knowledge will it end.
+    artwork_url: "https://i.ibb.co/k2f23K9k/dreg-heap-by-raging-player-resize.jpg"
+    artist: "Raging Player"
     number: 1
 
 card_fireless_shrine:
   front:
     name: "Fireless Shrine"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: "Rare"
     rating: 3
     rules_text: |
       {T}: Add {1} to your mana pool.
       {1}, {T}, Sacrifice ~: Destroy target land.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      A corpse should be left well alone.
+    artwork_url: "https://i.ibb.co/mnJZ1dR/fireless-shrine-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
 
 card_cleansing_chapel:
   front:
     name: "Cleansing Chapel"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.
       {T}: Add {U} or {R} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The Cathedral of the Deep is the stronghold of Aldrich, Devourer of Gods.
+    artwork_url: "https://i.ibb.co/kgBGZJFc/cleansing-chapel-by-unknown.jpg"
+    artist: "unknown"
     number: 1
 
 card_heides_tower_of_flame:
   front:
     name: "Heide's Tower of Flame"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.
       {T}: Add {U} or {W} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      Long ago, Heide was a land of gods, but it has fallen into ruin.
+    artwork_url: "https://i.ibb.co/bMc9h9G1/heides-tower-of-flame-servalt-resize.jpg"
+    artist: "Servalt"
     number: 1
 
 card_church_of_yorshka:
   front:
     name: "Church of Yorshka"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.
       {T}: Add {U} or {B} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      An ancient covenant still lingers here in Irithyll, a city of cold and moonlight.
+    artwork_url: "https://i.ibb.co/7dNF27L3/church-of-yorshka-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_crumbled_ruins:
   front:
     name: "Crumbled Ruins"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.
       {T}: Add {U} or {G} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      Even stone and memory decay here.
+    artwork_url: "https://i.ibb.co/yMZ1B8k/crumbled-ruins-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_dragon_kin_mausoleum:
   front:
     name: "Dragon-Kin Mausoleum"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
-      ~ enters the battlefield tapped unless you return a mountin or plains you control to its owner's hand.
+      ~ enters the battlefield tapped unless you return a mountain or plains you control to its owner's hand.
       {T}: Add {R} or {W} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      Only those who have taken the path of the dragon may enter.
+    artwork_url: "https://i.ibb.co/FLGrzhCW/dragon-kiln-mausoleum.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_demon_ruins:
   front:
     name: "Demon Ruins"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.
       {T}: Add {B} or {R} to your mana pool.
     flavor_text: |
-      ""
+      All things converge at the end of the earth.
     artwork_url: ""
-    artist: ""
+    artist: "fromsoft"
     number: 1
 
 card_halfway_fortress:
   front:
     name: "Halfway Fortress"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.
       {T}: Add {R} or {G} to your mana pool.
     flavor_text: |
-      ""
+      The Road of Sacrifices is a passage used by pilgrims heading toward the Cathedral of the Deep. Many have traveled this road seeking salvation only to meet their demise.
     artwork_url: ""
-    artist: ""
+    artist: "fromsoft"
     number: 1
 
 card_chamber_of_the_princess:
   front:
     name: "Chamber of the Princess"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.
       {T}: Add {B} or {W} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The power of sunlight is granted through the goddess's blessing. Her name invokes miracles of healing and warmth.
+    artwork_url: "https://darksouls.wiki.fextralife.com/file/Dark-Souls/gwynevere_concept_art_header_full.jpg?v=1527878439232"
+    artist: "fromsoft"
     number: 1
 
 card_old_wolf_of_farron:
   front:
     name: "Old Wolf of Farron"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.
       {T}: Add {B} or {G} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The watchers share their blood and their curse and the Old Wolf rests atop the keep, a symbol of their covenant.
+    artwork_url: "https://i.ibb.co/nWKR0QG/old-wolf-of-farron-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_darkroot_basin:
   front:
     name: "Darkroot Basin"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.
       {T}: Add {G} or {W} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The basin is a place where the roots of the great trees spread deep underground.
+    artwork_url: "https://i.ibb.co/YBPk8Hjm/darkroot-basin-by-max-frojd-resize.jpg"
+    artist: "Max Frojd"
     number: 1
 
 # ----- Esper (WUB) -----
@@ -281,13 +283,12 @@ card_frozen_eleum_loyce:
       {T}: Add {W}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/ycGJzPZX/frozen-eleum-loyce-by-vivien-resize.jpg"
+    artist: "Vivien"
     number: 1
 
-card_ice_cracked_crag:
+card_icecracked_crag:
   front:
     name: "Icecracked Crag"
     cost: ""
@@ -302,7 +303,7 @@ card_ice_cracked_crag:
     flavor_text: |
       ""
     artwork_url: ""
-    artist: ""
+    artist: "fromsoft"
     number: 1
 
 card_irithyll_dungeon:
@@ -317,16 +318,15 @@ card_irithyll_dungeon:
       {T}: Add {B}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/m5YW45ry/irithyll-dungeon-by-shinra-low-resize.jpg"
+    artist: "Shinra Low"
     number: 1
 
 # ----- Grixis (UBR) -----
-card_island_grixis_cycler:
+card_profaned_capital:
   front:
-    name: "Island Grixis Cycler"
+    name: "Profaned Capital"
     cost: ""
     super: "Bonfire"
     type: "Land"
@@ -336,15 +336,14 @@ card_island_grixis_cycler:
       {T}: Add {U}
       Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
       Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/rKHmDB9J/profaned-capital-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
-card_swamp_grixis_cycler:
+card_majula_pit:
   front:
-    name: "Swamp Grixis Cycler"
+    name: "Majula Pit"
     cost: ""
     super: "Bonfire"
     type: "Land"
@@ -354,15 +353,14 @@ card_swamp_grixis_cycler:
       {T}: Add {B}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/MDch9wN1/majula-pit-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
-card_mountain_grixis_cycler:
+card_earthen_peak:
   front:
-    name: "Mountain Grixis Cycler"
+    name: "Earthen Peak"
     cost: ""
     super: "Bonfire"
     type: "Land"
@@ -372,16 +370,15 @@ card_mountain_grixis_cycler:
       {T}: Add {R}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/F40Hpy4N/earthen-peak-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
 # ----- Temur (URG) -----
-card_island_temur_cycler:
+card_ash_lake:
   front:
-    name: "Island Temur Cycler"
+    name: "Ash Lake"
     cost: ""
     super: ""
     type: "Land"
@@ -391,15 +388,14 @@ card_island_temur_cycler:
       {T}: Add {U}
       Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
       Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/91/fe/2a/91fe2af55a584588bdc4bd245f924ef9.jpg"
+    artist: "fromsoft"
     number: 1
 
-card_mountain_temur_cycler:
+card_dragon_aerie:
   front:
-    name: "Mountain Temur Cycler"
+    name: "Dragon Aerie"
     cost: ""
     super: ""
     type: "Land"
@@ -409,15 +405,14 @@ card_mountain_temur_cycler:
       {T}: Add {R}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/Z1Ff7XZ1/dragon-aerie-by-fromsoft.webp"
+    artist: "fromsoft"
     number: 1
 
-card_forest_temur_cycler:
+card_great_hollows:
   front:
-    name: "Forest Temur Cycler"
+    name: "Great Hollows"
     cost: ""
     super: "Bonfire"
     type: "Land"
@@ -427,126 +422,124 @@ card_forest_temur_cycler:
       {T}: Add {G}
       Islandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)
       Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/HTwjyRTX/the-great-hollows-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
 # ----- Sultai (BUG) -----
-card_swamp_sultai_sac:
+card_depths_of_the_burg:
   front:
-    name: "Swamp Sultai Sac"
+    name: "Depths of the Burg"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
       {T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.
-    flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "There are actually two Bells of Awakening."
+    artwork_url: "https://i.ibb.co/BKLbZCTc/depths-of-the-burg-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
-card_island_sultai_sac:
+card_brightstone_cove_tseldora:
   front:
-    name: "Island Sultai Sac"
+    name: "Brightstone Cove Tseldora"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped island to your hand.
       {T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.
     flavor_text: |
-      ""
+      The miners sought the brilliance of souls hidden deep within the earth. But what they unearthed was far more than they bargained for.
     artwork_url: ""
-    artist: ""
+    artist: "fromsoft"
     number: 1
 
-card_forest_sultai_sac:
+card_dark_chasm_of_old:
   front:
-    name: "Forest Sultai Sac"
+    name: "Dark Chasm of Old"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
       {T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      Long ago, a great civilization was swallowed by darkness.
+    artwork_url: "https://i.ibb.co/Fj2PcNr/dark-chasm-of-old-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 # ----- Jund (BRG) -----
-card_swamp_jund_sac:
+card_untended_graves:
   front:
-    name: "Swamp Jund Sac"
+    name: "Untended Graves"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
       {T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      A world without fire is a world without gods.
+    artwork_url: "https://i.ibb.co/HDXypLNc/untended-graves-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
-card_mountain_jund_sac:
+card_harvest_valley:
   front:
-    name: "Mountain Jund Sac"
+    name: "Harvest Valley"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.
       {T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The valley is filled with poison and decay. Many miners succumbed to the toxic fumes.
+    artwork_url: "https://i.ibb.co/wFcxQLZv/harvest-valley-by-ooga-booga-resize.jpg"
+    artist: "Ooga Booga"
     number: 1
 
-card_forest_jund_sac:
+card_darkroot_forest:
   front:
-    name: "Forest Jund Sac"
+    name: "Darkroot Forest"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
-    sub: "Bonfire"
+    sub: ""
     rarity: ""
     rating: 2
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
       {T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.
     flavor_text: |
-      ""
-    artwork_url: ""
-    artist: ""
+      The forest hunters guard the sanctity of Darkroot; where ancient trees and stone intertwine.
+    artwork_url: "https://i.ibb.co/wZgCZhNy/darkroot-forest-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
 
 # ----- Mardu (WRB) -----
-card_rw_mardu_nonbasic_fetch:
+card_majula_gate:
   front:
-    name: "R/W Mardu Nonbasic Fetch"
+    name: "Majula Gate"
     cost: ""
     super: ""
     type: "Land"
@@ -555,15 +548,15 @@ card_rw_mardu_nonbasic_fetch:
     rating: 5
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic plains or nonbasic mountain and put it onto the battlefield. Shuffle your library.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A quiet seaside village bathed in eternal sunset. This is your home, for now."
+    artwork_url: "https://i.ibb.co/TMb5Z7bQ/majula-gate-by-fromsoft-resize.webp"
+    artist: "fromsoft"
     number: 1
     colors: '{W}{R}'
 
-card_br_mardu_nonbasic_fetch:
+card_quelaags_domain:
   front:
-    name: "B/R Mardu Nonbasic Fetch"
+    name: "Quelaag's Domain"
     cost: ""
     super: ""
     type: "Land"
@@ -572,16 +565,16 @@ card_br_mardu_nonbasic_fetch:
     rating: 5
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic mountain or nonbasic swamp and put it onto the battlefield. Shuffle your library.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The daughters of chaos remain bound to their mother’s fate. The fair lady remains behind, tending to the infected."
+    artwork_url: "https://i.ibb.co/FksxMRQm/quelaags-domain-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 1
     colors: '{B}{R}'
 
 # ----- Naya (WRG) -----
-card_rg_naya_nonbasic_fetch:
+card_drangleic_castle:
   front:
-    name: "R/G Naya Nonbasic Fetch"
+    name: "Drangleic Castle"
     cost: ""
     super: ""
     type: "Land"
@@ -590,8 +583,8 @@ card_rg_naya_nonbasic_fetch:
     rating: 5
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic mountain or nonbasic forest and put it onto the battlefield. Shuffle your library.
-    flavor_text: ""
+    flavor_text: "The king sought the power of souls to preserve his kingdom. But his kingdom fell to ruin nonetheless."
     artwork_url: ""
-    artist: ""
+    artist: "fromsoft"
     number: 1
     colors: '{R}{G}'

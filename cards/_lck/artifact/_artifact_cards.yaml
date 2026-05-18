@@ -11,8 +11,8 @@ card_the_great_seal_of_thorolund:
       Cards can't enter the battlefield unless it's from the stack.
       Players can't cast spells unless it's from their hand.
       Players can't activate abilities of cards while searching their library.
-    flavor_text: ""
-    artwork_url: ""
+    flavor_text: "Its brilliant light protects all those of Sol Londo"
+    artwork_url: "https://i.pinimg.com/736x/04/df/c3/04dfc360f47f13303eaa0234b205685a.jpg"
     artist: ""
     number: 1
 
@@ -27,9 +27,9 @@ card_resplendent_projection:
     rating: 2
     rules_text: |
       Whenever an opponent casts a spell you may gain 1 life and get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The warm light is a hopeful reminder of others that follow the same path..."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Beacon-of-Light-599687658"
+    artist: "cobaltplasma"
     number: 1
 
 card_budding_lotus:
@@ -43,11 +43,11 @@ card_budding_lotus:
     rating: 2
     rules_text: |
       ~ enters the battlefield tapped with a petal counter on it.
-      At the beginning of your upkeep put a petal counter on ~.
+      At the beginning of your upkeep, put a petal counter on ~.
       {T}, Sacrifice ~: Add X mana of any one color to your mana pool where X is the number of petal counters on ~.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "From ashes grows great potential."
+    artwork_url: "https://www.deviantart.com/morpheadraw/art/Blue-lotus-1291261647"
+    artist: "morpheadraw"
     number: 1
 
 card_hollows_amulet:
@@ -62,9 +62,9 @@ card_hollows_amulet:
     rules_text: |
       {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
       When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Greatly cherished by those who are undead ... though few remember why."
+    artwork_url: "https://i.ibb.co/Nn9TMnr8/hollows-amulet-by-lilitch-resize.jpg"
+    artist: "lilitch"
     number: 1
 
 card_curator_of_the_grand_archives:
@@ -79,9 +79,9 @@ card_curator_of_the_grand_archives:
     rules_text: |
       Draft ~ face up.
       As you draft a card, you may draft an additional card from that booster pack. If you do, put ~ into that booster pack.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "You have returned without scrolls?"
+    artwork_url: "https://i.ibb.co/6JWwWd4x/curator-of-the-grand-archives-resize.jpg"
+    artist: "Argosi"
     number: 1
     power: 1
     toughness: 1
@@ -98,9 +98,9 @@ card_pyrewardens_stone:
     rules_text: |
       Pay one soul: Look at the top four cards of your library, then put them back in any order.
       {T}: Draw a card, then shuffle ~ into its owner's library.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Its flame draws upon the latent power of Quelana of Izalith, mother of pyromancy."
+    artwork_url: "https://i.pinimg.com/736x/2a/b2/d7/2ab2d7871f8482e65577126ad42901e7.jpg"
+    artist: "wisestprojectstudio"
     number: 1
 
 card_corrosive_urn:
@@ -115,9 +115,9 @@ card_corrosive_urn:
     rules_text: |
       {4}, {T}, Sacrifice ~: Destroy target noncreature artifact or enchantment.
       When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Secretions of giant corrosive ants will gnaw through the most tough armor, yet some undead are drawn to its aroma."
+    artwork_url: "https://www.deviantart.com/adadia/art/Corrosive-Decay-01-A1-1274225404"
+    artist: "adadia"
     number: 1
 
 card_the_champions_tablet:
@@ -135,8 +135,8 @@ card_the_champions_tablet:
       Play with the top card of your library revealed.
       {T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from your library onto the battlefield.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/JFckpjXx/the-champions-tablet-resize.jpg"
+    artist: "matt"
     number: 1
 
 card_ring_of_favor:
@@ -187,9 +187,9 @@ card_darkmoon_seance_idol:
       Cycling abilities you activate cost {1} less to activate.
       Whenever you cycle ~ or another card, target player gets one soul.
       Cycling {1} ({1}, Discard this card: Draw a card.)
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Justice of the Darkmoon be done."
+    artwork_url: "https://i.ibb.co/1JpjfQZd/darkmoon-seance-idol-by-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 1
 
 card_sens_fortifications:
@@ -202,7 +202,7 @@ card_sens_fortifications:
     rarity: "Rare"
     rating: 2
     rules_text: |
-      When fortified land becomes tapped, search your library for a trap card. If ~ is fortifying Sen's Fortress, search your library for two trap cards instead.
+      When fortified land becomes tapped, search your library for a trap card, reveal it, and put it into your hand. Shuffle your library. If ~ is fortifying Sen's Fortress, search your library for two trap cards instead.
       Fortify {2}
     flavor_text: ""
     artwork_url: ""
@@ -219,13 +219,13 @@ card_tarkus_iron_knight:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      ~ enters the battlefield tapped.
+      Indestructible
       When ~ enters the battlefield, if an opponent controls a Giant, you gain 4 life.
       ~ gets +2/+2 for each equipment attached to it.
-      When ~ is dealt damage by a creature with more power than toughness, destroy ~.
+      When ~ is dealt damage by a creature with more power than toughness, sacrifice it.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/kVygydmc/tarkus-iron-knight-by-creighton-v-mirrah-resize.jpg"
+    artist: "Creighton v. Mirrah"
     number: 1
     power: 3
     toughness: 3
@@ -280,7 +280,7 @@ card_crown_of_the_ivory_king:
       Equipped creature has "Whenever a colored nonartifact permanent is untapped you gain 1 lifeand get one soul."
       Equip {1}
     flavor_text: "In the frozen north, the king's soul faded."
-    artwork_url: ""
+    artwork_url: "https://i.ibb.co/21w9sb67/crown-of-the-ivory-king-by-fromsoft-resize.webp"
     artist: "fromsoft"
     number: 1
 
@@ -298,8 +298,8 @@ card_crown_of_the_covetous_king:
       Equipped creature has "You can't lose the game and your opponents can't win the game."
       Equip {4}
     flavor_text: "What makes a king? A crown, or is it just... want."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/6cMHfstz/e0sat0i3eale1-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_fragrant_branch_of_yore:
@@ -315,23 +315,23 @@ card_fragrant_branch_of_yore:
       {2}, {T}: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
       When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/KjNjx94k/fragrant-branch-of-yore-by-wotc-resize.jpg"
+    artist: "wizards of the coast"
     number: 1
 
 card_mox_citrine:
   front:
     name: "Mox Citrine"
     cost: "{0}"
-    super: ""
+    super: "Legendary"
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Mythic"
     rating: 2
     rules_text: |
       {T}: Add one mana of any color to your mana pool that a land an opponent controls could produce.
-    flavor_text: ""
-    artwork_url: ""
+    flavor_text: "Coveted by Gods and Undead alike."
+    artwork_url: "https://i.ibb.co/mrWLHF5F/mox-citrine-na-recolor.jpg"
     artist: ""
     number: 1
 
@@ -351,13 +351,13 @@ card_ballista_tower:
       • Draw four cards. Then discard two cards unless you discard an artifact.
       {8}: Return ~ to its owner's hand.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/c6/e3/ed/c6e3ed33c8b354011ec0092e8fc5bdd1.jpg"
+    artist: "Choong Yeol Lee"
     number: 1
 
 card_shattered_dusk_ring:
   front:
-    name: ""
+    name: "Shattered Dusk Ring"
     cost: "{0}"
     super: ""
     type: "Artifact"
@@ -366,15 +366,15 @@ card_shattered_dusk_ring:
     rating: 2
     rules_text: |
       If you would choose one or more modes when casting a spell, you may choose one additional mode.
-      {T}, tap an untapped creature or artifact you control: Add {C}{C} to your mana pool.
+      {T}, Tap an untapped creature or artifact you control: Add {C}{C} to your mana pool.
     flavor_text: "These fragments of the ring gifted to the Princess of Oolacile at birth still grant immense power to any that possess them."
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/87/65/4c/87654c873921e971569cf06ca3f46ed0.jpg"
+    artist: "irlbarbie"
     number: 1
 
-card_golem_hand_axe:
+card_golem_battle_axe:
   front:
-    name: "Golem Hand Axe"
+    name: "Golem Battle Axe"
     cost: "{1}"
     super: ""
     type: "Artifact"
@@ -385,27 +385,27 @@ card_golem_hand_axe:
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +1/+0 and has "Whenever this creature attacks alone, it deals 1 damage to any target."
       Equip {1}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Cleave flesh, chop bones, hunt ash."
+    artwork_url: "https://i.ibb.co/C3bK8x0J/golem-battle-axe-by-randyll-blackwood-resize.jpg"
+    artist: "Randyll Blackwood"
     number: 1
 
 card_dragon_slayer_greatsword:
   front:
     name: "Dragon Slayer Greatsword"
-    cost: "{3}"
-    super: ""
+    cost: "{C/P}{C/P}{C/P}{C/P}"
+    super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature gets +3/+0, can't be blocked except by three or more creatures, and has trample.
-      Equip {3}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+      Equipped creature gets +4/+4, has trample, and can't be blocked except by three or more creatures.
+      Equip {C/P}{C/P}{C/P}{C/P}
+    flavor_text: "A contender must struggle against fire."
+    artwork_url: "https://i.ibb.co/v6qp0Ncx/dragon-slayer-greatsword-by-kentaro-miura-resize.jpg"
+    artist: "Kentaro Miura"
     number: 1
 
 card_talisman_of_want:
@@ -419,11 +419,11 @@ card_talisman_of_want:
     rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has "{T}: For each spell you cast this turn it costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
+      Equipped creature has "{T}: Each spell you cast this turn costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
       Equip {2}
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/CgQfzY5/talisman-of-want-by-yuchen-wang-resize.jpg"
+    artist: "Yuchen Wang"
     number: 1
 
 card_zweihander:
@@ -440,8 +440,8 @@ card_zweihander:
       Equipped creature gets +2/+1 and can't be blocked except by two or more creatures.
       Equip {3}
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://mir-s3-cdn-cf.behance.net/projects/404/c58621178885091.Y3JvcCw0NDg0LDM1MDcsNDY2LDA.png"
+    artist: "fromsoft"
     number: 1
 
 card_new_londo_talisman:
@@ -457,9 +457,9 @@ card_new_londo_talisman:
       This artifact doesn't untap during your untap step.
       {1}, pay one soul: Untap ~.
       {T}, pay one soul: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "New Londo clerics were seduced by The Abyss. If these talismans are not kept the seal will falter."
+    artwork_url: "https://i.pinimg.com/736x/8d/66/41/8d66419e8c53ecd2a8ab71fb7a2cc705.jpg"
+    artist: "ephellem"
     number: 1
 
 card_seal_of_a_slumbering_dragon:
@@ -474,9 +474,9 @@ card_seal_of_a_slumbering_dragon:
     rules_text: |
       Players can't cast artifact or colorless spells.
       Abilities of artifacts and colorless nonland permanents can't be activated.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The relic and songs are thought to aid the dragon in sleep."
+    artwork_url: "https://i.ibb.co/pj7nZ8jc/seal-of-a-slumbering-dragon-by-mitsuki-resize.jpg"
+    artist: "mitsuki"
     number: 1
 
 card_charm_of_the_forest_hunters:
@@ -492,8 +492,8 @@ card_charm_of_the_forest_hunters:
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, target permanent can't deal damage and its loyalty abilities can't be activated.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/0jSdJvM9/charm-of-the-forest-hunters-by-aga-pi-resize.jpg"
+    artist: "Aga Pi"
     number: 1
 
 card_charm_of_the_darkmoon_blades:
@@ -509,8 +509,8 @@ card_charm_of_the_darkmoon_blades:
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, if a token would enter the battlefield you draw a card instead.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/YTQ96ZsJ/charm-of-the-darkmoon-blades-by-unknown-resize.jpg"
+    artist: "unknown"
     number: 1
 
 card_charm_of_the_darkwraiths:
@@ -526,8 +526,8 @@ card_charm_of_the_darkwraiths:
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, whenever target land becomes tapped, its controller sacrifices it and loses life equal to the number of souls they have.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/wh5xfXry/charm-of-the-darkwraiths-by-unknown-recolor.jpg"
+    artist: "unknown"
     number: 1
 
 card_glinting_sigil:
@@ -543,8 +543,8 @@ card_glinting_sigil:
       {T}: Put target card in a graveyard on the bottom of its owner's library. Then target player gains 1 life and gets one soul.
       {1}, Sacrifice ~: Exile all cards from target player's graveyard. You gain life and get souls equal to the number of cards exiled this way.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/3yxKb1v1/glinting-sigil-by-arles48-resize.jpg"
+    artist: "arles48"
     number: 1
 
 card_sunless_amulet:
@@ -558,11 +558,11 @@ card_sunless_amulet:
     rating: 2
     rules_text: |
       ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
-      {T}, Remove a charge counter from this card: As long as this card remains tapped target basic land an opponent controls becomes the basic land type of your choice. Whenever it's tapped for mana its controller gets one soul.
+      {T}, Remove a charge counter from this card: While this card is tapped target basic land an opponent controls becomes the basic land type of your choice and when it's tapped its controller gets one soul.
       When this artifact is put into a graveyard from the battlefield, draw a card.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/bf/92/36/bf9236896eadc91c2d1b9f33f0f2ec35.jpg"
+    artist: "David Richards"
     number: 1
 
 card_seat_of_the_archives:
@@ -575,11 +575,11 @@ card_seat_of_the_archives:
     rarity: "Rare"
     rating: 2
     rules_text: |
-      Fortified land has "{U/W}, {T}: Draw a card. Activate this ability only if you have 5 or more cards in hand."
+      Fortified land has "{U/W}, {T}: Draw a card. Activate this ability only if you have five or more cards in hand."
       Fortify {1}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "The serpent's that guard this prison know not the value of what they hide..."
+    artwork_url: "https://i.ibb.co/3JgbtsL/seat-of-the-archives-by-creighton-v-mirrah-resize.jpg"
+    artist: "Creighton v. Mirrah"
     number: 1
 
 card_moaning_sanctum:
@@ -594,9 +594,9 @@ card_moaning_sanctum:
     rules_text: |
       Fortified land has "{B/G}, {T}: Return a permanent card from your graveyard to your hand. Activate this ability only if your life total changed this turn."
       Fortify {1}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "A sickening miasma corrupts the inhabitants pulled from this once sanctuary."
+    artwork_url: "https://i.pinimg.com/736x/5f/7f/d2/5f7fd238201452bd855663a08798ac55.jpg"
+    artist: "Creighton v. Mirrah"
     number: 1
 
 card_palisades_of_ash:
@@ -629,9 +629,9 @@ card_golden_wing_crest_shield:
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +0/+3 and can't be the target of spells or abilities.
       Equip {3}
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Even the most powerful magic resistance can't protect you from combat."
+    artwork_url: "https://i.ibb.co/PvGrY82y/golden-wing-crest-shield-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 1
 
 card_burnt_offering:
@@ -645,9 +645,9 @@ card_burnt_offering:
     rating: 2
     rules_text: |
       {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have seven or more souls.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Harnessing the fiery remnants of Lost Izalith can grant the power to peel back eternity."
+    artwork_url: "https://i.ibb.co/8q0xjWQ/burnt-offering-by-cobalt-plasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 1
 
 card_seal_of_the_dark_void:
@@ -661,9 +661,9 @@ card_seal_of_the_dark_void:
     rating: 2
     rules_text: |
       If a card would enter or leave exile, that card's owner loses 2 life.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    flavor_text: "Put in place by Artorias, this seal holds back the dark corruption that threatens to swallow Oolacile."
+    artwork_url: "https://i.ibb.co/FkX6g8Q0/seal-of-the-dark-void-by-gen-time-resize.jpg"
+    artist: "gen time"
     number: 1
 
 card_purple_moss_clump:
@@ -680,8 +680,8 @@ card_purple_moss_clump:
       {2}, {T}, Sacrifice this artifact: Remove all plague counters from you and permanents you control.
       When ~ goes to the graveyard from the battlefield add two mana of any one color to your mana pool and draw a card.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/S7BBvtZs/purple-moss-clump-by-dk-resize.jpg"
+    artist: "dk"
     number: 1
 
 card_bloodred_moss_clump:
@@ -698,6 +698,6 @@ card_bloodred_moss_clump:
       {1}, {T}, Sacrifice this artifact: You remove all bleed counters.
       When ~ goes to the graveyard from the battlefield add one mana of any color to your mana pool and draw a card.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/97/3e/04/973e046cae6825aee8124c7bf07e9739.jpg"
+    artist: "cam"
     number: 1

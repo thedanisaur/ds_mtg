@@ -9,8 +9,8 @@ card_plains:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: "sparth"
+    artwork_url: "https://i.ibb.co/LXh9f4Vg/plains-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 256
 
 card_island:
@@ -24,8 +24,8 @@ card_island:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: "creativecut"
+    artwork_url: "https://i.ibb.co/whpZhXQR/island-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     number: 257
 
 card_swamp:
@@ -39,7 +39,7 @@ card_swamp:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
+    artwork_url: "https://i.ibb.co/nqX905r5/swamp-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     number: 258
 
@@ -54,7 +54,7 @@ card_mountain:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
+    artwork_url: "https://i.ibb.co/9m4pMFZx/mountain-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     number: 259
 
@@ -69,7 +69,7 @@ card_forest:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
+    artwork_url: "https://i.ibb.co/0yzGSRgg/forest-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     number: 260
 
@@ -84,6 +84,6 @@ card_wastes:
     rating: 0
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
+    artwork_url: "https://i.ibb.co/H0bkkGc/wastes-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     number: 261
