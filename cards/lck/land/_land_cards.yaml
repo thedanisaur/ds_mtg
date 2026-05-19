@@ -24,7 +24,7 @@ card_brightstone_cove_tseldora:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped island to your hand.
       {T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.
@@ -42,7 +42,7 @@ card_chamber_of_the_princess:
     type: "Land"
     sub: "Plains Swamp"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.
       {T}: Add {B} or {W} to your mana pool.
@@ -60,7 +60,7 @@ card_church_of_yorshka:
     type: "Land"
     sub: "Swamp Island"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.
       {T}: Add {U} or {B} to your mana pool.
@@ -78,7 +78,7 @@ card_cleansing_chapel:
     type: "Land"
     sub: "Island Mountain"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.
       {T}: Add {U} or {R} to your mana pool.
@@ -96,7 +96,7 @@ card_crumbling_ruins:
     type: "Land"
     sub: "Forest Island"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.
       {T}: Add {U} or {G} to your mana pool.
@@ -114,7 +114,7 @@ card_crystal_cave:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Colorless and artifact spells you control cost {1} less.
       {T}: Add {C} to your mana pool.
@@ -133,7 +133,7 @@ card_dark_chasm_of_old:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
       {T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.
@@ -151,7 +151,7 @@ card_darkroot_basin:
     type: "Land"
     sub: "Plains Forest"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.
       {T}: Add {G} or {W} to your mana pool.
@@ -169,7 +169,7 @@ card_darkroot_forest:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
       {T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.
@@ -187,7 +187,7 @@ card_demon_ruins:
     type: "Land"
     sub: "Mountain Swamp"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.
       {T}: Add {B} or {R} to your mana pool.
@@ -205,7 +205,7 @@ card_depths_of_the_burg:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
       {T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.
@@ -240,7 +240,7 @@ card_dragon_kin_mausoleum:
     type: "Land"
     sub: "Mountain Plains"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a mountain or plains you control to its owner's hand.
       {T}: Add {R} or {W} to your mana pool.
@@ -258,7 +258,7 @@ card_drangleic_castle:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 5
+    rating: 3
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic mountain or nonbasic forest and put it onto the battlefield. Shuffle your library.
     flavor_text: "The king sought the power of souls to preserve his kingdom. But his kingdom fell to ruin nonetheless."
@@ -347,7 +347,7 @@ card_halfway_fortress:
     type: "Land"
     sub: "Forest Mountain"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.
       {T}: Add {R} or {G} to your mana pool.
@@ -365,7 +365,7 @@ card_harvest_valley:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.
       {T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.
@@ -383,7 +383,7 @@ card_heides_tower_of_flame:
     type: "Land"
     sub: "Plains Island"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.
       {T}: Add {U} or {W} to your mana pool.
@@ -438,7 +438,7 @@ card_majula_gate:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 5
+    rating: 3
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic plains or nonbasic mountain and put it onto the battlefield. Shuffle your library.
     flavor_text: "A quiet seaside village bathed in eternal sunset. This is your home, for now."
@@ -473,7 +473,7 @@ card_old_wolf_of_farron:
     type: "Land"
     sub: "Swamp Forest"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.
       {T}: Add {B} or {G} to your mana pool.
@@ -491,7 +491,7 @@ card_quelaags_domain:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 5
+    rating: 3
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic mountain or nonbasic swamp and put it onto the battlefield. Shuffle your library.
     flavor_text: "The daughters of chaos remain bound to their mother’s fate. The fair lady remains behind, tending to the infected."
@@ -526,7 +526,7 @@ card_the_dreg_heap:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       {T}: Add {W} to your mana pool.
       {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
@@ -544,7 +544,7 @@ card_the_grand_archives:
     type: "Land"
     sub: ""
     rarity: "Rare"
-    rating: 2
+    rating: 3
     rules_text: |
       You have no maximum hand size.
       {T}: Add {U} or {R} to your mana pool.
@@ -563,7 +563,7 @@ card_undead_burg:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       {T}: Add one mana of any color to your mana pool. Spend this mana only to cast hollow spells and activate abilities of hollow cards.
     flavor_text: |
@@ -581,7 +581,7 @@ card_untended_graves:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
       {T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.

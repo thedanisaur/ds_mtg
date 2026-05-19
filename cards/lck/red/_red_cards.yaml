@@ -6,7 +6,7 @@ card_aldias_forlorn:
     type: "Creature"
     sub: "Human Assassin"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       Discard a nonland card, pay one soul: Draw a card. Target creature can't block this turn. ~ doesn't untap during your next untap step.
@@ -25,7 +25,7 @@ card_ashen_strike:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If an opponent cycled a card this turn, you may pay {R} rather than pay ~'s mana cost.
       ~ deals 5 damage to any target.
@@ -42,7 +42,7 @@ card_blitz_hound:
     type: "Creature"
     sub: "Hound"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       Whenever ~ attacks exile the top card of your library with a favored counter on it.
@@ -62,7 +62,7 @@ card_bonewheel:
     type: "Creature"
     sub: "Skeleton"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       When ~ attacks, sacrifice it at the beginning of the next end step.
@@ -81,7 +81,7 @@ card_brume_gate:
     type: "Creature"
     sub: "Elemental Wall"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Prevent all damage dealt to and dealt by ~.
       When ~ dies, search your library for a Lord card and put it onto the battlefield. Shuffle your library.
@@ -100,7 +100,7 @@ card_cathedral_warden:
     type: "Creature"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       ~ has double strike as long as it's attacking.
@@ -120,7 +120,7 @@ card_chaos_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
     flavor_text: ""
@@ -138,7 +138,7 @@ card_chaos_maggot:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       ~ enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
@@ -158,7 +158,7 @@ card_cleansing_orb:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
       Soullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)
@@ -175,7 +175,7 @@ card_corrosive_egg_insect:
     type: "Creature"
     sub: "Insect"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Flying, bleed
       {X}{R}, {T}, Sacrifice ~: Destroy target artifact with mana value less than or equal to 2 plus X.
@@ -194,7 +194,7 @@ card_corrosive_organics:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If the target of this spell would be put into the graveyard this turn, its controller gets three bleed counters.
       Choose one -
@@ -213,7 +213,7 @@ card_corrosive_slime:
     type: "Creature"
     sub: "Ooze"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       {1}, Sacrifice ~: Target player gets two souls.
       When ~ goes to the graveyard from the battlefield choose one -
@@ -254,7 +254,7 @@ card_deflecting_whispers:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Change the target of target spell with another target. You get two souls.
     flavor_text: "The soft incantation of pyromancy will always protect you in your time of need."
@@ -270,7 +270,7 @@ card_devout_of_the_deep:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       {T}, Sacrifice ~: ~ deals 5 damage to target creature.
     flavor_text: "After Aldrich left for the Boreal valley, Archdeacon Royce remained in the cathedral with the high priests, to keep eternal watch over their master's coffin. These devoutees' are willing to sacrifice themselves to protect the cathedral and the high priests."
@@ -288,7 +288,7 @@ card_fiery_scroll_of_carthus:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Search your library for a card, put it into your hand, and then discard a card at random. Shuffle your library.
       Fragment {R} - While searching your library, you may reveal this card from your library. If you do, each player sacrifices a permanent. (Only activate one fragment ability per search.)
@@ -305,7 +305,7 @@ card_fire_tempest:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Choose one. if this card's madness cost was paid, choose two instead -
       • ~ deals 3 damage to each opponent.
@@ -325,7 +325,7 @@ card_flame_swathe:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ deals X damage to each creature without flying. You get one soul for each creature that died this way.
       If at least {R}{R}{R} was spent to cast ~ destroy all artifacts. You get one soul for each artifact put into the graveyard this way.
@@ -342,7 +342,7 @@ card_flamebourne_captain:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever ~ is exiled from your hand or you cast a spell from exile, create a 1/1 colorless Hollow creature token.
       Delayed {R} (You may pay {R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
@@ -361,7 +361,7 @@ card_flaming_golem:
     type: "Creature"
     sub: "Golem"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever a creature you control attacks, exile the top card of your library with a luck counter on it.
       {T}: Put a card you own in exile with a luck counter on it into your hand.
@@ -380,7 +380,7 @@ card_generous_sunlight:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Discard a card or sacrifice a land. Target player draws two cards and gets two souls.
       Delayed {R}{R} (You may pay {R}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
@@ -397,7 +397,7 @@ card_gyrm_warrior:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       Whenever a card goes to your graveyard, ~ gets +1/+1 until end of turn and you get one soul.
@@ -416,7 +416,7 @@ card_lightning_urn:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       As an additional cost to cast this spell, sacrifice a hollow or artifact.
       ~ deals 5 damage to any target.
@@ -433,7 +433,7 @@ card_lost_spell_from_izalith:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.
       ~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.
@@ -450,7 +450,7 @@ card_masked_manikin:
     type: "Creature"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker.
@@ -470,7 +470,7 @@ card_menacing_thief:
     type: "Creature"
     sub: "Rogue"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a luck counter on it.
       {R}, {T}: You may play a card in exile with a luck counter on it. If you don't ~ deals 1 damage to any target.
@@ -490,7 +490,7 @@ card_preeminent_giant:
     type: "Creature"
     sub: "Giant"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
       Madness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -509,7 +509,7 @@ card_raise_the_sloughtender:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Create a X/X red Hollow creature token where X is the number of noncreature nonland cards in your graveyard. It has haste and "{R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target."
     flavor_text: "A hulking mass of rotten ash, it lumbers the hillsides in search of its victims."
@@ -525,7 +525,7 @@ card_rosarias_fingers:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 1
+    rating: 3
     rules_text: |
       You may exile a red card from your hand rather than pay this spell's mana cost.
       Choose two -
@@ -546,7 +546,7 @@ card_scream_of_defiance:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Counter target blue or white spell unless its controller pays {2}. If a card went to your graveyard this turn counter that spell instead.
     flavor_text: "With a shriek the body is transformed to iron, granting defense against incoming assault."
@@ -581,7 +581,7 @@ card_shaded_scorpion:
     type: "Creature"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste
       {1}, {T}: Create a Rubbish token.
@@ -601,7 +601,7 @@ card_shimmering_void:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.
       Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
@@ -618,7 +618,7 @@ card_smelter_demon:
     type: "Planeswalker"
     sub: "Demon Lord"
     rarity: "Mythic"
-    rating: 1
+    rating: 3
     rules_text: |
       ~ can't be countered.
       Whenever ~ is dealt damage by a creature, if that creature is not white put two -1/-1 counters on that creature.
@@ -638,7 +638,7 @@ card_smoldering_idolatry:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Play with the top card of your library revealed, you may play lands and cast spells from the top of your library.
       You can't play lands or cast spells from your hand.
@@ -656,7 +656,7 @@ card_soothing_chant:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.
       Spells you control can't be countered this turn. Draw two cards, discard a card, and get two souls.
@@ -692,7 +692,7 @@ card_splintering_bolt:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If you didn't go first, ~ costs {1} less to cast.
       ~ deals 3 damage divided as you choose to up to three targets.
@@ -709,7 +709,7 @@ card_sulyvahns_fiend:
     type: "Creature"
     sub: "Beast"
     rarity: "Rare"
-    rating: 2
+    rating: 3
     rules_text: |
       Haste, bleed
       {T}, pay two souls: Deal 2 damage to target creature or planeswalker.
@@ -728,7 +728,7 @@ card_torturous_demon:
     type: "Creature"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ can't be blocked except by two or more creatures.
       {R}: ~ gets +1/+0 until end of turn. You get one soul.
@@ -747,7 +747,7 @@ card_volgen_falconer:
     type: "Creature"
     sub: "Human Bird"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
       As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
@@ -767,7 +767,7 @@ card_winged_fortune_kalameet:
     type: "Creature"
     sub: "Dragon"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)
       When ~ enters the battlefield exile the top three cards of your library with a favored counter on each of them.

@@ -6,7 +6,7 @@ card_forest:
     type: "Land"
     sub: "Forest"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/0yzGSRgg/forest-by-fromsoft-resize.jpg"
@@ -21,7 +21,7 @@ card_island:
     type: "Land"
     sub: "Island"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/whpZhXQR/island-by-fromsoft-resize.jpg"
@@ -36,7 +36,7 @@ card_mountain:
     type: "Land"
     sub: "Mountain"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/9m4pMFZx/mountain-by-fromsoft-resize.jpg"
@@ -51,7 +51,7 @@ card_plains:
     type: "Land"
     sub: "Plains"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/LXh9f4Vg/plains-by-fromsoft-resize.jpg"
@@ -66,7 +66,7 @@ card_swamp:
     type: "Land"
     sub: "Swamp"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqX905r5/swamp-by-fromsoft-resize.jpg"
@@ -81,7 +81,7 @@ card_wastes:
     type: "Land"
     sub: "Wastes"
     rarity: "Common"
-    rating: 0
+    rating: 3
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.ibb.co/H0bkkGc/wastes-by-fromsoft-resize.jpg"

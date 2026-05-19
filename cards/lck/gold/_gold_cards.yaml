@@ -6,7 +6,7 @@ card_ashen_keep_sentinel:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Knights and spirit creatures you control get +1/+1.
       Other Hollow creatures you control get +1/+1.
@@ -25,7 +25,7 @@ card_chant_of_oolacile:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       ~ and spells you control can't be countered.
       Whenever a player casts a noncreature spell ~ deals 1 damage to them.
@@ -43,7 +43,7 @@ card_conjuring_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       You may cast this spell any time you could cast an instant.
       When ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.
@@ -63,7 +63,7 @@ card_engorged_hollow:
     type: "Creature"
     sub: "Hollow Horror"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Haste, can't be blocked except by two or more creatures
       Whenever you discard a card ~ gets +2/+0 until end of turn and you get one soul.
@@ -83,7 +83,7 @@ card_forsworn_shell:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
       Whenever ~ deals damage to a player choose one, if you cycled a card this turn choose both instead -
@@ -104,7 +104,7 @@ card_hollow_priest:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
       Sacrifice another creature: Return target creature from your graveyard to the battlefield. Return ~ to your hand.
@@ -123,7 +123,7 @@ card_hollow_warrior:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
       Whenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.
@@ -142,7 +142,7 @@ card_pledged_anathema:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Choose one -
         • Counter target spell unless its controller pays {2}.
@@ -161,7 +161,7 @@ card_rupturing_hollow:
     type: "Creature"
     sub: "Hollow Ooze"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Deathtouch, haste
       When ~ leaves the battlefield, target player gets four souls.
@@ -181,7 +181,7 @@ card_serpents_regrowth:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.
       Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.
@@ -198,7 +198,7 @@ card_skittering_slave:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Lifelink
       Whenever ~ or another creature dies, each opponent loses 1 life and you get one soul.
@@ -217,7 +217,7 @@ card_soul_scoured_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       When ~ enters or leaves the battlefield, target player gets one soul.
       {T}: Add {R} or {G}. Target player gets one soul.
@@ -236,7 +236,7 @@ card_the_end_of_fire:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       Destroy a number of target permanents equal to two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.
     flavor_text: "The first flame quickly fades... darkness will shortly settle... but one day tiny flames will dance across the darkness like embers linked by lords past."
@@ -252,7 +252,7 @@ card_warden_of_the_forgotten_tower:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
       Whenever ~ or another creature you control enters the battlefield, put a +1/+1 counter on target hollow.

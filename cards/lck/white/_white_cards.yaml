@@ -6,7 +6,7 @@ card_a_call_to_the_ash:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       You may reveal a white card or a plains from your hand rather than pay this spell's mana cost.
       For each creature card in all graveyards, create a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
@@ -23,7 +23,7 @@ card_alonne_knight_captain:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever ~ becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}
       Whenever a spell or ability you control would exile a permanent, put a +1/+1 counter on ~.
@@ -42,7 +42,7 @@ card_alonne_phantom:
     type: "Creature"
     sub: "Spirit"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       As an additional cost to cast ~, exile a card from your hand and a card from your graveyard.
       Flying, vigilance, lifelink
@@ -61,7 +61,7 @@ card_archdrake_cleric:
     type: "Creature"
     sub: "Dragon Hollow Cleric"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
       Whenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.
@@ -80,7 +80,7 @@ card_belltower_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Vigilance, lifelink
       When ~ enters the battlefield, create two 1/1 white Human creature tokens on to the battlefield. If a card went to your graveyard this turn, put a +1/+1 counter on each creature you control.
@@ -99,7 +99,7 @@ card_blinding_bolt:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If a creature or planeswalker entered the battlefield under an opponent's control this turn and it wasn't cast, you may pay {W} rather than pay ~'s mana cost.
       Put all creatures and planeswalkers on the bottom of their owner's library.
@@ -116,7 +116,7 @@ card_brilliant_ash:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Exile target creature. Its controller creates two tapped rubbish tokens.
     flavor_text: "You are the Ashen One… Bear the curse, and be unkindled no longer."
@@ -132,7 +132,7 @@ card_carim_guardian:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
     flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
@@ -150,7 +150,7 @@ card_catacomb_blacksmith:
     type: "Creature"
     sub: "Skeleton"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
       Exile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.
@@ -170,7 +170,7 @@ card_channeler_servant:
     type: "Creature"
     sub: "Wizard"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Vigilance, lifelink
       Creatures you control get +0/+2.
@@ -190,7 +190,7 @@ card_divine_tome_of_carim:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
       Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)
@@ -207,7 +207,7 @@ card_divine_will:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       All nonwhite creatures get -1/-1.
       Cycling {W} ({W}, Discard this card: Draw a card.)
@@ -243,7 +243,7 @@ card_flickering_phantoms:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Whenever you discard a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
       Cycling {W} ({W}, Discard this card: Draw a card.)
@@ -260,7 +260,7 @@ card_flowing_curse:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       At the beginning of your end step, put a curse counter on ~.
       Creatures gets -1/-1 for each curse counter on ~.
@@ -278,7 +278,7 @@ card_gwyns_divine_justice:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Create twice X 4/4 white Angel creature tokens with flying and lifelink.
       When you cycle ~ create X 1/1 Human creature tokens with lifelink.
@@ -296,7 +296,7 @@ card_kirk_knight_of_thorns:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       When ~ enters the battlefield or is turned face up, each player gets a bleed counter.
@@ -337,7 +337,7 @@ card_lindelt_perseverance:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
       You can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.
@@ -354,7 +354,7 @@ card_lorian_crown_prince:
     type: "Creature"
     sub: "Lord"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Vigilance, haste, protection from sources with plague
       {1}{W}: Exile ~ and up to one other target creature. At the beginning of the next end step, return them to the battlefield under thier owner's control.
@@ -373,7 +373,7 @@ card_lothric_oaths_forsaken:
     type: "Creature"
     sub: "Lord"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Lifelink, protection from sources with plague
       Exile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.
@@ -430,7 +430,7 @@ card_painted_guardian:
     type: "Creature"
     sub: "Human"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       {T}: Creatures you control with bleed can't be the target of spells this turn.
@@ -449,7 +449,7 @@ card_painted_recruiter:
     type: "Creature"
     sub: "Human Cleric"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
       Sacrifice ~: Counter target activated ability an opponent controls.
@@ -468,7 +468,7 @@ card_path_of_the_dragon:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.
     flavor_text: "To be alive is to be vulnerable, and the fiery Gods are no exception."
@@ -484,7 +484,7 @@ card_radiant_blast:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Destroy all artifacts and creatures.
       When you cycle ~ you may destroy target artifact or nonwhite creature.
@@ -502,7 +502,7 @@ card_resplendent_life:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
       Creatures you control get +0/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".
@@ -519,7 +519,7 @@ card_royal_swordsman:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Lifelink
       When ~ enters the battlefield, destroy target artifact or enchantment.
@@ -539,7 +539,7 @@ card_seal_of_the_champions:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library in any order.
     flavor_text: "The Curse dictates you'll keep coming back."
@@ -574,7 +574,7 @@ card_soul_vortex:
     type: "Enchantment"
     sub: "Curse"
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Enchant player
       When ~ or a creature enters the battlefield under your control enchanted  player gets two souls.
@@ -592,7 +592,7 @@ card_spellsword_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Vigilance
       {T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes delayed.
@@ -650,7 +650,7 @@ card_the_way_of_blue:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponenet controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)
     flavor_text: "You're one of us now. We'll be with you in your time of need."
@@ -666,7 +666,7 @@ card_thorolund_shade:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
-    rating: 1
+    rating: 3
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
@@ -686,7 +686,7 @@ card_transient_flicker:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
     flavor_text: "Upon becoming cursed, the undead realized too late, that there are more ghosts on the other side."
@@ -702,7 +702,7 @@ card_transient_prison:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       When ~ enters the battlefield, exile target nonland permanent until ~ leaves the battlefield.
       When you cycle ~ Scry 2 (Look at the top card of your library. You may put that card on the bottom of your library.)
@@ -720,7 +720,7 @@ card_unveil:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 2
+    rating: 3
     rules_text: |
       Turn target facedown permanent face up.
       Cycling {1} ({1}, Discard this card: Draw a card.)
@@ -737,7 +737,7 @@ card_velstadt_the_royal_aegis:
     type: "Planeswalker"
     sub: "Velstadt Lord"
     rarity: "Mythic"
-    rating: 1
+    rating: 3
     rules_text: |
       If one or more tokens would be created under your control, twice that number of tokens are created instead.
       {+1}: Creatures you control get +1/+1 and gain vigilance until the beginning of your next turn.
@@ -757,7 +757,7 @@ card_warriors_of_sunlight:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 1
+    rating: 3
     rules_text: |
       You may exile a white card from your hand rather than pay this spell's mana cost.
       Choose two -
@@ -778,7 +778,7 @@ card_winged_knight:
     type: "Creature"
     sub: "Angel Knight"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       Flying, protection from black and red
       {W}, Discard a card and exile two cards from your graveyard: Prevent all damage a source of your choice would deal to ~ this turn.
