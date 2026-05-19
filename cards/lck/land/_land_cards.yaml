@@ -9,8 +9,8 @@ card_ash_lake:
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
-      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
-      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/91/fe/2a/91fe2af55a584588bdc4bd245f924ef9.jpg"
     artist: "fromsoft"
@@ -40,7 +40,7 @@ card_chamber_of_the_princess:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Plains Swamp"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -58,7 +58,7 @@ card_church_of_yorshka:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Swamp Island"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -76,7 +76,7 @@ card_cleansing_chapel:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Island Mountain"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -88,13 +88,13 @@ card_cleansing_chapel:
     artist: "unknown"
     number: 276
 
-card_crumbled_ruins:
+card_crumbling_ruins:
   front:
-    name: "Crumbled Ruins"
+    name: "Crumbling Ruins"
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Forest Island"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -149,7 +149,7 @@ card_darkroot_basin:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Plains Forest"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -185,7 +185,7 @@ card_demon_ruins:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Mountain Swamp"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -238,7 +238,7 @@ card_dragon_kin_mausoleum:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Mountain Plains"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -345,7 +345,7 @@ card_halfway_fortress:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Forest Mountain"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -381,7 +381,7 @@ card_heides_tower_of_flame:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Plains Island"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -393,9 +393,9 @@ card_heides_tower_of_flame:
     artist: "Servalt"
     number: 293
 
-card_icecracked_crag:
+card_huntsmans_copse:
   front:
-    name: "Icecracked Crag"
+    name: "Huntsman's Copse"
     cost: ""
     super: ""
     type: "Land"
@@ -404,8 +404,8 @@ card_icecracked_crag:
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
-      Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
-      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: |
       ""
     artwork_url: ""
@@ -471,7 +471,7 @@ card_old_wolf_of_farron:
     cost: ""
     super: "Bonfire"
     type: "Land"
-    sub: ""
+    sub: "Swamp Forest"
     rarity: "Uncommon"
     rating: 2
     rules_text: |
@@ -528,7 +528,7 @@ card_the_dreg_heap:
     rarity: "Uncommon"
     rating: 2
     rules_text: |
-      {T}: Add {1} to your mana pool.
+      {T}: Add {W} to your mana pool.
       {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
     flavor_text: |
       The world began without knowledge, and without knowledge will it end.
