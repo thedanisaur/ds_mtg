@@ -1,0 +1,779 @@
+card_aldias_forlorn:
+  front:
+    name: "Aldia's Forlorn"
+    cost: "{2}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Human Assassin"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      Discard a nonland card, pay one soul: Draw a card. Target creature can't block this turn. ~ doesn't untap during your next untap step.
+    flavor_text: "Fiendish stalkers, seeking out Undead for the collection of their souls."
+    artwork_url: "https://i.ibb.co/Q7dz012W/aldias-forlorn-by-charles-espinella-resize.jpg"
+    artist: "Charles Espinella"
+    power: 3
+    toughness: 2
+    number: 134
+
+card_ashen_strike:
+  front:
+    name: "Ashen Strike"
+    cost: "{3}{R}{R}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If an opponent cycled a card this turn, you may pay {R} rather than pay ~'s mana cost.
+      ~ deals 5 damage to any target.
+    flavor_text: "From ancient times, the path of dragon was walked by warriors. It is said they envision Archdragon Peak in the depths meditation, and even hear the distant sound of the great bell."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Glowing-Hot-Fantasy-Edition-30min-spitpaint-841746131"
+    artist: "cobaltplasma"
+    number: 135
+
+card_blitz_hound:
+  front:
+    name: "Blitz Hound"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Hound"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      Whenever ~ attacks exile the top card of your library with a favored counter on it.
+      {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Rubbish token.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/95/d9/fb/95d9fb8258b54cfdb669da1d7fe1e76b.jpg"
+    artist: "Davide Zanini"
+    power: 1
+    toughness: 1
+    number: 136
+
+card_bonewheel:
+  front:
+    name: "Bonewheel"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Skeleton"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      When ~ attacks, sacrifice it at the beginning of the next end step.
+    flavor_text: "Be wary of rolling."
+    artwork_url: "https://i.ibb.co/8L6cFkFM/bonewheel-by-ev-ganin-resize.jpg"
+    artist: "Ev Ganin"
+    power: 3
+    toughness: 1
+    number: 137
+
+card_brume_gate:
+  front:
+    name: "Brume Gate"
+    cost: "{2}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Elemental Wall"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Prevent all damage dealt to and dealt by ~.
+      When ~ dies, search your library for a Lord card and put it onto the battlefield. Shuffle your library.
+    flavor_text: "The wind howls as if mourning, bringing a giant wall of flame along the path of the fallen king."
+    artwork_url: "https://i.pinimg.com/736x/c2/a8/8a/c2a88a77ebae783fd22308220ebf6ce2.jpg"
+    artist: "unknown"
+    power: 0
+    toughness: 3
+    number: 138
+
+card_cathedral_warden:
+  front:
+    name: "Cathedral Warden"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      ~ has double strike as long as it's attacking.
+      {R}: ~ gets +1/+0 until end of turn. Only activate this ability once per turn.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/67cvL4yj/cathedral-warden-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    power: 1
+    toughness: 1
+    number: 139
+
+card_chaos_demon:
+  front:
+    name: "Chaos Demon"
+    cost: "{2}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Demon"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/98/01/bd/9801bd68bd743540143d1290eddf1e26.jpg"
+    artist: "nameless"
+    power: 2
+    toughness: 2
+    number: 140
+
+card_chaos_maggot:
+  front:
+    name: "Chaos Maggot"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Insect"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      ~ enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+      {T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/rG59kgtL/chaos-maggot-by-fromsoft-resize.jpg"
+    artist: "Fromsoft"
+    power: 0
+    toughness: 1
+    number: 141
+
+card_cleansing_orb:
+  front:
+    name: "Cleansing Orb"
+    cost: "{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Choose target creature or planeswalker. You get two souls, then you may pay any amount of souls. ~ deals that much damage to that creature or planeswalker.
+    flavor_text: "Souls of the lost are never destoryed only splintered and gathered again."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Rimefire-Bolt-556704695"
+    artist: "cobaltplasma"
+    number: 142
+
+card_corrosive_egg_insect:
+  front:
+    name: "Corrosive Egg Insect"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Insect"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Flying, bleed
+      {X}{R}, {T}, Sacrifice ~: Destroy target artifact with mana value less than or equal to 2 plus X.
+    flavor_text: "The corrosive acid clouds emitted on takeoff can shatter weapons and armor in seconds, leaving you defenseless."
+    artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/ab/16070961845_5042a9e9b0_o.jpg/revision/latest/scale-to-width-down/1000?cb=20150203102625"
+    artist: "fromsoft"
+    power: 2
+    toughness: 3
+    number: 143
+
+card_corrosive_organics:
+  front:
+    name: "Corrosive Organics"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If the target of this spell would be put into the graveyard this turn, its controller gets three bleed counters.
+      Choose one -
+        • ~ deals 3 damage to target creature or planeswalker.
+        • Destroy target artifact.
+    flavor_text: "Even the stench is enough to melt flesh."
+    artwork_url: "https://i.pinimg.com/736x/74/b4/de/74b4def3830895d5c192ec834907a822.jpg"
+    artist: "Ashura Muzas"
+    number: 144
+
+card_corrosive_slime:
+  front:
+    name: "Corrosive Slime"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Ooze"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      {1}, Sacrifice ~: Target player gets two souls.
+      When ~ goes to the graveyard from the battlefield choose one -
+        • ~ deals 2 damage to target creature or planeswalker.
+        • Destroy target colorless nonland permanent.
+    flavor_text: "A strange, gelatinous life form. They may be small, but are relentless as absorb everything in their path."
+    artwork_url: "https://i.pinimg.com/736x/cf/23/b6/cf23b6316dd61269ea41e53680e5ed62.jpg"
+    artist: "WOTC"
+    power: 1
+    toughness: 3
+    number: 145
+
+card_crimson_wyvern:
+  front:
+    name: "Crimson Wyvern"
+    cost: "{1}{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Drake"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Flying, bleed
+      When ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.
+      When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/Nd2b7q4c/crimson-wyvern-by-unknown-resize.jpg"
+    artist: "unknown"
+    power: 3
+    toughness: 3
+    number: 146
+
+card_deflecting_whipsers:
+  front:
+    name: "Deflecting Whipsers"
+    cost: "{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Change the target of target spell with another target. You get two souls.
+    flavor_text: "The soft incantation of pyromancy will always protect you in your time of need."
+    artwork_url: "https://i.pinimg.com/736x/9b/bb/7f/9bbb7f6a4ca66439076374cbff5ec1d9.jpg"
+    artist: "Marcin Fedec"
+    number: 147
+
+card_devout_of_the_deep:
+  front:
+    name: "Devout of the Deep"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      {T}, Sacrifice ~: ~ deals 5 damage to target creature.
+    flavor_text: "After Aldrich left for the Boreal valley, Archdeacon Royce remained in the cathedral with the high priests, to keep eternal watch over their master's coffin. These devoutees' are willing to sacrifice themselves to protect the cathedral and the high priests."
+    artwork_url: "https://i.ibb.co/B2D6x1R3/devout-of-the-deep-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    power: 1
+    toughness: 1
+    number: 148
+
+card_fiery_tome_of_carthus:
+  front:
+    name: "Fiery Tome of Carthus"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: "Fragment"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Search your library for a card, put it into your hand, and then discard a card at random. Shuffle your library.
+      Fragment {R} - While searching your library, you may reveal this card from your library. If you do, each player sacrifices a permanent. (Only activate one fragment ability per search.)
+    flavor_text: "The home of Pyromancy, Izalith, was scorched by the very fire it created."
+    artwork_url: "https://i.pinimg.com/736x/94/55/d0/9455d057ae13cb7a4784d89fcbd9899f.jpg"
+    artist: "Tae Merenda"
+    number: 149
+
+card_fire_tempest:
+  front:
+    name: "Fire Tempest"
+    cost: "{1}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Choose one. if this card's madness cost was paid, choose two instead -
+      • ~ deals 3 damage to each opponent.
+      • ~ deals 4 damage to target creature or planeswalker.
+      • Draw a card then discard a card.
+      Madness Sacrifice a land. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/655029481_18118218958619007_4790409330496859190_n.webp?_nc_cat=108&ig_cache_key=MzMxNDk1OTY1MTM4NjIyMzEyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=5Ox1LKsnT7QQ7kNvwHa9Kh3&_nc_oc=AdqxcVaDL2TYeQcFcxaaiZhM3CI1fCeiyjGu7MddhWC6aipstS1puEZa1-FM5AVJsTU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_gid=2rCvp_1kvMcCm7r5B7TEsQ&_nc_ss=7a22e&oh=00_Af6Smdv2RXw6eNURHwUoxuC_S9bkV11l6fkG_gHs45YH9A&oe=6A0F2AB1"
+    artist: "aiden_td"
+    number: 150
+
+card_flame_swathe:
+  front:
+    name: "Flame Swathe"
+    cost: "{X}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ deals X damage to each creature without flying. You get one soul for each creature that died this way.
+      If at least {R}{R}{R} was spent to cast ~ destroy all artifacts. You get one soul for each artifact put into the graveyard this way.
+    flavor_text: "Straid, always immersed in magic, never accepted an apprentice. As a result, much of his extensive knowledge is permanently lost."
+    artwork_url: "https://i.ibb.co/1GkQQ6Pf/flame-swathe-by-sean-madridista-resize.jpg"
+    artist: "Sean Madridista"
+    number: 151
+
+card_flamebourne_captain:
+  front:
+    name: "Flamebourne Captain"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever ~ is exiled from your hand or you cast a spell from exile, create a 1/1 colorless Hollow creature token.
+      Delayed {R} (You may pay {R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/rRVn84Kn/flamebourne-captain-by-christobal-resize.jpg"
+    artist: "Christobal"
+    power: 1
+    toughness: 1
+    number: 152
+
+card_flaming_golem:
+  front:
+    name: "Flaming Golem"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Golem"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever a creature you control attacks, exile the top card of your library with a luck counter on it.
+      {T}: Put a card you own in exile with a luck counter on it into your hand.
+    flavor_text: "The Golem's see the flame flicking ahead of them. It would be wise to listen."
+    artwork_url: "https://i.ibb.co/prPVsPjn/flaming-golem-by-conor-burke-resize.jpg"
+    artist: "Conor Burke"
+    power: 0
+    toughness: 2
+    number: 153
+
+card_generous_sunlight:
+  front:
+    name: "Generous Sunlight"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Discard a card or sacrifice a land. Target player draws two cards and gets two souls.
+      Delayed {R}{R} (You may pay {R}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: "Ah! I see it! The sunlight! It glows in your eyes! Truly, you are a child of the sun!"
+    artwork_url: "https://i.ibb.co/Y4zGH6sd/generous-sunlight-by-darksoulsguy-resize.jpg"
+    artist: "darksoulsguy"
+    number: 154
+
+card_gyrm_warrior:
+  front:
+    name: "Gyrm Warrior"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Human"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      Whenever a card goes to your graveyard, ~ gets +1/+1 until end of turn and you get one soul.
+    flavor_text: "Most Gyrm descendants refuse contact with outsiders, and live with a sense of deep contempt for those who exiled them."
+    artwork_url: "https://i.pinimg.com/736x/78/d3/2a/78d32a9251d63657cdfc53ade16fbbd4.jpg"
+    artist: "fromsoft"
+    power: 1
+    toughness: 2
+    number: 155
+
+card_lightning_urn:
+  front:
+    name: "Lightning Urn"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      As an additional cost to cast this spell, sacrifice a hollow or artifact.
+      ~ deals 5 damage to any target.
+    flavor_text: "The knights of Lothric have since tamed dragons, but were once hunters of dragons themselves."
+    artwork_url: "https://i.ibb.co/zTVC2Xnk/lightning-urn-by-mythic-grove-resize.jpg"
+    artist: "Mythic Grove"
+    number: 156
+
+card_lost_spell_from_izalith:
+  front:
+    name: "Lost Spell from Izalith"
+    cost: "{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You get two souls, then you may pay any number of souls.
+      Destroy all artifacts with mana value less than or equal to the number of souls you paid as you cast ~.
+    flavor_text: "The flames of chaos burn with the essence of Izalith, corrupting all who wield them."
+    artwork_url: "https://i.pinimg.com/736x/ed/21/be/ed21be439e4c71054db5482fc8db0d66.jpg"
+    artist: "Ambrunzonello"
+    number: 157
+
+card_masked_manikin:
+  front:
+    name: "Masked Manikin"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker.
+      Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/tpTYx1GV/masked-manikin-by-steve-sykes-resize.jpg"
+    artist: "Steve Sykes"
+    power: 2
+    toughness: 2
+    number: 158
+
+card_menacing_thief:
+  front:
+    name: "Menacing Thief"
+    cost: "{1}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Rogue"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a luck counter on it.
+      {R}, {T}: You may play a card in exile with a luck counter on it. If you don't ~ deals 1 damage to any target.
+      Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\apply.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/hxBfBj2D/menacing-thief-by-unknown-resize.jpg"
+    artist: "unknown"
+    power: 2
+    toughness: 2
+    number: 159
+
+card_preeminent_giant:
+  front:
+    name: "Preeminent Giant"
+    cost: "{3}{R}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Giant"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
+      Madness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/whpf7CFS/preeminent-giant-by-hogpodge-resize.jpg"
+    artist: "Hogpodge"
+    power: 5
+    toughness: 5
+    number: 160
+
+card_raise_the_sloughtender:
+  front:
+    name: "Raise the Sloughtender"
+    cost: "{1}{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Create a X/X red Hollow creature token where X is the number of noncreature nonland cards in your graveyard. It has haste and "{R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target."
+    flavor_text: "A hulking mass of rotten ash, it lumbers the hillsides in search of its victims."
+    artwork_url: "https://i.pinimg.com/736x/cc/f6/5c/ccf65c999aa9705cd301dfef35711720.jpg"
+    artist: "Maxi Call"
+    number: 161
+
+card_rosarias_fingers:
+  front:
+    name: "Rosaria's Fingers"
+    cost: "{R}{R}{R}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 1
+    rules_text: |
+      You may exile a red card from your hand rather than pay this spell's mana cost.
+      Choose two -
+      • ~ deals 5 damage to each creature.
+      • Destroy up to two target lands.
+      • Exile target permanent. The controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
+      • Each player discards their hand and draws 7 cards.
+    flavor_text: "Come on, give yourself to Rosaria"
+    artwork_url: "https://i.pinimg.com/736x/60/55/5c/60555c7deead28777c8a8483cad95a07.jpg"
+    artist: "fromsoft"
+    number: 162
+
+card_scream_of_defiance:
+  front:
+    name: "Scream of Defiance"
+    cost: "{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Counter target blue or white spell unless its controller pays {2}. If a card went to your graveyard this turn counter that spell instead.
+    flavor_text: "With a shriek the body is transformed to iron, granting defense against incoming assault."
+    artwork_url: "https://i.ibb.co/pqt8517/scream-of-defiance-by-unknown-resize.jpg"
+    artist: "unknown"
+    number: 163
+
+card_screeching_undead:
+  front:
+    name: "Screeching Undead"
+    cost: "{3}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Trample
+      Whenever a card goes to your graveyard, ~ gets +X/+0 until end of turn, where X is that card's mana value.
+    flavor_text: "Their wails echo through the hollows… heed them, or join their chorus."
+    artwork_url: "https://i.ibb.co/pB1NFYQR/screeching-undead-by-jennie-wilson-resize.jpg"
+    artist: "Jennie Wilson"
+    power: 0
+    toughness: 5
+    number: 164
+
+card_shaded_scorpion:
+  front:
+    name: "Shaded Scorpion"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Haste
+      {1}, {T}: Create a Rubbish token.
+      Whenever a Rubbish token you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.
+    flavor_text: "Our master created us long, long ago. He was born with a fatal flaw. He resented those who had what he lacked, and became mired in hatred."
+    artwork_url: "https://i.pinimg.com/736x/0c/b8/ae/0cb8ae08fa46eabd8687844b178f4d9b.jpg"
+    artist: "Fromsoft"
+    power: 0
+    toughness: 1
+    number: 165
+
+card_shimmering_void:
+  front:
+    name: "Shimmering Void"
+    cost: "{R}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      The next noncreature spell you cast this turn can't be countered. You get two souls.
+      Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+    flavor_text: "A shimmering coating that Bishop Havel developed to counter magicians so proficiently that he could withstand any of their attacks."
+    artwork_url: "https://i.ibb.co/fYvdPbhf/shimmering-void-by-rodrigo-rizo-resize.jpg"
+    artist: "Rodrigo Rizo"
+    number: 166
+
+card_smelter_demon:
+  front:
+    name: "Smelter Demon"
+    cost: "{3}{R}{R}"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Demon Lord"
+    rarity: "Mythic"
+    rating: 1
+    rules_text: |
+      ~ can't be countered.
+      Whenever ~ is dealt damage by a creature, if that creature is not white put two -1/-1 counters on that creature.
+      {+1}: ~ deals 2 damage to each opponent. Those players can't gain life until the end of your next turn.
+      {-X}: ~ deals X damage to each creature and each other planeswalker.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/3mft5qTm/smelter-demon-by-inkyh-resize.jpg"
+    artist: "inkyh"
+    loyalty: 4
+    number: 167
+
+card_smoldering_idolatry:
+  front:
+    name: "Smoldering Idolatry"
+    cost: "{2}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Play with the top card of your library revealed, you may play lands and cast spells from the top of your library.
+      You can't play lands or cast spells from your hand.
+      Pay one soul: Exile the top card of your library.
+    flavor_text: "As surely as you lose your souls, you will lose your mind."
+    artwork_url: "https://i.pinimg.com/736x/1d/c5/ff/1dc5ffc88dab9ebd2e2a4825ad029820.jpg"
+    artist: "HM"
+    number: 168
+
+card_soothing_chant:
+  front:
+    name: "Soothing Chant"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.
+      Spells you control can't be countered this turn. Draw two cards, discard a card, and get two souls.
+    flavor_text: "An ancient song to lull a great demon into an eternal slumber."
+    artwork_url: "https://i.ibb.co/RT29Qcq4/soothing-chant-by-tanya-shatseva-resize.jpg"
+    artist: "Tanya Shatseva"
+    number: 169
+
+card_soul_of_a_kindled_conjurer:
+  front:
+    name: "Soul of a Kindled Conjurer"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      When ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Rubbish token.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/The-Lair-of-the-imagination-527071674"
+    artist: "Luis Bello"
+    color_indicator: "{R}"
+    number: 170
+
+card_splintering_bolt:
+  front:
+    name: "Splintering Bolt"
+    cost: "{1}{R}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If you didn't go first, ~ costs {1} less to cast.
+      ~ deals 3 damage divided as you choose to up to three targets.
+    flavor_text: "An adept cleric may conjure these bolts harnessing the immense power of the Soul of the Lord of Light."
+    artwork_url: "https://i.pinimg.com/736x/d9/b3/06/d9b306122f489d606f6e11dcaa68c008.jpg"
+    artist: "Wylliam Judd"
+    number: 171
+
+card_sulyvahns_fiend:
+  front:
+    name: "Sulyvahn's Fiend"
+    cost: "{3}{R}"
+    super: ""
+    type: "Creature"
+    sub: "Beast"
+    rarity: "Rare"
+    rating: 2
+    rules_text: |
+      Haste, bleed
+      {T}, pay two souls: Deal 2 damage to target creature or planeswalker.
+    flavor_text: "The beasts roaming Sulyvahn's territory are more than mere animals. They are infused with the Pontiff's dark will, acting with purpose and deadly precision."
+    artwork_url: "https://i.ibb.co/Ps8RXBPF/sulyvahns-fiend-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    power: 4
+    toughness: 3
+    number: 172
+
+card_torturous_demon:
+  front:
+    name: "Torturous Demon"
+    cost: "{2}{R}"
+    super: ""
+    type: "Creature"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ can't be blocked except by two or more creatures.
+      {R}: ~ gets +1/+0 until end of turn. You get one soul.
+    flavor_text: "These wicked Torturers don't wield conventional weapons - their implements are intended to inflict pain upon their Undead victims rather than death."
+    artwork_url: "https://i.ibb.co/Ng0YYXbR/torturous-demon-by-amandinha-resize.jpg"
+    artist: "Amandinha"
+    power: 0
+    toughness: 3
+    number: 173
+
+card_volgen_falconer:
+  front:
+    name: "Volgen Falconer"
+    cost: "{R}"
+    super: ""
+    type: "Creature"
+    sub: "Human Bird"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
+      As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
+      Soullink 3
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/cKhFKHHX/volgen-falconer-by-ivyalive-resize.jpg"
+    artist: "ivyalive"
+    power: 1
+    toughness: 1
+    number: 174
+
+card_winged_fortune_kalameet:
+  front:
+    name: "Winged Fortune, Kalameet"
+    cost: "{2}{R}{R}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Dragon"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)
+      When ~ enters the battlefield exile the top three cards of your library with a favored counter on each of them.
+      Whenever ~ deals combat damage to a player, you may play a card you own in exile with a favored counter on it until end of turn. (You still pay its costs.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/3mTDmTp6/winged-fortune-by-rikito-resize.jpg"
+    artist: "rikito"
+    power: 4
+    toughness: 4
+    number: 175

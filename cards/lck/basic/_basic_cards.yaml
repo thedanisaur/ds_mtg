@@ -1,62 +1,4 @@
-card_plains:
-  front:
-    name: "Plains"
-    cost: ""
-    super: "Basic"
-    type: "Land"
-    sub: "Plains"
-    rarity: "Common"
-    rating: 0
-    rules_text: ""
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/LXh9f4Vg/plains-by-fromsoft-resize.jpg"
-    artist: "fromsoft"
-    number: 256
 
-card_island:
-  front:
-    name: "Island"
-    cost: ""
-    super: "Basic"
-    type: "Land"
-    sub: "Island"
-    rarity: "Common"
-    rating: 0
-    rules_text: ""
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/whpZhXQR/island-by-fromsoft-resize.jpg"
-    artist: "fromsoft"
-    number: 257
-
-card_swamp:
-  front:
-    name: "Swamp"
-    cost: ""
-    super: "Basic"
-    type: "Land"
-    sub: "Swamp"
-    rarity: "Common"
-    rating: 0
-    rules_text: ""
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/nqX905r5/swamp-by-fromsoft-resize.jpg"
-    artist: "fromsoft"
-    number: 258
-
-card_mountain:
-  front:
-    name: "Mountain"
-    cost: ""
-    super: "Basic"
-    type: "Land"
-    sub: "Mountain"
-    rarity: "Common"
-    rating: 0
-    rules_text: ""
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/9m4pMFZx/mountain-by-fromsoft-resize.jpg"
-    artist: "fromsoft"
-    number: 259
 
 card_forest:
   front:
@@ -71,7 +13,67 @@ card_forest:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/0yzGSRgg/forest-by-fromsoft-resize.jpg"
     artist: "fromsoft"
-    number: 260
+    number: 319
+
+card_island:
+  front:
+    name: "Island"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Island"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/whpZhXQR/island-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 320
+
+card_mountain:
+  front:
+    name: "Mountain"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Mountain"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/9m4pMFZx/mountain-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 321
+
+card_plains:
+  front:
+    name: "Plains"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Plains"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/LXh9f4Vg/plains-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 322
+
+card_swamp:
+  front:
+    name: "Swamp"
+    cost: ""
+    super: "Basic"
+    type: "Land"
+    sub: "Swamp"
+    rarity: "Common"
+    rating: 0
+    rules_text: ""
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/nqX905r5/swamp-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 323
 
 card_wastes:
   front:
@@ -86,4 +88,4 @@ card_wastes:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/H0bkkGc/wastes-by-fromsoft-resize.jpg"
     artist: "fromsoft"
-    number: 261
+    number: 324

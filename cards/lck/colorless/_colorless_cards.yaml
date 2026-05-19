@@ -1,0 +1,148 @@
+card_aldias_reckoning:
+  front:
+    name: "Aldia's Reckoning"
+    cost: "{7}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target nonland permanent. You gain life and get souls equal to that permanent's mana value.
+    flavor_text: "Many monarchs have come and gone. One drowned in poison, another succumbed to flame. Still another slumbers in a realm of ice. Not one of them stood here, as you do now. You, conqueror of adversities. Give us your answer."
+    artwork_url: "https://i.pinimg.com/736x/aa/a5/58/aaa5585a2069b7b371d786e73b2cb3f8.jpg"
+    artist: "Than Pho"
+    number: 1
+
+card_olaphis_statue:
+  front:
+    name: "Olaphis Statue"
+    cost: "{1}"
+    super: "Legendary"
+    type: "Artifact"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      ~ enters the battlefield with 5 curse counters on it.
+      When ~ has no curse counters on it, transform it.
+      {T}, Remove a curse from ~: Put a curse counter on target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."
+    flavor_text: ""
+    artist_url: "https://i.pinimg.com/736x/9b/78/1d/9b781da4eab4275adaa802519591b9db.jpg"
+    artist: "Sana"
+    frame: "Double-Faced: Day"
+    number: 2
+  back:
+    name: "Straid of Olaphis"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Wizard"
+    rarity: "Common"
+    rules_text: |
+      Vigilance, lifelink
+      Discard a card: Search your library for a card with the same type, reveal it, and put it into your hand. Shuffle your library.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/G4nhMvbn/straid-of-olaphis-by-kojiko-jienda-resize.jpg"
+    artist: "Kojiko Jienda"
+    power: 5
+    toughness: 5
+    frame: "Double-Faced: Night"
+    color_indicator: ""
+    number: 2
+
+card_praying_hollow:
+  front:
+    name: "Praying Hollow"
+    cost: "{1}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow"
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      When ~ goes to the graveyard, you get one soul.
+      Discard a card: Scry 1. You get one soul.
+      Hollowcycling {1} ({1}, Discard this card: Search your library for a hollow creature card, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text": "All undead will, one day, lose their mind and go Hollow."
+    artwork_url: ""
+    artist: "Niles"
+    power: 1
+    toughness: 1
+    number: 3
+
+card_sinh_the_slumbering_dragon:
+  front:
+    name: "Sinh, the Slumbering Dragon"
+    cost: "{7}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Dragon"
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Flying, vigilance, haste
+      When ~ dies, each player gets seven souls.
+      Sacrifice an artifact: ~ gets +1/+1 and can't be the target of spells or abilities until end of turn.
+    flavor_text": "The King erected a magnificent city, and the dragon slept soundly... until..."
+    artwork_url: "https://cdnb.artstation.com/p/assets/images/images/079/316/647/large/alivewake-asset.jpg?1724592739"
+    artist: "John Hopkins"
+    power: 7
+    toughness: 7
+    number: 4
+
+card_stone_humped_old_hag:
+  front:
+    name: "Stone-Humped Old Hag"
+    cost: "{2}"
+    super: ""
+    type: "Creature"
+    sub: "Hag"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Discard a card: You get souls equal to 1 plus the discarded card's mana value.
+      {2}, {T}: Choose a nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.
+    flavor_text: "Keep your marbles intact, love. At least until I lose mine."
+    artwork_url: "https://i.ibb.co/p6vVn2XS/stone-humped-old-hag-by-richardo-soma-resize.jpg"
+    artist: "Richardo Soma"
+    power: 0
+    toughness: 2
+    number: 5
+
+card_the_pursuer:
+  front:
+    name: "The Pursuer"
+    cost: "{5}"
+    super: "Legendary"
+    type: "Enchantment Creature"
+    sub: "Elemental"
+    rarity: "Common"
+    rating: 0
+    rules_text: |
+      Flying, haste, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
+      When ~ dies, each opponent creates a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1.")
+    flavor_text": ""
+    artwork_url: "https://i.ibb.co/xqjSvYHm/the-pursuer-by-blasemalefica-resize.jpg"
+    artist: "blasemalefica"
+    power: 3
+    toughness: 3
+    number: 6
+
+card_traveling_merchant:
+  front:
+    name: "Traveling Merchant"
+    cost: "{1}"
+    super: ""
+    type: "Creature"
+    sub: "Hag"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      {1}, {T}, pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.
+    flavor_text: "Ohh… Ohh, then it's true… A Champion of Ash, as I live and breathe. Bearer of the Darksign, let your true strength shine..."
+    artwork_url: "https://i.ibb.co/S750DfFn/traveling-merchant-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    power: 1
+    toughness: 1
+    number: 7

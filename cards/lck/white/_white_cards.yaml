@@ -1,0 +1,790 @@
+card_a_call_to_the_ash:
+  front:
+    name: "A Call to the Ash"
+    cost: "{2}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may reveal a white card or a plains from your hand rather than pay this spell's mana cost.
+      For each creature card in all graveyards, create a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
+    flavor_text: "Only in truth the Lords will abandon their thrones and the Unkindled will rise. Nameless accused Undead, unfit even to be cinder."
+    artwork_url: "https://i.pinimg.com/736x/fa/de/90/fade90f5a868d1511a329e1ca616847b.jpg"
+    artist: "unknown"
+    number: 8
+
+card_alonne_knight_captain:
+  front:
+    name: "Alonne Knight Captain"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Whenever ~ becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}
+      Whenever a spell or ability you control would exile a permanent, put a +1/+1 counter on ~.
+    flavor_text: "Far from the east they came, and became the King's most trusted knights."
+    artwork_url: "https://i.ibb.co/0zW3PnD/alonne-knight-captain-by-babilyn-recolor.jpg"
+    artist: "babilyn"
+    power: 2
+    toughness: 2
+    number: 9
+
+card_alonne_phantom:
+  front:
+    name: "Alonne Phantom"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      As an additional cost to cast ~, exile a card from your hand and a card from your graveyard.
+      Flying, vigilance, lifelink
+    flavor_text: "As King Vendrick waged war against the giants many of the easterners fell... but they did not give up their duty."
+    artwork_url: "https://i.pinimg.com/736x/90/27/ff/9027ffd818ee61806e0a3eb4d596d7d2.jpg"
+    artist: "Richardo Soma"
+    power: 4
+    toughness: 4
+    number: 10
+
+card_archdrake_cleric:
+  front:
+    name: "Archdrake Cleric"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Dragon Hollow Cleric"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
+      Whenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.
+    flavor_text: "A number of Lindelt defectors have found their way to Drangleic in an attempt to start new lives, but some have since gone Hollow and become a threat to the living."
+    artwork_url: "https://i.ibb.co/YTbFP7wc/archdrake-cleric-by-jose-fernando-bellavista-resize.jpg"
+    artist: "Jose Fernando Bellavista"
+    power: 2
+    toughness: 2
+    number: 11
+
+card_belltower_knight:
+  front:
+    name: "Belltower Knight"
+    cost: "{2}{W}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance, lifelink
+      When ~ enters the battlefield, create two 1/1 white Human creature tokens on to the battlefield. If a card went to your graveyard this turn, put a +1/+1 counter on each creature you control.
+    flavor_text: "The knights sought the dark soul, but were so soundly crushed, they had little choice but to swear themselves to the Judicator Giant."
+    artwork_url: "https://i.ibb.co/WNK2wftS/belltower-knight-by-ev-ganin-resize.jpg"
+    artist: "Ev Ganin"
+    power: 2
+    toughness: 2
+    number: 12
+
+card_blinding_bolt:
+  front:
+    name: "Blinding Bolt"
+    cost: "{5}{W}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If a creature or planeswalker entered the battlefield under an opponent's control this turn and it wasn't cast, you may pay {W} rather than pay ~'s mana cost.
+      Put all creatures and planeswalkers on the bottom of their owner's library.
+    flavor_text: "The gross incandescence of our magnificent father shall never wane."
+    artwork_url: "https://i.pinimg.com/736x/31/ec/60/31ec60f85511db9164d461064c14773a.jpg"
+    artist: "Christopher Villa Jr"
+    number: 13
+
+card_brilliant_ash:
+  front:
+    name: "Brilliant Ash"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target creature. Its controller creates two tapped rubbish tokens.
+    flavor_text: "You are the Ashen One… Bear the curse, and be unkindled no longer."
+    artwork_url: "https://i.pinimg.com/736x/6a/a4/c3/6aa4c37222bef4685075806a05009503.jpg"
+    artist: "Maximiliano Moretto"
+    number: 14
+
+card_carim_guardian:
+  front:
+    name: "Carim Guardian"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
+    flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
+    artwork_url: "https://i.ibb.co/Z11FNXBr/carim-guardian-drawsouls-resize.jpg"
+    artist: "drawsouls"
+    power: 2
+    toughness: 1
+    number: 15
+
+card_catacomb_blacksmith:
+  front:
+    name: "Catacomb Blacksmith"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Skeleton"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
+      Exile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.
+      Equip costs you pay cost {1} less. If a card went to your graveyard this turn, equipment you control have equip {0}.
+    flavor_text: "Be gone with you! ...You'll spoil my focus."
+    artwork_url: "https://i.ibb.co/xttCSw28/catacomb-blacksmith-by-vorname-nachname-resize.jpg"
+    artist: "Vorname Nachname"
+    power: 1
+    toughness: 3
+    number: 16
+
+card_channeler_servant:
+  front:
+    name: "Channeler Servant"
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Wizard"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance, lifelink
+      Creatures you control get +0/+2.
+      At the beginning of combat, you may pay one soul. If you do, target creature can't attack.
+    flavor_text: "The scholars of the Grand Archives, sorcerers by craft, tend to their candles with a reverence that exceeds the simple burden of labor."
+    artwork_url: "https://i.ibb.co/hJSq0kRG/channeler-servant-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    power: 2
+    toughness: 1
+    number: 17
+
+card_divine_tome_of_carim:
+  front:
+    name: "Divine Tome of Carim"
+    cost: "{1}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Fragment"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
+      Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)
+    flavor_text: "In the Way of White, you don't need eyes to see."
+    artwork_url: "https://i.pinimg.com/736x/de/e5/89/dee589954764ab05fe581cd300999797.jpg"
+    artist: ""
+    number: 18
+
+card_divine_will:
+  front:
+    name: "Divine Will"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      All nonwhite creatures get -1/-1.
+      Cycling {W} ({W}, Discard this card: Draw a card.)
+    flavor_text: "It is said that even after the family's passing, the knights continued to watch over their manor, and the ruined cathedral. "
+    artwork_url: "https://i.ibb.co/wZDVWhSr/divine-will-by-lappland-resize.jpg"
+    artist: "lappland"
+    number: 19
+
+card_dragon_acolyte:
+  front:
+    name: "Dragon Acolyte"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      Lifelink
+      At the beginning of each end step, create a 1/1 white Human creature token for each card that went to your graveyard this turn.
+    flavor_text: "Several of the greatest minds converged in Aldia to weave strange new rituals, but rumors suggest that during the course of their work their thoughts were not their own."
+    artwork_url: "https://i.ibb.co/YFzd7szq/dragon-acolyte-by-woidc-resize.jpg"
+    artist: "woidc"
+    power: 2
+    toughness: 2
+    number: 20
+
+card_flickering_phantoms:
+  front:
+    name: "Flickering Phantoms"
+    cost: "{1}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Whenever you discard a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
+      Cycling {W} ({W}, Discard this card: Draw a card.)
+    flavor_text: "In and out of reality they manifest, to take whom they like."
+    artwork_url: "https://i.pinimg.com/736x/e6/c4/be/e6c4be367e10cfeb97ea9771b81f7b6a.jpg"
+    artist: "Millie"
+    number: 21
+
+card_flowing_curse:
+  front:
+    name: "Flowing Curse"
+    cost: "{1}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      At the beginning of your end step, put a curse counter on ~.
+      Creatures gets -1/-1 for each curse counter on ~.
+      When there are no creatures on the battlefield, sacrifice this enchantment.
+    flavor_text: "The Darksign brands the Undead. Their fate is never-ending. The curse… it is inevitable."
+    artwork_url: "https://i.pinimg.com/736x/f0/d8/51/f0d851b16c802c1691f83d71fddad88d.jpg"
+    artist: "jonasz"
+    number: 22
+
+card_gwyns_divine_justice:
+  front:
+    name: "Gwyn's Divine Justice"
+    cost: "{X}{X}{2}{W}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Create twice X 4/4 white Angel creature tokens with flying and lifelink.
+      When you cycle ~ create X 1/1 Human creature tokens with lifelink.
+      Cycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)
+    flavor_text: "You must keep your soul pure… for without it, even miracles cannot protect you."
+    artwork_url: "https://i.ibb.co/6Jvwkxn9/gwyns-divine-justice-by-illjarlli-resize.jpg"
+    artist: "Ill Jarlli"
+    number: 23
+
+card_kirk_knight_of_thorns:
+  front:
+    name: "Kirk, Knight of Thorns"
+    cost: "{2}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      When ~ enters the battlefield or is turned face up, each player gets a bleed counter.
+      If ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/7JvHrcGC/kirk-knight-of-thorns-by-nicola-resize.jpg"
+    artist: "nicola"
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Day"
+    color_indicator: "{W}"
+    number: 24
+  back:
+    name: "Kirk, Servant of Chaos"
+    cost: ""
+    super: "Legendary"
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Common"
+    rules_text: |
+      First strike, bleed
+      When ~ enters the battlefield, each player gets a bleed counter.
+      Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/mVtn1zST/kirk-servant-of-chaos-onestepart-resize.jpg"
+    artist: "onestepart"
+    power: 3
+    toughness: 3
+    frame: "Double-Faced: Night"
+    color_indicator: "{R}"
+    number: 24
+
+card_lindelt_perseverance:
+  front:
+    name: "Lindelt Perseverance"
+    cost: "{2}{W}"
+    super: ""
+    type: "Instant"
+    sub: "Trap"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
+      You can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/jameszapata/art/Elite-Arcanist-382084836"
+    artist: "artdeepmind"
+    number: 25
+
+card_lorian_crown_prince:
+  front:
+    name: "Lorian, Crown Prince"
+    cost: "{3}{W}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Lord"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Vigilance, haste, protection from sources with plague
+      {1}{W}: Exile ~ and up to one other target creature. At the beginning of the next end step, return them to the battlefield under thier owner's control.
+    flavor_text: "Before Lorian embraced his brother's curse, he was a knight who slayed the demon prince, but the victory eternally scorched his sword with flame."
+    artwork_url: "https://i.ibb.co/XrTqbK5H/lorian-crown-prince-by-nvt-resize.jpg"
+    artist: "NVT"
+    power: 5
+    toughness: 5
+    number: 26
+
+card_lothric_oaths_forsaken:
+  front:
+    name: "Lothric, Oath's Forsaken"
+    cost: "{2}{W}{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Lord"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Lifelink, protection from sources with plague
+      Exile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.
+    flavor_text: "Young Lothric was meant to be a champion, but some things will remain distant dreams."
+    artwork_url: "https://i.ibb.co/ZpPcgNNg/lothric-oaths-forsaken-by-nameless-resize.jpg"
+    artist: "nameless"
+    power: 3
+    toughness: 4
+    number: 27
+
+card_lucatiel_of_mirrah:
+  front:
+    name: "Lucatiel of Mirrah"
+    cost: "{W}"
+    super: "Legendary"
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      ~ can't be blocked and if she would be the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}.
+      If a player would draw a card except for the first one in their draw step, they put a card from their hand on top of their library instead.
+    flavor_text: "My name is Lucatiel. I beg of you, remember my name. For I may not myself..."
+    artwork_url: "https://i.ibb.co/QvDPYQXG/lucatiel-of-mirrah-by-buried-in-embers-resize.jpg"
+    artist: "Buried In Embers"
+    power: 2
+    toughness: 1
+    number: 28
+
+card_mirrah_exile:
+  front:
+    name: "Mirrah Exile"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Knight"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      First strike, bleed
+      If a player would would search their library, they search the top 4 cards of their library instead.
+    flavor_text: "Elder brother of Lucatiel of Mirrah, known as Mirrah's greatest swordsmen, though afflicted by the Curse, set out in search of a cure. He was never heard from again and his fate and whereabouts were unknown - until now…"
+    artwork_url: "https://i.pinimg.com/736x/e6/c3/86/e6c386a4138780df0607fdcf581f50f6.jpg"
+    artist: "Giorgi Tsikarishvili"
+    power: 2
+    toughness: 1
+    number: 29
+
+card_painted_guardian:
+  front:
+    name: "Painted Guardian"
+    cost: "{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      {T}: Creatures you control with bleed can't be the target of spells this turn.
+    flavor_text: "The painted world itself is a refuge, the work of an unknown artist. It depicts a world left to rot and decay."
+    artwork_url: "https://i.ibb.co/DPxGgkRw/painted-guardian-by-hannah-shaw-resize.jpg"
+    artist: "Hannah Shaw"
+    power: 2
+    toughness: 1
+    number: 30
+
+card_painted_recruiter:
+  front:
+    name: "Painted Recruiter"
+    cost: "{1}{W}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Human Cleric"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+      Sacrifice ~: Counter target activated ability an opponent controls.
+    flavor_text: "The hunchbacked teller of ancient tales describes unwanted souls who are unwelcome across the lands."
+    artwork_url: "https://i.pinimg.com/736x/c9/93/0d/c9930d31fa5873005ebbb975fb53bdca.jpg"
+    artist: "unknown"
+    power: 3
+    toughness: 3
+    number: 31
+
+card_path_of_the_dragon:
+  front:
+    name: "Path of the Dragon"
+    cost: "{1}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.
+    flavor_text: "To be alive is to be vulnerable, and the fiery Gods are no exception."
+    artwork_url: "https://i.ibb.co/ynWwkQps/path-of-the-dragon-by-dragon-inside-resize.jpg"
+    artist: "dragon inside"
+    number: 32
+
+card_radiant_blast:
+  front:
+    name: "Radiant Blast"
+    cost: "{3}{W}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Destroy all artifacts and creatures.
+      When you cycle ~ you may destroy target artifact or nonwhite creature.
+      Cycling {1}{W} ({W}, Discard this card: Draw a card.)
+    flavor_text: "Ironic, a cleric's most sacred spell... a primal, powerful, shockwave."
+    artwork_url: "https://i.pinimg.com/736x/df/1d/b2/df1db2cbfa36a18ffac7864fcc029675.jpg"
+    artist: "dzasrock"
+    number: 33
+
+card_resplendent_life:
+  front:
+    name: "Resplendent Life"
+    cost: "{1}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You may cast ~ any time you could cast an instant.
+      Creatures you control get +0/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".
+    flavor_text: "Cleric Forsalle of Lindelt was a master of miracles who fought battles across the lands. His allies called him a holy knight, but his enemies feared him for his demonic powers."
+    artwork_url: "https://i.ibb.co/vCx7WGF0/resplendent-life-by-cosmic-resize.jpg"
+    artist: "cosmic"
+    number: 34
+
+card_royal_swordsman:
+  front:
+    name: "Royal Swordsman"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Lifelink
+      When ~ enters the battlefield, destroy target artifact or enchantment.
+      {W}, {T}: Draw a card, then each opponent may draw a card. If at least one does, sacrifice ~ and you draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/KxC4ZZGq/royal-swordsman-by-unknown-resize.jpg"
+    artist: "unknown"
+    power: 2
+    toughness: 1
+    number: 35
+
+card_seal_of_the_champions:
+  front:
+    name: "Seal of the Champions"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library in any order.
+    flavor_text: "The Curse dictates you'll keep coming back."
+    artwork_url: "https://i.ibb.co/Xf1Lk7tF/seal-of-the-champions-by-unknown-resize.jpg"
+    artist: "unknown"
+    number: 36
+
+card_soul_of_a_weary_warrior:
+  front:
+    name: "Soul of a Weary Warrior"
+    cost: ""
+    super: ""
+    type: "Enchantment"
+    sub: "Soul"
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
+      When ~ enters the battlefield you may pay {1}{W}. If you do, destroy target land. Then add one mana of any kind that land could produce to your mana pool.
+      Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/luis-bello/art/Just-look-831845331"
+    artist: "Luis Bello"
+    color_indicator: "{W}"
+    number: 37
+
+card_soul_vortex:
+  front:
+    name: "Soul Vortex"
+    cost: "{W}"
+    super: ""
+    type: "Enchantment"
+    sub: "Curse"
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Enchant player
+      When ~ or a creature enters the battlefield under your control enchanted  player gets two souls.
+      Sacrifice ~: Each defending player loses X life and you gain X life where X is the number of souls that player has. Activate only during combat and only if you attacked with 5 or more creatures this turn.
+    flavor_text: ""
+    artwork_url: "https://i.pinimg.com/736x/92/ee/eb/92eeebadf747da55975b2333c455cae6.jpg"
+    artist: "Douyin"
+    number: 38
+
+card_spellsword_knight:
+  front:
+    name: "Spellsword Knight"
+    cost: "{1}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Vigilance
+      {T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes delayed.
+    flavor_text: "Oceiros, the Consumed King, was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moon-Blade-862542744"
+    artist: "cobaltplasma"
+    power: 2
+    toughness: 1
+    number: 39
+
+card_sweet_shalquoir_progeny:
+  front:
+    name: "Sweet Shalquoir Progeny"
+    cost: "{W}"
+    super: ""
+    type: "Creature"
+    sub: "Cat"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      Noncreature spells cost {1} more to cast.
+      {T}, Pay three souls: Search your library for an artifact card with mana value 2 or less, reveal it, and put it into your hand. Shuffle your library.
+    flavor_text: "Oh, Undead, are we? And without much time. Not exactly the time to be chatting with a cat! "
+    artwork_url: "https://i.ibb.co/gMR31R7k/sweet-shalquoir-by-unknown-resize.jpg"
+    artist: "M.M."
+    power: 1
+    toughness: 1
+    number: 40
+
+card_sword_master:
+  front:
+    name: "Sword Master"
+    cost: "{2}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Hollow Samurai"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      First strike, bleed
+      Discard a card: ~ gains protection from the color of your choice until end of turn.
+    flavor_text: "My sixth sense warned me of danger, and I danced between flurries of blades, unscathed"
+    artwork_url: "https://i.pinimg.com/736x/53/41/6a/53416a4d07969b21b7b9c69e9f5f27d1.jpg"
+    artist: "Martimccduarte"
+    power: 3
+    toughness: 1
+    number: 41
+
+card_the_way_of_blue:
+  front:
+    name: "The Way of Blue"
+    cost: "{1}{W}"
+    super: ""
+    type: "Sorcery"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponenet controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)
+    flavor_text: "You're one of us now. We'll be with you in your time of need."
+    artwork_url: "https://i.ibb.co/q3DqHdhC/the-way-of-blue-by-unknown-resize.jpg"
+    artist: "unknown"
+    number: 42
+
+card_thorolund_shade:
+  front:
+    name: "Thorolund Shade"
+    cost: "{W}"
+    super: ""
+    type: "Creature"
+    sub: "Spirit"
+    rarity: "Common"
+    rating: 1
+    rules_text: |
+      You may cast this spell any time you could cast an instant.
+      Shadow (This creature can block or be blocked by only creatures with shadow.)
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+    flavor_text: "Carry these prayers with you… we cannot. The spirits of Thorolund are lost."
+    artwork_url: "https://i.ibb.co/HfP1WkvL/thorolund-shade-by-matheus-graef-resize.jpg"
+    artist: "Matheus Graef"
+    power: 1
+    toughness: 1
+    number: 43
+
+card_transient_flicker:
+  front:
+    name: "Transient Flicker"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
+    flavor_text: "Upon becoming cursed, the undead realized too late, that there are more ghosts on the other side."
+    artwork_url: "https://i.ibb.co/ns8MJcLf/transient-flicker-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
+    number: 44
+
+card_transient_prison:
+  front:
+    name: "Transient Prison"
+    cost: "{2}{W}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      When ~ enters the battlefield, exile target nonland permanent until ~ leaves the battlefield.
+      When you cycle ~ Scry 2 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
+    flavor_text: "The depths of the mind can be an awful place."
+    artwork_url: "https://i.pinimg.com/736x/ae/93/16/ae9316f4d4a9d5e277fb54e43c3d054d.jpg"
+    artist: "Ev Ganin"
+    number: 45
+
+card_unveil:
+  front:
+    name: "Unveil"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Common"
+    rating: 2
+    rules_text: |
+      Turn target facedown permanent face up.
+      Cycling {1} ({1}, Discard this card: Draw a card.)
+    flavor_text: "Those who serve the Lindelt Monastery willfully adhere to strict commandments. This miracle castigates those who ignore the righteous teachings."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Walk-In-The-Dark-30min-spitpaint-893507747"
+    artist: "cobaltplasma"
+    number: 46
+
+card_velstadt_the_royal_aegis:
+  front:
+    name: "Velstadt, the Royal Aegis"
+    cost: "{3}{W}{W}"
+    super: "Legendary"
+    type: "Planeswalker"
+    sub: "Velstadt Lord"
+    rarity: "Mythic"
+    rating: 1
+    rules_text: |
+      If one or more tokens would be created under your control, twice that number of tokens are created instead.
+      {+1}: Creatures you control get +1/+1 and gain vigilance until the beginning of your next turn.
+      {0}: Create two 1/1 white creature tokens named Royal Guard.
+      {-3}: Exile target artifact, enchantment, or tapped creature.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/ycYrpVgd/velstadt-the-royal-aegis-by-menaslg-resize.jpg"
+    artist: "menaslg"
+    loyalty: 4
+    number: 47
+
+card_warriors_of_sunlight:
+  front:
+    name: "Warriors of Sunlight"
+    cost: "{W}{W}{W}{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 1
+    rules_text: |
+      You may exile a white card from your hand rather than pay this spell's mana cost.
+      Choose two -
+        • Destroy all lands.
+        • Destroy all creatures with mana value 4 or greater.
+        • Create four 1/1 white Human creature tokens with lifelink.
+        • Put a card you own in exile into your hand. (You can't choose the card exiled to pay for this spell.)
+    flavor_text: "Praise the Sun! \\\\[T]/"
+    artwork_url: "https://i.ibb.co/Kc8Rxkv2/warriors-of-sunlight-by-unknown-resize.jpg"
+    artist: "unknown"
+    number: 48
+
+card_winged_knight:
+  front:
+    name: "Winged Knight"
+    cost: "{3}{W}"
+    super: ""
+    type: "Creature"
+    sub: "Angel Knight"
+    rarity: "Uncommon"
+    rating: 2
+    rules_text: |
+      Flying, protection from black and red
+      {W}, Discard a card and exile two cards from your graveyard: Prevent all damage a source of your choice would deal to ~ this turn.
+    flavor_text: "Winged Knights who swore themselves to the Angels."
+    artwork_url: "https://i.pinimg.com/736x/be/d2/f0/bed2f0f7d7f1e21df69bdd282abc00bd.jpg"
+    artist: "Richardo Soma"
+    power: 4
+    toughness: 3
+    number: 49
