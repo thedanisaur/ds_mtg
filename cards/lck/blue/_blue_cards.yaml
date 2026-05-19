@@ -103,7 +103,7 @@ card_ashen_nomuki:
     super: ""
     type: "Creature"
     sub: "Spirit"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 2
     rules_text: |
       You may cast ~ at any time you could cast and instant.
@@ -253,8 +253,8 @@ card_echoes_of_clarity:
     rules_text: |
       Draw a card. If you have seven or more souls, draw 3 cards instead.
     flavor_text: "Every age, it seems, is tainted by the greed of men."
-    artwork_url: "https://i.ibb.co/5hRg97PD/echoes-of-clarity-by-cobaltplasma-resize.jpg"
-    artist: "cobaltplasma"
+    artwork_url: "https://i.ibb.co/zHhbMmnX/echoes-of-clarity-by-ev-ganin-nose-ring.jpg"
+    artist: "Ev Ganin"
     number: 63
 
 card_encase_in_crystal:
