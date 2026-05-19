@@ -14,6 +14,7 @@ card_ash_lake:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/91/fe/2a/91fe2af55a584588bdc4bd245f924ef9.jpg"
     artist: "fromsoft"
+    colors: '{U}{W}{B}'
     number: 272
 
 card_brightstone_cove_tseldora:
@@ -32,6 +33,7 @@ card_brightstone_cove_tseldora:
       The miners sought the brilliance of souls hidden deep within the earth. But what they unearthed was far more than they bargained for.
     artwork_url: ""
     artist: "fromsoft"
+    colors: '{U}{G}{B}'
     number: 273
 
 card_chamber_of_the_princess:
@@ -50,6 +52,7 @@ card_chamber_of_the_princess:
       The power of sunlight is granted through the goddess's blessing. Her name invokes miracles of healing and warmth.
     artwork_url: "https://darksouls.wiki.fextralife.com/file/Dark-Souls/gwynevere_concept_art_header_full.jpg?v=1527878439232"
     artist: "fromsoft"
+    colors: '{W}{B}'
     number: 274
 
 card_church_of_yorshka:
@@ -68,6 +71,7 @@ card_church_of_yorshka:
       An ancient covenant still lingers here in Irithyll, a city of cold and moonlight.
     artwork_url: "https://i.ibb.co/7dNF27L3/church-of-yorshka-resize.jpg"
     artist: "fromsoft"
+    colors: '{U}{B}'
     number: 275
 
 card_cleansing_chapel:
@@ -86,6 +90,7 @@ card_cleansing_chapel:
       The Cathedral of the Deep is the stronghold of Aldrich, Devourer of Gods.
     artwork_url: "https://i.ibb.co/kgBGZJFc/cleansing-chapel-by-unknown.jpg"
     artist: "unknown"
+    colors: '{U}{R}'
     number: 276
 
 card_crumbling_ruins:
@@ -104,6 +109,7 @@ card_crumbling_ruins:
       Even stone and memory decay here.
     artwork_url: "https://i.ibb.co/yMZ1B8k/crumbled-ruins-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{U}{G}'
     number: 277
 
 card_crystal_cave:
@@ -141,6 +147,7 @@ card_dark_chasm_of_old:
       Long ago, a great civilization was swallowed by darkness.
     artwork_url: "https://i.ibb.co/Fj2PcNr/dark-chasm-of-old-by-fromsoft-resize.jpg"
     artist: "fromsoft"
+    colors: '{U}{G}{B}'
     number: 279
 
 card_darkroot_basin:
@@ -159,6 +166,7 @@ card_darkroot_basin:
       The basin is a place where the roots of the great trees spread deep underground.
     artwork_url: "https://i.ibb.co/YBPk8Hjm/darkroot-basin-by-max-frojd-resize.jpg"
     artist: "Max Frojd"
+    colors: '{G}{W}'
     number: 280
 
 card_darkroot_forest:
@@ -177,6 +185,7 @@ card_darkroot_forest:
       The forest hunters guard the sanctity of Darkroot; where ancient trees and stone intertwine.
     artwork_url: "https://i.ibb.co/wZgCZhNy/darkroot-forest-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{R}{G}{B}'
     number: 281
 
 card_demon_ruins:
@@ -195,6 +204,7 @@ card_demon_ruins:
       All things converge at the end of the earth.
     artwork_url: ""
     artist: "fromsoft"
+    colors: '{R}{B}'
     number: 282
 
 card_depths_of_the_burg:
@@ -212,6 +222,7 @@ card_depths_of_the_burg:
     flavor_text: "There are actually two Bells of Awakening."
     artwork_url: "https://i.ibb.co/BKLbZCTc/depths-of-the-burg-resize.jpg"
     artist: "fromsoft"
+    colors: '{U}{G}{B}'
     number: 283
 
 card_dragon_aerie:
@@ -230,6 +241,7 @@ card_dragon_aerie:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Z1Ff7XZ1/dragon-aerie-by-fromsoft.webp"
     artist: "fromsoft"
+    colors: '{U}{G}{R}'
     number: 284
 
 card_dragon_kin_mausoleum:
@@ -248,6 +260,7 @@ card_dragon_kin_mausoleum:
       Only those who have taken the path of the dragon may enter.
     artwork_url: "https://i.ibb.co/FLGrzhCW/dragon-kiln-mausoleum.jpg"
     artist: "fromsoft"
+    colors: '{R}{W}'
     number: 285
 
 card_drangleic_castle:
@@ -283,6 +296,7 @@ card_earthen_peak:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/F40Hpy4N/earthen-peak-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{U}{R}{B}'
     number: 287
 
 card_fireless_shrine:
@@ -301,6 +315,7 @@ card_fireless_shrine:
       A corpse should be left well alone.
     artwork_url: "https://i.ibb.co/mnJZ1dR/fireless-shrine-by-unknown-resize.jpg"
     artist: "unknown"
+    colors: '{C}'
     number: 288
 
 card_frozen_eleum_loyce:
@@ -319,6 +334,7 @@ card_frozen_eleum_loyce:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/ycGJzPZX/frozen-eleum-loyce-by-vivien-resize.jpg"
     artist: "Vivien"
+    colors: '{U}{W}{B}'
     number: 289
 
 card_great_hollows:
@@ -337,6 +353,7 @@ card_great_hollows:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/HTwjyRTX/the-great-hollows-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{U}{G}{R}'
     number: 290
 
 card_halfway_fortress:
@@ -355,6 +372,7 @@ card_halfway_fortress:
       The Road of Sacrifices is a passage used by pilgrims heading toward the Cathedral of the Deep. Many have traveled this road seeking salvation only to meet their demise.
     artwork_url: ""
     artist: "fromsoft"
+    colors: '{R}{G}'
     number: 291
 
 card_harvest_valley:
@@ -373,6 +391,7 @@ card_harvest_valley:
       The valley is filled with poison and decay. Many miners succumbed to the toxic fumes.
     artwork_url: "https://i.ibb.co/wFcxQLZv/harvest-valley-by-ooga-booga-resize.jpg"
     artist: "Ooga Booga"
+    colors: '{R}{G}{B}'
     number: 292
 
 card_heides_tower_of_flame:
@@ -391,6 +410,7 @@ card_heides_tower_of_flame:
       Long ago, Heide was a land of gods, but it has fallen into ruin.
     artwork_url: "https://i.ibb.co/bMc9h9G1/heides-tower-of-flame-servalt-resize.jpg"
     artist: "Servalt"
+    colors: '{U}{W}'
     number: 293
 
 card_huntsmans_copse:
@@ -410,6 +430,7 @@ card_huntsmans_copse:
       ""
     artwork_url: ""
     artist: "fromsoft"
+    colors: '{U}{G}{R}'
     number: 294
 
 card_irithyll_dungeon:
@@ -428,6 +449,7 @@ card_irithyll_dungeon:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/m5YW45ry/irithyll-dungeon-by-shinra-low-resize.jpg"
     artist: "Shinra Low"
+    colors: '{U}{W}{B}'
     number: 295
 
 card_majula_gate:
@@ -463,6 +485,7 @@ card_majula_pit:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/MDch9wN1/majula-pit-by-fromsoft-resize.jpg"
     artist: "fromsoft"
+    colors: '{U}{R}{B}'
     number: 297
 
 card_old_wolf_of_farron:
@@ -481,6 +504,7 @@ card_old_wolf_of_farron:
       The watchers share their blood and their curse and the Old Wolf rests atop the keep, a symbol of their covenant.
     artwork_url: "https://i.ibb.co/nWKR0QG/old-wolf-of-farron-resize.jpg"
     artist: "fromsoft"
+    colors: '{G}{B}'
     number: 298
 
 card_quelaags_domain:
@@ -516,6 +540,7 @@ card_sinners_rise:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/rKHmDB9J/profaned-capital-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{W}{R}{B}'
     number: 300
 
 card_the_dreg_heap:
@@ -534,6 +559,7 @@ card_the_dreg_heap:
       The world began without knowledge, and without knowledge will it end.
     artwork_url: "https://i.ibb.co/k2f23K9k/dreg-heap-by-raging-player-resize.jpg"
     artist: "Raging Player"
+    colors: '{W}'
     number: 301
 
 card_the_grand_archives:
@@ -589,4 +615,5 @@ card_untended_graves:
       A world without fire is a world without gods.
     artwork_url: "https://i.ibb.co/HDXypLNc/untended-graves-by-fromsoft.jpg"
     artist: "fromsoft"
+    colors: '{R}{G}{B}'
     number: 304

@@ -2404,8 +2404,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2418,8 +2418,8 @@
     "type": "Enchantment",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2446,8 +2446,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2460,8 +2460,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2474,8 +2474,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2488,8 +2488,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2502,8 +2502,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2530,8 +2530,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2558,8 +2558,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2586,8 +2586,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -3480,7 +3480,11 @@
     "super": "",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "U",
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3491,7 +3495,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "B",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped island to your hand.\n{T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.\n",
@@ -3502,7 +3510,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.\n{T}: Add {B} or {W} to your mana pool.\n",
@@ -3513,7 +3524,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.\n{T}: Add {U} or {B} to your mana pool.\n",
@@ -3524,7 +3538,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.\n{T}: Add {U} or {R} to your mana pool.\n",
@@ -3535,7 +3552,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.\n{T}: Add {U} or {G} to your mana pool.\n",
@@ -3557,7 +3577,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "B",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.\n{T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.\n",
@@ -3568,7 +3592,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.\n{T}: Add {G} or {W} to your mana pool.\n",
@@ -3579,7 +3606,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.\n{T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.\n",
@@ -3590,7 +3621,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.\n{T}: Add {B} or {R} to your mana pool.\n",
@@ -3601,7 +3635,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "B",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.\n{T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.\n",
@@ -3612,7 +3650,11 @@
     "super": "",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {R}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3623,7 +3665,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a mountain or plains you control to its owner's hand.\n{T}: Add {R} or {W} to your mana pool.\n",
@@ -3635,8 +3680,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3648,7 +3693,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "U",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {R}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3659,7 +3708,11 @@
     "super": "Snow",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "U",
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {W}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3670,7 +3723,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {G}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3681,7 +3738,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.\n{T}: Add {R} or {G} to your mana pool.\n",
@@ -3692,7 +3752,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.\n{T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.\n",
@@ -3703,7 +3767,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "U"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.\n{T}: Add {U} or {W} to your mana pool.\n",
@@ -3714,7 +3781,11 @@
     "super": "",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "U",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3725,7 +3796,11 @@
     "super": "",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "U",
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {B}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3737,8 +3812,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3750,7 +3825,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "U",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {B}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3761,7 +3840,10 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.\n{T}: Add {B} or {G} to your mana pool.\n",
@@ -3786,7 +3868,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W",
+        "B",
+        "R"
+    ],
     "rarity": "uncommon",
     "rating": 0,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {W}\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
@@ -3797,7 +3883,9 @@
     "super": "Legendary Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "W"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "{T}: Add {W} to your mana pool.\n{4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.\n",
@@ -3809,11 +3897,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W",
-        "G",
         "B",
-        "U"
+        "U",
+        "G",
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3825,7 +3913,11 @@
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
-    "colors": [],
+    "colors": [
+        "B",
+        "R",
+        "G"
+    ],
     "rarity": "uncommon",
     "rating": 3,
     "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.\n{T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.\n",
@@ -3848,8 +3940,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
