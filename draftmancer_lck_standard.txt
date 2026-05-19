@@ -448,7 +448,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player you may look at the top two cards of their library, then you may put any number of them on the bottom of their library.\n",
+    "oracle_text": "You may cast ~ at any time you could cast and instant.\nShadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player you may look at the top two cards of their library, then you may put any number of them on the bottom of their library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ashen_nomuki.jpeg"
 },
 {
@@ -1524,7 +1524,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Choose target creature or planeswalker. You get two souls, then you may pay any amount of souls. ~ deals that much damage to that creature or planeswalker.\n",
+    "oracle_text": "Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.\nSoullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cleansing_orb.jpeg"
 },
 {
@@ -1699,14 +1699,14 @@
 {
     "name": "Lost Spell from Izalith",
     "super": "",
-    "type": "Sorcery",
-    "mana_cost": "{R}",
+    "type": "Instant",
+    "mana_cost": "{1}{R}",
     "colors": [
         "R"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You get two souls, then you may pay any number of souls.\nDestroy all artifacts with mana value less than or equal to the number of souls you paid as you cast ~.\n",
+    "oracle_text": "Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.\n~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/lost_spell_from_izalith.jpeg"
 },
 {
@@ -1797,7 +1797,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "The next noncreature spell you cast this turn can't be countered. You get two souls.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
+    "oracle_text": "The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg"
 },
 {
@@ -1940,7 +1940,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As long as you have seven or more souls, ~ gets +1/+1 and has whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever a creature you control is turned face up, destroy target artifact or enchantment.\n",
+    "oracle_text": "As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever ~ turned face up, destroy target artifact or enchantment.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/beast_of_amana.jpeg"
 },
 {
@@ -1979,7 +1979,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Creatures with power less than ~'s power can't block it.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever a creature you control is turned face up, put a +1/+1 counter on it. Target player gets one soul.\n",
+    "oracle_text": "Creatures with power less than ~'s power can't block it.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever a creature you control is turned face up, put a +1/+1 counter on target creature.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/brume_tower_warrior.jpeg"
 },
 {
@@ -2018,7 +2018,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "When ~ enters the battlefield, destroy target artifact or enchantment.\n~ has bleed as long as a card went to your graveyard this turn. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\n",
+    "oracle_text": "Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\nWhenever a card goes to your graveyard you may pay {1}{G}, if you do, destroy target artifact or enchantment and put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/dark_stalkers.jpeg"
 },
 {
@@ -2083,7 +2083,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Choose one. If a card went to your graveyard this turn, choose two instead -\n\u2022 Destory target blue or black noncreature permanent. You gain 2 life and get two souls.\n\u2022 Spells you control can't be countered this turn. You and permanents you control can't be the target of spells or abilities that are blue or black until end of turn. Draw a card.\n",
+    "oracle_text": "Choose one. If a card went to your graveyard this turn, choose two instead -\n\u2022 Destroy target blue or black noncreature permanent. You gain 2 life and get two souls.\n\u2022 Spells you control can't be countered this turn. You and permanents you control can't be the target of spells or abilities that are blue or black until end of turn. Draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/deep_veil.jpeg"
 },
 {
@@ -2109,7 +2109,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Whenever you exile a card from your hand, if that card's mana value is greater than ~'s' power put a +1/+1 counter on it.\n{1}{G}: Move a +1/+1 counter to another target creature.\nDelayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
+    "oracle_text": "Whenever a card leaves your hand or graveyard, put a +1/+1 counter on ~.\n{1}{G}: Move a +1/+1 counter from ~ to another target creature.\nDelayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/dogged_contender.jpeg"
 },
 {
@@ -2135,7 +2135,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Whenever a creature you control attacks, you may gain 1 life and get one soul.\nAt the beginning of combat on your turn, if you have seven or more souls, target creature you control gains haste until end of turn.\nSoullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.\n{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.\n{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.\nSoullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_ogre.jpeg"
 },
 {
@@ -2278,7 +2278,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "You may discard a card rather than pay this spell's mana cost.\nTarget player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You get two souls.\n",
+    "oracle_text": "You may discard a card rather than pay this spell's mana cost.\nTarget player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You gain 2 life and get two souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/persevering_mist.jpeg"
 },
 {
@@ -2311,13 +2311,13 @@
     "name": "Shrine Drakekeeper",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{2}{G}",
+    "mana_cost": "{1}{G}",
     "colors": [
         "G"
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Creatures you control with +1/+1 counters on them have trample.\nWhenever a creature enters the battlefield under your control put a +1/+1 counter on it. Target player gets a soul.\n",
+    "oracle_text": "Creatures you control with +1/+1 counters on them have trample.\nWhenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets a soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/shrine_drakekeeper.jpeg"
 },
 {
@@ -2417,8 +2417,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2445,8 +2445,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2487,8 +2487,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2501,8 +2501,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2543,8 +2543,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3737,8 +3737,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3809,9 +3809,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R",
         "B",
+        "R",
+        "W",
         "G",
         "U"
     ],

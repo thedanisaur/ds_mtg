@@ -106,6 +106,7 @@ card_ashen_nomuki:
     rarity: "Common"
     rating: 2
     rules_text: |
+      You may cast ~ at any time you could cast and instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever ~ deals combat damage to a player you may look at the top two cards of their library, then you may put any number of them on the bottom of their library.
     flavor_text: "It won't be finished until it slices each layer of your mind."

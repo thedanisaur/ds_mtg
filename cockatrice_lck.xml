@@ -897,7 +897,8 @@ Madness {U} (If you discard this card, discard it into exile. When you do, cast 
     </card>
     <card>
         <name>Ashen Nōmuki</name>
-        <text>Shadow (This creature can block or be blocked by only creatures with shadow.)
+        <text>You may cast ~ at any time you could cast and instant.
+Shadow (This creature can block or be blocked by only creatures with shadow.)
 Whenever ~ deals combat damage to a player you may look at the top two cards of their library, then you may put any number of them on the bottom of their library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2289,7 +2290,8 @@ When ~ dies, search your library for a Lord card and put it onto the battlefield
     </card>
     <card>
         <name>Cleansing Orb</name>
-        <text>Choose target creature or planeswalker. You get two souls, then you may pay any amount of souls. ~ deals that much damage to that creature or planeswalker.</text>
+        <text>Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
+Soullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2526,14 +2528,14 @@ Whenever a card goes to your graveyard, ~ gets +1/+1 until end of turn and you g
     </card>
     <card>
         <name>Lost Spell from Izalith</name>
-        <text>You get two souls, then you may pay any number of souls.
-Destroy all artifacts with mana value less than or equal to the number of souls you paid as you cast ~.</text>
+        <text>Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.
+~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Sorcery</type>
-            <maintype>Sorcery</maintype>
-            <manacost>{R}</manacost>
-            <cmc>1</cmc>
+            <type>Instant</type>
+            <maintype>Instant</maintype>
+            <manacost>{1}{R}</manacost>
+            <cmc>2</cmc>
             <colors>R</colors>
         </prop>
         <set rarity="Common" num="157" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/lost_spell_from_izalith.jpeg">DKS</set>
@@ -2671,7 +2673,7 @@ Whenever a Rubbish token you control goes to the graveyard, target creature gets
     </card>
     <card>
         <name>Shimmering Void</name>
-        <text>The next noncreature spell you cast this turn can't be countered. You get two souls.
+        <text>The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.
 Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2882,9 +2884,9 @@ Whenever an artifact goes to the graveyard put a +1/+1 counter on ~ or move a +1
     </card>
     <card>
         <name>Beast of Amana</name>
-        <text>As long as you have seven or more souls, ~ gets +1/+1 and has whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.
+        <text>As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
 Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-Whenever a creature you control is turned face up, destroy target artifact or enchantment.</text>
+Whenever ~ turned face up, destroy target artifact or enchantment.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Lizard Hollow</type>
@@ -2934,7 +2936,7 @@ When ~ enters the battlefield destroy target artifact, enchantment, or land. If 
         <name>Brume Tower Warrior</name>
         <text>Creatures with power less than ~'s power can't block it.
 Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-Whenever a creature you control is turned face up, put a +1/+1 counter on it. Target player gets one soul.</text>
+Whenever a creature you control is turned face up, put a +1/+1 counter on target creature.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -2982,8 +2984,8 @@ Soullink 4 (If you would draw a card, instead you may cast this card from your g
     </card>
     <card>
         <name>Dark Stalkers</name>
-        <text>When ~ enters the battlefield, destroy target artifact or enchantment.
-~ has bleed as long as a card went to your graveyard this turn. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)</text>
+        <text>Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+Whenever a card goes to your graveyard you may pay {1}{G}, if you do, destroy target artifact or enchantment and put a +1/+1 counter on ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Beast</type>
@@ -3065,7 +3067,7 @@ When ~ enters the battlefield you may reveal a card you own from outside the gam
     <card>
         <name>Deep Veil</name>
         <text>Choose one. If a card went to your graveyard this turn, choose two instead -
-• Destory target blue or black noncreature permanent. You gain 2 life and get two souls.
+• Destroy target blue or black noncreature permanent. You gain 2 life and get two souls.
 • Spells you control can't be countered this turn. You and permanents you control can't be the target of spells or abilities that are blue or black until end of turn. Draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3095,8 +3097,8 @@ Fragment {G} - While searching your library, you may reveal this card from your 
     </card>
     <card>
         <name>Dogged Contender</name>
-        <text>Whenever you exile a card from your hand, if that card's mana value is greater than ~'s' power put a +1/+1 counter on it.
-{1}{G}: Move a +1/+1 counter to another target creature.
+        <text>Whenever a card leaves your hand or graveyard, put a +1/+1 counter on ~.
+{1}{G}: Move a +1/+1 counter from ~ to another target creature.
 Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3129,8 +3131,9 @@ When ~ dies, create a Rubbish token. (It's an artifact with {T}, "Sacrifice this
     </card>
     <card>
         <name>Drangleic Ogre</name>
-        <text>Whenever a creature you control attacks, you may gain 1 life and get one soul.
-At the beginning of combat on your turn, if you have seven or more souls, target creature you control gains haste until end of turn.
+        <text>Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
+{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
+{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
 Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3324,7 +3327,7 @@ Whenever a creature you control is turned face up, put a +1/+1 counter on each c
     <card>
         <name>Persevering Mist</name>
         <text>You may discard a card rather than pay this spell's mana cost.
-Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You get two souls.</text>
+Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You gain 2 life and get two souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -3389,15 +3392,15 @@ Soullink 3 (If you would draw a card, instead you may cast this card from your g
     <card>
         <name>Shrine Drakekeeper</name>
         <text>Creatures you control with +1/+1 counters on them have trample.
-Whenever a creature enters the battlefield under your control put a +1/+1 counter on it. Target player gets a soul.</text>
+Whenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets a soul.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Knight</type>
             <maintype>Creature</maintype>
-            <manacost>{2}{G}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{G}</manacost>
+            <cmc>2</cmc>
             <colors>G</colors>
-            <pt>1/3</pt>
+            <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/shrine_drakekeeper.jpeg">DKS</set>
         <tablerow>2</tablerow>
@@ -3524,7 +3527,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3558,7 +3561,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3609,7 +3612,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3625,7 +3628,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">DKS</set>
@@ -3674,7 +3677,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Common" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>

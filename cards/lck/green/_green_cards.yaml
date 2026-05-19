@@ -67,9 +67,9 @@ card_beast_of_amana:
     rarity: "Common"
     rating: 2
     rules_text: |
-      As long as you have seven or more souls, ~ gets +1/+1 and has whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.
+      As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
       Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-      Whenever a creature you control is turned face up, destroy target artifact or enchantment.
+      Whenever ~ turned face up, destroy target artifact or enchantment.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/RG0fG81C/beast-of-amana-by-fantasy-artistry-resize.jpg"
     artist: "Fantasy Artistry"
@@ -128,8 +128,8 @@ card_brume_tower_warrior:
     rules_text: |
       Creatures with power less than ~'s power can't block it.
       Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-      Whenever a creature you control is turned face up, put a +1/+1 counter on it. Target player gets one soul.
-    flavor_text: "The Warriors' held fast in their positions even as the once-great Iron Keep sank into the fiery earth."
+      Whenever a creature you control is turned face up, put a +1/+1 counter on target creature.
+    flavor_text: "The Warriors' held fast in their positions even as the once-great Iron Keep sank into the earth."
     artwork_url: "https://i.ibb.co/1JmFW24G/brume-tower-warrior-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     power: 2
@@ -185,8 +185,8 @@ card_dark_stalkers:
     rarity: "Common"
     rating: 2
     rules_text: |
-      When ~ enters the battlefield, destroy target artifact or enchantment.
-      ~ has bleed as long as a card went to your graveyard this turn. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      Whenever a card goes to your graveyard you may pay {1}{G}, if you do, destroy target artifact or enchantment and put a +1/+1 counter on ~.
     flavor_text: "Creatures of the abyss with long limbs and corrupted flesh. They feast on unwary pyromancers that venture into their dungeons."
     artwork_url: "https://i.pinimg.com/736x/c2/bb/9b/c2bb9b05bf447664dcd52feb7ce7b749.jpg"
     artist: "unknown"
@@ -283,7 +283,7 @@ card_deep_veil:
     rating: 2
     rules_text: |
       Choose one. If a card went to your graveyard this turn, choose two instead -
-      • Destory target blue or black noncreature permanent. You gain 2 life and get two souls.
+      • Destroy target blue or black noncreature permanent. You gain 2 life and get two souls.
       • Spells you control can't be countered this turn. You and permanents you control can't be the target of spells or abilities that are blue or black until end of turn. Draw a card.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2b/f6/a3/2bf6a35430dd5d7d0131e07fb5304af8.jpg"
@@ -317,8 +317,8 @@ card_dogged_contender:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Whenever you exile a card from your hand, if that card's mana value is greater than ~'s' power put a +1/+1 counter on it.
-      {1}{G}: Move a +1/+1 counter to another target creature.
+      Whenever a card leaves your hand or graveyard, put a +1/+1 counter on ~.
+      {1}{G}: Move a +1/+1 counter from ~ to another target creature.
       Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/jkM18fFF/dogged-contender-by-elizabeth-sprohnle-resize.jpg"
@@ -357,8 +357,9 @@ card_drangleic_ogre:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Whenever a creature you control attacks, you may gain 1 life and get one soul.
-      At the beginning of combat on your turn, if you have seven or more souls, target creature you control gains haste until end of turn.
+      Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
+      {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
+      {G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
       Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Cs5LmQNY/drangelic-ogre-by-desyntril-resize.jpg"
@@ -583,7 +584,7 @@ card_persevering_mist:
     rating: 2
     rules_text: |
       You may discard a card rather than pay this spell's mana cost.
-      Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You get two souls.
+      Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You gain 2 life and get two souls.
     flavor_text: "As if a lifetime of toil wasn't enough, these workers continue their duties even in death."
     artwork_url: "https://i.ibb.co/CsnzfB5t/perservering-mist-by-unknown-resize.jpg"
     artist: "Gayle J. Greenlea"
@@ -650,7 +651,7 @@ card_royal_rat_authority:
 card_shrine_drakekeeper:
   front:
     name: "Shrine Drakekeeper"
-    cost: "{2}{G}"
+    cost: "{1}{G}"
     super: ""
     type: "Creature"
     sub: "Knight"
@@ -658,12 +659,12 @@ card_shrine_drakekeeper:
     rating: 2
     rules_text: |
       Creatures you control with +1/+1 counters on them have trample.
-      Whenever a creature enters the battlefield under your control put a +1/+1 counter on it. Target player gets a soul.
+      Whenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets a soul.
     flavor_text: "The sanctum knights renounced their own flesh to eternally guard the Sanctum from Sir Yorgh and his Drakeblood Knights."
     artwork_url: "https://i.ibb.co/cPTSw8N/shrine-drakekeeper-by-robi-lust-resize.jpg"
     artist: "robi lust"
     power: 1
-    toughness: 3
+    toughness: 1
     number: 210
 
 card_soul_of_a_crestfallen_adventurer:

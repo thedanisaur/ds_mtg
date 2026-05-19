@@ -160,8 +160,9 @@ card_cleansing_orb:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Choose target creature or planeswalker. You get two souls, then you may pay any amount of souls. ~ deals that much damage to that creature or planeswalker.
-    flavor_text: "Souls of the lost are never destoryed only splintered and gathered again."
+      Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
+      Soullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)
+    flavor_text: "Souls of the lost are never destroyed only splintered."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Rimefire-Bolt-556704695"
     artist: "cobaltplasma"
     number: 142
@@ -427,15 +428,15 @@ card_lightning_urn:
 card_lost_spell_from_izalith:
   front:
     name: "Lost Spell from Izalith"
-    cost: "{R}"
+    cost: "{1}{R}"
     super: ""
-    type: "Sorcery"
+    type: "Instant"
     sub: ""
     rarity: "Common"
     rating: 2
     rules_text: |
-      You get two souls, then you may pay any number of souls.
-      Destroy all artifacts with mana value less than or equal to the number of souls you paid as you cast ~.
+      Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.
+      ~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.
     flavor_text: "The flames of chaos burn with the essence of Izalith, corrupting all who wield them."
     artwork_url: "https://i.pinimg.com/736x/ed/21/be/ed21be439e4c71054db5482fc8db0d66.jpg"
     artist: "Ambrunzonello"
@@ -602,7 +603,7 @@ card_shimmering_void:
     rarity: "Common"
     rating: 2
     rules_text: |
-      The next noncreature spell you cast this turn can't be countered. You get two souls.
+      The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.
       Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: "A shimmering coating that Bishop Havel developed to counter magicians so proficiently that he could withstand any of their attacks."
     artwork_url: "https://i.ibb.co/fYvdPbhf/shimmering-void-by-rodrigo-rizo-resize.jpg"
