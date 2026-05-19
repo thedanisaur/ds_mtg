@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "W",
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "Flying, lifelink\nAt the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.\nWhen ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.\n",
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "B",
         "W",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
             "W",
-            "R"
+            "R",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "B",
         "G",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "B",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
-        "R",
-        "G",
         "W",
-        "U"
+        "U",
+        "G",
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
         "W",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
             "W",
-            "B"
+            "B",
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
-        "R",
-        "G",
         "W",
-        "U"
+        "U",
+        "G",
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R",
-        "G",
         "W",
-        "U"
+        "U",
+        "G",
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R",
-        "G",
         "W",
-        "U"
+        "U",
+        "G",
+        "R",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3501,264 +3501,283 @@
         "Default": {
             "weight": 1,
             "slots": [
-                {"name": "Common",   "count": 15},
+                {
+                    "name": "LandOrBasic",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "LandMythic",  "weight": 1},
+                        {"name": "LandRare",  "weight": 4},
+                        {"name": "LandUncommon",  "weight": 8},
+                        {"name": "Basic", "weight": 32},
+                    ]
+                },
+                {
+                    "name": "RareOrMythic",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "LandRare",  "weight": 16},
+                        {"name": "Rare",   "weight": 344},
+                        {"name": "LandMythic",  "weight": 2},
+                        {"name": "Mythic", "weight": 16}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand1",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 10},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 10},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 10},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {"name": "Common",   "count": 11},
             ]
         }
     }
 }
 [Common]
-4 Ashen Idol
-4 Covetous Demon
-4 Dreg-Hollow Merchant
-4 Hollow
-4 Pyrewarden of the Things Betwixt
-4 Stray Demon
-4 Velka's Harpy
-4 Winged Chimera
-4 Batwing Demon
-4 Blessed Cleric
-4 Corrupted Hollow
-4 Flexile Sentry
-4 Forossa Lion Knight
-4 Infested Corpse
-4 Knights of Gwynevere
-4 Magic Barrier
-4 Mirrah Warrior
-4 New Londo Shade
-4 Resting Thief
-4 Soul of a Nameless Soldier
-4 Sunlight Spear
-4 Transient Curse
-4 Village Blacksmith
-4 Weary Travelers
-4 Adventuring Sorcerer
-4 Amana Priestess
-4 Aural Decoy
-4 Chameleon
-4 Crystal Butterfly
-4 Dual Charm
-4 Great Crab
-4 Hidden Body
-4 Homing Soul Mass
-4 Hooded Sorcerer
-4 Invisible Hollow
-4 Lost spell from Oolacile
-4 Magic Denial
-4 Old Sorcerer
-4 Petrifying Gaze
-4 Soul of an Unknown Traveler
-4 A Hero Gone Mad
-4 Chasm Giant
-4 Dark Edge
-4 Dark Hand of Kaathe
-4 Deep Fog
-4 Grave Warden
-4 Grip of Death
-4 Hollow Soldier
-4 Hound Rat
-4 Lothric Sentry
-4 Parasite Worm
-4 Royal Rat Vanguard
-4 Sift through the Ashes
-4 Something Petrified
-4 Soul of a Sorrowful Spirit
-4 Undead Hound
-4 Chaos Storm
-4 Cracked Redeye Orb
-4 Cragspider
-4 Demon Cleric
-4 Desert Pyromancer
-4 Evangelist of the Deep
-4 Firekeeper
-4 Firesage Demon
-4 Flamewielding Hollow
-4 Hollow Infantry
-4 Pesky Mosquito
-4 Profaned Flame
-4 Profuse Sweat
-4 Rapport
-4 Soul of an Old Pyromancer
-4 Sunlight Maggot
-4 Taurus Demon
-4 Unkindled's Journey
-4 Alluring Skull
-4 Amana Aberration
-4 Cathedral Evangelist
-4 Corrode
-4 Ent of the Darkroot Garden
-4 Festering Goblin
-4 Hesitant Surveyor
-4 Hollow Knight
-4 Milfanito
-4 Proselyte Scarlett
-4 Ravenous Crystal Lizard
-4 Sentinel of the Tower of Flame
-4 Shaded Woods
-4 Soul of a Lost Explorer
-4 Souls of the Living
-4 Undead Aberration
-4 Warcry
-4 Warp the Land
-4 Ruin Sentinels
-4 Sorcerer's Remedy
-4 Bell Gargoyles
-4 Broadsword
-4 Charm of the Undead Hunters
-4 Iron Golem
-4 Metaleater Spider
-4 Silver Amulet
-4 Silver Serpent Ring
-4 Thorolund Talisman
-4 Four Kings
-4 Sif, the Great Grey Wolf
-4 Heretic Storyteller
-4 Heavenly Thunder
-4 Insolent Spirits
-4 Karmic Righteousness
-4 Miracle of the Way of White
-4 Petrified Egg
-4 Shulva's Denial
-4 Solaire of Astora
-4 Soothing Sunlight
-4 Swollen Mongrel
-4 Tears of Denial
-4 Wight
-4 Angelic Knight
-4 Ashen Estus
-4 Burning Ambition
-4 Farron Dart
-4 Pestilent Mercury
-4 Ruin Banshee
-4 Sage's Scroll
-4 Search the Library
-4 Twisted Wall of Light
-4 Wall Spectre
-4 Bonfire Ascetic
-4 Charred Knight
-4 Chosen Undead
-4 Clawed Curse
-4 Darkwraith
-4 Jailer
-4 Lordran Necromancer
-4 Resonant Flesh
-4 Resonant Soul
-4 Scraps of Life
-4 Acid Surge
-4 Capra Demon
-4 Fiery Soapstone
-4 Fire Orb
-4 Fire Surge
-4 Flame Whip
-4 Immolation
-4 Lingering Flame
-4 Permeating Flames
-4 Smoldering Rotten Flesh
-4 Contrasted Cursed
-4 Covenant of the Forest Hunter
-4 Duke's Dear Freja
-4 Estus Flask
-4 Expected Companions
-4 Lothric Knight
-4 Mimic
-4 Petrifying Statue
-4 Seek Embers
-4 The Serpent King
-4 Wistful Naivete
-4 Blade of the Darkmoon
-4 Disembodied Wisp
-4 Splintering Lightning
-4 Spreading Decay
-4 Bloodbite Ring
-4 Charm of the Abyss Watchers
-4 Chloranthy Ring
-4 Halberd
-4 Heide Knight
-4 Hornet Ring
-4 Looking Glass Knight
-4 Ring of a Great Warrior
-4 Soul Syphoner
-4 Titanite Shard
-4 Anri of Astora
-4 Emit Force
-4 Homeward
-4 Reforge
-4 Siegmeyer of Catarina
-4 Sunlight Blade
-4 Vow of Silence
-4 Big Hat Logan
-4 Fume Sorcerer
-4 Hidden Weapon
-4 Outrider Knight
-4 Rumination
-4 Soul Spear
-4 Soul Stream
-4 Dark Sigil
-4 Frozen Reindeer
-4 Grave Warden's Tome
-4 Nimble Shadow
-4 Resonant Weapon
-4 Skim Memories
-4 The Great Swamp
-4 Carthus Beacon
-4 Chaos Bed Vestiges
-4 Forbidden Sun
-4 Hellkite Wyvern
-4 Ignite Steel
-4 Unbreakable Patches
-4 Carthus Rouge
-4 Dark Fog
-4 Gaping Dragon
-4 Pagan Tree
-4 Aldrich, Devourer of Gods
-4 Ancient Wyvern
-4 Archdeacon of the Deep
-4 Baneful Queen, Mytha
-4 Bed of Chaos
-4 Dragonslayer and Executioner
-4 Ember
-4 Fume Knight
-4 Gael, Seeker of Ash
-4 Hawkeye Gough
-4 Iudex Gundyr
-4 Knight Lautrec
-4 Stream of Estus
-4 Yhorm, the Giant
-4 Catalyst of the Witch of Izalith
-4 Charm of the Sunlight Princess
-4 Cursed Greatsword
-4 Eyes of a Firekeeper
-4 Shinku Doku Hitokiri
-4 Talisman of the Way of White
-4 Titanite Chunk
-4 Wolf Knight's Greatshield
-4 Into the Abyss
-4 Vordt and the Dancer
-4 Curse of the Dead
-4 Gravelord Nito
-4 Ringfinger Leonhard
-4 Abyss Watchers
-4 Pickle Pee, Pump-a-Rum
-4 Gravelord's Maelstrom
-4 Gwyn, Lord of Cinder
-4 King of the Storm
-4 Knight Artorias
-4 Lorian and Lothric
-4 Homeward Bone
-4 Kiln of the First Flame
-4 Moonlight Greatsword
-4 Ring of Sacrifice
-16 Anor Londo
-16 Archdragon Peak
-16 Cathedral of Blue
-16 Cathedral of the Deep
-16 Comforting Fire
-16 Darkroot Garden
-16 Farron Keep
-16 Irithyll of the Boreal Valley
-16 Lost Izalith
-16 Road of Sacrifices
-16 Shrine of Amana
-16 Lothric Castle
-16 The Fire Fades
-16 Blighttown
-16 Firelink Shrine
+16 Ashen Idol
+16 Covetous Demon
+16 Dreg-Hollow Merchant
+16 Hollow
+16 Pyrewarden of the Things Betwixt
+16 Stray Demon
+16 Velka's Harpy
+16 Winged Chimera
+16 Batwing Demon
+16 Blessed Cleric
+16 Corrupted Hollow
+16 Flexile Sentry
+16 Forossa Lion Knight
+16 Infested Corpse
+16 Knights of Gwynevere
+16 Magic Barrier
+16 Mirrah Warrior
+16 New Londo Shade
+16 Resting Thief
+16 Soul of a Nameless Soldier
+16 Sunlight Spear
+16 Transient Curse
+16 Village Blacksmith
+16 Weary Travelers
+16 Adventuring Sorcerer
+16 Amana Priestess
+16 Aural Decoy
+16 Chameleon
+16 Crystal Butterfly
+16 Dual Charm
+16 Great Crab
+16 Hidden Body
+16 Homing Soul Mass
+16 Hooded Sorcerer
+16 Invisible Hollow
+16 Lost spell from Oolacile
+16 Magic Denial
+16 Old Sorcerer
+16 Petrifying Gaze
+16 Soul of an Unknown Traveler
+16 A Hero Gone Mad
+16 Chasm Giant
+16 Dark Edge
+16 Dark Hand of Kaathe
+16 Deep Fog
+16 Grave Warden
+16 Grip of Death
+16 Hollow Soldier
+16 Hound Rat
+16 Lothric Sentry
+16 Parasite Worm
+16 Royal Rat Vanguard
+16 Sift through the Ashes
+16 Something Petrified
+16 Soul of a Sorrowful Spirit
+16 Undead Hound
+16 Chaos Storm
+16 Cracked Redeye Orb
+16 Cragspider
+16 Demon Cleric
+16 Desert Pyromancer
+16 Evangelist of the Deep
+16 Firekeeper
+16 Firesage Demon
+16 Flamewielding Hollow
+16 Hollow Infantry
+16 Pesky Mosquito
+16 Profaned Flame
+16 Profuse Sweat
+16 Rapport
+16 Soul of an Old Pyromancer
+16 Sunlight Maggot
+16 Taurus Demon
+16 Unkindled's Journey
+16 Alluring Skull
+16 Amana Aberration
+16 Cathedral Evangelist
+16 Corrode
+16 Ent of the Darkroot Garden
+16 Festering Goblin
+16 Hesitant Surveyor
+16 Hollow Knight
+16 Milfanito
+16 Proselyte Scarlett
+16 Ravenous Crystal Lizard
+16 Sentinel of the Tower of Flame
+16 Shaded Woods
+16 Soul of a Lost Explorer
+16 Souls of the Living
+16 Undead Aberration
+16 Warcry
+16 Warp the Land
+16 Ruin Sentinels
+16 Sorcerer's Remedy
+16 Bell Gargoyles
+16 Broadsword
+16 Charm of the Undead Hunters
+16 Iron Golem
+16 Metaleater Spider
+16 Silver Amulet
+16 Silver Serpent Ring
+16 Thorolund Talisman
+
+[Uncommon]
+6 Four Kings
+6 Sif, the Great Grey Wolf
+6 Heretic Storyteller
+6 Heavenly Thunder
+6 Insolent Spirits
+6 Karmic Righteousness
+6 Miracle of the Way of White
+6 Petrified Egg
+6 Shulva's Denial
+6 Solaire of Astora
+6 Soothing Sunlight
+6 Swollen Mongrel
+6 Tears of Denial
+6 Wight
+6 Angelic Knight
+6 Ashen Estus
+6 Burning Ambition
+6 Farron Dart
+6 Pestilent Mercury
+6 Ruin Banshee
+6 Sage's Scroll
+6 Search the Library
+6 Twisted Wall of Light
+6 Wall Spectre
+6 Bonfire Ascetic
+6 Charred Knight
+6 Chosen Undead
+6 Clawed Curse
+6 Darkwraith
+6 Jailer
+6 Lordran Necromancer
+6 Resonant Flesh
+6 Resonant Soul
+6 Scraps of Life
+6 Acid Surge
+6 Capra Demon
+6 Fiery Soapstone
+6 Fire Orb
+6 Fire Surge
+6 Flame Whip
+6 Immolation
+6 Lingering Flame
+6 Permeating Flames
+6 Smoldering Rotten Flesh
+6 Contrasted Cursed
+6 Covenant of the Forest Hunter
+6 Duke's Dear Freja
+6 Estus Flask
+6 Expected Companions
+6 Lothric Knight
+6 Mimic
+6 Petrifying Statue
+6 Seek Embers
+6 The Serpent King
+6 Wistful Naivete
+6 Blade of the Darkmoon
+6 Disembodied Wisp
+6 Splintering Lightning
+6 Spreading Decay
+6 Bloodbite Ring
+6 Charm of the Abyss Watchers
+6 Chloranthy Ring
+6 Halberd
+6 Heide Knight
+6 Hornet Ring
+6 Looking Glass Knight
+6 Ring of a Great Warrior
+6 Soul Syphoner
+6 Titanite Shard
+
+[Rare]
+3 Anri of Astora
+3 Emit Force
+3 Homeward
+3 Reforge
+3 Siegmeyer of Catarina
+3 Sunlight Blade
+3 Vow of Silence
+3 Big Hat Logan
+3 Fume Sorcerer
+3 Hidden Weapon
+3 Outrider Knight
+3 Rumination
+3 Soul Spear
+3 Soul Stream
+3 Dark Sigil
+3 Frozen Reindeer
+3 Grave Warden's Tome
+3 Nimble Shadow
+3 Resonant Weapon
+3 Skim Memories
+3 The Great Swamp
+3 Carthus Beacon
+3 Chaos Bed Vestiges
+3 Forbidden Sun
+3 Hellkite Wyvern
+3 Ignite Steel
+3 Unbreakable Patches
+3 Carthus Rouge
+3 Dark Fog
+3 Gaping Dragon
+3 Pagan Tree
+3 Aldrich, Devourer of Gods
+3 Ancient Wyvern
+3 Archdeacon of the Deep
+3 Baneful Queen, Mytha
+3 Bed of Chaos
+3 Dragonslayer and Executioner
+3 Ember
+3 Fume Knight
+3 Gael, Seeker of Ash
+3 Hawkeye Gough
+3 Iudex Gundyr
+3 Knight Lautrec
+3 Stream of Estus
+3 Yhorm, the Giant
+3 Catalyst of the Witch of Izalith
+3 Charm of the Sunlight Princess
+3 Cursed Greatsword
+3 Eyes of a Firekeeper
+3 Shinku Doku Hitokiri
+3 Talisman of the Way of White
+3 Titanite Chunk
+3 Wolf Knight's Greatshield
+
+[Mythic]

@@ -182,15 +182,15 @@ def _generate_set(set):
 
 def _write_cockatrice_set_file(set, cards):
     # Write the file
-    cockatrice_set_file = f"{set}_cockatrice.xml"
+    cockatrice_set_file = f"cockatrice_{set}.xml"
     with open(cockatrice_set_file, "w", encoding="utf-8") as file:
         print(f"{cockatrice_set_file}: Writing set")
         xml_start = f"""<?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_carddatabase version="4">
     <sets>
         <set>
-        <name>DKS</name>
-        <longname>DKS</longname>
+        <name>{set.upper()}</name>
+        <longname>{set.upper()}</longname>
         </set>
     </sets>
     <cards>

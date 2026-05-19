@@ -39,7 +39,7 @@ card_chant_of_oolacile:
 card_conjuring_hollow:
   front:
     name: "Conjuring Hollow"
-    cost: "{U/W}"
+    cost: "{W/U}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -193,7 +193,7 @@ card_serpents_regrowth:
 card_skittering_slave:
   front:
     name: "Skittering Slave"
-    cost: "{B/W}"
+    cost: "{W/B}"
     super: ""
     type: "Creature"
     sub: "Hollow"
@@ -247,7 +247,7 @@ card_the_end_of_fire:
 card_warden_of_the_forgotten_tower:
   front:
     name: "Warden of the Forgotten Tower"
-    cost: "{U/G}"
+    cost: "{G/U}"
     super: ""
     type: "Creature"
     sub: "Hollow"

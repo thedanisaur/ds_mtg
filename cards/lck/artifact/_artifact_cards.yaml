@@ -531,7 +531,7 @@ card_seat_of_the_archives:
     rarity: "Rare"
     rating: 2
     rules_text: |
-      Fortified land has "{U/W}, {T}: Draw a card. Activate this ability only if you have five or more cards in hand."
+      Fortified land has "{W/U}, {T}: Draw a card. Activate this ability only if you have five or more cards in hand."
       Fortify {1}
     flavor_text: "The serpent's that guard this prison know not the value of what they hide..."
     artwork_url: "https://i.ibb.co/3JgbtsL/seat-of-the-archives-by-creighton-v-mirrah-resize.jpg"

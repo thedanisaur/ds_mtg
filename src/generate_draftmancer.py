@@ -10,6 +10,58 @@ from generate_docs import colors_from_mana_cost
 from generate_docs import TYPE_BASIC
 from generate_docs import TYPE_LAND
 
+# 3 packs per person
+# 8 people
+# 16 cards
+# 3 x 8 x 16 = 384 cards for a draft
+# Based on rarity breakdown c:11, u:3, r:1, m:1/8 we need to multiply the drafts
+# by 6 to see at least one of each mythic 3 x 8 x 1/8 = 3. 3 x 6 = 18
+# Following that logic we need c: 1584, u:432, r:144, m:18 total for proper distribution
+# c = 3 * 8 * 6 * 11 = 1584
+# u = 3 * 8 * 6 * 3 = 432
+# r = 3 * 8 * 6 * 1 = 144
+# m = 3 * 8 * 6 * 1/8 = 18
+# 102 commons x 16 = 1620 (slightly over represented)
+# 80 uncommons x 6 = 480 (slightly over represented)
+# 55 rares x 3 = 165 (slightly over represented)
+# 18 mythics x 1 = 18 (exactly represented)
+card_counts_dks = {
+    'Common': '16 ',
+    'Uncommon': '6 ',
+    'LandUncommon': '6 ',
+    'Rare': '3 ',
+    'LandRare': '3 ',
+    'Basic': '8 ',
+}
+
+# 3 packs per person
+# 8 people
+# 16 cards
+# 3 x 8 x 16 = 384 cards for a draft
+# Based on rarity breakdown c:11, u:3, r:1, m:1/8 we need to multiply the drafts
+# by 6 to see at least one of each mythic 3 x 8 x 1/8 = 3. 3 x 6 = 18
+# Following that logic we need c: 1584, u:432, r:144, m:18 total for proper distribution
+# c = 3 * 8 * 6 * 11 = 1584
+# u = 3 * 8 * 6 * 3 = 432
+# r = 3 * 8 * 6 * 1 = 144
+# m = 3 * 8 * 6 * 1/8 = 18
+# 102 commons x 16 = 1620 (slightly over represented)
+# 80 uncommons x 6 = 480 (slightly over represented)
+# 55 rares x 3 = 165 (slightly over represented)
+# 18 mythics x 1 = 18 (exactly represented)
+card_counts_lck = {
+    'Common': '16 ',
+    'Uncommon': '7 ',
+    'LandUncommon': '28 ',
+    'Rare': '7 ',
+    'LandRare': '7 ',
+}
+
+set_weights_all = {
+    'dks': card_counts_dks,
+    'lck': card_counts_lck,
+}
+
 def convert_mana_cost(mana_string):
     # Regular expression to find all mana symbols
     # Match hybrid and phyrexian mana first (e.g., 2/R, W/U, G/P), then single letters/numbers
@@ -83,10 +135,11 @@ def _generate_card_list(set, cards_by_rarity):
     return cards_by_rarity
 
 def _write_standard_settings(set, cards_by_rarity):
-    module_name = f"{set}_draftmancer_standard_settings"
+    module_name = f"draftmancer_{set}_standard_settings"
     module = importlib.import_module(module_name)
     # Write back the updated content for a standard draft
-    draftmancer_standard = f"{set}_draftmancer_standard.txt"
+    draftmancer_standard = f"draftmancer_{set}_standard.txt"
+    set_weights = set_weights_all.get(set, {})
     with open(draftmancer_standard, "w", encoding="utf-8") as file:
         print(f"{draftmancer_standard}: Writing custom cards")
         file.write('[CustomCards]\n')
@@ -108,39 +161,21 @@ def _write_standard_settings(set, cards_by_rarity):
         for rarity in cards_by_rarity:
             file.write(f"[{rarity}]\n")
             for card in cards_by_rarity[rarity]:
-                # 3 packs per person
-                # 8 people
-                # 15 cards
-                # 3 x 8 x 15 = 360 cards for a draft
-                # Based on rarity breakdown c:11, u:3, r:1, m:1/8 we need to multiply the drafts
-                # to 6 to see at least one of each mythic 3 x 8 x 1/8 = 3. 3 x 6 = 18
-                # Following that logic we need c: 1584, u:432, r:144, m:18 total for proper distribution
-                # 100 commons x 15 = 1500 (slightly under represented)
-                # 62 uncommons x 7 = 434 (slightly over represented)
-                # 45 rares x 3 = 135 (slightly under represented)
-                # 18 mythics x 1 = 18 (exactly represented)
-                if rarity == 'Common':
-                    file.write('15 ')
-                elif rarity == 'Uncommon':
-                    file.write('7 ')
-                elif rarity == 'LandUncommon':
-                    file.write('7 ')
-                elif rarity == 'Rare':
-                    file.write('3 ')
-                elif rarity == 'LandRare':
-                    file.write('3 ')
-                elif rarity == 'Basic':
-                    file.write('8 ')
+                weight = set_weights.get(rarity, '')
+                if len(weight) == 0:
+                    exit("missing card weight for rarity: {rarity}")
+                else:
+                    file.write(weight)
                 file.write(f"{card['name']}\n")
             file.write(f"\n")
         print(f"{draftmancer_standard}: ✅ Sheets written")
     print(f"{draftmancer_standard}: ✅ Updated successfully")
 
 def _write_no_rarity_settings(set, cards_by_rarity):
-    module_name = f"{set}_draftmancer_no_rarity_settings"
+    module_name = f"draftmancer_{set}_no_rarity_settings"
     module = importlib.import_module(module_name)
     # Write back the updated content for a no rarity draft
-    draftmancer_no_rarity = f"{set}_draftmancer_no_rarity.txt"
+    draftmancer_no_rarity = f"draftmancer_{set}_no_rarity.txt"
     with open(draftmancer_no_rarity, "w", encoding="utf-8") as file:
         print(f"{draftmancer_no_rarity}: Writing custom cards")
         file.write('[CustomCards]\n')
@@ -183,6 +218,7 @@ def generate_draftmancer():
         cards_by_rarity = _generate_card_list(set_folder, cards_by_rarity)
         _write_standard_settings(set_folder, cards_by_rarity)
         _write_no_rarity_settings(set_folder, cards_by_rarity)
+        cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
 
 if __name__ == '__main__':
     generate_draftmancer()
