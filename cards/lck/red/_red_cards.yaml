@@ -245,9 +245,9 @@ card_crimson_wyvern:
     toughness: 3
     number: 146
 
-card_deflecting_whipsers:
+card_deflecting_whispers:
   front:
-    name: "Deflecting Whipsers"
+    name: "Deflecting Whispers"
     cost: "{R}"
     super: ""
     type: "Instant"
