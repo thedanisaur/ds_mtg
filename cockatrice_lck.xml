@@ -2369,7 +2369,7 @@ When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield und
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Deflecting Whipsers</name>
+        <name>Deflecting Whispers</name>
         <text>Change the target of target spell with another target. You get two souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2379,7 +2379,7 @@ When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield und
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" num="147" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whipsers.jpeg">DKS</set>
+        <set rarity="Common" num="147" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3541,7 +3541,7 @@ Sacrifice ~: You may cast a card you own in exile without paying its mana cost.<
             <maintype>Enchantment</maintype>
             <manacost>{U/R}{U/R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Common" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3574,7 +3574,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3592,7 +3592,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3642,7 +3642,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Common" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3658,7 +3658,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B/R}{B/R}</manacost>
             <cmc>4</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
@@ -3704,7 +3704,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">DKS</set>

@@ -1567,7 +1567,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/corrosive_slime.jpeg"
 },
 {
-    "name": "Deflecting Whipsers",
+    "name": "Deflecting Whispers",
     "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
@@ -1577,7 +1577,7 @@
     "rarity": "common",
     "rating": 2,
     "oracle_text": "Change the target of target spell with another target. You get two souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whipsers.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg"
 },
 {
     "name": "Devout of the Deep",
@@ -2417,8 +2417,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2473,8 +2473,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2487,8 +2487,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2543,8 +2543,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2557,8 +2557,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2585,8 +2585,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2599,8 +2599,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3809,11 +3809,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "W",
         "U",
-        "B",
         "R",
         "G",
-        "W"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -4056,7 +4056,7 @@
 4 Corrosive Egg Insect
 4 Corrosive Organics
 4 Corrosive Slime
-4 Deflecting Whipsers
+4 Deflecting Whispers
 4 Devout of the Deep
 4 Fiery Tome of Carthus
 4 Fire Tempest

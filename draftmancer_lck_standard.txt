@@ -1567,7 +1567,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/corrosive_slime.jpeg"
 },
 {
-    "name": "Deflecting Whipsers",
+    "name": "Deflecting Whispers",
     "super": "",
     "type": "Instant",
     "mana_cost": "{R}",
@@ -1577,7 +1577,7 @@
     "rarity": "common",
     "rating": 2,
     "oracle_text": "Change the target of target spell with another target. You get two souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whipsers.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg"
 },
 {
     "name": "Devout of the Deep",
@@ -2417,8 +2417,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2473,8 +2473,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2487,8 +2487,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2543,8 +2543,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2557,8 +2557,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2585,8 +2585,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2599,8 +2599,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3809,11 +3809,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "W",
         "U",
-        "B",
         "R",
         "G",
-        "W"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3935,18 +3935,16 @@
                     "count": 1,
                     "sheets": [
                         {"name": "LandMythic",  "weight": 1},
-                        {"name": "LandRare",  "weight": 8},
-                        {"name": "LandUncommon",  "weight": 32},
+                        {"name": "LandRare",  "weight": 7},
+                        {"name": "LandUncommon",  "weight": 28},
                     ]
                 },
                 {
                     "name": "RareOrMythic",
                     "count": 1,
                     "sheets": [
-                        {"name": "LandRare",  "weight": 16},
-                        {"name": "Rare",   "weight": 344},
-                        {"name": "LandMythic",  "weight": 2},
-                        {"name": "Mythic", "weight": 16}
+                        {"name": "Mythic", "weight": 1},
+                        {"name": "Rare",   "weight": 7},
                     ]
                 },
                 {"name": "Uncommon",   "count": 3},
@@ -3956,223 +3954,223 @@
     }
 }
 [Common]
-15 Aldia's Reckoning
-15 Olaphis Statue
-15 Praying Hollow
-15 Sinh, the Slumbering Dragon
-15 Stone-Humped Old Hag
-15 The Pursuer
-15 Traveling Merchant
-15 A Call to the Ash
-15 Blinding Bolt
-15 Brilliant Ash
-15 Catacomb Blacksmith
-15 Divine Tome of Carim
-15 Divine Will
-15 Flickering Phantoms
-15 Flowing Curse
-15 Gwyn's Divine Justice
-15 Lindelt Perseverance
-15 Lorian, Crown Prince
-15 Lothric, Oath's Forsaken
-15 Path of the Dragon
-15 Radiant Blast
-15 Resplendent Life
-15 Seal of the Champions
-15 Soul of a Weary Warrior
-15 Soul Vortex
-15 The Way of Blue
-15 Thorolund Shade
-15 Transient Flicker
-15 Transient Prison
-15 Unveil
-15 Amana Charmer
-15 Amana Void-Whisperer
-15 Ancient Researcher
-15 Archive Scholar
-15 Ashen Nōmuki
-15 Bloated Flies
-15 Cerebral Snap
-15 Crystalize
-15 Daring Sorcerer
-15 Daughters of Crystal
-15 Dream Vortex
-15 Echoes of Clarity
-15 Encase in Crystal
-15 Faint Amnesia
-15 Fall Control
-15 Fog Wall
-15 Forger of Vinheim
-15 Introspective Channeler
-15 Logan's Apprentice
-15 Mage of Oolacile
-15 Mound-maker Adept
-15 Murkman
-15 Orbeck of Vinheim
-15 Pilgrim Butterfly
-15 Pontiff Sulyvahn
-15 Profound Still
-15 Promised Walk of Peace
-15 Reckless Alchemist
-15 Repel the Abyss
-15 Scour the Archives
-15 Scrolls of a Master Sorcerer
-15 Simpleton's Spice
-15 Sorcerer's Apprentice
-15 Soul of a Lost Undead
-15 Twisted Atonement
-15 Twisted Barricade
-15 Valley of the Drakes
-15 Watchers of the Belfry
-15 Abyss Jackel
-15 Afflicted Graverobber
-15 Bearing the Curse
-15 Burg-Sewer Rats
-15 Catacombs Gravebinder
-15 Chained Prisoner
-15 Creeping Constraints
-15 Cursed Jar
-15 Dark Bead
-15 Dead Again
-15 Deranged Inhabitant
-15 Deserter of the Watch
-15 Dripping Slime
-15 Etched Erasure
-15 Festering Undead Rat
-15 Gnawing Corpse Rat
-15 Harald Legion Knight
-15 Harvest Valley Banedigger
-15 Heretic's Darkstorm
-15 Hexing Curse from Olaphis
-15 Necrotic Husk
-15 Numbness
-15 Oath of the Undead Curse
-15 Resonant Life
-15 Royal Sorcerer
-15 Shadowy Tome of the Gravelord
-15 Sir Vilhelm
-15 Skeletal Necromancer
-15 Soul of a Deserted Corpse
-15 Soulbound Wretched Undead
-15 Statue of Absolution
-15 Syphon Hope
-15 The Darklurker
-15 Twisted Humanity
-15 Twisted Recollection
-15 Veiled Cloak
-15 Wandering Huntsman
-15 Waning Prudence
-15 Watcher at the Ramparts
-15 Whisper of Despair
-15 Aldia's Forlorn
-15 Ashen Strike
-15 Blitz Hound
-15 Bonewheel
-15 Brume Gate
-15 Cathedral Warden
-15 Chaos Demon
-15 Chaos Maggot
-15 Cleansing Orb
-15 Corrosive Egg Insect
-15 Corrosive Organics
-15 Corrosive Slime
-15 Deflecting Whipsers
-15 Devout of the Deep
-15 Fiery Tome of Carthus
-15 Fire Tempest
-15 Flame Swathe
-15 Flamebourne Captain
-15 Flaming Golem
-15 Generous Sunlight
-15 Gyrm Warrior
-15 Lightning Urn
-15 Lost Spell from Izalith
-15 Masked Manikin
-15 Menacing Thief
-15 Preeminent Giant
-15 Raise the Sloughtender
-15 Scream of Defiance
-15 Shaded Scorpion
-15 Shimmering Void
-15 Smoldering Idolatry
-15 Soothing Chant
-15 Soul of a Kindled Conjurer
-15 Splintering Bolt
-15 Torturous Demon
-15 Volgen Falconer
-15 Winged Fortune, Kalameet
-15 Adept Cartographer
-15 Amana Shaman
-15 Banished Butcher
-15 Beast of Amana
-15 Bloodlet Giant
-15 Blowdart Sniper
-15 Brume Tower Warrior
-15 Caged Bargainer
-15 Company Captain
-15 Dark Stalkers
-15 Darkroot Dryad
-15 Darkroot Spores
-15 Darkroot Vines
-15 Deep Accursed
-15 Deep Veil
-15 Divine Tome of Londor
-15 Dogged Contender
-15 Drangleic Kobold
-15 Drangleic Ogre
-15 Farron Keep Perimeter
-15 From the Shaded Woods
-15 Growing Phalanx
-15 Honorable Duel
-15 Hounding Hydra
-15 Imperious Knight
-15 Marching Inevitablility
-15 Old Ironclad Troll
-15 Overwhelming Numbness
-15 Parasite-ridden Dragon
-15 Persevering Mist
-15 Petrifying Basilisk
-15 Possessed Foliage
-15 Shrine Drakekeeper
-15 Soul of a Crestfallen Adventurer
-15 Sundering Grove
-15 Suspicious Shadow
-15 The Lordvessel
-15 Titanite Demon
-15 Truth of the Old Words
-15 Undead Pigs
-15 Ashen Keep Sentinel
-15 Chant of Oolacile
-15 Conjuring Hollow
-15 Engorged Hollow
-15 Forsworn Shell
-15 Hollow Priest
-15 Hollow Warrior
-15 Pledged Anathema
-15 Rupturing Hollow
-15 Serpent's Regrowth
-15 Skittering Slave
-15 Soul-Scoured Hollow
-15 The End of Fire
-15 Warden of the Forgotten Tower
-15 Budding Lotus
-15 Corrosive Urn
-15 Crown of the Covetous King
-15 Crown of the Ivory King
-15 Crown of the Old Iron King
-15 Crown of the Sunken King
-15 Curator of the Grand Archives
-15 Darkmoon Seance Idol
-15 Glinting Sigil
-15 Hollow's Amulet
-15 New Londo Talisman
-15 Pyrewarden's Stone
-15 Resplendent Projection
-15 Seal of a Slumbering Dragon
-15 Shattered Dusk Ring
-15 Sunless Amulet
-15 The Champion's Tablet
-15 The Great Seal of Thorolund
+16 Aldia's Reckoning
+16 Olaphis Statue
+16 Praying Hollow
+16 Sinh, the Slumbering Dragon
+16 Stone-Humped Old Hag
+16 The Pursuer
+16 Traveling Merchant
+16 A Call to the Ash
+16 Blinding Bolt
+16 Brilliant Ash
+16 Catacomb Blacksmith
+16 Divine Tome of Carim
+16 Divine Will
+16 Flickering Phantoms
+16 Flowing Curse
+16 Gwyn's Divine Justice
+16 Lindelt Perseverance
+16 Lorian, Crown Prince
+16 Lothric, Oath's Forsaken
+16 Path of the Dragon
+16 Radiant Blast
+16 Resplendent Life
+16 Seal of the Champions
+16 Soul of a Weary Warrior
+16 Soul Vortex
+16 The Way of Blue
+16 Thorolund Shade
+16 Transient Flicker
+16 Transient Prison
+16 Unveil
+16 Amana Charmer
+16 Amana Void-Whisperer
+16 Ancient Researcher
+16 Archive Scholar
+16 Ashen Nōmuki
+16 Bloated Flies
+16 Cerebral Snap
+16 Crystalize
+16 Daring Sorcerer
+16 Daughters of Crystal
+16 Dream Vortex
+16 Echoes of Clarity
+16 Encase in Crystal
+16 Faint Amnesia
+16 Fall Control
+16 Fog Wall
+16 Forger of Vinheim
+16 Introspective Channeler
+16 Logan's Apprentice
+16 Mage of Oolacile
+16 Mound-maker Adept
+16 Murkman
+16 Orbeck of Vinheim
+16 Pilgrim Butterfly
+16 Pontiff Sulyvahn
+16 Profound Still
+16 Promised Walk of Peace
+16 Reckless Alchemist
+16 Repel the Abyss
+16 Scour the Archives
+16 Scrolls of a Master Sorcerer
+16 Simpleton's Spice
+16 Sorcerer's Apprentice
+16 Soul of a Lost Undead
+16 Twisted Atonement
+16 Twisted Barricade
+16 Valley of the Drakes
+16 Watchers of the Belfry
+16 Abyss Jackel
+16 Afflicted Graverobber
+16 Bearing the Curse
+16 Burg-Sewer Rats
+16 Catacombs Gravebinder
+16 Chained Prisoner
+16 Creeping Constraints
+16 Cursed Jar
+16 Dark Bead
+16 Dead Again
+16 Deranged Inhabitant
+16 Deserter of the Watch
+16 Dripping Slime
+16 Etched Erasure
+16 Festering Undead Rat
+16 Gnawing Corpse Rat
+16 Harald Legion Knight
+16 Harvest Valley Banedigger
+16 Heretic's Darkstorm
+16 Hexing Curse from Olaphis
+16 Necrotic Husk
+16 Numbness
+16 Oath of the Undead Curse
+16 Resonant Life
+16 Royal Sorcerer
+16 Shadowy Tome of the Gravelord
+16 Sir Vilhelm
+16 Skeletal Necromancer
+16 Soul of a Deserted Corpse
+16 Soulbound Wretched Undead
+16 Statue of Absolution
+16 Syphon Hope
+16 The Darklurker
+16 Twisted Humanity
+16 Twisted Recollection
+16 Veiled Cloak
+16 Wandering Huntsman
+16 Waning Prudence
+16 Watcher at the Ramparts
+16 Whisper of Despair
+16 Aldia's Forlorn
+16 Ashen Strike
+16 Blitz Hound
+16 Bonewheel
+16 Brume Gate
+16 Cathedral Warden
+16 Chaos Demon
+16 Chaos Maggot
+16 Cleansing Orb
+16 Corrosive Egg Insect
+16 Corrosive Organics
+16 Corrosive Slime
+16 Deflecting Whispers
+16 Devout of the Deep
+16 Fiery Tome of Carthus
+16 Fire Tempest
+16 Flame Swathe
+16 Flamebourne Captain
+16 Flaming Golem
+16 Generous Sunlight
+16 Gyrm Warrior
+16 Lightning Urn
+16 Lost Spell from Izalith
+16 Masked Manikin
+16 Menacing Thief
+16 Preeminent Giant
+16 Raise the Sloughtender
+16 Scream of Defiance
+16 Shaded Scorpion
+16 Shimmering Void
+16 Smoldering Idolatry
+16 Soothing Chant
+16 Soul of a Kindled Conjurer
+16 Splintering Bolt
+16 Torturous Demon
+16 Volgen Falconer
+16 Winged Fortune, Kalameet
+16 Adept Cartographer
+16 Amana Shaman
+16 Banished Butcher
+16 Beast of Amana
+16 Bloodlet Giant
+16 Blowdart Sniper
+16 Brume Tower Warrior
+16 Caged Bargainer
+16 Company Captain
+16 Dark Stalkers
+16 Darkroot Dryad
+16 Darkroot Spores
+16 Darkroot Vines
+16 Deep Accursed
+16 Deep Veil
+16 Divine Tome of Londor
+16 Dogged Contender
+16 Drangleic Kobold
+16 Drangleic Ogre
+16 Farron Keep Perimeter
+16 From the Shaded Woods
+16 Growing Phalanx
+16 Honorable Duel
+16 Hounding Hydra
+16 Imperious Knight
+16 Marching Inevitablility
+16 Old Ironclad Troll
+16 Overwhelming Numbness
+16 Parasite-ridden Dragon
+16 Persevering Mist
+16 Petrifying Basilisk
+16 Possessed Foliage
+16 Shrine Drakekeeper
+16 Soul of a Crestfallen Adventurer
+16 Sundering Grove
+16 Suspicious Shadow
+16 The Lordvessel
+16 Titanite Demon
+16 Truth of the Old Words
+16 Undead Pigs
+16 Ashen Keep Sentinel
+16 Chant of Oolacile
+16 Conjuring Hollow
+16 Engorged Hollow
+16 Forsworn Shell
+16 Hollow Priest
+16 Hollow Warrior
+16 Pledged Anathema
+16 Rupturing Hollow
+16 Serpent's Regrowth
+16 Skittering Slave
+16 Soul-Scoured Hollow
+16 The End of Fire
+16 Warden of the Forgotten Tower
+16 Budding Lotus
+16 Corrosive Urn
+16 Crown of the Covetous King
+16 Crown of the Ivory King
+16 Crown of the Old Iron King
+16 Crown of the Sunken King
+16 Curator of the Grand Archives
+16 Darkmoon Seance Idol
+16 Glinting Sigil
+16 Hollow's Amulet
+16 New Londo Talisman
+16 Pyrewarden's Stone
+16 Resplendent Projection
+16 Seal of a Slumbering Dragon
+16 Shattered Dusk Ring
+16 Sunless Amulet
+16 The Champion's Tablet
+16 The Great Seal of Thorolund
 
 [Uncommon]
 7 Alonne Knight Captain
@@ -4206,70 +4204,70 @@
 7 Zweihander
 
 [Rare]
-3 Oolacile Transfiguration
-3 Spreading Contamination
-3 Crimson Wyvern
-3 Screeching Undead
-3 Sulyvahn's Fiend
-3 Hush Dear Accursed
-3 Ballista Tower
-3 Bloodred Moss Clump
-3 Burnt Offering
-3 Fragrant Branch of Yore
-3 Moaning Sanctum
-3 Palisades of Ash
-3 Purple Moss Clump
-3 Ring of Favor
-3 Seal of the Dark Void
-3 Seat of the Archives
-3 Sen's Fortifications
-3 Uchigatana
+7 Oolacile Transfiguration
+7 Spreading Contamination
+7 Crimson Wyvern
+7 Screeching Undead
+7 Sulyvahn's Fiend
+7 Hush Dear Accursed
+7 Ballista Tower
+7 Bloodred Moss Clump
+7 Burnt Offering
+7 Fragrant Branch of Yore
+7 Moaning Sanctum
+7 Palisades of Ash
+7 Purple Moss Clump
+7 Ring of Favor
+7 Seal of the Dark Void
+7 Seat of the Archives
+7 Sen's Fortifications
+7 Uchigatana
 
 [Mythic]
-Velstadt, the Royal Aegis
-Aldia, First of the Scholars
-Time Distortion
-Dark Queen Nashandra
-Smelter Demon
-Royal Rat Authority
-Mox Citrine
+1 Velstadt, the Royal Aegis
+1 Aldia, First of the Scholars
+1 Time Distortion
+1 Dark Queen Nashandra
+1 Smelter Demon
+1 Royal Rat Authority
+1 Mox Citrine
 
 [LandUncommon]
-7 Ash Lake
-7 Brightstone Cove Tseldora
-7 Chamber of the Princess
-7 Church of Yorshka
-7 Cleansing Chapel
-7 Crumbled Ruins
-7 Crystal Cave
-7 Dark Chasm of Old
-7 Darkroot Basin
-7 Darkroot Forest
-7 Demon Ruins
-7 Depths of the Burg
-7 Dragon Aerie
-7 Dragon-Kin Mausoleum
-7 Drangleic Castle
-7 Earthen Peak
-7 Frozen Eleum Loyce
-7 Great Hollows
-7 Halfway Fortress
-7 Harvest Valley
-7 Heide's Tower of Flame
-7 Icecracked Crag
-7 Irithyll Dungeon
-7 Majula Gate
-7 Majula Pit
-7 Old Wolf of Farron
-7 Profaned Capital
-7 Quelaag's Domain
-7 The Dreg Heap
-7 Undead Burg
-7 Untended Graves
+28 Ash Lake
+28 Brightstone Cove Tseldora
+28 Chamber of the Princess
+28 Church of Yorshka
+28 Cleansing Chapel
+28 Crumbled Ruins
+28 Crystal Cave
+28 Dark Chasm of Old
+28 Darkroot Basin
+28 Darkroot Forest
+28 Demon Ruins
+28 Depths of the Burg
+28 Dragon Aerie
+28 Dragon-Kin Mausoleum
+28 Drangleic Castle
+28 Earthen Peak
+28 Frozen Eleum Loyce
+28 Great Hollows
+28 Halfway Fortress
+28 Harvest Valley
+28 Heide's Tower of Flame
+28 Icecracked Crag
+28 Irithyll Dungeon
+28 Majula Gate
+28 Majula Pit
+28 Old Wolf of Farron
+28 Profaned Capital
+28 Quelaag's Domain
+28 The Dreg Heap
+28 Undead Burg
+28 Untended Graves
 
 [LandRare]
-3 Fireless Shrine
-3 The Grand Archives
+7 Fireless Shrine
+7 The Grand Archives
 
 [LandMythic]
 

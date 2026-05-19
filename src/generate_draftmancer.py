@@ -31,6 +31,8 @@ card_counts_dks = {
     'LandUncommon': '6 ',
     'Rare': '3 ',
     'LandRare': '3 ',
+    'Mythic': '1 ',
+    'LandMythic': '1 ',
     'Basic': '8 ',
 }
 
@@ -55,6 +57,8 @@ card_counts_lck = {
     'LandUncommon': '28 ',
     'Rare': '7 ',
     'LandRare': '7 ',
+    'Mythic': '1 ',
+    'Basic': '8 ',
 }
 
 set_weights_all = {
@@ -163,7 +167,7 @@ def _write_standard_settings(set, cards_by_rarity):
             for card in cards_by_rarity[rarity]:
                 weight = set_weights.get(rarity, '')
                 if len(weight) == 0:
-                    exit("missing card weight for rarity: {rarity}")
+                    exit(f"missing card weight for rarity: {rarity}")
                 else:
                     file.write(weight)
                 file.write(f"{card['name']}\n")
