@@ -98,6 +98,7 @@ card_chained_prisoner:
     sub: "Zombie"
     rarity: "Common"
     rules_text: |
+      Lifelink
       When ~ becomes the target of a spell or ability, sacrifice it.
       ~ has indestructible if a card went to your graveyard this turn.
     flavor_text: "A bizarre, swollen mass of filth with legs."
@@ -221,8 +222,8 @@ card_deserter_of_the_watch:
     sub: "Human Knight"
     rarity: "Common"
     rules_text: |
-      As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
-      When ~ enters the battlefield or dies, each player gets three souls.
+      When ~ enters the battlefield, each player gets three souls.
+      When ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.
     flavor_text: "The poor wretched souls... Be they lord or legend, the curse shows no mercy. What a sham."
     artwork_url: "https://i.ibb.co/VcftWMLg/deserter-of-the-watch-by-unknown-resize.jpg"
     artist: "unknown"
@@ -772,8 +773,8 @@ card_whisper_of_despair:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Target player sacrifices a creature with mana value 3 or less.
-      Exile ~ from your graveyard, sacrifice a creature: Target player sacrifices a creature.
+      Target player sacrifices a creature.
+      Exile ~ and two other cards from your graveyard: Target player sacrifices a creature. You lose 2 life.
     flavor_text: "Cries turn to exhale as flesh is stripped from bone."
     artwork_url: "https://i.ibb.co/N6LP9sBj/whisper-of-despair-by-parleenmazumdar-resize.jpg"
     artist: "Parleenmazumdar"

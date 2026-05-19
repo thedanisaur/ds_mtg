@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "W",
-            "B"
+            "B",
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "B",
         "W",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "R",
-            "B"
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2854,8 +2854,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "B",
+        "G",
         "R"
     ],
     "rarity": "rare",
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "B",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3097,10 +3097,10 @@
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
         "W",
-        "U",
         "R",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "W",
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "B",
             "W",
-            "U",
-            "B"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3205,10 +3205,10 @@
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
         "W",
-        "U",
         "R",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3278,10 +3278,10 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
         "R",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3417,10 +3417,10 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
         "R",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 4,

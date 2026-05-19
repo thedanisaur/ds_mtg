@@ -449,7 +449,7 @@
     "rarity": "common",
     "rating": 2,
     "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player you may look at the top two cards of their library, then you may put any number of them on the bottom of their library.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ashen_n\u014dmuki.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ashen_nomuki.jpeg"
 },
 {
     "name": "Bloated Flies",
@@ -953,7 +953,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "When ~ becomes the target of a spell or ability, sacrifice it.\n~ has indestructible if a card went to your graveyard this turn.\n",
+    "oracle_text": "Lifelink\nWhen ~ becomes the target of a spell or ability, sacrifice it.\n~ has indestructible if a card went to your graveyard this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/chained_prisoner.jpeg"
 },
 {
@@ -1031,7 +1031,7 @@
     ],
     "rarity": "common",
     "rating": 0,
-    "oracle_text": "As you cast ~, if a card went to your graveyard this turn, replace each instance of \"player\" with \"opponent\".\nWhen ~ enters the battlefield or dies, each player gets three souls.\n",
+    "oracle_text": "When ~ enters the battlefield, each player gets three souls.\nWhen ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/deserter_of_the_watch.jpeg"
 },
 {
@@ -1407,7 +1407,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Target player sacrifices a creature with mana value 3 or less.\nExile ~ from your graveyard, sacrifice a creature: Target player sacrifices a creature.\n",
+    "oracle_text": "Target player sacrifices a creature.\nExile ~ and two other cards from your graveyard: Target player sacrifices a creature. You lose 2 life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/whisper_of_despair.jpeg"
 },
 {
@@ -2431,8 +2431,8 @@
     "type": "Enchantment",
     "mana_cost": "{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2459,8 +2459,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2473,8 +2473,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2487,8 +2487,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2515,8 +2515,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2543,8 +2543,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2557,8 +2557,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2585,8 +2585,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2599,8 +2599,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3810,10 +3810,10 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
         "R",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3848,8 +3848,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 2,

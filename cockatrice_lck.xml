@@ -908,7 +908,7 @@ Whenever ~ deals combat damage to a player you may look at the top two cards of 
             <colors>U</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Common" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ashen_nōmuki.jpeg">DKS</set>
+        <set rarity="Common" num="55" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ashen_nomuki.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1558,7 +1558,8 @@ Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.<
     </card>
     <card>
         <name>Chained Prisoner</name>
-        <text>When ~ becomes the target of a spell or ability, sacrifice it.
+        <text>Lifelink
+When ~ becomes the target of a spell or ability, sacrifice it.
 ~ has indestructible if a card went to your graveyard this turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1666,8 +1667,8 @@ Madness {B} (If you discard this card, discard it into exile. When you do, cast 
     </card>
     <card>
         <name>Deserter of the Watch</name>
-        <text>As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
-When ~ enters the battlefield or dies, each player gets three souls.</text>
+        <text>When ~ enters the battlefield, each player gets three souls.
+When ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -2144,8 +2145,8 @@ Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card
     </card>
     <card>
         <name>Whisper of Despair</name>
-        <text>Target player sacrifices a creature with mana value 3 or less.
-Exile ~ from your graveyard, sacrifice a creature: Target player sacrifices a creature.</text>
+        <text>Target player sacrifices a creature.
+Exile ~ and two other cards from your graveyard: Target player sacrifices a creature. You lose 2 life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -3541,7 +3542,7 @@ Sacrifice ~: You may cast a card you own in exile without paying its mana cost.<
             <maintype>Enchantment</maintype>
             <manacost>{U/R}{U/R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Common" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3574,7 +3575,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3592,7 +3593,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3608,7 +3609,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3642,7 +3643,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Common" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3673,7 +3674,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Common" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3688,7 +3689,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3719,7 +3720,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
         </prop>
         <set rarity="Common" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3734,7 +3735,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>UG</colors>
+            <colors>GU</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
