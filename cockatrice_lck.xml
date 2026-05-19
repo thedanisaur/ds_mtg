@@ -3535,17 +3535,16 @@ Other Hollow creatures you control get +1/+1.</text>
     </card>
     <card>
         <name>Chant of Oolacile</name>
-        <text>When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells cast this turn.
-Once each turn you may cast a card you own in exile. (You still pay its costs.)
-If a source would deal damage to you, it deals that much damage plus 1 to you instead.
-Sacrifice ~: You may cast a card you own in exile without paying its mana cost.</text>
+        <text>~ and spells you control can't be countered.
+Whenever a player casts a noncreature spell ~ deals 1 damage to them.
+Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
             <maintype>Enchantment</maintype>
-            <manacost>{U/R}{U/R}</manacost>
-            <cmc>2</cmc>
-            <colors>RU</colors>
+            <manacost>{R/G}</manacost>
+            <cmc>1</cmc>
+            <colors>GR</colors>
         </prop>
         <set rarity="Common" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3561,7 +3560,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>UW</colors>
+            <colors>WU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3596,7 +3595,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3662,7 +3661,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B/R}{B/R}</manacost>
             <cmc>4</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
@@ -3692,7 +3691,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3723,7 +3722,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
         </prop>
         <set rarity="Common" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>

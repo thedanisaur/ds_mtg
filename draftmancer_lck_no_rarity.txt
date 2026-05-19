@@ -2429,14 +2429,14 @@
     "name": "Chant of Oolacile",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "{U/R}{U/R}",
+    "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "U"
+        "G",
+        "R"
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells cast this turn.\nOnce each turn you may cast a card you own in exile. (You still pay its costs.)\nIf a source would deal damage to you, it deals that much damage plus 1 to you instead.\nSacrifice ~: You may cast a card you own in exile without paying its mana cost.\n",
+    "oracle_text": "~ and spells you control can't be countered.\nWhenever a player casts a noncreature spell ~ deals 1 damage to them.\nPay one soul or discard a card: Add {R} or {G} to your mana pool.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg"
 },
 {
@@ -2445,8 +2445,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2473,8 +2473,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2529,8 +2529,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "common",
     "rating": 2,
@@ -2557,8 +2557,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2585,8 +2585,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3784,8 +3784,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3809,11 +3809,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "R",
         "W",
         "G",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,

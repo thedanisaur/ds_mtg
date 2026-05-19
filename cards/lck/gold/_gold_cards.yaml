@@ -20,18 +20,17 @@ card_ashen_keep_sentinel:
 card_chant_of_oolacile:
   front:
     name: "Chant of Oolacile"
-    cost: "{U/R}{U/R}"
+    cost: "{R/G}"
     super: ""
     type: "Enchantment"
     sub: ""
     rarity: "Common"
     rating: 1
     rules_text: |
-      When ~ enters the battlefield, exile the top X cards of your library where X is the number of spells cast this turn.
-      Once each turn you may cast a card you own in exile. (You still pay its costs.)
-      If a source would deal damage to you, it deals that much damage plus 1 to you instead.
-      Sacrifice ~: You may cast a card you own in exile without paying its mana cost.
-    flavor_text: ""
+      ~ and spells you control can't be countered.
+      Whenever a player casts a noncreature spell ~ deals 1 damage to them.
+      Pay one soul or discard a card: Add {R} or {G} to your mana pool.
+    flavor_text: "The demon sleeps..."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Elf-Queen-678836334"
     artist: "cobaltplasma"
     number: 219
