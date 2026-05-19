@@ -280,9 +280,9 @@ card_devout_of_the_deep:
     toughness: 1
     number: 148
 
-card_fiery_tome_of_carthus:
+card_fiery_scroll_of_carthus:
   front:
-    name: "Fiery Tome of Carthus"
+    name: "Fiery Scroll of Carthus"
     cost: "{1}{R}"
     super: ""
     type: "Instant"

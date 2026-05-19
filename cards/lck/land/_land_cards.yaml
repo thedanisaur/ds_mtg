@@ -483,24 +483,6 @@ card_old_wolf_of_farron:
     artist: "fromsoft"
     number: 298
 
-card_profaned_capital:
-  front:
-    name: "Profaned Capital"
-    cost: ""
-    super: "Bonfire"
-    type: "Land"
-    sub: "Island"
-    rarity: "Uncommon"
-    rules_text: |
-      ~ enters the battlefield tapped.
-      {T}: Add {U}
-      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
-      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
-    flavor_text: ""
-    artwork_url: "https://i.ibb.co/rKHmDB9J/profaned-capital-by-fromsoft.jpg"
-    artist: "fromsoft"
-    number: 299
-
 card_quelaags_domain:
   front:
     name: "Quelaag's Domain"
@@ -516,6 +498,24 @@ card_quelaags_domain:
     artwork_url: "https://i.ibb.co/FksxMRQm/quelaags-domain-by-fromsoft.jpg"
     artist: "fromsoft"
     colors: '{B}{R}'
+    number: 299
+
+card_sinners_rise:
+  front:
+    name: "Sinner's Rise"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: "Plains"
+    rarity: "Uncommon"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {W}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/rKHmDB9J/profaned-capital-by-fromsoft.jpg"
+    artist: "fromsoft"
     number: 300
 
 card_the_dreg_heap:

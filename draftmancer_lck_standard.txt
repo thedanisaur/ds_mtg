@@ -1593,7 +1593,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/devout_of_the_deep.jpeg"
 },
 {
-    "name": "Fiery Tome of Carthus",
+    "name": "Fiery Scroll of Carthus",
     "super": "",
     "type": "Instant",
     "mana_cost": "{1}{R}",
@@ -1603,7 +1603,7 @@
     "rarity": "common",
     "rating": 2,
     "oracle_text": "Search your library for a card, put it into your hand, and then discard a card at random. Shuffle your library.\nFragment {R} - While searching your library, you may reveal this card from your library. If you do, each player sacrifices a permanent. (Only activate one fragment ability per search.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/fiery_tome_of_carthus.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/fiery_scroll_of_carthus.jpeg"
 },
 {
     "name": "Fire Tempest",
@@ -2417,8 +2417,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2431,8 +2431,8 @@
     "type": "Enchantment",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2548,7 +2548,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "Look at the top X cards of your library, where X is twice the number of lands you control. Put one of them into your hand and one into your graveyard, put the rest on the bottom of your library in a random order. At the beginning of your next upkeep return a card from your graveyard to your hand.\n",
+    "oracle_text": "Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.\nCycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg"
 },
 {
@@ -2571,8 +2571,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2599,8 +2599,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -3483,7 +3483,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
+    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/ash_lake.jpeg"
 },
 {
@@ -3531,7 +3531,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/cleansing_chapel.jpeg"
 },
 {
-    "name": "Crumbled Ruins",
+    "name": "Crumbling Ruins",
     "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
@@ -3539,7 +3539,7 @@
     "rarity": "uncommon",
     "rating": 2,
     "oracle_text": "~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.\n{T}: Add {U} or {G} to your mana pool.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/crumbled_ruins.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/crumbling_ruins.jpeg"
 },
 {
     "name": "Crystal Cave",
@@ -3635,8 +3635,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3710,15 +3710,15 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/heides_tower_of_flame.jpeg"
 },
 {
-    "name": "Icecracked Crag",
+    "name": "Huntsman's Copse",
     "super": "",
     "type": "Land",
     "mana_cost": "",
     "colors": [],
     "rarity": "uncommon",
     "rating": 0,
-    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/icecracked_crag.jpeg"
+    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/huntsmans_copse.jpeg"
 },
 {
     "name": "Irithyll Dungeon",
@@ -3768,17 +3768,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/old_wolf_of_farron.jpeg"
 },
 {
-    "name": "Profaned Capital",
-    "super": "Bonfire",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "uncommon",
-    "rating": 0,
-    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/profaned_capital.jpeg"
-},
-{
     "name": "Quelaag's Domain",
     "super": "",
     "type": "Land",
@@ -3793,6 +3782,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/quelaags_domain.jpeg"
 },
 {
+    "name": "Sinner's Rise",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {W}\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/sinners_rise.jpeg"
+},
+{
     "name": "The Dreg Heap",
     "super": "Legendary Bonfire",
     "type": "Land",
@@ -3800,7 +3800,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "{T}: Add {1} to your mana pool.\n{4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.\n",
+    "oracle_text": "{T}: Add {W} to your mana pool.\n{4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/the_dreg_heap.jpeg"
 },
 {
@@ -3809,11 +3809,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "W",
-        "G",
+        "R",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -4076,7 +4076,7 @@
 16 Corrosive Slime
 16 Deflecting Whispers
 16 Devout of the Deep
-16 Fiery Tome of Carthus
+16 Fiery Scroll of Carthus
 16 Fire Tempest
 16 Flame Swathe
 16 Flamebourne Captain
@@ -4238,7 +4238,7 @@
 28 Chamber of the Princess
 28 Church of Yorshka
 28 Cleansing Chapel
-28 Crumbled Ruins
+28 Crumbling Ruins
 28 Crystal Cave
 28 Dark Chasm of Old
 28 Darkroot Basin
@@ -4254,13 +4254,13 @@
 28 Halfway Fortress
 28 Harvest Valley
 28 Heide's Tower of Flame
-28 Icecracked Crag
+28 Huntsman's Copse
 28 Irithyll Dungeon
 28 Majula Gate
 28 Majula Pit
 28 Old Wolf of Farron
-28 Profaned Capital
 28 Quelaag's Domain
+28 Sinner's Rise
 28 The Dreg Heap
 28 Undead Burg
 28 Untended Graves

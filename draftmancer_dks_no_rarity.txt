@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
         "R",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,8 +2854,8 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
-        "G",
         "R",
+        "G",
         "B"
     ],
     "rarity": "rare",
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
+        "B",
         "W",
-        "G",
+        "R",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
+        "B",
         "W",
-        "G",
+        "R",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "W",
-        "G",
+        "R",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "W",
-        "G",
+        "R",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "mythic",
     "rating": 4,

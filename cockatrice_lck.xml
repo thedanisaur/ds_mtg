@@ -2401,7 +2401,7 @@ When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield und
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Fiery Tome of Carthus</name>
+        <name>Fiery Scroll of Carthus</name>
         <text>Search your library for a card, put it into your hand, and then discard a card at random. Shuffle your library.
 Fragment {R} - While searching your library, you may reveal this card from your library. If you do, each player sacrifices a permanent. (Only activate one fragment ability per search.)</text>
         <prop><layout>normal</layout>
@@ -2412,7 +2412,7 @@ Fragment {R} - While searching your library, you may reveal this card from your 
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" num="149" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/fiery_tome_of_carthus.jpeg">DKS</set>
+        <set rarity="Common" num="149" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/fiery_scroll_of_carthus.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3527,7 +3527,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3544,7 +3544,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Common" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3669,7 +3669,8 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
     </card>
     <card>
         <name>Serpent's Regrowth</name>
-        <text>Look at the top X cards of your library, where X is twice the number of lands you control. Put one of them into your hand and one into your graveyard, put the rest on the bottom of your library in a random order. At the beginning of your next upkeep return a card from your graveyard to your hand.</text>
+        <text>Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.
+Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -3707,7 +3708,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">DKS</set>
@@ -3737,7 +3738,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>GU</colors>
+            <colors>UG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
@@ -4332,8 +4333,8 @@ Equip {3}</text>
         <name>Ash Lake</name>
         <text>~ enters the battlefield tapped.
 {T}: Add {U}
-Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
-Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)</text>
+Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
+Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Land - Island</type>
@@ -4365,7 +4366,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {B} or {W} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Plains Swamp</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4380,7 +4381,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {U} or {B} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Swamp Island</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4395,7 +4396,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {U} or {R} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Island Mountain</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4405,17 +4406,17 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
         <cipt>1</cipt>
     </card>
     <card>
-        <name>Crumbled Ruins</name>
+        <name>Crumbling Ruins</name>
         <text>~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.
 {T}: Add {U} or {G} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Forest Island</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" num="277" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/crumbled_ruins.jpeg">DKS</set>
+        <set rarity="Uncommon" num="277" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/crumbling_ruins.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -4453,7 +4454,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {G} or {W} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Plains Forest</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4482,7 +4483,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {B} or {R} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Mountain Swamp</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4528,7 +4529,7 @@ Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, rev
 {T}: Add {R} or {W} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Mountain Plains</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4621,7 +4622,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {R} or {G} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Forest Mountain</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4650,7 +4651,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {U} or {W} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Plains Island</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
@@ -4660,11 +4661,11 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
         <cipt>1</cipt>
     </card>
     <card>
-        <name>Icecracked Crag</name>
+        <name>Huntsman's Copse</name>
         <text>~ enters the battlefield tapped.
 {T}: Add {U}
-Plainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)
-Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)</text>
+Forestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)
+Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Land - Island</type>
@@ -4672,7 +4673,7 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" num="294" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/icecracked_crag.jpeg">DKS</set>
+        <set rarity="Uncommon" num="294" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/huntsmans_copse.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -4729,29 +4730,12 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
 {T}: Add {B} or {G} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Bonfire Land - Swamp Forest</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
         <set rarity="Uncommon" num="298" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/old_wolf_of_farron.jpeg">DKS</set>
-        <tablerow>0</tablerow>
-        <cipt>1</cipt>
-    </card>
-    <card>
-        <name>Profaned Capital</name>
-        <text>~ enters the battlefield tapped.
-{T}: Add {U}
-Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
-Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Bonfire Land - Island</type>
-            <maintype>Land</maintype>
-            <manacost></manacost>
-            <cmc>0</cmc>
-        </prop>
-        <set rarity="Uncommon" num="299" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/profaned_capital.jpeg">DKS</set>
         <tablerow>0</tablerow>
         <cipt>1</cipt>
     </card>
@@ -4765,12 +4749,29 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Uncommon" num="300" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/quelaags_domain.jpeg">DKS</set>
+        <set rarity="Uncommon" num="299" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/quelaags_domain.jpeg">DKS</set>
         <tablerow>0</tablerow>
     </card>
     <card>
+        <name>Sinner's Rise</name>
+        <text>~ enters the battlefield tapped.
+{T}: Add {W}
+Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Bonfire Land - Plains</type>
+            <maintype>Land</maintype>
+            <manacost></manacost>
+            <cmc>0</cmc>
+        </prop>
+        <set rarity="Uncommon" num="300" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/sinners_rise.jpeg">DKS</set>
+        <tablerow>0</tablerow>
+        <cipt>1</cipt>
+    </card>
+    <card>
         <name>The Dreg Heap</name>
-        <text>{T}: Add {1} to your mana pool.
+        <text>{T}: Add {W} to your mana pool.
 {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.</text>
         <prop><layout>normal</layout>
             <side>front</side>

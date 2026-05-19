@@ -1408,114 +1408,114 @@
         <strong>Crumbled Ruins</strong>
     </td>
     <td align="center">
-        <img src="./cards/lck/land/crystal_cave.jpeg" alt="Crystal Cave" width="400"/><br/>
-        <strong>Crystal Cave</strong>
+        <img src="./cards/lck/land/crumbling_ruins.jpeg" alt="Crumbling Ruins" width="400"/><br/>
+        <strong>Crumbling Ruins</strong>
     </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/lck/land/crystal_cave.jpeg" alt="Crystal Cave" width="400"/><br/>
+        <strong>Crystal Cave</strong>
+    </td>
     <td align="center">
         <img src="./cards/lck/land/dark_chasm_of_old.jpeg" alt="Dark Chasm Of Old" width="400"/><br/>
         <strong>Dark Chasm Of Old</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/darkroot_basin.jpeg" alt="Darkroot Basin" width="400"/><br/>
         <strong>Darkroot Basin</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/darkroot_forest.jpeg" alt="Darkroot Forest" width="400"/><br/>
         <strong>Darkroot Forest</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/demon_ruins.jpeg" alt="Demon Ruins" width="400"/><br/>
         <strong>Demon Ruins</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/depths_of_the_burg.jpeg" alt="Depths Of The Burg" width="400"/><br/>
         <strong>Depths Of The Burg</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/dragon_aerie.jpeg" alt="Dragon Aerie" width="400"/><br/>
         <strong>Dragon Aerie</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/dragon_kin_mausoleum.jpeg" alt="Dragon Kin Mausoleum" width="400"/><br/>
         <strong>Dragon Kin Mausoleum</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/drangleic_castle.jpeg" alt="Drangleic Castle" width="400"/><br/>
         <strong>Drangleic Castle</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/earthen_peak.jpeg" alt="Earthen Peak" width="400"/><br/>
         <strong>Earthen Peak</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/fireless_shrine.jpeg" alt="Fireless Shrine" width="400"/><br/>
         <strong>Fireless Shrine</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/frozen_eleum_loyce.jpeg" alt="Frozen Eleum Loyce" width="400"/><br/>
         <strong>Frozen Eleum Loyce</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/great_hollows.jpeg" alt="Great Hollows" width="400"/><br/>
         <strong>Great Hollows</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/halfway_fortress.jpeg" alt="Halfway Fortress" width="400"/><br/>
         <strong>Halfway Fortress</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/harvest_valley.jpeg" alt="Harvest Valley" width="400"/><br/>
         <strong>Harvest Valley</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/heides_tower_of_flame.jpeg" alt="Heides Tower Of Flame" width="400"/><br/>
         <strong>Heides Tower Of Flame</strong>
     </td>
-    <td align="center">
-        <img src="./cards/lck/land/icecracked_crag.jpeg" alt="Icecracked Crag" width="400"/><br/>
-        <strong>Icecracked Crag</strong>
-    </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/lck/land/huntsmans_copse.jpeg" alt="Huntsmans Copse" width="400"/><br/>
+        <strong>Huntsmans Copse</strong>
+    </td>
     <td align="center">
         <img src="./cards/lck/land/irithyll_dungeon.jpeg" alt="Irithyll Dungeon" width="400"/><br/>
         <strong>Irithyll Dungeon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/majula_gate.jpeg" alt="Majula Gate" width="400"/><br/>
         <strong>Majula Gate</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/majula_pit.jpeg" alt="Majula Pit" width="400"/><br/>
         <strong>Majula Pit</strong>
     </td>
-    <td align="center">
-        <img src="./cards/lck/land/old_wolf_of_farron.jpeg" alt="Old Wolf Of Farron" width="400"/><br/>
-        <strong>Old Wolf Of Farron</strong>
-    </td>
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/lck/land/profaned_capital.jpeg" alt="Profaned Capital" width="400"/><br/>
-        <strong>Profaned Capital</strong>
+        <img src="./cards/lck/land/old_wolf_of_farron.jpeg" alt="Old Wolf Of Farron" width="400"/><br/>
+        <strong>Old Wolf Of Farron</strong>
     </td>
     <td align="center">
         <img src="./cards/lck/land/quelaags_domain.jpeg" alt="Quelaags Domain" width="400"/><br/>
@@ -1524,65 +1524,69 @@
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/lck/land/sinners_rise.jpeg" alt="Sinners Rise" width="400"/><br/>
+        <strong>Sinners Rise</strong>
+    </td>
+    <td align="center">
         <img src="./cards/lck/land/the_dreg_heap.jpeg" alt="The Dreg Heap" width="400"/><br/>
         <strong>The Dreg Heap</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/the_grand_archives.jpeg" alt="The Grand Archives" width="400"/><br/>
         <strong>The Grand Archives</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/land/undead_burg.jpeg" alt="Undead Burg" width="400"/><br/>
         <strong>Undead Burg</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/land/untended_graves.jpeg" alt="Untended Graves" width="400"/><br/>
         <strong>Untended Graves</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/token/bleed_counter.jpeg" alt="Bleed Counter" width="400"/><br/>
         <strong>Bleed Counter</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/token/curse_counter.jpeg" alt="Curse Counter" width="400"/><br/>
         <strong>Curse Counter</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/token/soul_counter.jpeg" alt="Soul Counter" width="400"/><br/>
         <strong>Soul Counter</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/forest.jpeg" alt="Forest" width="400"/><br/>
         <strong>Forest</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>

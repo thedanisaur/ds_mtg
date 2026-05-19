@@ -445,3 +445,20 @@ card_island_jund_cycler:
 # ========================================================================
 # ----- Cycling lands -----
 # ========================================================================
+card_profaned_capital:
+  front:
+    name: "Profaned Capital"
+    cost: ""
+    super: "Bonfire"
+    type: "Land"
+    sub: "Island"
+    rarity: "Uncommon"
+    rules_text: |
+      ~ enters the battlefield tapped.
+      {T}: Add {U}
+      Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)
+      Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/rKHmDB9J/profaned-capital-by-fromsoft.jpg"
+    artist: "fromsoft"
+    number: 299
