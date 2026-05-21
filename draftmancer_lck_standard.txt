@@ -868,7 +868,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/watchers_of_the_belfry.jpeg"
 },
 {
-    "name": "Abyss Jackel",
+    "name": "Abyss Jackal",
     "super": "",
     "type": "Creature",
     "mana_cost": "{1}{B}",
@@ -878,7 +878,7 @@
     "rarity": "common",
     "rating": 0,
     "oracle_text": "Haste\n~ can't block.\nDiscard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackel.jpeg"
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackal.jpeg"
 },
 {
     "name": "Afflicted Graverobber",
@@ -2434,8 +2434,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2462,8 +2462,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2845,7 +2845,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Vigilance, lifelink\nCreatures you control get +0/+1.\nPay one soul: untap target creature you control or tap target creature you don't control.\n",
+    "oracle_text": "Vigilance, lifelink\nCreatures you control get +0/+1.\nPay one soul: Untap target creature you control or tap target creature you don't control.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/channeler_servant.jpeg"
 },
 {
@@ -3486,8 +3486,8 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3714,8 +3714,8 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3802,8 +3802,8 @@
     "mana_cost": "",
     "colors": [
         "W",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3873,8 +3873,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "W",
+        "R",
         "B"
     ],
     "rarity": "uncommon",
@@ -3901,11 +3901,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "W",
+        "B",
         "R",
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -4117,7 +4117,7 @@
 16 Twisted Barricade
 16 Valley of the Drakes
 16 Watchers of the Belfry
-16 Abyss Jackel
+16 Abyss Jackal
 16 Afflicted Graverobber
 16 Bearing the Curse
 16 Burg-Sewer Rats

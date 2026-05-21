@@ -271,7 +271,7 @@ Equip costs you pay cost {1} less. If a card went to your graveyard this turn, e
         <name>Channeler Servant</name>
         <text>Vigilance, lifelink
 Creatures you control get +0/+1.
-Pay one soul: untap target creature you control or tap target creature you don't control.</text>
+Pay one soul: Untap target creature you control or tap target creature you don't control.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wizard</type>
@@ -1480,7 +1480,7 @@ Whenever you cast a noncreature spell, create a 1/1 blue Gnome Spirit creature t
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Abyss Jackel</name>
+        <name>Abyss Jackal</name>
         <text>Haste
 ~ can't block.
 Discard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.</text>
@@ -1493,7 +1493,7 @@ Discard a nonland card or sacrifice a creature: Target player gets one soul and 
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackel.jpeg">DKS</set>
+        <set rarity="Common" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackal.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3594,7 +3594,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3626,7 +3626,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>RW</colors>
+            <colors>WR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">DKS</set>

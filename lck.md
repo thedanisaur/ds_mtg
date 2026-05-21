@@ -468,8 +468,8 @@
         <strong>Watchers Of The Belfry</strong>
     </td>
     <td align="center">
-        <img src="./cards/lck/black/abyss_jackel.jpeg" alt="Abyss Jackel" width="400"/><br/>
-        <strong>Abyss Jackel</strong>
+        <img src="./cards/lck/black/abyss_jackal.jpeg" alt="Abyss Jackal" width="400"/><br/>
+        <strong>Abyss Jackal</strong>
     </td>
 </tr>
 <tr>
