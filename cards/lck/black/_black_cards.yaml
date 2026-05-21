@@ -9,7 +9,7 @@ card_abyss_jackel:
     rules_text: |
       Haste
       ~ can't block.
-      {B}, discard a card: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.
+      Discard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/23/94/7f/23947f720ba53ef178cec2cadbeffcf1.jpg"
     artist: "Akashi"
@@ -80,7 +80,7 @@ card_catacombs_gravebinder:
     sub: "Skeleton Wizard"
     rarity: "Common"
     rules_text: |
-      Whenever ~ enters the battlefield or is exiled from your graveyard, until end of turn whenever a creature enters the battlefield that wasn't cast, you lose 1 life, draw a card, and get one soul.
+      When ~ enters the battlefield or is exiled from your graveyard, return all creatures to the battlefield that went to the graveyard this turn. Until end of turn, you lose 1 life, draw a card, and get one soul for each creature that enters the battlefield and wasn't cast.
       Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/mV5N6Mxt/catacombs-gravebinder-by-unknown-resize.jpg"
@@ -127,7 +127,7 @@ card_creeping_constraints:
 card_cursed_jar:
   front:
     name: "Cursed Jar"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Elemental"
@@ -243,7 +243,7 @@ card_dripping_slime:
       Indestructible
       Whenever ~ is dealt damage, if that damage was from a source that is white or green, sacrifice it.
       Chameleon {3}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-      When ~ is turned face up, destroy target nonblack creature if a card went to your graveyard this turn.
+      When ~ is turned face up, destroy target nonblack creature.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/CKqJYP6y/dripping-slime-by-unknown-recolor.jpg"
     artist: "unknown"
@@ -299,7 +299,7 @@ card_gnawing_corpse_rat:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. You draw a card, lose 1 life, and get one soul.
+      Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. Draw a card, lose 1 life, add {B} to your mana pool, and get one soul.
     flavor_text: "Rodents always find food sources with the highest nutrition."
     artwork_url: "https://i.pinimg.com/736x/d0/ca/6d/d0ca6d7727c55162b3bd5910c99bc682.jpg"
     artist: "Hex Arcana"
@@ -375,7 +375,7 @@ card_hexing_curse_from_olaphis:
     rating: 3
     rules_text: |
       Put a -1/-1 counter on target creature. When that creature is put into a graveyard this turn, its controller gets three plague counters.
-      Cycling {B} ({B}, Discard this card: Draw a card.)
+      Cycling {1} ({1}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: ""
     artist: ""
@@ -444,7 +444,7 @@ card_resonant_life:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Return target planeswalker or creature card from your graveyard to your hand. Target player gets two souls, then loses life equal to the number of souls they have, you gain that much life.
+      Return target planeswalker or creature card from a graveyard to the battlefield under your control. You get two souls, then lose life equal to the number of souls you have.
     flavor_text: "Something gained, something lost."
     artwork_url: "https://i.ibb.co/tw2CkNJt/resonant-life-by-aloisio-vieira-resize.jpg"
     artist: "Aloisio Vieira"
@@ -501,7 +501,7 @@ card_shadowy_tome_of_the_gravelord:
     rating: 3
     rules_text: |
       Search your library for a card and put it into your hand. Shuffle your library.
-      Fragment {B} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)
+      Fragment {0} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)
     flavor_text: "All that's left of the secrets of the lord soul are tattered pages of a tome long forgotten."
     artwork_url: "https://i.ibb.co/gLY1hbp8/shadowy-tome-of-the-gravelord-by-unknown-resize.jpg"
     artist: "unknown"
@@ -644,11 +644,11 @@ card_the_darklurker:
     super: "Legendary"
     type: "Creature"
     sub: "Demon"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Flying
-      When ~ deals combat damage to a player, each player loses 1 life and draws a card.
+      When ~ deals combat damage to a player, each player loses 1 life, draws a card, and gets one soul.
       {B/P}: ~ gains haste until end of turn.
       Madness {1}{B/P}{B/P} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
@@ -702,7 +702,7 @@ card_veiled_cloak:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Target creature gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
+      Target creature get +1/+0 and gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
     flavor_text: "Straid was invited to the old kingdom of Olaphis for his wisdom, but its depth was a dreadful trap."
     artwork_url: "https://i.ibb.co/V0TP44Z8/veiled-cloak-by-fromsoft-resize.jpg"
     artist: "fromsoft"
@@ -753,8 +753,8 @@ card_watcher_at_the_ramparts:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ leaves the battlefield you get one soul.
-      {1}{B}, pay 2 life: Return ~ from your graveyard to your hand.
+      When ~ enters or leaves the graveyard you get one soul.
+      {1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.
       Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/YFMxYy0Z/watcher-at-the-ramparts-by-unknown-resize.jpg"

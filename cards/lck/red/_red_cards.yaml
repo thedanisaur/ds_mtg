@@ -9,7 +9,7 @@ card_aldias_forlorn:
     rating: 3
     rules_text: |
       Haste
-      Discard a nonland card, pay one soul: Draw a card. Target creature can't block this turn. ~ doesn't untap during your next untap step.
+      Discard a card, pay one soul: Draw a card. Target creature can't block this turn. ~ doesn't untap during your next untap step.
     flavor_text: "Fiendish stalkers, seeking out Undead for the collection of their souls."
     artwork_url: "https://i.ibb.co/Q7dz012W/aldias-forlorn-by-charles-espinella-resize.jpg"
     artist: "Charles Espinella"
@@ -45,7 +45,7 @@ card_blitz_hound:
     rating: 3
     rules_text: |
       Haste
-      Whenever ~ attacks exile the top card of your library with a favored counter on it.
+      Whenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.
       {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Rubbish token.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/95/d9/fb/95d9fb8258b54cfdb669da1d7fe1e76b.jpg"
@@ -65,32 +65,13 @@ card_bonewheel:
     rating: 3
     rules_text: |
       Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      When ~ attacks, sacrifice it at the beginning of the next end step.
+      When ~ attacks, exile the top card of your library with a favored counter on it. You get one soul. Sacrifice it at the beginning of the next end step.
     flavor_text: "Be wary of rolling."
     artwork_url: "https://i.ibb.co/8L6cFkFM/bonewheel-by-ev-ganin-resize.jpg"
     artist: "Ev Ganin"
     power: 3
     toughness: 1
     number: 137
-
-card_brume_gate:
-  front:
-    name: "Brume Gate"
-    cost: "{2}{R}"
-    super: ""
-    type: "Creature"
-    sub: "Elemental Wall"
-    rarity: "Common"
-    rating: 3
-    rules_text: |
-      Prevent all damage dealt to and dealt by ~.
-      When ~ dies, search your library for a Lord card and put it onto the battlefield. Shuffle your library.
-    flavor_text: "The wind howls as if mourning, bringing a giant wall of flame along the path of the fallen king."
-    artwork_url: "https://i.pinimg.com/736x/c2/a8/8a/c2a88a77ebae783fd22308220ebf6ce2.jpg"
-    artist: "unknown"
-    power: 0
-    toughness: 3
-    number: 138
 
 card_cathedral_warden:
   front:
@@ -104,13 +85,13 @@ card_cathedral_warden:
     rules_text: |
       Haste
       ~ has double strike as long as it's attacking.
-      {R}: ~ gets +1/+0 until end of turn. Only activate this ability once per turn.
-    flavor_text: ""
+      {R}: ~ gets +1/+0 and whenever it deals damage you get that many souls until end of turn. Only activate this ability once per turn.
+    flavor_text: "The cathedral knights are prepared to meet all manner of foolish."
     artwork_url: "https://i.ibb.co/67cvL4yj/cathedral-warden-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     power: 1
     toughness: 1
-    number: 139
+    number: 138
 
 card_chaos_demon:
   front:
@@ -122,13 +103,14 @@ card_chaos_demon:
     rarity: "Common"
     rating: 3
     rules_text: |
-      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. Starting with you, the owner of each permanent exiles cards from the top of their library until they exile a card that shares a card type with it. That player may put that card into play. Then they put all cards exiled this way on the bottom of their library in any order.
-    flavor_text: ""
+      Haste
+      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with that permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.
+    flavor_text: "Souls born of the First Flame embody Light, Dark, Life, and Death... this soul... is Chaos."
     artwork_url: "https://i.pinimg.com/736x/98/01/bd/9801bd68bd743540143d1290eddf1e26.jpg"
     artist: "nameless"
     power: 2
     toughness: 2
-    number: 140
+    number: 139
 
 card_chaos_maggot:
   front:
@@ -148,7 +130,7 @@ card_chaos_maggot:
     artist: "Fromsoft"
     power: 0
     toughness: 1
-    number: 141
+    number: 140
 
 card_cleansing_orb:
   front:
@@ -165,7 +147,7 @@ card_cleansing_orb:
     flavor_text: "Souls of the lost are never destroyed only splintered."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Rimefire-Bolt-556704695"
     artist: "cobaltplasma"
-    number: 142
+    number: 141
 
 card_corrosive_egg_insect:
   front:
@@ -184,7 +166,7 @@ card_corrosive_egg_insect:
     artist: "fromsoft"
     power: 2
     toughness: 3
-    number: 143
+    number: 142
 
 card_corrosive_organics:
   front:
@@ -203,7 +185,7 @@ card_corrosive_organics:
     flavor_text: "Even the stench is enough to melt flesh."
     artwork_url: "https://i.pinimg.com/736x/74/b4/de/74b4def3830895d5c192ec834907a822.jpg"
     artist: "Ashura Muzas"
-    number: 144
+    number: 143
 
 card_corrosive_slime:
   front:
@@ -224,7 +206,7 @@ card_corrosive_slime:
     artist: "WOTC"
     power: 1
     toughness: 3
-    number: 145
+    number: 144
 
 card_crimson_wyvern:
   front:
@@ -244,7 +226,7 @@ card_crimson_wyvern:
     artist: "unknown"
     power: 3
     toughness: 3
-    number: 146
+    number: 145
 
 card_deflecting_whispers:
   front:
@@ -260,7 +242,7 @@ card_deflecting_whispers:
     flavor_text: "The soft incantation of pyromancy will always protect you in your time of need."
     artwork_url: "https://i.pinimg.com/736x/9b/bb/7f/9bbb7f6a4ca66439076374cbff5ec1d9.jpg"
     artist: "Marcin Fedec"
-    number: 147
+    number: 146
 
 card_devout_of_the_deep:
   front:
@@ -272,13 +254,13 @@ card_devout_of_the_deep:
     rarity: "Common"
     rating: 3
     rules_text: |
-      {T}, Sacrifice ~: ~ deals 5 damage to target creature.
+      {T}, Sacrifice ~: ~ deals 5 damage to target creature or planeswalker.
     flavor_text: "After Aldrich left for the Boreal valley, Archdeacon Royce remained in the cathedral with the high priests, to keep eternal watch over their master's coffin. These devoutees' are willing to sacrifice themselves to protect the cathedral and the high priests."
     artwork_url: "https://i.ibb.co/B2D6x1R3/devout-of-the-deep-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     power: 1
     toughness: 1
-    number: 148
+    number: 147
 
 card_fiery_scroll_of_carthus:
   front:
@@ -295,7 +277,7 @@ card_fiery_scroll_of_carthus:
     flavor_text: "The home of Pyromancy, Izalith, was scorched by the very fire it created."
     artwork_url: "https://i.pinimg.com/736x/94/55/d0/9455d057ae13cb7a4784d89fcbd9899f.jpg"
     artist: "Tae Merenda"
-    number: 149
+    number: 148
 
 card_fire_tempest:
   front:
@@ -315,7 +297,7 @@ card_fire_tempest:
     flavor_text: ""
     artwork_url: "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/655029481_18118218958619007_4790409330496859190_n.webp?_nc_cat=108&ig_cache_key=MzMxNDk1OTY1MTM4NjIyMzEyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=5Ox1LKsnT7QQ7kNvwHa9Kh3&_nc_oc=AdqxcVaDL2TYeQcFcxaaiZhM3CI1fCeiyjGu7MddhWC6aipstS1puEZa1-FM5AVJsTU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_gid=2rCvp_1kvMcCm7r5B7TEsQ&_nc_ss=7a22e&oh=00_Af6Smdv2RXw6eNURHwUoxuC_S9bkV11l6fkG_gHs45YH9A&oe=6A0F2AB1"
     artist: "aiden_td"
-    number: 150
+    number: 149
 
 card_flame_swathe:
   front:
@@ -332,7 +314,7 @@ card_flame_swathe:
     flavor_text: "Straid, always immersed in magic, never accepted an apprentice. As a result, much of his extensive knowledge is permanently lost."
     artwork_url: "https://i.ibb.co/1GkQQ6Pf/flame-swathe-by-sean-madridista-resize.jpg"
     artist: "Sean Madridista"
-    number: 151
+    number: 150
 
 card_flamebourne_captain:
   front:
@@ -351,7 +333,7 @@ card_flamebourne_captain:
     artist: "Christobal"
     power: 1
     toughness: 1
-    number: 152
+    number: 151
 
 card_flaming_golem:
   front:
@@ -370,7 +352,7 @@ card_flaming_golem:
     artist: "Conor Burke"
     power: 0
     toughness: 2
-    number: 153
+    number: 152
 
 card_generous_sunlight:
   front:
@@ -387,7 +369,7 @@ card_generous_sunlight:
     flavor_text: "Ah! I see it! The sunlight! It glows in your eyes! Truly, you are a child of the sun!"
     artwork_url: "https://i.ibb.co/Y4zGH6sd/generous-sunlight-by-darksoulsguy-resize.jpg"
     artist: "darksoulsguy"
-    number: 154
+    number: 153
 
 card_gyrm_warrior:
   front:
@@ -400,12 +382,29 @@ card_gyrm_warrior:
     rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      Whenever a card goes to your graveyard, ~ gets +1/+1 until end of turn and you get one soul.
+      Whenever a card goes to your graveyard, ~ gets a +1/+1 counter and you get one soul.
     flavor_text: "Most Gyrm descendants refuse contact with outsiders, and live with a sense of deep contempt for those who exiled them."
     artwork_url: "https://i.pinimg.com/736x/78/d3/2a/78d32a9251d63657cdfc53ade16fbbd4.jpg"
     artist: "fromsoft"
     power: 1
     toughness: 2
+    number: 154
+
+card_immortal_transposition:
+  front:
+    name: "Immortal Transposition"
+    cost: "{1}{R}{R}"
+    super: ""
+    type: "Enchantment"
+    sub: "Aura"
+    rarity: "Rare"
+    rating: 3
+    rules_text: |
+      Enchant creature
+      Enchanted creature has "{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library."
+    flavor_text: "A testament to the cost of obsession."
+    artwork_url: "https://i.ibb.co/v49dnhZy/immortal-transposition-by-cobaltplasma-resize.jpg"
+    artist: "cobaltplasma"
     number: 155
 
 card_lightning_urn:
@@ -448,12 +447,12 @@ card_masked_manikin:
     cost: "{1}{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Hollow"
     rarity: "Common"
     rating: 3
     rules_text: |
       Haste
-      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker.
+      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker. You get two souls.
       Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/tpTYx1GV/masked-manikin-by-steve-sykes-resize.jpg"
@@ -564,8 +563,8 @@ card_screeching_undead:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Trample
-      Whenever a card goes to your graveyard, ~ gets +X/+0 until end of turn, where X is that card's mana value.
+      Trample, haste
+      Whenever a card goes to your graveyard, ~ gets +X/+0 until end of turn and you get X souls, where X is that card's mana value.
     flavor_text: "Their wails echo through the hollows… heed them, or join their chorus."
     artwork_url: "https://i.ibb.co/pB1NFYQR/screeching-undead-by-jennie-wilson-resize.jpg"
     artist: "Jennie Wilson"
@@ -579,12 +578,12 @@ card_shaded_scorpion:
     cost: "{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Scorpion"
     rarity: "Common"
     rating: 3
     rules_text: |
       Haste
-      {1}, {T}: Create a Rubbish token.
+      {T}: Create a Rubbish token.
       Whenever a Rubbish token you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.
     flavor_text: "Our master created us long, long ago. He was born with a fatal flaw. He resented those who had what he lacked, and became mired in hatred."
     artwork_url: "https://i.pinimg.com/736x/0c/b8/ae/0cb8ae08fa46eabd8687844b178f4d9b.jpg"

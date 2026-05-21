@@ -30,6 +30,7 @@ card_amana_shaman:
     rules_text: |
       Trample
       Whenever a creature enters the battlefield under your control, you may gain 1 life and one soul.
+      As long as you have seven or more souls, ~ gets +3/+3 and has lifelink.
     flavor_text: "Over time the line of shrine maidens gradually died off, the seal broke, and the Demon was freed from its prison."
     artwork_url: "https://i.ibb.co/7dRHnZhc/amana-shaman-by-unknown-resize.jpg"
     artist: "unknown"
@@ -186,7 +187,7 @@ card_dark_stalkers:
     rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      Whenever a card goes to your graveyard you may pay {1}{G}, if you do, destroy target artifact or enchantment and put a +1/+1 counter on ~.
+      Whenever a card goes to your graveyard you may pay {1}{G}. If you do, put a +1/+1 counter on ~ and you may destroy up to one target artifact or enchantment.
     flavor_text: "Creatures of the abyss with long limbs and corrupted flesh. They feast on unwary pyromancers that venture into their dungeons."
     artwork_url: "https://i.pinimg.com/736x/c2/bb/9b/c2bb9b05bf447664dcd52feb7ce7b749.jpg"
     artist: "unknown"
@@ -205,7 +206,7 @@ card_darkroot_dryad:
     rating: 3
     rules_text: |
       {T}: Add one mana of any color to your mana pool for each card you own in exile.
-      {G}, {T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)
+      {T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)
     flavor_text: "Shadows move like whispers here; the forest breathes with the memory of kings long dead, and every leaf hides a beast or a curse."
     artwork_url: "https://i.ibb.co/b0DKpQJ/darkroot-dryad-by-jack-cou-resize.jpg"
     artist: "jack cou"
@@ -261,9 +262,9 @@ card_deep_accursed:
     rarity: "Common"
     rating: 3
     rules_text: |
-      If you didn't go first, you may cast this spell any time you could cast and instant.
+      If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.
       Reach, deathtouch
-      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.
+      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy it.
       When ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.
     flavor_text: "https://i.ibb.co/Fb5M3GDJ/deep-accursed-by-tristan-berndt-resize.jpg"
     artwork_url: ""
@@ -379,13 +380,14 @@ card_farron_keep_perimeter:
     rating: 3
     rules_text: |
       ~ can't attack.
-      When ~ enters the battlefield you may search your library for a basic land card, reveal it, and put it into your hand. Shuffle your library.
-      Whenever a land enters the battlefield under your control you may pay {2}{G}. If you do, put a +1/+1 counter on ~.
+      When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.
+      You may play an additional land on each of your turns.
+      Whenever a land enters the battlefield under your control, put a +1/+1 counter on ~.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2e/9c/4b/2e9c4b9945e026443bfe636b2b85087d.jpg"
     artist: "fromsoft"
     power: 0
-    toughness: 4
+    toughness: 2
     number: 195
 
 card_from_the_shaded_woods:
@@ -405,6 +407,22 @@ card_from_the_shaded_woods:
     artist: "John Hulin"
     number: 196
 
+card_gateway_of_the_undead:
+  front:
+    name: "Gateway of the Undead"
+    cost: "{G}"
+    super: ""
+    type: "Enchantment"
+    sub: ""
+    rarity: "Common"
+    rating: 3
+    rules_text: |
+      {G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.
+    flavor_text: "You are the Undead. You must journey to Lordran… This is the first step."
+    artwork_url: "https://i.pinimg.com/736x/4e/ca/b8/4ecab8c8e1ad165f01f880d6dfd09184.jpg"
+    artist: "fromsoft"
+    number: 197
+
 card_growing_phalanx:
   front:
     name: "Growing Phalanx"
@@ -423,7 +441,7 @@ card_growing_phalanx:
     artist: "fromsoft"
     power: 1
     toughness: 1
-    number: 197
+    number: 198
 
 card_honorable_duel:
   front:
@@ -440,7 +458,7 @@ card_honorable_duel:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/b0/37/fc/b037fc60aeedd5d53441f7897c1567df.jpg"
     artist: "fromsoft"
-    number: 198
+    number: 199
 
 card_hounding_hydra:
   front:
@@ -460,7 +478,7 @@ card_hounding_hydra:
     artist: "Randy"
     power: 3
     toughness: 3
-    number: 199
+    number: 200
 
 card_hush_dear_accursed:
   front:
@@ -474,30 +492,10 @@ card_hush_dear_accursed:
     rules_text: |
       Enchant player
       You may cast ~ at any time you could cast and instant.
-      If enchanted player would draw a card except the first one they draw in each of their draw steps, instead each of their opponents get a soul and create a Treasure token.
+      If enchanted player would draw a card except the first one they draw in each of their draw steps, instead each of their opponents get one soul and create a Treasure token.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/mudhorror/art/D3-19993-1166573306"
     artist: "mudhorror"
-    number: 200
-
-card_imperious_knight:
-  front:
-    name: "Imperious Knight"
-    cost: "{2}{G}"
-    super: ""
-    type: "Creature"
-    sub: "Knight"
-    rarity: "Common"
-    rating: 3
-    rules_text: |
-      Reach
-      When ~ enters the battlefield you gain 4 life. If ~ wasn't cast from your hand you gain 8 life instead.
-      Delayed {4}{G} (You may pay {4}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    power: 2
-    toughness: 4
     number: 201
 
 card_marching_inevitablility:
@@ -510,7 +508,7 @@ card_marching_inevitablility:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever a land enters the battlefield under your control or goes to your graveyard, you get a soul and put a +1/+1 counter on each creature you control.
+      Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.
       Delayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/a8/4b/5a/a84b5af9503bf556a28c21fbc52522c0.jpg"
@@ -659,7 +657,7 @@ card_shrine_drakekeeper:
     rating: 3
     rules_text: |
       Creatures you control with +1/+1 counters on them have trample.
-      Whenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets a soul.
+      Whenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets one soul.
     flavor_text: "The sanctum knights renounced their own flesh to eternally guard the Sanctum from Sir Yorgh and his Drakeblood Knights."
     artwork_url: "https://i.ibb.co/cPTSw8N/shrine-drakekeeper-by-robi-lust-resize.jpg"
     artist: "robi lust"

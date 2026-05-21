@@ -48,7 +48,7 @@ card_amana_void_whisperer:
     rarity: "Common"
     rating: 3
     rules_text: |
-      {T}: Target player gets one soul. If ~ has a void counter on it, add {U} to your mana pool, spend this mana only to cast instant or sorcery spells.
+      {T}: Target player gets one soul. If ~ has a void counter on it, add {U} to your mana pool, spend this mana only to cast instant, sorcery, or artifact spells.
       Chameleon {U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up, put a void counter on it.
     flavor_text: ""
@@ -68,22 +68,23 @@ card_ancient_researcher:
     rarity: "Common"
     rating: 3
     rules_text: |
+      You may cast ~ at any time you could cast and instant.
       When ~ enters the battlefield, return target noncreature, nonland card from your graveyard to your hand.
       Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/f9/e1/13/f9e11329ebd5db099d7056fca13522ba.jpg"
     artist: "Terra"
     power: 1
-    toughness: 2
+    toughness: 1
     number: 53
 
 card_archive_scholar:
   front:
     name: "Archive Scholar"
-    cost: "{1}{U}"
+    cost: "{U}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Cleric"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -126,14 +127,13 @@ card_bloated_flies:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Flying
       ~ can't attack.
-      {U}, Discard a card: Switch ~ power and toughness until end of turn.
+      Discard a card: Switch ~' power and toughness and gains flying until end of turn.
     flavor_text: "Giant, mutated, rotting, parasitic, animated corpses."
     artwork_url: "https://i.pinimg.com/736x/5d/92/a3/5d92a32c2b2eff47a607b3c0b04ff1c4.jpg"
     artist: "fromsoft"
     power: 1
-    toughness: 5
+    toughness: 3
     number: 56
 
 card_calculating_intellect:
@@ -147,7 +147,8 @@ card_calculating_intellect:
     rating: 3
     rules_text: |
       Enchant creature
-      Enchanted creature can't be blocked if you have seven or more souls and has "Whenever this creature deals combat damage you may draw a card. If you do, discard a card."
+      Enchanted creature can't be blocked if you have seven or more souls.
+      Whenever enchanted creature deals combat damage to a player, you get one soul, then you may draw a card. If you do, discard a card.
     flavor_text: "Within these pages lies knowledge denied to the weak, the truth of immortality, and the fragility of flesh."
     artwork_url: "https://i.ibb.co/jkn8SSqY/calculating-intellect-by-kokoro-han-resize.jpg"
     artist: "Kokoro Han"
@@ -164,7 +165,7 @@ card_cerebral_snap:
     rating: 3
     rules_text: |
       If an opponent cast a spell from anywhere other than their hand this turn, you may pay {2}{U} rather than pay ~'s mana cost.
-      Each player shuffles their hand and graveyard into their library, then draws seven cards.
+      Each player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.
     flavor_text: "With all souls lost, the lucid quickly slip into dementia."
     artwork_url: "https://i.pinimg.com/736x/06/39/d1/0639d1d9b92b4ca60a36c045451ae4c9.jpg"
     artist: "Neon Vibes"
@@ -207,7 +208,7 @@ card_daring_sorcerer:
 card_daughters_of_crystal:
   front:
     name: "Daughters of Crystal"
-    cost: "{2}{U}"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Wizard Rogue"
@@ -235,7 +236,7 @@ card_dream_vortex:
     rating: 3
     rules_text: |
       Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-      Draw two cards, then put a card from your hand back on top or bottom of your library.
+      Draw two cards, then put a card from your hand back on top or bottom of your library. You get one soul.
     flavor_text: "Things you've lost are often retained by the unconscious."
     artwork_url: "https://www.deviantart.com/arte12vale/art/tranquilidad-1208365301"
     artist: " arte12vale"
@@ -331,7 +332,7 @@ card_fog_wall:
 card_forger_of_vinheim:
   front:
     name: "Forger of Vinheim"
-    cost: "{3}{U}"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Human"
@@ -344,8 +345,8 @@ card_forger_of_vinheim:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/45/4c/03/454c03b084c8fd6eed423590d0173345.jpg"
     artist: "Juan GMRock"
-    power: 3
-    toughness: 3
+    power: 1
+    toughness: 2
     number: 68
 
 card_introspective_channeler:
@@ -358,7 +359,7 @@ card_introspective_channeler:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever ~ is exiled from your hand or enters the battlefield, Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      Whenever ~ is exiled from your hand or enters the battlefield, Scry 1, then you get one soul. (Look at the top card of your library. You may put that card on the bottom of your library.)
       Delayed {U} (You may pay {U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/pvLmswvB/introspective-channeler-by-cobaltplasma-resize.jpg"
@@ -429,7 +430,7 @@ card_mound_maker_adept:
 card_murkman:
   front:
     name: "Murkman"
-    cost: "{2}{U}"
+    cost: "{1}{U}"
     super: ""
     type: "Creature"
     sub: "Spirit"
@@ -437,7 +438,7 @@ card_murkman:
     rating: 3
     rules_text: |
       ~ can't be the target of spells or abilities.
-      Chameleon {U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
+      Chameleon {1}{U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up, return target creature you control and target creature you don't control to their owner's hands.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2c/0c/e5/2c0ce502d206df42123b37b108bf405d.jpg"
@@ -639,9 +640,9 @@ card_simpletons_spice:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever you discard a card you get one soul.
+      Whenever ~ is exiled from your hand or enters the battlefield, you get one soul. Scry 1.
       {U}, Discard a card: Draw a card.
-      Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
+      Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.) 
     flavor_text: "The aroma from the spice fields sharpens the mind. Obfuscating the knowledge of deficiencies."
     artwork_url: "https://i.pinimg.com/736x/2e/d6/1b/2ed61bc4a63caf7fc9e431454cacb20c.jpg"
     artist: "Deepika"

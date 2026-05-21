@@ -704,92 +704,92 @@
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/lck/red/brume_gate.jpeg" alt="Brume Gate" width="400"/><br/>
-        <strong>Brume Gate</strong>
-    </td>
-    <td align="center">
         <img src="./cards/lck/red/cathedral_warden.jpeg" alt="Cathedral Warden" width="400"/><br/>
         <strong>Cathedral Warden</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/chaos_demon.jpeg" alt="Chaos Demon" width="400"/><br/>
         <strong>Chaos Demon</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/chaos_maggot.jpeg" alt="Chaos Maggot" width="400"/><br/>
         <strong>Chaos Maggot</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/cleansing_orb.jpeg" alt="Cleansing Orb" width="400"/><br/>
         <strong>Cleansing Orb</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/corrosive_egg_insect.jpeg" alt="Corrosive Egg Insect" width="400"/><br/>
         <strong>Corrosive Egg Insect</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/corrosive_organics.jpeg" alt="Corrosive Organics" width="400"/><br/>
         <strong>Corrosive Organics</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/corrosive_slime.jpeg" alt="Corrosive Slime" width="400"/><br/>
         <strong>Corrosive Slime</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/crimson_wyvern.jpeg" alt="Crimson Wyvern" width="400"/><br/>
         <strong>Crimson Wyvern</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/deflecting_whispers.jpeg" alt="Deflecting Whispers" width="400"/><br/>
         <strong>Deflecting Whispers</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/devout_of_the_deep.jpeg" alt="Devout Of The Deep" width="400"/><br/>
         <strong>Devout Of The Deep</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/fiery_scroll_of_carthus.jpeg" alt="Fiery Scroll Of Carthus" width="400"/><br/>
         <strong>Fiery Scroll Of Carthus</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/fire_tempest.jpeg" alt="Fire Tempest" width="400"/><br/>
         <strong>Fire Tempest</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/flame_swathe.jpeg" alt="Flame Swathe" width="400"/><br/>
         <strong>Flame Swathe</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/flamebourne_captain.jpeg" alt="Flamebourne Captain" width="400"/><br/>
         <strong>Flamebourne Captain</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/flaming_golem.jpeg" alt="Flaming Golem" width="400"/><br/>
         <strong>Flaming Golem</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/red/generous_sunlight.jpeg" alt="Generous Sunlight" width="400"/><br/>
         <strong>Generous Sunlight</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/red/gyrm_warrior.jpeg" alt="Gyrm Warrior" width="400"/><br/>
         <strong>Gyrm Warrior</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/red/immortal_transposition.jpeg" alt="Immortal Transposition" width="400"/><br/>
+        <strong>Immortal Transposition</strong>
     </td>
 </tr>
 <tr>
@@ -998,28 +998,28 @@
         <strong>From The Shaded Woods</strong>
     </td>
     <td align="center">
-        <img src="./cards/lck/green/growing_phalanx.jpeg" alt="Growing Phalanx" width="400"/><br/>
-        <strong>Growing Phalanx</strong>
+        <img src="./cards/lck/green/gateway_of_the_undead.jpeg" alt="Gateway Of The Undead" width="400"/><br/>
+        <strong>Gateway Of The Undead</strong>
     </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/lck/green/growing_phalanx.jpeg" alt="Growing Phalanx" width="400"/><br/>
+        <strong>Growing Phalanx</strong>
+    </td>
     <td align="center">
         <img src="./cards/lck/green/honorable_duel.jpeg" alt="Honorable Duel" width="400"/><br/>
         <strong>Honorable Duel</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/green/hounding_hydra.jpeg" alt="Hounding Hydra" width="400"/><br/>
         <strong>Hounding Hydra</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/green/hush_dear_accursed.jpeg" alt="Hush Dear Accursed" width="400"/><br/>
         <strong>Hush Dear Accursed</strong>
-    </td>
-    <td align="center">
-        <img src="./cards/lck/green/imperious_knight.jpeg" alt="Imperious Knight" width="400"/><br/>
-        <strong>Imperious Knight</strong>
     </td>
 </tr>
 <tr>

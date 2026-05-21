@@ -129,6 +129,13 @@ def _generate_card_list(set, cards_by_rarity):
                             }
                         else:
                             card['image'] = f"https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/{set}/{card_type}/{image_name}.jpeg"
+                        # Add draft effects
+                        if 'Draft ~ face up.' in card.get('oracle_text', ''):
+                            # Just add cogworklibrarian because that's all we have right now
+                            card['draft_effects'] = [
+                                'FaceUp',
+                                'CogworkLibrarian',
+                            ]
                         if card_front['type'] == 'Land' and card_front['super'] == 'Basic':
                             cards_by_rarity[card_front['super']].append(card)
                         elif card_front['type'] == 'Land':

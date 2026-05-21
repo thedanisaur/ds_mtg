@@ -30,7 +30,7 @@ card_bloodred_moss_clump:
     rules_text: |
       ~ enters the battlefield tapped.
       {1}, {T}, Sacrifice this artifact: You remove all bleed counters.
-      When ~ goes to the graveyard from the battlefield add one mana of any color to your mana pool and draw a card.
+      When ~ dies add one mana of any color to your mana pool, draw a card, and get one soul.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/97/3e/04/973e046cae6825aee8124c7bf07e9739.jpg"
     artist: "cam"
@@ -275,7 +275,7 @@ card_fragrant_branch_of_yore:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      {2}, {T}: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
+      {2}, {T}, Sacrifice ~: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
       When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/KjNjx94k/fragrant-branch-of-yore-by-wotc-resize.jpg"
@@ -396,8 +396,8 @@ card_new_londo_talisman:
     rating: 3
     rules_text: |
       This artifact doesn't untap during your untap step.
-      {1}, pay one soul: Untap ~.
-      {T}, pay one soul: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.
+      {1}, Pay one soul: Untap ~.
+      {T}, Pay one soul: Add {C}{C}{C}.
     flavor_text: "New Londo clerics were seduced by The Abyss. If these talismans are not kept the seal will falter."
     artwork_url: "https://i.pinimg.com/736x/8d/66/41/8d66419e8c53ecd2a8ab71fb7a2cc705.jpg"
     artist: "ephellem"
@@ -432,7 +432,7 @@ card_purple_moss_clump:
     rules_text: |
       ~ enters the battlefield tapped.
       {2}, {T}, Sacrifice this artifact: Remove all plague counters from you and permanents you control.
-      When ~ goes to the graveyard from the battlefield add two mana of any one color to your mana pool and draw a card.
+      When ~ dies add two mana of any one color to your mana pool, draw a card, and get one soul.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/S7BBvtZs/purple-moss-clump-by-dk-resize.jpg"
     artist: "dk"
@@ -465,7 +465,7 @@ card_resplendent_projection:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever an opponent casts a spell you may gain 1 life and get one soul.
+      Whenever an opponent casts a spell or activates an ability, you may gain 1 life and get one soul.
     flavor_text: "The warm light is a hopeful reminder of others that follow the same path..."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Beacon-of-Light-599687658"
     artist: "cobaltplasma"

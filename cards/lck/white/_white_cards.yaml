@@ -165,7 +165,7 @@ card_catacomb_blacksmith:
 card_channeler_servant:
   front:
     name: "Channeler Servant"
-    cost: "{2}{W}"
+    cost: "{1}{W}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -173,8 +173,8 @@ card_channeler_servant:
     rating: 3
     rules_text: |
       Vigilance, lifelink
-      Creatures you control get +0/+2.
-      At the beginning of combat, you may pay one soul. If you do, target creature can't attack.
+      Creatures you control get +0/+1.
+      Pay one soul: untap target creature you control or tap target creature you don't control.
     flavor_text: "The scholars of the Grand Archives, sorcerers by craft, tend to their candles with a reverence that exceeds the simple burden of labor."
     artwork_url: "https://i.ibb.co/hJSq0kRG/channeler-servant-by-fromsoft-resize.jpg"
     artist: "fromsoft"
@@ -227,8 +227,8 @@ card_dragon_acolyte:
     rating: 3
     rules_text: |
       Lifelink
-      At the beginning of each end step, create a 1/1 white Human creature token for each card that went to your graveyard this turn.
-    flavor_text: "Several of the greatest minds converged in Aldia to weave strange new rituals, but rumors suggest that during the course of their work their thoughts were not their own."
+      At the beginning of each end step, create a 1/1 white Human creature token and get one soul for each card that went to your graveyard this turn.
+    flavor_text: "Several of the greatest minds converged in Aldia to weave strange new rituals. "
     artwork_url: "https://i.ibb.co/YFzd7szq/dragon-acolyte-by-woidc-resize.jpg"
     artist: "woidc"
     power: 2
@@ -245,7 +245,7 @@ card_flickering_phantoms:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever you discard a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
+      Whenever you discard a card, you may exile target creature and get one soul. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
       Cycling {W} ({W}, Discard this card: Draw a card.)
     flavor_text: "In and out of reality they manifest, to take whom they like."
     artwork_url: "https://i.pinimg.com/736x/e6/c4/be/e6c4be367e10cfeb97ea9771b81f7b6a.jpg"
@@ -505,7 +505,7 @@ card_resplendent_life:
     rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
-      Creatures you control get +0/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".
+      Creatures you control get +1/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".
     flavor_text: "Cleric Forsalle of Lindelt was a master of miracles who fought battles across the lands. His allies called him a holy knight, but his enemies feared him for his demonic powers."
     artwork_url: "https://i.ibb.co/vCx7WGF0/resplendent-life-by-cosmic-resize.jpg"
     artist: "cosmic"
@@ -541,7 +541,7 @@ card_seal_of_the_champions:
     rarity: "Common"
     rating: 3
     rules_text: |
-      At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library in any order.
+      At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow or knight from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library. 
     flavor_text: "The Curse dictates you'll keep coming back."
     artwork_url: "https://i.ibb.co/Xf1Lk7tF/seal-of-the-champions-by-unknown-resize.jpg"
     artist: "unknown"
@@ -615,7 +615,7 @@ card_sweet_shalquoir_progeny:
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Noncreature spells cost {1} more to cast.
-      {T}, Pay three souls: Search your library for an artifact card with mana value 2 or less, reveal it, and put it into your hand. Shuffle your library.
+      {T}, Pay three souls: Search your library for an artifact or enchantment card with mana value 2 or less, reveal it, and put it into your hand. Shuffle your library.
     flavor_text: "Oh, Undead, are we? And without much time. Not exactly the time to be chatting with a cat! "
     artwork_url: "https://i.ibb.co/gMR31R7k/sweet-shalquoir-by-unknown-resize.jpg"
     artist: "M.M."
@@ -705,7 +705,7 @@ card_transient_prison:
     rating: 3
     rules_text: |
       When ~ enters the battlefield, exile target nonland permanent until ~ leaves the battlefield.
-      When you cycle ~ Scry 2 (Look at the top card of your library. You may put that card on the bottom of your library.)
+      When you cycle ~ Scry 2 and you get two souls (Look at the top card of your library. You may put that card on the bottom of your library.)
       Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
     flavor_text: "The depths of the mind can be an awful place."
     artwork_url: "https://i.pinimg.com/736x/ae/93/16/ae9316f4d4a9d5e277fb54e43c3d054d.jpg"
