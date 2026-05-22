@@ -640,7 +640,7 @@ card_simpletons_spice:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever you discard ~ or another card, you get one soul. Scry 1.
+      Whenever you discard ~ or another card, you get one soul and Scry 1.
       {U}, Discard a card: Draw a card.
       Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.) 
     flavor_text: "The aroma from the spice fields sharpens the mind. Obfuscating the knowledge of deficiencies."
