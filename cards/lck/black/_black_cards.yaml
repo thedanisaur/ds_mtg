@@ -281,7 +281,7 @@ card_festering_undead_rat:
     rules_text: |
       Plague
       ~ can't block and can't be blocked.
-      When ~ enters the battlefield, target player discards a card.
+      Whenever a rat enters the battlefield under your control each opponenet discards a card.
     flavor_text: "Gnawing flesh from bone these beasts ingest all manner of toxins... all the better to hunt with."
     artwork_url: "https://i.ibb.co/7xTyBtJW/festering-undead-rat-by-spiralworlds-resize.jpg"
     artist: "spiralworlds"

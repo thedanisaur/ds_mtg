@@ -1057,7 +1057,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Plague\n~ can't block and can't be blocked.\nWhen ~ enters the battlefield, target player discards a card.\n",
+    "oracle_text": "Plague\n~ can't block and can't be blocked.\nWhenever a rat enters the battlefield under your control each opponenet discards a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/festering_undead_rat.jpeg"
 },
 {
@@ -2378,8 +2378,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2406,8 +2406,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2448,8 +2448,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2504,8 +2504,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2518,12 +2518,12 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Lifelink\nWhenever ~ or another creature dies, each opponent loses 1 life and you get one soul.\n",
+    "oracle_text": "Other hollow and zombie creatures you control that share a color with ~ get +1/+1.\nWhenever ~ or another creature dies, each opponent loses 1 life and you get one soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg"
 },
 {
@@ -2546,8 +2546,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "U",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3699,8 +3699,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "U",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "U",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3831,8 +3831,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,8 +3873,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -3901,11 +3901,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W",
         "U",
-        "R",
-        "B"
+        "W",
+        "B",
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
