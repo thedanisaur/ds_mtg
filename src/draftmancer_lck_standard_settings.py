@@ -9,9 +9,8 @@ settings = '''
                     "name": "Land",
                     "count": 1,
                     "sheets": [
-                        {"name": "LandMythic",  "weight": 1},
-                        {"name": "LandRare",  "weight": 7},
-                        {"name": "LandUncommon",  "weight": 28},
+                        {"name": "LandRare",  "weight": 1},
+                        {"name": "LandUncommon",  "weight": 7},
                     ]
                 },
                 {
@@ -22,7 +21,30 @@ settings = '''
                         {"name": "Rare",   "weight": 7},
                     ]
                 },
-                {"name": "Uncommon",   "count": 3},
+                {
+                    "name": "UncommonOrLand1",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
                 {"name": "Common",   "count": 11},
             ]
         }

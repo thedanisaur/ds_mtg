@@ -31,8 +31,8 @@ card_counts_dks = {
     'LandUncommon': '6 ',
     'Rare': '3 ',
     'LandRare': '3 ',
-    'Mythic': '1 ',
-    'LandMythic': '1 ',
+    'Mythic': '2 ',
+    'LandMythic': '2 ',
     'Basic': '8 ',
 }
 
@@ -41,24 +41,25 @@ card_counts_dks = {
 # 16 cards
 # 3 x 8 x 16 = 384 cards for a draft
 # Based on rarity breakdown c:11, u:3, r:1, m:1/8 we need to multiply the drafts
-# by 6 to see at least one of each mythic 3 x 8 x 1/8 = 3. 3 x 6 = 18
+# by 9 to see at least one of each mythic 3 x 8 x 1/8 = 3. 3 x 9 = 27
 # Following that logic we need c: 1584, u:432, r:144, m:18 total for proper distribution
-# c = 3 * 8 * 6 * 11 = 1584
-# u = 3 * 8 * 6 * 3 = 432
-# r = 3 * 8 * 6 * 1 = 144
-# m = 3 * 8 * 6 * 1/8 = 18
-# 102 commons x 16 = 1620 (slightly over represented)
-# 80 uncommons x 6 = 480 (slightly over represented)
-# 55 rares x 3 = 165 (slightly over represented)
-# 18 mythics x 1 = 18 (exactly represented)
+# c = 3 * 8 * 9 * 11 = 2376
+# u = 3 * 8 * 9 * 3 = 648
+# r = 3 * 8 * 9 * 1 = 216
+# m = 3 * 8 * 9 * 1/8 = 27
+# 144 commons x 16 = 2304 (slightly over represented)
+# 82 uncommons x 6 = 492 (slightly over represented)
+# 60 rares x 3 = 180 (slightly over represented)
+# 19 mythics x 1 = 19 (slightly over represented)
 card_counts_lck = {
-    'Common': '16 ',
-    'Uncommon': '7 ',
-    'LandUncommon': '28 ',
-    'Rare': '7 ',
-    'LandRare': '7 ',
-    'Mythic': '1 ',
-    'Basic': '8 ',
+    'Common': '24 ',
+    'Uncommon': '12 ',
+    'LandUncommon': '12 ',
+    'Rare': '3 ',
+    'LandRare': '3 ',
+    'Mythic': '2 ',
+    'LandMythic': '2 ',
+    'Basic': '0 ', # Unused
 }
 
 set_weights_all = {

@@ -237,7 +237,7 @@ card_dripping_slime:
     cost: "{2}{B}"
     super: ""
     type: "Creature"
-    sub: "Zombie"
+    sub: "Ooze"
     rarity: "Common"
     rules_text: |
       Indestructible

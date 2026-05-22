@@ -1618,8 +1618,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1632,8 +1632,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1660,8 +1660,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1674,8 +1674,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1688,8 +1688,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1716,8 +1716,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2398,8 +2398,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2412,8 +2412,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2426,8 +2426,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3046,8 +3046,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "W",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,9 +3611,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3626,8 +3626,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "U",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "W",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3757,9 +3757,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "W",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "W",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 0,
@@ -3889,10 +3889,10 @@
     "mana_cost": "",
     "colors": [
         "U",
+        "W",
         "R",
         "B",
-        "G",
-        "W"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3905,9 +3905,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "R",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -4030,9 +4030,8 @@
                     "name": "Land",
                     "count": 1,
                     "sheets": [
-                        {"name": "LandMythic",  "weight": 1},
-                        {"name": "LandRare",  "weight": 7},
-                        {"name": "LandUncommon",  "weight": 28},
+                        {"name": "LandRare",  "weight": 1},
+                        {"name": "LandUncommon",  "weight": 7},
                     ]
                 },
                 {
@@ -4043,335 +4042,358 @@
                         {"name": "Rare",   "weight": 7},
                     ]
                 },
-                {"name": "Uncommon",   "count": 3},
+                {
+                    "name": "UncommonOrLand1",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {"name": "Uncommon", "weight": 7},
+                        {"name": "LandUncommon",  "weight": 1}
+                    ]
+                },
                 {"name": "Common",   "count": 11},
             ]
         }
     }
 }
 [Common]
-16 Alonne Knight Captain
-16 Alonne Phantom
-16 Archdrake Cleric
-16 Belltower Knight
-16 Blinding Bolt
-16 Catacomb Blacksmith
-16 Channeler Servant
-16 Divine Tome of Carim
-16 Dragon Acolyte
-16 Flickering Phantoms
-16 Lindelt Perseverance
-16 Mirrah Exile
-16 Painted Guardian
-16 Painted Recruiter
-16 Path of the Dragon
-16 Royal Swordsman
-16 Soul of a Weary Warrior
-16 Spellsword Knight
-16 The Way of Blue
-16 Thorolund Shade
-16 Transient Flicker
-16 Transient Prison
-16 Winged Knight
-16 Amana Charmer
-16 Amana Void-Whisperer
-16 Archive Scholar
-16 Bloated Flies
-16 Crystalize
-16 Daring Sorcerer
-16 Daughters of Crystal
-16 Dream Vortex
-16 Encase in Crystal
-16 Faint Amnesia
-16 Fall Control
-16 Fog Wall
-16 Introspective Channeler
-16 Mage of Oolacile
-16 Mound-maker Adept
-16 Profound Still
-16 Promised Walk of Peace
-16 Repel the Abyss
-16 Scrolls of a Master Sorcerer
-16 Simpleton's Spice
-16 Sorcerer's Apprentice
-16 Soul of a Lost Undead
-16 Valley of the Drakes
-16 Watchers of the Belfry
-16 Abyss Jackal
-16 Burg-Sewer Rats
-16 Chained Prisoner
-16 Creeping Constraints
-16 Cursed Jar
-16 Dark Bead
-16 Dead Again
-16 Deranged Inhabitant
-16 Deserter of the Watch
-16 Dripping Slime
-16 Festering Undead Rat
-16 Harald Legion Knight
-16 Heretic's Darkstorm
-16 Hexing Curse from Olaphis
-16 Necrotic Husk
-16 Resonant Life
-16 Shadowy Tome of the Gravelord
-16 Soul of a Deserted Corpse
-16 Soulbound Wretched Undead
-16 Syphon Hope
-16 Twisted Humanity
-16 Veiled Cloak
-16 Wandering Huntsman
-16 Watcher at the Ramparts
-16 Whisper of Despair
-16 Ashen Strike
-16 Blitz Hound
-16 Bonewheel
-16 Chaos Maggot
-16 Cleansing Orb
-16 Corrosive Egg Insect
-16 Corrosive Organics
-16 Corrosive Slime
-16 Deflecting Whispers
-16 Devout of the Deep
-16 Fiery Scroll of Carthus
-16 Fire Tempest
-16 Flamebourne Captain
-16 Flaming Golem
-16 Generous Sunlight
-16 Gyrm Warrior
-16 Lightning Urn
-16 Lost Spell from Izalith
-16 Masked Manikin
-16 Menacing Thief
-16 Scream of Defiance
-16 Shaded Scorpion
-16 Shimmering Void
-16 Soothing Chant
-16 Soul of a Kindled Conjurer
-16 Torturous Demon
-16 Volgen Falconer
-16 Adept Cartographer
-16 Banished Butcher
-16 Blowdart Sniper
-16 Caged Bargainer
-16 Company Captain
-16 Dark Stalkers
-16 Darkroot Dryad
-16 Darkroot Spores
-16 Darkroot Vines
-16 Deep Veil
-16 Divine Tome of Londor
-16 Dogged Contender
-16 Farron Keep Perimeter
-16 Honorable Duel
-16 Marching Inevitablility
-16 Old Ironclad Troll
-16 Persevering Mist
-16 Petrifying Basilisk
-16 Possessed Foliage
-16 Shrine Drakekeeper
-16 Soul of a Crestfallen Adventurer
-16 Sundering Grove
-16 Suspicious Shadow
-16 Titanite Demon
-16 Undead Pigs
-16 Ashen Keep Sentinel
-16 Conjuring Hollow
-16 Engorged Hollow
-16 Hollow Priest
-16 Hollow Warrior
-16 Skittering Slave
-16 Soul-Scoured Hollow
-16 Warden of the Forgotten Tower
-16 Bloodred Moss Clump
-16 Charm of the Darkmoon Blades
-16 Corrosive Urn
-16 Darkmoon Seance Idol
-16 Fragrant Branch of Yore
-16 Glinting Sigil
-16 Golden Wing Crest Shield
-16 Golem Battle Axe
-16 Hollow's Amulet
-16 Purple Moss Clump
-16 Pyrewarden's Stone
-16 Resplendent Projection
-16 Sunless Amulet
+24 Alonne Knight Captain
+24 Alonne Phantom
+24 Archdrake Cleric
+24 Belltower Knight
+24 Blinding Bolt
+24 Catacomb Blacksmith
+24 Channeler Servant
+24 Divine Tome of Carim
+24 Dragon Acolyte
+24 Flickering Phantoms
+24 Lindelt Perseverance
+24 Mirrah Exile
+24 Painted Guardian
+24 Painted Recruiter
+24 Path of the Dragon
+24 Royal Swordsman
+24 Soul of a Weary Warrior
+24 Spellsword Knight
+24 The Way of Blue
+24 Thorolund Shade
+24 Transient Flicker
+24 Transient Prison
+24 Winged Knight
+24 Amana Charmer
+24 Amana Void-Whisperer
+24 Archive Scholar
+24 Bloated Flies
+24 Crystalize
+24 Daring Sorcerer
+24 Daughters of Crystal
+24 Dream Vortex
+24 Encase in Crystal
+24 Faint Amnesia
+24 Fall Control
+24 Fog Wall
+24 Introspective Channeler
+24 Mage of Oolacile
+24 Mound-maker Adept
+24 Profound Still
+24 Promised Walk of Peace
+24 Repel the Abyss
+24 Scrolls of a Master Sorcerer
+24 Simpleton's Spice
+24 Sorcerer's Apprentice
+24 Soul of a Lost Undead
+24 Valley of the Drakes
+24 Watchers of the Belfry
+24 Abyss Jackal
+24 Burg-Sewer Rats
+24 Chained Prisoner
+24 Creeping Constraints
+24 Cursed Jar
+24 Dark Bead
+24 Dead Again
+24 Deranged Inhabitant
+24 Deserter of the Watch
+24 Dripping Slime
+24 Festering Undead Rat
+24 Harald Legion Knight
+24 Heretic's Darkstorm
+24 Hexing Curse from Olaphis
+24 Necrotic Husk
+24 Resonant Life
+24 Shadowy Tome of the Gravelord
+24 Soul of a Deserted Corpse
+24 Soulbound Wretched Undead
+24 Syphon Hope
+24 Twisted Humanity
+24 Veiled Cloak
+24 Wandering Huntsman
+24 Watcher at the Ramparts
+24 Whisper of Despair
+24 Ashen Strike
+24 Blitz Hound
+24 Bonewheel
+24 Chaos Maggot
+24 Cleansing Orb
+24 Corrosive Egg Insect
+24 Corrosive Organics
+24 Corrosive Slime
+24 Deflecting Whispers
+24 Devout of the Deep
+24 Fiery Scroll of Carthus
+24 Fire Tempest
+24 Flamebourne Captain
+24 Flaming Golem
+24 Generous Sunlight
+24 Gyrm Warrior
+24 Lightning Urn
+24 Lost Spell from Izalith
+24 Masked Manikin
+24 Menacing Thief
+24 Scream of Defiance
+24 Shaded Scorpion
+24 Shimmering Void
+24 Soothing Chant
+24 Soul of a Kindled Conjurer
+24 Torturous Demon
+24 Volgen Falconer
+24 Adept Cartographer
+24 Banished Butcher
+24 Blowdart Sniper
+24 Caged Bargainer
+24 Company Captain
+24 Dark Stalkers
+24 Darkroot Dryad
+24 Darkroot Spores
+24 Darkroot Vines
+24 Deep Veil
+24 Divine Tome of Londor
+24 Dogged Contender
+24 Farron Keep Perimeter
+24 Honorable Duel
+24 Marching Inevitablility
+24 Old Ironclad Troll
+24 Persevering Mist
+24 Petrifying Basilisk
+24 Possessed Foliage
+24 Shrine Drakekeeper
+24 Soul of a Crestfallen Adventurer
+24 Sundering Grove
+24 Suspicious Shadow
+24 Titanite Demon
+24 Undead Pigs
+24 Ashen Keep Sentinel
+24 Conjuring Hollow
+24 Engorged Hollow
+24 Hollow Priest
+24 Hollow Warrior
+24 Skittering Slave
+24 Soul-Scoured Hollow
+24 Warden of the Forgotten Tower
+24 Bloodred Moss Clump
+24 Charm of the Darkmoon Blades
+24 Corrosive Urn
+24 Darkmoon Seance Idol
+24 Fragrant Branch of Yore
+24 Glinting Sigil
+24 Golden Wing Crest Shield
+24 Golem Battle Axe
+24 Hollow's Amulet
+24 Purple Moss Clump
+24 Pyrewarden's Stone
+24 Resplendent Projection
+24 Sunless Amulet
 
 [Uncommon]
-7 Aldia's Reckoning
-7 Praying Hollow
-7 Stone-Humped Old Hag
-7 Traveling Merchant
-7 Brilliant Ash
-7 Divine Will
-7 Lucatiel of Mirrah
-7 Radiant Blast
-7 Resplendent Life
-7 Seal of the Champions
-7 Soul Vortex
-7 Unveil
-7 Ancient Researcher
-7 Calculating Intellect
-7 Forger of Vinheim
-7 Logan's Apprentice
-7 Murkman
-7 Reckless Alchemist
-7 Twisted Atonement
-7 Twisted Barricade
-7 Harvest Valley Banedigger
-7 Numbness
-7 Oath of the Undead Curse
-7 Skeletal Necromancer
-7 Spreading Contamination
-7 Statue of Absolution
-7 Twisted Recollection
-7 Waning Prudence
-7 Aldia's Forlorn
-7 Chaos Demon
-7 Flame Swathe
-7 Raise the Sloughtender
-7 Screeching Undead
-7 Amana Shaman
-7 Brume Tower Warrior
-7 Deep Accursed
-7 Drangleic Kobold
-7 Hounding Hydra
-7 Overwhelming Numbness
-7 The Lordvessel
-7 Truth of the Old Words
-7 Forsworn Shell
-7 Serpent's Regrowth
-7 The End of Fire
-7 Ballista Tower
-7 Burnt Offering
-7 Charm of the Darkwraiths
-7 Charm of the Forest Hunters
-7 Ring of Favor
-7 Seal of the Dark Void
-7 Talisman of Want
-7 Zweihander
+12 Aldia's Reckoning
+12 Praying Hollow
+12 Stone-Humped Old Hag
+12 Traveling Merchant
+12 Brilliant Ash
+12 Divine Will
+12 Lucatiel of Mirrah
+12 Radiant Blast
+12 Resplendent Life
+12 Seal of the Champions
+12 Soul Vortex
+12 Unveil
+12 Ancient Researcher
+12 Calculating Intellect
+12 Forger of Vinheim
+12 Logan's Apprentice
+12 Murkman
+12 Reckless Alchemist
+12 Twisted Atonement
+12 Twisted Barricade
+12 Harvest Valley Banedigger
+12 Numbness
+12 Oath of the Undead Curse
+12 Skeletal Necromancer
+12 Spreading Contamination
+12 Statue of Absolution
+12 Twisted Recollection
+12 Waning Prudence
+12 Aldia's Forlorn
+12 Chaos Demon
+12 Flame Swathe
+12 Raise the Sloughtender
+12 Screeching Undead
+12 Amana Shaman
+12 Brume Tower Warrior
+12 Deep Accursed
+12 Drangleic Kobold
+12 Hounding Hydra
+12 Overwhelming Numbness
+12 The Lordvessel
+12 Truth of the Old Words
+12 Forsworn Shell
+12 Serpent's Regrowth
+12 The End of Fire
+12 Ballista Tower
+12 Burnt Offering
+12 Charm of the Darkwraiths
+12 Charm of the Forest Hunters
+12 Ring of Favor
+12 Seal of the Dark Void
+12 Talisman of Want
+12 Zweihander
 
 [Rare]
-7 The Pursuer
-7 A Call to the Ash
-7 Flowing Curse
-7 Kirk, Knight of Thorns
-7 Lorian, Crown Prince
-7 Lothric, Oath's Forsaken
-7 Sweet Shalquoir Progeny
-7 Sword Master
-7 Warriors of Sunlight
-7 Ashen Nōmuki
-7 Cerebral Snap
-7 Oolacile Transfiguration
-7 Orbeck of Vinheim
-7 Pilgrim Butterfly
-7 Pontiff Sulyvahn
-7 Scour the Archives
-7 Afflicted Graverobber
-7 Catacombs Gravebinder
-7 Etched Erasure
-7 Gnawing Corpse Rat
-7 Royal Sorcerer
-7 Sir Vilhelm
-7 Cathedral Warden
-7 Crimson Wyvern
-7 Immortal Transposition
-7 Preeminent Giant
-7 Rosaria's Fingers
-7 Splintering Bolt
-7 Sulyvahn's Fiend
-7 Beast of Amana
-7 Bloodlet Giant
-7 Drangleic Ogre
-7 From the Shaded Woods
-7 Growing Phalanx
-7 Hush Dear Accursed
-7 Parasite-ridden Dragon
-7 Chant of Oolacile
-7 Pledged Anathema
-7 Rupturing Hollow
-7 Budding Lotus
-7 Crown of the Ivory King
-7 Crown of the Old Iron King
-7 Crown of the Sunken King
-7 Curator of the Grand Archives
-7 Dragon Slayer Greatsword
-7 Moaning Sanctum
-7 Palisades of Ash
-7 Seal of a Slumbering Dragon
-7 Seat of the Archives
-7 Sen's Fortifications
-7 Shattered Dusk Ring
-7 Tarkus, Iron Knight
-7 The Champion's Tablet
-7 The Great Seal of Thorolund
-7 Uchigatana
+3 The Pursuer
+3 A Call to the Ash
+3 Flowing Curse
+3 Kirk, Knight of Thorns
+3 Lorian, Crown Prince
+3 Lothric, Oath's Forsaken
+3 Sweet Shalquoir Progeny
+3 Sword Master
+3 Warriors of Sunlight
+3 Ashen Nōmuki
+3 Cerebral Snap
+3 Oolacile Transfiguration
+3 Orbeck of Vinheim
+3 Pilgrim Butterfly
+3 Pontiff Sulyvahn
+3 Scour the Archives
+3 Afflicted Graverobber
+3 Catacombs Gravebinder
+3 Etched Erasure
+3 Gnawing Corpse Rat
+3 Royal Sorcerer
+3 Sir Vilhelm
+3 Cathedral Warden
+3 Crimson Wyvern
+3 Immortal Transposition
+3 Preeminent Giant
+3 Rosaria's Fingers
+3 Splintering Bolt
+3 Sulyvahn's Fiend
+3 Beast of Amana
+3 Bloodlet Giant
+3 Drangleic Ogre
+3 From the Shaded Woods
+3 Growing Phalanx
+3 Hush Dear Accursed
+3 Parasite-ridden Dragon
+3 Chant of Oolacile
+3 Pledged Anathema
+3 Rupturing Hollow
+3 Budding Lotus
+3 Crown of the Ivory King
+3 Crown of the Old Iron King
+3 Crown of the Sunken King
+3 Curator of the Grand Archives
+3 Dragon Slayer Greatsword
+3 Moaning Sanctum
+3 Palisades of Ash
+3 Seal of a Slumbering Dragon
+3 Seat of the Archives
+3 Sen's Fortifications
+3 Shattered Dusk Ring
+3 Tarkus, Iron Knight
+3 The Champion's Tablet
+3 The Great Seal of Thorolund
+3 Uchigatana
 
 [Mythic]
-1 Olaphis Statue
-1 Sinh, the Slumbering Dragon
-1 Carim Guardian
-1 Gwyn's Divine Justice
-1 Velstadt, the Royal Aegis
-1 Aldia, First of the Scholars
-1 Echoes of Clarity
-1 Time Distortion
-1 Bearing the Curse
-1 Dark Queen Nashandra
-1 The Darklurker
-1 Smelter Demon
-1 Smoldering Idolatry
-1 Winged Fortune, Kalameet
-1 Gateway of the Undead
-1 Royal Rat Authority
-1 Crown of the Covetous King
-1 Mox Citrine
-1 New Londo Talisman
+2 Olaphis Statue
+2 Sinh, the Slumbering Dragon
+2 Carim Guardian
+2 Gwyn's Divine Justice
+2 Velstadt, the Royal Aegis
+2 Aldia, First of the Scholars
+2 Echoes of Clarity
+2 Time Distortion
+2 Bearing the Curse
+2 Dark Queen Nashandra
+2 The Darklurker
+2 Smelter Demon
+2 Smoldering Idolatry
+2 Winged Fortune, Kalameet
+2 Gateway of the Undead
+2 Royal Rat Authority
+2 Crown of the Covetous King
+2 Mox Citrine
+2 New Londo Talisman
 
 [LandUncommon]
-28 Ash Lake
-28 Brightstone Cove Tseldora
-28 Chamber of the Princess
-28 Church of Yorshka
-28 Cleansing Chapel
-28 Crumbling Ruins
-28 Crystal Cave
-28 Dark Chasm of Old
-28 Darkroot Basin
-28 Darkroot Forest
-28 Demon Ruins
-28 Depths of the Burg
-28 Dragon Aerie
-28 Dragon-Kin Mausoleum
-28 Drangleic Castle
-28 Earthen Peak
-28 Frozen Eleum Loyce
-28 Great Hollows
-28 Halfway Fortress
-28 Harvest Valley
-28 Heide's Tower of Flame
-28 Huntsman's Copse
-28 Irithyll Dungeon
-28 Majula Gate
-28 Majula Pit
-28 Old Wolf of Farron
-28 Quelaag's Domain
-28 Sinner's Rise
-28 Undead Burg
-28 Untended Graves
+12 Ash Lake
+12 Brightstone Cove Tseldora
+12 Chamber of the Princess
+12 Church of Yorshka
+12 Cleansing Chapel
+12 Crumbling Ruins
+12 Crystal Cave
+12 Dark Chasm of Old
+12 Darkroot Basin
+12 Darkroot Forest
+12 Demon Ruins
+12 Depths of the Burg
+12 Dragon Aerie
+12 Dragon-Kin Mausoleum
+12 Drangleic Castle
+12 Earthen Peak
+12 Frozen Eleum Loyce
+12 Great Hollows
+12 Halfway Fortress
+12 Harvest Valley
+12 Heide's Tower of Flame
+12 Huntsman's Copse
+12 Irithyll Dungeon
+12 Majula Gate
+12 Majula Pit
+12 Old Wolf of Farron
+12 Quelaag's Domain
+12 Sinner's Rise
+12 Undead Burg
+12 Untended Graves
 
 [LandRare]
-7 Fireless Shrine
-7 The Dreg Heap
-7 The Grand Archives
+3 Fireless Shrine
+3 The Dreg Heap
+3 The Grand Archives
 
 [LandMythic]
 
 [Basic]
-8 Forest
-8 Island
-8 Mountain
-8 Plains
-8 Swamp
-8 Wastes
+0 Forest
+0 Island
+0 Mountain
+0 Plains
+0 Swamp
+0 Wastes
 
