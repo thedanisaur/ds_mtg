@@ -24,11 +24,11 @@
         <name>Olaphis Statue</name>
         <text>~ enters the battlefield with 5 curse counters on it.
 When ~ has no curse counters on it, transform it.
-{T}, Remove a curse from ~: Put a curse counter on target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."</text>
+{1}: Move a curse from ~ onto another target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."</text>
         <prop><layout>transform</layout>
             <side>front</side>
-            <type>Legendary Artifact</type>
-            <maintype>Artifact</maintype>
+            <type>Legendary Enchantment Artifact</type>
+            <maintype>Enchantment Artifact</maintype>
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
@@ -3543,7 +3543,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
         <set rarity="Common" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3576,7 +3576,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3594,7 +3594,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3644,7 +3644,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Common" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3660,7 +3660,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B/R}{B/R}</manacost>
             <cmc>4</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
@@ -3707,7 +3707,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">DKS</set>

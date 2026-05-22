@@ -19,14 +19,14 @@ card_olaphis_statue:
     name: "Olaphis Statue"
     cost: "{1}"
     super: "Legendary"
-    type: "Artifact"
+    type: "Enchantment Artifact"
     sub: ""
     rarity: "Common"
     rating: 3
     rules_text: |
       ~ enters the battlefield with 5 curse counters on it.
       When ~ has no curse counters on it, transform it.
-      {T}, Remove a curse from ~: Put a curse counter on target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."
+      {1}: Move a curse from ~ onto another target nonland permanent. That permanent has, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it."
     flavor_text: ""
     artist_url: "https://i.pinimg.com/736x/9b/78/1d/9b781da4eab4275adaa802519591b9db.jpg"
     artist: "Sana"
@@ -48,7 +48,7 @@ card_olaphis_statue:
     power: 5
     toughness: 5
     frame: "Double-Faced: Night"
-    color_indicator: ""
+    colors: "{C}"
     number: 2
 
 card_praying_hollow:
