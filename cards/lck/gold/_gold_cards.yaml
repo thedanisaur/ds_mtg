@@ -24,7 +24,7 @@ card_chant_of_oolacile:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       ~ and spells you control can't be countered.
@@ -82,13 +82,13 @@ card_forsworn_shell:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
-      When ~ leaves the battlefield, you get one soul.
+      ~ can't be blocked.
       Whenever ~ deals damage to a player choose one, if you cycled a card this turn choose both instead -
-      • Target player draws a card.
       • Target player discards a card.
+      • Target player draws a card.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/gLrSGhTy/foresworn-shell-by-limfoman-laes-resize.jpg"
     artist: "Limfoman Laes"
@@ -141,7 +141,7 @@ card_pledged_anathema:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Choose one -
@@ -160,7 +160,7 @@ card_rupturing_hollow:
     super: ""
     type: "Creature"
     sub: "Hollow Ooze"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Deathtouch, haste
@@ -180,7 +180,7 @@ card_serpents_regrowth:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.
@@ -235,7 +235,7 @@ card_the_end_of_fire:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Destroy a number of target permanents equal to two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.

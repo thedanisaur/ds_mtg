@@ -65,7 +65,7 @@ card_ancient_researcher:
     super: ""
     type: "Creature"
     sub: "Human Wizard"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       You may cast ~ at any time you could cast and instant.
@@ -161,7 +161,7 @@ card_cerebral_snap:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If an opponent cast a spell from anywhere other than their hand this turn, you may pay {2}{U} rather than pay ~'s mana cost.
@@ -249,7 +249,7 @@ card_echoes_of_clarity:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Draw a card. If you have seven or more souls, draw 3 cards instead.
@@ -336,7 +336,7 @@ card_forger_of_vinheim:
     super: ""
     type: "Creature"
     sub: "Human"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Artifact spells you control cost {1} less to cast.
@@ -375,7 +375,7 @@ card_logans_apprentice:
     super: ""
     type: "Creature"
     sub: "Wizard"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When ~ enters the battlefield return target permanent to its owner's hand if it's tapped.
@@ -434,7 +434,7 @@ card_murkman:
     super: ""
     type: "Creature"
     sub: "Spirit"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       ~ can't be the target of spells or abilities.
@@ -470,7 +470,7 @@ card_orbeck_of_vinheim:
     super: "Legendary"
     type: "Creature"
     sub: "Wizard Rogue"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
@@ -490,7 +490,7 @@ card_pilgrim_butterfly:
     super: ""
     type: "Creature"
     sub: "Skeleton Dragon"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Flying, indestructible
@@ -510,7 +510,7 @@ card_pontiff_sulyvahn:
     super: "Legendary"
     type: "Creature"
     sub: "Wizard Knight"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       When ~ enters the battlefield gain control of target artifact or creature until ~ leaves the battlefield.
@@ -568,7 +568,7 @@ card_reckless_alchemist:
     super: ""
     type: "Creature"
     sub: "Human Wizard"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When a spell or ability causes you to discard ~, choose a nonland card type. Search your library for a card of that type, reveal it, put it into your hand, and shuffle your library.
@@ -604,7 +604,7 @@ card_scour_the_archives:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Look at the top X cards of your library, where X is the number of instant and sorcery cards in your graveyard. Put up to two of those cards on top of your library, put the rest on the bottom of your library in any order, then draw two cards.
@@ -710,7 +710,7 @@ card_twisted_atonement:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       If an opponent controls a creature with bleed, plague, or accursed, you may pay {U} rather than pay ~'s mana cost.
@@ -727,7 +727,7 @@ card_twisted_barricade:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       You may reveal a blue card or island from your hand rather than pay ~'s mana cost.

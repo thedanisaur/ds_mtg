@@ -550,7 +550,7 @@ card_the_dreg_heap:
     super: "Legendary Bonfire"
     type: "Land"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       {T}: Add {W} to your mana pool.

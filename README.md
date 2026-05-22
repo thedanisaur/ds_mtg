@@ -145,6 +145,14 @@ Type Distribution
 14 tokens
 ```
 
+Rarity Distribution
+```
+144 common
+82 uncommon
+60 rare
+19 mythic
+```
+
 ### The Fire Fades (TFF) Card Distribution
 
 TBD

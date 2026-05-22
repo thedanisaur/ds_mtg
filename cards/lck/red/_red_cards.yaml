@@ -5,7 +5,7 @@ card_aldias_forlorn:
     super: ""
     type: "Creature"
     sub: "Human Assassin"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Haste
@@ -46,7 +46,7 @@ card_blitz_hound:
     rules_text: |
       Haste
       Whenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.
-      {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Rubbish token.
+      {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Moss Clump token.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/95/d9/fb/95d9fb8258b54cfdb669da1d7fe1e76b.jpg"
     artist: "Davide Zanini"
@@ -80,7 +80,7 @@ card_cathedral_warden:
     super: ""
     type: "Creature"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Haste
@@ -100,7 +100,7 @@ card_chaos_demon:
     super: ""
     type: "Creature"
     sub: "Demon"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Haste
@@ -306,7 +306,7 @@ card_flame_swathe:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       ~ deals X damage to each creature without flying. You get one soul for each creature that died this way.
@@ -488,7 +488,7 @@ card_preeminent_giant:
     super: ""
     type: "Creature"
     sub: "Giant"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
@@ -507,7 +507,7 @@ card_raise_the_sloughtender:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Create a X/X red Hollow creature token where X is the number of noncreature nonland cards in your graveyard. It has haste and "{R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target."
@@ -523,7 +523,7 @@ card_rosarias_fingers:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       You may exile a red card from your hand rather than pay this spell's mana cost.
@@ -560,7 +560,7 @@ card_screeching_undead:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Trample, haste
@@ -583,9 +583,9 @@ card_shaded_scorpion:
     rating: 3
     rules_text: |
       Haste
-      {T}: Create a Rubbish token.
-      Whenever a Rubbish token you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.
-    flavor_text: "Our master created us long, long ago. He was born with a fatal flaw. He resented those who had what he lacked, and became mired in hatred."
+      {T}: Create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
+      Whenever a Moss Clump you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.
+    flavor_text: "Our master created us long, long ago, mired in hatred.  "
     artwork_url: "https://i.pinimg.com/736x/0c/b8/ae/0cb8ae08fa46eabd8687844b178f4d9b.jpg"
     artist: "Fromsoft"
     power: 0
@@ -636,7 +636,7 @@ card_smoldering_idolatry:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Play with the top card of your library revealed, you may play lands and cast spells from the top of your library.
@@ -675,7 +675,7 @@ card_soul_of_a_kindled_conjurer:
     rating: 3
     rules_text: |
       As long as it's your turn you may cast this spell. Timing restrictions still apply.
-      When ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Rubbish token.
+      When ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Moss Clump token.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/luis-bello/art/The-Lair-of-the-imagination-527071674"
@@ -690,7 +690,7 @@ card_splintering_bolt:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If you didn't go first, ~ costs {1} less to cast.
@@ -711,7 +711,7 @@ card_sulyvahns_fiend:
     rating: 3
     rules_text: |
       Haste, bleed
-      {T}, pay two souls: Deal 2 damage to target creature or planeswalker.
+      {T}, Pay two souls: Deal 2 damage to target creature or planeswalker.
     flavor_text: "The beasts roaming Sulyvahn's territory are more than mere animals. They are infused with the Pontiff's dark will, acting with purpose and deadly precision."
     artwork_url: "https://i.ibb.co/Ps8RXBPF/sulyvahns-fiend-by-fromsoft-resize.jpg"
     artist: "fromsoft"
@@ -765,7 +765,7 @@ card_winged_fortune_kalameet:
     super: "Legendary"
     type: "Creature"
     sub: "Dragon"
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)

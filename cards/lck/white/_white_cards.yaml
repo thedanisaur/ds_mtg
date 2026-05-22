@@ -5,7 +5,7 @@ card_a_call_to_the_ash:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       You may reveal a white card or a plains from your hand rather than pay this spell's mana cost.
@@ -22,7 +22,7 @@ card_alonne_knight_captain:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Whenever ~ becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}
@@ -41,7 +41,7 @@ card_alonne_phantom:
     super: ""
     type: "Creature"
     sub: "Spirit"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       As an additional cost to cast ~, exile a card from your hand and a card from your graveyard.
@@ -60,7 +60,7 @@ card_archdrake_cleric:
     super: ""
     type: "Creature"
     sub: "Dragon Hollow Cleric"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
@@ -79,7 +79,7 @@ card_belltower_knight:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Vigilance, lifelink
@@ -115,10 +115,10 @@ card_brilliant_ash:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Exile target creature. Its controller creates two tapped rubbish tokens.
+      Exile target creature. Its controller creates two tapped Moss Clump tokens. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: "You are the Ashen One… Bear the curse, and be unkindled no longer."
     artwork_url: "https://i.pinimg.com/736x/6a/a4/c3/6aa4c37222bef4685075806a05009503.jpg"
     artist: "Maximiliano Moretto"
@@ -131,7 +131,7 @@ card_carim_guardian:
     super: ""
     type: "Creature"
     sub: "Human Knight"
-    rarity: "Uncommon"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
@@ -169,7 +169,7 @@ card_channeler_servant:
     super: ""
     type: "Creature"
     sub: "Wizard"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Vigilance, lifelink
@@ -206,7 +206,7 @@ card_divine_will:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       All nonwhite creatures get -1/-1.
@@ -223,7 +223,7 @@ card_dragon_acolyte:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Lifelink
@@ -259,7 +259,7 @@ card_flowing_curse:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       At the beginning of your end step, put a curse counter on ~.
@@ -277,7 +277,7 @@ card_gwyns_divine_justice:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Create twice X 4/4 white Angel creature tokens with flying and lifelink.
@@ -295,7 +295,7 @@ card_kirk_knight_of_thorns:
     super: "Legendary"
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
@@ -315,7 +315,7 @@ card_kirk_knight_of_thorns:
     super: "Legendary"
     type: "Creature"
     sub: "Spirit"
-    rarity: "Common"
+    rarity: "Rare"
     rules_text: |
       First strike, bleed
       When ~ enters the battlefield, each player gets a bleed counter.
@@ -353,7 +353,7 @@ card_lorian_crown_prince:
     super: "Legendary"
     type: "Creature"
     sub: "Lord"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Vigilance, haste, protection from sources with plague
@@ -372,7 +372,7 @@ card_lothric_oaths_forsaken:
     super: "Legendary"
     type: "Creature"
     sub: "Lord"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Lifelink, protection from sources with plague
@@ -410,7 +410,7 @@ card_mirrah_exile:
     super: ""
     type: "Creature"
     sub: "Human Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       First strike, bleed
@@ -429,7 +429,7 @@ card_painted_guardian:
     super: ""
     type: "Creature"
     sub: "Human"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
@@ -448,7 +448,7 @@ card_painted_recruiter:
     super: ""
     type: "Creature"
     sub: "Human Cleric"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
@@ -483,7 +483,7 @@ card_radiant_blast:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Destroy all artifacts and creatures.
@@ -501,7 +501,7 @@ card_resplendent_life:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
@@ -518,7 +518,7 @@ card_royal_swordsman:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Lifelink
@@ -538,7 +538,7 @@ card_seal_of_the_champions:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow or knight from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library. 
@@ -573,7 +573,7 @@ card_soul_vortex:
     super: ""
     type: "Enchantment"
     sub: "Curse"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Enchant player
@@ -591,7 +591,7 @@ card_spellsword_knight:
     super: ""
     type: "Creature"
     sub: "Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Vigilance
@@ -610,7 +610,7 @@ card_sweet_shalquoir_progeny:
     super: ""
     type: "Creature"
     sub: "Cat"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       You may cast this spell any time you could cast an instant.
@@ -630,7 +630,7 @@ card_sword_master:
     super: ""
     type: "Creature"
     sub: "Hollow Samurai"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       First strike, bleed
@@ -719,10 +719,10 @@ card_unveil:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Turn target facedown permanent face up.
+      Turn target facedown permanent face up. You gain souls equal to its mana value.
       Cycling {1} ({1}, Discard this card: Draw a card.)
     flavor_text: "Those who serve the Lindelt Monastery willfully adhere to strict commandments. This miracle castigates those who ignore the righteous teachings."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Walk-In-The-Dark-30min-spitpaint-893507747"
@@ -756,7 +756,7 @@ card_warriors_of_sunlight:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       You may exile a white card from your hand rather than pay this spell's mana cost.
@@ -777,7 +777,7 @@ card_winged_knight:
     super: ""
     type: "Creature"
     sub: "Angel Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Flying, protection from black and red

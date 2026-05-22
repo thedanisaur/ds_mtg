@@ -24,7 +24,7 @@ card_afflicted_graverobber:
     super: ""
     type: "Creature"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Lifelink, shadow (This creature can block or be blocked by only creatures with shadow.)
@@ -43,7 +43,7 @@ card_bearing_the_curse:
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Enchant player
@@ -78,7 +78,7 @@ card_catacombs_gravebinder:
     super: ""
     type: "Creature"
     sub: "Skeleton Wizard"
-    rarity: "Common"
+    rarity: "Rare"
     rules_text: |
       When ~ enters the battlefield or is exiled from your graveyard, return all creatures to the battlefield that went to the graveyard this turn. Until end of turn, you lose 1 life, draw a card, and get one soul for each creature that enters the battlefield and wasn't cast.
       Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.
@@ -258,7 +258,7 @@ card_etched_erasure:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Exile target card, other than a basic land card, from a graveyard.
@@ -296,7 +296,7 @@ card_gnawing_corpse_rat:
     super: ""
     type: "Creature"
     sub: "Zombie Rat"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. Draw a card, lose 1 life, add {B} to your mana pool, and get one soul.
@@ -334,7 +334,7 @@ card_harvest_valley_banedigger:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When ~ enters the battlefield destroy target nonblack creature or nonblack planeswalker an opponent controls. You get souls equal to its mana value.
@@ -408,7 +408,7 @@ card_numbness:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       If an opponent gained souls this turn, you may pay {0} rather than pay ~'' mana cost.
@@ -425,7 +425,7 @@ card_oath_of_the_undead_curse:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       {B}{B}, Pay 3 life, Sacrifice a swamp: Return target creature from a graveyard to the battlefield under your control.
@@ -457,7 +457,7 @@ card_royal_sorcerer:
     super: ""
     type: "Creature"
     sub: "Human Wizard"
-    rarity: "Common"
+    rarity: "Rare"
     rules_text: |
       If this card's madness cost was paid, it enters the battlefield transformed.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -476,7 +476,7 @@ card_royal_sorcerer:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Common"
+    rarity: "Rare"
     rules_text: |
       Deathtouch
       When ~ enters the battlefield, destroy target creature.
@@ -514,7 +514,7 @@ card_sir_vilhelm:
     super: "Legendary"
     type: "Creature"
     sub: "Human Knight"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Deathtouch, lifelink
@@ -535,7 +535,7 @@ card_skeletal_necromancer:
     super: ""
     type: "Creature"
     sub: "Skeleton"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When ~ enters the battlefield create three 1/1 black Skeleton creature tokens.
@@ -593,7 +593,7 @@ card_spreading_contamination:
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Enchant land
@@ -611,7 +611,7 @@ card_statue_of_absolution:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Whenever you discard a card you may draw a card. If you do, you lose 1 life and get one soul.
@@ -644,7 +644,7 @@ card_the_darklurker:
     super: "Legendary"
     type: "Creature"
     sub: "Demon"
-    rarity: "Rare"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       Flying
@@ -682,7 +682,7 @@ card_twisted_recollection:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       As you cast ~, each card you exile from your graveyard pays for {1}.
@@ -734,7 +734,7 @@ card_waning_prudence:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.

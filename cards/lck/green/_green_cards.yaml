@@ -25,7 +25,7 @@ card_amana_shaman:
     super: ""
     type: "Creature"
     sub: "Shaman"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Trample
@@ -65,7 +65,7 @@ card_beast_of_amana:
     super: ""
     type: "Creature"
     sub: "Lizard Hollow"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
@@ -85,7 +85,7 @@ card_bloodlet_giant:
     super: ""
     type: "Creature"
     sub: "Giant Knight"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
@@ -104,7 +104,7 @@ card_blowdart_sniper:
     cost: "{G}"
     super: ""
     type: "Creature"
-    sub: "Assassin Troll"
+    sub: "Hollow Assassin"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -124,7 +124,7 @@ card_brume_tower_warrior:
     super: ""
     type: "Creature"
     sub: "Human Knight"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Creatures with power less than ~'s power can't block it.
@@ -259,7 +259,7 @@ card_deep_accursed:
     super: ""
     type: "Creature"
     sub: "Spider"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.
@@ -335,11 +335,11 @@ card_drangleic_kobold:
     super: ""
     type: "Creature"
     sub: "Kobold"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Deathtouch
-      When ~ dies, create a Rubbish token. (It's an artifact with {T}, "Sacrifice this artifact: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library.")
+      When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
       {1}{G}: Return ~ from your graveyard to the battlefield. Activate only if a card went to your graveyard this turn.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/zVGwdvTf/drangleic-kobold-by-boceto-resize.jpg"
@@ -355,7 +355,7 @@ card_drangleic_ogre:
     super: ""
     type: "Creature"
     sub: "Giant Troll"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
@@ -397,7 +397,7 @@ card_from_the_shaded_woods:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If an opponent cycled a card this turn, you may pay {1}{G} rather than pay ~'s mana cost.
@@ -414,7 +414,7 @@ card_gateway_of_the_undead:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       {G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.
@@ -430,7 +430,7 @@ card_growing_phalanx:
     super: ""
     type: "Creature"
     sub: "Ooze"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Whenever another card goes to your graveyard, create a token copy of ~.
@@ -467,7 +467,7 @@ card_hounding_hydra:
     super: ""
     type: "Creature"
     sub: "Hydra"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       You may have ~ assign its combat damage as though it weren't blocked.
@@ -541,7 +541,7 @@ card_overwhelming_numbness:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       If an opponent paid a madness cost this turn, you may pay {0} rather than pay ~'s mana cost.
@@ -558,7 +558,7 @@ card_parasite_ridden_dragon:
     super: ""
     type: "Creature"
     sub: "Dragon"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Flying, trample, haste
@@ -712,7 +712,7 @@ card_suspicious_shadow:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever a creature you control is turned face up, untap target creature you control.
+      Whenever a creature you control enters the battlefield or is turned face up, untap target creature you control.
       Chameleon {2} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       When ~ is turned face up, add {G}{U}{R} to your mana pool.
     flavor_text: "In these shadows, you're still easily seen."
@@ -729,7 +729,7 @@ card_the_lordvessel:
     super: "Legendary"
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard. Shuffle your library.
@@ -752,7 +752,7 @@ card_titanite_demon:
     rules_text: |
       Trample
       ~ enters the battlefield with two +1/+1 counters if a card went to your graveyard this turn.
-      When ~ dies, create a Rubbish token. (It's an artifact with {T}, "Sacrifice this artifact: Search your library for a soul, infusion, or noncreature artifact card, reveal it and put it into your hand. shuffle your library.")
+      When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/6f/59/7c/6f597cc947cb2c9a159fcf2a78e034e2.jpg"
     artist: "fromsoft"
@@ -767,7 +767,7 @@ card_truth_of_the_old_words:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       You may reveal a green card or forest from your hand rather than pay this card's mana cost.

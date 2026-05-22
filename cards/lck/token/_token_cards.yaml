@@ -15,7 +15,7 @@ card_angel:
     power: 4
     toughness: 4
     color_indicator: "{W}"
-    number: 305
+    number: 1
 
 card_arrow_trap:
   front:
@@ -23,14 +23,14 @@ card_arrow_trap:
     cost: ""
     super: "Token"
     type: "Artifact"
-    sub: ""
+    sub: "Trap"
     rarity: "Token"
     rules_text: |
       {1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 306
+    number: 2
 
 card_arrow_trap_2:
   front:
@@ -38,14 +38,14 @@ card_arrow_trap_2:
     cost: ""
     super: "Token"
     type: "Artifact"
-    sub: ""
+    sub: "Trap"
     rarity: "Token"
     rules_text: |
       {1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 307
+    number: 3
 
 card_bleed_counter:
   front:
@@ -57,12 +57,12 @@ card_bleed_counter:
     rarity: "Token"
     rules_text: |
       Whenever you have 5, plus the number of Moss Clump tokens you control, or more bleed counters, you take that much damage.
-      You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1.")
+      You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: ""
     artwork_url: ""
     artist: ""
     color_indicator: "{C}"
-    number: 308
+    number: 4
 
 card_boulder_trap:
   front:
@@ -70,14 +70,14 @@ card_boulder_trap:
     cost: ""
     super: "Token"
     type: "Artifact"
-    sub: ""
+    sub: "Trap"
     rarity: "Token"
     rules_text: |
       {1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 309
+    number: 5
 
 card_dragon:
   front:
@@ -94,7 +94,7 @@ card_dragon:
     power: 3
     toughness: 3
     color_indicator: "{U}"
-    number: 310
+    number: 6
 
 card_guillotine_trap:
   front:
@@ -102,14 +102,14 @@ card_guillotine_trap:
     cost: ""
     super: "Token"
     type: "Artifact"
-    sub: ""
+    sub: "Trap"
     rarity: "Token"
     rules_text: |
       {1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 311
+    number: 7
 
 card_hollow:
   front:
@@ -126,7 +126,7 @@ card_hollow:
     power: "X"
     toughness: "X"
     color_indicator: "{R}"
-    number: 312
+    number: 8
 
 card_moss_clump:
   front:
@@ -134,14 +134,14 @@ card_moss_clump:
     cost: ""
     super: "Token"
     type: "Artifact"
-    sub: ""
+    sub: "Moss Clump"
     rarity: "Token"
-    rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 1."
+    rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2."
     flavor_text: ""
     artwork_url: ""
     artist: ""
     color_indicator: "{C}"
-    number: 313
+    number: 9
 
 card_rat:
   front:
@@ -158,7 +158,7 @@ card_rat:
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 314
+    number: 10
 
 card_royal_guard:
   front:
@@ -175,22 +175,7 @@ card_royal_guard:
     power: 1
     toughness: 1
     color_indicator: "{W}"
-    number: 315
-
-card_rubbish:
-  front:
-    name: "Rubbish"
-    cost: ""
-    super: "Token"
-    type: "Artifact"
-    sub: ""
-    rarity: "Token"
-    rules_text: "{T}, Sacrifice ~: Search your library for a soul, infusion, or noncreature artifact card. Reveal that card and put it into your hand. Then shuffle your library."
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    color_indicator: "{C}"
-    number: 316
+    number: 11
 
 card_spirit:
   front:
@@ -207,7 +192,7 @@ card_spirit:
     power: 1
     toughness: 1
     color_indicator: "{U}"
-    number: 317
+    number: 12
 
 card_tentacle:
   front:
@@ -224,4 +209,4 @@ card_tentacle:
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 318
+    number: 13

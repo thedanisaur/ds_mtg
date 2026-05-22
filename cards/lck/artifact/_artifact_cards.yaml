@@ -5,7 +5,7 @@ card_ballista_tower:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       When ~ enters the battlefield you get two souls and choose one -
@@ -24,8 +24,8 @@ card_bloodred_moss_clump:
     cost: "{1}"
     super: ""
     type: "Artifact"
-    sub: ""
-    rarity: "Rare"
+    sub: "Moss Clump"
+    rarity: "Common"
     rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
@@ -43,7 +43,7 @@ card_budding_lotus:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       ~ enters the battlefield tapped with a petal counter on it.
@@ -61,7 +61,7 @@ card_burnt_offering:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have seven or more souls.
@@ -77,7 +77,7 @@ card_charm_of_the_darkmoon_blades:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
@@ -145,7 +145,7 @@ card_crown_of_the_covetous_king:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       At the beginning of your end step, if you control cards named Crown of the Sunken King, Crown of the Old Iron King, and Crown of the Ivory King you win the game.
@@ -163,7 +163,7 @@ card_crown_of_the_ivory_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)
@@ -181,7 +181,7 @@ card_crown_of_the_old_iron_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Colored nonartifact spells cost {1} more to cast.
@@ -199,7 +199,7 @@ card_crown_of_the_sunken_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)
@@ -217,7 +217,7 @@ card_curator_of_the_grand_archives:
     super: ""
     type: "Artifact Creature"
     sub: "Construct"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Draft ~ face up.
@@ -254,7 +254,7 @@ card_dragon_slayer_greatsword:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
@@ -272,7 +272,7 @@ card_fragrant_branch_of_yore:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Common"
     rating: 3
     rules_text: |
       {2}, {T}, Sacrifice ~: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
@@ -306,7 +306,7 @@ card_golden_wing_crest_shield:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
@@ -324,7 +324,7 @@ card_golem_battle_axe:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
@@ -392,7 +392,7 @@ card_new_londo_talisman:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Mythic"
     rating: 3
     rules_text: |
       This artifact doesn't untap during your untap step.
@@ -426,8 +426,8 @@ card_purple_moss_clump:
     cost: "{1}"
     super: ""
     type: "Artifact"
-    sub: ""
-    rarity: "Rare"
+    sub: "Moss Clump"
+    rarity: "Common"
     rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
@@ -478,7 +478,7 @@ card_ring_of_favor:
     super: ""
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Equipped creature gets +2/+2 and has vigilance, haste, and "Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost."
@@ -495,7 +495,7 @@ card_seal_of_a_slumbering_dragon:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Players can't cast artifact or colorless spells.
@@ -512,7 +512,7 @@ card_seal_of_the_dark_void:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       If a card would enter or leave exile, that card's owner loses 2 life.
@@ -562,7 +562,7 @@ card_shattered_dusk_ring:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If you would choose one or more modes when casting a spell, you may choose one additional mode.
@@ -615,7 +615,7 @@ card_tarkus_iron_knight:
     super: "Legendary"
     type: "Artifact Creature"
     sub: "Hollow Knight"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Indestructible
@@ -636,7 +636,7 @@ card_the_champions_tablet:
     super: ""
     type: "Legendary Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       ~ enters the battlefield with X awestone counters on it.
@@ -655,7 +655,7 @@ card_the_great_seal_of_thorolund:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Cards can't enter the battlefield unless it's from the stack.
