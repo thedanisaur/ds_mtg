@@ -3559,7 +3559,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>UW</colors>
+            <colors>WU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3576,7 +3576,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3594,7 +3594,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3610,7 +3610,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3644,7 +3644,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Common" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3676,7 +3676,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Common" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3737,7 +3737,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>UG</colors>
+            <colors>GU</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
