@@ -641,8 +641,8 @@ card_royal_rat_authority:
       {-1}: Destroy target land. Its controller gets one bleed counter.
       {-7}: Target player gets seven bleed counters.
     flavor_text: ""
-    artwork_url: "https://i.ibb.co/5Xyk1CWK/royal-rat-authority-by-eugenio-frosali-resize.jpg"
-    artist: "Eugenio Frosali"
+    artwork_url: "https://i.ibb.co/kgWMvdmn/royal-rat-authority-by-tyler-holman-resize.jpg"
+    artist: "Tyler Holman"
     loyalty: 2
     number: 209
 
@@ -792,5 +792,5 @@ card_undead_pigs:
     artwork_url: "https://i.ibb.co/kVwDtMf3/undead-pigs-by-otto-lehtonen-resize.jpg"
     artist: "otto-lehtonen"
     power: 2
-    toughness: 5
+    toughness: 4
     number: 217
