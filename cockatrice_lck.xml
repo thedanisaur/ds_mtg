@@ -1979,7 +1979,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
         <name>Soulbound Wretched Undead</name>
         <text>As you cast, you may discard a card. If you do, you get four souls.
 As long as there are seven or more cards in your graveyard ~ gets +3/+3.
-Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Zombie</type>
@@ -2213,7 +2213,8 @@ Whenever ~ attacks exile the top card of your library with a favored counter on 
     <card>
         <name>Bonewheel</name>
         <text>Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-When ~ attacks, exile the top card of your library with a favored counter on it. You get one soul. Sacrifice it at the beginning of the next end step.</text>
+Soullink (Damage dealt by this creature also causes you to get that many souls.)
+When ~ attacks, exile the top card of your library with a favored counter on it. Sacrifice ~ at the beginning of the next end step.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Skeleton</type>
@@ -2279,7 +2280,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
     <card>
         <name>Cleansing Orb</name>
         <text>Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
-Soullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)</text>
+Augur 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2345,7 +2346,7 @@ When ~ goes to the graveyard from the battlefield choose one -
     <card>
         <name>Crimson Wyvern</name>
         <text>Flying, bleed
-When ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.
+When ~ enters the battlefield, if it has one or more -1/-1 counters on it, exile the top card of your library with a favored counter on it.
 When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2454,8 +2455,8 @@ Delayed {R} (You may pay {R} and exile this card from your hand. Cast it on a la
     </card>
     <card>
         <name>Flaming Golem</name>
-        <text>Whenever a creature you control attacks, exile the top card of your library with a luck counter on it.
-{T}: Put a card you own in exile with a luck counter on it into your hand.</text>
+        <text>Whenever a creature you control attacks, exile the top card of your library with a favored counter on it.
+{T}: Put a card you own in exile with a favored counter on it into your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Golem</type>
@@ -2563,8 +2564,8 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
     </card>
     <card>
         <name>Menacing Thief</name>
-        <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a luck counter on it.
-{R}, {T}: You may play a card in exile with a luck counter on it. If you don't ~ deals 1 damage to any target.
+        <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
+{R}, {T}: You may play a card in exile with a favored counter on it. If you don't ~ deals 1 damage to any target.
 Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2581,7 +2582,7 @@ Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it o
     <card>
         <name>Preeminent Giant</name>
         <text>Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
-Madness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant</type>
@@ -2805,7 +2806,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
         <name>Volgen Falconer</name>
         <text>Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
 As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
-Soullink 3</text>
+Augur 3</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Bird</type>
@@ -2839,7 +2840,7 @@ Whenever ~ deals combat damage to a player, you may play a card you own in exile
         <name>Adept Cartographer</name>
         <text>When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.
 Whenever a land enters the battlefield under your control, target player gets two souls.
-Soullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
+Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
@@ -2973,7 +2974,7 @@ Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a
         <name>Company Captain</name>
         <text>When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
 Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
-Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Cleric Knight</type>
@@ -3138,7 +3139,7 @@ When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrif
         <text>Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
 {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
 {G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
-Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant Troll</type>
@@ -3218,7 +3219,7 @@ Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it o
     <card>
         <name>Honorable Duel</name>
         <text>Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.
-Soullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
+Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -3343,7 +3344,7 @@ Target player shuffles their graveyard into their library. Prevent all damage th
     </card>
     <card>
         <name>Petrifying Basilisk</name>
-        <text>Accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")</text>
+        <text>Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Lizard</type>
@@ -3360,7 +3361,7 @@ Target player shuffles their graveyard into their library. Prevent all damage th
         <name>Possessed Foliage</name>
         <text>~ can't be the target of spells or abilities.
 ~'s power and toughtness are each equal to the number of lands you control.
-Soullink 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)</text>
+Augur 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Demon Treefolk</type>
@@ -3506,7 +3507,7 @@ Reveal the top four cards of your library. You may put a permanent card from amo
     </card>
     <card>
         <name>Undead Pigs</name>
-        <text>Vigilance, accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")</text>
+        <text>Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Zombie Boar</type>
@@ -3529,7 +3530,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3562,7 +3563,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3579,7 +3580,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3629,7 +3630,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">DKS</set>
@@ -3647,7 +3648,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3694,7 +3695,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3725,7 +3726,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
         </prop>
         <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -4142,14 +4143,15 @@ When ~ dies add two mana of any one color to your mana pool, draw a card, and ge
     </card>
     <card>
         <name>Ring of Favor</name>
-        <text>Equipped creature gets +2/+2 and has vigilance, haste, and "Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost."
+        <text>When ~ enters the battlefield, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+Equipped creature gets +2/+2 and has vigilance, haste, and "Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost."
 Equip {2}</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact - Equipment</type>
             <maintype>Artifact</maintype>
-            <manacost>{2}</manacost>
-            <cmc>2</cmc>
+            <manacost>{3}</manacost>
+            <cmc>3</cmc>
         </prop>
         <set rarity="Uncommon" num="259" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/ring_of_favor.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4904,6 +4906,21 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
         <tablerow>1</tablerow>
     </card>
     <card>
+        <name>Curse</name>
+        <text>Spells you cast cost {1} more to cast.
+When you control more Curses than your life total, you lose the game.
+{1}, {T}, Sacrifice ~: create a tapped Treasure token.</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Artifact - Curse</type>
+            <maintype>Artifact</maintype>
+            <manacost></manacost>
+            <cmc>0</cmc>
+        </prop>
+        <set rarity="Token" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/curse.jpeg">DKS</set>
+        <tablerow>1</tablerow>
+    </card>
+    <card>
         <name>Dragon</name>
         <text>Flying</text>
         <prop><layout>normal</layout>
@@ -4915,7 +4932,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>U</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Token" num="6" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/dragon.jpeg">DKS</set>
+        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/dragon.jpeg">DKS</set>
         <reverse-related>Valley of the Drakes</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -4930,7 +4947,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Token" num="7" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/guillotine_trap.jpeg">DKS</set>
+        <set rarity="Token" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/guillotine_trap.jpeg">DKS</set>
         <reverse-related></reverse-related>
         <token>1</token>
         <tablerow>1</tablerow>
@@ -4947,7 +4964,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>R</colors>
             <pt>X/X</pt>
         </prop>
-        <set rarity="Token" num="8" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/hollow.jpeg">DKS</set>
+        <set rarity="Token" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/hollow.jpeg">DKS</set>
         <reverse-related>Raise the Sloughtender, Talisman of Want</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -4962,7 +4979,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
-        <set rarity="Token" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/moss_clump.jpeg">DKS</set>
+        <set rarity="Token" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/moss_clump.jpeg">DKS</set>
         <reverse-related></reverse-related>
         <token>1</token>
         <tablerow>1</tablerow>
@@ -4979,7 +4996,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Token" num="10" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/rat.jpeg">DKS</set>
+        <set rarity="Token" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/rat.jpeg">DKS</set>
         <reverse-related>Royal Rat Authority</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -4996,7 +5013,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>W</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Token" num="11" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/royal_guard.jpeg">DKS</set>
+        <set rarity="Token" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/royal_guard.jpeg">DKS</set>
         <reverse-related></reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -5013,7 +5030,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>U</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Token" num="12" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/spirit.jpeg">DKS</set>
+        <set rarity="Token" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/spirit.jpeg">DKS</set>
         <reverse-related>Watchers of the Belfry</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
@@ -5030,7 +5047,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Token" num="13" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/tentacle.jpeg">DKS</set>
+        <set rarity="Token" num="14" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/tentacle.jpeg">DKS</set>
         <reverse-related>Hounding Hydra</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>

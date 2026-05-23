@@ -855,7 +855,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As you cast, you may discard a card. If you do, you get four souls.\nAs long as there are seven or more cards in your graveyard ~ gets +3/+3.\nSoullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "As you cast, you may discard a card. If you do, you get four souls.\nAs long as there are seven or more cards in your graveyard ~ gets +3/+3.\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/soulbound_wretched_undead.jpeg"
 },
 {
@@ -972,7 +972,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\nWhen ~ attacks, exile the top card of your library with a favored counter on it. You get one soul. Sacrifice it at the beginning of the next end step.\n",
+    "oracle_text": "Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\nSoullink (Damage dealt by this creature also causes you to get that many souls.)\nWhen ~ attacks, exile the top card of your library with a favored counter on it. Sacrifice ~ at the beginning of the next end step.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/bonewheel.jpeg"
 },
 {
@@ -998,7 +998,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.\nSoullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)\n",
+    "oracle_text": "Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.\nAugur 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cleansing_orb.jpeg"
 },
 {
@@ -1115,7 +1115,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Whenever a creature you control attacks, exile the top card of your library with a luck counter on it.\n{T}: Put a card you own in exile with a luck counter on it into your hand.\n",
+    "oracle_text": "Whenever a creature you control attacks, exile the top card of your library with a favored counter on it.\n{T}: Put a card you own in exile with a favored counter on it into your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/flaming_golem.jpeg"
 },
 {
@@ -1193,7 +1193,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a luck counter on it.\n{R}, {T}: You may play a card in exile with a luck counter on it. If you don't ~ deals 1 damage to any target.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\\\apply.)\n",
+    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play a card in exile with a favored counter on it. If you don't ~ deals 1 damage to any target.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\\\apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg"
 },
 {
@@ -1284,7 +1284,7 @@
     ],
     "rarity": "common",
     "rating": 5,
-    "oracle_text": "Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.\nAs long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.\nSoullink 3\n",
+    "oracle_text": "Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.\nAs long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.\nAugur 3\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/volgen_falconer.jpeg"
 },
 {
@@ -1297,7 +1297,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.\nWhenever a land enters the battlefield under your control, target player gets two souls.\nSoullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.\nWhenever a land enters the battlefield under your control, target player gets two souls.\nAugur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/adept_cartographer.jpeg"
 },
 {
@@ -1466,7 +1466,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.\nSoullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.\nAugur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/honorable_duel.jpeg"
 },
 {
@@ -1518,7 +1518,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.\")\n",
+    "oracle_text": "Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/petrifying_basilisk.jpeg"
 },
 {
@@ -1531,7 +1531,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ can't be the target of spells or abilities.\n~'s power and toughtness are each equal to the number of lands you control.\nSoullink 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "~ can't be the target of spells or abilities.\n~'s power and toughtness are each equal to the number of lands you control.\nAugur 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/possessed_foliage.jpeg"
 },
 {
@@ -1609,7 +1609,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Vigilance, accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.\")\n",
+    "oracle_text": "Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/undead_pigs.jpeg"
 },
 {
@@ -1618,8 +1618,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1632,8 +1632,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1646,8 +1646,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1674,8 +1674,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1688,8 +1688,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2426,8 +2426,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2482,11 +2482,11 @@
     "name": "Ring of Favor",
     "super": "",
     "type": "Artifact",
-    "mana_cost": "{2}",
+    "mana_cost": "{3}",
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Equipped creature gets +2/+2 and has vigilance, haste, and \"Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost.\"\nEquip {2}\n",
+    "oracle_text": "When ~ enters the battlefield, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nEquipped creature gets +2/+2 and has vigilance, haste, and \"Whenever equipped creature deals damage to a player exile the top card of your library with a favored counter on it. You may play a card in exile with a favored counter on it without paying its mana cost.\"\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/ring_of_favor.jpeg"
 },
 {
@@ -2853,7 +2853,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Flying, bleed\nWhen ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.\nWhen ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.\n",
+    "oracle_text": "Flying, bleed\nWhen ~ enters the battlefield, if it has one or more -1/-1 counters on it, exile the top card of your library with a favored counter on it.\nWhen ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/crimson_wyvern.jpeg"
 },
 {
@@ -2879,7 +2879,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.\nMadness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
+    "oracle_text": "Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.\nMadness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/preeminent_giant.jpeg"
 },
 {
@@ -2944,7 +2944,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\nSoullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "When ~ enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/company_captain.jpeg"
 },
 {
@@ -2957,7 +2957,7 @@
     ],
     "rarity": "rare",
     "rating": 5,
-    "oracle_text": "Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.\n{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.\n{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.\nSoullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.\n{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.\n{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_ogre.jpeg"
 },
 {
@@ -3032,8 +3032,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3699,8 +3699,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3831,8 +3831,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
-        "W",
+        "U",
         "R",
-        "U"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,

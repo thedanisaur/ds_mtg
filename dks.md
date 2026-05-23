@@ -1394,45 +1394,49 @@
 </tr>
 <tr>
     <td align="center">
+        <img src="./cards/dks/token/soul_counter.jpeg" alt="Soul Counter" width="400"/><br/>
+        <strong>Soul Counter</strong>
+    </td>
+    <td align="center">
         <img src="./cards/dks/token/treasure.jpeg" alt="Treasure" width="400"/><br/>
         <strong>Treasure</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/token/wizard.jpeg" alt="Wizard" width="400"/><br/>
         <strong>Wizard</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/token/zombie_jackal.jpeg" alt="Zombie Jackal" width="400"/><br/>
         <strong>Zombie Jackal</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/forest.jpeg" alt="Forest" width="400"/><br/>
         <strong>Forest</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/dks/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/dks/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>

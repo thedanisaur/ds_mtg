@@ -79,6 +79,24 @@ card_boulder_trap:
     artist: ""
     number: 5
 
+card_curse:
+  front:
+    name: "Curse"
+    cost: ""
+    super: ""
+    type: "Artifact"
+    sub: "Curse"
+    rarity: "Token"
+    rules_text: |
+      Spells you cast cost {1} more to cast.
+      When you control more Curses than your life total, you lose the game.
+      {1}, {T}, Sacrifice ~: create a tapped Treasure token.
+    flavor_text: ""
+    artwork_url: "https://www.deviantart.com/andrejzt/art/Undead-Portrait-901379114"
+    artist: "andrejzt"
+    color_indicator: "{C}"
+    number: 6
+
 card_dragon:
   front:
     name: "Dragon"
@@ -94,7 +112,7 @@ card_dragon:
     power: 3
     toughness: 3
     color_indicator: "{U}"
-    number: 6
+    number: 7
 
 card_guillotine_trap:
   front:
@@ -109,7 +127,7 @@ card_guillotine_trap:
     flavor_text: ""
     artwork_url: ""
     artist: ""
-    number: 7
+    number: 8
 
 card_hollow:
   front:
@@ -126,7 +144,7 @@ card_hollow:
     power: "X"
     toughness: "X"
     color_indicator: "{R}"
-    number: 8
+    number: 9
 
 card_moss_clump:
   front:
@@ -141,7 +159,7 @@ card_moss_clump:
     artwork_url: ""
     artist: ""
     color_indicator: "{C}"
-    number: 9
+    number: 10
 
 card_rat:
   front:
@@ -158,7 +176,7 @@ card_rat:
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 10
+    number: 11
 
 card_royal_guard:
   front:
@@ -175,7 +193,7 @@ card_royal_guard:
     power: 1
     toughness: 1
     color_indicator: "{W}"
-    number: 11
+    number: 12
 
 card_spirit:
   front:
@@ -192,7 +210,7 @@ card_spirit:
     power: 1
     toughness: 1
     color_indicator: "{U}"
-    number: 12
+    number: 13
 
 card_tentacle:
   front:
@@ -209,4 +227,4 @@ card_tentacle:
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 13
+    number: 14

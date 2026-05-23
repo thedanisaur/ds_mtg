@@ -65,7 +65,8 @@ card_bonewheel:
     rating: 3
     rules_text: |
       Haste, trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      When ~ attacks, exile the top card of your library with a favored counter on it. You get one soul. Sacrifice it at the beginning of the next end step.
+      Soullink (Damage dealt by this creature also causes you to get that many souls.)
+      When ~ attacks, exile the top card of your library with a favored counter on it. Sacrifice ~ at the beginning of the next end step.
     flavor_text: "Be wary of rolling."
     artwork_url: "https://i.ibb.co/8L6cFkFM/bonewheel-by-ev-ganin-resize.jpg"
     artist: "Ev Ganin"
@@ -143,7 +144,7 @@ card_cleansing_orb:
     rating: 3
     rules_text: |
       Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
-      Soullink 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)
+      Augur 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)
     flavor_text: "Souls of the lost are never destroyed only splintered."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Rimefire-Bolt-556704695"
     artist: "cobaltplasma"
@@ -219,7 +220,7 @@ card_crimson_wyvern:
     rating: 4
     rules_text: |
       Flying, bleed
-      When ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.
+      When ~ enters the battlefield, if it has one or more -1/-1 counters on it, exile the top card of your library with a favored counter on it.
       When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Nd2b7q4c/crimson-wyvern-by-unknown-resize.jpg"
@@ -345,8 +346,8 @@ card_flaming_golem:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever a creature you control attacks, exile the top card of your library with a luck counter on it.
-      {T}: Put a card you own in exile with a luck counter on it into your hand.
+      Whenever a creature you control attacks, exile the top card of your library with a favored counter on it.
+      {T}: Put a card you own in exile with a favored counter on it into your hand.
     flavor_text: "The Golem's see the flame flicking ahead of them. It would be wise to listen."
     artwork_url: "https://i.ibb.co/prPVsPjn/flaming-golem-by-conor-burke-resize.jpg"
     artist: "Conor Burke"
@@ -471,8 +472,8 @@ card_menacing_thief:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a luck counter on it.
-      {R}, {T}: You may play a card in exile with a luck counter on it. If you don't ~ deals 1 damage to any target.
+      Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
+      {R}, {T}: You may play a card in exile with a favored counter on it. If you don't ~ deals 1 damage to any target.
       Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/hxBfBj2D/menacing-thief-by-unknown-resize.jpg"
@@ -492,7 +493,7 @@ card_preeminent_giant:
     rating: 4
     rules_text: |
       Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
-      Madness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/whpf7CFS/preeminent-giant-by-hogpodge-resize.jpg"
     artist: "Hogpodge"
@@ -750,7 +751,7 @@ card_volgen_falconer:
     rules_text: |
       Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
       As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
-      Soullink 3
+      Augur 3
     flavor_text: ""
     artwork_url: "https://i.ibb.co/cKhFKHHX/volgen-falconer-by-ivyalive-resize.jpg"
     artist: "ivyalive"

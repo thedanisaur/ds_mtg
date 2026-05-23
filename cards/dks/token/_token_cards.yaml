@@ -164,7 +164,7 @@ card_plague_counter:
     rules_text: ""
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/0b/22/16/0b2216bb390ededb8acd9448fc455b95.jpg"
-    artist: "none"
+    artist: "unknown"
     number: 10
 
 card_red_phantom:
@@ -219,6 +219,23 @@ card_smough:
     toughness: 3
     color_indicator: "{G}"
 
+card_soul_counter:
+  front:
+    name: "Soul Counter"
+    cost: ""
+    super: ""
+    type: ""
+    sub: ""
+    rarity: "Token"
+    rules_text: |
+      Whenever you have 5, plus the number of Moss Clump tokens you control, or more bleed counters, you take that much damage.
+      You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
+    flavor_text: ""
+    artwork_url: ""
+    artist: ""
+    color_indicator: "{C}"
+    number: 14
+
 card_treasure:
   front:
     name: "Treasure"
@@ -231,7 +248,7 @@ card_treasure:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/PzYCvVbK/treasure-miggs69.jpg"
     artist: "miggs69"
-    number: 14
+    number: 15
     power: 1
     toughness: 1
     color_indicator: "{C}"
@@ -248,7 +265,7 @@ card_wizard:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/3mR3x0WJ/wizard-razorb.jpg"
     artist: "razorb"
-    number: 15
+    number: 16
     power: 1
     toughness: 1
     color_indicator: "{U/R}"
@@ -265,7 +282,7 @@ card_zombie_jackal:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Y7fzbkK8/zombie-jackal-dark-sheyn-resize.jpg"
     artist: "dark sheyn"
-    number: 16
+    number: 17
     power: 2
     toughness: 2
     color_indicator: "{B}"

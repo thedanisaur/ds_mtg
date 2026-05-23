@@ -10,7 +10,7 @@ card_adept_cartographer:
     rules_text: |
       When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.
       Whenever a land enters the battlefield under your control, target player gets two souls.
-      Soullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
+      Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2e/46/28/2e46289c6d56f77c5b2772690bc2973f.jpg"
     artist: "Niko Hana"
@@ -168,7 +168,7 @@ card_company_captain:
     rules_text: |
       When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
       Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
-      Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
+      Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/SXR6QpH6/company-captain-by-renzo-rotate.jpg"
     artist: "renzo"
@@ -361,7 +361,7 @@ card_drangleic_ogre:
       Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
       {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
       {G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
-      Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
+      Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Cs5LmQNY/drangelic-ogre-by-desyntril-resize.jpg"
     artist: "desyntril"
@@ -454,7 +454,7 @@ card_honorable_duel:
     rating: 3
     rules_text: |
       Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.
-      Soullink 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
+      Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/b0/37/fc/b037fc60aeedd5d53441f7897c1567df.jpg"
     artist: "fromsoft"
@@ -598,7 +598,7 @@ card_petrifying_basilisk:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")
+      Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
     artwork_url: "https://i.ibb.co/WWdz4ryM/petrifying-basilisk-rjpalmer-resize.jpg"
     artist: "rjpalmer"
@@ -618,7 +618,7 @@ card_possessed_foliage:
     rules_text: |
       ~ can't be the target of spells or abilities.
       ~'s power and toughtness are each equal to the number of lands you control.
-      Soullink 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)
+      Augur 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqW6NvLs/possessed-foliage-by-silas-resize.jpg"
     artist: "silas"
@@ -787,7 +787,7 @@ card_undead_pigs:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Vigilance, accursed (If a creature, player, or planeswalker would be dealt damage by a source with accursed, that creature, player, or planeswalker gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has more curse counters on it than its mana value, sacrifice it. Otherwise remove a curse counter from it.")
+      Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/kVwDtMf3/undead-pigs-by-otto-lehtonen-resize.jpg"
     artist: "otto-lehtonen"

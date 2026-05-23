@@ -1554,39 +1554,35 @@
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/lck/token/curse_counter.jpeg" alt="Curse Counter" width="400"/><br/>
-        <strong>Curse Counter</strong>
+        <img src="./cards/lck/token/curse.jpeg" alt="Curse" width="400"/><br/>
+        <strong>Curse</strong>
     </td>
-    <td align="center">
-        <img src="./cards/lck/token/soul_counter.jpeg" alt="Soul Counter" width="400"/><br/>
-        <strong>Soul Counter</strong>
-    </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/forest.jpeg" alt="Forest" width="400"/><br/>
         <strong>Forest</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>
