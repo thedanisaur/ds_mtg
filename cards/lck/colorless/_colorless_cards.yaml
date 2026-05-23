@@ -78,7 +78,7 @@ card_sinh_the_slumbering_dragon:
     type: "Creature"
     sub: "Dragon"
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       Flying, vigilance, haste
       When ~ dies, each player gets seven souls.
@@ -117,7 +117,7 @@ card_the_pursuer:
     type: "Enchantment Creature"
     sub: "Elemental"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Flying, haste, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)
       When ~ dies, each opponent creates a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")

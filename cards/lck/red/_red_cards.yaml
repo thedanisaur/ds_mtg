@@ -216,7 +216,7 @@ card_crimson_wyvern:
     type: "Creature"
     sub: "Drake"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Flying, bleed
       When ~ enters the battlefield, if it has one or more -1/-1 counters on it, you may pay {1}{R}. If you do, exile the top card of your library with a luck counter on it.
@@ -398,7 +398,7 @@ card_immortal_transposition:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Enchant creature
       Enchanted creature has "{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library."
@@ -489,7 +489,7 @@ card_preeminent_giant:
     type: "Creature"
     sub: "Giant"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
       Madness {R}{R}, exile a red card from your hand with a luck counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -524,7 +524,7 @@ card_rosarias_fingers:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       You may exile a red card from your hand rather than pay this spell's mana cost.
       Choose two -
@@ -691,7 +691,7 @@ card_splintering_bolt:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       If you didn't go first, ~ costs {1} less to cast.
       ~ deals 3 damage divided as you choose to up to three targets.
@@ -708,7 +708,7 @@ card_sulyvahns_fiend:
     type: "Creature"
     sub: "Beast"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Haste, bleed
       {T}, Pay two souls: Deal 2 damage to target creature or planeswalker.
@@ -746,7 +746,7 @@ card_volgen_falconer:
     type: "Creature"
     sub: "Human Bird"
     rarity: "Common"
-    rating: 3
+    rating: 5
     rules_text: |
       Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
       As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
@@ -766,7 +766,7 @@ card_winged_fortune_kalameet:
     type: "Creature"
     sub: "Dragon"
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       Flying, haste, protection from blue and white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or white.)
       When ~ enters the battlefield exile the top three cards of your library with a favored counter on each of them.

@@ -21,17 +21,18 @@ card_aldia_first_of_the_scholars:
 card_amana_charmer:
   front:
     name: "Amana Charmer"
-    cost: "{1}{U}"
+    cost: "{2}{U}"
     super: ""
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
     rating: 3
     rules_text: |
-      Cycling abilities you activate cost {2} less to activate.
-      When you cycle ~, counter target spell or ability you don't control unless it's controller pays {2}.
-      Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
-    flavor_text: "The shrine sustained the Demon of Song, long before the undead curse ravaged Drangleic. "
+      You may cast ~ any time you could cast an instant.
+      When ~ enters the battlefield choose one. If its madness cost was paid, choose two instead -
+      • Tap or untap target permanent
+      • Draw a card. Discard a card. You get one soul.
+    flavor_text: "The shrine sustained the Demon of Song, long before the undead curse ravaged Drangleic."
     artwork_url: "https://i.ibb.co/ch3qTK2P/amana-charmer-by-vicar-amelia-resized.jpg"
     artist: "Vicar Amelia"
     power: 1
@@ -147,7 +148,7 @@ card_calculating_intellect:
     rating: 3
     rules_text: |
       Enchant creature
-      Enchanted creature can't be blocked if you have seven or more souls.
+      Enchanted creature can't be blocked if you have five or more souls.
       Whenever enchanted creature deals combat damage to a player, you get one soul, then you may draw a card. If you do, discard a card.
     flavor_text: "Within these pages lies knowledge denied to the weak, the truth of immortality, and the fragility of flesh."
     artwork_url: "https://i.ibb.co/jkn8SSqY/calculating-intellect-by-kokoro-han-resize.jpg"
@@ -250,9 +251,9 @@ card_echoes_of_clarity:
     type: "Instant"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
-      Draw a card. If you have seven or more souls, draw 3 cards instead.
+      Draw a card. If you have five or more souls, draw 3 cards instead.
     flavor_text: "Every age, it seems, is tainted by the greed of men."
     artwork_url: "https://i.ibb.co/zHhbMmnX/echoes-of-clarity-by-ev-ganin-nose-ring.jpg"
     artist: "Ev Ganin"
@@ -288,6 +289,7 @@ card_faint_amnesia:
     rules_text: |
       You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
       Counter target spell with mana value 1 or less. If that spell is countered this way, exile it.
+      Cycling {U} ({U}, Discard this card: Draw a card.)
     flavor_text: "What...what was I doing? Who are you? ... who am I?"
     artwork_url: "https://i.pinimg.com/736x/43/90/63/439063dc759514b189e8ca61e73f6c4a.jpg"
     artist: "Maristela"
@@ -371,7 +373,7 @@ card_introspective_channeler:
 card_logans_apprentice:
   front:
     name: "Logan's Apprentice"
-    cost: "{3}{U}{U}"
+    cost: "{2}{U}{U}"
     super: ""
     type: "Creature"
     sub: "Wizard"
@@ -380,7 +382,8 @@ card_logans_apprentice:
     rules_text: |
       When ~ enters the battlefield return target permanent to its owner's hand if it's tapped.
       Tap an untapped wizard you control: Tap or untap target artifact, creature, or land.
-      Madness {U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      Cycling {1}{U}
+      When you cycle ~, tap or untap target artifact, creature or land,\\ then draw a card and discard a card.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/5f/c6/aa/5fc6aaf859111fb3351d71dc195aa093.jpg"
     artist: "Lucas Ramos"
@@ -419,7 +422,7 @@ card_mound_maker_adept:
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       Whenever you cast a noncreature spell, draw a card, then discard a card. You get one soul.
-      ~ gets +1/+1 and has flying as long as you have seven or more souls.
+      ~ gets +1/+1 and has flying as long as you have five or more souls.
     flavor_text: "The hunt for souls is the only thing that will save you... or rather, me."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Ascension-X-War-of-Shadows-Shade-of-Sadranis-622995435"
     artist: "cobaltplasma"
@@ -514,8 +517,8 @@ card_pontiff_sulyvahn:
     rating: 3
     rules_text: |
       When ~ enters the battlefield gain control of target artifact or creature until ~ leaves the battlefield.
-      Whenever ~ attacks you may pay {1}{U}. If you do, creatures you control, but don't own gain Shadow until end of turn. (Creatures with shadow can block or be blocked by only creatures with shadow.)
-      Cycling {1}{U}
+      Whenever ~ attacks you may pay {3}{U}. If you do, put a copy of ~ onto the battlefield under your control, except it isn't legendary. Exile it at the beginning of the next end step.
+      Madness {2}{U}
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/35/08/4d/35084d0c3b8d1d5dc18fbaee7cb72e90.jpg"
     artist: "Xiao Na"
@@ -605,7 +608,7 @@ card_scour_the_archives:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Look at the top X cards of your library, where X is the number of instant and sorcery cards in your graveyard. Put up to two of those cards on top of your library, put the rest on the bottom of your library in any order, then draw two cards.
     flavor_text: "Locked away are the secrets to crystalize souls."
@@ -695,7 +698,7 @@ card_time_distortion:
     type: "Sorcery"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       Target player takes an extra turn after this one. If you target an opponent with this spell, at the beginning of your next upkeep reveal the top seven cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other in your graveyard.
     flavor_text: "To stand and glare at one another, steaming with ire and wrath, but without making a move. Such is the nature of peace."
@@ -728,7 +731,7 @@ card_twisted_barricade:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 5
     rules_text: |
       You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
       Counter target spell. If no mana was spent to cast this spell, counter target spell unless its controller pays X where X is the number of cards in your hand instead.

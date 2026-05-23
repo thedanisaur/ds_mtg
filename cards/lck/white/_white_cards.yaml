@@ -6,7 +6,7 @@ card_a_call_to_the_ash:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       You may reveal a white card or a plains from your hand rather than pay this spell's mana cost.
       For each creature card in all graveyards, create a 1/1 white Human creature token with lifelink. Exile all graveyards. If you have 5 or less life you gain 5 life.
@@ -116,7 +116,7 @@ card_brilliant_ash:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 5
     rules_text: |
       Exile target creature. Its controller creates two tapped Moss Clump tokens. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: "You are the Ashen One… Bear the curse, and be unkindled no longer."
@@ -190,7 +190,7 @@ card_divine_tome_of_carim:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 3
+    rating: 5
     rules_text: |
       Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
       Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)
@@ -392,7 +392,7 @@ card_lucatiel_of_mirrah:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Uncommon"
-    rating: 3
+    rating: 5
     rules_text: |
       ~ can't be blocked and if she would be the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}.
       If a player would draw a card except for the first one in their draw step, they put a card from their hand on top of their library instead.
@@ -433,7 +433,7 @@ card_painted_guardian:
     rating: 3
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      {T}: Creatures you control with bleed can't be the target of spells this turn.
+      Whenever you cast a spell, if it isn't the first spell you've cast this turn, target creature you control can't be the target of spells this turn.
     flavor_text: "The painted world itself is a refuge, the work of an unknown artist. It depicts a world left to rot and decay."
     artwork_url: "https://i.ibb.co/DPxGgkRw/painted-guardian-by-hannah-shaw-resize.jpg"
     artist: "Hannah Shaw"
@@ -521,9 +521,9 @@ card_royal_swordsman:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Lifelink
+      Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       When ~ enters the battlefield, destroy target artifact or enchantment.
-      {W}, {T}: Draw a card, then each opponent may draw a card. If at least one does, sacrifice ~ and you draw a card at the beginning of the next turn's upkeep.
+      {Q}: Draw a card, then each opponent may draw a card. If each one does, sacrifice ~ and draw a card.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/KxC4ZZGq/royal-swordsman-by-unknown-resize.jpg"
     artist: "unknown"
@@ -631,7 +631,7 @@ card_sword_master:
     type: "Creature"
     sub: "Hollow Samurai"
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       First strike, bleed
       Discard a card: ~ gains protection from the color of your choice until end of turn.
@@ -737,7 +737,7 @@ card_velstadt_the_royal_aegis:
     type: "Planeswalker"
     sub: "Velstadt Lord"
     rarity: "Mythic"
-    rating: 3
+    rating: 4
     rules_text: |
       If one or more tokens would be created under your control, twice that number of tokens are created instead.
       {+1}: Creatures you control get +1/+1 and gain vigilance until the beginning of your next turn.
@@ -757,7 +757,7 @@ card_warriors_of_sunlight:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       You may exile a white card from your hand rather than pay this spell's mana cost.
       Choose two -

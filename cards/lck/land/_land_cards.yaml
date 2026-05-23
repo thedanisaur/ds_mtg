@@ -6,6 +6,7 @@ card_ash_lake:
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
@@ -233,6 +234,7 @@ card_dragon_aerie:
     type: "Land"
     sub: "Mountain"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {R}
@@ -288,6 +290,7 @@ card_earthen_peak:
     type: "Land"
     sub: "Mountain"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {R}
@@ -326,6 +329,7 @@ card_frozen_eleum_loyce:
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {W}
@@ -345,6 +349,7 @@ card_great_hollows:
     type: "Land"
     sub: "Forest"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {G}
@@ -421,6 +426,7 @@ card_huntsmans_copse:
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
@@ -441,6 +447,7 @@ card_irithyll_dungeon:
     type: "Land"
     sub: "Swamp"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {B}
@@ -477,6 +484,7 @@ card_majula_pit:
     type: "Land"
     sub: "Swamp"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {B}
@@ -532,6 +540,7 @@ card_sinners_rise:
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {W}

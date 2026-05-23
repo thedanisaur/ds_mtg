@@ -6,6 +6,7 @@ card_abyss_jackal:
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Haste
       ~ can't block.
@@ -25,7 +26,7 @@ card_afflicted_graverobber:
     type: "Creature"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Lifelink, shadow (This creature can block or be blocked by only creatures with shadow.)
       When ~ enters the battlefield, you may pay {B}{B}, if you do target player discards two cards at random. If a card went to your graveyard this turn, put a permanent card from among the discarded cards onto the battlefield under your control.
@@ -79,6 +80,7 @@ card_catacombs_gravebinder:
     type: "Creature"
     sub: "Skeleton Wizard"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield or is exiled from your graveyard, return all creatures to the battlefield that went to the graveyard this turn. Until end of turn, you lose 1 life, draw a card, and get one soul for each creature that enters the battlefield and wasn't cast.
       Exile ~ from your graveyard: Create three 1/1 colorless Hollow creature tokens.
@@ -97,6 +99,7 @@ card_chained_prisoner:
     type: "Creature"
     sub: "Zombie"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Lifelink
       When ~ becomes the target of a spell or ability, sacrifice it.
@@ -132,6 +135,7 @@ card_cursed_jar:
     type: "Creature"
     sub: "Elemental"
     rarity: "Common"
+    rating: 3
     rules_text: |
       When ~ dies, put one curse counter on target creature, player, or planeswalker, then double the number of curse counters on all creatures, players, and planeswalkers.
     flavor_text: "The jar trembles softly, not from within — but from the weight of prayers long abandoned."
@@ -221,6 +225,7 @@ card_deserter_of_the_watch:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
+    rating: 3
     rules_text: |
       When ~ enters the battlefield, each player gets three souls.
       When ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.
@@ -239,6 +244,7 @@ card_dripping_slime:
     type: "Creature"
     sub: "Ooze"
     rarity: "Common"
+    rating: 3
     rules_text: |
       Indestructible
       Whenever ~ is dealt damage, if that damage was from a source that is white or green, sacrifice it.
@@ -458,6 +464,7 @@ card_royal_sorcerer:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Rare"
+    rating: 3
     rules_text: |
       If this card's madness cost was paid, it enters the battlefield transformed.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -628,7 +635,7 @@ card_syphon_hope:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       As you cast ~, you may discard any number of cards.
       Target player reveals a number of cards from their hand equal to three plus three times the number of cards you discarded. You may choose a nonland card from among them. If you do, that player discards that card. Otherwise both players reveal the top card of their libraries, lose life equal to their card's mana value, then both players draw a card.
@@ -645,7 +652,7 @@ card_the_darklurker:
     type: "Creature"
     sub: "Demon"
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       Flying
       When ~ deals combat damage to a player, each player loses 1 life, draws a card, and gets one soul.
@@ -716,6 +723,7 @@ card_wandering_huntsman:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
+    rating: 3
     rules_text: |
       As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
       Deathtouch

@@ -52,9 +52,9 @@ card_counts_dks = {
 # 60 rares x 3 = 180 (slightly over represented)
 # 19 mythics x 1 = 19 (slightly over represented)
 card_counts_lck = {
-    'Common': '24 ',
-    'Uncommon': '12 ',
-    'LandUncommon': '12 ',
+    'Common': '16 ',
+    'Uncommon': '6 ',
+    'LandUncommon': '6 ',
     'Rare': '3 ',
     'LandRare': '3 ',
     'Mythic': '2 ',

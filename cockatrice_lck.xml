@@ -495,7 +495,7 @@ If a player would would search their library, they search the top 4 cards of the
     <card>
         <name>Painted Guardian</name>
         <text>Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-{T}: Creatures you control with bleed can't be the target of spells this turn.</text>
+Whenever you cast a spell, if it isn't the first spell you've cast this turn, target creature you control can't be the target of spells this turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
@@ -571,9 +571,9 @@ Creatures you control get +1/+1, vigilance, and have "Whenever this creature is 
     </card>
     <card>
         <name>Royal Swordsman</name>
-        <text>Lifelink
+        <text>Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
 When ~ enters the battlefield, destroy target artifact or enchantment.
-{W}, {T}: Draw a card, then each opponent may draw a card. If at least one does, sacrifice ~ and you draw a card at the beginning of the next turn's upkeep.</text>
+{Q}: Draw a card, then each opponent may draw a card. If each one does, sacrifice ~ and draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Knight</type>
@@ -830,15 +830,16 @@ Choose two -
     </card>
     <card>
         <name>Amana Charmer</name>
-        <text>Cycling abilities you activate cost {2} less to activate.
-When you cycle ~, counter target spell or ability you don't control unless it's controller pays {2}.
-Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)</text>
+        <text>You may cast ~ any time you could cast an instant.
+When ~ enters the battlefield choose one. If its madness cost was paid, choose two instead -
+• Tap or untap target permanent
+• Draw a card. Discard a card. You get one soul.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wizard</type>
             <maintype>Creature</maintype>
-            <manacost>{1}{U}</manacost>
-            <cmc>2</cmc>
+            <manacost>{2}{U}</manacost>
+            <cmc>3</cmc>
             <colors>U</colors>
             <pt>1/3</pt>
         </prop>
@@ -931,7 +932,7 @@ Discard a card: Switch ~' power and toughness and gains flying until end of turn
     <card>
         <name>Calculating Intellect</name>
         <text>Enchant creature
-Enchanted creature can't be blocked if you have seven or more souls.
+Enchanted creature can't be blocked if you have five or more souls.
 Whenever enchanted creature deals combat damage to a player, you get one soul, then you may draw a card. If you do, discard a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1022,7 +1023,7 @@ Draw two cards, then put a card from your hand back on top or bottom of your lib
     </card>
     <card>
         <name>Echoes of Clarity</name>
-        <text>Draw a card. If you have seven or more souls, draw 3 cards instead.</text>
+        <text>Draw a card. If you have five or more souls, draw 3 cards instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1053,7 +1054,8 @@ Madness {2}{U} (If you discard this card, discard it into exile. When you do, ca
     <card>
         <name>Faint Amnesia</name>
         <text>You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
-Counter target spell with mana value 1 or less. If that spell is countered this way, exile it.</text>
+Counter target spell with mana value 1 or less. If that spell is countered this way, exile it.
+Cycling {U} ({U}, Discard this card: Draw a card.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1133,13 +1135,14 @@ Delayed {U} (You may pay {U} and exile this card from your hand. Cast it on a la
         <name>Logan's Apprentice</name>
         <text>When ~ enters the battlefield return target permanent to its owner's hand if it's tapped.
 Tap an untapped wizard you control: Tap or untap target artifact, creature, or land.
-Madness {U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+Cycling {1}{U}
+When you cycle ~, tap or untap target artifact, creature or land,\\ then draw a card and discard a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wizard</type>
             <maintype>Creature</maintype>
-            <manacost>{3}{U}{U}</manacost>
-            <cmc>5</cmc>
+            <manacost>{2}{U}{U}</manacost>
+            <cmc>4</cmc>
             <colors>U</colors>
             <pt>2/2</pt>
         </prop>
@@ -1166,7 +1169,7 @@ Tap an untapped wizard you control: Counter target spell unless its controller p
         <name>Mound-maker Adept</name>
         <text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, draw a card, then discard a card. You get one soul.
-~ gets +1/+1 and has flying as long as you have seven or more souls.</text>
+~ gets +1/+1 and has flying as long as you have five or more souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
@@ -1247,8 +1250,8 @@ If you have seven or more cards in your graveyard, shuffle that spell or permane
     <card>
         <name>Pontiff Sulyvahn</name>
         <text>When ~ enters the battlefield gain control of target artifact or creature until ~ leaves the battlefield.
-Whenever ~ attacks you may pay {1}{U}. If you do, creatures you control, but don't own gain Shadow until end of turn. (Creatures with shadow can block or be blocked by only creatures with shadow.)
-Cycling {1}{U}</text>
+Whenever ~ attacks you may pay {3}{U}. If you do, put a copy of ~ onto the battlefield under your control, except it isn't legendary. Exile it at the beginning of the next end step.
+Madness {2}{U}</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Wizard Knight</type>
@@ -2853,7 +2856,7 @@ Soullink 2 (If you would draw a card, instead you may cast this card from your g
         <name>Amana Shaman</name>
         <text>Trample
 Whenever a creature enters the battlefield under your control, you may gain 1 life and one soul.
-As long as you have seven or more souls, ~ gets +3/+3 and has lifelink.</text>
+As long as you have five or more souls, ~ gets +3/+3 and has lifelink.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Shaman</type>
@@ -2863,7 +2866,7 @@ As long as you have seven or more souls, ~ gets +3/+3 and has lifelink.</text>
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Uncommon" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/amana_shaman.jpeg">DKS</set>
+        <set rarity="Common" num="177" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/amana_shaman.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2885,7 +2888,7 @@ Whenever an artifact goes to the graveyard put a +1/+1 counter on ~ or move a +1
     </card>
     <card>
         <name>Beast of Amana</name>
-        <text>As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
+        <text>As long as you have five or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
 Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
 Whenever ~ turned face up, destroy target artifact or enchantment.</text>
         <prop><layout>normal</layout>
@@ -2897,7 +2900,7 @@ Whenever ~ turned face up, destroy target artifact or enchantment.</text>
             <colors>G</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Rare" num="179" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/beast_of_amana.jpeg">DKS</set>
+        <set rarity="Uncommon" num="179" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/beast_of_amana.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2968,8 +2971,8 @@ Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a
     </card>
     <card>
         <name>Company Captain</name>
-        <text>When ~ enters the battlefield you gain life and get a number of souls equal to its power.
-~'s power and toughness are both equal to the number of creature cards in your graveyard.
+        <text>When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
+Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
 Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2978,9 +2981,9 @@ Soullink 4 (If you would draw a card, instead you may cast this card from your g
             <manacost>{3}{G}</manacost>
             <cmc>4</cmc>
             <colors>G</colors>
-            <pt>*/*</pt>
+            <pt>4/4</pt>
         </prop>
-        <set rarity="Common" num="184" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/company_captain.jpeg">DKS</set>
+        <set rarity="Rare" num="184" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/company_captain.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3440,10 +3443,10 @@ Search your library for up to two basic land cards, put those cards onto the bat
         <name>Suspicious Shadow</name>
         <text>Whenever a creature you control enters the battlefield or is turned face up, untap target creature you control.
 Chameleon {2} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-When ~ is turned face up, add {G}{U}{R} to your mana pool.</text>
+When ~ is turned face up, add {G}{W}{U} to your mana pool.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature</type>
+            <type>Creature - Spirit</type>
             <maintype>Creature</maintype>
             <manacost>{1}{G}</manacost>
             <cmc>2</cmc>
@@ -3526,7 +3529,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3610,7 +3613,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3676,7 +3679,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3737,7 +3740,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>UG</colors>
+            <colors>GU</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
@@ -3794,7 +3797,7 @@ At the beginning of your upkeep, put a petal counter on ~.
     </card>
     <card>
         <name>Burnt Offering</name>
-        <text>{5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have seven or more souls.</text>
+        <text>{5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have five or more souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>

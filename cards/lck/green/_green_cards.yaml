@@ -25,12 +25,12 @@ card_amana_shaman:
     super: ""
     type: "Creature"
     sub: "Shaman"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Trample
       Whenever a creature enters the battlefield under your control, you may gain 1 life and one soul.
-      As long as you have seven or more souls, ~ gets +3/+3 and has lifelink.
+      As long as you have five or more souls, ~ gets +3/+3 and has lifelink.
     flavor_text: "Over time the line of shrine maidens gradually died off, the seal broke, and the Demon was freed from its prison."
     artwork_url: "https://i.ibb.co/7dRHnZhc/amana-shaman-by-unknown-resize.jpg"
     artist: "unknown"
@@ -65,10 +65,10 @@ card_beast_of_amana:
     super: ""
     type: "Creature"
     sub: "Lizard Hollow"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
-      As long as you have seven or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
+      As long as you have five or more souls, ~ gets +2/+2 and has whenever this creature becomes the target of a spell or ability, counter it unless that player pays {2}.
       Chameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
       Whenever ~ turned face up, destroy target artifact or enchantment.
     flavor_text: ""
@@ -86,7 +86,7 @@ card_bloodlet_giant:
     type: "Creature"
     sub: "Giant Knight"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       ~ can't be countered.
@@ -163,17 +163,17 @@ card_company_captain:
     super: ""
     type: "Creature"
     sub: "Cleric Knight"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield you gain life and get a number of souls equal to its power.
-      ~'s power and toughness are both equal to the number of creature cards in your graveyard.
+      When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
+      Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
       Soullink 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/SXR6QpH6/company-captain-by-renzo-rotate.jpg"
     artist: "renzo"
-    power: "*"
-    toughness: "*"
+    power: "4"
+    toughness: "4"
     number: 184
 
 card_dark_stalkers:
@@ -356,7 +356,7 @@ card_drangleic_ogre:
     type: "Creature"
     sub: "Giant Troll"
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
       {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
@@ -415,7 +415,7 @@ card_gateway_of_the_undead:
     type: "Enchantment"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       {G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.
     flavor_text: "You are the Undead. You must journey to Lordran… This is the first step."
@@ -431,7 +431,7 @@ card_growing_phalanx:
     type: "Creature"
     sub: "Ooze"
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       Whenever another card goes to your graveyard, create a token copy of ~.
       When ~ dies, each player gets one soul.
@@ -559,7 +559,7 @@ card_parasite_ridden_dragon:
     type: "Creature"
     sub: "Dragon"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Flying, trample, haste
       Chameleon {G}{G}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
@@ -634,7 +634,7 @@ card_royal_rat_authority:
     type: "Planeswalker"
     sub: "Rat Lord"
     rarity: "Mythic"
-    rating: 3
+    rating: 4
     rules_text: |
       ~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.
       {+1}: Create a 1/1 green Rat creature token with bleed.
@@ -708,13 +708,13 @@ card_suspicious_shadow:
     cost: "{1}{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Spirit"
     rarity: "Common"
     rating: 3
     rules_text: |
       Whenever a creature you control enters the battlefield or is turned face up, untap target creature you control.
       Chameleon {2} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
-      When ~ is turned face up, add {G}{U}{R} to your mana pool.
+      When ~ is turned face up, add {G}{W}{U} to your mana pool.
     flavor_text: "In these shadows, you're still easily seen."
     artwork_url: "https://i.pinimg.com/736x/1a/06/a5/1a06a50bcfe7833ea82d8f9e445a165e.jpg"
     artist: "unknown"
@@ -730,7 +730,7 @@ card_the_lordvessel:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 4
     rules_text: |
       When ~ enters the battlefield, you may search your library for any number of basic land cards and put them into your graveyard. Shuffle your library.
       At the beginning of your upkeep, you may return a basic land from your graveyard onto the battlefield.
@@ -768,7 +768,7 @@ card_truth_of_the_old_words:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 5
     rules_text: |
       You may reveal a green card or forest from your hand rather than pay this card's mana cost.
       Reveal the top four cards of your library. You may put a permanent card from among them into your hand. Then you may discard any number of cards. For each card discarded you get one soul and you may put an additional card from among the revealed cards into your hand. Put the rest into your graveyard.

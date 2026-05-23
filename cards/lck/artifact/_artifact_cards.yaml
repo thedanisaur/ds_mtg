@@ -44,7 +44,7 @@ card_budding_lotus:
     type: "Artifact"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       ~ enters the battlefield tapped with a petal counter on it.
       At the beginning of your upkeep, put a petal counter on ~.
@@ -64,7 +64,7 @@ card_burnt_offering:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have seven or more souls.
+      {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have five or more souls.
     flavor_text: "Harnessing the fiery remnants of Lost Izalith can grant the power to peel back eternity."
     artwork_url: "https://i.ibb.co/8q0xjWQ/burnt-offering-by-cobalt-plasma-resize.jpg"
     artist: "cobaltplasma"
@@ -377,7 +377,7 @@ card_mox_citrine:
     type: "Artifact"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 5
     rules_text: |
       {T}: Add one mana of any color to your mana pool that a land an opponent controls could produce.
     flavor_text: "Coveted by Gods and Undead alike."
@@ -393,7 +393,7 @@ card_new_londo_talisman:
     type: "Artifact"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 4
     rules_text: |
       This artifact doesn't untap during your untap step.
       {1}, Pay one soul: Untap ~.
@@ -563,7 +563,7 @@ card_shattered_dusk_ring:
     type: "Artifact"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 5
     rules_text: |
       If you would choose one or more modes when casting a spell, you may choose one additional mode.
       {T}, Tap an untapped creature or artifact you control: Add {C}{C} to your mana pool.
