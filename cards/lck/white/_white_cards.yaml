@@ -712,21 +712,22 @@ card_transient_prison:
     artist: "Ev Ganin"
     number: 45
 
-card_unveil:
+card_unyielding_light:
   front:
-    name: "Unveil"
-    cost: "{W}"
+    name: "Unyielding Light"
+    cost: "{1}{W}"
     super: ""
-    type: "Instant"
+    type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Turn target facedown permanent face up. You gain souls equal to its mana value.
-      Cycling {1} ({1}, Discard this card: Draw a card.)
-    flavor_text: "Those who serve the Lindelt Monastery willfully adhere to strict commandments. This miracle castigates those who ignore the righteous teachings."
-    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Walk-In-The-Dark-30min-spitpaint-893507747"
-    artist: "cobaltplasma"
+      Each player returns to the battlefield all permanent cards in their graveyard that were put there from the battlefield this turn.
+      Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
+      When you cycle ~, if it's your turn, return target permanent from your graveyard to the battlefield.
+    flavor_text: "Those branded with the Darksign will come reborn."
+    artwork_url: "https://i.pinimg.com/736x/0d/77/61/0d776179f29aa11da226629505eeb6f8.jpg"
+    artist: "unknown"
     number: 46
 
 card_velstadt_the_royal_aegis:

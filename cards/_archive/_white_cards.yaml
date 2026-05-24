@@ -16,3 +16,20 @@ card_resting_thief:
     number: 31
     power: 2
     toughness: 2
+
+card_unveil:
+  front:
+    name: "Unveil"
+    cost: "{W}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      Turn target facedown permanent face up. You gain souls equal to its mana value.
+      Cycling {1} ({1}, Discard this card: Draw a card.)
+    flavor_text: "Those who serve the Lindelt Monastery willfully adhere to strict commandments. This miracle castigates those who ignore the righteous teachings."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Walk-In-The-Dark-30min-spitpaint-893507747"
+    artist: "cobaltplasma"
+    number: 46

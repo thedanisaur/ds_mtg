@@ -238,8 +238,8 @@
         <strong>Transient Prison</strong>
     </td>
     <td align="center">
-        <img src="./cards/lck/white/unveil.jpeg" alt="Unveil" width="400"/><br/>
-        <strong>Unveil</strong>
+        <img src="./cards/lck/white/unyielding_light.jpeg" alt="Unyielding Light" width="400"/><br/>
+        <strong>Unyielding Light</strong>
     </td>
 </tr>
 <tr>

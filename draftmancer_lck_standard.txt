@@ -1647,8 +1647,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1689,8 +1689,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1990,17 +1990,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/soul_vortex.jpeg"
 },
 {
-    "name": "Unveil",
+    "name": "Unyielding Light",
     "super": "",
-    "type": "Instant",
-    "mana_cost": "{W}",
+    "type": "Sorcery",
+    "mana_cost": "{1}{W}",
     "colors": [
         "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Turn target facedown permanent face up. You gain souls equal to its mana value.\nCycling {1} ({1}, Discard this card: Draw a card.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/unveil.jpeg"
+    "oracle_text": "Each player returns to the battlefield all permanent cards in their graveyard that were put there from the battlefield this turn.\nCycling {1}{W} ({1}{W}, Discard this card: Draw a card.)\nWhen you cycle ~, if it's your turn, return target permanent from your graveyard to the battlefield.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/unyielding_light.jpeg"
 },
 {
     "name": "Ancient Researcher",
@@ -2398,8 +2398,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2412,8 +2412,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2840,7 +2840,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Haste\n~ has double strike as long as it's attacking.\n{R}: ~ gets +1/+0 and whenever it deals damage you get that many souls until end of turn. Only activate this ability once per turn.\n",
+    "oracle_text": "Haste\n~ has double strike as long as it's attacking.\n{R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cathedral_warden.jpeg"
 },
 {
@@ -3018,8 +3018,8 @@
     "type": "Enchantment",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3046,8 +3046,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,9 +3611,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3626,8 +3626,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,8 +3655,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3684,8 +3684,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3728,8 +3728,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3743,8 +3743,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,9 +3757,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,8 +3786,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,8 +3873,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
+        "R",
         "W"
     ],
     "rarity": "uncommon",
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "W",
+        "G",
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3905,9 +3905,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -4043,26 +4043,10 @@
                     ]
                 },
                 {
-                    "name": "UncommonOrLand1",
-                    "count": 1,
+                    "name": "UncommonOrLand",
+                    "count": 3,
                     "sheets": [
-                        {"name": "Uncommon", "weight": 7},
-                        {"name": "LandUncommon",  "weight": 1}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand2",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 7},
-                        {"name": "LandUncommon",  "weight": 1}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand3",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 7},
+                        {"name": "Uncommon", "weight": 3},
                         {"name": "LandUncommon",  "weight": 1}
                     ]
                 },
@@ -4229,7 +4213,7 @@
 6 Resplendent Life
 6 Seal of the Champions
 6 Soul Vortex
-6 Unveil
+6 Unyielding Light
 6 Ancient Researcher
 6 Calculating Intellect
 6 Forger of Vinheim

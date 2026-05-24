@@ -86,7 +86,7 @@ card_cathedral_warden:
     rules_text: |
       Haste
       ~ has double strike as long as it's attacking.
-      {R}: ~ gets +1/+0 and whenever it deals damage you get that many souls until end of turn. Only activate this ability once per turn.
+      {R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)
     flavor_text: "The cathedral knights are prepared to meet all manner of foolish."
     artwork_url: "https://i.ibb.co/67cvL4yj/cathedral-warden-by-fromsoft-resize.jpg"
     artist: "fromsoft"

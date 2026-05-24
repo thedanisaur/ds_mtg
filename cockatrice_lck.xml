@@ -743,18 +743,19 @@ Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Unveil</name>
-        <text>Turn target facedown permanent face up. You gain souls equal to its mana value.
-Cycling {1} ({1}, Discard this card: Draw a card.)</text>
+        <name>Unyielding Light</name>
+        <text>Each player returns to the battlefield all permanent cards in their graveyard that were put there from the battlefield this turn.
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
+When you cycle ~, if it's your turn, return target permanent from your graveyard to the battlefield.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Instant</type>
-            <maintype>Instant</maintype>
-            <manacost>{W}</manacost>
-            <cmc>1</cmc>
+            <type>Sorcery</type>
+            <maintype>Sorcery</maintype>
+            <manacost>{1}{W}</manacost>
+            <cmc>2</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" num="46" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/unveil.jpeg">DKS</set>
+        <set rarity="Uncommon" num="46" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/unyielding_light.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2231,7 +2232,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
         <name>Cathedral Warden</name>
         <text>Haste
 ~ has double strike as long as it's attacking.
-{R}: ~ gets +1/+0 and whenever it deals damage you get that many souls until end of turn. Only activate this ability once per turn.</text>
+{R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature</type>
@@ -3547,7 +3548,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -3598,7 +3599,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3614,7 +3615,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3664,7 +3665,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B/R}{B/R}</manacost>
             <cmc>4</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
@@ -3682,7 +3683,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3713,7 +3714,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">DKS</set>

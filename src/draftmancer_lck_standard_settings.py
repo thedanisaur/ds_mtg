@@ -22,26 +22,10 @@ settings = '''
                     ]
                 },
                 {
-                    "name": "UncommonOrLand1",
-                    "count": 1,
+                    "name": "UncommonOrLand",
+                    "count": 3,
                     "sheets": [
-                        {"name": "Uncommon", "weight": 7},
-                        {"name": "LandUncommon",  "weight": 1}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand2",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 7},
-                        {"name": "LandUncommon",  "weight": 1}
-                    ]
-                },
-                {
-                    "name": "UncommonOrLand3",
-                    "count": 1,
-                    "sheets": [
-                        {"name": "Uncommon", "weight": 7},
+                        {"name": "Uncommon", "weight": 3},
                         {"name": "LandUncommon",  "weight": 1}
                     ]
                 },
