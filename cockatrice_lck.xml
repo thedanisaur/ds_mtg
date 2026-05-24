@@ -980,7 +980,7 @@ Each player shuffles their hand and graveyard into their library, then draws sev
         <text>When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process. You may only repeat this process up to two times.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature - Human Wizard</type>
+            <type>Creature - Human Shaman</type>
             <maintype>Creature</maintype>
             <manacost>{1}{U}</manacost>
             <cmc>2</cmc>
@@ -1255,7 +1255,7 @@ Whenever ~ attacks you may pay {3}{U}. If you do, put a copy of ~ onto the battl
 Madness {2}{U}</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Legendary Creature - Wizard Knight</type>
+            <type>Legendary Creature - Cleric Knight</type>
             <maintype>Creature</maintype>
             <manacost>{4}{U}</manacost>
             <cmc>5</cmc>
@@ -3564,7 +3564,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3581,7 +3581,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3599,7 +3599,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3649,7 +3649,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3698,7 +3698,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3729,7 +3729,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
         </prop>
         <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3744,7 +3744,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>GU</colors>
+            <colors>UG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>

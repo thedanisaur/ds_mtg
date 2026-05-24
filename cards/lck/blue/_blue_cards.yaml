@@ -194,7 +194,7 @@ card_daring_sorcerer:
     cost: "{1}{U}"
     super: ""
     type: "Creature"
-    sub: "Human Wizard"
+    sub: "Human Shaman"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -512,7 +512,7 @@ card_pontiff_sulyvahn:
     cost: "{4}{U}"
     super: "Legendary"
     type: "Creature"
-    sub: "Wizard Knight"
+    sub: "Cleric Knight"
     rarity: "Rare"
     rating: 3
     rules_text: |

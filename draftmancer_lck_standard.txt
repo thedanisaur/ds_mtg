@@ -1619,8 +1619,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1633,8 +1633,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1675,8 +1675,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1703,8 +1703,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2398,8 +2398,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2426,8 +2426,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3032,8 +3032,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
+        "U",
         "B",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "U",
         "B",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "U",
         "B",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,8 +3611,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "B",
+        "G",
         "R"
     ],
     "rarity": "uncommon",
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "U",
         "B",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
+        "U",
         "B",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3757,8 +3757,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "B",
+        "G",
         "R"
     ],
     "rarity": "uncommon",
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
+        "U",
         "B",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "R",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,8 +3873,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
         "B",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "G",
         "U",
         "W",
-        "R",
-        "G"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3905,8 +3905,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "B",
+        "G",
         "R"
     ],
     "rarity": "uncommon",
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
