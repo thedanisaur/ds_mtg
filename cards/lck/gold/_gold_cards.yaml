@@ -183,7 +183,9 @@ card_serpents_regrowth:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.
+      Choose one -
+      • Destroy target permanent with mana value 2 or less.
+      • Put the top X cards of your library into your graveyard where X is the number of lands you control. Return a card from your graveyard to your hand.
       Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.
     flavor_text: "The transcendent apostles have crossed the very end of the earth to seek the invaluable dragon scales."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Fortune-Favors-the-Last-Luck-Dragon-507198919"

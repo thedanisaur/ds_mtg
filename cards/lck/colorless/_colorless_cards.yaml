@@ -38,7 +38,7 @@ card_olaphis_statue:
     super: "Legendary"
     type: "Creature"
     sub: "Human Wizard"
-    rarity: "Mythic"
+    rarity: ""
     rules_text: |
       Vigilance, lifelink
       Discard a card: Search your library for a card with the same type, reveal it, and put it into your hand. Shuffle your library.

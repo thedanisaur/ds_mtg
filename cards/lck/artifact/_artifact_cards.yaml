@@ -213,7 +213,7 @@ card_crown_of_the_sunken_king:
 card_curator_of_the_grand_archives:
   front:
     name: "Curator of the Grand Archives"
-    cost: "{2}"
+    cost: "{5}"
     super: ""
     type: "Artifact Creature"
     sub: "Construct"
@@ -225,8 +225,8 @@ card_curator_of_the_grand_archives:
     flavor_text: "You have returned without scrolls?"
     artwork_url: "https://i.ibb.co/6JWwWd4x/curator-of-the-grand-archives-resize.jpg"
     artist: "Argosi"
-    power: 1
-    toughness: 1
+    power: 5
+    toughness: 5
     number: 244
 
 card_darkmoon_seance_idol:

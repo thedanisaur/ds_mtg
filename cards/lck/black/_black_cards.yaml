@@ -483,7 +483,7 @@ card_royal_sorcerer:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Rare"
+    rarity: ""
     rules_text: |
       Deathtouch
       When ~ enters the battlefield, destroy target creature.

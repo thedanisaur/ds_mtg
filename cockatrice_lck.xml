@@ -48,7 +48,7 @@ Discard a card: Search your library for a card with the same type, reveal it, an
             <cmc>0</cmc>
             <pt>5/5</pt>
         </prop>
-        <set rarity="Mythic" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/colorless/olaphis_statue_back.jpeg">DKS</set>
+        <set rarity="" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/colorless/olaphis_statue_back.jpeg">DKS</set>
         <related>Olaphis Statue</related>
         <tablerow>2</tablerow>
     </card>
@@ -409,7 +409,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <colors>R</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Rare" num="24" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/kirk_knight_of_thorns_back.jpeg">DKS</set>
+        <set rarity="" num="24" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/kirk_knight_of_thorns_back.jpeg">DKS</set>
         <related>Kirk, Knight of Thorns</related>
         <tablerow>2</tablerow>
     </card>
@@ -1907,7 +1907,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
             <colors>B</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Rare" num="117" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/royal_sorcerer_back.jpeg">DKS</set>
+        <set rarity="" num="117" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/royal_sorcerer_back.jpeg">DKS</set>
         <related>Royal Sorcerer</related>
         <tablerow>2</tablerow>
     </card>
@@ -3021,8 +3021,8 @@ Whenever a card goes to your graveyard you may pay {1}{G}. If you do, put a +1/+
     </card>
     <card>
         <name>Darkroot Spores</name>
-        <text>Flying
-{T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.</text>
+        <text>{T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.
+Sacrifice a land: Add {G} to your mana pool. You get one soul.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Fungus</type>
@@ -3411,7 +3411,7 @@ Whenever a creature enters the battlefield under your control, put a +1/+1 count
     <card>
         <name>Soul of a Crestfallen Adventurer</name>
         <text>(As long as it's your turn you may cast this spell. Timing restrictions still apply.)
-When ~ enters the battlefield you may pay {X}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.
+When ~ enters the battlefield you may pay {X}{G}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.
 Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3580,7 +3580,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">DKS</set>
@@ -3630,7 +3630,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">DKS</set>
@@ -3648,7 +3648,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3664,7 +3664,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B/R}{B/R}</manacost>
             <cmc>4</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Rare" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
@@ -3672,7 +3672,9 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
     </card>
     <card>
         <name>Serpent's Regrowth</name>
-        <text>Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.
+        <text>Choose one -
+• Destroy target permanent with mana value 2 or less.
+• Put the top X cards of your library into your graveyard where X is the number of lands you control. Return a card from your graveyard to your hand.
 Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3933,9 +3935,9 @@ As you draft a card, you may draft an additional card from that booster pack. If
             <side>front</side>
             <type>Artifact Creature - Construct</type>
             <maintype>Artifact Creature</maintype>
-            <manacost>{2}</manacost>
-            <cmc>2</cmc>
-            <pt>1/1</pt>
+            <manacost>{5}</manacost>
+            <cmc>5</cmc>
+            <pt>5/5</pt>
         </prop>
         <set rarity="Rare" num="244" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/curator_of_the_grand_archives.jpeg">DKS</set>
         <tablerow>2</tablerow>

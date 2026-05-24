@@ -315,7 +315,7 @@ card_kirk_knight_of_thorns:
     super: "Legendary"
     type: "Creature"
     sub: "Spirit"
-    rarity: "Rare"
+    rarity: ""
     rules_text: |
       First strike, bleed
       When ~ enters the battlefield, each player gets a bleed counter.

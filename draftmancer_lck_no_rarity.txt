@@ -1375,7 +1375,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Flying\n{T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.\n",
+    "oracle_text": "{T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.\nSacrifice a land: Add {G} to your mana pool. You get one soul.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/darkroot_spores.jpeg"
 },
 {
@@ -1544,7 +1544,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "(As long as it's your turn you may cast this spell. Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {X}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "(As long as it's your turn you may cast this spell. Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {X}{G}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/soul_of_a_crestfallen_adventurer.jpeg"
 },
 {
@@ -1633,8 +1633,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1661,8 +1661,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2417,7 +2417,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Put the top X cards of your library into your graveyard where X is twice the number of lands you control. Return one of those cards to your hand. At the beginning of your next upkeep return a card from your graveyard to your hand.\nCycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.\n",
+    "oracle_text": "Choose one -\n\u2022 Destroy target permanent with mana value 2 or less.\n\u2022 Put the top X cards of your library into your graveyard where X is the number of lands you control. Return a card from your graveyard to your hand.\nCycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg"
 },
 {
@@ -2579,7 +2579,7 @@
         "colors": [
             "R"
         ],
-        "rarity": "rare",
+        "rarity": "",
         "oracle_text": "First strike, bleed\nWhen ~ enters the battlefield, each player gets a bleed counter.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/kirk_knight_of_thorns_back.jpeg"
     }
@@ -2812,7 +2812,7 @@
         "colors": [
             "B"
         ],
-        "rarity": "rare",
+        "rarity": "",
         "oracle_text": "Deathtouch\nWhen ~ enters the battlefield, destroy target creature.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/royal_sorcerer_back.jpeg"
     }
@@ -3032,8 +3032,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3046,8 +3046,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B/R}{B/R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3102,7 +3102,7 @@
     "name": "Curator of the Grand Archives",
     "super": "",
     "type": "Artifact Creature",
-    "mana_cost": "{2}",
+    "mana_cost": "{5}",
     "colors": [],
     "rarity": "rare",
     "rating": 3,
@@ -3250,7 +3250,7 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [],
-        "rarity": "mythic",
+        "rarity": "",
         "oracle_text": "Vigilance, lifelink\nDiscard a card: Search your library for a card with the same type, reveal it, and put it into your hand. Shuffle your library.\n",
         "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/colorless/olaphis_statue_back.jpeg"
     }
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3612,8 +3612,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3626,8 +3626,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "U",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3758,8 +3758,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "U",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "B",
-        "W",
-        "R"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3889,10 +3889,10 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "U",
         "W",
-        "B",
-        "R"
+        "U",
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3906,8 +3906,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,

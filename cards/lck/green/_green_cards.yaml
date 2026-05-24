@@ -224,8 +224,8 @@ card_darkroot_spores:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Flying
       {T}: Add {G} to your mana pool and you get one soul. If a card went to your graveyard this turn add {G}{G} to your mana pool and you get two souls instead.
+      Sacrifice a land: Add {G} to your mana pool. You get one soul.
     flavor_text: "Be wary not of the plant, but of it's lack of aroma."
     artwork_url: "https://i.pinimg.com/736x/47/1e/d4/471ed40612e56d0490ef36eacf877f40.jpg"
     artist: "Antonello Venditti"
@@ -676,7 +676,7 @@ card_soul_of_a_crestfallen_adventurer:
     rating: 3
     rules_text: |
       (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
-      When ~ enters the battlefield you may pay {X}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.
+      When ~ enters the battlefield you may pay {X}{G}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
     artwork_url: "https://www.deviantart.com/era7/art/Viridem-837092309"
