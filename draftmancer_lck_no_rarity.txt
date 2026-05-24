@@ -1605,8 +1605,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1619,8 +1619,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1661,8 +1661,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1675,8 +1675,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1689,8 +1689,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2426,8 +2426,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3018,8 +3018,8 @@
     "type": "Enchantment",
     "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,12 +3485,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/ash_lake.jpeg"
 },
@@ -3500,8 +3500,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,8 +3582,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,9 +3611,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,8 +3640,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
@@ -3655,12 +3655,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
+        "R",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {R}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/dragon_aerie.jpeg"
 },
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3684,8 +3684,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3703,7 +3703,7 @@
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {R}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/earthen_peak.jpeg"
 },
@@ -3713,12 +3713,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {W}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/frozen_eleum_loyce.jpeg"
 },
@@ -3728,12 +3728,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
+        "R",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {G}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/great_hollows.jpeg"
 },
@@ -3743,8 +3743,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,9 +3757,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,12 +3786,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "G",
+        "R",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {U}\nForestcycling {1} ({1}, Discard this card: Search your library for a Forest, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/huntsmans_copse.jpeg"
 },
@@ -3801,12 +3801,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "W",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {B}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nPlainscycling {1} ({1}, Discard this card: Search your library for a Plains, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/irithyll_dungeon.jpeg"
 },
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3835,7 +3835,7 @@
         "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {B}\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/majula_pit.jpeg"
 },
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,12 +3873,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "W",
         "B",
-        "R",
-        "W"
+        "R"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "oracle_text": "~ enters the battlefield tapped.\n{T}: Add {W}\nSwampcycling {1} ({1}, Discard this card: Search your library for a Swamp, reveal it, and put it into your hand. Shuffle your library.)\nMountaincycling {1} ({1}, Discard this card: Search your library for a Mountain, reveal it, and put it into your hand. Shuffle your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/sinners_rise.jpeg"
 },
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G",
-        "U",
         "B",
-        "R"
+        "U",
+        "W",
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3905,9 +3905,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
