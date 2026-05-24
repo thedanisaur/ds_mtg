@@ -1041,19 +1041,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/corrosive_slime.jpeg"
 },
 {
-    "name": "Deflecting Whispers",
-    "super": "",
-    "type": "Instant",
-    "mana_cost": "{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "Change the target of target spell with another target. You get two souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg"
-},
-{
     "name": "Devout of the Deep",
     "super": "",
     "type": "Creature",
@@ -1660,8 +1647,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1674,8 +1661,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2263,6 +2250,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/flame_swathe.jpeg"
 },
 {
+    "name": "Immortal Transposition",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Enchant creature\nEnchanted creature has \"{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/immortal_transposition.jpeg"
+},
+{
     "name": "Raise the Sloughtender",
     "super": "",
     "type": "Sorcery",
@@ -2398,8 +2398,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2412,8 +2412,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2857,17 +2857,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/crimson_wyvern.jpeg"
 },
 {
-    "name": "Immortal Transposition",
+    "name": "Deflecting Whispers",
     "super": "",
-    "type": "Enchantment",
-    "mana_cost": "{1}{R}{R}",
+    "type": "Instant",
+    "mana_cost": "{R}",
     "colors": [
         "R"
     ],
     "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "Enchant creature\nEnchanted creature has \"{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library.\"\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/immortal_transposition.jpeg"
+    "rating": 3,
+    "oracle_text": "Change the target of target spell with another target. You get two souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg"
 },
 {
     "name": "Preeminent Giant",
@@ -3485,8 +3485,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
+        "B",
         "W"
     ],
     "rarity": "uncommon",
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,8 +3611,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "U",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,8 +3698,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3713,8 +3713,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
+        "B",
         "W"
     ],
     "rarity": "uncommon",
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "U",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,8 +3757,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "U",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3801,8 +3801,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
+        "B",
         "W"
     ],
     "rarity": "uncommon",
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,8 +3830,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3874,8 +3874,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3890,9 +3890,9 @@
     "colors": [
         "G",
         "U",
-        "R",
+        "W",
         "B",
-        "W"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3905,8 +3905,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -4112,7 +4112,6 @@
 4 Corrosive Egg Insect
 4 Corrosive Organics
 4 Corrosive Slime
-4 Deflecting Whispers
 4 Devout of the Deep
 4 Fiery Scroll of Carthus
 4 Fire Tempest
@@ -4208,6 +4207,7 @@
 4 Aldia's Forlorn
 4 Chaos Demon
 4 Flame Swathe
+4 Immortal Transposition
 4 Raise the Sloughtender
 4 Screeching Undead
 4 Beast of Amana
@@ -4253,7 +4253,7 @@
 4 Sir Vilhelm
 4 Cathedral Warden
 4 Crimson Wyvern
-4 Immortal Transposition
+4 Deflecting Whispers
 4 Preeminent Giant
 4 Rosaria's Fingers
 4 Splintering Bolt

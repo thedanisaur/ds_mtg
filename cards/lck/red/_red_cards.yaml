@@ -236,7 +236,7 @@ card_deflecting_whispers:
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Change the target of target spell with another target. You get two souls.
@@ -398,7 +398,7 @@ card_immortal_transposition:
     super: ""
     type: "Enchantment"
     sub: "Aura"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 2
     rules_text: |
       Enchant creature
