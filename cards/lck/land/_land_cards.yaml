@@ -598,7 +598,7 @@ card_undead_burg:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}: Add one mana of any color to your mana pool. Spend this mana only to cast hollow spells and activate abilities of hollow cards.
     flavor_text: |

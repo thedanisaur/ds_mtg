@@ -52,6 +52,7 @@ card_budding_lotus:
     flavor_text: "From ashes grows great potential."
     artwork_url: "https://www.deviantart.com/morpheadraw/art/Blue-lotus-1291261647"
     artist: "morpheadraw"
+    colors: '{W}{U}{B}{R}{G}'
     number: 234
 
 card_burnt_offering:
@@ -259,7 +260,7 @@ card_dragon_slayer_greatsword:
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +4/+4, has trample, and can't be blocked except by three or more creatures.
-      Equip {C/P}{C/P}{C/P}{C/P}
+      Equip {C/P}{C/P}{C/P}{C/P} ({C/P} can be paid with {C} or 2 life)
     flavor_text: "A contender must struggle against fire."
     artwork_url: "https://i.ibb.co/v6qp0Ncx/dragon-slayer-greatsword-by-kentaro-miura-resize.jpg"
     artist: "Kentaro Miura"
@@ -343,13 +344,14 @@ card_hollows_amulet:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
       When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
     flavor_text: "Greatly cherished by those who are undead ... though few remember why."
     artwork_url: "https://i.ibb.co/Nn9TMnr8/hollows-amulet-by-lilitch-resize.jpg"
     artist: "lilitch"
+    colors: '{W}{U}{B}{R}{G}'
     number: 251
 
 card_moaning_sanctum:
@@ -367,6 +369,7 @@ card_moaning_sanctum:
     flavor_text: "A sickening miasma corrupts the inhabitants pulled from this once sanctuary."
     artwork_url: "https://i.pinimg.com/736x/5f/7f/d2/5f7fd238201452bd855663a08798ac55.jpg"
     artist: "Creighton v. Mirrah"
+    colors: '{B}{G}'
     number: 252
 
 card_mox_citrine:
@@ -383,6 +386,7 @@ card_mox_citrine:
     flavor_text: "Coveted by Gods and Undead alike."
     artwork_url: "https://i.ibb.co/mrWLHF5F/mox-citrine-na-recolor.jpg"
     artist: ""
+    colors: '{W}{U}{B}{R}{G}'
     number: 253
 
 card_new_londo_talisman:
@@ -411,7 +415,7 @@ card_palisades_of_ash:
     type: "Artifact"
     sub: "Fortification"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Fortified land has "{2/R}, {T}: Choose a nonland card controlled by a player. Shuffle that card into its owners library. That card's controller reveals cards from the top of their library until they reveal a card that shares a type with the chosen card. If that card was a permanent they put that card onto the battlefield. Otherwise they cast it as a spell."
       Fortify {2}
@@ -537,6 +541,7 @@ card_seat_of_the_archives:
     flavor_text: "The serpent's that guard this prison know not the value of what they hide..."
     artwork_url: "https://i.ibb.co/3JgbtsL/seat-of-the-archives-by-creighton-v-mirrah-resize.jpg"
     artist: "Creighton v. Mirrah"
+    colors: '{W}{U}'
     number: 262
 
 card_sens_fortifications:
@@ -607,6 +612,7 @@ card_talisman_of_want:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/CgQfzY5/talisman-of-want-by-yuchen-wang-resize.jpg"
     artist: "Yuchen Wang"
+    colors: '{W}{U}{B}{R}{G}'
     number: 266
 
 card_tarkus_iron_knight:
@@ -695,6 +701,7 @@ card_zweihander:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
+      ({C/P} can be paid with {C} or 2 life)
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +2/+1 and can't be blocked except by two or more creatures.
       Equip {3}
