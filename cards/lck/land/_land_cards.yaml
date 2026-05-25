@@ -575,12 +575,13 @@ card_the_grand_archives:
   front:
     name: "The Grand Archives"
     cost: ""
-    super: "Bonfire"
+    super: "Legendary Bonfire"
     type: "Land"
     sub: ""
     rarity: "Rare"
     rating: 3
     rules_text: |
+      This land enters the battlefield tapped.
       You have no maximum hand size.
       {T}: Add {U} or {R} to your mana pool.
       {U/R}{U/R}, {T}: Draw a card, then discard a card.

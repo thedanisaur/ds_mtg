@@ -1820,7 +1820,7 @@ Cycling {1} ({1}, Discard this card: Draw a card.)</text>
     <card>
         <name>Necrotic Husk</name>
         <text>~ can't block.
-When ~ leaves the battlefield you get one soul.
+Other hollows you control get +1/+1 for each counter on ~.
 Sacrifice a creature: Put a +1/+1 counter on ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -1856,8 +1856,8 @@ Each opponent loses life equal to the number of souls they have, then remove all
             <side>front</side>
             <type>Enchantment</type>
             <maintype>Enchantment</maintype>
-            <manacost>{2}{B}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{B}</manacost>
+            <cmc>2</cmc>
             <colors>B</colors>
         </prop>
         <set rarity="Uncommon" num="115" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/oath_of_the_undead_curse.jpeg">DKS</set>
@@ -2200,7 +2200,7 @@ Discard a card, pay one soul: Draw a card. Target creature can't block this turn
         <name>Blitz Hound</name>
         <text>Haste
 Whenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.
-{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Moss Clump token.</text>
+{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hound</type>
@@ -2568,8 +2568,8 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
     <card>
         <name>Menacing Thief</name>
         <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
-{R}, {T}: You may play a card in exile with a favored counter on it. If you don't ~ deals 1 damage to any target.
-Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\apply.)</text>
+{R}, {T}: You may play a card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Rogue</type>
@@ -2863,7 +2863,7 @@ Whenever a creature enters the battlefield under your control, you may gain 1 li
 As long as you have five or more souls, ~ gets +3/+3 and has lifelink.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature - Shaman</type>
+            <type>Creature - Spirit Shaman</type>
             <maintype>Creature</maintype>
             <manacost>{G}</manacost>
             <cmc>1</cmc>
@@ -3510,7 +3510,8 @@ Reveal the top four cards of your library. You may put a permanent card from amo
     </card>
     <card>
         <name>Undead Pigs</name>
-        <text>Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)</text>
+        <text>Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
+Whenever ~ is dealt damage, prevent all but 1 of that damage.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Zombie Boar</type>
@@ -3518,7 +3519,7 @@ Reveal the top four cards of your library. You may put a permanent card from amo
             <manacost>{2}{G}</manacost>
             <cmc>3</cmc>
             <colors>G</colors>
-            <pt>2/4</pt>
+            <pt>3/3</pt>
         </prop>
         <set rarity="Common" num="217" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/undead_pigs.jpeg">DKS</set>
         <tablerow>2</tablerow>
@@ -3566,7 +3567,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>UW</colors>
+            <colors>WU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3601,7 +3602,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3665,7 +3666,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <side>front</side>
             <type>Creature - Hollow Ooze</type>
             <maintype>Creature</maintype>
-            <manacost>{2}{B/R}{B/R}</manacost>
+            <manacost>{2}{B}{R}</manacost>
             <cmc>4</cmc>
             <colors>RB</colors>
             <pt>2/2</pt>
@@ -3700,7 +3701,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3731,7 +3732,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>BW</colors>
+            <colors>WB</colors>
         </prop>
         <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3746,7 +3747,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>UG</colors>
+            <colors>GU</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
@@ -4796,18 +4797,20 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
     </card>
     <card>
         <name>The Grand Archives</name>
-        <text>You have no maximum hand size.
+        <text>This land enters the battlefield tapped.
+You have no maximum hand size.
 {T}: Add {U} or {R} to your mana pool.
 {U/R}{U/R}, {T}: Draw a card, then discard a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Bonfire Land</type>
+            <type>Legendary Bonfire Land</type>
             <maintype>Land</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
         <set rarity="Rare" num="302" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/the_grand_archives.jpeg">DKS</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Undead Burg</name>

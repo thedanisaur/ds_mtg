@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
+            "W",
             "B",
-            "W"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -4296,7 +4296,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ can't block.\nWhen ~ leaves the battlefield you get one soul.\nSacrifice a creature: Put a +1/+1 counter on ~.\n",
+    "oracle_text": "~ can't block.\nOther hollows you control get +1/+1 for each counter on ~.\nSacrifice a creature: Put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/necrotic_husk.jpeg"
 },
 {
@@ -4452,7 +4452,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\nWhenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.\n{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a Moss Clump token.\n",
+    "oracle_text": "Haste\nWhenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.\n{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/blitz_hound.jpeg"
 },
 {
@@ -4673,7 +4673,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play a card in exile with a favored counter on it. If you don't ~ deals 1 damage to any target.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still \\\\apply.)\n",
+    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play a card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg"
 },
 {
@@ -5076,7 +5076,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\n",
+    "oracle_text": "Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\nWhenever ~ is dealt damage, prevent all but 1 of that damage.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/undead_pigs.jpeg"
 },
 {
@@ -5099,8 +5099,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5155,8 +5155,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5183,8 +5183,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5612,7 +5612,7 @@
     "name": "Oath of the Undead Curse",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "{2}{B}",
+    "mana_cost": "{1}{B}",
     "colors": [
         "B"
     ],
@@ -5848,8 +5848,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -5860,7 +5860,7 @@
     "name": "Rupturing Hollow",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{2}{B/R}{B/R}",
+    "mana_cost": "{2}{B}{R}",
     "colors": [
         "R",
         "B"
@@ -5890,8 +5890,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -6978,9 +6978,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -6993,9 +6993,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7008,8 +7008,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7022,8 +7022,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7050,8 +7050,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7075,9 +7075,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7133,9 +7133,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7148,9 +7148,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7192,8 +7192,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7206,9 +7206,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7221,9 +7221,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7265,8 +7265,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7279,9 +7279,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "U",
-        "G"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7294,9 +7294,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7309,8 +7309,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7324,8 +7324,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7366,9 +7366,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "W",
         "R",
-        "B",
-        "W"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7381,11 +7381,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -7433,7 +7433,7 @@
 },
 {
     "name": "The Grand Archives",
-    "super": "Bonfire",
+    "super": "Legendary Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
@@ -7442,7 +7442,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "You have no maximum hand size.\n{T}: Add {U} or {R} to your mana pool.\n{U/R}{U/R}, {T}: Draw a card, then discard a card.\n",
+    "oracle_text": "This land enters the battlefield tapped.\nYou have no maximum hand size.\n{T}: Add {U} or {R} to your mana pool.\n{U/R}{U/R}, {T}: Draw a card, then discard a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/the_grand_archives.jpeg"
 }
 ]

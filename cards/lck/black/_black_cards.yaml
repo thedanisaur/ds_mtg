@@ -398,7 +398,7 @@ card_necrotic_husk:
     rating: 3
     rules_text: |
       ~ can't block.
-      When ~ leaves the battlefield you get one soul.
+      Other hollows you control get +1/+1 for each counter on ~.
       Sacrifice a creature: Put a +1/+1 counter on ~.
     flavor_text: "From the flesh of the undead it rises."
     artwork_url: "https://i.pinimg.com/736x/33/43/53/33435391421f5e8fce858be927848bd5.jpg"
@@ -427,7 +427,7 @@ card_numbness:
 card_oath_of_the_undead_curse:
   front:
     name: "Oath of the Undead Curse"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Enchantment"
     sub: ""

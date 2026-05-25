@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2784,8 +2784,8 @@
     "type": "Creature",
     "mana_cost": "{W}{B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2797,8 +2797,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "W"
+            "W",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "U",
+        "W",
         "B",
-        "W"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
+            "W",
             "B",
-            "W"
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3221,8 +3221,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
-        "B",
         "R",
-        "W"
+        "U",
+        "W",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 4,

@@ -156,7 +156,7 @@ card_pledged_anathema:
 card_rupturing_hollow:
   front:
     name: "Rupturing Hollow"
-    cost: "{2}{B/R}{B/R}"
+    cost: "{2}{B}{R}"
     super: ""
     type: "Creature"
     sub: "Hollow Ooze"

@@ -24,7 +24,7 @@ card_amana_shaman:
     cost: "{G}"
     super: ""
     type: "Creature"
-    sub: "Shaman"
+    sub: "Spirit Shaman"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -787,10 +787,11 @@ card_undead_pigs:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Vigilance, accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
+      Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
+      Whenever ~ is dealt damage, prevent all but 1 of that damage.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/kVwDtMf3/undead-pigs-by-otto-lehtonen-resize.jpg"
     artist: "otto-lehtonen"
-    power: 2
-    toughness: 4
+    power: 3
+    toughness: 3
     number: 217
