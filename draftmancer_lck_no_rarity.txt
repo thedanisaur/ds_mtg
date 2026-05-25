@@ -1605,8 +1605,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1647,8 +1647,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1675,8 +1675,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2162,13 +2162,13 @@
     "name": "Spreading Contamination",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "{1}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Enchant land\nEnchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~.\nEach land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.\n",
+    "oracle_text": "Enchant land\nEnchanted land is a swamp.\nAt the beginning of your upkeep, if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~. Otherwise, put a contamination counter on target land.\nEach land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/spreading_contamination.jpeg"
 },
 {
@@ -2398,8 +2398,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2412,8 +2412,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2426,8 +2426,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2449,11 +2449,11 @@
     "name": "Burnt Offering",
     "super": "",
     "type": "Artifact",
-    "mana_cost": "{1}",
+    "mana_cost": "{2}",
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "{5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have five or more souls.\n",
+    "oracle_text": "{T}, Pay one soul: Add one mana of any color to your mana pool.\n{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg"
 },
 {
@@ -2508,7 +2508,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has \"{T}: Each spell you cast this turn costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)\"\nEquip {2}\n",
+    "oracle_text": "At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.\nEquipped creature has \"Whenever an opponent loses life, you gain that much life.\"\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/talisman_of_want.jpeg"
 },
 {
@@ -2607,7 +2607,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Lifelink, protection from sources with plague\nExile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.\n",
+    "oracle_text": "You may cast ~ any time you could cast an instant.\nLifelink, protection from sources with plague\nWhen ~ enters the battlefield return all creature cards from your graveyard that were put there from the battlefield this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/lothric_oaths_forsaken.jpeg"
 },
 {
@@ -3132,7 +3132,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Fortified land has \"{B/G}, {T}: Return a permanent card from your graveyard to your hand. Activate this ability only if your life total changed this turn.\"\nFortify {1}\n",
+    "oracle_text": "Fortified land has \"{B/G}, Sacrifice another land: Return a permanent card from your graveyard, that wasn't put there this turn, to your hand. You gain 2 life and get two souls.\"\nFortify {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/moaning_sanctum.jpeg"
 },
 {
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3612,8 +3612,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "G",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3699,8 +3699,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3758,8 +3758,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "W",
-        "U",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3831,8 +3831,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3874,8 +3874,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W",
         "R",
         "U",
-        "B"
+        "B",
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -3906,8 +3906,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3952,81 +3952,15 @@
     "oracle_text": "You have no maximum hand size.\n{T}: Add {U} or {R} to your mana pool.\n{U/R}{U/R}, {T}: Draw a card, then discard a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/the_grand_archives.jpeg"
 },
-{
-    "name": "Forest",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/forest.jpeg"
-},
-{
-    "name": "Island",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/island.jpeg"
-},
-{
-    "name": "Mountain",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/mountain.jpeg"
-},
-{
-    "name": "Plains",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/plains.jpeg"
-},
-{
-    "name": "Swamp",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/swamp.jpeg"
-},
-{
-    "name": "Wastes",
-    "super": "Basic",
-    "type": "Land",
-    "mana_cost": "",
-    "colors": [],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/basic/wastes.jpeg"
-},
 ]
 
 [Settings]
 {
     "layouts": {
-        "Default": {
+        "LCK": {
             "weight": 1,
             "slots": [
-                {"name": "Common",   "count": 15},
+                {"name": "Common", "count": 15},
             ]
         }
     }

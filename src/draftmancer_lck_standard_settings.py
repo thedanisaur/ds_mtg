@@ -2,7 +2,7 @@ settings = '''
 [Settings]
 {
     "layouts": {
-        "Default": {
+        "LCK": {
             "weight": 1,
             "slots": [
                 {
@@ -10,7 +10,7 @@ settings = '''
                     "count": 1,
                     "sheets": [
                         {"name": "LandRare",  "weight": 1},
-                        {"name": "LandUncommon",  "weight": 7},
+                        {"name": "LandUncommon",  "weight": 7}
                     ]
                 },
                 {
@@ -18,7 +18,7 @@ settings = '''
                     "count": 1,
                     "sheets": [
                         {"name": "Mythic", "weight": 1},
-                        {"name": "Rare",   "weight": 7},
+                        {"name": "Rare",   "weight": 7}
                     ]
                 },
                 {
@@ -29,7 +29,13 @@ settings = '''
                         {"name": "LandUncommon",  "weight": 1}
                     ]
                 },
-                {"name": "Common",   "count": 11},
+                {
+                    "name": "Common",
+                    "count": 11,
+                    "sheets": [
+                        {"name": "Common", "weight": 1}
+                    ]
+                }
             ]
         }
     }

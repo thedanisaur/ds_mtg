@@ -375,8 +375,9 @@ card_lothric_oaths_forsaken:
     rarity: "Rare"
     rating: 3
     rules_text: |
+      You may cast ~ any time you could cast an instant.
       Lifelink, protection from sources with plague
-      Exile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.
+      When ~ enters the battlefield return all creature cards from your graveyard that were put there from the battlefield this turn.
     flavor_text: "Young Lothric was meant to be a champion, but some things will remain distant dreams."
     artwork_url: "https://i.ibb.co/ZpPcgNNg/lothric-oaths-forsaken-by-nameless-resize.jpg"
     artist: "nameless"

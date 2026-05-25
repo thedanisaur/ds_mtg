@@ -1,6 +1,3499 @@
 [CustomCards]
 [
 {
+    "name": "Ashen Idol",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{T}: Remove target creature you control from combat. (It is no longer attacking or blocking and does not deal or receive damage.)\n{2}{B}, {T}: Return target creature, that left the battlefield this turn, from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/ashen_idol.jpeg"
+},
+{
+    "name": "Covetous Demon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{1}{G}: ~ gains plague until end of turn (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/covetous_demon.jpeg"
+},
+{
+    "name": "Dreg-Hollow Merchant",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{1}{U}, pay one soul: Draw a card, then discard a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/dreg_hollow_merchant.jpeg"
+},
+{
+    "name": "Hollow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "When ~ goes to the graveyard, you get one soul.\nDiscard ~: Exile up to two target cards in graveyards.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/hollow.jpeg"
+},
+{
+    "name": "Pyrewarden of the Things Betwixt",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "Sacrifice an artifact or creature: You get souls equal to 1 plus the sacrificed permanent's mana value.\n{T}: Reveal the top card of your library. You may pay souls equal to that card's mana value and put it in your hand. If you don't put that card into your graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/pyrewarden_of_the_things_betwixt.jpeg"
+},
+{
+    "name": "Stray Demon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ costs {1} less for each demon you control.\n~ gets +1/+1 for each demon you control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/stray_demon.jpeg"
+},
+{
+    "name": "Velka's Harpy",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Colorless cards you play and colorless abilities of other creatures you control cost {2} less.\n{1}, {T}: Copy target activated or triggered ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/velkas_harpy.jpeg"
+},
+{
+    "name": "Winged Chimera",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Flying, lifelink\nWhen ~ enters the battlefield, you get two souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/winged_chimera.jpeg"
+},
+{
+    "name": "Batwing Demon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Flying\n{T}: Tap target creature.\n{R}, {T}: ~ deals 1 damage to target attacking or blocking creature.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/batwing_demon.jpeg"
+},
+{
+    "name": "Blessed Cleric",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield you gain 2 life.\nSacrifice ~: Creatures you control gain indestructible until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/blessed_cleric.jpeg"
+},
+{
+    "name": "Corrupted Hollow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ leaves the battlefield you get one soul.\nIf you would get one or more souls transform ~.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/corrupted_hollow_front.jpeg",
+    "back": {
+        "name": "Pus of Man",
+        "super": "",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "W"
+        ],
+        "rarity": "",
+        "oracle_text": "First strike, plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/corrupted_hollow_back.jpeg"
+    }
+},
+{
+    "name": "Flexile Sentry",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Double strike\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/flexile_sentry.jpeg"
+},
+{
+    "name": "Forossa Lion Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ attacks create a 1/1 white Human creature token that's tapped and attacking.\nIf ~ would be dealt damage by a source that's red prevent 1 of that damage.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/forossa_lion_knight.jpeg"
+},
+{
+    "name": "Infested Corpse",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\nChameleon {W} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it becomes 3/1 and gains haste.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/infested_corpse.jpeg"
+},
+{
+    "name": "Knights of Gwynevere",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "First strike, lifelink\nWhen ~ enters the battlefield exile target card from a graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/knights_of_gwynevere.jpeg"
+},
+{
+    "name": "Magic Barrier",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When you cast this spell you may pay {W} if you do draw a card.\nReturn target spell to its owner's hand. You get souls equal to that spell's mana value.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/magic_barrier.jpeg"
+},
+{
+    "name": "Mirrah Warrior",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Players can't cast more than one spell per turn.\nIf a creature would be turned face up instead it doesn't, unless its controller pays {2}.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/mirrah_warrior.jpeg"
+},
+{
+    "name": "New Londo Shade",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nShadow (This creature can block or be blocked by only creatures with shadow.)\nSacrifice ~: Exile all cards from target player's graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/new_londo_shade.jpeg"
+},
+{
+    "name": "Resting Thief",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may cast ~ at any time you could cast and instant.\nWhen ~ enters the battlefield return a creature you control to its owner's hand.\nNoncreature spells cost {1} more to cast.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/resting_thief.jpeg"
+},
+{
+    "name": "Soul of a Nameless Soldier",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {W}. If you do each player draws a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/soul_of_a_nameless_soldier.jpeg"
+},
+{
+    "name": "Sunlight Spear",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Exile target nonland permanent. That permanent's controller draws a card at the beginning of their next upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/sunlight_spear.jpeg"
+},
+{
+    "name": "Transient Curse",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You get one soul. Exile target creature, return it to the battlefield under it's owners control at the beginning of the next end step. Draw a card.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/transient_curse.jpeg"
+},
+{
+    "name": "Village Blacksmith",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.\nIf you control three or more equipment, equipment you control have equip {0}.\nEquipped creatures you control get +1/+1.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/village_blacksmith.jpeg"
+},
+{
+    "name": "Weary Travelers",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "If you would discard this card you may cast it without paying its mana cost instead.\nCreate a 1/2 black Human Ally Horace creature token. It has deathtouch.\nCreate a 2/1 white Human Ally Anri creature token. It has lifelink.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/weary_travelers.jpeg"
+},
+{
+    "name": "Adventuring Sorcerer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield, look at the top four cards of your library. You may reveal an noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/adventuring_sorcerer.jpeg"
+},
+{
+    "name": "Amana Priestess",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{X}{U}, {T}: Counter target spell unless it's controller pays {X}. If {X} is greater than {2} put a -1/-1 counter on ~. You may activate this ability as though this creature had haste.\n{1}{U}, Discard ~: Counter target spell unless it's controller pays {1}.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/amana_priestess.jpeg"
+},
+{
+    "name": "Aural Decoy",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "This spell costs an additional {1} if it targets a land.\nReturn target permanent to its owner's hand. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/aural_decoy.jpeg"
+},
+{
+    "name": "Chameleon",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Scry 2. You get two souls. Turn target creature face down, it becomes a 1/1 colorless Hollow creature. That creature gains \"Chameleon {X}, where X is it's mana value. (Turn it face up any time for its chameleon cost.)\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/chameleon.jpeg"
+},
+{
+    "name": "Crystal Butterfly",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Flying. When ~ dies you get three souls.\nWhenever ~ deals damage to a player that player puts X cards from the top of his or her library into his or her graveyard where X is its power.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/crystal_butterfly.jpeg"
+},
+{
+    "name": "Dual Charm",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Counter target spell unless its controller pays {1}. You may pay two souls. If you do, counter that spell unless its controller pays {3} instead.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/dual_charm.jpeg"
+},
+{
+    "name": "Great Crab",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may cast this spell any time you could cast an instant.\n{U}{U}: Return ~ to it's owner's hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/great_crab.jpeg"
+},
+{
+    "name": "Hidden Body",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Target creature gets +1/+0 and can't be blocked this turn.\nDraw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/hidden_body.jpeg"
+},
+{
+    "name": "Homing Soul Mass",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Choose any number of target creatures. You get two souls, then you may pay X souls.\n~ deals X damage divided as you choose among each of the chosen creatures. If a creature dealt damage this way would die, instead it's controller puts it on top or bottom of his or her library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/homing_soul_mass.jpeg"
+},
+{
+    "name": "Hooded Sorcerer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "{T}: Scry 1. You get one soul.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/hooded_sorcerer.jpeg"
+},
+{
+    "name": "Invisible Hollow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nIf ~ leaves the battlefield, draw a card and you get one soul.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/invisible_hollow.jpeg"
+},
+{
+    "name": "Lost spell from Oolacile",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "Choose target spell. You get one soul for each spell cast this turn, then you may pay X souls, where X is the chosen spell's mana value. If you do counter that spell.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/lost_spell_from_oolacile.jpeg"
+},
+{
+    "name": "Magic Denial",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Choose a spell. You get one soul. Scry 1, then draw a card. You may counter the chosen spell.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/magic_denial.jpeg"
+},
+{
+    "name": "Old Sorcerer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield draw a card. Scry 1 (Look at the top card of your library. You may put that card on the bottom of your library.)",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/old_sorcerer.jpeg"
+},
+{
+    "name": "Petrifying Gaze",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{2}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Enchant nonland permanent\nEnchanted permanent can't attack or block, and its activated abilities can't be activated.\n{5}{U}{U}: Attach ~ to target nonland permanent. Draw two cards.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/petrifying_gaze.jpeg"
+},
+{
+    "name": "Soul of an Unknown Traveler",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {U}. If you do target player puts two cards from the top of his or her library into his or her graveyard for each noncreature spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/soul_of_an_unknown_traveler.jpeg"
+},
+{
+    "name": "A Hero Gone Mad",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Return target legendary creature or planeswalker from your graveyard to the battlefield. You lose life and gain a number of souls equal to its mana value.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/a_hero_gone_mad.jpeg"
+},
+{
+    "name": "Chasm Giant",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{4}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "This creature can't be blocked except by black creatures.\nWhen ~ enters the battlefield, create two 1/1 colorless Hollow creature tokens. Then your opponents lose life equal to the number of creatures you control. You gain souls equal to the life lost this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/chasm_giant.jpeg"
+},
+{
+    "name": "Dark Edge",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "You may pay {1}{B} then discard a card or sacrifice a creature rather than pay ~'s mana cost.\nDestroy target creature or planeswalker. That permanent's controller discards a card at random.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/dark_edge.jpeg"
+},
+{
+    "name": "Dark Hand of Kaathe",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Target creature gets -2/-2 until end of turn. If you gained one or more souls this turn that creature gets -4/-4 until end of turn and that creature's controller loses life equal to the number of souls they have instead.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/dark_hand_of_kaathe.jpeg"
+},
+{
+    "name": "Deep Fog",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Put three plague counters on each creature. (As long as a creature has a plague counter on it that creature has, \"If this creature is dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.\")\nYou lose 3 life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/deep_fog.jpeg"
+},
+{
+    "name": "Grave Warden",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ can't be blocked as long as you control another black or green permanent.\nOther hollow, skeleton, and zombie creatures you control get +1/+1.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/grave_warden.jpeg"
+},
+{
+    "name": "Grip of Death",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "As an additional cost to cast ~, put the top two cards of your library into your graveyard.\nDestroy target nonzombie, nonhollow creature. You lose 2 life and get two souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/grip_of_death.jpeg"
+},
+{
+    "name": "Hollow Soldier",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "If ~ leaves the battlefield, you get one soul.\n{B}: Return ~ from the graveyard to the battlefield tapped. When it enters the battlefield target creature gets -1/-1 until end of turn. Activate this ability only on your turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/hollow_soldier.jpeg"
+},
+{
+    "name": "Hound Rat",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "~ can't block.\nWhen ~ enters the battlefield target player reveals cards from their hand equal to twice the number of rats you control. You choose one of those cards. That player discards that card. \n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/hound_rat.jpeg"
+},
+{
+    "name": "Lothric Sentry",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Skeleton and zombie creatures you control get +1/+1.\nOther Hollow creatures you control get +1/+1.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/lothric_sentry.jpeg"
+},
+{
+    "name": "Parasite Worm",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "As long as ~ is an enchantment it is not a creature.\n{B}{B}: Return ~ and another target creature from a graveyard to the battlefield. ~ becomes an Enchanment Aura, it gains \"Enchant creature\", then attach this Aura to the other returned creature. When ~ leaves the battlefield, exile the enchanted creature.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/parasite_worm.jpeg"
+},
+{
+    "name": "Royal Rat Vanguard",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ gets +2/+2 for each other rat you control.\nWhenever ~ deals damage to a player put one plague counter each creature that player controls. (As long as a creature has a plague counter on it that creature has, \"If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/royal_rat_vanguard.jpeg"
+},
+{
+    "name": "Sift through the Ashes",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{X}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "As an additional cost to cast ~ exile X cards from your graveyard.\nYou draw X cards, lose X life, and get X souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/sift_through_the_ashes.jpeg"
+},
+{
+    "name": "Something Petrified",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "As an additional cost to cast this spell sacrifice a permanent.\nTarget player draws a card.\nTarget player discards a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/something_petrified.jpeg"
+},
+{
+    "name": "Soul of a Sorrowful Spirit",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {B}. If you do, return target hollow from your graveyard to the battlefield. Then each opponent loses life and you gain life equal to the number of hollows you control.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/soul_of_a_sorrowful_spirit.jpeg"
+},
+{
+    "name": "Undead Hound",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Lifelink\nWhen ~ enters the battlefield target player gets two souls, then loses life equal to the number of souls they have.\nWhenever ~ is dealt damage, if that damage was from a source that is red, destroy ~.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/undead_hound.jpeg"
+},
+{
+    "name": "Chaos Storm",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Choose one -\n\u2022 Exile target artifact.\n\u2022 ~ deals 2 damage to each creature and planeswalker you don't control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/chaos_storm.jpeg"
+},
+{
+    "name": "Cracked Redeye Orb",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Create a 3/3 red Human creature token named Red Phantom. It has prowess. That creature gains haste until end of turn.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/cracked_redeye_orb.jpeg"
+},
+{
+    "name": "Cragspider",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Reach\nWhenever ~ attacks you may pay {1}{R}, if you do ~ gains flying until end of turn.\n{R}: This creature gets +1/+0 until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/cragspider.jpeg"
+},
+{
+    "name": "Demon Cleric",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Haste\n{R}, {T}: Draw a card then discard a card. Then you may exile two cards from your graveyard. If you do, ~ deals 1 damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/demon_cleric.jpeg"
+},
+{
+    "name": "Desert Pyromancer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Haste\nWhenever ~ deals damage to a player you get one soul.\n{1}{R}, {T}, pay two souls: ~ deals 3 damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/desert_pyromancer.jpeg"
+},
+{
+    "name": "Evangelist of the Deep",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2/R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Can't be countered.\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land, ~ deals 1 damage to target player or planeswalker, then put the card back or put it into your graveyard. Otherwise, discard a card, then draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/evangelist_of_the_deep.jpeg"
+},
+{
+    "name": "Firekeeper",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "{T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana value. If you do, put it into your hand. Otherwise put that card on the bottom of your library.\n{R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.\n{U/R}, {T}: Creatures you control gain haste and prowess until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/firekeeper.jpeg"
+},
+{
+    "name": "Firesage Demon",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{3}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Haste\nWhen ~ enters the battlefield, it deals 2 damage to each creature.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/firesage_demon.jpeg"
+},
+{
+    "name": "Flamewielding Hollow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf ~ leaves the battlefield, you get one soul.\n{T}: ~ deals damage equal to it's power to target creature.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/flamewielding_hollow.jpeg"
+},
+{
+    "name": "Hollow Infantry",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Create two 1/1 colorless Hollow creature tokens. Those creatures gain haste until end of turn.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/hollow_infantry.jpeg"
+},
+{
+    "name": "Pesky Mosquito",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Flying, haste\n~ can't block\n{T}, Sacrifice ~: Destroy target artifact. If you do, you may search your library for a card ~ and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/pesky_mosquito.jpeg"
+},
+{
+    "name": "Profaned Flame",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Choose one -\n\u2022 ~ deals 4 damage to target creature.\n\u2022 ~ deals 4 damage to target player or planeswalker and 2 damage to you.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/profaned_flame.jpeg"
+},
+{
+    "name": "Profuse Sweat",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "As you cast this spell you may pay an additional {1} if you do choose two, otherwise choose one -\n\u2022 Draw a card.\n\u2022 Until end of turn you and permanents you control can't have plague counters placed on them.\n\u2022 Attach up to one target curse to target player.\n\u2022 Creatures you control gain haste until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/profuse_sweat.jpeg"
+},
+{
+    "name": "Rapport",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Gain control of target non-Hollow creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it is not a Human. If that creature would be sacrificed this way, you get three souls.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/rapport.jpeg"
+},
+{
+    "name": "Soul of an Old Pyromancer",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {R}. If you do, ~ deals 1 damage to any target for each noncreature spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/soul_of_an_old_pyromancer.jpeg"
+},
+{
+    "name": "Sunlight Maggot",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Haste\nWhen ~ enters or leaves the battlefield you get one soul.\n{T}, Sacrifice ~: Add {R}{R}{R} to your mana pool.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/sunlight_maggot.jpeg"
+},
+{
+    "name": "Taurus Demon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Haste\nWhenever ~ blocks or is blocked by a Human, it gains first strike until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/taurus_demon.jpeg"
+},
+{
+    "name": "Unkindled's Journey",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "You get three souls. Draw two cards. Then discard a card.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/unkindleds_journey.jpeg"
+},
+{
+    "name": "Alluring Skull",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Target creature you control deals damage equal to it's power to target creature an opponent controls. If a creature would die this way draw a card.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/alluring_skull.jpeg"
+},
+{
+    "name": "Amana Aberration",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{T}: Add {B} or {U} to your mana pool\nChameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up, Choose one -\n\u2022 Target player draws two cards.\n\u2022 Target player discards two cards.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/amana_aberration.jpeg"
+},
+{
+    "name": "Cathedral Evangelist",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Can't be countered\nWhenever a creature enters the battlefield under your control reveal the top card of your library. If that card is a land you gain two life and add {G}. Otherwise, put a plague counter on target creature or player, then put the card back or put it into your graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/cathedral_evangelist.jpeg"
+},
+{
+    "name": "Corrode",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Destroy target artifact or enchantment. Remove two souls from that permanent's controller and you get two souls.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/corrode.jpeg"
+},
+{
+    "name": "Ent of the Darkroot Garden",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Trample\nChameleon {3}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up choose one -\n\u2022 Distribute three +1/+1 counters among any number of target creatures you control.\n\u2022 Destroy up to two target artifacts and/or enchantments.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/ent_of_the_darkroot_garden.jpeg"
+},
+{
+    "name": "Festering Goblin",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "{T}: Add {W}, {B}, or {G}. Activate this ability only during your turn.\nWhenever ~ becomes tapped put a plague counter target creature. (As long as a creature has a plague counter on it that creature has, \"If this creature would be dealt damage it gets a plague counter. At the beginning of each endstep deal X damage to this creature where X is the number of plague counters on it, then remove a plague counter from it.\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/festering_goblin.jpeg"
+},
+{
+    "name": "Hesitant Surveyor",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.\nYou may play an additional land on each of your turns.\nWhenever you play a land, if it's the second land you've played this turn put a +1/+1 counter on ~.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/hesitant_surveyor.jpeg"
+},
+{
+    "name": "Hollow Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "When ~ leaves the battlefield, you get one soul and you may pay {G}, if you do return another target card from your graveyard to your hand.\n{1}{G}: ~ gets +2/+2 until end of turn. Activate this ability only once per turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/hollow_knight.jpeg"
+},
+{
+    "name": "Milfanito",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "{T}: Add one mana of any color to your mana pool.\nPay two souls: Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered and you and permanents you control can't be the targets of blue or black spells or abilities this turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/milfanito.jpeg"
+},
+{
+    "name": "Proselyte Scarlett",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "Whenever a card is exiled from a graveyard, if ~ has less than four +1/+1 counters on it place a +1/+1 counter on it.\n{T}: Exile target land card from a graveyard. Add one mana of any color.\n{G}, {T}: Exile target permanent card from a graveyard. You gain 2 life.\n{B/G}, {T}, discard a creature card: Search your library for a creature card. Reveal it and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/proselyte_scarlett.jpeg"
+},
+{
+    "name": "Ravenous Crystal Lizard",
+    "super": "",
+    "type": "Enchantment Creature",
+    "mana_cost": "{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield search your library for a basic land card, reveal it, and put it into your hand. Then return a creature you control to its owner's hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/ravenous_crystal_lizard.jpeg"
+},
+{
+    "name": "Sentinel of the Tower of Flame",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Vigilance, trample\n{G}, {T}: ~ fights another target creature (each deals damage equal to its power to the other). If that creature would be destroyed this way, put a +1/+1 counter on ~ and untap it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/sentinel_of_the_tower_of_flame.jpeg"
+},
+{
+    "name": "Shaded Woods",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may sacrifice a nontoken green creature rather than pay this spell's mana cost.\nSearch your library for two forest cards and put them onto the battlefield tapped. Then you may pay three souls. If you do, untap those lands and create a 1/1 colorless Hollow creature token for each land you control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/shaded_woods.jpeg"
+},
+{
+    "name": "Soul of a Lost Explorer",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {G}. If you do, create a treasure token for each permanent spell cast this turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/soul_of_a_lost_explorer.jpeg"
+},
+{
+    "name": "Souls of the Living",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield create a 1/1 colorless Hollow creature token.\nWhenever a creature enters the battlefield under your control, you get one soul and gain 1 life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/souls_of_the_living.jpeg"
+},
+{
+    "name": "Undead Aberration",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "As an additional cost to cast ~ reveal a Hollow card from your hand or pay {3}.\nDeathtouch, trample\nChameleon {2}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up search your library for a creature or enchantment card. Reveal it and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/undead_aberration.jpeg"
+},
+{
+    "name": "Warcry",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Choose one:\n\u2022 Put three +1/+1 counters on target creature, untap it.\n\u2022 Target creature can't be the target of spells or abilities your opponents control this turn.\n\u2022 The next spell you cast this turn can't be countered.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/warcry.jpeg"
+},
+{
+    "name": "Warp the Land",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "You may pay three souls rather than pay this spell's mana cost.\nSearch your library for a forest card, put that card onto the battlefield tapped then shuffle your library. If you cast this spell without paying its mana cost, untap that land.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/warp_the_land.jpeg"
+},
+{
+    "name": "Ruin Sentinels",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{G/W}",
+    "colors": [
+        "W",
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "Vigilance, lifelink\n~ gets +2/+2 for each other giant you control.\nWhen ~ enters the battlefield, you may search your library for any number of cards named \"~\", reveal them, and put them into your hand. Shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ruin_sentinels.jpeg"
+},
+{
+    "name": "Sorcerer's Remedy",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W/U}",
+    "colors": [
+        "W",
+        "U"
+    ],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "Remove all plague counters from you and permanents you control.\nDraw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/sorcerers_remedy.jpeg"
+},
+{
+    "name": "Bell Gargoyles",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{5}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "{3}: Until end of turn ~ becomes a 4/4 Gargoyle creature with flying and double strike.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/bell_gargoyles.jpeg"
+},
+{
+    "name": "Broadsword",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature gets +1/+0 and has \"This creature can't be blocked by creatures with toughness two or less.\"\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/broadsword.jpeg"
+},
+{
+    "name": "Charm of the Undead Hunters",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: As long as this card remains tapped, target artifact has \"This card can't attack or block, and its activated abilities can't be activated.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/charm_of_the_undead_hunters.jpeg"
+},
+{
+    "name": "Iron Golem",
+    "super": "",
+    "type": "Artifact Creature",
+    "mana_cost": "{3}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Colored nonartifact spells cost {2} more to cast.\nSacrifice ~: Destroy target artifact.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/iron_golem.jpeg"
+},
+{
+    "name": "Metaleater Spider",
+    "super": "",
+    "type": "Artifact Creature",
+    "mana_cost": "{6}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "When ~ enters the battlefield, destroy up to two target artifacts.\nReach\nWhenever an artifact dies put a +1/+1 counter on ~.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/metaleater_spider.jpeg"
+},
+{
+    "name": "Silver Amulet",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.\n{T}, Remove a charge counter from this card: As long as this card remains tapped target basic land you control becomes the basic land type of your choice in addition to its other types.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/silver_amulet.jpeg"
+},
+{
+    "name": "Silver Serpent Ring",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 1,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has \"Whenever this creature deals damage, you get one soul.\"\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/silver_serpent_ring.jpeg"
+},
+{
+    "name": "Thorolund Talisman",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "As ~ enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add {C}{C}{C}. Spend this mana only on colorless spells and abilities.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/thorolund_talisman.jpeg"
+},
+{
+    "name": "Four Kings",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{4}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "~ can't be blocked.\n{4}: ~ gains flying and first strike until end of turn.\nWhen ~ leaves the battlefield, each player gets four souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/four_kings.jpeg"
+},
+{
+    "name": "Sif, the Great Grey Wolf",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Vigilance\nWhen ~ enters the battlefield search your library for an equipment card with mana value three or less and put it onto the battlefield. Then shuffle your library.\n{1}{W}: Attach target equipment to ~.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/colorless/sif_the_great_grey_wolf.jpeg"
+},
+{
+    "name": "Heretic Storyteller",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "When ~ attacks you may pay {W}. If you do, it gains flying and plague until end of turn.\n{4}{G/W}, {T}: Put two plague counters on target creature or player.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/heretic_storyteller.jpeg"
+},
+{
+    "name": "Heavenly Thunder",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{4}{W}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Exile all non-Human, non-Cleric, and non-Knight creatures. You get two souls for each creature exiled this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/heavenly_thunder.jpeg"
+},
+{
+    "name": "Insolent Spirits",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nOther spirits you control get +1/+1 and have shadow.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/insolent_spirits.jpeg"
+},
+{
+    "name": "Karmic Righteousness",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "The next time a source of your choice would deal damage this turn. Prevent that damage. If damage is prevented this way ~ deals that much damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/karmic_righteousness.jpeg"
+},
+{
+    "name": "Miracle of the Way of White",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 5,
+    "oracle_text": "As an additional cost to cast ~ pay {1} or return a plains you control to its owner's hand.\nExile target creature or planeswalker. It's controller gains life equal to its mana value.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {6}{W}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/miracle_of_the_way_of_white.jpeg"
+},
+{
+    "name": "Petrified Egg",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "When ~ enters the battlefield remove all souls from all players.\nPlayers can't get souls.\nExile ~: Each player sacrifices all bonfires they control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/petrified_egg.jpeg"
+},
+{
+    "name": "Shulva's Denial",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You may pay an additional {1} as you cast this spell if you do choose two, otherwise choose one -\n\u2022 Destroy target artifact.\n\u2022 Destroy target enchantment.\n\u2022 Counter target spell that targets you or a permanent you control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/shulvas_denial.jpeg"
+},
+{
+    "name": "Solaire of Astora",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Players can only draw one card each turn.\nWhen ~ enters the battlefield, if it's not the first turn of the game, you may exile a white card from your hand. If you do, create a 3/3 white human ally creature token named Phantom. It has haste.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/solaire_of_astora.jpeg"
+},
+{
+    "name": "Soothing Sunlight",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Return target permanent you control to its owner's hand. You remove all plague counters and gain life for each permanent you control. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/soothing_sunlight.jpeg"
+},
+{
+    "name": "Swollen Mongrel",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\n{W}{B/G}, {T}: Creatures you control get +1/+1 and gain plague until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/swollen_mongrel.jpeg"
+},
+{
+    "name": "Tears of Denial",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield look at target players hand, then name a card.\nSpells with the chosen name can't be cast. Nonland permanents with the chosen name can't attack, their activated abilities can't be activated, and if a face down creature would be turned face up into a card with the chosen name, instead it doesn't.\nExile ~: draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/tears_of_denial.jpeg"
+},
+{
+    "name": "Wight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "{W}{W}, Sacrifice ~: Exile target legendary permanent. You get souls equal to that permanent's mana value.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/wight.jpeg"
+},
+{
+    "name": "Angelic Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{U}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Flying\nWhen ~ enters the battlefield Scry 3 and you get three souls.\nWhen ~ becomes the target of a spell or ability your opponent controls, you may pay three souls. If you do counter that spell or ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/angelic_knight.jpeg"
+},
+{
+    "name": "Ashen Estus",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Draw a card. Untap each bonfire you control.\nWhenever a bonfire enters the battlefield under your control, you may pay {1}{U}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/ashen_estus.jpeg"
+},
+{
+    "name": "Burning Ambition",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2/U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "You get one soul, then you may pay any number of souls.\nGain control of target creature or artifact with mana value less than or equal to the number of souls paid this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/burning_ambition.jpeg"
+},
+{
+    "name": "Farron Dart",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Enchant creature\nEnchanted creature gets +1/+0 and has \"Whenever this creature deals combat damage you may draw a card.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/farron_dart.jpeg"
+},
+{
+    "name": "Pestilent Mercury",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Enchant creature\nWhen ~ enters the battlefield Scry 2.\nAt the beginning of your end step, put a -1/-1 counter on enchanted creature.\nWhen ~ leaves the battlefield draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/pestilent_mercury.jpeg"
+},
+{
+    "name": "Ruin Banshee",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\n{T}: Put target tapped creature on top of it's owner's library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/ruin_banshee.jpeg"
+},
+{
+    "name": "Sage's Scroll",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You may look at the top card of your library at any time.\nWhenever you cast a noncreature spell you get one soul.\nPay three souls: You may cast the top card of your library if it is a noncreature card. (You still pay its costs)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/sages_scroll.jpeg"
+},
+{
+    "name": "Search the Library",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "As an additional cost to cast this spell pay one soul or {1}.\nScry 4, then draw two cards.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/search_the_library.jpeg"
+},
+{
+    "name": "Twisted Wall of Light",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{3}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You may return an island you control to its owner's hand rather than pay ~'s mana cost.\nIf you paid mana to cast this spell choose two, otherwise choose one -\n\u2022 Return target permanent to its owner's hand.\n\u2022 Counter target activated or triggered ability.\n\u2022 Tap each creature.\n\u2022 Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/twisted_wall_of_light.jpeg"
+},
+{
+    "name": "Wall Spectre",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nShadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals damage to a player cast up to one target instant or sorcery card with mana value less than or equal to ~'s power from your graveyard. Then exile it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/wall_spectre.jpeg"
+},
+{
+    "name": "Bonfire Ascetic",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{X}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Put the top X cards of your library into your graveyard. You lose X life. You get X souls. Choose a creature card in your graveyard. Each other player may choose a number of creatures with total power less than or equal to the chosen creatures power. Return all chosen creatures to the battlefield under their owners control.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/bonfire_ascetic.jpeg"
+},
+{
+    "name": "Charred Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Deathtouch, lifelink\nWhen ~ enters the battlefield exile target card from a graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/charred_knight.jpeg"
+},
+{
+    "name": "Chosen Undead",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "As you cast ~ choose  creature token, nontoken creature, or planeswalker. Target player sacrifices a permanent of the chosen type.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {B/P}{B/P}{B/P}{B/P}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/chosen_undead.jpeg"
+},
+{
+    "name": "Clawed Curse",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep they lose one life and remove one soul. You gain one life and get one soul.\nChameleon {2}{B} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen this card is turned face up attach it to target player and destroy target creature they control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/clawed_curse.jpeg"
+},
+{
+    "name": "Darkwraith",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Protection from red and from white.\n{2}{B}, {T}: Target player gets two souls then loses life equal to the number of souls they have. Remove half their souls rounded up and you get that many souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/darkwraith.jpeg"
+},
+{
+    "name": "Jailer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "{T}: Target creature's toughness becomes 1 until end of turn.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/jailer.jpeg"
+},
+{
+    "name": "Lordran Necromancer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "{1}{B}: Create a 1/1 black Skeleton creature token. Activate this ability only during your upkeep.\nWhenever a hollow, skeleton, or zombie creature enters the battlefield you may pay 1 life. If you do, you get one soul and draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/lordran_necromancer.jpeg"
+},
+{
+    "name": "Resonant Flesh",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Whenever you get one or more souls you gain that much life.\nPay two souls: Draw a card. Then you lose life equal to the number of souls you have. Activate only as a sorcery.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/resonant_flesh.jpeg"
+},
+{
+    "name": "Resonant Soul",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "You get two souls, then you may pay any number of souls.\n~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/resonant_soul.jpeg"
+},
+{
+    "name": "Scraps of Life",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Each player sacrifices all creatures they control, then exiles all creature cards from their graveyard. Then each player creates a 1/1 colorless Hollow creature token for each card they exiled this way.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/scraps_of_life.jpeg"
+},
+{
+    "name": "Acid Surge",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{X}{X}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Destroy up to X target artifacts. Create twice X 1/1 colorless Hollow creature tokens. Then gain haste until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/acid_surge.jpeg"
+},
+{
+    "name": "Capra Demon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Double Strike\nWhen ~ enters the battlefield create two black 2/2 Zombie Jackal creature tokens.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/capra_demon.jpeg"
+},
+{
+    "name": "Fiery Soapstone",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "~ enters with two effigy counters.\nWhenever a lord leaves the battlefield put an effigy counter on ~.\n{2}{R}, Remove an effigy counter from ~: You may put a creature from your hand onto the battlefield, it gains haste. Sacrifice it at the beginning of the next end step.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/fiery_soapstone.jpeg"
+},
+{
+    "name": "Fire Orb",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "As you cast this spell you may pay {2}{R}. If you do, double this spell's damage.\n~ deals 2 damage to any target.\nWhenever you gain one or more souls, at the beginning of your next upkeep you may pay {4}{R}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/fire_orb.jpeg"
+},
+{
+    "name": "Fire Surge",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "You may pay one soul rather than pay this spell's mana cost.\nUntil end of turn, target creature gains haste, can't be blocked except by two or more creatures, and \"{R}: This creature gets +1/+0 until end of turn.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/fire_surge.jpeg"
+},
+{
+    "name": "Flame Whip",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "You may cast this spell without paying it's mana cost as long as you control four or more mountains.\nEnchant creature\nEnchanted creature gains \"{2}{R}{R}, {T}, Pay 2 souls: Enchanted creature deals 4 damage divided as you choose among one, two, three, or four targets.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/flame_whip.jpeg"
+},
+{
+    "name": "Immolation",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Target creature gains double strike and trample until end of turn. At the beginning of the next end step, sacrifice it if it attacked this turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/immolation.jpeg"
+},
+{
+    "name": "Lingering Flame",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Whenever you cast a noncreature spell, put a charge counter on ~.\nSacrifice ~: ~ deals damage to any target equal to the number of charge counters it has.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/lingering_flame.jpeg"
+},
+{
+    "name": "Permeating Flames",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "At the beginning of each player's upkeep that player reveals the top card of their library. That player may cast that card. If they don't, ~ deals damage to that player equal to that card's mana value.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/permeating_flames.jpeg"
+},
+{
+    "name": "Smoldering Rotten Flesh",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{3}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "~ can block creatures with shadow as though they didn't have shadow.\nChameleon {3}{R} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up it deals 3 damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/smoldering_rotten_flesh.jpeg"
+},
+{
+    "name": "Contrasted Cursed",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Enchant player\nCreatures enchanted player's opponents control lose shadow and can't have or gain shadow.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up, you gain 3 life. Then you may pay {B/G}, if you do destroy target noncreature, nonland permanent.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/contrasted_cursed.jpeg"
+},
+{
+    "name": "Covenant of the Forest Hunter",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{G}{G}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "You may exile a green card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 Destroy all artifacts.\n\u2022 Destroy all enchantments.\n\u2022 Each player sacrifices all creatures with flying.\n\u2022 Exile all cards from all graveyards.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/covenant_of_the_forest_hunter.jpeg"
+},
+{
+    "name": "Duke's Dear Freja",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{3}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Reach, trample\nWhenever ~ deals damage to a creature, tap that creature. That creature doesn't untap during it's controllers untap step.\n{G}, Sacrifice an artifact: This creature and another target creature each deal 1 damage to the other.\n{1}{B}, {T}: Discard a card at random. Return a card from your graveyard to your hand. Create two treasure tokens.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/dukes_dear_freja.jpeg"
+},
+{
+    "name": "Estus Flask",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "Put a card from the top of your library into your graveyard and gain one life for each land you control. Then choose a permanent card in your graveyard and return it to your hand.\nWhenever a bonfire enters the battlefield under your control, you may pay {1}{G}. If you do, return ~ from your graveyard to your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/estus_flask.jpeg"
+},
+{
+    "name": "Expected Companions",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Look at the top four cards of your library. You may put any number of creatures with total power of 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/expected_companions.jpeg"
+},
+{
+    "name": "Lothric Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Protection from blue and from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or black.)\n~ gets +1/+1 for each equipment attached to it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/lothric_knight.jpeg"
+},
+{
+    "name": "Mimic",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Chameleon {3} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever ~ is turned face up target creature blocking or blocked by ~ gets -5/-5 until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/mimic.jpeg"
+},
+{
+    "name": "Petrifying Statue",
+    "super": "",
+    "type": "Enchantment Creature",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "~'s power is equal to the number of enchantments you control and its toughness is equal to that number plus 1.\nAccursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/petrifying_statue.jpeg"
+},
+{
+    "name": "Seek Embers",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{X}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "As you cast ~, each soul you pay will pay for {1}.\nSearch your library for a creature or planeswalker card with mana value less than or equal to the cost paid to cast ~, reveal that card and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/seek_embers.jpeg"
+},
+{
+    "name": "The Serpent King",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Vigilance, reach\n~ can't be countered and can't be blocked except by three or more creatures.\nChameleon {2}{G}{G}{G}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen this creature enters the battlefield or is turned face up, it deals damage equal to its power to up to two other target creatures. Those creatures deal damage equal to their power to it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/the_serpent_king.jpeg"
+},
+{
+    "name": "Wistful Naivete",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Enchant player\nWhen ~ enters the battlefield, put the top card of your library onto the battlefield face down as a 1/1 colorless Hollow creature. It has Chameleon {1} (You may turn it face up any time for its chameleon cost if it's a permanent.)\nEnchanted player has \"If a creature an opponent controls entering the battlefield or turning face would cause an ability to trigger, that ability triggers an additional time.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/wistful_naivete.jpeg"
+},
+{
+    "name": "Blade of the Darkmoon",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{W/U}{W/U}",
+    "colors": [
+        "W",
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield draw a card. Then if an opponent controls a creature named \"Red Phantom\", create a 3/3 white human ally creature token named Phantom. It has haste.\nWhenever a creature named \"Red Phantom\" dies draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/blade_of_the_darkmoon.jpeg"
+},
+{
+    "name": "Disembodied Wisp",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{B/R}",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Haste\n{B/R}, {T}, Sacrifice ~: ~ deals 3 damage to any target.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/disembodied_wisp.jpeg"
+},
+{
+    "name": "Splintering Lightning",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{X}{R}{W}",
+    "colors": [
+        "R",
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "~ deals 2 damage to up to X targets. You may choose the same target multiple times. You gain X life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/splintering_lightning.jpeg"
+},
+{
+    "name": "Spreading Decay",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}{B}",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "Choose up to two -\n\u2022 Destroy target nonartifact creature if it's equipped.\n\u2022 Destroy target artifact.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/spreading_decay.jpeg"
+},
+{
+    "name": "Bloodbite Ring",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "When this equipment enters the battlefield you remove all plague counters and create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has, \"You can't get plague counters. This creature can't have or get plague counters.\"\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/bloodbite_ring.jpeg"
+},
+{
+    "name": "Charm of the Abyss Watchers",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: Tap target permanent with a mana ability. As long as this card remains tapped, that permanent has \"This card doesn't untap during its controller's untap step.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/charm_of_the_abyss_watchers.jpeg"
+},
+{
+    "name": "Chloranthy Ring",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has vigilance.\nEquip {0}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/chloranthy_ring.jpeg"
+},
+{
+    "name": "Halberd",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature gets +1/+0 and has first strike.\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/halberd.jpeg"
+},
+{
+    "name": "Heide Knight",
+    "super": "",
+    "type": "Artifact Creature",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Double strike\nWhen ~ dies, if you control an equipment, return it to the battlefield tapped at the beginning of your next upkeep.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/heide_knight.jpeg"
+},
+{
+    "name": "Hornet Ring",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "Equipped creature has deathtouch.\nEquip {B}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/hornet_ring.jpeg"
+},
+{
+    "name": "Looking Glass Knight",
+    "super": "",
+    "type": "Artifact Creature",
+    "mana_cost": "{6}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2,
+    "oracle_text": "~ can't be the target of spells or abilities.\n{1}{R}, {T}: Create a 3/3 red Human creature token named Red Phantom. It has prowess.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/looking_glass_knight.jpeg"
+},
+{
+    "name": "Ring of a Great Warrior",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.\nEquipped creature gets +0/+3, has vigilance, gains \"{0}: Attach target Equipment to this creature. Activate this ability only once per turn.\"\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_a_great_warrior.jpeg"
+},
+{
+    "name": "Soul Syphoner",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 4,
+    "oracle_text": "{T}: Remove one soul from target player. You get one soul.\n{1}, Sacrifice ~: Remove all souls from target player. Draw a card.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/soul_syphoner.jpeg"
+},
+{
+    "name": "Titanite Shard",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{0}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0,
+    "oracle_text": "Sacrifice this artifact: You get one soul. Then you may pay {1}. If you do, draw a card.\nEquipped creature gets +1/+0.\nImbue {1} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/titanite_shard.jpeg"
+},
+{
+    "name": "Anri of Astora",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "First strike, lifelink\nPlayers can't search libraries.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/anri_of_astora_front.jpeg",
+    "back": {
+        "name": "Hollow Bride",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "W"
+        ],
+        "rarity": "",
+        "oracle_text": "Spells your opponents control cost {1} more to cast.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/anri_of_astora_back.jpeg"
+    }
+},
+{
+    "name": "Emit Force",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{2}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Target player puts all attacking creatures he or she controls on the bottom of their owner's library. You gain one life for each creature that left the battlefield this way.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/emit_force.jpeg"
+},
+{
+    "name": "Homeward",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "At the beginning of your upkeep, if an opponent controls the same number or more lands than you, you may search your library for a plains and put it onto the battlefield tapped. Then shuffle your library.\nWhenever a land enters the battlefield under your control, you gain 1 life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/homeward.jpeg"
+},
+{
+    "name": "Reforge",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Return target artifact or enchantment card from your graveyard to your hand. You may pay three souls. If you do, put that card onto the battlefield instead.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/reforge.jpeg"
+},
+{
+    "name": "Siegmeyer of Catarina",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{1}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "When this creature enters the battlefield or transforms into ~ you gain 4 life.\nAs long as ~ is equipped it gets +1/+1.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/siegmeyer_of_catarina_front.jpeg",
+    "back": {
+        "name": "Knight of Catarina",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "W"
+        ],
+        "rarity": "",
+        "oracle_text": "Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/siegmeyer_of_catarina_back.jpeg"
+    }
+},
+{
+    "name": "Sunlight Blade",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "W",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant creature\nEnchanted creature has lifelink, can block creatures with shadow, and whenever a creature dealt damage by enchanted creature would die, exile it instead.\nInfuse {W} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/sunlight_blade.jpeg"
+},
+{
+    "name": "Vow of Silence",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Target player can't cast spells this turn. If that player has cast a spell this turn, activated abilities cannot be activated, creatures can't attack, and cards can't be turned face up this turn.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/white/vow_of_silence.jpeg"
+},
+{
+    "name": "Big Hat Logan",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast this spell any time you could cast an instant.\nWhenever you cast a spell tap target permanent. If that permanent was already tapped return that card to its owner's hand instead.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/big_hat_logan.jpeg"
+},
+{
+    "name": "Fume Sorcerer",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "{U/B}, {T}: Target player reveals the top three cards of his or her library. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/fume_sorcerer.jpeg"
+},
+{
+    "name": "Hidden Weapon",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Enchant creature\nEnchanted creature is unblockable.\nInfuse {U} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/hidden_weapon.jpeg"
+},
+{
+    "name": "Outrider Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nChameleon {2}{U}\nWhen ~ is turned face up tap target creature an opponent controls. That creature doesn't untap during it's controller's next untap step.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/outrider_knight.jpeg"
+},
+{
+    "name": "Rumination",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Draw two cards, then put one card from your hand on top or bottom of your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/rumination.jpeg"
+},
+{
+    "name": "Soul Spear",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{2}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "The owner of target creature or planeswalker shuffles it into his or her library.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/soul_spear.jpeg"
+},
+{
+    "name": "Soul Stream",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Pay X souls, then target player puts the top X cards from his or her library into his or her graveyard where X is four times the number of souls paid.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/soul_stream.jpeg"
+},
+{
+    "name": "Dark Sigil",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant player\nWhenever a creature enchanted player controls dies put a hollowing counter on ~. Then they lose life equal to the number of hollowing counters on ~.\nSacrifice a creature: Draw a card for each hollowing counter on ~. Only the enchanted player may activate this ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/dark_sigil.jpeg"
+},
+{
+    "name": "Frozen Reindeer",
+    "super": "Snow",
+    "type": "Creature",
+    "mana_cost": "{3}{B}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\n{T}: Target creature gets -3/-3 until end of turn. You lose 3 life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/frozen_reindeer.jpeg"
+},
+{
+    "name": "Grave Warden's Tome",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{3}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "oracle_text": "You may exile a black card from your hand rather than pay this spell's mana cost.\nSearch your library for two cards. Put one into your hand and one into your graveyard.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/grave_wardens_tome.jpeg"
+},
+{
+    "name": "Nimble Shadow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Plague, shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever a permanent with a plague counter on it would die, put a +1/+1 counter on ~.\n{T}: Put a number of plague counters equal to ~'s power on any target. Activate this ability only if ~ is enchanted or equipped.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/nimble_shadow.jpeg"
+},
+{
+    "name": "Resonant Weapon",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Enchant creature\nEnchanted creature has \"Pay 3 souls: This creature gets +3/+0 and gains lifelink until end of turn.\"\nInfuse {B} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/resonant_weapon.jpeg"
+},
+{
+    "name": "Skim Memories",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "oracle_text": "Target player reveals his or her hand. You may choose a nonland card. If you do, that player discards that card, you discard a card, and at the beginning of your next upkeep reveal the top card of your library. You lose life equal to its mana value and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/skim_memories.jpeg"
+},
+{
+    "name": "The Great Swamp",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Enchant swamp\nEnchanted land has \"Each land you control is a Swamp in addition to its other land types. Whenever you tap a land for {B} add an additional {B} and lose 1 life.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/the_great_swamp.jpeg"
+},
+{
+    "name": "Carthus Beacon",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Enchant creature\nEnchanted creature gains double strike and has, \"Whenever this creature attacks for the first time each turn, untap it. After this phase, there is an additional combat phase.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/carthus_beacon.jpeg"
+},
+{
+    "name": "Chaos Bed Vestiges",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{X}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "~ can't be countered.\n~ deals two times X damage to target player, that damage cannot be prevented.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/chaos_bed_vestiges.jpeg"
+},
+{
+    "name": "Forbidden Sun",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{3}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "~ deals 5 damage to target player and each creature and planeswalker he or she controls.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/forbidden_sun.jpeg"
+},
+{
+    "name": "Hellkite Wyvern",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R}{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Flying, first strike, haste\nIf ~ would die with one or more -1/-1 counters on it exile it instead.\nAt the beginning of combat you may pay {R}. If you do, return ~ from your graveyard to the battlefield with a -1/-1 counter on it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/hellkite_wyvern.jpeg"
+},
+{
+    "name": "Ignite Steel",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Enchant creature\nEnchanted creature has prowess.\nInfuse {R} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/ignite_steel.jpeg"
+},
+{
+    "name": "Unbreakable Patches",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{2}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "When this creature enters the battlefield or transforms into ~, create a Treasure token.\nTreasures you control have \u201c{T}, Sacrifice this artifact: Add two mana of any one color.\u201d\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/unbreakable_patches_front.jpeg",
+    "back": {
+        "name": "Lapp",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "R"
+        ],
+        "rarity": "",
+        "oracle_text": "Kindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/unbreakable_patches_back.jpeg"
+    }
+},
+{
+    "name": "Carthus Rouge",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Enchant creature\nEnchanted creature has has plague.\nInfuse {G} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. The enchanted equipment gains the abilities of this enchantment, except instead of \"enchanted creature\" it says \"equipped creature\")\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/carthus_rouge.jpeg"
+},
+{
+    "name": "Dark Fog",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{2}{G/P}{G/P}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Enchant player\n~ enters the battlefield with a number of plague counters equal to the mana spent to cast it.\nWhenever a creature attacks enchanted player put a plague counter on it for each one on ~.\n{G/P}: Add or remove a plague counter from ~.\nWhen there are no creatures on the battlefield, enchanted player loses life equal to the number of plague counters on ~ then sacrifices it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/dark_fog.jpeg"
+},
+{
+    "name": "Gaping Dragon",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{2}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "oracle_text": "Vigilance, reach, trample, haste, plague\nWhenever ~ deals damage to a player destroy target artifact that player controls.\n{X}{X}{G}{G}: If ~ doesn't have a +1/+1 counter on it, put X +1/+1 counters on it. Activate only as a sorcery.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/gaping_dragon.jpeg"
+},
+{
+    "name": "Pagan Tree",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Pay two souls: Put an effigy counter on target permanent.\nRemove an effigy counter from ~: Until end of turn spells you cast gain, \"You may pay {X} where X is this spell's mana value rather than pay this spell's mana cost\". Add {G}{G}.\nSacrifice ~: Search your library for a creature, land, or enchantment card. Reveal it and put it into your hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/pagan_tree.jpeg"
+},
+{
+    "name": "Aldrich, Devourer of Gods",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}{B/G}{B/G}",
+    "colors": [
+        "B",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nYou may cast ~ from your graveyard.\n~ gets +1/+1 for each card type in your graveyard.\n{B/G}{B/G}: Exile target creature card from a graveyard. ~ has the abilities of all creature cards exiled with this ability.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/aldrich_devourer_of_lords.jpeg"
+},
+{
+    "name": "Ancient Wyvern",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
+    "colors": [
+        "R",
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Flying, indestructible, haste\n{R}: ~ gets +1/+0 until end of turn.\nWhen ~ blocks or becomes blocked by a creature with first strike or double strike, sacrifice it.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ancient_wyvern.jpeg"
+},
+{
+    "name": "Archdeacon of the Deep",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U/R}{U/R}{U/R}",
+    "colors": [
+        "R",
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Other Wizards you control get +1/+1.\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell create a 1/1 blue and red Wizard creature token with prowess.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/archdeacon_of_the_deep.jpeg"
+},
+{
+    "name": "Baneful Queen, Mytha",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{B/G}{B/G}{B/G}",
+    "colors": [
+        "B",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Deathtouch, plague\n~ gets +1/+1 for each card type in your graveyard.\nPut a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanent with mana value 3 or less. Activate this ability only once per turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/baneful_queen_mytha.jpeg"
+},
+{
+    "name": "Bed of Chaos",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Trample, indestructible\nWhen ~ enters the battlefield create a legendary 0/1 red Insect creature token named Chaos Bug. It enters the battlefield with two shield counters on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.) When that token leaves the battlefield sacrifice ~.\nAt the beginning of your end step each opponent sacrifices a nonland permanent at random.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/bed_of_chaos.jpeg"
+},
+{
+    "name": "Dragonslayer and Executioner",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{G/W}{G/W}{G/W}",
+    "colors": [
+        "W",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "First strike, vigilance\nWhen ~ dies choose one -\n\u2022 Create a 3/2 white Legendary Giant creature token with first strike named Ornstein.\n\u2022 Create a 3/3 green Legendary Giant creature token with vigilance named Smough.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/dragonslayer_and_executioner.jpeg"
+},
+{
+    "name": "Ember",
+    "super": "Legendary",
+    "type": "Enchantment",
+    "mana_cost": "{R}{G}{W}",
+    "colors": [
+        "R",
+        "W",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield your life total becomes 25. Each opponent gets an emblem with \"At the beginning of your upkeep flip a coin, if the coin is heads create a 3/3 red Human creature token named Red Phantom. It has prowess.\"\n{2}{R}{G}{W}: Create a 3/3 white human ally creature token named Phantom. It has haste.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/ember.jpeg"
+},
+{
+    "name": "Fume Knight",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{U/B}{U/B}{U/B}",
+    "colors": [
+        "B",
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever ~ deals combat damage to a player, they reveal the top X cards of his or her library, where X is ~'s power. You may choose a card type. Put all cards of the chosen type into that player's graveyard and put the rest back on top in any order. If more than one card was put in the graveyard this way, repeat this process.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/fume_knight.jpeg"
+},
+{
+    "name": "Gael, Seeker of Ash",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Haste\n{B/R}, Pay 1 life: ~ Deals 1 damage to any target.\nWhenever you lose life, draw that many cards. (Damage causes loss of life.)\nWhenever ~ is dealt damage you lose that much life and if damage dealt to this creature would cause it to die, you may exile it and then return it to the battlefield transformed instead.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_front.jpeg",
+    "back": {
+        "name": "Slave Knight Gael",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "R",
+            "B"
+        ],
+        "rarity": "",
+        "oracle_text": "Flying, lifelink\nAt the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.\nWhen ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gael_seeker_of_ash_back.jpeg"
+    }
+},
+{
+    "name": "Hawkeye Gough",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}{R}{G}",
+    "colors": [
+        "R",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Reach, trample, haste\n{1}{R/G}, {T}: ~ deals 5 damage to target creature with flying. That creature loses indestructible until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/hawkeye_gough.jpeg"
+},
+{
+    "name": "Iudex Gundyr",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{W}{B}",
+    "colors": [
+        "B",
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield, you get two souls.\nAt the beginning of your upkeep you may pay one soul, if you do reveal the top card of your library and put it into your hand. You lose life equal to it's mana value.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/iudex_gundyr_front.jpeg",
+    "back": {
+        "name": "Champion Gundyr",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "B",
+            "W"
+        ],
+        "rarity": "",
+        "oracle_text": "When ~ enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until ~ leaves the battlefield. (That card returns to its owner's hand.)",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/iudex_gundyr_back.jpeg"
+    }
+},
+{
+    "name": "Knight Lautrec",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{R}{W}{B}",
+    "colors": [
+        "R",
+        "B",
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Haste\nWhen this creature enters the battlefield or transforms into ~, exile the top card of an opponents library with a favored counter on it.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_front.jpeg",
+    "back": {
+        "name": "Favored Knight",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "R",
+            "B",
+            "W"
+        ],
+        "rarity": "",
+        "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_lautrec_back.jpeg"
+    }
+},
+{
+    "name": "Stream of Estus",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{2/R}{2/G}",
+    "colors": [
+        "R",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield if you control two or more bonfires untap up to two target lands.\nWhenever a player taps a land for mana, that player adds one mana of a color that land could produce to their mana pool.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/stream_of_estus.jpeg"
+},
+{
+    "name": "Yhorm, the Giant",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{1}{B}{R}{R}{G}{G}",
+    "colors": [
+        "R",
+        "B",
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "Deathtouch, trample, reach\n{3}{B}{R}{G}: Until end of turn, creatures you control assign combat damage equal to their toughness rather than their power.\nWhenever a creature you control deals 5 or more damage to a player destroy up to one target land.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/yhorm_the_giant.jpeg"
+},
+{
+    "name": "Catalyst of the Witch of Izalith",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "oracle_text": "Equipped creature has, \"{Q}: Target player puts two cards from the top of their library into their graveyard.\"\nEquip {0}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/catalyst_of_the_witch_of_izalith.jpeg"
+},
+{
+    "name": "Charm of the Sunlight Princess",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this artifact: Turn target creature face down. It becomes a 1/1 colorless Hollow creature, gains Chameleon {1}, and cannot be turned face up as long as this card remains tapped.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/charm_of_the_sunlight_princess.jpeg"
+},
+{
+    "name": "Cursed Greatsword",
+    "super": "Legendary",
+    "type": "Artifact",
+    "mana_cost": "{2}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Equipped creature gets +4/-1 and has shadow.\nYou may have the equipped creature assign its combat damage as though it weren't blocked.\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/cursed_greatsword.jpeg"
+},
+{
+    "name": "Eyes of a Firekeeper",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "{T}: You get one soul.\n{3}, {T}, Sacrifice ~: Destroy all Bonfires.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/eyes_of_a_firekeeper.jpeg"
+},
+{
+    "name": "Shinku Doku Hitokiri",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature has plague. (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received)\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/shinku_hitokiri.jpeg"
+},
+{
+    "name": "Talisman of the Way of White",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.\nEquipped creature can't be the target of spells or abilities.\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/talisman_of_the_way_of_white.jpeg"
+},
+{
+    "name": "Titanite Chunk",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0,
+    "oracle_text": "Sacrifice this artifact: You get three souls. Then you may pay {2}. If you do, draw two cards.\nEquipped creature gets +3/+1.\nImbue {2} (Attach this artifact to target equipment, this artifact loses this ability. Then target artifact gains the abilities of this artifact.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/titanite_chunk.jpeg"
+},
+{
+    "name": "Wolf Knight's Greatshield",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{3}",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Equipped creature has +1/+1, lifelink, and indestructible.\nWhenever the equipped creature is dealt damage, you may draw a card.\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/wolf_knights_greatshield.jpeg"
+},
+{
+    "name": "Into the Abyss",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{U}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 0,
+    "oracle_text": "{U}{U}{U}: You get three souls. Exile the top card of your library. You may pay a number of souls equal to that card's mana value. If you do, play that card wihout paying it's mana cost.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/into_the_abyss.jpeg"
+},
+{
+    "name": "Vordt and the Dancer",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{2}{U}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 2,
+    "oracle_text": "During combat if ~ would die due to damage, instead it doesn't.\n{B}, {T}: Target player discards a card.\n{U}: Tap target creature an opponent controls.\n{1}: ~ gets +1/-1 until end of turn.\n{1}: ~ gets -1/+1 until end of turn.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/blue/vordt_and_the_dancer.jpeg"
+},
+{
+    "name": "Curse of the Dead",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{2}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "mythic",
+    "rating": 2,
+    "oracle_text": "Enchant player\nCreatures enchanted player controls get -1/-1 and can't block.\nWhenever a creature controlled by enchanted player dies you draw a card, lose one life, and get one soul.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/curse_of_the_dead.jpeg"
+},
+{
+    "name": "Gravelord Nito",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{5}{B}{B}{B}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield create ten tapped 1/1 black Skeleton creature tokens.\nAt the beginning of your upkeep if you control less than ten 1/1 black Skeleton creature tokens create a number of tapped 1/1 black Skeleton creature tokens equal to the  difference.\nWhenever a creature dies you get one soul.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/gravelord_nito.jpeg"
+},
+{
+    "name": "Ringfinger Leonhard",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{R}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "mythic",
+    "rating": 3,
+    "oracle_text": "Haste\nWhenever ~ attacks, reveal the top card of your library. You may play that card this turn.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/ringfinger_leonhard_front.jpeg",
+    "back": {
+        "name": "Rosaria's Finger",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "R"
+        ],
+        "rarity": "",
+        "oracle_text": "When this creature enters the battlefield, you get three souls.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/ringfinger_leonhard_back.jpeg"
+    }
+},
+{
+    "name": "Abyss Watchers",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{3}{G}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 3,
+    "oracle_text": "First strike, haste\nAt the beginning of each end step, if the player whose turn it is doesn't control a nonlegendary creature named \"Abyss Watchers\", they create a token copy of this creature, except it's not legendary and doesn't have this ability.\nIf ~ would die, exile it instead, \\\\then return it to the battlefield transformed \\\\under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/abyss_watchers_front.jpeg",
+    "back": {
+        "name": "Undead Legion",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "B",
+            "G"
+        ],
+        "rarity": "",
+        "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/abyss_watchers_back.jpeg"
+    }
+},
+{
+    "name": "Pickle Pee, Pump-a-Rum",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "{+1}: Look at the top three cards of your library. You may reveal one and put it into your hand. If you don't, put a loyalty counter on ~. Then put the rest into your graveyard.\n{0}: Until your next turn, if ~ would be dealt damage prevent it, and whenever a creature attacks you, it gets -1/-0 until end of turn.\n{-1}: Discard a card. Then search your library for a card of the same type, reveal it, and put it into your hand. Shuffle your library. You may put a land from your hand onto the battlefield.\n{-5}: Sacrifice a card named Homeward Bone. If you do, search your library for a card named Ring of Sacrifice and put it onto the battlefield. Shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/pickle_pee_pump_a_rum.jpeg"
+},
+{
+    "name": "Gravelord's Maelstrom",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
+    "colors": [
+        "R",
+        "B",
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "Choose up to three creatures target player controls. ~ deals damage to that player equal to the total power of those creatures. Gain control of the chosen creatures, that player sacrifices the rest.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gravelords_maelstrom.jpeg"
+},
+{
+    "name": "Gwyn, Lord of Cinder",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
+    "colors": [
+        "R",
+        "U",
+        "B",
+        "W",
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "When ~ enters the battlefield, return all creatures to their owner's hand.\n{+1}: You may search your library for a Legendary Lord card and put it into your hand. If you do, shuffle your library. If you don't, draw a card.\n{-1}: Deal 4 damage to target creature or player. Creatures you control get +1/+1 until end of turn.\n{-7}: Restart the game, leaving ~ on the battlefield. Set its loyalty to 3. Your starting life total becomes 5 less than your starting life total.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg"
+},
+{
+    "name": "King of the Storm",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "mana_cost": "{U}{R}{W}",
+    "colors": [
+        "R",
+        "W",
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "{+1}: Until end of turn, ~ becomes a legendary 4/4 colorless Human Dragon creature with flying, haste, and prowess. (He doesn't lose loyalty while he's not a planeswalker.)\n{-1}: Deal 2 damage to target creature or player. You gain 2 life. Draw two cards.\n{-5}: Target player's life total becomes 5. Destroy all nondragon creatures your opponents control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/king_of_the_storm.jpeg"
+},
+{
+    "name": "Knight Artorias",
+    "super": "Legendary",
+    "type": "Creature",
+    "mana_cost": "{1}{W}{U}{B}",
+    "colors": [
+        "B",
+        "W",
+        "U"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "Whenever ~ attacks, defending player discards a card and you draw a card.\nWhenever a player discards a card, until end of turn ~ gets +1/+1 and other creatures you control gain indestructible.\nIf ~ would die, exile it instead, then return it to the battlefield transformed under its owner's control.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_front.jpeg",
+    "back": {
+        "name": "The Abysswalker",
+        "super": "Legendary",
+        "type": "Creature",
+        "mana_cost": "",
+        "colors": [
+            "B",
+            "W",
+            "U"
+        ],
+        "rarity": "",
+        "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
+        "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_back.jpeg"
+    }
+},
+{
+    "name": "Lorian and Lothric",
+    "super": "Legendary",
+    "type": "Planeswalker",
+    "mana_cost": "{3}{R}{W}",
+    "colors": [
+        "R",
+        "W"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "{+1}: Exile up to one target tapped nonland permanent.\n{+0}: Exile ~ then return it to the battlefield under your control at the beginning of your next upkeep.\n{-7}: Deal 7 damage to any target. If a creature dealt damage this way would die this turn that creature's controller gets an emblem with \\\"At the beginning of your upkeep, this emblem deals 3 damage to you.\\\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/lorian_and_lothric.jpeg"
+},
+{
+    "name": "Homeward Bone",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{0}",
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 5,
+    "oracle_text": "{T}, Exile ~: Search your library for a Bonfire card and put it onto the battlefield.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/homeward_bone.jpeg"
+},
+{
+    "name": "Kiln of the First Flame",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{5}",
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 0,
+    "oracle_text": "When ~ enters the battlefield, tap it. Then search your library for a card named \"Gwyn, Lord of Cinder\" and put it onto the battlefield. Shuffle your library.\n{T}: Return target legendary permanent to its owner's hand.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/kiln_of_the_first_flame.jpeg"
+},
+{
+    "name": "Moonlight Greatsword",
+    "super": "Legendary",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 1,
+    "oracle_text": "Whenever equipped creature deals damage you get that many souls.\nPay two souls: Choose one -\n\u2022 Equipped creature gets +1/+1\n\u2022 ~ deals 1 damage to target creature or planeswalker.\n\u2022 Draw a card.\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/moonlight_greatsword.jpeg"
+},
+{
+    "name": "Ring of Sacrifice",
+    "super": "Legendary",
+    "type": "Artifact",
+    "mana_cost": "{W}{U}{B}{R}{G}",
+    "colors": [
+        "R",
+        "U",
+        "B",
+        "W",
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 0,
+    "oracle_text": "{T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg"
+},
+{
+    "name": "Anor Londo",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "B",
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/anor_londo.jpeg"
+},
+{
+    "name": "Archdragon Peak",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/archdragon_peak.jpeg"
+},
+{
+    "name": "Cathedral of Blue",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "W",
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/cathedral_of_blue.jpeg"
+},
+{
+    "name": "Cathedral of the Deep",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/cathedral_of_the_deep.jpeg"
+},
+{
+    "name": "Comforting Fire",
+    "super": "",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "U",
+        "B",
+        "W",
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 5,
+    "oracle_text": "{T}, Sacrifice ~: Search your library for a bonfire or basic land card and put it onto the battlefield. Shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/comforting_fire.jpeg"
+},
+{
+    "name": "Darkroot Garden",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "W",
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/darkroot_garden.jpeg"
+},
+{
+    "name": "Farron Keep",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "B",
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/farron_keep.jpeg"
+},
+{
+    "name": "Irithyll of the Boreal Valley",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "B",
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/irithyll_of_the_boreal_valley.jpeg"
+},
+{
+    "name": "Lost Izalith",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/lost_izalith.jpeg"
+},
+{
+    "name": "Road of Sacrifices",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/road_of_sacrifices.jpeg"
+},
+{
+    "name": "Shrine of Amana",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "G",
+        "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/shrine_of_amana.jpeg"
+},
+{
+    "name": "Lothric Castle",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "{T}: Add {1} to your mana pool.\n{3}{G}, {T}: Create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/lothric_castle.jpeg"
+},
+{
+    "name": "The Fire Fades",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "{T}: Add {1} to your mana pool.\n{T}, Sacrifice ~: Destroy target Bonfire.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/the_fire_fades.jpeg"
+},
+{
+    "name": "Blighttown",
+    "super": "Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "B",
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 2,
+    "oracle_text": "{T}: Add {1} to your mana pool.\n{4}{B/G}, {T}, Sacrifice a nontoken creature: Create three 1/1 black Assassin creature tokens with \"Whenever this creature deals combat damage to a player, that player loses the game.\"\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/blighttown.jpeg"
+},
+{
+    "name": "Firelink Shrine",
+    "super": "Legendary Bonfire",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [
+        "R",
+        "U",
+        "B",
+        "W",
+        "G"
+    ],
+    "rarity": "mythic",
+    "rating": 4,
+    "oracle_text": "~ enters the battlefield tapped unless you control another bonfire.\n{T}: Add one mana of any color.\n{T}: Return target creature card from your graveyard with mana value less than or equal to the number of souls you have to the battlefield under your control. You lose all souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/firelink_shrine.jpeg"
+},
+{
+    "name": "Plains",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/plains.jpeg"
+},
+{
+    "name": "Island",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/island.jpeg"
+},
+{
+    "name": "Swamp",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/swamp.jpeg"
+},
+{
+    "name": "Mountain",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/mountain.jpeg"
+},
+{
+    "name": "Forest",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/forest.jpeg"
+},
+{
+    "name": "Wastes",
+    "super": "Basic",
+    "type": "Land",
+    "mana_cost": "",
+    "colors": [],
+    "rarity": "common",
+    "rating": 0,
+    "oracle_text": "",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/basic/wastes.jpeg"
+},
+{
     "name": "Alonne Knight Captain",
     "super": "",
     "type": "Creature",
@@ -3951,51 +7444,454 @@
     "rating": 3,
     "oracle_text": "You have no maximum hand size.\n{T}: Add {U} or {R} to your mana pool.\n{U/R}{U/R}, {T}: Draw a card, then discard a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/the_grand_archives.jpeg"
-},
+}
 ]
-
 [Settings]
 {
     "layouts": {
-        "LCK": {
+        "DKS_DKS": {
             "weight": 1,
             "slots": [
                 {
-                    "name": "Land",
+                    "name": "LandOrBasic",
                     "count": 1,
                     "sheets": [
-                        {"name": "LandRare",  "weight": 1},
-                        {"name": "LandUncommon",  "weight": 7}
+                        {
+                            "name": "DKS_LandMythic",
+                            "weight": 1
+                        },
+                        {
+                            "name": "DKS_LandRare",
+                            "weight": 4
+                        },
+                        {
+                            "name": "DKS_LandUncommon",
+                            "weight": 8
+                        },
+                        {
+                            "name": "DKS_Basic",
+                            "weight": 32
+                        }
                     ]
                 },
                 {
                     "name": "RareOrMythic",
                     "count": 1,
                     "sheets": [
-                        {"name": "Mythic", "weight": 1},
-                        {"name": "Rare",   "weight": 7}
+                        {
+                            "name": "DKS_LandRare",
+                            "weight": 16
+                        },
+                        {
+                            "name": "DKS_Rare",
+                            "weight": 344
+                        },
+                        {
+                            "name": "DKS_LandMythic",
+                            "weight": 2
+                        },
+                        {
+                            "name": "DKS_Mythic",
+                            "weight": 16
+                        }
                     ]
                 },
                 {
-                    "name": "UncommonOrLand",
-                    "count": 3,
+                    "name": "UncommonOrLand1",
+                    "count": 1,
                     "sheets": [
-                        {"name": "Uncommon", "weight": 3},
-                        {"name": "LandUncommon",  "weight": 1}
+                        {
+                            "name": "DKS_Uncommon",
+                            "weight": 10
+                        },
+                        {
+                            "name": "DKS_LandUncommon",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand2",
+                    "count": 1,
+                    "sheets": [
+                        {
+                            "name": "DKS_Uncommon",
+                            "weight": 10
+                        },
+                        {
+                            "name": "DKS_LandUncommon",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand3",
+                    "count": 1,
+                    "sheets": [
+                        {
+                            "name": "DKS_Uncommon",
+                            "weight": 10
+                        },
+                        {
+                            "name": "DKS_LandUncommon",
+                            "weight": 1
+                        }
                     ]
                 },
                 {
                     "name": "Common",
                     "count": 11,
                     "sheets": [
-                        {"name": "Common", "weight": 1}
+                        {
+                            "name": "DKS_Common",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "LCK_LCK": {
+            "weight": 1,
+            "slots": [
+                {
+                    "name": "Land",
+                    "count": 1,
+                    "sheets": [
+                        {
+                            "name": "LCK_LandRare",
+                            "weight": 1
+                        },
+                        {
+                            "name": "LCK_LandUncommon",
+                            "weight": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "RareOrMythic",
+                    "count": 1,
+                    "sheets": [
+                        {
+                            "name": "LCK_Mythic",
+                            "weight": 1
+                        },
+                        {
+                            "name": "LCK_Rare",
+                            "weight": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "UncommonOrLand",
+                    "count": 3,
+                    "sheets": [
+                        {
+                            "name": "LCK_Uncommon",
+                            "weight": 3
+                        },
+                        {
+                            "name": "LCK_LandUncommon",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Common",
+                    "count": 11,
+                    "sheets": [
+                        {
+                            "name": "LCK_Common",
+                            "weight": 1
+                        }
                     ]
                 }
             ]
         }
-    }
+    },
+    "predeterminedLayouts": [
+        "DKS_DKS",
+        "LCK_LCK",
+        "DKS_DKS"
+    ]
 }
-[Common]
+[DKS_Common]
+16 Ashen Idol
+16 Covetous Demon
+16 Dreg-Hollow Merchant
+16 Hollow
+16 Pyrewarden of the Things Betwixt
+16 Stray Demon
+16 Velka's Harpy
+16 Winged Chimera
+16 Batwing Demon
+16 Blessed Cleric
+16 Corrupted Hollow
+16 Flexile Sentry
+16 Forossa Lion Knight
+16 Infested Corpse
+16 Knights of Gwynevere
+16 Magic Barrier
+16 Mirrah Warrior
+16 New Londo Shade
+16 Resting Thief
+16 Soul of a Nameless Soldier
+16 Sunlight Spear
+16 Transient Curse
+16 Village Blacksmith
+16 Weary Travelers
+16 Adventuring Sorcerer
+16 Amana Priestess
+16 Aural Decoy
+16 Chameleon
+16 Crystal Butterfly
+16 Dual Charm
+16 Great Crab
+16 Hidden Body
+16 Homing Soul Mass
+16 Hooded Sorcerer
+16 Invisible Hollow
+16 Lost spell from Oolacile
+16 Magic Denial
+16 Old Sorcerer
+16 Petrifying Gaze
+16 Soul of an Unknown Traveler
+16 A Hero Gone Mad
+16 Chasm Giant
+16 Dark Edge
+16 Dark Hand of Kaathe
+16 Deep Fog
+16 Grave Warden
+16 Grip of Death
+16 Hollow Soldier
+16 Hound Rat
+16 Lothric Sentry
+16 Parasite Worm
+16 Royal Rat Vanguard
+16 Sift through the Ashes
+16 Something Petrified
+16 Soul of a Sorrowful Spirit
+16 Undead Hound
+16 Chaos Storm
+16 Cracked Redeye Orb
+16 Cragspider
+16 Demon Cleric
+16 Desert Pyromancer
+16 Evangelist of the Deep
+16 Firekeeper
+16 Firesage Demon
+16 Flamewielding Hollow
+16 Hollow Infantry
+16 Pesky Mosquito
+16 Profaned Flame
+16 Profuse Sweat
+16 Rapport
+16 Soul of an Old Pyromancer
+16 Sunlight Maggot
+16 Taurus Demon
+16 Unkindled's Journey
+16 Alluring Skull
+16 Amana Aberration
+16 Cathedral Evangelist
+16 Corrode
+16 Ent of the Darkroot Garden
+16 Festering Goblin
+16 Hesitant Surveyor
+16 Hollow Knight
+16 Milfanito
+16 Proselyte Scarlett
+16 Ravenous Crystal Lizard
+16 Sentinel of the Tower of Flame
+16 Shaded Woods
+16 Soul of a Lost Explorer
+16 Souls of the Living
+16 Undead Aberration
+16 Warcry
+16 Warp the Land
+16 Ruin Sentinels
+16 Sorcerer's Remedy
+16 Bell Gargoyles
+16 Broadsword
+16 Charm of the Undead Hunters
+16 Iron Golem
+16 Metaleater Spider
+16 Silver Amulet
+16 Silver Serpent Ring
+16 Thorolund Talisman
+
+[DKS_Uncommon]
+6 Four Kings
+6 Sif, the Great Grey Wolf
+6 Heretic Storyteller
+6 Heavenly Thunder
+6 Insolent Spirits
+6 Karmic Righteousness
+6 Miracle of the Way of White
+6 Petrified Egg
+6 Shulva's Denial
+6 Solaire of Astora
+6 Soothing Sunlight
+6 Swollen Mongrel
+6 Tears of Denial
+6 Wight
+6 Angelic Knight
+6 Ashen Estus
+6 Burning Ambition
+6 Farron Dart
+6 Pestilent Mercury
+6 Ruin Banshee
+6 Sage's Scroll
+6 Search the Library
+6 Twisted Wall of Light
+6 Wall Spectre
+6 Bonfire Ascetic
+6 Charred Knight
+6 Chosen Undead
+6 Clawed Curse
+6 Darkwraith
+6 Jailer
+6 Lordran Necromancer
+6 Resonant Flesh
+6 Resonant Soul
+6 Scraps of Life
+6 Acid Surge
+6 Capra Demon
+6 Fiery Soapstone
+6 Fire Orb
+6 Fire Surge
+6 Flame Whip
+6 Immolation
+6 Lingering Flame
+6 Permeating Flames
+6 Smoldering Rotten Flesh
+6 Contrasted Cursed
+6 Covenant of the Forest Hunter
+6 Duke's Dear Freja
+6 Estus Flask
+6 Expected Companions
+6 Lothric Knight
+6 Mimic
+6 Petrifying Statue
+6 Seek Embers
+6 The Serpent King
+6 Wistful Naivete
+6 Blade of the Darkmoon
+6 Disembodied Wisp
+6 Splintering Lightning
+6 Spreading Decay
+6 Bloodbite Ring
+6 Charm of the Abyss Watchers
+6 Chloranthy Ring
+6 Halberd
+6 Heide Knight
+6 Hornet Ring
+6 Looking Glass Knight
+6 Ring of a Great Warrior
+6 Soul Syphoner
+6 Titanite Shard
+
+[DKS_Rare]
+3 Anri of Astora
+3 Emit Force
+3 Homeward
+3 Reforge
+3 Siegmeyer of Catarina
+3 Sunlight Blade
+3 Vow of Silence
+3 Big Hat Logan
+3 Fume Sorcerer
+3 Hidden Weapon
+3 Outrider Knight
+3 Rumination
+3 Soul Spear
+3 Soul Stream
+3 Dark Sigil
+3 Frozen Reindeer
+3 Grave Warden's Tome
+3 Nimble Shadow
+3 Resonant Weapon
+3 Skim Memories
+3 The Great Swamp
+3 Carthus Beacon
+3 Chaos Bed Vestiges
+3 Forbidden Sun
+3 Hellkite Wyvern
+3 Ignite Steel
+3 Unbreakable Patches
+3 Carthus Rouge
+3 Dark Fog
+3 Gaping Dragon
+3 Pagan Tree
+3 Aldrich, Devourer of Gods
+3 Ancient Wyvern
+3 Archdeacon of the Deep
+3 Baneful Queen, Mytha
+3 Bed of Chaos
+3 Dragonslayer and Executioner
+3 Ember
+3 Fume Knight
+3 Gael, Seeker of Ash
+3 Hawkeye Gough
+3 Iudex Gundyr
+3 Knight Lautrec
+3 Stream of Estus
+3 Yhorm, the Giant
+3 Catalyst of the Witch of Izalith
+3 Charm of the Sunlight Princess
+3 Cursed Greatsword
+3 Eyes of a Firekeeper
+3 Shinku Doku Hitokiri
+3 Talisman of the Way of White
+3 Titanite Chunk
+3 Wolf Knight's Greatshield
+
+[DKS_Mythic]
+2 Into the Abyss
+2 Vordt and the Dancer
+2 Curse of the Dead
+2 Gravelord Nito
+2 Ringfinger Leonhard
+2 Abyss Watchers
+2 Pickle Pee, Pump-a-Rum
+2 Gravelord's Maelstrom
+2 Gwyn, Lord of Cinder
+2 King of the Storm
+2 Knight Artorias
+2 Lorian and Lothric
+2 Homeward Bone
+2 Kiln of the First Flame
+2 Moonlight Greatsword
+2 Ring of Sacrifice
+
+[DKS_LandUncommon]
+6 Anor Londo
+6 Archdragon Peak
+6 Cathedral of Blue
+6 Cathedral of the Deep
+6 Comforting Fire
+6 Darkroot Garden
+6 Farron Keep
+6 Irithyll of the Boreal Valley
+6 Lost Izalith
+6 Road of Sacrifices
+6 Shrine of Amana
+
+[DKS_LandRare]
+3 Lothric Castle
+3 The Fire Fades
+
+[DKS_LandMythic]
+2 Blighttown
+2 Firelink Shrine
+
+[DKS_Basic]
+8 Plains
+8 Island
+8 Swamp
+8 Mountain
+8 Forest
+8 Wastes
+
+[LCK_Common]
 16 Alonne Knight Captain
 16 Alonne Phantom
 16 Archdrake Cleric
@@ -4141,7 +8037,7 @@
 16 Resplendent Projection
 16 Sunless Amulet
 
-[Uncommon]
+[LCK_Uncommon]
 6 Aldia's Reckoning
 6 Praying Hollow
 6 Stone-Humped Old Hag
@@ -4196,7 +8092,7 @@
 6 Talisman of Want
 6 Zweihander
 
-[Rare]
+[LCK_Rare]
 3 The Pursuer
 3 A Call to the Ash
 3 Flowing Curse
@@ -4253,7 +8149,7 @@
 3 The Great Seal of Thorolund
 3 Uchigatana
 
-[Mythic]
+[LCK_Mythic]
 2 Olaphis Statue
 2 Sinh, the Slumbering Dragon
 2 Carim Guardian
@@ -4274,7 +8170,7 @@
 2 Mox Citrine
 2 New Londo Talisman
 
-[LandUncommon]
+[LCK_LandUncommon]
 6 Ash Lake
 6 Brightstone Cove Tseldora
 6 Chamber of the Princess
@@ -4306,12 +8202,12 @@
 6 Undead Burg
 6 Untended Graves
 
-[LandRare]
+[LCK_LandRare]
 3 Fireless Shrine
 3 The Dreg Heap
 3 The Grand Archives
 
-[LandMythic]
+[LCK_LandMythic]
 
-[Basic]
+[LCK_Basic]
 

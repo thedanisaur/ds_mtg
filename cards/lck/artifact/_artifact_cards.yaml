@@ -58,14 +58,15 @@ card_budding_lotus:
 card_burnt_offering:
   front:
     name: "Burnt Offering"
-    cost: "{1}"
+    cost: "{2}"
     super: ""
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      {5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have five or more souls.
+      {T}, Pay one soul: Add one mana of any color to your mana pool.
+      {5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.
     flavor_text: "Harnessing the fiery remnants of Lost Izalith can grant the power to peel back eternity."
     artwork_url: "https://i.ibb.co/8q0xjWQ/burnt-offering-by-cobalt-plasma-resize.jpg"
     artist: "cobaltplasma"
@@ -364,7 +365,7 @@ card_moaning_sanctum:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Fortified land has "{B/G}, {T}: Return a permanent card from your graveyard to your hand. Activate this ability only if your life total changed this turn."
+      Fortified land has "{B/G}, Sacrifice another land: Return a permanent card from your graveyard, that wasn't put there this turn, to your hand. You gain 2 life and get two souls."
       Fortify {1}
     flavor_text: "A sickening miasma corrupts the inhabitants pulled from this once sanctuary."
     artwork_url: "https://i.pinimg.com/736x/5f/7f/d2/5f7fd238201452bd855663a08798ac55.jpg"
@@ -606,13 +607,12 @@ card_talisman_of_want:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-      Equipped creature has "{T}: Each spell you cast this turn costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
+      At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.
+      Equipped creature has "Whenever an opponent loses life, you gain that much life."
       Equip {2}
     flavor_text: ""
     artwork_url: "https://i.ibb.co/CgQfzY5/talisman-of-want-by-yuchen-wang-resize.jpg"
     artist: "Yuchen Wang"
-    colors: '{W}{U}{B}{R}{G}'
     number: 266
 
 card_tarkus_iron_knight:

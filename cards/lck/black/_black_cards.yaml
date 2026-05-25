@@ -596,7 +596,7 @@ card_soulbound_wretched_undead:
 card_spreading_contamination:
   front:
     name: "Spreading Contamination"
-    cost: "{1}{B}"
+    cost: "{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"
@@ -604,7 +604,8 @@ card_spreading_contamination:
     rating: 3
     rules_text: |
       Enchant land
-      Enchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~.
+      Enchanted land is a swamp.
+      At the beginning of your upkeep, if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~. Otherwise, put a contamination counter on target land.
       Each land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.
     flavor_text: ""
     artwork_url: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/05/fromsoftware-poison-swamp-defense.jpg"

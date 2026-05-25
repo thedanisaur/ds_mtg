@@ -2,10 +2,10 @@ settings = '''
 [Settings]
 {
     "layouts": {
-        "Default": {
+        "LCK": {
             "weight": 1,
             "slots": [
-                {"name": "Common",   "count": 15},
+                {"name": "Common", "count": 15},
             ]
         }
     }

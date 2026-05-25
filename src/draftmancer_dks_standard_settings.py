@@ -2,7 +2,7 @@ settings = '''
 [Settings]
 {
     "layouts": {
-        "Default": {
+        "DKS": {
             "weight": 1,
             "slots": [
                 {
@@ -12,7 +12,7 @@ settings = '''
                         {"name": "LandMythic",  "weight": 1},
                         {"name": "LandRare",  "weight": 4},
                         {"name": "LandUncommon",  "weight": 8},
-                        {"name": "Basic", "weight": 32},
+                        {"name": "Basic", "weight": 32}
                     ]
                 },
                 {
@@ -49,7 +49,13 @@ settings = '''
                         {"name": "LandUncommon",  "weight": 1}
                     ]
                 },
-                {"name": "Common",   "count": 11},
+                {
+                    "name": "Common",
+                    "count": 11,
+                    "sheets": [
+                        {"name": "Common", "weight": 1}
+                    ]
+                }
             ]
         }
     }

@@ -446,8 +446,9 @@ You can't lose the game this turn and your opponenets can't win the game this tu
     </card>
     <card>
         <name>Lothric, Oath's Forsaken</name>
-        <text>Lifelink, protection from sources with plague
-Exile three nonlegendary creature cards from your graveyard: Return target Legendary creature from your graveyard to the battlefield.</text>
+        <text>You may cast ~ any time you could cast an instant.
+Lifelink, protection from sources with plague
+When ~ enters the battlefield return all creature cards from your graveyard that were put there from the battlefield this turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Lord</type>
@@ -1996,14 +1997,15 @@ Augur 4 (If you would draw a card, instead you may cast this card from your grav
     <card>
         <name>Spreading Contamination</name>
         <text>Enchant land
-Enchanted land is a swamp. At the beginning of your upkeep, put a contamination counter on target land, then if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~.
+Enchanted land is a swamp.
+At the beginning of your upkeep, if there are no non-Swamp lands on the battlefield remove all contamination counters and sacrifice ~. Otherwise, put a contamination counter on target land.
 Each land with a contamination counter on it is a swamp. Whenever a swamp is tapped for mana, that land's controller adds an additional {B}.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura Curse</type>
             <maintype>Enchantment</maintype>
-            <manacost>{1}{B}</manacost>
-            <cmc>2</cmc>
+            <manacost>{B}</manacost>
+            <cmc>1</cmc>
             <colors>B</colors>
         </prop>
         <set rarity="Uncommon" num="123" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/spreading_contamination.jpeg">DKS</set>
@@ -3531,7 +3533,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3599,7 +3601,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3615,7 +3617,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3683,7 +3685,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3698,7 +3700,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">DKS</set>
@@ -3729,7 +3731,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
         </prop>
         <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3801,13 +3803,14 @@ At the beginning of your upkeep, put a petal counter on ~.
     </card>
     <card>
         <name>Burnt Offering</name>
-        <text>{5}, {T}, You remove all soul counters: Return a card you own in exile to your hand. Activate only if you have five or more souls.</text>
+        <text>{T}, Pay one soul: Add one mana of any color to your mana pool.
+{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>
             <maintype>Artifact</maintype>
-            <manacost>{1}</manacost>
-            <cmc>1</cmc>
+            <manacost>{2}</manacost>
+            <cmc>2</cmc>
         </prop>
         <set rarity="Uncommon" num="235" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg">DKS</set>
         <tablerow>1</tablerow>
@@ -4047,7 +4050,7 @@ When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Other
     </card>
     <card>
         <name>Moaning Sanctum</name>
-        <text>Fortified land has "{B/G}, {T}: Return a permanent card from your graveyard to your hand. Activate this ability only if your life total changed this turn."
+        <text>Fortified land has "{B/G}, Sacrifice another land: Return a permanent card from your graveyard, that wasn't put there this turn, to your hand. You gain 2 life and get two souls."
 Fortify {1}</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4245,8 +4248,8 @@ When this artifact is put into a graveyard from the battlefield, draw a card.</t
     </card>
     <card>
         <name>Talisman of Want</name>
-        <text>When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
-Equipped creature has "{T}: Each spell you cast this turn costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
+        <text>At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.
+Equipped creature has "Whenever an opponent loses life, you gain that much life."
 Equip {2}</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4969,7 +4972,7 @@ When you control more Curses than your life total, you lose the game.
             <pt>X/X</pt>
         </prop>
         <set rarity="Token" num="9" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/hollow.jpeg">DKS</set>
-        <reverse-related>Raise the Sloughtender, Talisman of Want</reverse-related>
+        <reverse-related>Raise the Sloughtender</reverse-related>
         <token>1</token>
         <tablerow>2</tablerow>
     </card>

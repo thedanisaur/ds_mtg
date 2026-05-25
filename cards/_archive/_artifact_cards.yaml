@@ -14,3 +14,22 @@ card_storm_ruler:
     artwork_url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/11/storm-ruler-dark-souls-3.jpg"
     artist: "fromsoft"
     number: 207
+
+card_talisman_of_want:
+  front:
+    name: "Talisman of Want"
+    cost: "{1}"
+    super: ""
+    type: "Artifact"
+    sub: "Equipment"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
+      Equipped creature has "{T}: Each spell you cast this turn costs {W}, {U}, {B}, {R}, or {G} less to cast. (You choose the cost reduction as you determine the cost of the spell. This cost reduction cannot reduce generic mana costs.)"
+      Equip {2}
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/CgQfzY5/talisman-of-want-by-yuchen-wang-resize.jpg"
+    artist: "Yuchen Wang"
+    colors: '{W}{U}{B}{R}{G}'
+    number: 266

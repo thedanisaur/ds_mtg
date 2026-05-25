@@ -67,6 +67,9 @@ set_weights_all = {
     'lck': card_counts_lck,
 }
 
+def _build_cards_by_rarity_dict():
+    return { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
+
 def convert_mana_cost(mana_string):
     # Regular expression to find all mana symbols
     # Match hybrid and phyrexian mana first (e.g., 2/R, W/U, G/P), then single letters/numbers
@@ -137,7 +140,10 @@ def _generate_card_list(set, cards_by_rarity):
                                 'FaceUp',
                                 'CogworkLibrarian',
                             ]
-                        if card_front['type'] == 'Land' and card_front['super'] == 'Basic':
+                        # LCK doesn't have basics in boosters, leave them out for multi-set drafts
+                        if card_front['type'] == 'Land' and card_front['super'] == 'Basic' and set in ['lck']:
+                            continue
+                        elif card_front['type'] == 'Land' and card_front['super'] == 'Basic':
                             cards_by_rarity[card_front['super']].append(card)
                         elif card_front['type'] == 'Land':
                             cards_by_rarity[card_front['type'] + card_front['rarity']].append(card)
@@ -145,6 +151,55 @@ def _generate_card_list(set, cards_by_rarity):
                             cards_by_rarity[card_front['rarity']].append(card)
 
     return cards_by_rarity
+
+def _join_standard_settings(sets):
+    layouts = {}
+
+    for set_name in sets:
+        module_name = f"draftmancer_{set_name}_standard_settings"
+        module = importlib.import_module(module_name)
+
+        settings = module.settings
+        settings = settings.replace('[Settings]', '').strip()
+        parsed = json.loads(settings)
+        set_layouts = parsed.get('layouts', {})
+
+        for layout_name, layout in set_layouts.items():
+            # for slot in layout.get('slots', []):
+            #     if 'sheets' not in slot:
+            #         continue
+            #     for sheet in slot['sheets']:
+            #         sheet['name'] = (f"{set_name.upper()}_{sheet['name']}")
+            # layouts[layout_name] = layout
+                        # Rename layout to avoid collisions
+            new_layout_name = f"{set_name.upper()}_{layout_name}"
+
+            # Rewrite sheet references
+            for slot in layout.get('slots', []):
+                if 'sheets' not in slot:
+                    continue
+
+                for sheet in slot['sheets']:
+                    sheet['name'] = (
+                        f"{set_name.upper()}_{sheet['name']}"
+                    )
+
+            layouts[new_layout_name] = layout
+
+    return (
+        "[Settings]\n"
+        + json.dumps(
+            {
+                "layouts": layouts,
+                "predeterminedLayouts": [
+                    f"{sets[0].upper()}_{sets[0].upper()}",
+                    f"{sets[1].upper()}_{sets[1].upper()}",
+                    f"{sets[0].upper()}_{sets[0].upper()}"
+                ]
+            },
+            indent=4
+        )
+    )
 
 def _write_standard_settings(set, cards_by_rarity):
     module_name = f"draftmancer_{set}_standard_settings"
@@ -218,9 +273,58 @@ def _write_no_rarity_settings(set, cards_by_rarity):
         print(f"{draftmancer_no_rarity}: ✅ Sheets written")
     print(f"{draftmancer_no_rarity}: ✅ Updated successfully")
 
+def _write_multi_set_standard_settings(sets):
+    cards_by_rarity_by_set = {}
+
+    for set_name in sets:
+        cards_by_rarity = _build_cards_by_rarity_dict()
+        cards_by_rarity_by_set[set_name] = _generate_card_list(set_name, cards_by_rarity)
+
+    # Write back the updated content for a standard draft
+    draftmancer_standard = f"draftmancer_{'_'.join(sets)}_standard.txt"
+
+    with open(draftmancer_standard, "w", encoding="utf-8") as file:
+        print(f"{draftmancer_standard}: Writing custom cards")
+        file.write('[CustomCards]\n')
+        file.write('[\n')
+        all_cards = []
+        for set_name in sets:
+            for rarity in cards_by_rarity_by_set[set_name]:
+                all_cards.extend(cards_by_rarity_by_set[set_name][rarity])
+        for index, card in enumerate(all_cards):
+            file.write(f"{json.dumps(card, indent=4)}")
+            if index != len(all_cards) - 1:
+                file.write(",")
+            file.write("\n")
+        file.write(']\n')
+        print(f"{draftmancer_standard}: ✅ Cards written")
+
+        print(f"{draftmancer_standard}: Writing settings")
+        file.write(f"{_join_standard_settings(sets)}\n")
+        print(f"{draftmancer_standard}: ✅ Settings written")
+
+        print(f"{draftmancer_standard}: Writing sheets")
+        for set_name in sets:
+            set_weights = set_weights_all.get(set_name, {})
+            for rarity in cards_by_rarity_by_set[set_name]:
+                sheet_name = f"{set_name.upper()}_{rarity}"
+                file.write(f"[{sheet_name}]\n")
+                for card in cards_by_rarity_by_set[set_name][rarity]:
+                    weight = set_weights.get(rarity, '')
+                    if len(weight) == 0:
+                        exit(
+                            f"missing card weight for "
+                            f"set={set_name} rarity={rarity}"
+                        )
+                    file.write(weight)
+                    file.write(f"{card['name']}\n")
+                file.write("\n")
+        print(f"{draftmancer_standard}: ✅ Sheets written")
+    print(f"{draftmancer_standard}: ✅ Updated successfully")
+
 def generate_draftmancer():
     # Configurations
-    cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
+    cards_by_rarity = _build_cards_by_rarity_dict()
 
     for set_folder in sorted(os.listdir(CARD_PATH)):
         # skip folders that aren't sets
@@ -230,7 +334,9 @@ def generate_draftmancer():
         cards_by_rarity = _generate_card_list(set_folder, cards_by_rarity)
         _write_standard_settings(set_folder, cards_by_rarity)
         _write_no_rarity_settings(set_folder, cards_by_rarity)
-        cards_by_rarity = { 'Common': [], 'Uncommon': [], 'Rare': [], 'Mythic': [], 'LandUncommon': [], 'LandRare': [], 'LandMythic': [], 'Basic': [] }
+        cards_by_rarity = _build_cards_by_rarity_dict()
+
+    _write_multi_set_standard_settings(['dks', 'lck'])
 
 if __name__ == '__main__':
     generate_draftmancer()
