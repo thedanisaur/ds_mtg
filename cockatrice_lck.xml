@@ -552,7 +552,7 @@ Cycling {1}{W} ({W}, Discard this card: Draw a card.)</text>
             <cmc>5</cmc>
             <colors>W</colors>
         </prop>
-        <set rarity="Uncommon" num="33" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/radiant_blast.jpeg">DKS</set>
+        <set rarity="Common" num="33" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/radiant_blast.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -1313,7 +1313,7 @@ Delayed {2}{U}{U} (You may pay {2}{U}{U} and exile this card from your hand. Cas
             <colors>U</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Uncommon" num="80" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/reckless_alchemist.jpeg">DKS</set>
+        <set rarity="Rare" num="80" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/reckless_alchemist.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -1595,7 +1595,7 @@ When ~ becomes the target of a spell or ability, sacrifice it.
     </card>
     <card>
         <name>Cursed Jar</name>
-        <text>When ~ dies, put one curse counter on target creature, player, or planeswalker, then double the number of curse counters on all creatures, players, and planeswalkers.</text>
+        <text>When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Elemental</type>
@@ -1799,7 +1799,7 @@ Creatures lose indestructible until end of turn. Destroy all creatures.</text>
             <cmc>6</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Common" num="111" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/heretics_darkstorm.jpeg">DKS</set>
+        <set rarity="Rare" num="111" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/heretics_darkstorm.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2130,7 +2130,7 @@ When ~ enters the battlefield or dies, each player sacrifices a nontoken creatur
             <cmc>3</cmc>
             <colors>B</colors>
         </prop>
-        <set rarity="Uncommon" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/waning_prudence.jpeg">DKS</set>
+        <set rarity="Rare" num="131" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/waning_prudence.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2739,7 +2739,7 @@ Spells you control can't be countered this turn. Draw two cards, discard a card,
             <cmc>2</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" num="169" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soothing_chant.jpeg">DKS</set>
+        <set rarity="Rare" num="169" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soothing_chant.jpeg">DKS</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2954,7 +2954,7 @@ Whenever a creature you control is turned face up, put a +1/+1 counter on target
             <colors>G</colors>
             <pt>2/1</pt>
         </prop>
-        <set rarity="Uncommon" num="182" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/brume_tower_warrior.jpeg">DKS</set>
+        <set rarity="Common" num="182" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/brume_tower_warrior.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3279,7 +3279,7 @@ Delayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it o
             <cmc>3</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/marching_inevitablility.jpeg">DKS</set>
+        <set rarity="Rare" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/marching_inevitablility.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3533,7 +3533,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">DKS</set>
@@ -3566,7 +3566,7 @@ When ~ leaves the battlefield, the exiled card's casts that card without paying 
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">DKS</set>
@@ -3601,7 +3601,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">DKS</set>
@@ -3617,7 +3617,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">DKS</set>
@@ -3670,7 +3670,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <colors>RB</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Rare" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
+        <set rarity="Uncommon" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">DKS</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3685,7 +3685,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3746,7 +3746,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>GU</colors>
+            <colors>UG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">DKS</set>
@@ -3812,7 +3812,7 @@ At the beginning of your upkeep, put a petal counter on ~.
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Uncommon" num="235" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg">DKS</set>
+        <set rarity="Common" num="235" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3854,7 +3854,7 @@ At the beginning of your upkeep, put a petal counter on ~.
             <manacost>{1}</manacost>
             <cmc>1</cmc>
         </prop>
-        <set rarity="Uncommon" num="238" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_forest_hunters.jpeg">DKS</set>
+        <set rarity="Common" num="238" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_forest_hunters.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3898,7 +3898,7 @@ Equip {1}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" num="241" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_ivory_king.jpeg">DKS</set>
+        <set rarity="Uncommon" num="241" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_ivory_king.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3913,7 +3913,7 @@ Equip {2}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" num="242" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_old_iron_king.jpeg">DKS</set>
+        <set rarity="Uncommon" num="242" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_old_iron_king.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3928,7 +3928,7 @@ Equip {3}</text>
             <manacost>{2}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" num="243" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_sunken_king.jpeg">DKS</set>
+        <set rarity="Uncommon" num="243" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_sunken_king.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -4291,7 +4291,7 @@ Play with the top card of your library revealed.
             <manacost>{X}{1}</manacost>
             <cmc>2</cmc>
         </prop>
-        <set rarity="Rare" num="268" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_champions_tablet.jpeg">DKS</set>
+        <set rarity="Uncommon" num="268" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_champions_tablet.jpeg">DKS</set>
         <tablerow>1</tablerow>
     </card>
     <card>

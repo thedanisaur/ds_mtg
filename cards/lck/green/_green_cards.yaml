@@ -124,7 +124,7 @@ card_brume_tower_warrior:
     super: ""
     type: "Creature"
     sub: "Human Knight"
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Creatures with power less than ~'s power can't block it.
@@ -505,7 +505,7 @@ card_marching_inevitablility:
     super: ""
     type: "Enchantment"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.

@@ -484,7 +484,7 @@ card_radiant_blast:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       Destroy all artifacts and creatures.

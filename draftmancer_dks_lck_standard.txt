@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "R",
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "R",
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
         "U",
+        "G",
         "B",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "R",
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3128,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3142,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "U",
             "B",
-            "W",
-            "U"
+            "W"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
         "U",
+        "G",
         "B",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3249,8 +3249,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "G",
         "B",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3294,8 +3294,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3364,8 +3364,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "G",
         "B",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -3687,6 +3687,19 @@
     "rating": 3,
     "oracle_text": "Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/path_of_the_dragon.jpeg"
+},
+{
+    "name": "Radiant Blast",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{3}{W}{W}",
+    "colors": [
+        "W"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Destroy all artifacts and creatures.\nWhen you cycle ~ you may destroy target artifact or nonwhite creature.\nCycling {1}{W} ({W}, Discard this card: Draw a card.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/radiant_blast.jpeg"
 },
 {
     "name": "Royal Swordsman",
@@ -4166,7 +4179,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ dies, put one curse counter on target creature, player, or planeswalker, then double the number of curse counters on all creatures, players, and planeswalkers.\n",
+    "oracle_text": "When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/cursed_jar.jpeg"
 },
 {
@@ -4259,19 +4272,6 @@
     "rating": 3,
     "oracle_text": "Lifelink, protection from white.\nCycling {1}{B} ({1}{B}, Discard this card: Draw a card.)\nWhen you cycle ~, all creatures get -2/-2 until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/harald_legion_knight.jpeg"
-},
-{
-    "name": "Heretic's Darkstorm",
-    "super": "",
-    "type": "Instant",
-    "mana_cost": "{4}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.\nCreatures lose indestructible until end of turn. Destroy all creatures.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/heretics_darkstorm.jpeg"
 },
 {
     "name": "Hexing Curse from Olaphis",
@@ -4716,19 +4716,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg"
 },
 {
-    "name": "Soothing Chant",
-    "super": "",
-    "type": "Instant",
-    "mana_cost": "{1}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.\nSpells you control can't be countered this turn. Draw two cards, discard a card, and get two souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soothing_chant.jpeg"
-},
-{
     "name": "Soul of a Kindled Conjurer",
     "super": "",
     "type": "Enchantment",
@@ -4818,6 +4805,19 @@
     "rating": 3,
     "oracle_text": "Deathtouch\n{G}, Discard ~: Target attacking creature gets +1/+1 and gains deathtouch until end of turn. If another card went to your graveyard this turn, put a +1/+1 counter and a deathtouch counter on that creature instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/blowdart_sniper.jpeg"
+},
+{
+    "name": "Brume Tower Warrior",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "Creatures with power less than ~'s power can't block it.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever a creature you control is turned face up, put a +1/+1 counter on target creature.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/brume_tower_warrior.jpeg"
 },
 {
     "name": "Caged Bargainer",
@@ -4948,19 +4948,6 @@
     "rating": 3,
     "oracle_text": "Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.\nAugur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/honorable_duel.jpeg"
-},
-{
-    "name": "Marching Inevitablility",
-    "super": "",
-    "type": "Enchantment",
-    "mana_cost": "{2}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "common",
-    "rating": 3,
-    "oracle_text": "Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.\nDelayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/marching_inevitablility.jpeg"
 },
 {
     "name": "Old Ironclad Troll",
@@ -5098,8 +5085,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5112,8 +5099,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5140,8 +5127,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5196,8 +5183,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5216,6 +5203,17 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/bloodred_moss_clump.jpeg"
 },
 {
+    "name": "Burnt Offering",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "{T}, Pay one soul: Add one mana of any color to your mana pool.\n{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg"
+},
+{
     "name": "Charm of the Darkmoon Blades",
     "super": "",
     "type": "Artifact",
@@ -5225,6 +5223,17 @@
     "rating": 3,
     "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: As long as this card remains tapped, if a token would enter the battlefield you draw a card instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_darkmoon_blades.jpeg"
+},
+{
+    "name": "Charm of the Forest Hunters",
+    "super": "",
+    "type": "Artifact",
+    "mana_cost": "{1}",
+    "colors": [],
+    "rarity": "common",
+    "rating": 3,
+    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: As long as this card remains tapped, target permanent can't deal damage and its loyalty abilities can't be activated.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_forest_hunters.jpeg"
 },
 {
     "name": "Corrosive Urn",
@@ -5431,19 +5440,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/lucatiel_of_mirrah.jpeg"
 },
 {
-    "name": "Radiant Blast",
-    "super": "",
-    "type": "Sorcery",
-    "mana_cost": "{3}{W}{W}",
-    "colors": [
-        "W"
-    ],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "Destroy all artifacts and creatures.\nWhen you cycle ~ you may destroy target artifact or nonwhite creature.\nCycling {1}{W} ({W}, Discard this card: Draw a card.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/radiant_blast.jpeg"
-},
-{
     "name": "Resplendent Life",
     "super": "",
     "type": "Enchantment",
@@ -5559,19 +5555,6 @@
     "rating": 3,
     "oracle_text": "~ can't be the target of spells or abilities.\nChameleon {1}{U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhen ~ is turned face up, return target creature you control and target creature you don't control to their owner's hands.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/murkman.jpeg"
-},
-{
-    "name": "Reckless Alchemist",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{2}{U}",
-    "colors": [
-        "U"
-    ],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "When a spell or ability causes you to discard ~, choose a nonland card type. Search your library for a card of that type, reveal it, put it into your hand, and shuffle your library.\n{U}, {T}, Discard a card, Sacrifice a nonland permanent: Search your library for a card with the same type, put that card onto the battlefield. You get two souls. Shuffle your library.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/reckless_alchemist.jpeg"
 },
 {
     "name": "Twisted Atonement",
@@ -5691,19 +5674,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/twisted_recollection.jpeg"
 },
 {
-    "name": "Waning Prudence",
-    "super": "",
-    "type": "Sorcery",
-    "mana_cost": "{1}{B}{B}",
-    "colors": [
-        "B"
-    ],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/waning_prudence.jpeg"
-},
-{
     "name": "Aldia's Forlorn",
     "super": "",
     "type": "Creature",
@@ -5795,19 +5765,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/beast_of_amana.jpeg"
 },
 {
-    "name": "Brume Tower Warrior",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{1}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "Creatures with power less than ~'s power can't block it.\nChameleon {1}{G} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)\nWhenever a creature you control is turned face up, put a +1/+1 counter on target creature.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/brume_tower_warrior.jpeg"
-},
-{
     "name": "Deep Accursed",
     "super": "",
     "type": "Creature",
@@ -5891,8 +5848,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -5900,13 +5857,27 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg"
 },
 {
+    "name": "Rupturing Hollow",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{B/R}{B/R}",
+    "colors": [
+        "R",
+        "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Deathtouch, haste\nWhen ~ leaves the battlefield, target player gets four souls.\nSacrifice ~: Destroy target creature or planeswalker.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg"
+},
+{
     "name": "Serpent's Regrowth",
     "super": "",
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -5939,17 +5910,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/ballista_tower.jpeg"
 },
 {
-    "name": "Burnt Offering",
-    "super": "",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "{T}, Pay one soul: Add one mana of any color to your mana pool.\n{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg"
-},
-{
     "name": "Charm of the Darkwraiths",
     "super": "",
     "type": "Artifact",
@@ -5961,15 +5921,37 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_darkwraiths.jpeg"
 },
 {
-    "name": "Charm of the Forest Hunters",
-    "super": "",
+    "name": "Crown of the Ivory King",
+    "super": "Legendary",
     "type": "Artifact",
-    "mana_cost": "{1}",
+    "mana_cost": "{2}",
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.\n{T}, Remove a charge counter from this card: As long as this card remains tapped, target permanent can't deal damage and its loyalty abilities can't be activated.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/charm_of_the_forest_hunters.jpeg"
+    "oracle_text": "Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)\nEquipped creature has \"Whenever a colored nonartifact permanent is untapped you gain 1 lifeand get one soul.\"\nEquip {1}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_ivory_king.jpeg"
+},
+{
+    "name": "Crown of the Old Iron King",
+    "super": "Legendary",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Colored nonartifact spells cost {1} more to cast.\nEquipped creature has \"Spells you control cost {1} less to cast.\"\nEquip {2}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_old_iron_king.jpeg"
+},
+{
+    "name": "Crown of the Sunken King",
+    "super": "Legendary",
+    "type": "Artifact",
+    "mana_cost": "{2}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)\nEquipped creature has \"Sacrifice three artifacts: Search your library for a Dragon card, put it onto the battlefield. Shuffle your library. Activate only as a sorcery.\"\nEquip {3}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_sunken_king.jpeg"
 },
 {
     "name": "Ring of Favor",
@@ -6003,6 +5985,17 @@
     "rating": 3,
     "oracle_text": "At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.\nEquipped creature has \"Whenever an opponent loses life, you gain that much life.\"\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/talisman_of_want.jpeg"
+},
+{
+    "name": "The Champion's Tablet",
+    "super": "",
+    "type": "Legendary Artifact",
+    "mana_cost": "{X}{1}",
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "~ enters the battlefield with X awestone counters on it.\nAt the beginning of your upkeep you may put an awestone counter on ~.\nPlay with the top card of your library revealed.\n{T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from your library onto the battlefield.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_champions_tablet.jpeg"
 },
 {
     "name": "Zweihander",
@@ -6221,6 +6214,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/pontiff_sulyvahn.jpeg"
 },
 {
+    "name": "Reckless Alchemist",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{2}{U}",
+    "colors": [
+        "U"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "When a spell or ability causes you to discard ~, choose a nonland card type. Search your library for a card of that type, reveal it, put it into your hand, and shuffle your library.\n{U}, {T}, Discard a card, Sacrifice a nonland permanent: Search your library for a card with the same type, put that card onto the battlefield. You get two souls. Shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/reckless_alchemist.jpeg"
+},
+{
     "name": "Scour the Archives",
     "super": "",
     "type": "Instant",
@@ -6286,6 +6292,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/gnawing_corpse_rat.jpeg"
 },
 {
+    "name": "Heretic's Darkstorm",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{4}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.\nCreatures lose indestructible until end of turn. Destroy all creatures.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/heretics_darkstorm.jpeg"
+},
+{
     "name": "Royal Sorcerer",
     "super": "",
     "type": "Creature",
@@ -6322,6 +6341,19 @@
     "rating": 3,
     "oracle_text": "Deathtouch, lifelink\nMadness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nCycling {2}{B} ({2}{B}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/sir_vilhelm.jpeg"
+},
+{
+    "name": "Waning Prudence",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{1}{B}{B}",
+    "colors": [
+        "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/waning_prudence.jpeg"
 },
 {
     "name": "Cathedral Warden",
@@ -6387,6 +6419,19 @@
     "rating": 4,
     "oracle_text": "You may exile a red card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 ~ deals 5 damage to each creature.\n\u2022 Destroy up to two target lands.\n\u2022 Exile target permanent. The controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.\n\u2022 Each player discards their hand and draws 7 cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/rosarias_fingers.jpeg"
+},
+{
+    "name": "Soothing Chant",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.\nSpells you control can't be countered this turn. Draw two cards, discard a card, and get two souls.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soothing_chant.jpeg"
 },
 {
     "name": "Splintering Bolt",
@@ -6493,6 +6538,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/hush_dear_accursed.jpeg"
 },
 {
+    "name": "Marching Inevitablility",
+    "super": "",
+    "type": "Enchantment",
+    "mana_cost": "{2}{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "oracle_text": "Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.\nDelayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/marching_inevitablility.jpeg"
+},
+{
     "name": "Parasite-ridden Dragon",
     "super": "",
     "type": "Creature",
@@ -6534,20 +6592,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg"
 },
 {
-    "name": "Rupturing Hollow",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{2}{B/R}{B/R}",
-    "colors": [
-        "R",
-        "B"
-    ],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "Deathtouch, haste\nWhen ~ leaves the battlefield, target player gets four souls.\nSacrifice ~: Destroy target creature or planeswalker.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg"
-},
-{
     "name": "Budding Lotus",
     "super": "",
     "type": "Artifact",
@@ -6557,39 +6601,6 @@
     "rating": 5,
     "oracle_text": "~ enters the battlefield tapped with a petal counter on it.\nAt the beginning of your upkeep, put a petal counter on ~.\n{T}, Sacrifice ~: Add X mana of any one color to your mana pool where X is the number of petal counters on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/budding_lotus.jpeg"
-},
-{
-    "name": "Crown of the Ivory King",
-    "super": "Legendary",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)\nEquipped creature has \"Whenever a colored nonartifact permanent is untapped you gain 1 lifeand get one soul.\"\nEquip {1}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_ivory_king.jpeg"
-},
-{
-    "name": "Crown of the Old Iron King",
-    "super": "Legendary",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "Colored nonartifact spells cost {1} more to cast.\nEquipped creature has \"Spells you control cost {1} less to cast.\"\nEquip {2}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_old_iron_king.jpeg"
-},
-{
-    "name": "Crown of the Sunken King",
-    "super": "Legendary",
-    "type": "Artifact",
-    "mana_cost": "{2}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)\nEquipped creature has \"Sacrifice three artifacts: Search your library for a Dragon card, put it onto the battlefield. Shuffle your library. Activate only as a sorcery.\"\nEquip {3}\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/crown_of_the_sunken_king.jpeg"
 },
 {
     "name": "Curator of the Grand Archives",
@@ -6693,17 +6704,6 @@
     "rating": 3,
     "oracle_text": "Indestructible\nWhen ~ enters the battlefield, if an opponent controls a Giant, you gain 4 life.\n~ gets +2/+2 for each equipment attached to it.\nWhen ~ is dealt damage by a creature with more power than toughness, sacrifice it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/tarkus_iron_knight.jpeg"
-},
-{
-    "name": "The Champion's Tablet",
-    "super": "",
-    "type": "Legendary Artifact",
-    "mana_cost": "{X}{1}",
-    "colors": [],
-    "rarity": "rare",
-    "rating": 3,
-    "oracle_text": "~ enters the battlefield with X awestone counters on it.\nAt the beginning of your upkeep you may put an awestone counter on ~.\nPlay with the top card of your library revealed.\n{T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from your library onto the battlefield.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_champions_tablet.jpeg"
 },
 {
     "name": "The Great Seal of Thorolund",
@@ -6978,9 +6978,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -6993,9 +6993,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7022,8 +7022,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7050,8 +7050,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7075,9 +7075,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7090,8 +7090,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7105,8 +7105,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7133,9 +7133,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7149,8 +7149,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7192,8 +7192,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7206,9 +7206,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7222,8 +7222,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7251,8 +7251,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7265,8 +7265,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7280,8 +7280,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7294,9 +7294,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7324,8 +7324,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7338,8 +7338,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7381,11 +7381,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "G",
         "B",
-        "W",
-        "G"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -7399,8 +7399,8 @@
     "mana_cost": "",
     "colors": [
         "R",
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7907,6 +7907,7 @@
 16 Painted Guardian
 16 Painted Recruiter
 16 Path of the Dragon
+16 Radiant Blast
 16 Royal Swordsman
 16 Soul of a Weary Warrior
 16 Spellsword Knight
@@ -7951,7 +7952,6 @@
 16 Dripping Slime
 16 Festering Undead Rat
 16 Harald Legion Knight
-16 Heretic's Darkstorm
 16 Hexing Curse from Olaphis
 16 Necrotic Husk
 16 Resonant Life
@@ -7986,7 +7986,6 @@
 16 Scream of Defiance
 16 Shaded Scorpion
 16 Shimmering Void
-16 Soothing Chant
 16 Soul of a Kindled Conjurer
 16 Torturous Demon
 16 Volgen Falconer
@@ -7994,6 +7993,7 @@
 16 Amana Shaman
 16 Banished Butcher
 16 Blowdart Sniper
+16 Brume Tower Warrior
 16 Caged Bargainer
 16 Dark Stalkers
 16 Darkroot Dryad
@@ -8004,7 +8004,6 @@
 16 Dogged Contender
 16 Farron Keep Perimeter
 16 Honorable Duel
-16 Marching Inevitablility
 16 Old Ironclad Troll
 16 Persevering Mist
 16 Petrifying Basilisk
@@ -8024,7 +8023,9 @@
 16 Soul-Scoured Hollow
 16 Warden of the Forgotten Tower
 16 Bloodred Moss Clump
+16 Burnt Offering
 16 Charm of the Darkmoon Blades
+16 Charm of the Forest Hunters
 16 Corrosive Urn
 16 Darkmoon Seance Idol
 16 Fragrant Branch of Yore
@@ -8045,7 +8046,6 @@
 6 Brilliant Ash
 6 Divine Will
 6 Lucatiel of Mirrah
-6 Radiant Blast
 6 Resplendent Life
 6 Seal of the Champions
 6 Soul Vortex
@@ -8055,7 +8055,6 @@
 6 Forger of Vinheim
 6 Logan's Apprentice
 6 Murkman
-6 Reckless Alchemist
 6 Twisted Atonement
 6 Twisted Barricade
 6 Harvest Valley Banedigger
@@ -8065,7 +8064,6 @@
 6 Spreading Contamination
 6 Statue of Absolution
 6 Twisted Recollection
-6 Waning Prudence
 6 Aldia's Forlorn
 6 Chaos Demon
 6 Flame Swathe
@@ -8073,7 +8071,6 @@
 6 Raise the Sloughtender
 6 Screeching Undead
 6 Beast of Amana
-6 Brume Tower Warrior
 6 Deep Accursed
 6 Drangleic Kobold
 6 Hounding Hydra
@@ -8081,15 +8078,18 @@
 6 The Lordvessel
 6 Truth of the Old Words
 6 Forsworn Shell
+6 Rupturing Hollow
 6 Serpent's Regrowth
 6 The End of Fire
 6 Ballista Tower
-6 Burnt Offering
 6 Charm of the Darkwraiths
-6 Charm of the Forest Hunters
+6 Crown of the Ivory King
+6 Crown of the Old Iron King
+6 Crown of the Sunken King
 6 Ring of Favor
 6 Seal of the Dark Void
 6 Talisman of Want
+6 The Champion's Tablet
 6 Zweihander
 
 [LCK_Rare]
@@ -8108,18 +8108,22 @@
 3 Orbeck of Vinheim
 3 Pilgrim Butterfly
 3 Pontiff Sulyvahn
+3 Reckless Alchemist
 3 Scour the Archives
 3 Afflicted Graverobber
 3 Catacombs Gravebinder
 3 Etched Erasure
 3 Gnawing Corpse Rat
+3 Heretic's Darkstorm
 3 Royal Sorcerer
 3 Sir Vilhelm
+3 Waning Prudence
 3 Cathedral Warden
 3 Crimson Wyvern
 3 Deflecting Whispers
 3 Preeminent Giant
 3 Rosaria's Fingers
+3 Soothing Chant
 3 Splintering Bolt
 3 Sulyvahn's Fiend
 3 Bloodlet Giant
@@ -8128,14 +8132,11 @@
 3 From the Shaded Woods
 3 Growing Phalanx
 3 Hush Dear Accursed
+3 Marching Inevitablility
 3 Parasite-ridden Dragon
 3 Chant of Oolacile
 3 Pledged Anathema
-3 Rupturing Hollow
 3 Budding Lotus
-3 Crown of the Ivory King
-3 Crown of the Old Iron King
-3 Crown of the Sunken King
 3 Curator of the Grand Archives
 3 Dragon Slayer Greatsword
 3 Moaning Sanctum
@@ -8145,7 +8146,6 @@
 3 Sen's Fortifications
 3 Shattered Dusk Ring
 3 Tarkus, Iron Knight
-3 The Champion's Tablet
 3 The Great Seal of Thorolund
 3 Uchigatana
 

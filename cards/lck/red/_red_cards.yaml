@@ -655,7 +655,7 @@ card_soothing_chant:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.

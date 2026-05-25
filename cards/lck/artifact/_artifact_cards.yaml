@@ -62,7 +62,7 @@ card_burnt_offering:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       {T}, Pay one soul: Add one mana of any color to your mana pool.
@@ -113,7 +113,7 @@ card_charm_of_the_forest_hunters:
     super: ""
     type: "Artifact"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Common"
     rating: 3
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
@@ -165,7 +165,7 @@ card_crown_of_the_ivory_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)
@@ -183,7 +183,7 @@ card_crown_of_the_old_iron_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Colored nonartifact spells cost {1} more to cast.
@@ -201,7 +201,7 @@ card_crown_of_the_sunken_king:
     super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)
@@ -643,7 +643,7 @@ card_the_champions_tablet:
     super: ""
     type: "Legendary Artifact"
     sub: ""
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       ~ enters the battlefield with X awestone counters on it.

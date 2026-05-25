@@ -147,9 +147,9 @@ Type Distribution
 
 Rarity Distribution
 ```
-144 common
+145 common
 82 uncommon
-60 rare
+58 rare
 19 mythic
 ```
 

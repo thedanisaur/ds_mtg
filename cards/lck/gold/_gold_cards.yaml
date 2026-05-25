@@ -160,7 +160,7 @@ card_rupturing_hollow:
     super: ""
     type: "Creature"
     sub: "Hollow Ooze"
-    rarity: "Rare"
+    rarity: "Uncommon"
     rating: 3
     rules_text: |
       Deathtouch, haste

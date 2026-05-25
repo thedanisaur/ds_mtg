@@ -137,7 +137,7 @@ card_cursed_jar:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ dies, put one curse counter on target creature, player, or planeswalker, then double the number of curse counters on all creatures, players, and planeswalkers.
+      When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.
     flavor_text: "The jar trembles softly, not from within — but from the weight of prayers long abandoned."
     artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
     artist: "deepai"
@@ -360,7 +360,7 @@ card_heretics_darkstorm:
     super: ""
     type: "Instant"
     sub: "Trap"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
@@ -743,7 +743,7 @@ card_waning_prudence:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.

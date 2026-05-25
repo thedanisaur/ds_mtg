@@ -571,7 +571,7 @@ card_reckless_alchemist:
     super: ""
     type: "Creature"
     sub: "Human Wizard"
-    rarity: "Uncommon"
+    rarity: "Rare"
     rating: 3
     rules_text: |
       When a spell or ability causes you to discard ~, choose a nonland card type. Search your library for a card of that type, reveal it, put it into your hand, and shuffle your library.
