@@ -786,7 +786,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\nWhenever ~ deals damage to a player you get one soul.\n{1}{R}, {T}, pay two souls: ~ deals 3 damage to any target.\n",
+    "oracle_text": "Haste\nWhenever ~ deals damage to a player you get one soul.\n{1}{R}, {T}, Pay two souls: ~ deals 3 damage to any target.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/desert_pyromancer.jpeg"
 },
 {
@@ -2039,8 +2039,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2053,8 +2053,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2644,8 +2644,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2686,8 +2686,8 @@
     "type": "Creature",
     "mana_cost": "{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2715,8 +2715,8 @@
     "mana_cost": "{R}{G}{W}",
     "colors": [
         "G",
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2743,8 +2743,8 @@
     "type": "Creature",
     "mana_cost": "{3}{B/R}{B/R}{B/R}{B/R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2756,8 +2756,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
-            "B"
+            "B",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "Flying, lifelink\nAt the beginning of your end step ~ deals 3 damage to target creature or planeswalker at random.\nWhen ~ enters the battlefield, target player searches their library and graveyard for seven cards, exiles the rest, and puts the chosen cards on top of their library in any order. You lose half your life, rounded down.\n",
@@ -2811,9 +2811,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
-        "R",
         "B",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2825,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "R",
             "B",
-            "W"
+            "W",
+            "R"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2855,8 +2855,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3082,8 +3082,8 @@
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,10 +3096,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "mythic",
@@ -3114,8 +3114,8 @@
     "mana_cost": "{U}{R}{W}",
     "colors": [
         "U",
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3157,8 +3157,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,10 +3204,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "mythic",
@@ -3235,8 +3235,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,10 +3277,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -3336,8 +3336,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,10 +3416,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "mythic",
@@ -4010,7 +4010,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield with three hex counters on it.\nWhenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.\nExile five cards from your graveyard: Put a hex counter on ~.\n",
+    "oracle_text": "~ enters the battlefield with five hex counters on it.\nWhenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.\nExile five cards from your graveyard: Put a hex counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/profound_still.jpeg"
 },
 {
@@ -5141,8 +5141,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5862,8 +5862,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B}{R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -6782,7 +6782,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying and lifelink.\nWhen you cycle ~ create X 1/1 Human creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
+    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.\nWhen you cycle ~ create X 1/1 Human creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/gwyns_divine_justice.jpeg"
 },
 {
@@ -6825,7 +6825,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/echoes_of_clarity.jpeg"
 },
 {
-    "name": "Time Distortion",
+    "name": "Temporal Echoes",
     "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{U}{U}",
@@ -6993,8 +6993,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -7050,8 +7050,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7075,8 +7075,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -7105,8 +7105,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7119,8 +7119,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7133,8 +7133,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -7148,9 +7148,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7163,8 +7163,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7192,8 +7192,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7221,9 +7221,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7251,8 +7251,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7279,9 +7279,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7309,8 +7309,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7324,8 +7324,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7352,8 +7352,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7366,9 +7366,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7381,10 +7381,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -7399,8 +7399,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -8157,7 +8157,7 @@
 2 Velstadt, the Royal Aegis
 2 Aldia, First of the Scholars
 2 Echoes of Clarity
-2 Time Distortion
+2 Temporal Echoes
 2 Bearing the Curse
 2 Dark Queen Nashandra
 2 The Darklurker

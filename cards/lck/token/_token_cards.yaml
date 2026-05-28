@@ -8,44 +8,14 @@ card_angel:
     type: "Creature"
     sub: "Angel"
     rarity: "Token"
-    rules_text: "Flying, lifelink"
+    rules_text: "Flying, vigilance, lifelink"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/a6/9b/0e/a69b0e4e9d3a42ccf65ba501e67aaa0e.jpg"
+    artist: "unknown"
     power: 4
     toughness: 4
     color_indicator: "{W}"
     number: 1
-
-card_arrow_trap:
-  front:
-    name: "Arrow Trap"
-    cost: ""
-    super: "Token"
-    type: "Artifact"
-    sub: "Trap"
-    rarity: "Token"
-    rules_text: |
-      {1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 2
-
-card_arrow_trap_2:
-  front:
-    name: "Arrow Trap"
-    cost: ""
-    super: "Token"
-    type: "Artifact"
-    sub: "Trap"
-    rarity: "Token"
-    rules_text: |
-      {1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 3
 
 card_bleed_counter:
   front:
@@ -59,10 +29,10 @@ card_bleed_counter:
       Whenever you have 5, plus the number of Moss Clump tokens you control, or more bleed counters, you take that much damage.
       You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/B53yDTGJ/crimson-moon-ronin-by-dustofheaven-dlkjhei-pre-recolor.jpg"
+    artist: "dustofheaven"
     color_indicator: "{C}"
-    number: 4
+    number: 2
 
 card_boulder_trap:
   front:
@@ -75,9 +45,9 @@ card_boulder_trap:
     rules_text: |
       {1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 5
+    artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/a5/DS1_promotional_screenshot_%28Sen%27s_Fortress_boulder%29.jpg/revision/latest/scale-to-width-down/1000?cb=20231211180720"
+    artist: "fromsoft"
+    number: 3
 
 card_curse:
   front:
@@ -95,7 +65,7 @@ card_curse:
     artwork_url: "https://www.deviantart.com/andrejzt/art/Undead-Portrait-901379114"
     artist: "andrejzt"
     color_indicator: "{C}"
-    number: 6
+    number: 4
 
 card_dragon:
   front:
@@ -107,27 +77,12 @@ card_dragon:
     rarity: "Token"
     rules_text: "Flying"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/XZJ20c3d/dragon-by-unknown-resize.jpg"
+    artist: "unknown"
     power: 3
     toughness: 3
     color_indicator: "{U}"
-    number: 7
-
-card_guillotine_trap:
-  front:
-    name: "Guillotine Trap"
-    cost: ""
-    super: "Token"
-    type: "Artifact"
-    sub: "Trap"
-    rarity: "Token"
-    rules_text: |
-      {1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.
-    flavor_text: ""
-    artwork_url: ""
-    artist: ""
-    number: 8
+    number: 5
 
 card_hollow:
   front:
@@ -137,14 +92,16 @@ card_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Token"
-    rules_text: ""
+    rules_text: |
+      Haste
+      {R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target.
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/DPQhycMb/hollow-knight-by-spinebender-resize.jpg"
+    artist: "spinebender"
     power: "X"
     toughness: "X"
     color_indicator: "{R}"
-    number: 9
+    number: 6
 
 card_moss_clump:
   front:
@@ -156,10 +113,25 @@ card_moss_clump:
     rarity: "Token"
     rules_text: "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2."
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.pinimg.com/736x/24/87/57/24875745a0530ac4f80fdb58c96a7acc.jpg"
+    artist: "spinebender"
     color_indicator: "{C}"
-    number: 10
+    number: 7
+
+card_pendulum_trap:
+  front:
+    name: "Pendulum Trap"
+    cost: ""
+    super: "Token"
+    type: "Artifact"
+    sub: "Trap"
+    rarity: "Token"
+    rules_text: |
+      {1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.
+    flavor_text: ""
+    artwork_url: "https://preview.redd.it/inktober-day-9-swing-drawing-straws-seemed-the-only-fair-v0-82s3a2wl2sr31.jpg?width=1080&crop=smart&auto=webp&s=c5051e1e1fb006541237150834e5c6fe0b0885dc"
+    artist: "cinsev"
+    number: 8
 
 card_rat:
   front:
@@ -171,12 +143,12 @@ card_rat:
     rarity: "Token"
     rules_text: "Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/6cVFCzvL/rat-by-blante-resize.jpg"
+    artist: "blante"
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 11
+    number: 9
 
 card_royal_guard:
   front:
@@ -188,12 +160,27 @@ card_royal_guard:
     rarity: "Token"
     rules_text: "Lifelink"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://i.ibb.co/wFBTxXHD/royal-guard-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     power: 1
     toughness: 1
     color_indicator: "{W}"
-    number: 12
+    number: 10
+
+card_spike_pit_trap:
+  front:
+    name: "Spike Pit Trap"
+    cost: ""
+    super: "Token"
+    type: "Artifact"
+    sub: "Trap"
+    rarity: "Token"
+    rules_text: |
+      {1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.
+    flavor_text: ""
+    artwork_url: "https://i.ibb.co/F4bp4pD1/spike-pit-trap-by-unknown-resize.jpg"
+    artist: "unknown"
+    number: 11
 
 card_spirit:
   front:
@@ -205,12 +192,12 @@ card_spirit:
     rarity: "Token"
     rules_text: "Shadow (This creature can block or be blocked by only creatures with shadow.)"
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/alexanderexorcist/art/Spirit-of-the-Wild-608357960"
+    artist: "alexanderexorcist"
     power: 1
     toughness: 1
     color_indicator: "{U}"
-    number: 13
+    number: 12
 
 card_tentacle:
   front:
@@ -222,9 +209,9 @@ card_tentacle:
     rarity: "Token"
     rules_text: ""
     flavor_text: ""
-    artwork_url: ""
-    artist: ""
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Artificial-Life-Luminous-Tentacles-spitpaint-864013975"
+    artist: "cobaltplasma"
     power: 1
     toughness: 1
     color_indicator: "{G}"
-    number: 14
+    number: 13

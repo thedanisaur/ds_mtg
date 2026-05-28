@@ -161,7 +161,7 @@ card_plague_counter:
     type: ""
     sub: ""
     rarity: "Token"
-    rules_text: ""
+    rules_text: "If a permanent or player would be dealt damage by a source with plague, instead that permanent or player gets a plague counter for each damage received. At the beginning of each end step, each permanent and player with a player is takes X damage where X is the number of plague counters that permanent or player has, then remove a plague counter from it."
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/0b/22/16/0b2216bb390ededb8acd9448fc455b95.jpg"
     artist: "unknown"

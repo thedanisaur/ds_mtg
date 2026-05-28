@@ -444,8 +444,8 @@
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/lck/blue/time_distortion.jpeg" alt="Time Distortion" width="400"/><br/>
-        <strong>Time Distortion</strong>
+        <img src="./cards/lck/blue/temporal_echoes.jpeg" alt="Temporal Echoes" width="400"/><br/>
+        <strong>Temporal Echoes</strong>
     </td>
     <td align="center">
         <img src="./cards/lck/blue/twisted_atonement.jpeg" alt="Twisted Atonement" width="400"/><br/>
@@ -1548,8 +1548,18 @@
         <strong>Untended Graves</strong>
     </td>
     <td align="center">
+        <img src="./cards/lck/token/angel.jpeg" alt="Angel" width="400"/><br/>
+        <strong>Angel</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
         <img src="./cards/lck/token/bleed_counter.jpeg" alt="Bleed Counter" width="400"/><br/>
         <strong>Bleed Counter</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/token/boulder_trap.jpeg" alt="Boulder Trap" width="400"/><br/>
+        <strong>Boulder Trap</strong>
     </td>
 </tr>
 <tr>
@@ -1558,31 +1568,75 @@
         <strong>Curse</strong>
     </td>
     <td align="center">
-        <img src="./cards/lck/basic/forest.jpeg" alt="Forest" width="400"/><br/>
-        <strong>Forest</strong>
+        <img src="./cards/lck/token/dragon.jpeg" alt="Dragon" width="400"/><br/>
+        <strong>Dragon</strong>
     </td>
 </tr>
 <tr>
+    <td align="center">
+        <img src="./cards/lck/token/hollow.jpeg" alt="Hollow" width="400"/><br/>
+        <strong>Hollow</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/token/moss_clump.jpeg" alt="Moss Clump" width="400"/><br/>
+        <strong>Moss Clump</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/lck/token/pendulum_trap.jpeg" alt="Pendulum Trap" width="400"/><br/>
+        <strong>Pendulum Trap</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/token/rat.jpeg" alt="Rat" width="400"/><br/>
+        <strong>Rat</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/lck/token/royal_guard.jpeg" alt="Royal Guard" width="400"/><br/>
+        <strong>Royal Guard</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/token/spike_pit_trap.jpeg" alt="Spike Pit Trap" width="400"/><br/>
+        <strong>Spike Pit Trap</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/lck/token/spirit.jpeg" alt="Spirit" width="400"/><br/>
+        <strong>Spirit</strong>
+    </td>
+    <td align="center">
+        <img src="./cards/lck/token/tentacle.jpeg" alt="Tentacle" width="400"/><br/>
+        <strong>Tentacle</strong>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <img src="./cards/lck/basic/forest.jpeg" alt="Forest" width="400"/><br/>
+        <strong>Forest</strong>
+    </td>
     <td align="center">
         <img src="./cards/lck/basic/island.jpeg" alt="Island" width="400"/><br/>
         <strong>Island</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/mountain.jpeg" alt="Mountain" width="400"/><br/>
         <strong>Mountain</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/plains.jpeg" alt="Plains" width="400"/><br/>
         <strong>Plains</strong>
     </td>
+</tr>
+<tr>
     <td align="center">
         <img src="./cards/lck/basic/swamp.jpeg" alt="Swamp" width="400"/><br/>
         <strong>Swamp</strong>
     </td>
-</tr>
-<tr>
     <td align="center">
         <img src="./cards/lck/basic/wastes.jpeg" alt="Wastes" width="400"/><br/>
         <strong>Wastes</strong>

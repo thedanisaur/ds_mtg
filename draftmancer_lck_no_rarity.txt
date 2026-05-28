@@ -517,7 +517,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield with three hex counters on it.\nWhenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.\nExile five cards from your graveyard: Put a hex counter on ~.\n",
+    "oracle_text": "~ enters the battlefield with five hex counters on it.\nWhenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.\nExile five cards from your graveyard: Put a hex counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/profound_still.jpeg"
 },
 {
@@ -1648,8 +1648,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2369,8 +2369,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B}{R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3289,7 +3289,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying and lifelink.\nWhen you cycle ~ create X 1/1 Human creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
+    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.\nWhen you cycle ~ create X 1/1 Human creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/gwyns_divine_justice.jpeg"
 },
 {
@@ -3332,7 +3332,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/echoes_of_clarity.jpeg"
 },
 {
-    "name": "Time Distortion",
+    "name": "Temporal Echoes",
     "super": "",
     "type": "Sorcery",
     "mana_cost": "{1}{U}{U}",
@@ -3500,8 +3500,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,8 +3582,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -3612,8 +3612,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3626,8 +3626,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,8 +3640,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "G",
+        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3699,8 +3699,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3758,8 +3758,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "U",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3831,8 +3831,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,10 +3888,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
-        "W",
         "U",
+        "B",
+        "W",
         "R"
     ],
     "rarity": "uncommon",
@@ -3906,8 +3906,8 @@
     "mana_cost": "",
     "colors": [
         "G",
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -4225,7 +4225,7 @@
 4 Velstadt, the Royal Aegis
 4 Aldia, First of the Scholars
 4 Echoes of Clarity
-4 Time Distortion
+4 Temporal Echoes
 4 Bearing the Curse
 4 Dark Queen Nashandra
 4 The Darklurker

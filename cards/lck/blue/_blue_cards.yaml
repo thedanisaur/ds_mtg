@@ -536,7 +536,7 @@ card_profound_still:
     rarity: "Common"
     rating: 3
     rules_text: |
-      ~ enters the battlefield with three hex counters on it.
+      ~ enters the battlefield with five hex counters on it.
       Whenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.
       Exile five cards from your graveyard: Put a hex counter on ~.
     flavor_text: "Only the will remains. Everything else... falls silent."
@@ -692,7 +692,7 @@ card_soul_of_a_lost_undead:
 
 card_time_distortion:
   front:
-    name: "Time Distortion"
+    name: "Temporal Echoes"
     cost: "{1}{U}{U}"
     super: ""
     type: "Sorcery"

@@ -280,10 +280,10 @@ card_gwyns_divine_justice:
     rarity: "Mythic"
     rating: 3
     rules_text: |
-      Create twice X 4/4 white Angel creature tokens with flying and lifelink.
+      Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.
       When you cycle ~ create X 1/1 Human creature tokens with lifelink.
       Cycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)
-    flavor_text: "You must keep your soul pure… for without it, even miracles cannot protect you."
+    flavor_text: "You must keep your soul pure... for without it, even miracles cannot protect you."
     artwork_url: "https://i.ibb.co/6Jvwkxn9/gwyns-divine-justice-by-illjarlli-resize.jpg"
     artist: "Ill Jarlli"
     number: 23

@@ -13,6 +13,12 @@ from generate_docs import TYPE_PLANESWALKER
 from generate_docs import TYPE_SORCERY
 from generate_docs import TYPE_TOKEN
 
+
+long_name = {
+    "DKS": "Dark Souls",
+    "LCK": "Dark Souls: Lost Crowns of the King"
+}
+
 def creates_this_token(set, token):
     color_map = {
         '{W}': 'white',
@@ -97,12 +103,14 @@ def create_card(set, card_front, card_back, image_url):
     card_name = card_front['name']
     # if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
     #     card_name = f"{card_front['name']} - DKS"
+    if TYPE_TOKEN in card_front['super']:
+        card_name = f"{card_front['name']} Token"
 
     general_tags = f"""        <name>{card_name}</name>
         <text>{card_front['rules_text'].strip()}</text>
         <prop>PROPERTIES
         </prop>
-        <set rarity="{card_front['rarity']}" num="{card_front['number']}" picurl="{image_url}">DKS</set>"""
+        <set rarity="{card_front['rarity']}" num="{card_front['number']}" picurl="{image_url}">{set.upper()}</set>"""
 
     super_type = f"{card_front['super']} " if len(card_front['super']) > 0 else ''
     sub_type = f" - {card_front['sub']}" if len(card_front['sub']) > 0 else ''
@@ -190,7 +198,7 @@ def _write_cockatrice_set_file(set, cards):
     <sets>
         <set>
         <name>{set.upper()}</name>
-        <longname>{set.upper()}</longname>
+        <longname>{long_name.get(set.upper())}</longname>
         </set>
     </sets>
     <cards>

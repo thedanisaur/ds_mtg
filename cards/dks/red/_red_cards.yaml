@@ -151,7 +151,7 @@ card_desert_pyromancer:
     rules_text: |
       Haste
       Whenever ~ deals damage to a player you get one soul.
-      {1}{R}, {T}, pay two souls: ~ deals 3 damage to any target.
+      {1}{R}, {T}, Pay two souls: ~ deals 3 damage to any target.
     flavor_text: "The flame reveals all, and obscures all."
     artwork_url: "https://i.ibb.co/5hLw1mdr/desert-pyromancer-hachiyuki-resize.jpg"
     artist: "hachiyuki"
