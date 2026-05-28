@@ -104,7 +104,7 @@ def create_card(set, card_front, card_back, image_url):
     # if (TYPE_LAND == card_front['type'] and TYPE_BASIC in card_front['super']) or TYPE_TOKEN in card_front['super']:
     #     card_name = f"{card_front['name']} - DKS"
     if TYPE_TOKEN in card_front['super']:
-        card_name = f"{card_front['name']} Token"
+        card_name = f"{card_front['name']} Token - {set}"
 
     general_tags = f"""        <name>{card_name}</name>
         <text>{card_front['rules_text'].strip()}</text>

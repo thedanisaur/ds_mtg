@@ -3551,7 +3551,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">LCK</set>
         <tablerow>1</tablerow>
@@ -3584,7 +3584,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">LCK</set>
@@ -3602,7 +3602,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">LCK</set>
@@ -3618,7 +3618,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">LCK</set>
@@ -3634,7 +3634,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">LCK</set>
@@ -3652,7 +3652,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3668,7 +3668,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B}{R}</manacost>
             <cmc>4</cmc>
-            <colors>BR</colors>
+            <colors>RB</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">LCK</set>
@@ -3686,7 +3686,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3717,7 +3717,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">LCK</set>
@@ -4840,7 +4840,7 @@ You have no maximum hand size.
         <tablerow>0</tablerow>
     </card>
     <card>
-        <name>Angel Token</name>
+        <name>Angel Token - lck</name>
         <text>Flying, vigilance, lifelink</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4871,7 +4871,7 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Boulder Trap Token</name>
+        <name>Boulder Trap Token - lck</name>
         <text>{1}, {T}, Sacrifice this token: Destroy target creature with toughness 3 or less if it's tapped. Otherwise tap that creature.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4901,7 +4901,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Dragon Token</name>
+        <name>Dragon Token - lck</name>
         <text>Flying</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4918,7 +4918,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Hollow Token</name>
+        <name>Hollow Token - lck</name>
         <text>Haste
 {R}{R}, {T}, Sacrifice this creature: This creature deals damage equal to its power to any target.</text>
         <prop><layout>normal</layout>
@@ -4936,7 +4936,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Moss Clump Token</name>
+        <name>Moss Clump Token - lck</name>
         <text>{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4951,7 +4951,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Pendulum Trap Token</name>
+        <name>Pendulum Trap Token - lck</name>
         <text>{1}, {T}, Sacrifice this token: Target player sacrifices a creature with the least power among creatures they control.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4966,7 +4966,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Rat Token</name>
+        <name>Rat Token - lck</name>
         <text>Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4983,7 +4983,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Royal Guard Token</name>
+        <name>Royal Guard Token - lck</name>
         <text>Lifelink</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -5000,7 +5000,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Spike Pit Trap Token</name>
+        <name>Spike Pit Trap Token - lck</name>
         <text>{1}, {T}, Sacrifice this token: This token deals 2 damage divided as you choose between up to two target attacking creatures.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -5015,7 +5015,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Spirit Token</name>
+        <name>Spirit Token - lck</name>
         <text>Shadow (This creature can block or be blocked by only creatures with shadow.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -5032,7 +5032,7 @@ When you control more Curses than your life total, you lose the game.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Tentacle Token</name>
+        <name>Tentacle Token - lck</name>
         <text></text>
         <prop><layout>normal</layout>
             <side>front</side>
