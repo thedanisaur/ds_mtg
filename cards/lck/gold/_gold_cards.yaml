@@ -115,9 +115,9 @@ card_hollow_priest:
     toughness: 1
     number: 223
 
-card_hollow_warrior:
+card_hollow_raider:
   front:
-    name: "Hollow Warrior"
+    name: "Hollow Raider"
     cost: "{R/W}"
     super: ""
     type: "Creature"
@@ -125,6 +125,7 @@ card_hollow_warrior:
     rarity: "Common"
     rating: 3
     rules_text: |
+      Lifelink
       When ~ leaves the battlefield, you get one soul.
       Whenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.
     flavor_text: "All people come here for the same reason... To break the curse."

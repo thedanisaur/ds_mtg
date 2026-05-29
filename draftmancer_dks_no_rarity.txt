@@ -2630,8 +2630,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2672,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,8 +2714,8 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "R",
         "G",
+        "R",
         "W"
     ],
     "rarity": "rare",
@@ -2729,8 +2729,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2770,8 +2770,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2840,8 +2840,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2854,9 +2854,9 @@
     "type": "Creature",
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
+        "G",
         "R",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3054,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "B",
-            "G"
+            "G",
+            "B"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3081,9 +3081,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
+        "U",
         "R",
-        "B",
-        "U"
+        "B"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,10 +3096,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "B",
+        "W",
         "G",
         "R",
-        "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3113,9 +3113,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
+        "U",
         "R",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,10 +3204,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "B",
+        "W",
         "G",
         "R",
-        "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,10 +3277,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "W",
         "G",
         "R",
-        "W",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
@@ -3308,8 +3308,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3322,8 +3322,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3402,8 +3402,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,10 +3416,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "W",
         "G",
         "R",
-        "W",
+        "B",
         "U"
     ],
     "rarity": "mythic",

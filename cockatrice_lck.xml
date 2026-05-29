@@ -3551,7 +3551,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
         <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">LCK</set>
         <tablerow>1</tablerow>
@@ -3584,7 +3584,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">LCK</set>
@@ -3602,7 +3602,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">LCK</set>
@@ -3618,15 +3618,16 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Hollow Warrior</name>
-        <text>When ~ leaves the battlefield, you get one soul.
+        <name>Hollow Raider</name>
+        <text>Lifelink
+When ~ leaves the battlefield, you get one soul.
 Whenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3637,7 +3638,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg">LCK</set>
+        <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_raider.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3652,7 +3653,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3686,7 +3687,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3717,7 +3718,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">LCK</set>
@@ -4857,17 +4858,19 @@ You have no maximum hand size.
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Bleed Counter</name>
+        <name>Bleed Counter Token - lck</name>
         <text>Whenever you have 5, plus the number of Moss Clump tokens you control, or more bleed counters, you take that much damage.
 You remove all bleed counters and create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type></type>
+            <type>Token </type>
             <maintype></maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
         <set rarity="Token" num="2" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/bleed_counter.jpeg">LCK</set>
+        <reverse-related></reverse-related>
+        <token>1</token>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -4886,18 +4889,20 @@ You remove all bleed counters and create a Moss Clump token. (It's an artifact w
         <tablerow>1</tablerow>
     </card>
     <card>
-        <name>Curse</name>
+        <name>Curse Token - lck</name>
         <text>Spells you cast cost {1} more to cast.
 When you control more Curses than your life total, you lose the game.
 {1}, {T}, Sacrifice ~: create a tapped Treasure token.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Artifact - Curse</type>
+            <type>Token Artifact - Curse</type>
             <maintype>Artifact</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
         </prop>
         <set rarity="Token" num="4" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/token/curse.jpeg">LCK</set>
+        <reverse-related></reverse-related>
+        <token>1</token>
         <tablerow>1</tablerow>
     </card>
     <card>

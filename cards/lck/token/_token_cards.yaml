@@ -21,7 +21,7 @@ card_bleed_counter:
   front:
     name: "Bleed Counter"
     cost: ""
-    super: ""
+    super: "Token"
     type: ""
     sub: ""
     rarity: "Token"
@@ -53,7 +53,7 @@ card_curse:
   front:
     name: "Curse"
     cost: ""
-    super: ""
+    super: "Token"
     type: "Artifact"
     sub: "Curse"
     rarity: "Token"

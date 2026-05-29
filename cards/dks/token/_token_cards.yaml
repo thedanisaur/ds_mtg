@@ -223,7 +223,7 @@ card_soul_counter:
   front:
     name: "Soul Counter"
     cost: ""
-    super: ""
+    super: "Token"
     type: ""
     sub: ""
     rarity: "Token"

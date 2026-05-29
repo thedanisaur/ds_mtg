@@ -1620,8 +1620,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1634,8 +1634,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1643,7 +1643,7 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg"
 },
 {
-    "name": "Hollow Warrior",
+    "name": "Hollow Raider",
     "super": "",
     "type": "Creature",
     "mana_cost": "{R/W}",
@@ -1653,8 +1653,8 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ leaves the battlefield, you get one soul.\nWhenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_warrior.jpeg"
+    "oracle_text": "Lifelink\nWhen ~ leaves the battlefield, you get one soul.\nWhenever ~ enters the battlefield, it deals damage equal to its power to any target and you gain that much life.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_raider.jpeg"
 },
 {
     "name": "Skittering Slave",
@@ -1676,8 +1676,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2355,8 +2355,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2383,8 +2383,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3076,8 +3076,8 @@
     "type": "Enchantment",
     "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3090,8 +3090,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3557,8 +3557,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,9 +3611,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "U",
         "G",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "R",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3684,8 +3684,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "R",
-        "B",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "R",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3743,8 +3743,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,9 +3757,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3772,8 +3772,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "U"
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "R",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "B",
-        "W",
-        "U"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "R",
-        "B",
-        "U"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3888,10 +3888,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
+        "W",
         "G",
         "R",
-        "W",
+        "B",
         "U"
     ],
     "rarity": "uncommon",
@@ -3905,9 +3905,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "R",
-        "B",
-        "G"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -4122,7 +4122,7 @@
 16 Conjuring Hollow
 16 Engorged Hollow
 16 Hollow Priest
-16 Hollow Warrior
+16 Hollow Raider
 16 Skittering Slave
 16 Soul-Scoured Hollow
 16 Warden of the Forgotten Tower
