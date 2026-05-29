@@ -1134,8 +1134,8 @@
 </tr>
 <tr>
     <td align="center">
-        <img src="./cards/lck/gold/hollow_warrior.jpeg" alt="Hollow Warrior" width="400"/><br/>
-        <strong>Hollow Warrior</strong>
+        <img src="./cards/lck/gold/hollow_raider.jpeg" alt="Hollow Raider" width="400"/><br/>
+        <strong>Hollow Raider</strong>
     </td>
     <td align="center">
         <img src="./cards/lck/gold/pledged_anathema.jpeg" alt="Pledged Anathema" width="400"/><br/>
