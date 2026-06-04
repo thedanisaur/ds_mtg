@@ -3007,7 +3007,7 @@ Whenever a card goes to your graveyard you may pay {1}{G}. If you do, put a +1/+
     </card>
     <card>
         <name>Darkroot Dryad</name>
-        <text>{T}: Add one mana of any color to your mana pool for each card you own in exile.
+        <text>{T}: Add {G}. Then you may return a card you own in exile to your hand. If you do, add one mana of any color to your mana pool.
 {T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)</text>
         <prop><layout>normal</layout>
             <side>front</side>

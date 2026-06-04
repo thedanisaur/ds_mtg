@@ -205,9 +205,9 @@ card_darkroot_dryad:
     rarity: "Common"
     rating: 3
     rules_text: |
-      {T}: Add one mana of any color to your mana pool for each card you own in exile.
+      {T}: Add {G}. Then you may return a card you own in exile to your hand. If you do, add one mana of any color to your mana pool.
       {T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)
-    flavor_text: "Shadows move like whispers here; the forest breathes with the memory of kings long dead, and every leaf hides a beast or a curse."
+    flavor_text: "Shadows move like whispers here; the forest breathes with the memory of kings long dead and every leaf hides a beast or a curse."
     artwork_url: "https://i.ibb.co/b0DKpQJ/darkroot-dryad-by-jack-cou-resize.jpg"
     artist: "jack cou"
     power: 0

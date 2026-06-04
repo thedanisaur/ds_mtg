@@ -1362,7 +1362,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "{T}: Add one mana of any color to your mana pool for each card you own in exile.\n{T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)\n",
+    "oracle_text": "{T}: Add {G}. Then you may return a card you own in exile to your hand. If you do, add one mana of any color to your mana pool.\n{T}: Exile a card from your hand. You may play it on a later turn. (Timing restrictions still apply. You still pay its costs.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/darkroot_dryad.jpeg"
 },
 {
@@ -3611,8 +3611,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3655,8 +3655,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3728,8 +3728,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3757,8 +3757,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
@@ -3786,8 +3786,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "U"
     ],
     "rarity": "uncommon",
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3874,8 +3874,8 @@
     "mana_cost": "",
     "colors": [
         "B",
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "B",
-        "U",
         "G",
         "W",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -3905,8 +3905,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "G",
+        "B",
         "R"
     ],
     "rarity": "uncommon",
