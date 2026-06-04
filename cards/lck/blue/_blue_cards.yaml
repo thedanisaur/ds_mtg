@@ -9,7 +9,7 @@ card_aldia_first_of_the_scholars:
     rating: 3
     rules_text: |
       Whenever you cast a spell you may return target permanent to its owner's hand.
-      {+2}: Look at the top two cards of target player's library. You may put one of those cards on the bottom of their library. Then put the rest back on top in any order.
+      {+2}: Look at the top two cards of target player's library. You may put any number of them on the bottom of their library. Then put the rest back on top in any order.
       {-X}: Gain control of target permanent with mana value X.
       {-7}: Return all other permanents to their owner's hands.
     flavor_text: ""
