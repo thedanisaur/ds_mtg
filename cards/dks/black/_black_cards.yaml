@@ -459,7 +459,7 @@ card_resonant_soul:
     rating: 2
     rules_text: |
       You get two souls, then you may pay any number of souls.
-      ~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.
+      Destroy target creature or planeswalker with mana value less than or equal to the number of souls you paid this way and you gain that much life.
     flavor_text: "The pilgrims of the gulch distort the power of life with hexes that would mortify clerics."
     artwork_url: "https://i.pinimg.com/736x/30/9c/1e/309c1e857a4a181c054f345b42d54e26.jpg"
     artist: "fromsoft"

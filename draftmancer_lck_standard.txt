@@ -218,7 +218,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\nWhen ~ enters the battlefield, destroy target artifact or enchantment.\n{Q}: Draw a card, then each opponent may draw a card. If each one does, sacrifice ~ and draw a card.\n",
+    "oracle_text": "Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\n{Q}, Sacrifice ~: Destroy target artifact or enchantment. Create a Moss Clump token. (It's an artifact that has, \"{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.\")\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/royal_swordsman.jpeg"
 },
 {
@@ -673,7 +673,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a land. You gain 1 life and return a creature card from your graveyard to your hand.\n",
+    "oracle_text": "~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a creature. You gain 1 life and return a creature card from your graveyard to your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/creeping_constraints.jpeg"
 },
 {
@@ -959,7 +959,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\nWhenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.\n{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.\n",
+    "oracle_text": "Haste\nWhenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.\n{1}{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/blitz_hound.jpeg"
 },
 {
@@ -1154,7 +1154,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.\n~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.\n",
+    "oracle_text": "Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.\n~ deals damage to the chosen target equal to the number of souls paid as you cast it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/lost_spell_from_izalith.jpeg"
 },
 {
@@ -1440,7 +1440,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ can't attack.\nWhen ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.\nYou may play an additional land on each of your turns.\nWhenever a land enters the battlefield under your control, put a +1/+1 counter on ~.\n",
+    "oracle_text": "~ can't attack.\nYou may play an additional land on each of your turns.\nYou may play lands from your graveyard.\nWhenever a land enters the battlefield under your control, put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/farron_keep_perimeter.jpeg"
 },
 {
@@ -1592,8 +1592,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1772,7 +1772,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "{2}, {T}, Sacrifice ~: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.\nWhen ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.\n",
+    "oracle_text": "{2}, {T}, Sacrifice ~: Remove all curse counters from permanents you control and sacrifice all curse tokens. Until the end of your next turn you can't create curse tokens and permanents you control can't have or get curse counters.\nWhen ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/fragrant_branch_of_yore.jpeg"
 },
 {
@@ -2490,7 +2490,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.\nEquipped creature has \"Whenever an opponent loses life, you gain that much life.\"\nEquip {2}\n",
+    "oracle_text": "At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 4 minus the number of cards in their hand.\nEquipped creature has \"Whenever an opponent loses life, you gain that much life.\"\nEquip {2}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/talisman_of_want.jpeg"
 },
 {
@@ -2789,7 +2789,7 @@
     "name": "Gnawing Corpse Rat",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{2}{B}",
+    "mana_cost": "{1}{B}",
     "colors": [
         "B"
     ],
@@ -2924,7 +2924,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "You may exile a red card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 ~ deals 5 damage to each creature.\n\u2022 Destroy up to two target lands.\n\u2022 Exile target permanent. The controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.\n\u2022 Each player discards their hand and draws 7 cards.\n",
+    "oracle_text": "You may exile a red card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 ~ deals 5 damage to each creature.\n\u2022 Destroy up to two target lands.\n\u2022 Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.\n\u2022 Each player discards their hand and draws 7 cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/rosarias_fingers.jpeg"
 },
 {
@@ -3002,7 +3002,7 @@
     ],
     "rarity": "rare",
     "rating": 5,
-    "oracle_text": "Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.\n{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.\n{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.\n{2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.\n{1}{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_ogre.jpeg"
 },
 {
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
+        "U",
         "G",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 1,

@@ -360,7 +360,7 @@ card_drangleic_ogre:
     rules_text: |
       Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
       {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
-      {G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
+      {1}{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
       Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Cs5LmQNY/drangelic-ogre-by-desyntril-resize.jpg"
@@ -380,8 +380,8 @@ card_farron_keep_perimeter:
     rating: 3
     rules_text: |
       ~ can't attack.
-      When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.
       You may play an additional land on each of your turns.
+      You may play lands from your graveyard.
       Whenever a land enters the battlefield under your control, put a +1/+1 counter on ~.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2e/9c/4b/2e9c4b9945e026443bfe636b2b85087d.jpg"

@@ -46,7 +46,7 @@ card_blitz_hound:
     rules_text: |
       Haste
       Whenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.
-      {R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.
+      {1}{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/95/d9/fb/95d9fb8258b54cfdb669da1d7fe1e76b.jpg"
     artist: "Davide Zanini"
@@ -80,7 +80,7 @@ card_cathedral_warden:
     cost: "{1}{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Hollow"
     rarity: "Rare"
     rating: 3
     rules_text: |
@@ -166,7 +166,7 @@ card_corrosive_egg_insect:
     artwork_url: "https://static.wikia.nocookie.net/darksouls/images/a/ab/16070961845_5042a9e9b0_o.jpg/revision/latest/scale-to-width-down/1000?cb=20150203102625"
     artist: "fromsoft"
     power: 2
-    toughness: 3
+    toughness: 2
     number: 142
 
 card_corrosive_organics:
@@ -436,7 +436,7 @@ card_lost_spell_from_izalith:
     rating: 3
     rules_text: |
       Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.
-      ~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.
+      ~ deals damage to the chosen target equal to the number of souls paid as you cast it.
     flavor_text: "The flames of chaos burn with the essence of Izalith, corrupting all who wield them."
     artwork_url: "https://i.pinimg.com/736x/ed/21/be/ed21be439e4c71054db5482fc8db0d66.jpg"
     artist: "Ambrunzonello"
@@ -531,7 +531,7 @@ card_rosarias_fingers:
       Choose two -
       • ~ deals 5 damage to each creature.
       • Destroy up to two target lands.
-      • Exile target permanent. The controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
+      • Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
       • Each player discards their hand and draws 7 cards.
     flavor_text: "Come on, give yourself to Rosaria"
     artwork_url: "https://i.pinimg.com/736x/60/55/5c/60555c7deead28777c8a8483cad95a07.jpg"

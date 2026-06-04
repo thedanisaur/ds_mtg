@@ -573,8 +573,7 @@ Creatures you control get +1/+1, vigilance, and have "Whenever this creature is 
     <card>
         <name>Royal Swordsman</name>
         <text>Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-When ~ enters the battlefield, destroy target artifact or enchantment.
-{Q}: Draw a card, then each opponent may draw a card. If each one does, sacrifice ~ and draw a card.</text>
+{Q}, Sacrifice ~: Destroy target artifact or enchantment. Create a Moss Clump token. (It's an artifact that has, "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Knight</type>
@@ -843,7 +842,7 @@ When ~ enters the battlefield choose one. If its madness cost was paid, choose t
             <manacost>{2}{U}</manacost>
             <cmc>3</cmc>
             <colors>U</colors>
-            <pt>1/3</pt>
+            <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="51" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/amana_charmer.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -1581,7 +1580,7 @@ When ~ becomes the target of a spell or ability, sacrifice it.
     </card>
     <card>
         <name>Creeping Constraints</name>
-        <text>~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a land. You gain 1 life and return a creature card from your graveyard to your hand.</text>
+        <text>~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a creature. You gain 1 life and return a creature card from your graveyard to your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -1745,8 +1744,8 @@ Whenever a rat enters the battlefield under your control each opponenet discards
             <side>front</side>
             <type>Creature - Zombie Rat</type>
             <maintype>Creature</maintype>
-            <manacost>{2}{B}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{B}</manacost>
+            <cmc>2</cmc>
             <colors>B</colors>
             <pt>1/1</pt>
         </prop>
@@ -2200,7 +2199,7 @@ Discard a card, pay one soul: Draw a card. Target creature can't block this turn
         <name>Blitz Hound</name>
         <text>Haste
 Whenever ~ attacks exile the top card of your library with a favored counter on it. You get one soul.
-{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.</text>
+{1}{R}, {T}: Choose a card you own in exile with a favored counter on it at random. Play that card without paying its mana cost. If you can't, remove a favored counter from that card and create a 3/3 red Human creature token named Red Phantom. It has prowess.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hound</type>
@@ -2237,7 +2236,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
 {R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature</type>
+            <type>Creature - Hollow</type>
             <maintype>Creature</maintype>
             <manacost>{1}{R}</manacost>
             <cmc>2</cmc>
@@ -2306,7 +2305,7 @@ Augur 1 (If you would draw a card, instead you may cast this card from your grav
             <manacost>{1}{R}</manacost>
             <cmc>2</cmc>
             <colors>R</colors>
-            <pt>2/3</pt>
+            <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="142" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/corrosive_egg_insect.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -2536,7 +2535,7 @@ Enchanted creature has "{T}, Sacrifice this creature: Search your library for a 
     <card>
         <name>Lost Spell from Izalith</name>
         <text>Choose any target. You get one soul for each spell cast this turn, then you may pay any number of souls.
-~ deals damage to the chosen target equal to two times the number of souls paid as you cast it.</text>
+~ deals damage to the chosen target equal to the number of souls paid as you cast it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2618,7 +2617,7 @@ Madness {R}{R}, exile a red card from your hand with a favored counter on it. (I
 Choose two -
 • ~ deals 5 damage to each creature.
 • Destroy up to two target lands.
-• Exile target permanent. The controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
+• Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
 • Each player discards their hand and draws 7 cards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3141,7 +3140,7 @@ When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrif
         <name>Drangleic Ogre</name>
         <text>Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
 {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
-{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
+{1}{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
 Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3158,8 +3157,8 @@ Augur 4 (If you would draw a card, instead you may cast this card from your grav
     <card>
         <name>Farron Keep Perimeter</name>
         <text>~ can't attack.
-When ~ enters the battlefield search your library and/or graveyard for a basic land card, reveal it, put it into your hand, then shuffle.
 You may play an additional land on each of your turns.
+You may play lands from your graveyard.
 Whenever a land enters the battlefield under your control, put a +1/+1 counter on ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -3534,7 +3533,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">LCK</set>
@@ -3980,7 +3979,7 @@ Equip {C/P}{C/P}{C/P}{C/P} ({C/P} can be paid with {C} or 2 life)</text>
     </card>
     <card>
         <name>Fragrant Branch of Yore</name>
-        <text>{2}, {T}, Sacrifice ~: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
+        <text>{2}, {T}, Sacrifice ~: Remove all curse counters from permanents you control and sacrifice all curse tokens. Until the end of your next turn you can't create curse tokens and permanents you control can't have or get curse counters.
 When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -4250,7 +4249,7 @@ When this artifact is put into a graveyard from the battlefield, draw a card.</t
     </card>
     <card>
         <name>Talisman of Want</name>
-        <text>At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.
+        <text>At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 4 minus the number of cards in their hand.
 Equipped creature has "Whenever an opponent loses life, you gain that much life."
 Equip {2}</text>
         <prop><layout>normal</layout>

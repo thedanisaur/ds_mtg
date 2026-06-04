@@ -277,7 +277,7 @@ card_fragrant_branch_of_yore:
     rarity: "Common"
     rating: 3
     rules_text: |
-      {2}, {T}, Sacrifice ~: Remove all curse counters from target permanent or player. Until the end of your next turn you and permanents you control can't have or get curse counters.
+      {2}, {T}, Sacrifice ~: Remove all curse counters from permanents you control and sacrifice all curse tokens. Until the end of your next turn you can't create curse tokens and permanents you control can't have or get curse counters.
       When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/KjNjx94k/fragrant-branch-of-yore-by-wotc-resize.jpg"
@@ -607,7 +607,7 @@ card_talisman_of_want:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 3 minus the number of cards in their hand plus 4. As long as a creature is equipped with ~, add two to the calculation.
+      At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 4 minus the number of cards in their hand.
       Equipped creature has "Whenever an opponent loses life, you gain that much life."
       Equip {2}
     flavor_text: ""

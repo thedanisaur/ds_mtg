@@ -176,8 +176,8 @@ card_channeler_servant:
       Creatures you control get +0/+1.
       Pay one soul: Untap target creature you control or tap target creature you don't control.
     flavor_text: "The scholars of the Grand Archives, sorcerers by craft, tend to their candles with a reverence that exceeds the simple burden of labor."
-    artwork_url: "https://i.ibb.co/hJSq0kRG/channeler-servant-by-fromsoft-resize.jpg"
-    artist: "fromsoft"
+    artwork_url: "https://i.ibb.co/hnJcpCy/obc168D.jpg"
+    artist: "Ev Ganin"
     power: 2
     toughness: 1
     number: 17
@@ -523,11 +523,10 @@ card_royal_swordsman:
     rating: 3
     rules_text: |
       Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      When ~ enters the battlefield, destroy target artifact or enchantment.
-      {Q}: Draw a card, then each opponent may draw a card. If each one does, sacrifice ~ and draw a card.
+      {Q}, Sacrifice ~: Destroy target artifact or enchantment. Create a Moss Clump token. (It's an artifact that has, "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
     flavor_text: ""
-    artwork_url: "https://i.ibb.co/KxC4ZZGq/royal-swordsman-by-unknown-resize.jpg"
-    artist: "unknown"
+    artwork_url: "https://i.ibb.co/KzsFNfMv/royal-swordsman-by-fromsoft-resize.jpg"
+    artist: "fromsoft"
     power: 2
     toughness: 1
     number: 35

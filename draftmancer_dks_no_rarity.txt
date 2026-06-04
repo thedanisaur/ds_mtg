@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1730,7 +1730,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "You get two souls, then you may pay any number of souls.\n~ deals 1 damage to any target for each soul paid this way. You gain life equal to the damage dealt.\n",
+    "oracle_text": "You get two souls, then you may pay any number of souls.\nDestroy target creature or planeswalker with mana value less than or equal to the number of souls you paid this way and you gain that much life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/black/resonant_soul.jpeg"
 },
 {
@@ -2700,8 +2700,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2714,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
+        "W",
         "G",
-        "R",
-        "W"
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "R",
         "B",
+        "U",
         "G",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "R",
         "B",
+        "U",
         "G",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
+        "U",
         "G",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "B",
+        "U",
         "G",
         "W",
-        "U"
+        "R"
     ],
     "rarity": "mythic",
     "rating": 4,

@@ -121,7 +121,7 @@ card_creeping_constraints:
     rarity: "Common"
     rating: 3
     rules_text: |
-      ~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a land. You gain 1 life and return a creature card from your graveyard to your hand.
+      ~ deals 1 damage to each opponent. Each opponent discards a card and sacrifices a creature. You gain 1 life and return a creature card from your graveyard to your hand.
     flavor_text: "As the land came alive it was too late for the undead to notice the spreading corruption."
     artwork_url: "https://i.pinimg.com/736x/7c/a6/2b/7ca62b69ca5358975af92f4234a3467a.jpg"
     artist: "unknown"
@@ -298,7 +298,7 @@ card_festering_undead_rat:
 card_gnawing_corpse_rat:
   front:
     name: "Gnawing Corpse Rat"
-    cost: "{2}{B}"
+    cost: "{1}{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Rat"
