@@ -452,13 +452,13 @@ card_painted_recruiter:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
-      Sacrifice ~: Counter target activated ability an opponent controls.
+      When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less and put it onto the battlefield, then shuffle your library.
+      Sacrifice ~: Creatures you control can't be the target of spells or abilities this turn. As long as this ability is on the stack, players can't cast spells or activate abilities that aren't mana abilities.
     flavor_text: "The hunchbacked teller of ancient tales describes unwanted souls who are unwelcome across the lands."
     artwork_url: "https://i.pinimg.com/736x/c9/93/0d/c9930d31fa5873005ebbb975fb53bdca.jpg"
     artist: "unknown"
-    power: 3
-    toughness: 3
+    power: 2
+    toughness: 2
     number: 31
 
 card_path_of_the_dragon:

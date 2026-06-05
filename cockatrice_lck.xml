@@ -511,8 +511,8 @@ Whenever you cast a spell, if it isn't the first spell you've cast this turn, ta
     </card>
     <card>
         <name>Painted Recruiter</name>
-        <text>When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
-Sacrifice ~: Counter target activated ability an opponent controls.</text>
+        <text>When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less and put it onto the battlefield, then shuffle your library.
+Sacrifice ~: Creatures you control can't be the target of spells or abilities this turn. As long as this ability is on the stack, players can't cast spells or activate abilities that aren't mana abilities.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Cleric</type>
@@ -520,7 +520,7 @@ Sacrifice ~: Counter target activated ability an opponent controls.</text>
             <manacost>{1}{W}{W}</manacost>
             <cmc>3</cmc>
             <colors>W</colors>
-            <pt>3/3</pt>
+            <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="31" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/painted_recruiter.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -3533,7 +3533,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>WG</colors>
+            <colors>GW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">LCK</set>
@@ -3550,7 +3550,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <maintype>Enchantment</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
         </prop>
         <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">LCK</set>
         <tablerow>1</tablerow>
@@ -3583,7 +3583,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">LCK</set>
@@ -3617,7 +3617,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">LCK</set>
@@ -3634,7 +3634,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Creature</maintype>
             <manacost>{R/W}</manacost>
             <cmc>1</cmc>
-            <colors>WR</colors>
+            <colors>RW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="224" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_raider.jpeg">LCK</set>
@@ -3652,7 +3652,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3686,7 +3686,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3717,7 +3717,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>RG</colors>
+            <colors>GR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">LCK</set>
