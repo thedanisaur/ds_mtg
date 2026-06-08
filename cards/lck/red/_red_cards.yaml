@@ -402,7 +402,7 @@ card_immortal_transposition:
     rating: 2
     rules_text: |
       Enchant creature
-      Enchanted creature has "{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library."
+      Enchanted creature has "{T}: Sacrifice this creature, then search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it, then shuffle."
     flavor_text: "A testament to the cost of obsession."
     artwork_url: "https://i.ibb.co/v49dnhZy/immortal-transposition-by-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"

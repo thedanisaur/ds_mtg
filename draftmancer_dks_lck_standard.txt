@@ -2658,8 +2658,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3081,8 +3081,8 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "R",
         "U",
+        "R",
         "B"
     ],
     "rarity": "mythic",
@@ -3096,11 +3096,11 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
-        "U",
+        "R",
         "W",
         "B",
-        "R"
+        "G",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3113,8 +3113,8 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "R",
         "U",
+        "R",
         "W"
     ],
     "rarity": "mythic",
@@ -3204,11 +3204,11 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
-        "U",
+        "R",
         "W",
         "B",
-        "R"
+        "G",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 0,
@@ -3263,8 +3263,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3277,11 +3277,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U",
+        "R",
         "W",
         "B",
-        "R"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 5,
@@ -3350,8 +3350,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3416,11 +3416,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U",
+        "R",
         "W",
         "B",
-        "R"
+        "G",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 4,
@@ -5113,8 +5113,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -5722,7 +5722,7 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Enchant creature\nEnchanted creature has \"{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library.\"\n",
+    "oracle_text": "Enchant creature\nEnchanted creature has \"{T}: Sacrifice this creature, then search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it, then shuffle.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/immortal_transposition.jpeg"
 },
 {
@@ -6583,8 +6583,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -6993,8 +6993,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
+        "G",
         "B"
     ],
     "rarity": "uncommon",
@@ -7036,8 +7036,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7050,8 +7050,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U"
+        "U",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7075,8 +7075,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
+        "G",
         "B"
     ],
     "rarity": "uncommon",
@@ -7133,8 +7133,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "U",
+        "G",
         "B"
     ],
     "rarity": "uncommon",
@@ -7148,9 +7148,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7191,8 +7191,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "B"
     ],
     "rarity": "uncommon",
@@ -7221,9 +7221,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7279,9 +7279,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "G",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -7323,8 +7323,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "B"
     ],
     "rarity": "uncommon",
@@ -7381,11 +7381,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "U",
+        "R",
         "W",
         "B",
-        "R"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -7437,8 +7437,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,

@@ -2505,7 +2505,7 @@ Whenever a card goes to your graveyard, ~ gets a +1/+1 counter and you get one s
     <card>
         <name>Immortal Transposition</name>
         <text>Enchant creature
-Enchanted creature has "{T}, Sacrifice this creature: Search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it. Shuffle your library."</text>
+Enchanted creature has "{T}: Sacrifice this creature, then search your library for a creature card with mana value less than or equal to one plus the sacrificed creature's mana value. Put that creature on the battlefield tapped, attach ~ to it, then shuffle."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura</type>
@@ -3583,7 +3583,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">LCK</set>
@@ -3652,7 +3652,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>RU</colors>
+            <colors>UR</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">LCK</set>
         <tablerow>3</tablerow>
