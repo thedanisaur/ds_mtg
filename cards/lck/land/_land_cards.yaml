@@ -28,8 +28,9 @@ card_brightstone_cove_tseldora:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped island to your hand.
-      {T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {U}, {B}, or {G} to your mana pool.
+      {1}{U}{B/G}: Until end of turn, this land becomes a 3/1 blue Wizard creature with shadow and whenever it deals damage to a player, cards that are in your hand have cycling {1}. It's still a land.
     flavor_text: |
       The miners sought the brilliance of souls hidden deep within the earth. But what they unearthed was far more than they bargained for.
     artwork_url: ""
@@ -142,10 +143,11 @@ card_dark_chasm_of_old:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
-      {T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {G}, {U}, or {B} to your mana pool.
+      {G}{U/B}: This land becomes a 2/1 green Hollow creature until end of turn. It's still a land. Whenever it deals damage to a player, reveal the top card of your library. You may put it into your graveyard. If you do, put a +1/+1 counter on ~.
     flavor_text: |
-      Long ago, a great civilization was swallowed by darkness.
+      Long ago, a great city was swallowed by darkness.
     artwork_url: "https://i.ibb.co/Fj2PcNr/dark-chasm-of-old-by-fromsoft-resize.jpg"
     artist: "fromsoft"
     colors: '{U}{G}{B}'
@@ -180,8 +182,9 @@ card_darkroot_forest:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
-      {T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {G}, {R}, or {B} to your mana pool.
+      {G}{B/R}: This land becomes a 3/3 green Treefolk creature with trample until end of turn. It's still a land and has "Sacrifice a land: You gain 2 life."
     flavor_text: |
       The forest hunters guard the sanctity of Darkroot; where ancient trees and stone intertwine.
     artwork_url: "https://i.ibb.co/wZgCZhNy/darkroot-forest-by-fromsoft.jpg"
@@ -218,8 +221,9 @@ card_depths_of_the_burg:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
-      {T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {B}, {U}, or {G} to your mana pool.
+      {1}{B}{U/G}: This land becomes a 2/2 black Elemental creature with deathtouch until end of turn. It's still a land. Whenever a creature dealt damage by ~ would die, that creature's controller discards a card at random and you draw a card.
     flavor_text: "There are actually two Bells of Awakening."
     artwork_url: "https://i.ibb.co/BKLbZCTc/depths-of-the-burg-resize.jpg"
     artist: "fromsoft"
@@ -390,8 +394,10 @@ card_harvest_valley:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.
-      {T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {R} to your mana pool.
+      {T}: Add {B}{G} to your mana pool. Only activate this ability if you control a mountain.
+      {2}{R}{G/B}: This land becomes a 2/2 red Elemental Beast creature with double strike until end of turn. It's still a land.
     flavor_text: |
       The valley is filled with poison and decay. Many miners succumbed to the toxic fumes.
     artwork_url: "https://i.ibb.co/wFcxQLZv/harvest-valley-by-ooga-booga-resize.jpg"
@@ -619,8 +625,9 @@ card_untended_graves:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
-      {T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.
+      This land enters the battlefield tapped.
+      {T}: Add {B}, {R}, or {G} to your mana pool.
+      Sacrifice a creature: Put the top 3 cards of your library into your graveyard. Then you may have ~ become a copy of target creature in your graveyard until end of turn. It's still a land.
     flavor_text: |
       A world without fire is a world without gods.
     artwork_url: "https://i.ibb.co/HDXypLNc/untended-graves-by-fromsoft.jpg"

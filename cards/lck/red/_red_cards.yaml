@@ -105,7 +105,7 @@ card_chaos_demon:
     rating: 3
     rules_text: |
       Haste
-      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with that permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.
+      {R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with their permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.
     flavor_text: "Souls born of the First Flame embody Light, Dark, Life, and Death... this soul... is Chaos."
     artwork_url: "https://i.pinimg.com/736x/98/01/bd/9801bd68bd743540143d1290eddf1e26.jpg"
     artist: "nameless"
@@ -453,7 +453,7 @@ card_masked_manikin:
     rating: 3
     rules_text: |
       Haste
-      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker. You get two souls.
+      When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker and you get two souls.
       Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/tpTYx1GV/masked-manikin-by-steve-sykes-resize.jpg"
@@ -473,7 +473,7 @@ card_menacing_thief:
     rating: 3
     rules_text: |
       Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
-      {R}, {T}: You may play a card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+      {R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
       Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/hxBfBj2D/menacing-thief-by-unknown-resize.jpg"
@@ -485,20 +485,20 @@ card_menacing_thief:
 card_preeminent_giant:
   front:
     name: "Preeminent Giant"
-    cost: "{3}{R}{R}"
+    cost: "{4}{R}{R}"
     super: ""
     type: "Creature"
     sub: "Giant"
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
+      Whenever ~ attacks it deals 3 damage to each of up to two targets.
       Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/whpf7CFS/preeminent-giant-by-hogpodge-resize.jpg"
     artist: "Hogpodge"
-    power: 5
-    toughness: 5
+    power: 6
+    toughness: 6
     number: 160
 
 card_raise_the_sloughtender:
@@ -529,10 +529,10 @@ card_rosarias_fingers:
     rules_text: |
       You may exile a red card from your hand rather than pay this spell's mana cost.
       Choose two -
-      • ~ deals 5 damage to each creature.
+      • ~ deals 5 damage to each creature and planeswalker.
+      • ~ deals 4 damage to each opponent.
       • Destroy up to two target lands.
-      • Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
-      • Each player discards their hand and draws 7 cards.
+      • Each player discards their hand and draws seven cards.
     flavor_text: "Come on, give yourself to Rosaria"
     artwork_url: "https://i.pinimg.com/736x/60/55/5c/60555c7deead28777c8a8483cad95a07.jpg"
     artist: "fromsoft"
@@ -585,7 +585,7 @@ card_shaded_scorpion:
     rules_text: |
       Haste
       {T}: Create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
-      Whenever a Moss Clump you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.
+      Whenever a Moss Clump you control goes to the graveyard, put a haste, trample, or +1/+1 counter on target creature.
     flavor_text: "Our master created us long, long ago, mired in hatred.  "
     artwork_url: "https://i.pinimg.com/736x/0c/b8/ae/0cb8ae08fa46eabd8687844b178f4d9b.jpg"
     artist: "Fromsoft"
@@ -620,8 +620,7 @@ card_smelter_demon:
     rarity: "Mythic"
     rating: 3
     rules_text: |
-      ~ can't be countered.
-      Whenever ~ is dealt damage by a creature, if that creature is not white put two -1/-1 counters on that creature.
+      ~ can't be countered and whenever it is dealt damage by a nonwhite creature, put two -1/-1 counters on that creature.
       {+1}: ~ deals 2 damage to each opponent. Those players can't gain life until the end of your next turn.
       {-X}: ~ deals X damage to each creature and each other planeswalker.
     flavor_text: ""

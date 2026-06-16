@@ -29,9 +29,9 @@ card_amana_charmer:
     rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
-      When ~ enters the battlefield choose one. If its madness cost was paid, choose two instead -
-      • Tap or untap target permanent
+      When ~ enters the battlefield choose one -
       • Draw a card. Discard a card. You get one soul.
+      • Tap or untap target permanent.
     flavor_text: "The shrine sustained the Demon of Song, long before the undead curse ravaged Drangleic."
     artwork_url: "https://i.ibb.co/ch3qTK2P/amana-charmer-by-vicar-amelia-resized.jpg"
     artist: "Vicar Amelia"
@@ -62,7 +62,7 @@ card_amana_void_whisperer:
 card_ancient_researcher:
   front:
     name: "Ancient Researcher"
-    cost: "{1}{U}"
+    cost: "{2}{U}"
     super: ""
     type: "Creature"
     sub: "Human Wizard"
@@ -75,7 +75,7 @@ card_ancient_researcher:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/f9/e1/13/f9e11329ebd5db099d7056fca13522ba.jpg"
     artist: "Terra"
-    power: 1
+    power: 2
     toughness: 1
     number: 53
 
@@ -129,7 +129,7 @@ card_bloated_flies:
     rating: 3
     rules_text: |
       ~ can't attack.
-      Discard a card: Switch ~' power and toughness and gains flying until end of turn.
+      Discard a card: Switch ~' power and toughness and it gains flying until end of turn.
     flavor_text: "Giant, mutated, rotting, parasitic, animated corpses."
     artwork_url: "https://i.pinimg.com/736x/5d/92/a3/5d92a32c2b2eff47a607b3c0b04ff1c4.jpg"
     artist: "fromsoft"
@@ -165,7 +165,7 @@ card_cerebral_snap:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      If an opponent cast a spell from anywhere other than their hand this turn, you may pay {2}{U} rather than pay ~'s mana cost.
+      If an opponent cast a spell from anywhere other than their hand or a nonland permanent entered the battlefield and wasn't cast this turn, you may pay {2}{U} rather than pay this spell's mana cost.
       Each player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.
     flavor_text: "With all souls lost, the lucid quickly slip into dementia."
     artwork_url: "https://i.pinimg.com/736x/06/39/d1/0639d1d9b92b4ca60a36c045451ae4c9.jpg"
@@ -198,7 +198,7 @@ card_daring_sorcerer:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process. You may only repeat this process up to two times.
+      When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)
     flavor_text: ""
     artwork_url: "www.deviantart.com/jasontn/art/Push-459169721"
     artist: "jason tn"
@@ -322,8 +322,8 @@ card_fog_wall:
     rating: 3
     rules_text: |
       Flying
-      ~ can't attack.
       Prevent all damage dealt to and dealt by ~.
+      ~ can't attack and when it becomes the target of a spell or ability, sacrifice it.
     flavor_text: "To step beyond is to step into the known and unknown. These passages remain of the Old One, dividing the eaters of souls from the world."
     artwork_url: "https://i.ibb.co/NdYrGC36/fog-wall-by-fromsoft-resize.jpg"
     artist: "fromsoft"

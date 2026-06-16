@@ -36,7 +36,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Spells that are cast from anywhere other than a player's hand cost {1} more to cast.\nWhenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.\n",
+    "oracle_text": "Spells that are cast from anywhere other than a player's hand cost {2} more to cast.\nWhenever a card goes to your graveyard, you may exile target card from an opponent's graveyard.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/archdrake_cleric.jpeg"
 },
 {
@@ -75,7 +75,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.\nExile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.\nEquip costs you pay cost {1} less. If a card went to your graveyard this turn, equipment you control have equip {0}.\n",
+    "oracle_text": "When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.\nExile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.\nIf a card went to your graveyard this turn, equipment you control have \"{2}: Attach this equipment to target creature\".\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/catacomb_blacksmith.jpeg"
 },
 {
@@ -140,7 +140,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.\nYou can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.\n",
+    "oracle_text": "If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.\nThis turn, you can't lose the game and your opponents can't win the game, you can't create Curse tokens, and damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters from creatures you control. Then remove all bleed and plague counters and destroy all curses attached to you.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/lindelt_perseverance.jpeg"
 },
 {
@@ -153,7 +153,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "First strike, bleed\nIf a player would would search their library, they search the top 4 cards of their library instead.\n",
+    "oracle_text": "First strike, bleed\nIf a player would would search their library, they search the top four cards of their library instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/mirrah_exile.jpeg"
 },
 {
@@ -185,7 +185,7 @@
 {
     "name": "Path of the Dragon",
     "super": "",
-    "type": "Instant",
+    "type": "Sorcery",
     "mana_cost": "{1}{W}",
     "colors": [
         "W"
@@ -205,7 +205,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Destroy all artifacts and creatures.\nWhen you cycle ~ you may destroy target artifact or nonwhite creature.\nCycling {1}{W} ({W}, Discard this card: Draw a card.)\n",
+    "oracle_text": "Destroy all artifacts and creatures.\nWhen you cycle ~ you may destroy target artifact or nonwhite creature.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/radiant_blast.jpeg"
 },
 {
@@ -257,7 +257,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponenet controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)\n",
+    "oracle_text": "You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponent controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/the_way_of_blue.jpeg"
 },
 {
@@ -283,7 +283,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)\n",
+    "oracle_text": "Exile target creature, then return it to the battlefield under it's owners control at the beginning of the next end step. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/transient_flicker.jpeg"
 },
 {
@@ -322,7 +322,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "You may cast ~ any time you could cast an instant.\nWhen ~ enters the battlefield choose one. If its madness cost was paid, choose two instead -\n\u2022 Tap or untap target permanent\n\u2022 Draw a card. Discard a card. You get one soul.\n",
+    "oracle_text": "You may cast ~ any time you could cast an instant.\nWhen ~ enters the battlefield choose one -\n\u2022 Draw a card. Discard a card. You get one soul.\n\u2022 Tap or untap target permanent.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/amana_charmer.jpeg"
 },
 {
@@ -361,7 +361,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ can't attack.\nDiscard a card: Switch ~' power and toughness and gains flying until end of turn.\n",
+    "oracle_text": "~ can't attack.\nDiscard a card: Switch ~' power and toughness and it gains flying until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/bloated_flies.jpeg"
 },
 {
@@ -387,7 +387,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process. You may only repeat this process up to two times.\n",
+    "oracle_text": "When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/daring_sorcerer.jpeg"
 },
 {
@@ -465,7 +465,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Flying\n~ can't attack.\nPrevent all damage dealt to and dealt by ~.\n",
+    "oracle_text": "Flying\nPrevent all damage dealt to and dealt by ~.\n~ can't attack and when it becomes the target of a spell or ability, sacrifice it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/fog_wall.jpeg"
 },
 {
@@ -628,13 +628,13 @@
     "name": "Abyss Jackal",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{1}{B}",
+    "mana_cost": "{B}",
     "colors": [
         "B"
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\n~ can't block.\nDiscard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.\n",
+    "oracle_text": "~ enters the battlefield tapped.\n~ can't block.\nDiscard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackal.jpeg"
 },
 {
@@ -686,7 +686,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.\n",
+    "oracle_text": "When ~ dies, each opponent creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/cursed_jar.jpeg"
 },
 {
@@ -712,7 +712,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.\n",
+    "oracle_text": "~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.\nCycling {2}({2}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/dead_again.jpeg"
 },
 {
@@ -738,7 +738,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, each player gets three souls.\nWhen ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.\n",
+    "oracle_text": "When ~ enters the battlefield, each player gets three souls.\nWhen ~ dies each opponent reveals their hand. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/deserter_of_the_watch.jpeg"
 },
 {
@@ -764,7 +764,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Plague\n~ can't block and can't be blocked.\nWhenever a rat enters the battlefield under your control each opponenet discards a card.\n",
+    "oracle_text": "Plague\n~ can't block and can't be blocked.\nWhenever a rat enters the battlefield under your control each opponent discards a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/festering_undead_rat.jpeg"
 },
 {
@@ -894,7 +894,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Target creature get +1/+0 and gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)\n",
+    "oracle_text": "Target creature get +1/+0 and gains shadow until end of turn. Each opponent loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/veiled_cloak.jpeg"
 },
 {
@@ -907,7 +907,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "As you cast ~, if a card went to your graveyard this turn, replace each instance of \"player\" with \"opponent\".\nDeathtouch\nWhen ~ enters the battlefield or dies, each player sacrifices a nontoken creature.\n",
+    "oracle_text": "Deathtouch\nWhen ~ enters the battlefield or dies, each player sacrifices a nontoken creature. If another card went to your graveyard this turn each opponent sacrifices a nontoken creature instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/wandering_huntsman.jpeg"
 },
 {
@@ -920,7 +920,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters or leaves the graveyard you get one soul.\n{1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.\nHollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)\n",
+    "oracle_text": "When ~ enters or leaves the graveyard you get one soul.\n{1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.\nCycling {B} ({B}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/watcher_at_the_ramparts.jpeg"
 },
 {
@@ -1167,7 +1167,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\nWhen ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker. You get two souls.\nMadness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
+    "oracle_text": "Haste\nWhen ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker and you get two souls.\nMadness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/masked_manikin.jpeg"
 },
 {
@@ -1180,7 +1180,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play a card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
+    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nDelayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg"
 },
 {
@@ -1206,7 +1206,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Haste\n{T}: Create a Moss Clump token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.\")\nWhenever a Moss Clump you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.\n",
+    "oracle_text": "Haste\n{T}: Create a Moss Clump token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.\")\nWhenever a Moss Clump you control goes to the graveyard, put a haste, trample, or +1/+1 counter on target creature.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shaded_scorpion.jpeg"
 },
 {
@@ -1271,7 +1271,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.\nWhenever a land enters the battlefield under your control, target player gets two souls.\nAugur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle it.\nWhenever a land enters the battlefield under your control, target player gets two souls.\nAugur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/adept_cartographer.jpeg"
 },
 {
@@ -1440,7 +1440,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "~ can't attack.\nYou may play an additional land on each of your turns.\nYou may play lands from your graveyard.\nWhenever a land enters the battlefield under your control, put a +1/+1 counter on ~.\n",
+    "oracle_text": "~ can't attack.\nYou may play an additional land on each of your turns.\nYou may play lands from your graveyard.\nWhenever a land enters the battlefield under your control, if it's the second one to do so this turn, put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/farron_keep_perimeter.jpeg"
 },
 {
@@ -1583,7 +1583,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\nWhenever ~ is dealt damage, prevent all but 1 of that damage.\n",
+    "oracle_text": "Whenever ~ is dealt damage, prevent all but 1 of that damage.\nAccursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, \"At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter.\" When a player is dealt damage by a source with accursed, they create a Curse token.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/undead_pigs.jpeg"
 },
 {
@@ -1592,8 +1592,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1611,7 +1611,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.\nWhen ~ leaves the battlefield, the exiled card's casts that card without paying its mana cost.\n",
+    "oracle_text": "You may cast this spell any time you could cast an instant.\nWhen ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.\nWhen ~ leaves the battlefield, the exiled card's owner casts that card without paying its mana cost.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg"
 },
 {
@@ -1620,8 +1620,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1634,8 +1634,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1662,8 +1662,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1676,8 +1676,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1717,7 +1717,7 @@
     "colors": [],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "{T}, Pay one soul: Add one mana of any color to your mana pool.\n{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.\n",
+    "oracle_text": "{T}, Pay one soul: Add one mana of any color to your mana pool.\n{5}, {T}, Sacrifice ~: Return a card from your graveyard to your hand. Activate only if you have five or more souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/burnt_offering.jpeg"
 },
 {
@@ -1893,7 +1893,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Discard a card: You get souls equal to 1 plus the discarded card's mana value.\n{2}, {T}: Choose a nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.\n",
+    "oracle_text": "Discard a card: You get souls equal to 1 plus the discarded card's mana value.\n{2}, {T}: Choose target nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/colorless/stone_humped_old_hag.jpeg"
 },
 {
@@ -1904,7 +1904,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "{1}, {T}, pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.\n",
+    "oracle_text": "{T}, Pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/colorless/traveling_merchant.jpeg"
 },
 {
@@ -1956,7 +1956,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "You may cast ~ any time you could cast an instant.\nCreatures you control get +1/+1, vigilance, and have \"Whenever this creature is dealt damage you gain that much life\".\n",
+    "oracle_text": "You may cast ~ any time you could cast an instant.\nCreatures you control get +1/+1 and have vigilance, lifelink, and soullink. (Damage dealt by this creature also causes you to get that many souls.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/resplendent_life.jpeg"
 },
 {
@@ -2002,7 +2002,7 @@
     "name": "Ancient Researcher",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{1}{U}",
+    "mana_cost": "{2}{U}",
     "colors": [
         "U"
     ],
@@ -2106,7 +2106,7 @@
     "name": "Numbness",
     "super": "",
     "type": "Instant",
-    "mana_cost": "{2}{B}{B}",
+    "mana_cost": "{1}{B}{B}",
     "colors": [
         "B"
     ],
@@ -2177,7 +2177,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nEach opponenet discards X cards at random and you lose X life.\n",
+    "oracle_text": "As you cast ~, each card you exile from your graveyard pays for {1}.\nEach opponent discards X cards at random and you lose X life.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/twisted_recollection.jpeg"
 },
 {
@@ -2203,7 +2203,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Haste\n{R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with that permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.\n",
+    "oracle_text": "Haste\n{R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with their permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/chaos_demon.jpeg"
 },
 {
@@ -2272,19 +2272,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/beast_of_amana.jpeg"
 },
 {
-    "name": "Deep Accursed",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{2}{G}",
-    "colors": [
-        "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 3,
-    "oracle_text": "If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.\nReach, deathtouch\nWhenever ~ is dealt damage, if that damage was from a source that is red, destroy it.\nWhen ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/deep_accursed.jpeg"
-},
-{
     "name": "Drangleic Kobold",
     "super": "",
     "type": "Creature",
@@ -2296,6 +2283,19 @@
     "rating": 3,
     "oracle_text": "Deathtouch\nWhen ~ dies, create a Moss Clump token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.\")\n{1}{G}: Return ~ from your graveyard to the battlefield. Activate only if a card went to your graveyard this turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_kobold.jpeg"
+},
+{
+    "name": "Guidance",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{G}",
+    "colors": [
+        "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "oracle_text": "Sacrifice a land. Search your library for a land card and put it onto the battlefield. Then shuffle your library.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/guidance.jpeg"
 },
 {
     "name": "Hounding Hydra",
@@ -2355,8 +2355,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2369,8 +2369,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B}{R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2383,8 +2383,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2397,8 +2397,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2665,7 +2665,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "If an opponent cast a spell from anywhere other than their hand this turn, you may pay {2}{U} rather than pay ~'s mana cost.\nEach player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.\n",
+    "oracle_text": "If an opponent cast a spell from anywhere other than their hand or a nonland permanent entered the battlefield and wasn't cast this turn, you may pay {2}{U} rather than pay this spell's mana cost.\nEach player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/cerebral_snap.jpeg"
 },
 {
@@ -2808,7 +2808,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.\nCreatures lose indestructible until end of turn. Destroy all creatures.\n",
+    "oracle_text": "If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.\nCreatures lose indestructible until end of turn. Destroy all creatures and planeswalkers.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/heretics_darkstorm.jpeg"
 },
 {
@@ -2846,7 +2846,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Deathtouch, lifelink\nMadness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nCycling {2}{B} ({2}{B}, Discard this card: Draw a card.)\n",
+    "oracle_text": "Deathtouch, lifelink\nWhenever a card goes to your graveyard, put a +1/+1 counter on ~.\nMadness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/sir_vilhelm.jpeg"
 },
 {
@@ -2905,13 +2905,13 @@
     "name": "Preeminent Giant",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{3}{R}{R}",
+    "mana_cost": "{4}{R}{R}",
     "colors": [
         "R"
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.\nMadness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
+    "oracle_text": "Whenever ~ attacks it deals 3 damage to each of up to two targets.\nMadness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/preeminent_giant.jpeg"
 },
 {
@@ -2924,7 +2924,7 @@
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "You may exile a red card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 ~ deals 5 damage to each creature.\n\u2022 Destroy up to two target lands.\n\u2022 Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.\n\u2022 Each player discards their hand and draws 7 cards.\n",
+    "oracle_text": "You may exile a red card from your hand rather than pay this spell's mana cost.\nChoose two -\n\u2022 ~ deals 5 damage to each creature and planeswalker.\n\u2022 ~ deals 4 damage to each opponent.\n\u2022 Destroy up to two target lands.\n\u2022 Each player discards their hand and draws seven cards.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/rosarias_fingers.jpeg"
 },
 {
@@ -2989,7 +2989,7 @@
     ],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\nAugur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
+    "oracle_text": "When ~ enters the battlefield, return target land card from your graveyard to the battlefield.\nWhenever a land card goes to your graveyard, create two 1/1 green Hollow Knight creature tokens with \"{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn.\"\nDarksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/company_captain.jpeg"
 },
 {
@@ -3074,10 +3074,10 @@
     "name": "Chant of Oolacile",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "{R/G}",
+    "mana_cost": "{1}{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3090,8 +3090,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3220,7 +3220,7 @@
     "colors": [],
     "rarity": "rare",
     "rating": 3,
-    "oracle_text": "Cards can't enter the battlefield unless it's from the stack.\nPlayers can't cast spells unless it's from their hand.\nPlayers can't activate abilities of cards while searching their library.\n",
+    "oracle_text": "Nonland cards can't enter the battlefield unless it's from the stack.\nPlayers can't cast spells unless it's from their hand.\nPlayers can't activate abilities of cards while searching their library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_great_seal_of_thorolund.jpeg"
 },
 {
@@ -3352,7 +3352,7 @@
     "colors": [],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "Enchant player\nIf enchanted player would lose the game due to life lose, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, then their life total becomes their starting life total, they shuffle their library and draw seven cards, then they take an extra turn after their next turn instead.\n",
+    "oracle_text": "Enchant player\nIf enchanted player would lose the game, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, their life total becomes their starting life total, they shuffle their library and draw seven cards, and they take an extra turn after this one instead.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/bearing_the_curse.jpeg"
 },
 {
@@ -3365,7 +3365,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "At the beginning of each upkeep each opponent loses 2 life. You gain life equal to the life lost.\n{+1}: Target player discards a card at random.\n{-2}: Choose a nonland, nonenchantment permanent. Its controller sacrifices it. You gain life equal to its mana value.\n{-8}: Each opponent gets an emblem with \"At the beginning of your upkeep, you get three plague counters.\"\n",
+    "oracle_text": "At the beginning of each upkeep each opponent loses 2 life. You gain life equal to the life lost.\n{+1}: Each opponent discards a card at random.\n{-2}: Choose a nonland, nonenchantment permanent. Its controller sacrifices it. You gain life equal to its mana value.\n{-8}: Each opponent gets an emblem with \"At the beginning of your upkeep, you get three plague counters.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/dark_queen_nashandra.jpeg"
 },
 {
@@ -3391,7 +3391,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "~ can't be countered.\nWhenever ~ is dealt damage by a creature, if that creature is not white put two -1/-1 counters on that creature.\n{+1}: ~ deals 2 damage to each opponent. Those players can't gain life until the end of your next turn.\n{-X}: ~ deals X damage to each creature and each other planeswalker.\n",
+    "oracle_text": "~ can't be countered and whenever it is dealt damage by a nonwhite creature, put two -1/-1 counters on that creature.\n{+1}: ~ deals 2 damage to each opponent. Those players can't gain life until the end of your next turn.\n{-X}: ~ deals X damage to each creature and each other planeswalker.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/smelter_demon.jpeg"
 },
 {
@@ -3430,7 +3430,7 @@
     ],
     "rarity": "mythic",
     "rating": 5,
-    "oracle_text": "{G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.\n",
+    "oracle_text": "{G}, Pay one soul, Discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/gateway_of_the_undead.jpeg"
 },
 {
@@ -3443,7 +3443,7 @@
     ],
     "rarity": "mythic",
     "rating": 4,
-    "oracle_text": "~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.\n{+1}: Create a 1/1 green Rat creature token with bleed.\n{-1}: Destroy target land. Its controller gets one bleed counter.\n{-7}: Target player gets seven bleed counters.\n",
+    "oracle_text": "~ can't be the target of spells or be dealt damage unless it has six or more loyalty or you control three or more creatures.\n{+1}: Create a 1/1 green Rat creature token with bleed.\n{-1}: Destroy target land. Its controller gets one bleed counter.\n{-7}: Target player gets seven bleed counters.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/royal_rat_authority.jpeg"
 },
 {
@@ -3485,9 +3485,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,13 +3500,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped island to your hand.\n{T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {U}, {B}, or {G} to your mana pool.\n{1}{U}{B/G}: Until end of turn, this land becomes a 3/1 blue Wizard creature with shadow and whenever it deals damage to a player, cards that are in your hand have cycling {1}. It's still a land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/brightstone_cove_tseldora.jpeg"
 },
 {
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,13 +3582,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.\n{T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {G}, {U}, or {B} to your mana pool.\n{G}{U/B}: This land becomes a 2/1 green Hollow creature until end of turn. It's still a land. Whenever it deals damage to a player, reveal the top card of your library. You may put it into your graveyard. If you do, put a +1/+1 counter on ~.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/dark_chasm_of_old.jpeg"
 },
 {
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,13 +3611,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.\n{T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {G}, {R}, or {B} to your mana pool.\n{G}{B/R}: This land becomes a 3/3 green Treefolk creature with trample until end of turn. It's still a land and has \"Sacrifice a land: You gain 2 life.\"\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/darkroot_forest.jpeg"
 },
 {
@@ -3626,8 +3626,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,13 +3640,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.\n{T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {B}, {U}, or {G} to your mana pool.\n{1}{B}{U/G}: This land becomes a 2/2 black Elemental creature with deathtouch until end of turn. It's still a land. Whenever a creature dealt damage by ~ would die, that creature's controller discards a card at random and you draw a card.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/depths_of_the_burg.jpeg"
 },
 {
@@ -3655,9 +3655,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "U",
-        "G",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3684,8 +3684,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "R",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3713,9 +3713,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "U",
-        "G",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3743,8 +3743,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,13 +3757,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.\n{T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {R} to your mana pool.\n{T}: Add {B}{G} to your mana pool. Only activate this ability if you control a mountain.\n{2}{R}{G/B}: This land becomes a 2/2 red Elemental Beast creature with double strike until end of turn. It's still a land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/harvest_valley.jpeg"
 },
 {
@@ -3786,9 +3786,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "U",
-        "G",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3801,9 +3801,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "R",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
+        "B",
         "R",
         "W",
-        "B",
-        "G",
-        "U"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -3905,13 +3905,13 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "B",
         "R",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.\n{T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.\n",
+    "oracle_text": "This land enters the battlefield tapped.\n{T}: Add {B}, {R}, or {G} to your mana pool.\nSacrifice a creature: Put the top 3 cards of your library into your graveyard. Then you may have ~ become a copy of target creature in your graveyard until end of turn. It's still a land.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/untended_graves.jpeg"
 },
 {
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -4175,8 +4175,8 @@
 6 Raise the Sloughtender
 6 Screeching Undead
 6 Beast of Amana
-6 Deep Accursed
 6 Drangleic Kobold
+6 Guidance
 6 Hounding Hydra
 6 Overwhelming Numbness
 6 The Lordvessel

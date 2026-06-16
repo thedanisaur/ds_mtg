@@ -1,0 +1,19 @@
+card_deep_accursed:
+  front:
+    name: "Deep Accursed"
+    cost: "{2}{G}"
+    super: ""
+    type: "Creature"
+    sub: "Spider"
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.
+      Reach, deathtouch
+      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy it.
+    flavor_text: "https://i.ibb.co/Fb5M3GDJ/deep-accursed-by-tristan-berndt-resize.jpg"
+    artwork_url: ""
+    artist: "Tristan Berndt"
+    power: 2
+    toughness: 3
+    number: 189

@@ -20,7 +20,7 @@ card_ashen_keep_sentinel:
 card_chant_of_oolacile:
   front:
     name: "Chant of Oolacile"
-    cost: "{R/G}"
+    cost: "{1}{R/G}"
     super: ""
     type: "Enchantment"
     sub: ""
@@ -47,7 +47,7 @@ card_conjuring_hollow:
     rules_text: |
       You may cast this spell any time you could cast an instant.
       When ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.
-      When ~ leaves the battlefield, the exiled card's casts that card without paying its mana cost.
+      When ~ leaves the battlefield, the exiled card's owner casts that card without paying its mana cost.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/NgQKDprw/hollow-by-peta-patkin-resize.jpg"
     artist: "Peta Patkin"

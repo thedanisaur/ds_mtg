@@ -86,7 +86,7 @@ Sacrifice an artifact: ~ gets +1/+1 and can't be the target of spells or abiliti
     <card>
         <name>Stone-Humped Old Hag</name>
         <text>Discard a card: You get souls equal to 1 plus the discarded card's mana value.
-{2}, {T}: Choose a nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.</text>
+{2}, {T}: Choose target nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hag</type>
@@ -115,7 +115,7 @@ When ~ dies, each opponent creates a Moss Clump token. (It's an artifact with "{
     </card>
     <card>
         <name>Traveling Merchant</name>
-        <text>{1}, {T}, pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.</text>
+        <text>{T}, Pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hag</type>
@@ -176,8 +176,8 @@ Flying, vigilance, lifelink</text>
     </card>
     <card>
         <name>Archdrake Cleric</name>
-        <text>Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
-Whenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.</text>
+        <text>Spells that are cast from anywhere other than a player's hand cost {2} more to cast.
+Whenever a card goes to your graveyard, you may exile target card from an opponent's graveyard.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Dragon Hollow Cleric</type>
@@ -254,7 +254,7 @@ Put all creatures and planeswalkers on the bottom of their owner's library.</tex
         <name>Catacomb Blacksmith</name>
         <text>When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
 Exile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.
-Equip costs you pay cost {1} less. If a card went to your graveyard this turn, equipment you control have equip {0}.</text>
+If a card went to your graveyard this turn, equipment you control have "{2}: Attach this equipment to target creature".</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Skeleton</type>
@@ -416,7 +416,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
     <card>
         <name>Lindelt Perseverance</name>
         <text>If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
-You can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.</text>
+This turn, you can't lose the game and your opponents can't win the game, you can't create Curse tokens, and damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters from creatures you control. Then remove all bleed and plague counters and destroy all curses attached to you.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Trap</type>
@@ -456,7 +456,7 @@ When ~ enters the battlefield return all creature cards from your graveyard that
             <manacost>{2}{W}{W}</manacost>
             <cmc>4</cmc>
             <colors>W</colors>
-            <pt>3/4</pt>
+            <pt>4/3</pt>
         </prop>
         <set rarity="Rare" num="27" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/lothric_oaths_forsaken.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -480,7 +480,7 @@ If a player would draw a card except for the first one in their draw step, they 
     <card>
         <name>Mirrah Exile</name>
         <text>First strike, bleed
-If a player would would search their library, they search the top 4 cards of their library instead.</text>
+If a player would would search their library, they search the top four cards of their library instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -530,8 +530,8 @@ Sacrifice ~: Creatures you control can't be the target of spells or abilities th
         <text>Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Instant</type>
-            <maintype>Instant</maintype>
+            <type>Sorcery</type>
+            <maintype>Sorcery</maintype>
             <manacost>{1}{W}</manacost>
             <cmc>2</cmc>
             <colors>W</colors>
@@ -543,7 +543,7 @@ Sacrifice ~: Creatures you control can't be the target of spells or abilities th
         <name>Radiant Blast</name>
         <text>Destroy all artifacts and creatures.
 When you cycle ~ you may destroy target artifact or nonwhite creature.
-Cycling {1}{W} ({W}, Discard this card: Draw a card.)</text>
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -558,7 +558,7 @@ Cycling {1}{W} ({W}, Discard this card: Draw a card.)</text>
     <card>
         <name>Resplendent Life</name>
         <text>You may cast ~ any time you could cast an instant.
-Creatures you control get +1/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".</text>
+Creatures you control get +1/+1 and have vigilance, lifelink, and soullink. (Damage dealt by this creature also causes you to get that many souls.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -683,7 +683,7 @@ Discard a card: ~ gains protection from the color of your choice until end of tu
     </card>
     <card>
         <name>The Way of Blue</name>
-        <text>You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponenet controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)</text>
+        <text>You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponent controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -714,7 +714,7 @@ Bleed (If a player would be dealt damage by a source with bleed, they also get a
     </card>
     <card>
         <name>Transient Flicker</name>
-        <text>Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)</text>
+        <text>Exile target creature, then return it to the battlefield under it's owners control at the beginning of the next end step. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -832,9 +832,9 @@ Choose two -
     <card>
         <name>Amana Charmer</name>
         <text>You may cast ~ any time you could cast an instant.
-When ~ enters the battlefield choose one. If its madness cost was paid, choose two instead -
-• Tap or untap target permanent
-• Draw a card. Discard a card. You get one soul.</text>
+When ~ enters the battlefield choose one -
+• Draw a card. Discard a card. You get one soul.
+• Tap or untap target permanent.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wizard</type>
@@ -873,10 +873,10 @@ Madness {U} (If you discard this card, discard it into exile. When you do, cast 
             <side>front</side>
             <type>Creature - Human Wizard</type>
             <maintype>Creature</maintype>
-            <manacost>{1}{U}</manacost>
-            <cmc>2</cmc>
+            <manacost>{2}{U}</manacost>
+            <cmc>3</cmc>
             <colors>U</colors>
-            <pt>1/1</pt>
+            <pt>2/1</pt>
         </prop>
         <set rarity="Uncommon" num="53" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/ancient_researcher.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -917,7 +917,7 @@ Whenever ~ deals combat damage to a player you may look at the top two cards of 
     <card>
         <name>Bloated Flies</name>
         <text>~ can't attack.
-Discard a card: Switch ~' power and toughness and gains flying until end of turn.</text>
+Discard a card: Switch ~' power and toughness and it gains flying until end of turn.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Zombie Insect</type>
@@ -948,7 +948,7 @@ Whenever enchanted creature deals combat damage to a player, you get one soul, t
     </card>
     <card>
         <name>Cerebral Snap</name>
-        <text>If an opponent cast a spell from anywhere other than their hand this turn, you may pay {2}{U} rather than pay ~'s mana cost.
+        <text>If an opponent cast a spell from anywhere other than their hand or a nonland permanent entered the battlefield and wasn't cast this turn, you may pay {2}{U} rather than pay this spell's mana cost.
 Each player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -977,7 +977,7 @@ Each player shuffles their hand and graveyard into their library, then draws sev
     </card>
     <card>
         <name>Daring Sorcerer</name>
-        <text>When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process. You may only repeat this process up to two times.</text>
+        <text>When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Shaman</type>
@@ -1085,8 +1085,8 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</text>
     <card>
         <name>Fog Wall</name>
         <text>Flying
-~ can't attack.
-Prevent all damage dealt to and dealt by ~.</text>
+Prevent all damage dealt to and dealt by ~.
+~ can't attack and when it becomes the target of a spell or ability, sacrifice it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Illusion</type>
@@ -1485,20 +1485,21 @@ Whenever you cast a noncreature spell, create a 1/1 blue Gnome Spirit creature t
     </card>
     <card>
         <name>Abyss Jackal</name>
-        <text>Haste
+        <text>~ enters the battlefield tapped.
 ~ can't block.
 Discard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Zombie Jackal</type>
             <maintype>Creature</maintype>
-            <manacost>{1}{B}</manacost>
-            <cmc>2</cmc>
+            <manacost>{B}</manacost>
+            <cmc>1</cmc>
             <colors>B</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Common" num="92" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/abyss_jackal.jpeg">LCK</set>
         <tablerow>2</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Afflicted Graverobber</name>
@@ -1519,7 +1520,7 @@ When ~ enters the battlefield, you may pay {B}{B}, if you do target player disca
     <card>
         <name>Bearing the Curse</name>
         <text>Enchant player
-If enchanted player would lose the game due to life lose, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, then their life total becomes their starting life total, they shuffle their library and draw seven cards, then they take an extra turn after their next turn instead.</text>
+If enchanted player would lose the game, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, their life total becomes their starting life total, they shuffle their library and draw seven cards, and they take an extra turn after this one instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment - Aura Curse</type>
@@ -1594,7 +1595,7 @@ When ~ becomes the target of a spell or ability, sacrifice it.
     </card>
     <card>
         <name>Cursed Jar</name>
-        <text>When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.</text>
+        <text>When ~ dies, each opponent creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Elemental</type>
@@ -1624,7 +1625,7 @@ When ~ becomes the target of a spell or ability, sacrifice it.
     <card>
         <name>Dark Queen Nashandra</name>
         <text>At the beginning of each upkeep each opponent loses 2 life. You gain life equal to the life lost.
-{+1}: Target player discards a card at random.
+{+1}: Each opponent discards a card at random.
 {-2}: Choose a nonland, nonenchantment permanent. Its controller sacrifices it. You gain life equal to its mana value.
 {-8}: Each opponent gets an emblem with "At the beginning of your upkeep, you get three plague counters."</text>
         <prop><layout>normal</layout>
@@ -1641,7 +1642,8 @@ When ~ becomes the target of a spell or ability, sacrifice it.
     </card>
     <card>
         <name>Dead Again</name>
-        <text>~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.</text>
+        <text>~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.
+Cycling {2}({2}, Discard this card: Draw a card.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -1673,7 +1675,7 @@ Madness {B} (If you discard this card, discard it into exile. When you do, cast 
     <card>
         <name>Deserter of the Watch</name>
         <text>When ~ enters the battlefield, each player gets three souls.
-When ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.</text>
+When ~ dies each opponent reveals their hand. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -1724,7 +1726,7 @@ Cycling {B/P} ({B/P}, Discard this card: Draw a card.)</text>
         <name>Festering Undead Rat</name>
         <text>Plague
 ~ can't block and can't be blocked.
-Whenever a rat enters the battlefield under your control each opponenet discards a card.</text>
+Whenever a rat enters the battlefield under your control each opponent discards a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Zombie Rat</type>
@@ -1789,7 +1791,7 @@ Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)</text>
     <card>
         <name>Heretic's Darkstorm</name>
         <text>If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
-Creatures lose indestructible until end of turn. Destroy all creatures.</text>
+Creatures lose indestructible until end of turn. Destroy all creatures and planeswalkers.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Trap</type>
@@ -1841,8 +1843,8 @@ Each opponent loses life equal to the number of souls they have, then remove all
             <side>front</side>
             <type>Instant - Trap</type>
             <maintype>Instant</maintype>
-            <manacost>{2}{B}{B}</manacost>
-            <cmc>4</cmc>
+            <manacost>{1}{B}{B}</manacost>
+            <cmc>3</cmc>
             <colors>B</colors>
         </prop>
         <set rarity="Uncommon" num="114" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/numbness.jpeg">LCK</set>
@@ -1930,8 +1932,8 @@ Fragment {0} - While searching your library, you may reveal this card from your 
     <card>
         <name>Sir Vilhelm</name>
         <text>Deathtouch, lifelink
-Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
-Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)</text>
+Whenever a card goes to your graveyard, put a +1/+1 counter on ~.
+Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Legendary Creature - Human Knight</type>
@@ -2075,7 +2077,7 @@ Destroy target non-Human creature or enchantment.</text>
     <card>
         <name>Twisted Recollection</name>
         <text>As you cast ~, each card you exile from your graveyard pays for {1}.
-Each opponenet discards X cards at random and you lose X life.</text>
+Each opponent discards X cards at random and you lose X life.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -2089,7 +2091,7 @@ Each opponenet discards X cards at random and you lose X life.</text>
     </card>
     <card>
         <name>Veiled Cloak</name>
-        <text>Target creature get +1/+0 and gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)</text>
+        <text>Target creature get +1/+0 and gains shadow until end of turn. Each opponent loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2103,9 +2105,8 @@ Each opponenet discards X cards at random and you lose X life.</text>
     </card>
     <card>
         <name>Wandering Huntsman</name>
-        <text>As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
-Deathtouch
-When ~ enters the battlefield or dies, each player sacrifices a nontoken creature.</text>
+        <text>Deathtouch
+When ~ enters the battlefield or dies, each player sacrifices a nontoken creature. If another card went to your graveyard this turn each opponent sacrifices a nontoken creature instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -2136,7 +2137,7 @@ When ~ enters the battlefield or dies, each player sacrifices a nontoken creatur
         <name>Watcher at the Ramparts</name>
         <text>When ~ enters or leaves the graveyard you get one soul.
 {1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.
-Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)</text>
+Cycling {B} ({B}, Discard this card: Draw a card.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow</type>
@@ -2249,7 +2250,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
     <card>
         <name>Chaos Demon</name>
         <text>Haste
-{R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with that permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.</text>
+{R}, {T}: Shuffle ~ and target permanent you don't control into their owner's libraries. The controller of each permanent exiles cards from the top of their library until they exile a card that shares a card type with their permanent, and puts that card into play. Then they put all cards exiled this way on the bottom of their library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Demon</type>
@@ -2550,7 +2551,7 @@ Enchanted creature has "{T}: Sacrifice this creature, then search your library f
     <card>
         <name>Masked Manikin</name>
         <text>Haste
-When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker. You get two souls.
+When ~ enters the battlefield you may discard a card. If you do, draw a card. Then if this card's madness cost was paid, it deals 2 damage to target player or planeswalker and you get two souls.
 Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2567,7 +2568,7 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
     <card>
         <name>Menacing Thief</name>
         <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
-{R}, {T}: You may play a card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+{R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
 Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2583,16 +2584,16 @@ Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it o
     </card>
     <card>
         <name>Preeminent Giant</name>
-        <text>Whenever ~ attacks you may pay {4}{R}{R}. If you do ~ deals 3 damage to each of up to two targets.
+        <text>Whenever ~ attacks it deals 3 damage to each of up to two targets.
 Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant</type>
             <maintype>Creature</maintype>
-            <manacost>{3}{R}{R}</manacost>
-            <cmc>5</cmc>
+            <manacost>{4}{R}{R}</manacost>
+            <cmc>6</cmc>
             <colors>R</colors>
-            <pt>5/5</pt>
+            <pt>6/6</pt>
         </prop>
         <set rarity="Rare" num="160" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/preeminent_giant.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -2615,10 +2616,10 @@ Madness {R}{R}, exile a red card from your hand with a favored counter on it. (I
         <name>Rosaria's Fingers</name>
         <text>You may exile a red card from your hand rather than pay this spell's mana cost.
 Choose two -
-• ~ deals 5 damage to each creature.
+• ~ deals 5 damage to each creature and planeswalker.
+• ~ deals 4 damage to each opponent.
 • Destroy up to two target lands.
-• Exile target permanent. Its controller exiles cards from the top of their library until they exile a card of the same type. Put that card into play.
-• Each player discards their hand and draws 7 cards.</text>
+• Each player discards their hand and draws seven cards.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2664,7 +2665,7 @@ Whenever a card goes to your graveyard, ~ gets +X/+0 until end of turn and you g
         <name>Shaded Scorpion</name>
         <text>Haste
 {T}: Create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
-Whenever a Moss Clump you control goes to the graveyard, target creature gets your choice of haste, trample, or +1/+1 until end of turn.</text>
+Whenever a Moss Clump you control goes to the graveyard, put a haste, trample, or +1/+1 counter on target creature.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Scorpion</type>
@@ -2694,8 +2695,7 @@ Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it o
     </card>
     <card>
         <name>Smelter Demon</name>
-        <text>~ can't be countered.
-Whenever ~ is dealt damage by a creature, if that creature is not white put two -1/-1 counters on that creature.
+        <text>~ can't be countered and whenever it is dealt damage by a nonwhite creature, put two -1/-1 counters on that creature.
 {+1}: ~ deals 2 damage to each opponent. Those players can't gain life until the end of your next turn.
 {-X}: ~ deals X damage to each creature and each other planeswalker.</text>
         <prop><layout>normal</layout>
@@ -2840,7 +2840,7 @@ Whenever ~ deals combat damage to a player, you may play a card you own in exile
     </card>
     <card>
         <name>Adept Cartographer</name>
-        <text>When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.
+        <text>When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle it.
 Whenever a land enters the battlefield under your control, target player gets two souls.
 Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
@@ -2975,8 +2975,8 @@ Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a
     <card>
         <name>Company Captain</name>
         <text>When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
-Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
-Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Whenever a land card goes to your graveyard, create two 1/1 green Hollow Knight creature tokens with "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
+Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Cleric Knight</type>
@@ -3054,24 +3054,6 @@ Whenever ~ becomes tapped, target player gets a bleed counter.</text>
         <tablerow>2</tablerow>
     </card>
     <card>
-        <name>Deep Accursed</name>
-        <text>If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.
-Reach, deathtouch
-Whenever ~ is dealt damage, if that damage was from a source that is red, destroy it.
-When ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.</text>
-        <prop><layout>normal</layout>
-            <side>front</side>
-            <type>Creature - Spider</type>
-            <maintype>Creature</maintype>
-            <manacost>{2}{G}</manacost>
-            <cmc>3</cmc>
-            <colors>G</colors>
-            <pt>2/3</pt>
-        </prop>
-        <set rarity="Uncommon" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/deep_accursed.jpeg">LCK</set>
-        <tablerow>2</tablerow>
-    </card>
-    <card>
         <name>Deep Veil</name>
         <text>Choose one. If a card went to your graveyard this turn, choose two instead -
 • Destroy target blue or black noncreature permanent. You gain 2 life and get two souls.
@@ -3084,7 +3066,7 @@ When ~ enters the battlefield you may reveal a card you own from outside the gam
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/deep_veil.jpeg">LCK</set>
+        <set rarity="Common" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/deep_veil.jpeg">LCK</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3099,7 +3081,7 @@ Fragment {G} - While searching your library, you may reveal this card from your 
             <cmc>2</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Common" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/divine_tome_of_londor.jpeg">LCK</set>
+        <set rarity="Common" num="190" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/divine_tome_of_londor.jpeg">LCK</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -3116,7 +3098,7 @@ Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a la
             <colors>G</colors>
             <pt>0/1</pt>
         </prop>
-        <set rarity="Common" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/dogged_contender.jpeg">LCK</set>
+        <set rarity="Common" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/dogged_contender.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3133,7 +3115,7 @@ When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrif
             <colors>G</colors>
             <pt>3/3</pt>
         </prop>
-        <set rarity="Uncommon" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_kobold.jpeg">LCK</set>
+        <set rarity="Uncommon" num="192" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_kobold.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3151,7 +3133,7 @@ Augur 4 (If you would draw a card, instead you may cast this card from your grav
             <colors>G</colors>
             <pt>4/4</pt>
         </prop>
-        <set rarity="Rare" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_ogre.jpeg">LCK</set>
+        <set rarity="Rare" num="193" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/drangleic_ogre.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3159,7 +3141,7 @@ Augur 4 (If you would draw a card, instead you may cast this card from your grav
         <text>~ can't attack.
 You may play an additional land on each of your turns.
 You may play lands from your graveyard.
-Whenever a land enters the battlefield under your control, put a +1/+1 counter on ~.</text>
+Whenever a land enters the battlefield under your control, if it's the second one to do so this turn, put a +1/+1 counter on ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Wall</type>
@@ -3169,7 +3151,7 @@ Whenever a land enters the battlefield under your control, put a +1/+1 counter o
             <colors>G</colors>
             <pt>0/2</pt>
         </prop>
-        <set rarity="Common" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/farron_keep_perimeter.jpeg">LCK</set>
+        <set rarity="Common" num="194" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/farron_keep_perimeter.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -3184,12 +3166,12 @@ Lands you control become 3/3 creatures and gain trample until end of turn.</text
             <cmc>4</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Rare" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/from_the_shaded_woods.jpeg">LCK</set>
+        <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/from_the_shaded_woods.jpeg">LCK</set>
         <tablerow>3</tablerow>
     </card>
     <card>
         <name>Gateway of the Undead</name>
-        <text>{G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.</text>
+        <text>{G}, Pay one soul, Discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -3198,7 +3180,7 @@ Lands you control become 3/3 creatures and gain trample until end of turn.</text
             <cmc>1</cmc>
             <colors>G</colors>
         </prop>
-        <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/gateway_of_the_undead.jpeg">LCK</set>
+        <set rarity="Mythic" num="196" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/gateway_of_the_undead.jpeg">LCK</set>
         <tablerow>1</tablerow>
     </card>
     <card>
@@ -3215,8 +3197,22 @@ Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it o
             <colors>G</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Rare" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/growing_phalanx.jpeg">LCK</set>
+        <set rarity="Rare" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/growing_phalanx.jpeg">LCK</set>
         <tablerow>2</tablerow>
+    </card>
+    <card>
+        <name>Guidance</name>
+        <text>Sacrifice a land. Search your library for a land card and put it onto the battlefield. Then shuffle your library.</text>
+        <prop><layout>normal</layout>
+            <side>front</side>
+            <type>Instant</type>
+            <maintype>Instant</maintype>
+            <manacost>{G}</manacost>
+            <cmc>1</cmc>
+            <colors>G</colors>
+        </prop>
+        <set rarity="Uncommon" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/guidance.jpeg">LCK</set>
+        <tablerow>3</tablerow>
     </card>
     <card>
         <name>Honorable Duel</name>
@@ -3378,7 +3374,7 @@ Augur 3 (If you would draw a card, instead you may cast this card from your grav
     </card>
     <card>
         <name>Royal Rat Authority</name>
-        <text>~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.
+        <text>~ can't be the target of spells or be dealt damage unless it has six or more loyalty or you control three or more creatures.
 {+1}: Create a 1/1 green Rat creature token with bleed.
 {-1}: Destroy target land. Its controller gets one bleed counter.
 {-7}: Target player gets seven bleed counters.</text>
@@ -3509,8 +3505,8 @@ Reveal the top four cards of your library. You may put a permanent card from amo
     </card>
     <card>
         <name>Undead Pigs</name>
-        <text>Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
-Whenever ~ is dealt damage, prevent all but 1 of that damage.</text>
+        <text>Whenever ~ is dealt damage, prevent all but 1 of that damage.
+Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment Creature - Zombie Boar</type>
@@ -3533,7 +3529,7 @@ Other Hollow creatures you control get +1/+1.</text>
             <maintype>Creature</maintype>
             <manacost>{G/W}</manacost>
             <cmc>1</cmc>
-            <colors>GW</colors>
+            <colors>WG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="218" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/ashen_keep_sentinel.jpeg">LCK</set>
@@ -3548,9 +3544,9 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
             <side>front</side>
             <type>Enchantment</type>
             <maintype>Enchantment</maintype>
-            <manacost>{R/G}</manacost>
-            <cmc>1</cmc>
-            <colors>GR</colors>
+            <manacost>{1}{R/G}</manacost>
+            <cmc>2</cmc>
+            <colors>RG</colors>
         </prop>
         <set rarity="Rare" num="219" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/chant_of_oolacile.jpeg">LCK</set>
         <tablerow>1</tablerow>
@@ -3559,7 +3555,7 @@ Pay one soul or discard a card: Add {R} or {G} to your mana pool.</text>
         <name>Conjuring Hollow</name>
         <text>You may cast this spell any time you could cast an instant.
 When ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.
-When ~ leaves the battlefield, the exiled card's casts that card without paying its mana cost.</text>
+When ~ leaves the battlefield, the exiled card's owner casts that card without paying its mana cost.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow</type>
@@ -3583,7 +3579,7 @@ Whenever ~ deals damage to a player, if you discarded one or more cards this tur
             <maintype>Creature</maintype>
             <manacost>{U/R}</manacost>
             <cmc>1</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="221" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/engorged_hollow.jpeg">LCK</set>
@@ -3601,7 +3597,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>UB</colors>
+            <colors>BU</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">LCK</set>
@@ -3617,7 +3613,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">LCK</set>
@@ -3652,7 +3648,7 @@ Whenever ~ enters the battlefield, it deals damage equal to its power to any tar
             <maintype>Instant</maintype>
             <manacost>{U}{R}</manacost>
             <cmc>2</cmc>
-            <colors>UR</colors>
+            <colors>RU</colors>
         </prop>
         <set rarity="Rare" num="225" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/pledged_anathema.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3668,7 +3664,7 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
             <maintype>Creature</maintype>
             <manacost>{2}{B}{R}</manacost>
             <cmc>4</cmc>
-            <colors>RB</colors>
+            <colors>BR</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="226" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/rupturing_hollow.jpeg">LCK</set>
@@ -3686,7 +3682,7 @@ Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delaye
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>GB</colors>
+            <colors>BG</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3701,7 +3697,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{W/B}</manacost>
             <cmc>1</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="228" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/skittering_slave.jpeg">LCK</set>
@@ -3717,7 +3713,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Creature</maintype>
             <manacost>{R/G}</manacost>
             <cmc>1</cmc>
-            <colors>GR</colors>
+            <colors>RG</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="229" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/soul_scoured_hollow.jpeg">LCK</set>
@@ -3732,7 +3728,7 @@ Whenever ~ or another creature dies, each opponent loses 1 life and you get one 
             <maintype>Sorcery</maintype>
             <manacost>{2}{B}{W}</manacost>
             <cmc>4</cmc>
-            <colors>WB</colors>
+            <colors>BW</colors>
         </prop>
         <set rarity="Uncommon" num="230" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/the_end_of_fire.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3805,7 +3801,7 @@ At the beginning of your upkeep, put a petal counter on ~.
     <card>
         <name>Burnt Offering</name>
         <text>{T}, Pay one soul: Add one mana of any color to your mana pool.
-{5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.</text>
+{5}, {T}, Sacrifice ~: Return a card from your graveyard to your hand. Activate only if you have five or more souls.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Artifact</type>
@@ -4297,7 +4293,7 @@ Play with the top card of your library revealed.
     </card>
     <card>
         <name>The Great Seal of Thorolund</name>
-        <text>Cards can't enter the battlefield unless it's from the stack.
+        <text>Nonland cards can't enter the battlefield unless it's from the stack.
 Players can't cast spells unless it's from their hand.
 Players can't activate abilities of cards while searching their library.</text>
         <prop><layout>normal</layout>
@@ -4360,8 +4356,9 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
     </card>
     <card>
         <name>Brightstone Cove Tseldora</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped island to your hand.
-{T}: Add {U}{U}, {U}{B}, or {U}{G} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {U}, {B}, or {G} to your mana pool.
+{1}{U}{B/G}: Until end of turn, this land becomes a 3/1 blue Wizard creature with shadow and whenever it deals damage to a player, cards that are in your hand have cycling {1}. It's still a land.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4371,6 +4368,7 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
         </prop>
         <set rarity="Uncommon" num="273" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/brightstone_cove_tseldora.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Chamber of the Princess</name>
@@ -4448,8 +4446,9 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
     </card>
     <card>
         <name>Dark Chasm of Old</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
-{T}: Add {G}{G}, {G}{U}, or {G}{B} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {G}, {U}, or {B} to your mana pool.
+{G}{U/B}: This land becomes a 2/1 green Hollow creature until end of turn. It's still a land. Whenever it deals damage to a player, reveal the top card of your library. You may put it into your graveyard. If you do, put a +1/+1 counter on ~.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4459,6 +4458,7 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
         </prop>
         <set rarity="Uncommon" num="279" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/dark_chasm_of_old.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Darkroot Basin</name>
@@ -4477,8 +4477,9 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
     </card>
     <card>
         <name>Darkroot Forest</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped forest to your hand.
-{T}: Add {G}{G}, {G}{R}, or {G}{B} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {G}, {R}, or {B} to your mana pool.
+{G}{B/R}: This land becomes a 3/3 green Treefolk creature with trample until end of turn. It's still a land and has "Sacrifice a land: You gain 2 life."</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4488,6 +4489,7 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
         </prop>
         <set rarity="Uncommon" num="281" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/darkroot_forest.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Demon Ruins</name>
@@ -4506,8 +4508,9 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
     </card>
     <card>
         <name>Depths of the Burg</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
-{T}: Add {B}{B}, {B}{U}, or {B}{G} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {B}, {U}, or {G} to your mana pool.
+{1}{B}{U/G}: This land becomes a 2/2 black Elemental creature with deathtouch until end of turn. It's still a land. Whenever a creature dealt damage by ~ would die, that creature's controller discards a card at random and you draw a card.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4517,6 +4520,7 @@ Swampcycling {1} ({1}, Discard this card: Search your library for a Swamp, revea
         </prop>
         <set rarity="Uncommon" num="283" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/depths_of_the_burg.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Dragon Aerie</name>
@@ -4645,8 +4649,10 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
     </card>
     <card>
         <name>Harvest Valley</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped mountain to your hand.
-{T}: Add {R}{R}, {R}{B}, or {R}{G} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {R} to your mana pool.
+{T}: Add {B}{G} to your mana pool. Only activate this ability if you control a mountain.
+{2}{R}{G/B}: This land becomes a 2/2 red Elemental Beast creature with double strike until end of turn. It's still a land.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4656,6 +4662,7 @@ Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain,
         </prop>
         <set rarity="Uncommon" num="292" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/harvest_valley.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Heide's Tower of Flame</name>
@@ -4827,8 +4834,9 @@ You have no maximum hand size.
     </card>
     <card>
         <name>Untended Graves</name>
-        <text>~ enters the battlefield sacrifice it unless you return an untapped swamp to your hand.
-{T}: Add {B}{B}, {B}{R}, or {B}{G} to your mana pool.</text>
+        <text>This land enters the battlefield tapped.
+{T}: Add {B}, {R}, or {G} to your mana pool.
+Sacrifice a creature: Put the top 3 cards of your library into your graveyard. Then you may have ~ become a copy of target creature in your graveyard until end of turn. It's still a land.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4838,6 +4846,7 @@ You have no maximum hand size.
         </prop>
         <set rarity="Uncommon" num="304" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/untended_graves.jpeg">LCK</set>
         <tablerow>0</tablerow>
+        <cipt>1</cipt>
     </card>
     <card>
         <name>Angel Token - lck</name>

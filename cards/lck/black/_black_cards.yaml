@@ -1,14 +1,14 @@
 card_abyss_jackal:
   front:
     name: "Abyss Jackal"
-    cost: "{1}{B}"
+    cost: "{B}"
     super: ""
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
     rating: 3
     rules_text: |
-      Haste
+      ~ enters the battlefield tapped.
       ~ can't block.
       Discard a nonland card or sacrifice a creature: Target player gets one soul and then loses life equal to half the number of souls they have, rounded down.
     flavor_text: ""
@@ -48,7 +48,7 @@ card_bearing_the_curse:
     rating: 3
     rules_text: |
       Enchant player
-      If enchanted player would lose the game due to life lose, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, then their life total becomes their starting life total, they shuffle their library and draw seven cards, then they take an extra turn after their next turn instead.
+      If enchanted player would lose the game, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, their life total becomes their starting life total, they shuffle their library and draw seven cards, and they take an extra turn after this one instead.
     flavor_text: "You will lose everything, once branded."
     artwork_url: "https://i.ibb.co/DHRnvq3j/bearing-the-curse-shimhaq-resize.jpg"
     artist: "shimhaq"
@@ -137,7 +137,7 @@ card_cursed_jar:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ dies, each opponenet creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.
+      When ~ dies, each opponent creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.
     flavor_text: "The jar trembles softly, not from within — but from the weight of prayers long abandoned."
     artwork_url: "https://i.ibb.co/4wYNm0L8/cursed-jar-resize.jpg"
     artist: "deepai"
@@ -172,7 +172,7 @@ card_dark_queen_nashandra:
     rating: 3
     rules_text: |
       At the beginning of each upkeep each opponent loses 2 life. You gain life equal to the life lost.
-      {+1}: Target player discards a card at random.
+      {+1}: Each opponent discards a card at random.
       {-2}: Choose a nonland, nonenchantment permanent. Its controller sacrifices it. You gain life equal to its mana value.
       {-8}: Each opponent gets an emblem with "At the beginning of your upkeep, you get three plague counters."
     flavor_text: ""
@@ -192,6 +192,7 @@ card_dead_again:
     rating: 3
     rules_text: |
       ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.
+      Cycling {2}({2}, Discard this card: Draw a card.)
     flavor_text: "Londor, the Hollow Realm, is a society of undead, comprised of those who led unsavory lives. Is such blessing really something one must ponder?"
     artwork_url: "https://i.ibb.co/RT8wPkGR/dead-again-by-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -228,7 +229,7 @@ card_deserter_of_the_watch:
     rating: 3
     rules_text: |
       When ~ enters the battlefield, each player gets three souls.
-      When ~ dies each opponenet reveals their hands. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.
+      When ~ dies each opponent reveals their hand. You choose a nonland card from each of their hands. Those players discard those cards. You get souls equal to the total mana value of the discarded cards.
     flavor_text: "The poor wretched souls... Be they lord or legend, the curse shows no mercy. What a sham."
     artwork_url: "https://i.ibb.co/VcftWMLg/deserter-of-the-watch-by-unknown-resize.jpg"
     artist: "unknown"
@@ -287,7 +288,7 @@ card_festering_undead_rat:
     rules_text: |
       Plague
       ~ can't block and can't be blocked.
-      Whenever a rat enters the battlefield under your control each opponenet discards a card.
+      Whenever a rat enters the battlefield under your control each opponent discards a card.
     flavor_text: "Gnawing flesh from bone these beasts ingest all manner of toxins... all the better to hunt with."
     artwork_url: "https://i.ibb.co/7xTyBtJW/festering-undead-rat-by-spiralworlds-resize.jpg"
     artist: "spiralworlds"
@@ -364,7 +365,7 @@ card_heretics_darkstorm:
     rating: 3
     rules_text: |
       If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
-      Creatures lose indestructible until end of turn. Destroy all creatures.
+      Creatures lose indestructible until end of turn. Destroy all creatures and planeswalkers.
     flavor_text: "The heretic Navlaan made a deal with beasts from the abyss. He was executed along with his entire village, and the mere utterance of his name became a crime."
     artwork_url: "https://i.pinimg.com/736x/86/8a/94/868a94119eb1ab6ee62b93deaa12e747.jpg"
     artist: "unknown"
@@ -410,7 +411,7 @@ card_necrotic_husk:
 card_numbness:
   front:
     name: "Numbness"
-    cost: "{2}{B}{B}"
+    cost: "{1}{B}{B}"
     super: ""
     type: "Instant"
     sub: "Trap"
@@ -525,8 +526,8 @@ card_sir_vilhelm:
     rating: 3
     rules_text: |
       Deathtouch, lifelink
+      Whenever a card goes to your graveyard, put a +1/+1 counter on ~.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
-      Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/23/84/5f/23845f78be2adfcf52e2fe722bb70877.jpg"
     artist: "fromsoft"
@@ -694,7 +695,7 @@ card_twisted_recollection:
     rating: 3
     rules_text: |
       As you cast ~, each card you exile from your graveyard pays for {1}.
-      Each opponenet discards X cards at random and you lose X life.
+      Each opponent discards X cards at random and you lose X life.
     flavor_text: "...Ahh, please, someone tell me... Who am I? Why am I here?..."
     artwork_url: "https://i.pinimg.com/736x/fa/38/68/fa38689a6b81f471e6490bf768530004.jpg"
     artist: "Pixel Pulse"
@@ -710,7 +711,7 @@ card_veiled_cloak:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Target creature get +1/+0 and gains shadow until end of turn. Each opponenet loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
+      Target creature get +1/+0 and gains shadow until end of turn. Each opponent loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
     flavor_text: "Straid was invited to the old kingdom of Olaphis for his wisdom, but its depth was a dreadful trap."
     artwork_url: "https://i.ibb.co/V0TP44Z8/veiled-cloak-by-fromsoft-resize.jpg"
     artist: "fromsoft"
@@ -726,9 +727,8 @@ card_wandering_huntsman:
     rarity: "Common"
     rating: 3
     rules_text: |
-      As you cast ~, if a card went to your graveyard this turn, replace each instance of "player" with "opponent".
       Deathtouch
-      When ~ enters the battlefield or dies, each player sacrifices a nontoken creature.
+      When ~ enters the battlefield or dies, each player sacrifices a nontoken creature. If another card went to your graveyard this turn each opponent sacrifices a nontoken creature instead.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/xK55R713/wandering-huntsman-by-peta-patkin-resize.jpg"
     artist: "Peta Patkin"
@@ -764,7 +764,7 @@ card_watcher_at_the_ramparts:
     rules_text: |
       When ~ enters or leaves the graveyard you get one soul.
       {1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.
-      Hollowcycling {1} ({1}, Discard this card: Search your library for a Hollow card, reveal it, and put it into your hand. Shuffle your library.)
+      Cycling {B} ({B}, Discard this card: Draw a card.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/YFMxYy0Z/watcher-at-the-ramparts-by-unknown-resize.jpg"
     artist: "unknown"

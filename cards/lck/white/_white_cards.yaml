@@ -63,8 +63,8 @@ card_archdrake_cleric:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Spells that are cast from anywhere other than a player's hand cost {1} more to cast.
-      Whenever a card goes to your graveyard, you may exile target card from an opponenet's graveyard.
+      Spells that are cast from anywhere other than a player's hand cost {2} more to cast.
+      Whenever a card goes to your graveyard, you may exile target card from an opponent's graveyard.
     flavor_text: "A number of Lindelt defectors have found their way to Drangleic in an attempt to start new lives, but some have since gone Hollow and become a threat to the living."
     artwork_url: "https://i.ibb.co/YTbFP7wc/archdrake-cleric-by-jose-fernando-bellavista-resize.jpg"
     artist: "Jose Fernando Bellavista"
@@ -154,7 +154,7 @@ card_catacomb_blacksmith:
     rules_text: |
       When ~ enters the battlefield search your library for an equipment card. Reveal it and put it into your hand. Then shuffle your library.
       Exile seven cards from your graveyard: You may put an equipment from your hand onto the battlefield.
-      Equip costs you pay cost {1} less. If a card went to your graveyard this turn, equipment you control have equip {0}.
+      If a card went to your graveyard this turn, equipment you control have "{2}: Attach this equipment to target creature".
     flavor_text: "Be gone with you! ...You'll spoil my focus."
     artwork_url: "https://i.ibb.co/xttCSw28/catacomb-blacksmith-by-vorname-nachname-resize.jpg"
     artist: "Vorname Nachname"
@@ -340,9 +340,9 @@ card_lindelt_perseverance:
     rating: 3
     rules_text: |
       If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
-      You can't lose the game this turn and your opponenets can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters you have and from permanents you control.
+      This turn, you can't lose the game and your opponents can't win the game, you can't create Curse tokens, and damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters from creatures you control. Then remove all bleed and plague counters and destroy all curses attached to you.
     flavor_text: ""
-    artwork_url: "https://www.deviantart.com/jameszapata/art/Elite-Arcanist-382084836"
+    artwork_url: "https://www.deviantart.com/artdeepmind/art/Shield-of-Winter-891654549"
     artist: "artdeepmind"
     number: 25
 
@@ -381,8 +381,8 @@ card_lothric_oaths_forsaken:
     flavor_text: "Young Lothric was meant to be a champion, but some things will remain distant dreams."
     artwork_url: "https://i.ibb.co/ZpPcgNNg/lothric-oaths-forsaken-by-nameless-resize.jpg"
     artist: "nameless"
-    power: 3
-    toughness: 4
+    power: 4
+    toughness: 3
     number: 27
 
 card_lucatiel_of_mirrah:
@@ -415,7 +415,7 @@ card_mirrah_exile:
     rating: 3
     rules_text: |
       First strike, bleed
-      If a player would would search their library, they search the top 4 cards of their library instead.
+      If a player would would search their library, they search the top four cards of their library instead.
     flavor_text: "Elder brother of Lucatiel of Mirrah, known as Mirrah's greatest swordsmen, though afflicted by the Curse, set out in search of a cure. He was never heard from again and his fate and whereabouts were unknown - until now…"
     artwork_url: "https://i.pinimg.com/736x/e6/c3/86/e6c386a4138780df0607fdcf581f50f6.jpg"
     artist: "Giorgi Tsikarishvili"
@@ -466,7 +466,7 @@ card_path_of_the_dragon:
     name: "Path of the Dragon"
     cost: "{1}{W}"
     super: ""
-    type: "Instant"
+    type: "Sorcery"
     sub: ""
     rarity: "Common"
     rating: 3
@@ -489,7 +489,7 @@ card_radiant_blast:
     rules_text: |
       Destroy all artifacts and creatures.
       When you cycle ~ you may destroy target artifact or nonwhite creature.
-      Cycling {1}{W} ({W}, Discard this card: Draw a card.)
+      Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
     flavor_text: "Ironic, a cleric's most sacred spell... a primal, powerful, shockwave."
     artwork_url: "https://i.pinimg.com/736x/df/1d/b2/df1db2cbfa36a18ffac7864fcc029675.jpg"
     artist: "dzasrock"
@@ -506,7 +506,7 @@ card_resplendent_life:
     rating: 3
     rules_text: |
       You may cast ~ any time you could cast an instant.
-      Creatures you control get +1/+1, vigilance, and have "Whenever this creature is dealt damage you gain that much life".
+      Creatures you control get +1/+1 and have vigilance, lifelink, and soullink. (Damage dealt by this creature also causes you to get that many souls.)
     flavor_text: "Cleric Forsalle of Lindelt was a master of miracles who fought battles across the lands. His allies called him a holy knight, but his enemies feared him for his demonic powers."
     artwork_url: "https://i.ibb.co/vCx7WGF0/resplendent-life-by-cosmic-resize.jpg"
     artist: "cosmic"
@@ -652,7 +652,7 @@ card_the_way_of_blue:
     rarity: "Common"
     rating: 3
     rules_text: |
-      You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponenet controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)
+      You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponent controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)
     flavor_text: "You're one of us now. We'll be with you in your time of need."
     artwork_url: "https://i.ibb.co/q3DqHdhC/the-way-of-blue-by-unknown-resize.jpg"
     artist: "unknown"
@@ -688,7 +688,7 @@ card_transient_flicker:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Exile target creature, then return it to the battlefield under it's owners control. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
+      Exile target creature, then return it to the battlefield under it's owners control at the beginning of the next end step. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
     flavor_text: "Upon becoming cursed, the undead realized too late, that there are more ghosts on the other side."
     artwork_url: "https://i.ibb.co/ns8MJcLf/transient-flicker-by-fromsoft-resize.jpg"
     artist: "fromsoft"

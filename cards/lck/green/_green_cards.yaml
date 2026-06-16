@@ -8,7 +8,7 @@ card_adept_cartographer:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle.
+      When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle it.
       Whenever a land enters the battlefield under your control, target player gets two souls.
       Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: ""
@@ -167,8 +167,8 @@ card_company_captain:
     rating: 3
     rules_text: |
       When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
-      Whenever a land card goes to your graveyard, create a 1/1 green Hollow Knight creature token. It has "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
-      Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
+      Whenever a land card goes to your graveyard, create two 1/1 green Hollow Knight creature tokens with "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
+      Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/SXR6QpH6/company-captain-by-renzo-rotate.jpg"
     artist: "renzo"
@@ -252,27 +252,6 @@ card_darkroot_vines:
     toughness: 1
     number: 188
 
-card_deep_accursed:
-  front:
-    name: "Deep Accursed"
-    cost: "{2}{G}"
-    super: ""
-    type: "Creature"
-    sub: "Spider"
-    rarity: "Uncommon"
-    rating: 3
-    rules_text: |
-      If you were on the draw, ~ costs {1} less to cast and you may cast this spell any time you could cast and instant.
-      Reach, deathtouch
-      Whenever ~ is dealt damage, if that damage was from a source that is red, destroy it.
-      When ~ enters the battlefield you may reveal a card you own from outside the game and put it into your hand, or discard a card to draw a card.
-    flavor_text: "https://i.ibb.co/Fb5M3GDJ/deep-accursed-by-tristan-berndt-resize.jpg"
-    artwork_url: ""
-    artist: "Tristan Berndt"
-    power: 2
-    toughness: 3
-    number: 189
-
 card_deep_veil:
   front:
     name: "Deep Veil"
@@ -289,7 +268,7 @@ card_deep_veil:
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2b/f6/a3/2bf6a35430dd5d7d0131e07fb5304af8.jpg"
     artist: "fromsoft"
-    number: 190
+    number: 189
 
 card_divine_tome_of_londor:
   front:
@@ -306,7 +285,7 @@ card_divine_tome_of_londor:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/pj4gyz3g/divine-tome-of-londor-by-unknown-resize.jpg"
     artist: "unknown"
-    number: 191
+    number: 190
 
 card_dogged_contender:
   front:
@@ -326,7 +305,7 @@ card_dogged_contender:
     artist: "Elizabeth Sprohnle"
     power: 0
     toughness: 1
-    number: 192
+    number: 191
 
 card_drangleic_kobold:
   front:
@@ -346,7 +325,7 @@ card_drangleic_kobold:
     artist: "Boceto"
     power: 3
     toughness: 3
-    number: 193
+    number: 192
 
 card_drangleic_ogre:
   front:
@@ -367,7 +346,7 @@ card_drangleic_ogre:
     artist: "desyntril"
     power: 4
     toughness: 4
-    number: 194
+    number: 193
 
 card_farron_keep_perimeter:
   front:
@@ -382,13 +361,13 @@ card_farron_keep_perimeter:
       ~ can't attack.
       You may play an additional land on each of your turns.
       You may play lands from your graveyard.
-      Whenever a land enters the battlefield under your control, put a +1/+1 counter on ~.
+      Whenever a land enters the battlefield under your control, if it's the second one to do so this turn, put a +1/+1 counter on ~.
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2e/9c/4b/2e9c4b9945e026443bfe636b2b85087d.jpg"
     artist: "fromsoft"
     power: 0
     toughness: 2
-    number: 195
+    number: 194
 
 card_from_the_shaded_woods:
   front:
@@ -405,7 +384,7 @@ card_from_the_shaded_woods:
     flavor_text: "There are old ones in this forest… The Shaded Woods are for the lost. Few return with their minds intact."
     artwork_url: "https://i.ibb.co/GQGT7PSB/from-the-shaded-woods-by-john-hulin-resize.jpg"
     artist: "John Hulin"
-    number: 196
+    number: 195
 
 card_gateway_of_the_undead:
   front:
@@ -417,11 +396,11 @@ card_gateway_of_the_undead:
     rarity: "Mythic"
     rating: 5
     rules_text: |
-      {G}, Pay one soul, discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.
+      {G}, Pay one soul, Discard a creature card: Search your library for a creature card with mana value less than or equal to one plus the discarded card's mana value and put it into your hand. Shuffle your library.
     flavor_text: "You are the Undead. You must journey to Lordran… This is the first step."
     artwork_url: "https://i.pinimg.com/736x/4e/ca/b8/4ecab8c8e1ad165f01f880d6dfd09184.jpg"
     artist: "fromsoft"
-    number: 197
+    number: 196
 
 card_growing_phalanx:
   front:
@@ -441,6 +420,22 @@ card_growing_phalanx:
     artist: "fromsoft"
     power: 1
     toughness: 1
+    number: 197
+
+card_guidance:
+  front:
+    name: "Guidance"
+    cost: "{G}"
+    super: ""
+    type: "Instant"
+    sub: ""
+    rarity: "Uncommon"
+    rating: 3
+    rules_text: |
+      Sacrifice a land. Search your library for a land card and put it onto the battlefield. Then shuffle your library.
+    flavor_text: "Countless worlds loosely overlap, and at the seams of contact, kindred souls, who have lost their way, call out to one another with fleeting messages of hope."
+    artwork_url: "https://www.deviantart.com/cobaltplasma/art/Grove-Witch-Ascension-Gift-of-the-Elements-646547013"
+    artist: "cobaltplasma"
     number: 198
 
 card_honorable_duel:
@@ -636,7 +631,7 @@ card_royal_rat_authority:
     rarity: "Mythic"
     rating: 4
     rules_text: |
-      ~ can't be the target of spells or be dealt damage unless you control three or more creatures or it has six or more loyalty.
+      ~ can't be the target of spells or be dealt damage unless it has six or more loyalty or you control three or more creatures.
       {+1}: Create a 1/1 green Rat creature token with bleed.
       {-1}: Destroy target land. Its controller gets one bleed counter.
       {-7}: Target player gets seven bleed counters.
@@ -787,8 +782,8 @@ card_undead_pigs:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
       Whenever ~ is dealt damage, prevent all but 1 of that damage.
+      Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/kVwDtMf3/undead-pigs-by-otto-lehtonen-resize.jpg"
     artist: "otto-lehtonen"

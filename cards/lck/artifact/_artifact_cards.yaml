@@ -66,7 +66,7 @@ card_burnt_offering:
     rating: 3
     rules_text: |
       {T}, Pay one soul: Add one mana of any color to your mana pool.
-      {5}, {T}, Sacrifice ~: Return a card you own in exile to your hand. Activate only if you have five or more souls.
+      {5}, {T}, Sacrifice ~: Return a card from your graveyard to your hand. Activate only if you have five or more souls.
     flavor_text: "Harnessing the fiery remnants of Lost Izalith can grant the power to peel back eternity."
     artwork_url: "https://i.ibb.co/8q0xjWQ/burnt-offering-by-cobalt-plasma-resize.jpg"
     artist: "cobaltplasma"
@@ -665,7 +665,7 @@ card_the_great_seal_of_thorolund:
     rarity: "Rare"
     rating: 3
     rules_text: |
-      Cards can't enter the battlefield unless it's from the stack.
+      Nonland cards can't enter the battlefield unless it's from the stack.
       Players can't cast spells unless it's from their hand.
       Players can't activate abilities of cards while searching their library.
     flavor_text: "Its brilliant light protects all those of Sol Londo"

@@ -101,7 +101,7 @@ card_stone_humped_old_hag:
     rating: 3
     rules_text: |
       Discard a card: You get souls equal to 1 plus the discarded card's mana value.
-      {2}, {T}: Choose a nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.
+      {2}, {T}: Choose target nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.
     flavor_text: "Keep your marbles intact, love. At least until I lose mine."
     artwork_url: "https://i.ibb.co/p6vVn2XS/stone-humped-old-hag-by-richardo-soma-resize.jpg"
     artist: "Richardo Soma"
@@ -138,7 +138,7 @@ card_traveling_merchant:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      {1}, {T}, pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.
+      {T}, Pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.
     flavor_text: "Ohh… Ohh, then it's true… A Champion of Ash, as I live and breathe. Bearer of the Darksign, let your true strength shine..."
     artwork_url: "https://i.ibb.co/S750DfFn/traveling-merchant-by-fromsoft-resize.jpg"
     artist: "fromsoft"
