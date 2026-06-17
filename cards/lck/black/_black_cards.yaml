@@ -24,7 +24,7 @@ card_afflicted_graverobber:
     cost: "{1}{B}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Hollow"
     rarity: "Rare"
     rating: 4
     rules_text: |
@@ -40,7 +40,7 @@ card_afflicted_graverobber:
 card_bearing_the_curse:
   front:
     name: "Bearing the Curse"
-    cost: ""
+    cost: "{B}{B}{B}"
     super: ""
     type: "Enchantment"
     sub: "Aura Curse"

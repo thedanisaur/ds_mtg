@@ -378,7 +378,7 @@ card_gyrm_warrior:
     cost: "{R}"
     super: ""
     type: "Creature"
-    sub: "Human"
+    sub: "Hollow"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -725,7 +725,7 @@ card_torturous_demon:
     cost: "{2}{R}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Demon"
     rarity: "Common"
     rating: 3
     rules_text: |

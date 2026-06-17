@@ -225,7 +225,7 @@ card_homeward_bone:
 card_hornet_ring:
   front:
     name: "Hornet Ring"
-    cost: "{1}"
+    cost: "{B}"
     super: ""
     type: "Artifact"
     sub: "Equipment"
@@ -233,7 +233,7 @@ card_hornet_ring:
     rating: 2
     rules_text: |
       Equipped creature has deathtouch.
-      Equip {B}
+      Equip {1}
     flavor_text: "The masked Ciaran granted a swift death to any and all enemies of the throne."
     artwork_url: "https://i.ibb.co/ycnZMP0K/hornet-ring.jpg"
     artist: "fromsoft"
@@ -363,7 +363,7 @@ card_ring_of_sacrifice:
     rarity: "Mythic"
     rating: 0
     rules_text: |
-      {T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
+      {T}: Until end of turn if you would lose the game, you remove all poison, plague, and bleed counters, sacrifice all curses, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.
     flavor_text: "You'll lose nothing upon death...except maybe your soul - *Velka, the Goddess of Sin*"
     artwork_url: "https://i.ibb.co/cKWzsK9t/ring-of-sacrifice-andde14-resize.jpg"
     artist: "andde14"

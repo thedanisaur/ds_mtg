@@ -812,7 +812,7 @@
     ],
     "rarity": "common",
     "rating": 1,
-    "oracle_text": "{T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana value. If you do, put it into your hand. Otherwise put that card on the bottom of your library.\n{R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.\n{U/R}, {T}: Creatures you control gain haste and prowess until end of turn.\n",
+    "oracle_text": "Whenever a creature you control attacks, exile the top card of your library with a favored counter on it.\n{T}: Return target card you own in exile with a favored counter on it to your hand.\n{R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.\n{U/R}, {T}: Creatures you control gain haste and prowess until end of turn.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/red/firekeeper.jpeg"
 },
 {
@@ -1198,8 +1198,8 @@
     "type": "Creature",
     "mana_cost": "{2}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 1,
@@ -1212,8 +1212,8 @@
     "type": "Instant",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 0,
@@ -2025,8 +2025,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2053,8 +2053,8 @@
     "type": "Sorcery",
     "mana_cost": "{X}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2067,8 +2067,8 @@
     "type": "Instant",
     "mana_cost": "{R}{B}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2136,11 +2136,13 @@
     "name": "Hornet Ring",
     "super": "",
     "type": "Artifact",
-    "mana_cost": "{1}",
-    "colors": [],
+    "mana_cost": "{B}",
+    "colors": [
+        "B"
+    ],
     "rarity": "uncommon",
     "rating": 2,
-    "oracle_text": "Equipped creature has deathtouch.\nEquip {B}\n",
+    "oracle_text": "Equipped creature has deathtouch.\nEquip {1}\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/hornet_ring.jpeg"
 },
 {
@@ -2630,8 +2632,8 @@
     "type": "Creature",
     "mana_cost": "{5}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 2,
@@ -2644,8 +2646,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2658,8 +2660,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}{U/R}{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2672,8 +2674,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}{B/G}{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2700,8 +2702,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}{G/W}{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2714,9 +2716,9 @@
     "type": "Enchantment",
     "mana_cost": "{R}{G}{W}",
     "colors": [
-        "G",
+        "R",
         "W",
-        "R"
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2729,8 +2731,8 @@
     "type": "Creature",
     "mana_cost": "{U/B}{U/B}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2770,8 +2772,8 @@
     "type": "Creature",
     "mana_cost": "{5}{R}{G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2811,9 +2813,9 @@
     "type": "Creature",
     "mana_cost": "{R}{W}{B}",
     "colors": [
+        "R",
         "W",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2825,9 +2827,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
+            "R",
             "W",
-            "B",
-            "R"
+            "B"
         ],
         "rarity": "",
         "oracle_text": "When ~ enters the battlefield you may cast an exiled card with a favored counter on it without paying its mana cost.\nKindle (You may pay a number of souls equal to this card's mana value, if you do transform it. Activate this ability only anytime you could cast a sorcery.)\n",
@@ -2840,8 +2842,8 @@
     "type": "Enchantment",
     "mana_cost": "{2/R}{2/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -2855,8 +2857,8 @@
     "mana_cost": "{1}{B}{R}{R}{G}{G}",
     "colors": [
         "R",
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3054,8 +3056,8 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "G",
-            "B"
+            "B",
+            "G"
         ],
         "rarity": "",
         "oracle_text": "~ can't be the target of spells that are white, blue, or red.\nWhen ~ enters the battlefield, exile all creatures named \"Abyss Watchers\". Then return a creature from your graveyard to the battlefield.\n",
@@ -3081,9 +3083,9 @@
     "type": "Sorcery",
     "mana_cost": "{U}{U}{B}{B}{B}{R}{R}",
     "colors": [
-        "U",
         "R",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3096,8 +3098,8 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
-        "G",
         "R",
+        "G",
         "B",
         "U",
         "W"
@@ -3113,9 +3115,9 @@
     "type": "Planeswalker",
     "mana_cost": "{U}{R}{W}",
     "colors": [
-        "U",
+        "R",
         "W",
-        "R"
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3128,9 +3130,9 @@
     "type": "Creature",
     "mana_cost": "{1}{W}{U}{B}",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3142,9 +3144,9 @@
         "type": "Creature",
         "mana_cost": "",
         "colors": [
-            "U",
             "W",
-            "B"
+            "B",
+            "U"
         ],
         "rarity": "",
         "oracle_text": "When this creature enters the battlefield ~, you may search your library for a card named Cursed Greatsword and put it into your hand.\nWhenever an opponent draws a card, you may draw a card.\n{W}{U/B}: You may put a card named Cursed Greatsword from your hand onto the battlefield. If you do, equip it to ~ without paying its equip cost.\n",
@@ -3157,8 +3159,8 @@
     "type": "Planeswalker",
     "mana_cost": "{3}{R}{W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "mythic",
     "rating": 1,
@@ -3204,15 +3206,15 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
-        "G",
         "R",
+        "G",
         "B",
         "U",
         "W"
     ],
     "rarity": "mythic",
     "rating": 0,
-    "oracle_text": "{T}: Until end of turn if you would lose the game, you remove all poison counters, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.\n",
+    "oracle_text": "{T}: Until end of turn if you would lose the game, you remove all poison, plague, and bleed counters, sacrifice all curses, your life total becomes 20, shuffle all cards you own into your library, draw 7 cards, and you remove all souls. Activate this ability only if you have ten or more souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg"
 },
 {
@@ -3226,7 +3228,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {B} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/anor_londo.jpeg"
 },
 {
@@ -3235,12 +3237,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {R} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/archdragon_peak.jpeg"
 },
 {
@@ -3249,12 +3251,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {U} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/cathedral_of_blue.jpeg"
 },
 {
@@ -3263,12 +3265,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {U} or {R} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/cathedral_of_the_deep.jpeg"
 },
 {
@@ -3277,8 +3279,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "B",
         "U",
         "W"
@@ -3294,12 +3296,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {G} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/darkroot_garden.jpeg"
 },
 {
@@ -3308,12 +3310,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {B} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/farron_keep.jpeg"
 },
 {
@@ -3322,12 +3324,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {U} or {B} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/irithyll_of_the_boreal_valley.jpeg"
 },
 {
@@ -3336,12 +3338,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {B} or {R} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/lost_izalith.jpeg"
 },
 {
@@ -3350,12 +3352,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {R} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/road_of_sacrifices.jpeg"
 },
 {
@@ -3364,12 +3366,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.",
+    "oracle_text": "({T}: Add {U} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/land/shrine_of_amana.jpeg"
 },
 {
@@ -3402,8 +3404,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "mythic",
     "rating": 2,
@@ -3416,8 +3418,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "B",
         "U",
         "W"

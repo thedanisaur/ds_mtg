@@ -293,7 +293,7 @@ card_dogged_contender:
     cost: "{G}"
     super: ""
     type: "Creature"
-    sub: ""
+    sub: "Human Rogue"
     rarity: "Common"
     rating: 3
     rules_text: |
@@ -432,7 +432,7 @@ card_guidance:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      Sacrifice a land. Search your library for a land card and put it onto the battlefield. Then shuffle your library.
+      Sacrifice a land. Search your library and/or graveyard for a land card and put it onto the battlefield. If you searched your library, shuffle it.
     flavor_text: "Countless worlds loosely overlap, and at the seams of contact, kindred souls, who have lost their way, call out to one another with fleeting messages of hope."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Grove-Witch-Ascension-Gift-of-the-Elements-646547013"
     artist: "cobaltplasma"

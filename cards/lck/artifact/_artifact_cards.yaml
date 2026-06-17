@@ -144,7 +144,7 @@ card_crown_of_the_covetous_king:
   front:
     name: "Crown of the Covetous King"
     cost: "{2}"
-    super: ""
+    super: "Legendary"
     type: "Artifact"
     sub: "Equipment"
     rarity: "Mythic"

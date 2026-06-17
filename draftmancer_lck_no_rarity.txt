@@ -1592,8 +1592,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1606,8 +1606,8 @@
     "type": "Creature",
     "mana_cost": "{W/U}",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1620,8 +1620,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1634,8 +1634,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1648,8 +1648,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1676,8 +1676,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1690,8 +1690,8 @@
     "type": "Creature",
     "mana_cost": "{G/U}",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2294,7 +2294,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "Sacrifice a land. Search your library for a land card and put it onto the battlefield. Then shuffle your library.\n",
+    "oracle_text": "Sacrifice a land. Search your library and/or graveyard for a land card and put it onto the battlefield. If you searched your library, shuffle it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/guidance.jpeg"
 },
 {
@@ -2355,8 +2355,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2383,8 +2383,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3076,8 +3076,8 @@
     "type": "Enchantment",
     "mana_cost": "{1}{R/G}",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3090,8 +3090,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3289,7 +3289,7 @@
     ],
     "rarity": "mythic",
     "rating": 3,
-    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.\nWhen you cycle ~ create X 1/1 Human creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
+    "oracle_text": "Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.\nWhen you cycle ~ create X 1/1 Royal Guard creature tokens with lifelink.\nCycling {X}{W}{W} ({X}{W}{W}, Discard this card: Draw a card.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/gwyns_divine_justice.jpeg"
 },
 {
@@ -3348,8 +3348,10 @@
     "name": "Bearing the Curse",
     "super": "",
     "type": "Enchantment",
-    "mana_cost": "",
-    "colors": [],
+    "mana_cost": "{B}{B}{B}",
+    "colors": [
+        "B"
+    ],
     "rarity": "mythic",
     "rating": 3,
     "oracle_text": "Enchant player\nIf enchanted player would lose the game, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, their life total becomes their starting life total, they shuffle their library and draw seven cards, and they take an extra turn after this one instead.\n",
@@ -3448,7 +3450,7 @@
 },
 {
     "name": "Crown of the Covetous King",
-    "super": "",
+    "super": "Legendary",
     "type": "Artifact",
     "mana_cost": "{2}",
     "colors": [],
@@ -3485,9 +3487,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,9 +3502,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3520,7 +3522,7 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.\n{T}: Add {B} or {W} to your mana pool.\n",
+    "oracle_text": "({T}: Add {B} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may return a swamp or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/chamber_of_the_princess.jpeg"
 },
 {
@@ -3529,12 +3531,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.\n{T}: Add {U} or {B} to your mana pool.\n",
+    "oracle_text": "({T}: Add {U} or {B} to your mana pool.)\nAs ~ enters the battlefield, you may return a island or swamp you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/church_of_yorshka.jpeg"
 },
 {
@@ -3543,12 +3545,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.\n{T}: Add {U} or {R} to your mana pool.\n",
+    "oracle_text": "({T}: Add {U} or {R} to your mana pool.)\nAs ~ enters the battlefield, you may return a island or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/cleansing_chapel.jpeg"
 },
 {
@@ -3557,12 +3559,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "G"
+        "G",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.\n{T}: Add {U} or {G} to your mana pool.\n",
+    "oracle_text": "({T}: Add {U} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may return a island or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/crumbling_ruins.jpeg"
 },
 {
@@ -3582,9 +3584,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,12 +3599,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.\n{T}: Add {G} or {W} to your mana pool.\n",
+    "oracle_text": "({T}: Add {G} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may return a forest or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/darkroot_basin.jpeg"
 },
 {
@@ -3611,9 +3613,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "B",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3626,12 +3628,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.\n{T}: Add {B} or {R} to your mana pool.\n",
+    "oracle_text": "({T}: Add {B} or {R} to your mana pool.)\nAs ~ enters the battlefield, you may return a swamp or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/demon_ruins.jpeg"
 },
 {
@@ -3640,9 +3642,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "B",
         "G",
-        "B"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3655,9 +3657,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "R",
         "G",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3670,12 +3672,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a mountain or plains you control to its owner's hand.\n{T}: Add {R} or {W} to your mana pool.\n",
+    "oracle_text": "({T}: Add {R} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may return a mountain or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/dragon_kin_mausoleum.jpeg"
 },
 {
@@ -3684,8 +3686,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3700,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "R",
         "B",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3709,13 +3711,13 @@
 },
 {
     "name": "Frozen Eleum Loyce",
-    "super": "Bonfire Snow",
+    "super": "Snow Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3730,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "R",
         "G",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3743,12 +3745,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "R"
+        "R",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.\n{T}: Add {R} or {G} to your mana pool.\n",
+    "oracle_text": "({T}: Add {R} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may return a mountain or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/halfway_fortress.jpeg"
 },
 {
@@ -3757,9 +3759,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "B",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3772,12 +3774,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "W"
+        "W",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.\n{T}: Add {U} or {W} to your mana pool.\n",
+    "oracle_text": "({T}: Add {U} or {W} to your mana pool.)\nAs ~ enters the battlefield, you may return a island or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/heides_tower_of_flame.jpeg"
 },
 {
@@ -3786,9 +3788,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "R",
         "G",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3801,9 +3803,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "W",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3816,8 +3818,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "R"
+        "R",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3832,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
+        "R",
         "B",
-        "R"
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,12 +3847,12 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.\n{T}: Add {B} or {G} to your mana pool.\n",
+    "oracle_text": "({T}: Add {B} or {G} to your mana pool.)\nAs ~ enters the battlefield, you may return a swamp or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/land/old_wolf_of_farron.jpeg"
 },
 {
@@ -3873,9 +3875,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "R",
         "W",
-        "B",
-        "R"
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,8 +3890,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
         "R",
+        "G",
         "B",
         "U",
         "W"
@@ -3905,9 +3907,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
+        "R",
         "B",
-        "R"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3944,8 +3946,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "R"
+        "R",
+        "U"
     ],
     "rarity": "rare",
     "rating": 3,

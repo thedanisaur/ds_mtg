@@ -48,8 +48,8 @@ card_chamber_of_the_princess:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a swamp or plains you control to its owner's hand.
-      {T}: Add {B} or {W} to your mana pool.
+      ({T}: Add {B} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may return a swamp or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       The power of sunlight is granted through the goddess's blessing. Her name invokes miracles of healing and warmth.
     artwork_url: "https://darksouls.wiki.fextralife.com/file/Dark-Souls/gwynevere_concept_art_header_full.jpg?v=1527878439232"
@@ -67,8 +67,8 @@ card_church_of_yorshka:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a island or swamp you control to its owner's hand.
-      {T}: Add {U} or {B} to your mana pool.
+      ({T}: Add {U} or {B} to your mana pool.)
+      As ~ enters the battlefield, you may return a island or swamp you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       An ancient covenant still lingers here in Irithyll, a city of cold and moonlight.
     artwork_url: "https://i.ibb.co/7dNF27L3/church-of-yorshka-resize.jpg"
@@ -86,8 +86,8 @@ card_cleansing_chapel:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a island or mountain you control to its owner's hand.
-      {T}: Add {U} or {R} to your mana pool.
+      ({T}: Add {U} or {R} to your mana pool.)
+      As ~ enters the battlefield, you may return a island or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       The Cathedral of the Deep is the stronghold of Aldrich, Devourer of Gods.
     artwork_url: "https://i.ibb.co/kgBGZJFc/cleansing-chapel-by-unknown.jpg"
@@ -105,8 +105,8 @@ card_crumbling_ruins:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a island or forest you control to its owner's hand.
-      {T}: Add {U} or {G} to your mana pool.
+      ({T}: Add {U} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may return a island or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       Even stone and memory decay here.
     artwork_url: "https://i.ibb.co/yMZ1B8k/crumbled-ruins-by-fromsoft.jpg"
@@ -163,8 +163,8 @@ card_darkroot_basin:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a forest or plains you control to its owner's hand.
-      {T}: Add {G} or {W} to your mana pool.
+      ({T}: Add {G} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may return a forest or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       The basin is a place where the roots of the great trees spread deep underground.
     artwork_url: "https://i.ibb.co/YBPk8Hjm/darkroot-basin-by-max-frojd-resize.jpg"
@@ -202,8 +202,8 @@ card_demon_ruins:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a swamp or mountain you control to its owner's hand.
-      {T}: Add {B} or {R} to your mana pool.
+      ({T}: Add {B} or {R} to your mana pool.)
+      As ~ enters the battlefield, you may return a swamp or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       All things converge at the end of the earth.
     artwork_url: ""
@@ -260,8 +260,8 @@ card_dragon_kin_mausoleum:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a mountain or plains you control to its owner's hand.
-      {T}: Add {R} or {W} to your mana pool.
+      ({T}: Add {R} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may return a mountain or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       Only those who have taken the path of the dragon may enter.
     artwork_url: "https://i.ibb.co/FLGrzhCW/dragon-kiln-mausoleum.jpg"
@@ -329,7 +329,7 @@ card_frozen_eleum_loyce:
   front:
     name: "Frozen Eleum Loyce"
     cost: ""
-    super: "Bonfire Snow"
+    super: "Snow Bonfire"
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
@@ -375,8 +375,8 @@ card_halfway_fortress:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a mountain or forest you control to its owner's hand.
-      {T}: Add {R} or {G} to your mana pool.
+      ({T}: Add {R} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may return a mountain or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       The Road of Sacrifices is a passage used by pilgrims heading toward the Cathedral of the Deep. Many have traveled this road seeking salvation only to meet their demise.
     artwork_url: ""
@@ -415,8 +415,8 @@ card_heides_tower_of_flame:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a island or plains you control to its owner's hand.
-      {T}: Add {U} or {W} to your mana pool.
+      ({T}: Add {U} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may return a island or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       Long ago, Heide was a land of gods, but it has fallen into ruin.
     artwork_url: "https://i.ibb.co/bMc9h9G1/heides-tower-of-flame-servalt-resize.jpg"
@@ -512,8 +512,8 @@ card_old_wolf_of_farron:
     rarity: "Uncommon"
     rating: 3
     rules_text: |
-      ~ enters the battlefield tapped unless you return a swamp or forest you control to its owner's hand.
-      {T}: Add {B} or {G} to your mana pool.
+      ({T}: Add {B} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may return a swamp or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
     flavor_text: |
       The watchers share their blood and their curse and the Old Wolf rests atop the keep, a symbol of their covenant.
     artwork_url: "https://i.ibb.co/nWKR0QG/old-wolf-of-farron-resize.jpg"

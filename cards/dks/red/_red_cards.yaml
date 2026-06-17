@@ -241,7 +241,8 @@ card_firekeeper:
     rarity: "Common"
     rating: 1
     rules_text: |
-      {T}: Whenever target creature attacks this turn, reveal the top card of your library. You may pay souls equal to that card's mana value. If you do, put it into your hand. Otherwise put that card on the bottom of your library.
+      Whenever a creature you control attacks, exile the top card of your library with a favored counter on it.
+      {T}: Return target card you own in exile with a favored counter on it to your hand.
       {R}, {T}: Whenever target creature deals damage this turn, put a +1/+1 counter on it.
       {U/R}, {T}: Creatures you control gain haste and prowess until end of turn.
     flavor_text: "Very well. Then touch the darkness within me."

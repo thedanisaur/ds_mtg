@@ -7,7 +7,9 @@ card_anor_londo:
     sub: "Plains Swamp"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {B} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "Welcome to the lost city of Anor Londo, chosen Undead."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/anor-londo_dark-souls.jpg"
     artist: "Cook and Becker"
@@ -23,7 +25,9 @@ card_archdragon_peak:
     sub: "Mountain Plains"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {R} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "This is not a place, but a truth — seen only by those who forget what it means to be human."
     artwork_url: "https://www.cookandbecker.com/en/artwork/2464/archdragon-peak-dark-souls-iii-fromsoftware.html"
     artist: "Cook and Becker"
@@ -57,7 +61,9 @@ card_cathedral_of_blue:
     sub: "Plains Island"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {U} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "An ancient shrine bathed in stormlight, where the wind still whispers oaths long broken."
     artwork_url: "https://i.ibb.co/dJVSn83h/cathedral-of-blue-princessomg50.jpg"
     artist: "princessomg50"
@@ -73,7 +79,9 @@ card_cathedral_of_the_deep:
     sub: "Island Mountain"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {U} or {R} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "A house of worship turned crypt, where the faithful drown in blood, and the dead do not rest."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-deacons-of-the-deep-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
@@ -106,7 +114,9 @@ card_darkroot_garden:
     sub: "Plains Forest"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {G} or {W} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "Time has slowed to a crawl beneath these boughs and the moss remembers what the stone does not."
     artwork_url: "https://i.ibb.co/Dffhw3cg/darkroot-garden-mangamusesai.jpg"
     artist: "MangaMusesAI"
@@ -122,7 +132,9 @@ card_farron_keep:
     sub: "Swamp Forest"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {B} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "Here lie the last vows of the Abyss Watchers, their watch never lifted, though their minds long have. Beneath the swamp's stillness stirs the Abyss, patient and hungry."
     artwork_url: "https://i.ibb.co/qMKW3SLZ/farron-keep-ihf95.jpg"
     artist: "ihf95"
@@ -157,7 +169,9 @@ card_irithyll_of_the_boreal_valley:
     sub: "Swamp Island"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {U} or {B} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "A city shrouded in eternal moonlight and frost, where beauty and death entwine in cold embrace. "
     artwork_url: "https://i.ibb.co/C3MsjSRp/irithyll-of-the-boreal-valley-daedra64.jpg"
     artist: "Daedra64"
@@ -173,7 +187,9 @@ card_lost_izalith:
     sub: "Mountain Swamp"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {B} or {R} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "Here the First Flame's shadow lingers, twisted roots clutching at a dream undone by fire."
     artwork_url: "https://cdna.artstation.com/p/assets/images/images/025/892/130/large/ricardo-emig-izalith-1-high-res.jpg?1587253107"
     artist: "Ricardo Emig"
@@ -207,7 +223,9 @@ card_road_of_sacrifices:
     sub: "Forest Mountain"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {R} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: "The air hangs heavy with the weight of countless fallen souls, their blood seeping into the earth as an eternal offering."
     artwork_url: "https://res.cloudinary.com/cook-becker/image/fetch/q_90,f_auto,w_1920/https://candb.com/site/candb/images/artwork/chamber-of-crystal-sages-dark-souls-3-from-software.jpg"
     artist: "Cook and Becker"
@@ -223,7 +241,9 @@ card_shrine_of_amana:
     sub: "Forest Island"
     rarity: "Uncommon"
     rating: 3
-    rules_text: "As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped."
+    rules_text: |
+      ({T}: Add {U} or {G} to your mana pool.)
+      As ~ enters the battlefield, you may pay 1 life and one soul. If you don't ~ enters the battlefield tapped.
     flavor_text: ""
     artwork_url: "https://www.cookandbecker.com/en/artwork/2156/shrine-of-amana-dark-souls-ii-fromsoftware.html"
     artist: "Cook and Becker"
