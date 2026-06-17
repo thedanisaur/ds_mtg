@@ -2,7 +2,7 @@ card_ash_lake:
   front:
     name: "Ash Lake"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
@@ -234,7 +234,7 @@ card_dragon_aerie:
   front:
     name: "Dragon Aerie"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
     sub: "Mountain"
     rarity: "Uncommon"
@@ -329,7 +329,7 @@ card_frozen_eleum_loyce:
   front:
     name: "Frozen Eleum Loyce"
     cost: ""
-    super: "Snow"
+    super: "Bonfire Snow"
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
@@ -428,7 +428,7 @@ card_huntsmans_copse:
   front:
     name: "Huntsman's Copse"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
@@ -449,7 +449,7 @@ card_irithyll_dungeon:
   front:
     name: "Irithyll Dungeon"
     cost: ""
-    super: ""
+    super: "Bonfire"
     type: "Land"
     sub: "Swamp"
     rarity: "Uncommon"

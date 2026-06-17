@@ -1592,8 +1592,8 @@
     "type": "Creature",
     "mana_cost": "{G/W}",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1620,8 +1620,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1634,8 +1634,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1648,8 +1648,8 @@
     "type": "Creature",
     "mana_cost": "{R/W}",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1662,8 +1662,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1676,8 +1676,8 @@
     "type": "Creature",
     "mana_cost": "{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -2355,8 +2355,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2369,8 +2369,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B}{R}",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2383,8 +2383,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2397,8 +2397,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3076,8 +3076,8 @@
     "type": "Enchantment",
     "mana_cost": "{1}{R/G}",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3090,8 +3090,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
@@ -3481,13 +3481,13 @@
 },
 {
     "name": "Ash Lake",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3500,9 +3500,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3515,8 +3515,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3529,8 +3529,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "U"
+        "U",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3543,8 +3543,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3582,9 +3582,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3597,8 +3597,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "G"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3611,9 +3611,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3640,9 +3640,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3651,13 +3651,13 @@
 },
 {
     "name": "Dragon Aerie",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3670,8 +3670,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3684,8 +3684,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3698,9 +3698,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "B",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3709,13 +3709,13 @@
 },
 {
     "name": "Frozen Eleum Loyce",
-    "super": "Snow",
+    "super": "Bonfire Snow",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3728,9 +3728,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3743,8 +3743,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3757,9 +3757,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3782,13 +3782,13 @@
 },
 {
     "name": "Huntsman's Copse",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
-        "G"
+        "G",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3797,13 +3797,13 @@
 },
 {
     "name": "Irithyll Dungeon",
-    "super": "",
+    "super": "Bonfire",
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
         "U",
-        "W"
+        "W",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3816,8 +3816,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "W"
+        "W",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3830,9 +3830,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "U",
         "B",
-        "U"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3845,8 +3845,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "G"
+        "G",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3859,8 +3859,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "B",
-        "R"
+        "R",
+        "B"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3873,9 +3873,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "W",
         "B",
-        "R",
-        "W"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3888,11 +3888,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B",
+        "G",
         "R",
-        "W",
-        "G"
+        "B",
+        "U",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -3905,9 +3905,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "G",
         "B",
-        "R",
-        "G"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3944,8 +3944,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 3,
