@@ -6,11 +6,11 @@ card_adept_cartographer:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle it.
       Whenever a land enters the battlefield under your control, target player gets two souls.
-      Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
+      Darksign 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/2e/46/28/2e46289c6d56f77c5b2772690bc2973f.jpg"
     artist: "Niko Hana"
@@ -26,7 +26,7 @@ card_amana_shaman:
     type: "Creature"
     sub: "Spirit Shaman"
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Trample
       Whenever a creature enters the battlefield under your control, you may gain 1 life and one soul.
@@ -46,7 +46,7 @@ card_banished_butcher:
     type: "Creature"
     sub: "Zombie Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       When ~ enters the battlefield destroy target artifact.
@@ -106,7 +106,7 @@ card_blowdart_sniper:
     type: "Creature"
     sub: "Hollow Assassin"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Deathtouch
       {G}, Discard ~: Target attacking creature gets +1/+1 and gains deathtouch until end of turn. If another card went to your graveyard this turn, put a +1/+1 counter and a deathtouch counter on that creature instead.
@@ -145,10 +145,10 @@ card_caged_bargainer:
     type: "Creature"
     sub: "Hollow Rogue"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       If one or more counters would be put on a permanent or player, that many plus one counters are put on it instead.
-      Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {G} ({G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: "...for to be Unkindled is to be a vessel."
     artwork_url: "https://i.pinimg.com/736x/c0/59/c7/c059c737ea4be9c465cac8f438864dbf.jpg"
     artist: "justice"
@@ -164,7 +164,7 @@ card_company_captain:
     type: "Creature"
     sub: "Cleric Knight"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       When ~ enters the battlefield, return target land card from your graveyard to the battlefield.
       Whenever a land card goes to your graveyard, create two 1/1 green Hollow Knight creature tokens with "{1}{G}: Hollow Knight gets +2/+2 until end of turn. Activate this ability only once per turn."
@@ -184,7 +184,7 @@ card_dark_stalkers:
     type: "Creature"
     sub: "Beast"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       Whenever a card goes to your graveyard you may pay {1}{G}. If you do, put a +1/+1 counter on ~ and you may destroy up to one target artifact or enchantment.
@@ -241,7 +241,7 @@ card_darkroot_vines:
     type: "Creature"
     sub: "Plant"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}: Add {G} to your mana pool.
       Whenever ~ becomes tapped, target player gets a bleed counter.
@@ -278,10 +278,10 @@ card_divine_tome_of_londor:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Search your library for a creature or planeswalker card, reveal it, and put it into your hand. Shuffle your library.
-      Fragment {G} - While searching your library, you may reveal this card from your library. If you do, choose two target creatures. Each of those creatures deals damage equal to its power to the other. (Only activate one fragment ability per search.)
+      Fragment {G} - While searching your library, you may reveal this card from your library and pay {G}. If you do, choose two target creatures. Each of those creatures deals damage equal to its power to the other. (Only one fragment ability may be used per search.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/pj4gyz3g/divine-tome-of-londor-by-unknown-resize.jpg"
     artist: "unknown"
@@ -297,9 +297,9 @@ card_dogged_contender:
     rarity: "Common"
     rating: 3
     rules_text: |
-      Whenever a card leaves your hand or graveyard, put a +1/+1 counter on ~.
+      Whenever a card leaves your hand or graveyard, ~ gains trample until end of turn, put a +1/+1 counter on it.
       {1}{G}: Move a +1/+1 counter from ~ to another target creature.
-      Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {G} ({G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/jkM18fFF/dogged-contender-by-elizabeth-sprohnle-resize.jpg"
     artist: "Elizabeth Sprohnle"
@@ -315,7 +315,7 @@ card_drangleic_kobold:
     type: "Creature"
     sub: "Kobold"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       Deathtouch
       When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
@@ -340,7 +340,7 @@ card_drangleic_ogre:
       Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
       {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
       {1}{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
-      Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
+      Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Cs5LmQNY/drangelic-ogre-by-desyntril-resize.jpg"
     artist: "desyntril"
@@ -377,7 +377,7 @@ card_from_the_shaded_woods:
     type: "Instant"
     sub: "Trap"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       If an opponent cycled a card this turn, you may pay {1}{G} rather than pay ~'s mana cost.
       Lands you control become 3/3 creatures and gain trample until end of turn.
@@ -414,7 +414,7 @@ card_growing_phalanx:
     rules_text: |
       Whenever another card goes to your graveyard, create a token copy of ~.
       When ~ dies, each player gets one soul.
-      Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {1}{G} ({1}{G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/b0/32/f8/b032f887d8a84b9bb718495d9b27cb5d.jpg"
     artist: "fromsoft"
@@ -446,10 +446,10 @@ card_honorable_duel:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.
-      Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
+      Darksign 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/b0/37/fc/b037fc60aeedd5d53441f7897c1567df.jpg"
     artist: "fromsoft"
@@ -463,7 +463,7 @@ card_hounding_hydra:
     type: "Creature"
     sub: "Hydra"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       You may have ~ assign its combat damage as though it weren't blocked.
       ~ enters the battlefield with twice X +1/+1 counters on it.
@@ -483,7 +483,7 @@ card_hush_dear_accursed:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Enchant player
       You may cast ~ at any time you could cast and instant.
@@ -501,10 +501,10 @@ card_marching_inevitablility:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.
-      Delayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {2}{G} ({2}{G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/a8/4b/5a/a84b5af9503bf556a28c21fbc52522c0.jpg"
     artist: "unknown"
@@ -518,7 +518,7 @@ card_old_ironclad_troll:
     type: "Creature"
     sub: "Troll Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.
       ~ gets +2/+2 and has trample as long as you cast a spell from anywhere other than your hand this turn.
@@ -537,7 +537,7 @@ card_overwhelming_numbness:
     type: "Instant"
     sub: "Trap"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       If an opponent paid a madness cost this turn, you may pay {0} rather than pay ~'s mana cost.
       Permanents you control can't be the target of spells or abilities and can't be sacrificed this turn. If a card went to your graveyard this turn, draw a card.
@@ -574,7 +574,7 @@ card_persevering_mist:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       You may discard a card rather than pay this spell's mana cost.
       Target player shuffles their graveyard into their library. Prevent all damage that would be dealt this turn. You gain 2 life and get two souls.
@@ -591,7 +591,7 @@ card_petrifying_basilisk:
     type: "Enchantment Creature"
     sub: "Lizard"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)
     flavor_text: "Woe to the Undead that stare into this creature's eyes. For it is ever vigilant."
@@ -613,7 +613,7 @@ card_possessed_foliage:
     rules_text: |
       ~ can't be the target of spells or abilities.
       ~'s power and toughtness are each equal to the number of lands you control.
-      Augur 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)
+      Darksign 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/nqW6NvLs/possessed-foliage-by-silas-resize.jpg"
     artist: "silas"
@@ -629,7 +629,7 @@ card_royal_rat_authority:
     type: "Planeswalker"
     sub: "Rat Lord"
     rarity: "Mythic"
-    rating: 4
+    rating: 5
     rules_text: |
       ~ can't be the target of spells or be dealt damage unless it has six or more loyalty or you control three or more creatures.
       {+1}: Create a 1/1 green Rat creature token with bleed.
@@ -649,7 +649,7 @@ card_shrine_drakekeeper:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Creatures you control with +1/+1 counters on them have trample.
       Whenever a creature enters the battlefield under your control, put a +1/+1 counter on it. Then target player gets one soul.
@@ -668,7 +668,7 @@ card_soul_of_a_crestfallen_adventurer:
     type: "Enchantment"
     sub: "Soul"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {X}{G}. If you do, search your library for a green card or land card with mana value less than or equal to X, reveal it, and put it into your hand. Shuffle your library.
@@ -705,7 +705,7 @@ card_suspicious_shadow:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever a creature you control enters the battlefield or is turned face up, untap target creature you control.
       Chameleon {2} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
@@ -743,7 +743,7 @@ card_titanite_demon:
     type: "Creature"
     sub: "Demon"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Trample
       ~ enters the battlefield with two +1/+1 counters if a card went to your graveyard this turn.
@@ -780,7 +780,7 @@ card_undead_pigs:
     type: "Enchantment Creature"
     sub: "Zombie Boar"
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Whenever ~ is dealt damage, prevent all but 1 of that damage.
       Accursed (When a creature or planeswalker is dealt damage by a source with accursed, that permanent also gets a curse counter for each damage received. Permanents with curse counters have, "At the beginning of your upkeep, if this permanent has a number of curse counters greater than or equal to its mana value, sacrifice it. Otherwise remove a curse counter." When a player is dealt damage by a source with accursed, they create a Curse token.)

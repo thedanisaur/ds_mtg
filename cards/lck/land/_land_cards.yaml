@@ -6,7 +6,7 @@ card_ash_lake:
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
@@ -26,7 +26,7 @@ card_brightstone_cove_tseldora:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {U}, {B}, or {G} to your mana pool.
@@ -46,7 +46,7 @@ card_chamber_of_the_princess:
     type: "Land"
     sub: "Plains Swamp"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {B} or {W} to your mana pool.)
       As ~ enters the battlefield, you may return a swamp or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -65,7 +65,7 @@ card_church_of_yorshka:
     type: "Land"
     sub: "Swamp Island"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {U} or {B} to your mana pool.)
       As ~ enters the battlefield, you may return a island or swamp you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -84,7 +84,7 @@ card_cleansing_chapel:
     type: "Land"
     sub: "Island Mountain"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {U} or {R} to your mana pool.)
       As ~ enters the battlefield, you may return a island or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -103,7 +103,7 @@ card_crumbling_ruins:
     type: "Land"
     sub: "Forest Island"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {U} or {G} to your mana pool.)
       As ~ enters the battlefield, you may return a island or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -122,7 +122,7 @@ card_crystal_cave:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Colorless and artifact spells you control cost {1} less.
       {T}: Add {C} to your mana pool.
@@ -141,11 +141,11 @@ card_dark_chasm_of_old:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {G}, {U}, or {B} to your mana pool.
-      {G}{U/B}: This land becomes a 2/1 green Hollow creature until end of turn. It's still a land. Whenever it deals damage to a player, reveal the top card of your library. You may put it into your graveyard. If you do, put a +1/+1 counter on ~.
+      {G}{U/B}: This land becomes a 2/1 green Hollow Giant creature until end of turn. It's still a land and has "Sacrifice a land: Put a +1/+1 counter on ~. Target player loses 2 life and you gain 2 life".
     flavor_text: |
       Long ago, a great city was swallowed by darkness.
     artwork_url: "https://i.ibb.co/Fj2PcNr/dark-chasm-of-old-by-fromsoft-resize.jpg"
@@ -161,7 +161,7 @@ card_darkroot_basin:
     type: "Land"
     sub: "Plains Forest"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {G} or {W} to your mana pool.)
       As ~ enters the battlefield, you may return a forest or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -180,11 +180,12 @@ card_darkroot_forest:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {G}, {R}, or {B} to your mana pool.
-      {G}{B/R}: This land becomes a 3/3 green Treefolk creature with trample until end of turn. It's still a land and has "Sacrifice a land: You gain 2 life."
+      {G}{B/R}: This land becomes a 3/3 green Rogue creature with vigilance and trample until end of turn. It's still a land.
+      Darksign 2 (If you would draw a card, instead you may play this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)
     flavor_text: |
       The forest hunters guard the sanctity of Darkroot; where ancient trees and stone intertwine.
     artwork_url: "https://i.ibb.co/wZgCZhNy/darkroot-forest-by-fromsoft.jpg"
@@ -200,7 +201,7 @@ card_demon_ruins:
     type: "Land"
     sub: "Mountain Swamp"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {B} or {R} to your mana pool.)
       As ~ enters the battlefield, you may return a swamp or mountain you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -219,7 +220,7 @@ card_depths_of_the_burg:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {B}, {U}, or {G} to your mana pool.
@@ -238,7 +239,7 @@ card_dragon_aerie:
     type: "Land"
     sub: "Mountain"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {R}
@@ -258,7 +259,7 @@ card_dragon_kin_mausoleum:
     type: "Land"
     sub: "Mountain Plains"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {R} or {W} to your mana pool.)
       As ~ enters the battlefield, you may return a mountain or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -277,7 +278,7 @@ card_drangleic_castle:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       {T}, Sacrifice ~: Search your library for a nonbasic mountain or nonbasic forest and put it onto the battlefield. Shuffle your library.
     flavor_text: "The king sought the power of souls to preserve his kingdom. But his kingdom fell to ruin nonetheless."
@@ -294,7 +295,7 @@ card_earthen_peak:
     type: "Land"
     sub: "Mountain"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {R}
@@ -314,7 +315,7 @@ card_fireless_shrine:
     type: "Land"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       {T}: Add {1} to your mana pool.
       {1}, {T}, Sacrifice ~: Destroy target land.
@@ -333,7 +334,7 @@ card_frozen_eleum_loyce:
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {W}
@@ -353,7 +354,7 @@ card_great_hollows:
     type: "Land"
     sub: "Forest"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {G}
@@ -373,7 +374,7 @@ card_halfway_fortress:
     type: "Land"
     sub: "Forest Mountain"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {R} or {G} to your mana pool.)
       As ~ enters the battlefield, you may return a mountain or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -392,7 +393,7 @@ card_harvest_valley:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {R} to your mana pool.
@@ -413,7 +414,7 @@ card_heides_tower_of_flame:
     type: "Land"
     sub: "Plains Island"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {U} or {W} to your mana pool.)
       As ~ enters the battlefield, you may return a island or plains you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -432,7 +433,7 @@ card_huntsmans_copse:
     type: "Land"
     sub: "Island"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {U}
@@ -453,7 +454,7 @@ card_irithyll_dungeon:
     type: "Land"
     sub: "Swamp"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {B}
@@ -490,7 +491,7 @@ card_majula_pit:
     type: "Land"
     sub: "Swamp"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {B}
@@ -510,7 +511,7 @@ card_old_wolf_of_farron:
     type: "Land"
     sub: "Swamp Forest"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       ({T}: Add {B} or {G} to your mana pool.)
       As ~ enters the battlefield, you may return a swamp or forest you control to its owner's hand. If you don't ~ enters the battlefield tapped.
@@ -546,7 +547,7 @@ card_sinners_rise:
     type: "Land"
     sub: "Plains"
     rarity: "Uncommon"
-    rating: 2
+    rating: 3
     rules_text: |
       ~ enters the battlefield tapped.
       {T}: Add {W}
@@ -566,7 +567,7 @@ card_the_dreg_heap:
     type: "Land"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       {T}: Add {W} to your mana pool.
       {4}{W}, {T}, Sacrifice ~: Choose a basic land type. Each player sacrifices all lands of the chosen type.
@@ -585,7 +586,7 @@ card_the_grand_archives:
     type: "Land"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       You have no maximum hand size.
@@ -623,7 +624,7 @@ card_untended_graves:
     type: "Land"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       This land enters the battlefield tapped.
       {T}: Add {B}, {R}, or {G} to your mana pool.

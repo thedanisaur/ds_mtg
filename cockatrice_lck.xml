@@ -287,7 +287,7 @@ Pay one soul: Untap target creature you control or tap target creature you don't
     <card>
         <name>Divine Tome of Carim</name>
         <text>Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
-Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)</text>
+Fragment {W} - While searching your library, you may reveal this card from your library and pay {W}. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only one fragment ability may be used per search.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Fragment</type>
@@ -479,7 +479,8 @@ If a player would draw a card except for the first one in their draw step, they 
     </card>
     <card>
         <name>Mirrah Exile</name>
-        <text>First strike, bleed
+        <text>You may cast ~ any time you could cast an instant.
+First strike, bleed
 If a player would would search their library, they search the top four cards of their library instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -572,16 +573,16 @@ Creatures you control get +1/+1 and have vigilance, lifelink, and soullink. (Dam
     </card>
     <card>
         <name>Royal Swordsman</name>
-        <text>Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-{Q}, Sacrifice ~: Destroy target artifact or enchantment. Create a Moss Clump token. (It's an artifact that has, "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")</text>
+        <text>First strike, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+If a nontoken creature or planeswalker would enter the battlefield and it wasn't cast, exile it instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Knight</type>
             <maintype>Creature</maintype>
-            <manacost>{1}{W}</manacost>
-            <cmc>2</cmc>
+            <manacost>{W}</manacost>
+            <cmc>1</cmc>
             <colors>W</colors>
-            <pt>2/1</pt>
+            <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="35" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/white/royal_swordsman.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -635,7 +636,7 @@ Sacrifice ~: Each defending player loses X life and you gain X life where X is t
     <card>
         <name>Spellsword Knight</name>
         <text>Vigilance
-{T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes delayed.</text>
+{T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes vestiges.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Knight</type>
@@ -1119,10 +1120,10 @@ Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)</text>
     <card>
         <name>Introspective Channeler</name>
         <text>Whenever ~ is exiled from your hand or enters the battlefield, Scry 1, then you get one soul. (Look at the top card of your library. You may put that card on the bottom of your library.)
-Delayed {U} (You may pay {U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {U} ({U}, exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
-            <type>Creature - Shaman</type>
+            <type>Creature - Wizard</type>
             <maintype>Creature</maintype>
             <manacost>{U}</manacost>
             <cmc>1</cmc>
@@ -1287,7 +1288,7 @@ Exile five cards from your graveyard: Put a hex counter on ~.</text>
   • Counter target spell.
   • Gain control of target artifact or creature with mana value 3 or less.
   • Draw two cards.
-Delayed {2}{U}{U} (You may pay {2}{U}{U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {2}{U}{U} ({2}{U}{U}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -1347,7 +1348,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</text>
     <card>
         <name>Scrolls of a Master Sorcerer</name>
         <text>Search your library for an instant or sorcery card, reveal it, and put it into your hand. Shuffle your library.
-Fragment {1}{U} - While searching your library, you may reveal this card from your library. If you do, draw a card. (Only activate one fragment ability per search.)</text>
+Fragment {1}{U} - While searching your library, you may reveal this card from your library and pay {1}{U}. If you do, draw a card. (Only one fragment ability may be used per search.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Fragment</type>
@@ -1918,7 +1919,7 @@ Kindle (You may pay a number of souls equal to this card's mana value, if you do
     <card>
         <name>Shadowy Tome of the Gravelord</name>
         <text>Search your library for a card and put it into your hand. Shuffle your library.
-Fragment {0} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)</text>
+Fragment {0} - While searching your library, you may reveal this card from your library and pay {0}. If you do, put this card on top of your library. (Only one fragment ability may be used per search.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Fragment</type>
@@ -1983,7 +1984,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
         <name>Soulbound Wretched Undead</name>
         <text>As you cast, you may discard a card. If you do, you get four souls.
 As long as there are seven or more cards in your graveyard ~ gets +3/+3.
-Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Zombie</type>
@@ -2284,7 +2285,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
     <card>
         <name>Cleansing Orb</name>
         <text>Look at the top card of your library, you may put it into your graveyard. Draw a card. ~ deals 1 damage to any target. You get one soul.
-Augur 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)</text>
+Darksign 1 (If you would draw a card, instead you may cast this card from your graveyard by paying 1 soul and putting a card from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2396,7 +2397,7 @@ When ~ dies, if it had no -1/-1 counters on it, return it to the battlefield und
     <card>
         <name>Fiery Scroll of Carthus</name>
         <text>Search your library for a card, put it into your hand, and then discard a card at random. Shuffle your library.
-Fragment {R} - While searching your library, you may reveal this card from your library. If you do, each player sacrifices a permanent. (Only activate one fragment ability per search.)</text>
+Fragment {R} - While searching your library, you may reveal this card from your library and pay {R}. If you do, each player sacrifices a permanent. (Only one fragment ability may be used per search.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Fragment</type>
@@ -2444,7 +2445,7 @@ If at least {R}{R}{R} was spent to cast ~ destroy all artifacts. You get one sou
     <card>
         <name>Flamebourne Captain</name>
         <text>Whenever ~ is exiled from your hand or you cast a spell from exile, create a 1/1 colorless Hollow creature token.
-Delayed {R} (You may pay {R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {R} ({R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Knight</type>
@@ -2476,7 +2477,7 @@ Delayed {R} (You may pay {R} and exile this card from your hand. Cast it on a la
     <card>
         <name>Generous Sunlight</name>
         <text>Discard a card or sacrifice a land. Target player draws two cards and gets two souls.
-Delayed {R}{R} (You may pay {R}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {R}{R} ({R}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -2570,7 +2571,7 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
         <name>Menacing Thief</name>
         <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
 {R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
-Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Rogue</type>
@@ -2682,7 +2683,7 @@ Whenever a Moss Clump you control goes to the graveyard, put a haste, trample, o
     <card>
         <name>Shimmering Void</name>
         <text>The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.
-Delayed {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
@@ -2809,7 +2810,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
         <name>Volgen Falconer</name>
         <text>Whenever a card goes to your graveyard from anywhere but your library, look at the top card of your library. You may put that card into your graveyard.
 As long as there are seven or more cards in your graveyard ~ gets +2/+1, has haste, and can't be blocked except by red creatures.
-Augur 3</text>
+Darksign 3</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Bird</type>
@@ -2843,7 +2844,7 @@ Whenever ~ deals combat damage to a player, you may play a card you own in exile
         <name>Adept Cartographer</name>
         <text>When ~ enters the battlefield, you may search your library or graveyard for a basic land card, reveal it, and put it into your hand. If you searched your library, shuffle it.
 Whenever a land enters the battlefield under your control, target player gets two souls.
-Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
+Darksign 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human</type>
@@ -2960,7 +2961,7 @@ Whenever a creature you control is turned face up, put a +1/+1 counter on target
     <card>
         <name>Caged Bargainer</name>
         <text>If one or more counters would be put on a permanent or player, that many plus one counters are put on it instead.
-Delayed {G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {G} ({G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Hollow Rogue</type>
@@ -3073,7 +3074,7 @@ Whenever ~ becomes tapped, target player gets a bleed counter.</text>
     <card>
         <name>Divine Tome of Londor</name>
         <text>Search your library for a creature or planeswalker card, reveal it, and put it into your hand. Shuffle your library.
-Fragment {G} - While searching your library, you may reveal this card from your library. If you do, choose two target creatures. Each of those creatures deals damage equal to its power to the other. (Only activate one fragment ability per search.)</text>
+Fragment {G} - While searching your library, you may reveal this card from your library and pay {G}. If you do, choose two target creatures. Each of those creatures deals damage equal to its power to the other. (Only one fragment ability may be used per search.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant - Fragment</type>
@@ -3087,9 +3088,9 @@ Fragment {G} - While searching your library, you may reveal this card from your 
     </card>
     <card>
         <name>Dogged Contender</name>
-        <text>Whenever a card leaves your hand or graveyard, put a +1/+1 counter on ~.
+        <text>Whenever a card leaves your hand or graveyard, ~ gains trample until end of turn, put a +1/+1 counter on it.
 {1}{G}: Move a +1/+1 counter from ~ to another target creature.
-Delayed {G} (You may pay {G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {G} ({G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Human Rogue</type>
@@ -3124,7 +3125,7 @@ When ~ dies, create a Moss Clump token. (It's an artifact with "{1}, {T}, Sacrif
         <text>Whenever a land enters the battlefield under your control, you gain one life, get one soul, and put a +1/+1 counter on ~.
 {2}, Remove a +1/+1 counter from ~: ~ gains indestructible until end of turn.
 {1}{G}, Discard ~: Search your library for a land card, reveal it, put it into your hand. Shuffle your library.
-Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
+Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant Troll</type>
@@ -3188,7 +3189,7 @@ Lands you control become 3/3 creatures and gain trample until end of turn.</text
         <name>Growing Phalanx</name>
         <text>Whenever another card goes to your graveyard, create a token copy of ~.
 When ~ dies, each player gets one soul.
-Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {1}{G} ({1}{G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Ooze</type>
@@ -3218,7 +3219,7 @@ Delayed {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it o
     <card>
         <name>Honorable Duel</name>
         <text>Target creature you control and target creature an opponent controls each deals damage equal to its power the other. Target player draws cards and gets souls equal to the number of creatures that died this way.
-Augur 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
+Darksign 2 (If you would draw a card, instead you may cast this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
@@ -3266,7 +3267,7 @@ If enchanted player would draw a card except the first one they draw in each of 
     <card>
         <name>Marching Inevitablility</name>
         <text>Whenever a land enters the battlefield under your control or goes to your graveyard, you get one soul and put a +1/+1 counter on each creature you control.
-Delayed {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+Vestige {2}{G} ({2}{G}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Enchantment</type>
@@ -3360,7 +3361,7 @@ Target player shuffles their graveyard into their library. Prevent all damage th
         <name>Possessed Foliage</name>
         <text>~ can't be the target of spells or abilities.
 ~'s power and toughtness are each equal to the number of lands you control.
-Augur 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)</text>
+Darksign 3 (If you would draw a card, instead you may cast this card from your graveyard by paying 3 souls and putting 3 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Demon Treefolk</type>
@@ -3563,7 +3564,7 @@ When ~ leaves the battlefield, the exiled card's owner casts that card without p
             <maintype>Creature</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="220" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/conjuring_hollow.jpeg">LCK</set>
@@ -3598,7 +3599,7 @@ Whenever ~ deals damage to a player choose one, if you cycled a card this turn c
             <maintype>Creature</maintype>
             <manacost>{1}{U/B}</manacost>
             <cmc>2</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Uncommon" num="222" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/forsworn_shell.jpeg">LCK</set>
@@ -3614,7 +3615,7 @@ Sacrifice another creature: Return target creature from your graveyard to the ba
             <maintype>Creature</maintype>
             <manacost>{B/G}</manacost>
             <cmc>1</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Common" num="223" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/hollow_priest.jpeg">LCK</set>
@@ -3676,14 +3677,14 @@ Sacrifice ~: Destroy target creature or planeswalker.</text>
         <text>Choose one -
 • Destroy target permanent with mana value 2 or less.
 • Put the top X cards of your library into your graveyard where X is the number of lands you control. Return a card from your graveyard to your hand.
-Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.</text>
+Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes vestiges.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Sorcery</type>
             <maintype>Sorcery</maintype>
             <manacost>{B}{G}</manacost>
             <cmc>2</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
         </prop>
         <set rarity="Uncommon" num="227" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/serpents_regrowth.jpeg">LCK</set>
         <tablerow>3</tablerow>
@@ -3744,7 +3745,7 @@ Whenever ~ or another creature you control enters the battlefield, put a +1/+1 c
             <maintype>Creature</maintype>
             <manacost>{G/U}</manacost>
             <cmc>1</cmc>
-            <colors>GU</colors>
+            <colors>UG</colors>
             <pt>0/1</pt>
         </prop>
         <set rarity="Common" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/gold/warden_of_the_forgotten_tower.jpeg">LCK</set>
@@ -4449,7 +4450,7 @@ As ~ enters the battlefield, you may return a island or forest you control to it
         <name>Dark Chasm of Old</name>
         <text>This land enters the battlefield tapped.
 {T}: Add {G}, {U}, or {B} to your mana pool.
-{G}{U/B}: This land becomes a 2/1 green Hollow creature until end of turn. It's still a land. Whenever it deals damage to a player, reveal the top card of your library. You may put it into your graveyard. If you do, put a +1/+1 counter on ~.</text>
+{G}{U/B}: This land becomes a 2/1 green Hollow Giant creature until end of turn. It's still a land and has "Sacrifice a land: Put a +1/+1 counter on ~. Target player loses 2 life and you gain 2 life".</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>
@@ -4480,7 +4481,8 @@ As ~ enters the battlefield, you may return a forest or plains you control to it
         <name>Darkroot Forest</name>
         <text>This land enters the battlefield tapped.
 {T}: Add {G}, {R}, or {B} to your mana pool.
-{G}{B/R}: This land becomes a 3/3 green Treefolk creature with trample until end of turn. It's still a land and has "Sacrifice a land: You gain 2 life."</text>
+{G}{B/R}: This land becomes a 3/3 green Rogue creature with vigilance and trample until end of turn. It's still a land.
+Darksign 2 (If you would draw a card, instead you may play this card from your graveyard by paying 2 souls and putting 2 cards from the top of your library into your graveyard.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Bonfire Land</type>

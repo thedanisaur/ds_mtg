@@ -6,7 +6,7 @@ card_ballista_tower:
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters the battlefield you get two souls and choose one -
       • Target creature gets -10/-10.
@@ -26,7 +26,7 @@ card_bloodred_moss_clump:
     type: "Artifact"
     sub: "Moss Clump"
     rarity: "Common"
-    rating: 3
+    rating: 0
     rules_text: |
       ~ enters the battlefield tapped.
       {1}, {T}, Sacrifice this artifact: You remove all bleed counters.
@@ -63,7 +63,7 @@ card_burnt_offering:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       {T}, Pay one soul: Add one mana of any color to your mana pool.
       {5}, {T}, Sacrifice ~: Return a card from your graveyard to your hand. Activate only if you have five or more souls.
@@ -80,7 +80,7 @@ card_charm_of_the_darkmoon_blades:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, if a token would enter the battlefield you draw a card instead.
@@ -97,7 +97,7 @@ card_charm_of_the_darkwraiths:
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, whenever target land becomes tapped, its controller sacrifices it and loses life equal to the number of souls they have.
@@ -114,7 +114,7 @@ card_charm_of_the_forest_hunters:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ enters the battlefield with five charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. Then if there are no charge counters on it, sacrifice it.
       {T}, Remove a charge counter from this card: As long as this card remains tapped, target permanent can't deal damage and its loyalty abilities can't be activated.
@@ -131,7 +131,7 @@ card_corrosive_urn:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {4}, {T}, Sacrifice ~: Destroy target noncreature artifact or enchantment.
       When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
@@ -148,7 +148,7 @@ card_crown_of_the_covetous_king:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Mythic"
-    rating: 3
+    rating: 0
     rules_text: |
       At the beginning of your end step, if you control cards named Crown of the Sunken King, Crown of the Old Iron King, and Crown of the Ivory King you win the game.
       Equipped creature has "You can't lose the game and your opponents can't win the game."
@@ -166,7 +166,7 @@ card_crown_of_the_ivory_king:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Colored nonartifact permanents don't untap in their controllers untap step unless its controller pays {1} for each of them. (They choose which ones to pay for independently of the others.)
       Equipped creature has "Whenever a colored nonartifact permanent is untapped you gain 1 lifeand get one soul."
@@ -184,7 +184,7 @@ card_crown_of_the_old_iron_king:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Colored nonartifact spells cost {1} more to cast.
       Equipped creature has "Spells you control cost {1} less to cast."
@@ -202,7 +202,7 @@ card_crown_of_the_sunken_king:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Whenever an ability is activated or triggered counter that ability unless its controller pays {1}. (Mana abilities can't be targeted.)
       Equipped creature has "Sacrifice three artifacts: Search your library for a Dragon card, put it onto the battlefield. Shuffle your library. Activate only as a sorcery."
@@ -239,7 +239,7 @@ card_darkmoon_seance_idol:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Cycling abilities you activate cost {1} less to activate.
       Whenever you cycle ~ or another card, target player gets one soul.
@@ -257,7 +257,7 @@ card_dragon_slayer_greatsword:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +4/+4, has trample, and can't be blocked except by three or more creatures.
@@ -275,7 +275,7 @@ card_fragrant_branch_of_yore:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {2}, {T}, Sacrifice ~: Remove all curse counters from permanents you control and sacrifice all curse tokens. Until the end of your next turn you can't create curse tokens and permanents you control can't have or get curse counters.
       When ~ is put into a graveyard from the battlefield, you gain 5 life and may shuffle any number of target cards from your graveyard into your library.
@@ -292,7 +292,7 @@ card_glinting_sigil:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}: Put target card in a graveyard on the bottom of its owner's library. Then target player gains 1 life and gets one soul.
       {1}, Sacrifice ~: Exile all cards from target player's graveyard. You gain life and get souls equal to the number of cards exiled this way.
@@ -309,7 +309,7 @@ card_golden_wing_crest_shield:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +0/+3 and can't be the target of spells or abilities.
@@ -327,7 +327,7 @@ card_golem_battle_axe:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature gets +1/+0 and has "Whenever this creature attacks alone, it deals 1 damage to any target."
@@ -345,7 +345,7 @@ card_hollows_amulet:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 1
+    rating: 2
     rules_text: |
       {1}, {T}, Sacrifice ~: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
       When ~ goes to the graveyard you may pay one soul. If you do, draw a card. Otherwise, you get one soul.
@@ -363,7 +363,7 @@ card_moaning_sanctum:
     type: "Artifact"
     sub: "Fortification"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Fortified land has "{B/G}, Sacrifice another land: Return a permanent card from your graveyard, that wasn't put there this turn, to your hand. You gain 2 life and get two souls."
       Fortify {1}
@@ -416,7 +416,7 @@ card_palisades_of_ash:
     type: "Artifact"
     sub: "Fortification"
     rarity: "Rare"
-    rating: 2
+    rating: 1
     rules_text: |
       Fortified land has "{2/R}, {T}: Choose a nonland card controlled by a player. Shuffle that card into its owners library. That card's controller reveals cards from the top of their library until they reveal a card that shares a type with the chosen card. If that card was a permanent they put that card onto the battlefield. Otherwise they cast it as a spell."
       Fortify {2}
@@ -433,7 +433,7 @@ card_purple_moss_clump:
     type: "Artifact"
     sub: "Moss Clump"
     rarity: "Common"
-    rating: 3
+    rating: 0
     rules_text: |
       ~ enters the battlefield tapped.
       {2}, {T}, Sacrifice this artifact: Remove all plague counters from you and permanents you control.
@@ -451,7 +451,7 @@ card_pyrewardens_stone:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Pay one soul: Look at the top four cards of your library, then put them back in any order.
       {T}: Draw a card, then shuffle ~ into its owner's library.
@@ -468,7 +468,7 @@ card_resplendent_projection:
     type: "Enchantment Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       Whenever an opponent casts a spell or activates an ability, you may gain 1 life and get one soul.
     flavor_text: "The warm light is a hopeful reminder of others that follow the same path..."
@@ -502,7 +502,7 @@ card_seal_of_a_slumbering_dragon:
     type: "Artifact"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Players can't cast artifact or colorless spells.
       Abilities of artifacts and colorless nonland permanents can't be activated.
@@ -519,7 +519,7 @@ card_seal_of_the_dark_void:
     type: "Artifact"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       If a card would enter or leave exile, that card's owner loses 2 life.
     flavor_text: "Put in place by Artorias, this seal holds back the dark corruption that threatens to swallow Oolacile."
@@ -535,7 +535,7 @@ card_seat_of_the_archives:
     type: "Artifact"
     sub: "Fortification"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Fortified land has "{W/U}, {T}: Draw a card. Activate this ability only if you have five or more cards in hand."
       Fortify {1}
@@ -553,7 +553,7 @@ card_sens_fortifications:
     type: "Artifact"
     sub: "Fortification"
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       When fortified land becomes tapped, search your library for a trap card, reveal it, and put it into your hand. Shuffle your library. If ~ is fortifying Sen's Fortress, search your library for two trap cards instead.
       Fortify {2}
@@ -587,7 +587,7 @@ card_sunless_amulet:
     type: "Artifact"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ enters the battlefield with three charge counters on it. You may choose to not untap this card during your untap step. If you do, remove a charge counter from it. If you can't, sacrifice it.
       {T}, Remove a charge counter from this card: While this card is tapped target basic land an opponent controls becomes the basic land type of your choice and when it's tapped its controller gets one soul.
@@ -605,7 +605,7 @@ card_talisman_of_want:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       At the beginning of each opponent's upkeep, ~ deals damage to that player equal to 4 minus the number of cards in their hand.
       Equipped creature has "Whenever an opponent loses life, you gain that much life."
@@ -623,7 +623,7 @@ card_tarkus_iron_knight:
     type: "Artifact Creature"
     sub: "Hollow Knight"
     rarity: "Rare"
-    rating: 3
+    rating: 4
     rules_text: |
       Indestructible
       When ~ enters the battlefield, if an opponent controls a Giant, you gain 4 life.
@@ -663,7 +663,7 @@ card_the_great_seal_of_thorolund:
     type: "Artifact"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Nonland cards can't enter the battlefield unless it's from the stack.
       Players can't cast spells unless it's from their hand.
@@ -681,7 +681,7 @@ card_uchigatana:
     type: "Artifact"
     sub: "Equipment"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       When this equipment enters the battlefield create a 1/1 colorless Hollow creature token, then attach this to it.
       Equipped creature has bleed. (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)

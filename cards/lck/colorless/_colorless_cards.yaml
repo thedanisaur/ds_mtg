@@ -6,7 +6,7 @@ card_aldias_reckoning:
     type: "Instant"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       Exile target nonland permanent. You gain life and get souls equal to that permanent's mana value.
     flavor_text: "Many monarchs have come and gone. One drowned in poison, another succumbed to flame. Still another slumbers in a realm of ice. Not one of them stood here, as you do now. You, conqueror of adversities. Give us your answer."
@@ -22,7 +22,7 @@ card_olaphis_statue:
     type: "Enchantment Artifact"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 2
     rules_text: |
       ~ enters the battlefield with 5 curse counters on it.
       When ~ has no curse counters on it, transform it.
@@ -59,7 +59,7 @@ card_praying_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Discard a card: Scry X, then you get X souls where X is 1 plus the discarded card's mana value.
       Hollowcycling {1} ({1}, Discard this card: Search your library for a hollow creature card, reveal it, and put it into your hand. Shuffle your library.)
@@ -98,7 +98,7 @@ card_stone_humped_old_hag:
     type: "Creature"
     sub: "Hag"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Discard a card: You get souls equal to 1 plus the discarded card's mana value.
       {2}, {T}: Choose target nonland card in your graveyard. You may pay souls equal to that card's mana value. If you do, put it in your hand.
@@ -136,7 +136,7 @@ card_traveling_merchant:
     type: "Creature"
     sub: "Hag"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}, Pay one soul: Discard a card. Search your library for a card with mana value 1 or less, reveal it, put it into your hand. Shuffle your library.
     flavor_text: "Ohh… Ohh, then it's true… A Champion of Ash, as I live and breathe. Bearer of the Darksign, let your true strength shine..."

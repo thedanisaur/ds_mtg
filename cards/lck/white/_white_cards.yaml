@@ -42,7 +42,7 @@ card_alonne_phantom:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       As an additional cost to cast ~, exile a card from your hand and a card from your graveyard.
       Flying, vigilance, lifelink
@@ -61,7 +61,7 @@ card_archdrake_cleric:
     type: "Creature"
     sub: "Dragon Hollow Cleric"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Spells that are cast from anywhere other than a player's hand cost {2} more to cast.
       Whenever a card goes to your graveyard, you may exile target card from an opponent's graveyard.
@@ -80,7 +80,7 @@ card_belltower_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Vigilance, lifelink
       When ~ enters the battlefield, create two 1/1 white Human creature tokens on to the battlefield. If a card went to your graveyard this turn, put a +1/+1 counter on each creature you control.
@@ -99,7 +99,7 @@ card_blinding_bolt:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       If a creature or planeswalker entered the battlefield under an opponent's control this turn and it wasn't cast, you may pay {W} rather than pay ~'s mana cost.
       Put all creatures and planeswalkers on the bottom of their owner's library.
@@ -132,7 +132,7 @@ card_carim_guardian:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Mythic"
-    rating: 3
+    rating: 2
     rules_text: |
       {T}, Tap an untapped creature you control: Return target card you own from exile to your hand. If it's a creature, put it onto the battlefield instead.
     flavor_text: "If you've any sense, you'll go find a coffin to huddle up inside."
@@ -170,7 +170,7 @@ card_channeler_servant:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Vigilance, lifelink
       Creatures you control get +0/+1.
@@ -193,7 +193,7 @@ card_divine_tome_of_carim:
     rating: 5
     rules_text: |
       Search your library for an artifact, enchantment, or sorcery card, reveal it, and put it into your hand. Shuffle your library.
-      Fragment {W} - While searching your library, you may reveal this card from your library. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only activate one fragment ability per search.)
+      Fragment {W} - While searching your library, you may reveal this card from your library and pay {W}. If you do, put target attacking creature on the bottom of its owner's library. You gain 2 life. (Only one fragment ability may be used per search.)
     flavor_text: "In the Way of White, you don't need eyes to see."
     artwork_url: "https://i.pinimg.com/736x/de/e5/89/dee589954764ab05fe581cd300999797.jpg"
     artist: ""
@@ -207,7 +207,7 @@ card_divine_will:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       All nonwhite creatures get -1/-1.
       Cycling {W} ({W}, Discard this card: Draw a card.)
@@ -243,7 +243,7 @@ card_flickering_phantoms:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever you discard a card, you may exile target creature and get one soul. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
       Cycling {W} ({W}, Discard this card: Draw a card.)
@@ -260,7 +260,7 @@ card_flowing_curse:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       At the beginning of your end step, put a curse counter on ~.
       Creatures gets -1/-1 for each curse counter on ~.
@@ -278,7 +278,7 @@ card_gwyns_divine_justice:
     type: "Sorcery"
     sub: ""
     rarity: "Mythic"
-    rating: 3
+    rating: 1
     rules_text: |
       Create twice X 4/4 white Angel creature tokens with flying, vigilance, and lifelink.
       When you cycle ~ create X 1/1 Royal Guard creature tokens with lifelink.
@@ -337,7 +337,7 @@ card_lindelt_perseverance:
     type: "Instant"
     sub: "Trap"
     rarity: "Common"
-    rating: 3
+    rating: 0
     rules_text: |
       If you were dealt damage this turn by a source with bleed, plague, or accursed, you may pay {W} rather than pay ~'s mana cost.
       This turn, you can't lose the game and your opponents can't win the game, you can't create Curse tokens, and damage that would reduce your life total to less than 1 reduces it to 1 instead. Remove all bleed, plague, and curse counters from creatures you control. Then remove all bleed and plague counters and destroy all curses attached to you.
@@ -412,11 +412,13 @@ card_mirrah_exile:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
+      You may cast ~ any time you could cast an instant.
       First strike, bleed
       If a player would would search their library, they search the top four cards of their library instead.
-    flavor_text: "Elder brother of Lucatiel of Mirrah, known as Mirrah's greatest swordsmen, though afflicted by the Curse, set out in search of a cure. He was never heard from again and his fate and whereabouts were unknown - until now…"
+    flavor_text: |
+      Mirrah's greatest swordsmen, though afflicted by the Curse, set out in search of a cure. He was never heard from again and his fate and whereabouts were unknown - until now...
     artwork_url: "https://i.pinimg.com/736x/e6/c3/86/e6c386a4138780df0607fdcf581f50f6.jpg"
     artist: "Giorgi Tsikarishvili"
     power: 2
@@ -431,7 +433,7 @@ card_painted_guardian:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       Whenever you cast a spell, if it isn't the first spell you've cast this turn, target creature you control can't be the target of spells this turn.
@@ -450,7 +452,7 @@ card_painted_recruiter:
     type: "Creature"
     sub: "Human Cleric"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters the battlefield, you may search your library for a creature card with mana value 1 or less and put it onto the battlefield, then shuffle your library.
       Sacrifice ~: Creatures you control can't be the target of spells or abilities this turn. As long as this ability is on the stack, players can't cast spells or activate abilities that aren't mana abilities.
@@ -469,7 +471,7 @@ card_path_of_the_dragon:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Exile target creature or planeswalker. Its controller searches their library for a basic land card and puts it onto the battlefield tapped, then shuffles their library.
     flavor_text: "To be alive is to be vulnerable, and the fiery Gods are no exception."
@@ -503,7 +505,7 @@ card_resplendent_life:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       You may cast ~ any time you could cast an instant.
       Creatures you control get +1/+1 and have vigilance, lifelink, and soullink. (Damage dealt by this creature also causes you to get that many souls.)
@@ -515,19 +517,19 @@ card_resplendent_life:
 card_royal_swordsman:
   front:
     name: "Royal Swordsman"
-    cost: "{1}{W}"
+    cost: "{W}"
     super: ""
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
-      Lifelink, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
-      {Q}, Sacrifice ~: Destroy target artifact or enchantment. Create a Moss Clump token. (It's an artifact that has, "{1}, {T}, Sacrifice this artifact: You gain 2 life and get two souls. Scry 2.")
+      First strike, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
+      If a nontoken creature or planeswalker would enter the battlefield and it wasn't cast, exile it instead.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/KzsFNfMv/royal-swordsman-by-fromsoft-resize.jpg"
     artist: "fromsoft"
-    power: 2
+    power: 1
     toughness: 1
     number: 35
 
@@ -539,7 +541,7 @@ card_seal_of_the_champions:
     type: "Enchantment"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       At the beginning of your upkeep reveal the top two cards of your library. You may choose a hollow or knight from among them and put it onto the battlefield, it gains haste until end of turn. At the end of your turn return that creature to its owner's hand. Put the rest of the cards on the bottom of your library. 
     flavor_text: "The Curse dictates you'll keep coming back."
@@ -555,7 +557,7 @@ card_soul_of_a_weary_warrior:
     type: "Enchantment"
     sub: "Soul"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {1}{W}. If you do, destroy target land. Then add one mana of any kind that land could produce to your mana pool.
@@ -574,7 +576,7 @@ card_soul_vortex:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
-    rating: 3
+    rating: 0
     rules_text: |
       Enchant player
       When ~ or a creature enters the battlefield under your control enchanted  player gets two souls.
@@ -592,10 +594,10 @@ card_spellsword_knight:
     type: "Creature"
     sub: "Knight"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       Vigilance
-      {T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes delayed.
+      {T}, Tap an untapped land you control: Exile target spell if it was cast from a players hand. It becomes vestiges.
     flavor_text: "Oceiros, the Consumed King, was infatuated with the search for moonlight, but in the end, it never revealed itself to him."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Moon-Blade-862542744"
     artist: "cobaltplasma"
@@ -650,7 +652,7 @@ card_the_way_of_blue:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       You gain 3 life and create a 3/3 white Human creature token with lifelink. If an opponent controls a card named Red Phantom, copy this spell. (The copy cannot be copied.)
     flavor_text: "You're one of us now. We'll be with you in your time of need."
@@ -666,7 +668,7 @@ card_thorolund_shade:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       You may cast this spell any time you could cast an instant.
       Shadow (This creature can block or be blocked by only creatures with shadow.)
@@ -686,7 +688,7 @@ card_transient_flicker:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Exile target creature, then return it to the battlefield under it's owners control at the beginning of the next end step. Scry 2 and you get two souls. (To Scry look at the top card of your library. You may put that card on the bottom of your library.)
     flavor_text: "Upon becoming cursed, the undead realized too late, that there are more ghosts on the other side."
@@ -720,7 +722,7 @@ card_unyielding_light:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       Each player returns to the battlefield all permanent cards in their graveyard that were put there from the battlefield this turn.
       Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
@@ -779,7 +781,7 @@ card_winged_knight:
     type: "Creature"
     sub: "Angel Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Flying, protection from black and red
       {W}, Discard a card and exile two cards from your graveyard: Prevent all damage a source of your choice would deal to ~ this turn.

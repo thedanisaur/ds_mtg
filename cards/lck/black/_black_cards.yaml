@@ -6,7 +6,7 @@ card_abyss_jackal:
     type: "Creature"
     sub: "Zombie Jackal"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       ~ enters the battlefield tapped.
       ~ can't block.
@@ -45,7 +45,7 @@ card_bearing_the_curse:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Mythic"
-    rating: 3
+    rating: 0
     rules_text: |
       Enchant player
       If enchanted player would lose the game, that player exiles all cards from their hand and all permanents they control, removes all counters, their starting life total is reduced by 5, their life total becomes their starting life total, they shuffle their library and draw seven cards, and they take an extra turn after this one instead.
@@ -62,7 +62,7 @@ card_burg_sewer_rats:
     type: "Creature"
     sub: "Zombie Rat"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever ~ deals damage to a player, target player puts a card from their hand on top of their library.
     flavor_text: "Be wary. The sewers of the Undead-Burg are teaming with all manner of vermin."
@@ -99,7 +99,7 @@ card_chained_prisoner:
     type: "Creature"
     sub: "Zombie"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Lifelink
       When ~ becomes the target of a spell or ability, sacrifice it.
@@ -135,7 +135,7 @@ card_cursed_jar:
     type: "Creature"
     sub: "Elemental"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ dies, each opponent creates a curse token and you put one curse counter on target creature or planeswalker that player controls. Then double the number of curse tokens and counters for each player, creature, and planeswalker.
     flavor_text: "The jar trembles softly, not from within — but from the weight of prayers long abandoned."
@@ -189,7 +189,7 @@ card_dead_again:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ deals damage to any target equal to the number of creatures in your graveyard. You gain life and get souls equal to the damage dealt this way.
       Cycling {2}({2}, Discard this card: Draw a card.)
@@ -266,7 +266,7 @@ card_etched_erasure:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Exile target card, other than a basic land card, from a graveyard.
       If a card went to your graveyard this turn, search that card's owner's graveyard, hand, and library for any number of cards with the same name as the exiled card. You may exile those cards.
@@ -284,7 +284,7 @@ card_festering_undead_rat:
     type: "Creature"
     sub: "Zombie Rat"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Plague
       ~ can't block and can't be blocked.
@@ -304,7 +304,7 @@ card_gnawing_corpse_rat:
     type: "Creature"
     sub: "Zombie Rat"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Sacrifice an artifact or creature: Discard a card, unless a card went to your graveyard this turn. Draw a card, lose 1 life, add {B} to your mana pool, and get one soul.
     flavor_text: "Rodents always find food sources with the highest nutrition."
@@ -342,7 +342,7 @@ card_harvest_valley_banedigger:
     type: "Creature"
     sub: "Hollow"
     rarity: "Uncommon"
-    rating: 3
+    rating: 4
     rules_text: |
       When ~ enters the battlefield destroy target nonblack creature or nonblack planeswalker an opponent controls. You get souls equal to its mana value.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -362,7 +362,7 @@ card_heretics_darkstorm:
     type: "Instant"
     sub: "Trap"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       If a card an opponent owns left exile this turn, you may pay {1}{B}{B} rather than pay ~'s mana cost.
       Creatures lose indestructible until end of turn. Destroy all creatures and planeswalkers.
@@ -379,7 +379,7 @@ card_hexing_curse_from_olaphis:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Put a -1/-1 counter on target creature. When that creature is put into a graveyard this turn, its controller gets three plague counters.
       Cycling {1} ({1}, Discard this card: Draw a card.)
@@ -396,7 +396,7 @@ card_necrotic_husk:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       ~ can't block.
       Other hollows you control get +1/+1 for each counter on ~.
@@ -416,7 +416,7 @@ card_numbness:
     type: "Instant"
     sub: "Trap"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       If an opponent gained souls this turn, you may pay {0} rather than pay ~'' mana cost.
       Each opponent loses life equal to the number of souls they have, then remove all souls they have. You gain life and get souls equal to the life lost this way.
@@ -449,7 +449,7 @@ card_resonant_life:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Return target planeswalker or creature card from a graveyard to the battlefield under your control. You get two souls, then lose life equal to the number of souls you have.
     flavor_text: "Something gained, something lost."
@@ -465,7 +465,7 @@ card_royal_sorcerer:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       If this card's madness cost was paid, it enters the battlefield transformed.
       Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -506,10 +506,10 @@ card_shadowy_tome_of_the_gravelord:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Search your library for a card and put it into your hand. Shuffle your library.
-      Fragment {0} - While searching your library, you may reveal this card from your library. If you do, put this card on top of your library. (Only activate one fragment ability per search.)
+      Fragment {0} - While searching your library, you may reveal this card from your library and pay {0}. If you do, put this card on top of your library. (Only one fragment ability may be used per search.)
     flavor_text: "All that's left of the secrets of the lord soul are tattered pages of a tome long forgotten."
     artwork_url: "https://i.ibb.co/gLY1hbp8/shadowy-tome-of-the-gravelord-by-unknown-resize.jpg"
     artist: "unknown"
@@ -523,7 +523,7 @@ card_sir_vilhelm:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Deathtouch, lifelink
       Whenever a card goes to your graveyard, put a +1/+1 counter on ~.
@@ -563,7 +563,7 @@ card_soul_of_a_deserted_corpse:
     type: "Enchantment"
     sub: "Soul"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.
@@ -582,11 +582,11 @@ card_soulbound_wretched_undead:
     type: "Creature"
     sub: "Zombie"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       As you cast, you may discard a card. If you do, you get four souls.
       As long as there are seven or more cards in your graveyard ~ gets +3/+3.
-      Augur 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
+      Darksign 4 (If you would draw a card, instead you may cast this card from your graveyard by paying 4 souls and putting 4 cards from the top of your library into your graveyard.)
     flavor_text: ""
     artwork_url: "https://i.pinimg.com/736x/c6/90/22/c690221db66cf5c4fad14330193610c2.jpg"
     artist: "S.Koidl"
@@ -602,7 +602,7 @@ card_spreading_contamination:
     type: "Enchantment"
     sub: "Aura Curse"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Enchant land
       Enchanted land is a swamp.
@@ -675,7 +675,7 @@ card_twisted_humanity:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       As you cast ~ you may pay two souls. If you don't, you lose 2 life.
       Destroy target non-Human creature or enchantment.
@@ -709,7 +709,7 @@ card_veiled_cloak:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       Target creature get +1/+0 and gains shadow until end of turn. Each opponent loses life equal to that creature's power and you gain life and souls equal to the life lost this way. (Creatures with shadow can block or be blocked by only other creatures with shadow.)
     flavor_text: "Straid was invited to the old kingdom of Olaphis for his wisdom, but its depth was a dreadful trap."
@@ -725,7 +725,7 @@ card_wandering_huntsman:
     type: "Creature"
     sub: "Human Knight"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Deathtouch
       When ~ enters the battlefield or dies, each player sacrifices a nontoken creature. If another card went to your graveyard this turn each opponent sacrifices a nontoken creature instead.
@@ -744,7 +744,7 @@ card_waning_prudence:
     type: "Sorcery"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library.
     flavor_text: "Every breath taken without consumption of souls, the Ash's inhibition fades."
@@ -760,7 +760,7 @@ card_watcher_at_the_ramparts:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters or leaves the graveyard you get one soul.
       {1}{B}, Pay 2 life: Return ~ from your graveyard to your hand.
@@ -780,7 +780,7 @@ card_whisper_of_despair:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Target player sacrifices a creature.
       Exile ~ and two other cards from your graveyard: Target player sacrifices a creature. You lose 2 life.

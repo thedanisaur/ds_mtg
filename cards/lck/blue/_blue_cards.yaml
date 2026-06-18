@@ -6,7 +6,7 @@ card_aldia_first_of_the_scholars:
     type: "Planeswalker"
     sub: "Aldia Lord"
     rarity: "Mythic"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever you cast a spell you may return target permanent to its owner's hand.
       {+2}: Look at the top two cards of target player's library. You may put any number of them on the bottom of their library. Then put the rest back on top in any order.
@@ -26,7 +26,7 @@ card_amana_charmer:
     type: "Creature"
     sub: "Wizard"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       You may cast ~ any time you could cast an instant.
       When ~ enters the battlefield choose one -
@@ -47,7 +47,7 @@ card_amana_void_whisperer:
     type: "Creature"
     sub: "Spirit"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}: Target player gets one soul. If ~ has a void counter on it, add {U} to your mana pool, spend this mana only to cast instant, sorcery, or artifact spells.
       Chameleon {U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
@@ -87,7 +87,7 @@ card_archive_scholar:
     type: "Creature"
     sub: "Cleric"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       {T}: Draw a card, then discard a card. You get two souls.
       Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -126,7 +126,7 @@ card_bloated_flies:
     type: "Creature"
     sub: "Zombie Insect"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       ~ can't attack.
       Discard a card: Switch ~' power and toughness and it gains flying until end of turn.
@@ -145,7 +145,7 @@ card_calculating_intellect:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       Enchant creature
       Enchanted creature can't be blocked if you have five or more souls.
@@ -163,7 +163,7 @@ card_cerebral_snap:
     type: "Instant"
     sub: "Trap"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       If an opponent cast a spell from anywhere other than their hand or a nonland permanent entered the battlefield and wasn't cast this turn, you may pay {2}{U} rather than pay this spell's mana cost.
       Each player shuffles their hand and graveyard into their library, then draws seven cards and gets seven souls.
@@ -180,7 +180,7 @@ card_crystalize:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Until end of turn, target creature loses all abilities and becomes a Crystal Golem that is all colors with base power and toughness each equal to X plus 1. If that creature is dealt damage this turn, its controller sacrifices it at the next end step and gets souls equal to its toughness.
     flavor_text: "Terrifying crystal magic reveals incredible power to those with intellect, but hazardous to those without."
@@ -234,7 +234,7 @@ card_dream_vortex:
     type: "Sorcery"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
       Draw two cards, then put a card from your hand back on top or bottom of your library. You get one soul.
@@ -267,7 +267,7 @@ card_encase_in_crystal:
     type: "Enchantment"
     sub: "Aura"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Enchant creature
       Enchanted creature loses all abilities and is an artifact creature with base power and toughness 0/3 in addition to its other types.
@@ -285,7 +285,7 @@ card_faint_amnesia:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       You may reveal a blue card or island from your hand rather than pay ~'s mana cost.
       Counter target spell with mana value 1 or less. If that spell is countered this way, exile it.
@@ -303,7 +303,7 @@ card_fall_control:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Return target permanent and all other permanents with the same name to their owner's hands. You draw a card for each permanent returned this way then discard that many cards.
     flavor_text: "The Vinheim spooks won't tell you they've learned to use this spell in all manner of ways."
@@ -319,7 +319,7 @@ card_fog_wall:
     type: "Creature"
     sub: "Illusion"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Flying
       Prevent all damage dealt to and dealt by ~.
@@ -339,7 +339,7 @@ card_forger_of_vinheim:
     type: "Creature"
     sub: "Human"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       Artifact spells you control cost {1} less to cast.
       Whenever you discard your second card this turn, you may return ~ or target artifact from your graveyard to the battlefield tapped.
@@ -357,12 +357,12 @@ card_introspective_channeler:
     cost: "{U}"
     super: ""
     type: "Creature"
-    sub: "Shaman"
+    sub: "Wizard"
     rarity: "Common"
-    rating: 3
+    rating: 1
     rules_text: |
       Whenever ~ is exiled from your hand or enters the battlefield, Scry 1, then you get one soul. (Look at the top card of your library. You may put that card on the bottom of your library.)
-      Delayed {U} (You may pay {U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {U} ({U}, exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/pvLmswvB/introspective-channeler-by-cobaltplasma-resize.jpg"
     artist: "cobaltplasma"
@@ -378,7 +378,7 @@ card_logans_apprentice:
     type: "Creature"
     sub: "Wizard"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters the battlefield return target permanent to its owner's hand if it's tapped.
       Tap an untapped wizard you control: Tap or untap target artifact, creature, or land.
@@ -418,7 +418,7 @@ card_mound_maker_adept:
     type: "Creature"
     sub: "Human"
     rarity: "Common"
-    rating: 3
+    rating: 4
     rules_text: |
       Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
       Whenever you cast a noncreature spell, draw a card, then discard a card. You get one soul.
@@ -438,7 +438,7 @@ card_murkman:
     type: "Creature"
     sub: "Spirit"
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ can't be the target of spells or abilities.
       Chameleon {1}{U} (You may cast this card face down as a 1/1 colorless Hollow creature for {1}. Turn it face up any time for its chameleon cost.)
@@ -458,7 +458,7 @@ card_oolacile_transfiguration:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Each creature target player controls loses all abilities and becomes a green Boar with base power and toughness 2/2 until end of turn.
     flavor_text: "As the corruption swept across the land, horrific distortions of reality took hold."
@@ -494,7 +494,7 @@ card_pilgrim_butterfly:
     type: "Creature"
     sub: "Skeleton Dragon"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       Flying, indestructible
       ~ can't be targeted by spells or abilities.
@@ -514,7 +514,7 @@ card_pontiff_sulyvahn:
     type: "Creature"
     sub: "Cleric Knight"
     rarity: "Rare"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters the battlefield gain control of target artifact or creature until ~ leaves the battlefield.
       Whenever ~ attacks you may pay {3}{U}. If you do, put a copy of ~ onto the battlefield under your control, except it isn't legendary. Exile it at the beginning of the next end step.
@@ -534,7 +534,7 @@ card_profound_still:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       ~ enters the battlefield with five hex counters on it.
       Whenever you cycle a card, you may remove a hex counter from ~. If you do, counter target spell or ability unless its controller pays {2}.
@@ -552,13 +552,13 @@ card_promised_walk_of_peace:
     type: "Instant"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Choose one -
         • Counter target spell.
         • Gain control of target artifact or creature with mana value 3 or less.
         • Draw two cards.
-      Delayed {2}{U}{U} (You may pay {2}{U}{U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Vestige {2}{U}{U} ({2}{U}{U}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: ""
     artwork_url: "https://i.ibb.co/20Wqdd6r/promised-walk-of-peace-by-unknown-resize.jpg"
     artist: "unknown"
@@ -572,7 +572,7 @@ card_reckless_alchemist:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       When a spell or ability causes you to discard ~, choose a nonland card type. Search your library for a card of that type, reveal it, put it into your hand, and shuffle your library.
       {U}, {T}, Discard a card, Sacrifice a nonland permanent: Search your library for a card with the same type, put that card onto the battlefield. You get two souls. Shuffle your library.
@@ -624,10 +624,10 @@ card_scrolls_of_a_master_sorcerer:
     type: "Instant"
     sub: "Fragment"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Search your library for an instant or sorcery card, reveal it, and put it into your hand. Shuffle your library.
-      Fragment {1}{U} - While searching your library, you may reveal this card from your library. If you do, draw a card. (Only activate one fragment ability per search.)
+      Fragment {1}{U} - While searching your library, you may reveal this card from your library and pay {1}{U}. If you do, draw a card. (Only one fragment ability may be used per search.)
     flavor_text: "As promised I will share my sorceries. Take these, and good luck."
     artwork_url: "https://i.pinimg.com/736x/17/c7/b6/17c7b609371e127122354f49027d4789.jpg"
     artist: "unknown"
@@ -641,7 +641,7 @@ card_simpletons_spice:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever you discard ~ or another card, you get one soul and Scry 1.
       {U}, Discard a card: Draw a card.
@@ -659,7 +659,7 @@ card_sorcerers_apprentice:
     type: "Creature"
     sub: "Human Wizard"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       You may cast ~ any time you could cast an instant.
       When ~ enters the battlefield, choose target spell. You may reveal the top card of your library. If you do, counter the chosen spell if it has the same mana value as the revealed card.
@@ -679,7 +679,7 @@ card_soul_of_a_lost_undead:
     type: "Enchantment"
     sub: "Soul"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       As long as it's your turn you may cast this spell. Timing restrictions still apply.
       When ~ enters the battlefield you may pay {1}{U}. If you do, return target permanent to its owners hand. Draw a card, then discard a card.
@@ -714,7 +714,7 @@ card_twisted_atonement:
     type: "Instant"
     sub: "Trap"
     rarity: "Uncommon"
-    rating: 3
+    rating: 2
     rules_text: |
       If an opponent controls a creature with bleed, plague, or accursed, you may pay {U} rather than pay ~'s mana cost.
       Gain control of target creature.
@@ -748,7 +748,7 @@ card_valley_of_the_drakes:
     type: "Enchantment"
     sub: ""
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Whenever you discard a card you may pay {2}. If you do, create a 3/3 blue Dragon creature token with flying.
       Madness {1}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
@@ -765,7 +765,7 @@ card_watchers_of_the_belfry:
     type: "Creature"
     sub: "Gnome Spirit"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Shadow (This creature can block or be blocked by only creatures with shadow.)
       Whenever you cast a noncreature spell, create a 1/1 blue Gnome Spirit creature token with shadow.

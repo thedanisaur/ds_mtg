@@ -6,7 +6,7 @@ card_ashen_keep_sentinel:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Knights and spirit creatures you control get +1/+1.
       Other Hollow creatures you control get +1/+1.
@@ -25,7 +25,7 @@ card_chant_of_oolacile:
     type: "Enchantment"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       ~ and spells you control can't be countered.
       Whenever a player casts a noncreature spell ~ deals 1 damage to them.
@@ -43,7 +43,7 @@ card_conjuring_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       You may cast this spell any time you could cast an instant.
       When ~ enters the battlefield you may exile target spell with mana value less than or equal to ~'s power.
@@ -123,7 +123,7 @@ card_hollow_raider:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Lifelink
       When ~ leaves the battlefield, you get one soul.
@@ -143,7 +143,7 @@ card_pledged_anathema:
     type: "Instant"
     sub: ""
     rarity: "Rare"
-    rating: 3
+    rating: 1
     rules_text: |
       Choose one -
         • Counter target spell unless its controller pays {2}.
@@ -187,7 +187,7 @@ card_serpents_regrowth:
       Choose one -
       • Destroy target permanent with mana value 2 or less.
       • Put the top X cards of your library into your graveyard where X is the number of lands you control. Return a card from your graveyard to your hand.
-      Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes delayed.
+      Cycling {2}{B/G} When you cycle ~ you may exile it. If you do, it becomes vestiges.
     flavor_text: "The transcendent apostles have crossed the very end of the earth to seek the invaluable dragon scales."
     artwork_url: "https://www.deviantart.com/cobaltplasma/art/Fortune-Favors-the-Last-Luck-Dragon-507198919"
     artist: "cobaltplasma"
@@ -201,7 +201,7 @@ card_skittering_slave:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       Other hollow and zombie creatures you control that share a color with ~ get +1/+1.
       Whenever ~ or another creature dies, each opponent loses 1 life and you get one soul.
@@ -220,7 +220,7 @@ card_soul_scoured_hollow:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ enters or leaves the battlefield, target player gets one soul.
       {T}: Add {R} or {G}. Target player gets one soul.
@@ -239,7 +239,7 @@ card_the_end_of_fire:
     type: "Sorcery"
     sub: ""
     rarity: "Uncommon"
-    rating: 3
+    rating: 1
     rules_text: |
       Destroy a number of target permanents equal to two times the number of noncreature nonland cards in your graveyard. Exile all graveyards.
     flavor_text: "The first flame quickly fades... darkness will shortly settle... but one day tiny flames will dance across the darkness like embers linked by lords past."
@@ -255,7 +255,7 @@ card_warden_of_the_forgotten_tower:
     type: "Creature"
     sub: "Hollow"
     rarity: "Common"
-    rating: 3
+    rating: 2
     rules_text: |
       When ~ leaves the battlefield, you get one soul.
       Whenever ~ or another creature you control enters the battlefield, put a +1/+1 counter on target hollow.

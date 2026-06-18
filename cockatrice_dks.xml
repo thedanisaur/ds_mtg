@@ -2460,7 +2460,7 @@ When ~ enters the battlefield, exile all creatures named "Abyss Watchers". Then 
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>5/5</pt>
         </prop>
         <set rarity="" num="151" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/green/abyss_watchers_back.jpeg">DKS</set>
@@ -3037,7 +3037,7 @@ You may cast ~ from your graveyard.
             <maintype>Creature</maintype>
             <manacost>{5}{B/G}{B/G}</manacost>
             <cmc>7</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Rare" num="186" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/aldrich_devourer_of_lords.jpeg">DKS</set>
@@ -3088,7 +3088,7 @@ Put a -1/-1 counter on ~, Sacrifice a permanent: Destroy target nonland permanen
             <maintype>Creature</maintype>
             <manacost>{B/G}{B/G}{B/G}</manacost>
             <cmc>3</cmc>
-            <colors>BG</colors>
+            <colors>GB</colors>
             <pt>1/1</pt>
         </prop>
         <set rarity="Rare" num="189" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/baneful_queen_mytha.jpeg">DKS</set>
@@ -3121,7 +3121,7 @@ Whenever a creature named "Red Phantom" dies draw a card.</text>
             <maintype>Creature</maintype>
             <manacost>{W/U}{W/U}</manacost>
             <cmc>2</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
             <pt>2/2</pt>
         </prop>
         <set rarity="Uncommon" num="191" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/blade_of_the_darkmoon.jpeg">DKS</set>
@@ -3186,7 +3186,7 @@ Whenever ~ deals combat damage to a player, they reveal the top X cards of his o
             <maintype>Creature</maintype>
             <manacost>{U/B}{U/B}{U/B}</manacost>
             <cmc>3</cmc>
-            <colors>BU</colors>
+            <colors>UB</colors>
             <pt>3/3</pt>
         </prop>
         <set rarity="Rare" num="195" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/fume_knight.jpeg">DKS</set>
@@ -3238,7 +3238,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Sorcery</maintype>
             <manacost>{U}{U}{B}{B}{B}{R}{R}</manacost>
             <cmc>7</cmc>
-            <colors>RBU</colors>
+            <colors>RUB</colors>
         </prop>
         <set rarity="Mythic" num="197" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gravelords_maelstrom.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3255,7 +3255,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>RGBUW</colors>
+            <colors>GRWUB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3322,7 +3322,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Planeswalker</maintype>
             <manacost>{U}{R}{W}</manacost>
             <cmc>3</cmc>
-            <colors>RWU</colors>
+            <colors>RUW</colors>
             <loyalty>2</loyalty>
         </prop>
         <set rarity="Mythic" num="201" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/king_of_the_storm.jpeg">DKS</set>
@@ -3339,7 +3339,7 @@ If ~ would die, exile it instead, then return it to the battlefield transformed 
             <maintype>Creature</maintype>
             <manacost>{1}{W}{U}{B}</manacost>
             <cmc>4</cmc>
-            <colors>WBU</colors>
+            <colors>UWB</colors>
             <pt>4/4</pt>
         </prop>
         <set rarity="Mythic" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_front.jpeg">DKS</set>
@@ -3357,7 +3357,7 @@ Whenever an opponent draws a card, you may draw a card.
             <maintype>Creature</maintype>
             <manacost></manacost>
             <cmc>0</cmc>
-            <colors>WBU</colors>
+            <colors>UWB</colors>
             <pt>3/4</pt>
         </prop>
         <set rarity="" num="202" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/knight_artorias_back.jpeg">DKS</set>
@@ -3443,7 +3443,7 @@ Draw a card.</text>
             <maintype>Instant</maintype>
             <manacost>{W/U}</manacost>
             <cmc>1</cmc>
-            <colors>WU</colors>
+            <colors>UW</colors>
         </prop>
         <set rarity="Common" num="206" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/sorcerers_remedy.jpeg">DKS</set>
         <tablerow>3</tablerow>
@@ -3504,7 +3504,7 @@ Whenever a creature you control deals 5 or more damage to a player destroy up to
             <maintype>Creature</maintype>
             <manacost>{1}{B}{R}{R}{G}{G}</manacost>
             <cmc>6</cmc>
-            <colors>RBG</colors>
+            <colors>RGB</colors>
             <pt>5/7</pt>
         </prop>
         <set rarity="Rare" num="210" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/yhorm_the_giant.jpeg">DKS</set>
@@ -3817,7 +3817,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>RGBUW</colors>
+            <colors>GRWUB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>
