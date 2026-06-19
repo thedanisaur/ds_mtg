@@ -81,7 +81,7 @@ card_cathedral_warden:
     super: ""
     type: "Creature"
     sub: "Hollow"
-    rarity: "Rare"
+    rarity: "Common"
     rating: 2
     rules_text: |
       Haste
@@ -97,7 +97,7 @@ card_cathedral_warden:
 card_chaos_demon:
   front:
     name: "Chaos Demon"
-    cost: "{2}{R}"
+    cost: "{1}{R}"
     super: ""
     type: "Creature"
     sub: "Demon"
@@ -365,7 +365,7 @@ card_generous_sunlight:
     rarity: "Common"
     rating: 2
     rules_text: |
-      Discard a card or sacrifice a land. Target player draws two cards and gets two souls.
+      Creatures you control get +2/+0 and gain trample and soullink until end of turn. (Damage dealt by creatures with soullink also causes you to get that many souls.)
       Vestige {R}{R} ({R}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
     flavor_text: "Ah! I see it! The sunlight! It glows in your eyes! Truly, you are a child of the sun!"
     artwork_url: "https://i.ibb.co/Y4zGH6sd/generous-sunlight-by-darksoulsguy-resize.jpg"
@@ -458,8 +458,8 @@ card_masked_manikin:
     flavor_text: ""
     artwork_url: "https://i.ibb.co/tpTYx1GV/masked-manikin-by-steve-sykes-resize.jpg"
     artist: "Steve Sykes"
-    power: 2
-    toughness: 2
+    power: 3
+    toughness: 1
     number: 158
 
 card_menacing_thief:
@@ -469,12 +469,12 @@ card_menacing_thief:
     super: ""
     type: "Creature"
     sub: "Rogue"
-    rarity: "Common"
+    rarity: "Rare"
     rating: 2
     rules_text: |
-      Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
-      {R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
-      Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)
+      Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of target player's library with a favored counter on it.
+      {R}, {T}: You may play target card in exile with a favored counter on it and you may spend mana as though it were mana of any color to cast that spell. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+      Vestige {1}{R}
     flavor_text: ""
     artwork_url: "https://i.ibb.co/hxBfBj2D/menacing-thief-by-unknown-resize.jpg"
     artist: "unknown"
@@ -492,8 +492,9 @@ card_preeminent_giant:
     rarity: "Rare"
     rating: 4
     rules_text: |
-      Whenever ~ attacks it deals 3 damage to each of up to two targets.
-      Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+      ~ can't be blocked except by red creatures.
+      When ~ enters the battlefield or attacks destroy target artifact or land. If a card went to your graveyard this turn, destroy target artifact and land instead.
+      Madness {R}{R}, Exile a red card from your hand with a favored counter on it.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/whpf7CFS/preeminent-giant-by-hogpodge-resize.jpg"
     artist: "Hogpodge"
@@ -600,7 +601,7 @@ card_shimmering_void:
     super: ""
     type: "Sorcery"
     sub: ""
-    rarity: "Common"
+    rarity: "Rare"
     rating: 1
     rules_text: |
       The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.
@@ -686,15 +687,14 @@ card_soul_of_a_kindled_conjurer:
 card_splintering_bolt:
   front:
     name: "Splintering Bolt"
-    cost: "{1}{R}"
+    cost: "{R}"
     super: ""
     type: "Instant"
     sub: ""
-    rarity: "Rare"
+    rarity: "Common"
     rating: 4
     rules_text: |
-      If you didn't go first, ~ costs {1} less to cast.
-      ~ deals 3 damage divided as you choose to up to three targets.
+      ~ deals 3 damage to any target. If you have five or more souls, it deals 3 damage instead.
     flavor_text: "An adept cleric may conjure these bolts harnessing the immense power of the Soul of the Lord of Light."
     artwork_url: "https://i.pinimg.com/736x/d9/b3/06/d9b306122f489d606f6e11dcaa68c008.jpg"
     artist: "Wylliam Judd"
@@ -734,7 +734,7 @@ card_torturous_demon:
     flavor_text: "These wicked Torturers don't wield conventional weapons - their implements are intended to inflict pain upon their Undead victims rather than death."
     artwork_url: "https://i.ibb.co/Ng0YYXbR/torturous-demon-by-amandinha-resize.jpg"
     artist: "Amandinha"
-    power: 0
+    power: 1
     toughness: 3
     number: 173
 

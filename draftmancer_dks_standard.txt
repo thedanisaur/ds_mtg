@@ -3098,10 +3098,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -3206,10 +3206,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -3279,10 +3279,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -3296,8 +3296,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3418,10 +3418,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",

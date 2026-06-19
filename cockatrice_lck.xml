@@ -2246,7 +2246,7 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
             <colors>R</colors>
             <pt>1/1</pt>
         </prop>
-        <set rarity="Rare" num="138" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cathedral_warden.jpeg">LCK</set>
+        <set rarity="Common" num="138" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cathedral_warden.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
@@ -2257,8 +2257,8 @@ When ~ attacks, exile the top card of your library with a favored counter on it.
             <side>front</side>
             <type>Creature - Demon</type>
             <maintype>Creature</maintype>
-            <manacost>{2}{R}</manacost>
-            <cmc>3</cmc>
+            <manacost>{1}{R}</manacost>
+            <cmc>2</cmc>
             <colors>R</colors>
             <pt>2/2</pt>
         </prop>
@@ -2476,7 +2476,7 @@ Vestige {R} ({R}, Exile this card from your hand: Cast it on a later turn withou
     </card>
     <card>
         <name>Generous Sunlight</name>
-        <text>Discard a card or sacrifice a land. Target player draws two cards and gets two souls.
+        <text>Creatures you control get +2/+0 and gain trample and soullink until end of turn. (Damage dealt by creatures with soullink also causes you to get that many souls.)
 Vestige {R}{R} ({R}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
         <prop><layout>normal</layout>
             <side>front</side>
@@ -2562,16 +2562,16 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
             <manacost>{1}{R}</manacost>
             <cmc>2</cmc>
             <colors>R</colors>
-            <pt>2/2</pt>
+            <pt>3/1</pt>
         </prop>
         <set rarity="Common" num="158" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/masked_manikin.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
         <name>Menacing Thief</name>
-        <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.
-{R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
-Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)</text>
+        <text>Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of target player's library with a favored counter on it.
+{R}, {T}: You may play target card in exile with a favored counter on it and you may spend mana as though it were mana of any color to cast that spell. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.
+Vestige {1}{R}</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Rogue</type>
@@ -2581,19 +2581,20 @@ Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn 
             <colors>R</colors>
             <pt>2/2</pt>
         </prop>
-        <set rarity="Common" num="159" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg">LCK</set>
+        <set rarity="Rare" num="159" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg">LCK</set>
         <tablerow>2</tablerow>
     </card>
     <card>
         <name>Preeminent Giant</name>
-        <text>Whenever ~ attacks it deals 3 damage to each of up to two targets.
-Madness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
+        <text>~ can't be blocked except by red creatures.
+When ~ enters the battlefield or attacks destroy target artifact or land. If a card went to your graveyard this turn, destroy target artifact and land instead.
+Madness {R}{R}, Exile a red card from your hand with a favored counter on it.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant</type>
             <maintype>Creature</maintype>
-            <manacost>{4}{R}{R}</manacost>
-            <cmc>6</cmc>
+            <manacost>{5}{R}{R}</manacost>
+            <cmc>7</cmc>
             <colors>R</colors>
             <pt>6/6</pt>
         </prop>
@@ -2692,7 +2693,7 @@ Vestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn 
             <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Common" num="166" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg">LCK</set>
+        <set rarity="Rare" num="166" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg">LCK</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2761,17 +2762,16 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
     </card>
     <card>
         <name>Splintering Bolt</name>
-        <text>If you didn't go first, ~ costs {1} less to cast.
-~ deals 3 damage divided as you choose to up to three targets.</text>
+        <text>~ deals 3 damage to any target. If you have five or more souls, it deals 3 damage instead.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Instant</type>
             <maintype>Instant</maintype>
-            <manacost>{1}{R}</manacost>
-            <cmc>2</cmc>
+            <manacost>{R}</manacost>
+            <cmc>1</cmc>
             <colors>R</colors>
         </prop>
-        <set rarity="Rare" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/splintering_bolt.jpeg">LCK</set>
+        <set rarity="Common" num="171" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/splintering_bolt.jpeg">LCK</set>
         <tablerow>3</tablerow>
     </card>
     <card>
@@ -2801,7 +2801,7 @@ Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn
             <manacost>{2}{R}</manacost>
             <cmc>3</cmc>
             <colors>R</colors>
-            <pt>0/3</pt>
+            <pt>1/3</pt>
         </prop>
         <set rarity="Common" num="173" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/torturous_demon.jpeg">LCK</set>
         <tablerow>2</tablerow>
@@ -2912,13 +2912,13 @@ Whenever ~ turned face up, destroy target artifact or enchantment.</text>
         <name>Bloodlet Giant</name>
         <text>Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
 ~ can't be countered.
-When ~ enters the battlefield destroy target artifact, enchantment, or land. If a card went to your graveyard this turn, destroy target artifact, enchantment, and land instead.</text>
+Whenever ~ enters the battlefield or attacks, it deals six damage divided as you choose between up to two target creatures.</text>
         <prop><layout>normal</layout>
             <side>front</side>
             <type>Creature - Giant Knight</type>
             <maintype>Creature</maintype>
-            <manacost>{3}{G}{G}</manacost>
-            <cmc>5</cmc>
+            <manacost>{4}{G}{G}</manacost>
+            <cmc>6</cmc>
             <colors>G</colors>
             <pt>6/6</pt>
         </prop>

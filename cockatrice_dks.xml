@@ -3255,7 +3255,7 @@ When ~ enters the battlefield, target player searches their library and graveyar
             <maintype>Planeswalker</maintype>
             <manacost>{2/W}{2/U}{2/B}{2/R}{2/G}</manacost>
             <cmc>5</cmc>
-            <colors>GRWUB</colors>
+            <colors>UGRWB</colors>
             <loyalty>3</loyalty>
         </prop>
         <set rarity="Mythic" num="198" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/gold/gwyn_lord_of_cinder.jpeg">DKS</set>
@@ -3817,7 +3817,7 @@ Equip {1}</text>
             <maintype>Artifact</maintype>
             <manacost>{W}{U}{B}{R}{G}</manacost>
             <cmc>5</cmc>
-            <colors>GRWUB</colors>
+            <colors>UGRWB</colors>
         </prop>
         <set rarity="Mythic" num="231" picurl="https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/dks/artifact/ring_of_sacrifice.jpeg">DKS</set>
         <tablerow>1</tablerow>

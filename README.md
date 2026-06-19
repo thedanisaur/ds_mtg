@@ -24,9 +24,10 @@ New:
 - Bleed
 - Fragment
 - Plague
+- Soullink
 ```
 
-Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *accursed*, *bleed*, *plague*.
+Default order should be: Flash, defender, flying, first strike, double strike, vigilance, reach, trample, menace, deathtouch, lifelink, hexproof, indestructible, haste, protection, prowess, *accursed*, *bleed*, *plague*, *soullink*.
 
 ### Abilities
 
@@ -38,6 +39,7 @@ Default order should be: Flash, defender, flying, first strike, double strike, v
 - Kindle (You may pay a number of souls equal to this card's converted mana cost, if you do transform it. Activate this ability only anytime you could cast a sorcery.)
 - Plague (If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received.)
 Infuse {X} (You may cast this spell for its infuse cost or activate this ability on the battlefield. If you do, this enchantment loses enchant creature and gains enchant equipment, then loses this ability. Attach it to target equipment. Then the enchanted equipment gains the abilities of this enchantment, except instead of "enchanted creature" it says "equipped creature")
+- Soullink (Damage dealt by this creature also causes you to get that many souls.)
 ```
 
 #### New Rules
@@ -105,6 +107,18 @@ Plague (similar in function to 702.90. Infect)
 - e) The plague rules function no matter what zone an object with plague deals damage from.
 - f) Multiple instances of plague on the same object are redundant.
 - g) Reminder text: If a creature or player would be dealt damage by a source with plague, instead that creature or player gets a plague counter for each damage received
+```
+
+
+```
+Soullink
+
+- a) Soullink is a static ability
+- b) Damage dealt by a source with soullink causes a player that is dealt that damage to get that many soul counters.
+- c) If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had soullink.
+- d) The soullink rules function no matter what zone an object with soullink deals damage from.
+- e) Multiple instances of soullink on the same object are redundant.
+- f) Reminder text: Damage dealt by this creature also causes you to get that many souls
 ```
 
 ### Card types

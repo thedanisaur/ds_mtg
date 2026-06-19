@@ -3098,10 +3098,10 @@
     "type": "Planeswalker",
     "mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -3206,10 +3206,10 @@
     "type": "Artifact",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -3279,10 +3279,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -3296,8 +3296,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "W"
+        "W",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3418,10 +3418,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "mythic",
@@ -4471,6 +4471,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/bonewheel.jpeg"
 },
 {
+    "name": "Cathedral Warden",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "oracle_text": "Haste\n~ has double strike as long as it's attacking.\n{R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cathedral_warden.jpeg"
+},
+{
     "name": "Chaos Maggot",
     "super": "",
     "type": "Creature",
@@ -4610,7 +4623,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "Discard a card or sacrifice a land. Target player draws two cards and gets two souls.\nVestige {R}{R} ({R}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
+    "oracle_text": "Creatures you control get +2/+0 and gain trample and soullink until end of turn. (Damage dealt by creatures with soullink also causes you to get that many souls.)\nVestige {R}{R} ({R}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/generous_sunlight.jpeg"
 },
 {
@@ -4666,19 +4679,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/masked_manikin.jpeg"
 },
 {
-    "name": "Menacing Thief",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{1}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 2,
-    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of your library with a favored counter on it.\n{R}, {T}: You may play target card in exile with a favored counter on it. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nVestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg"
-},
-{
     "name": "Scream of Defiance",
     "super": "",
     "type": "Instant",
@@ -4705,19 +4705,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shaded_scorpion.jpeg"
 },
 {
-    "name": "Shimmering Void",
-    "super": "",
-    "type": "Sorcery",
-    "mana_cost": "{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "common",
-    "rating": 1,
-    "oracle_text": "The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.\nVestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.) \n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg"
-},
-{
     "name": "Soul of a Kindled Conjurer",
     "super": "",
     "type": "Enchantment",
@@ -4729,6 +4716,19 @@
     "rating": 2,
     "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Moss Clump token.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soul_of_a_kindled_conjurer.jpeg"
+},
+{
+    "name": "Splintering Bolt",
+    "super": "",
+    "type": "Instant",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "oracle_text": "~ deals 3 damage to any target. If you have five or more souls, it deals 3 damage instead.\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/splintering_bolt.jpeg"
 },
 {
     "name": "Torturous Demon",
@@ -5692,7 +5692,7 @@
     "name": "Chaos Demon",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{2}{R}",
+    "mana_cost": "{1}{R}",
     "colors": [
         "R"
     ],
@@ -6358,19 +6358,6 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/waning_prudence.jpeg"
 },
 {
-    "name": "Cathedral Warden",
-    "super": "",
-    "type": "Creature",
-    "mana_cost": "{1}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "rare",
-    "rating": 2,
-    "oracle_text": "Haste\n~ has double strike as long as it's attacking.\n{R}: ~ gets +1/+0 and gains soullink until end of turn. Only activate this ability once per turn. (Damage dealt by this creature also causes you to get that many souls.)\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/cathedral_warden.jpeg"
-},
-{
     "name": "Crimson Wyvern",
     "super": "",
     "type": "Creature",
@@ -6397,16 +6384,29 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/deflecting_whispers.jpeg"
 },
 {
+    "name": "Menacing Thief",
+    "super": "",
+    "type": "Creature",
+    "mana_cost": "{1}{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "oracle_text": "Whenever ~ is exiled from your hand or enters the battlefield, exile the top card of target player's library with a favored counter on it.\n{R}, {T}: You may play target card in exile with a favored counter on it and you may spend mana as though it were mana of any color to cast that spell. If you don't, create a 3/3 red Human creature token named Red Phantom. It has prowess.\nVestige {1}{R}\n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/menacing_thief.jpeg"
+},
+{
     "name": "Preeminent Giant",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{4}{R}{R}",
+    "mana_cost": "{5}{R}{R}",
     "colors": [
         "R"
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Whenever ~ attacks it deals 3 damage to each of up to two targets.\nMadness {R}{R}, exile a red card from your hand with a favored counter on it. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n",
+    "oracle_text": "~ can't be blocked except by red creatures.\nWhen ~ enters the battlefield or attacks destroy target artifact or land. If a card went to your graveyard this turn, destroy target artifact and land instead.\nMadness {R}{R}, Exile a red card from your hand with a favored counter on it.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/preeminent_giant.jpeg"
 },
 {
@@ -6423,6 +6423,19 @@
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/rosarias_fingers.jpeg"
 },
 {
+    "name": "Shimmering Void",
+    "super": "",
+    "type": "Sorcery",
+    "mana_cost": "{R}",
+    "colors": [
+        "R"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "oracle_text": "The next noncreature spell you cast this turn can't be countered. Draw a card, discard a card, and you get one soul.\nVestige {1}{R} ({1}{R}, Exile this card from your hand: Cast it on a later turn without paying its mana cost. Timing restrictions still apply.) \n",
+    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/shimmering_void.jpeg"
+},
+{
     "name": "Soothing Chant",
     "super": "",
     "type": "Instant",
@@ -6434,19 +6447,6 @@
     "rating": 2,
     "oracle_text": "If an opponent cast a spell without paying its mana cost, you may pay {0} rather than pay ~'s mana cost.\nSpells you control can't be countered this turn. Draw two cards, discard a card, and get two souls.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soothing_chant.jpeg"
-},
-{
-    "name": "Splintering Bolt",
-    "super": "",
-    "type": "Instant",
-    "mana_cost": "{1}{R}",
-    "colors": [
-        "R"
-    ],
-    "rarity": "rare",
-    "rating": 4,
-    "oracle_text": "If you didn't go first, ~ costs {1} less to cast.\n~ deals 3 damage divided as you choose to up to three targets.\n",
-    "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/splintering_bolt.jpeg"
 },
 {
     "name": "Sulyvahn's Fiend",
@@ -6465,13 +6465,13 @@
     "name": "Bloodlet Giant",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{3}{G}{G}",
+    "mana_cost": "{4}{G}{G}",
     "colors": [
         "G"
     ],
     "rarity": "rare",
     "rating": 4,
-    "oracle_text": "Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\n~ can't be countered.\nWhen ~ enters the battlefield destroy target artifact, enchantment, or land. If a card went to your graveyard this turn, destroy target artifact, enchantment, and land instead.\n",
+    "oracle_text": "Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)\n~ can't be countered.\nWhenever ~ enters the battlefield or attacks, it deals six damage divided as you choose between up to two target creatures.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/green/bloodlet_giant.jpeg"
 },
 {
@@ -6983,8 +6983,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7211,8 +7211,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7299,8 +7299,8 @@
     "mana_cost": "",
     "colors": [
         "U",
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -7385,10 +7385,10 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "U",
         "G",
         "R",
         "W",
-        "U",
         "B"
     ],
     "rarity": "uncommon",
@@ -7971,6 +7971,7 @@
 16 Ashen Strike
 16 Blitz Hound
 16 Bonewheel
+16 Cathedral Warden
 16 Chaos Maggot
 16 Cleansing Orb
 16 Corrosive Egg Insect
@@ -7986,11 +7987,10 @@
 16 Lightning Urn
 16 Lost Spell from Izalith
 16 Masked Manikin
-16 Menacing Thief
 16 Scream of Defiance
 16 Shaded Scorpion
-16 Shimmering Void
 16 Soul of a Kindled Conjurer
+16 Splintering Bolt
 16 Torturous Demon
 16 Volgen Falconer
 16 Adept Cartographer
@@ -8122,13 +8122,13 @@
 3 Royal Sorcerer
 3 Sir Vilhelm
 3 Waning Prudence
-3 Cathedral Warden
 3 Crimson Wyvern
 3 Deflecting Whispers
+3 Menacing Thief
 3 Preeminent Giant
 3 Rosaria's Fingers
+3 Shimmering Void
 3 Soothing Chant
-3 Splintering Bolt
 3 Sulyvahn's Fiend
 3 Bloodlet Giant
 3 Company Captain

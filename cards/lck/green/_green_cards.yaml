@@ -81,7 +81,7 @@ card_beast_of_amana:
 card_bloodlet_giant:
   front:
     name: "Bloodlet Giant"
-    cost: "{3}{G}{G}"
+    cost: "{4}{G}{G}"
     super: ""
     type: "Creature"
     sub: "Giant Knight"
@@ -90,7 +90,7 @@ card_bloodlet_giant:
     rules_text: |
       Trample, bleed (If a player would be dealt damage by a source with bleed, they also get a bleed counter for each damage received)
       ~ can't be countered.
-      When ~ enters the battlefield destroy target artifact, enchantment, or land. If a card went to your graveyard this turn, destroy target artifact, enchantment, and land instead.
+      Whenever ~ enters the battlefield or attacks, it deals six damage divided as you choose between up to two target creatures.
     flavor_text: ""
     artwork_url: "https://i.ibb.co/Q7v3T0Vc/bloodlet-knight-by-fromsoft-reisze.jpg"
     artist: "unknown"
