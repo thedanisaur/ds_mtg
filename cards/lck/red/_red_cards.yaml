@@ -675,7 +675,7 @@ card_soul_of_a_kindled_conjurer:
     rarity: "Common"
     rating: 2
     rules_text: |
-      As long as it's your turn you may cast this spell. Timing restrictions still apply.
+      (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Moss Clump token.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""

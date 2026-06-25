@@ -565,7 +565,7 @@ card_soul_of_a_deserted_corpse:
     rarity: "Common"
     rating: 2
     rules_text: |
-      As long as it's your turn you may cast this spell. (Timing restrictions still apply.)
+      (As long as it's your turn you may cast this spell. Timing restrictions still apply.)
       When ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.
       Sacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.
     flavor_text: ""
