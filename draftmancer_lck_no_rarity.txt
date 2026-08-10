@@ -387,7 +387,7 @@
     ],
     "rarity": "common",
     "rating": 3,
-    "oracle_text": "When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)\n",
+    "oracle_text": "When ~ enters the battlefield, reveal cards from the top of your library until you reveal an instant or sorcery card. When you do, put the other cards on the bottom of your library, then you may choose keep the revealed card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/daring_sorcerer.jpeg"
 },
 {
@@ -595,7 +595,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {1}{U}. If you do, return target permanent to its owners hand. Draw a card, then discard a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "(As long as it's your turn you may cast this spell. Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {1}{U}. If you do, return target permanent to its owners hand. Draw a card, then discard a card.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/blue/soul_of_a_lost_undead.jpeg"
 },
 {
@@ -842,7 +842,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As long as it's your turn you may cast this spell. (Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "(As long as it's your turn you may cast this spell. Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {B}. If you do, target creature gets -2/-2 until end of turn.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/black/soul_of_a_deserted_corpse.jpeg"
 },
 {
@@ -1219,7 +1219,7 @@
     ],
     "rarity": "common",
     "rating": 2,
-    "oracle_text": "As long as it's your turn you may cast this spell. Timing restrictions still apply.\nWhen ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Moss Clump token.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
+    "oracle_text": "(As long as it's your turn you may cast this spell. Timing restrictions still apply.)\nWhen ~ enters the battlefield you may pay {1}{R}. If you do, destroy target artifact and create a Moss Clump token.\nSacrifice ~: You gain three souls. Draw a card at the beginning of the next turn's upkeep.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/red/soul_of_a_kindled_conjurer.jpeg"
 },
 {
@@ -1620,8 +1620,8 @@
     "type": "Creature",
     "mana_cost": "{U/R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1634,8 +1634,8 @@
     "type": "Creature",
     "mana_cost": "{B/G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "common",
     "rating": 3,
@@ -1662,8 +1662,8 @@
     "type": "Creature",
     "mana_cost": "{W/B}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "common",
     "rating": 2,
@@ -2355,8 +2355,8 @@
     "type": "Creature",
     "mana_cost": "{1}{U/B}",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2369,8 +2369,8 @@
     "type": "Creature",
     "mana_cost": "{2}{B}{R}",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2383,8 +2383,8 @@
     "type": "Sorcery",
     "mana_cost": "{B}{G}",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -2397,8 +2397,8 @@
     "type": "Sorcery",
     "mana_cost": "{2}{B}{W}",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -2501,7 +2501,7 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 3,
-    "oracle_text": "~ enters the battlefield with X awestone counters on it.\nAt the beginning of your upkeep you may put an awestone counter on ~.\nPlay with the top card of your library revealed.\n{T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from your library onto the battlefield.\n",
+    "oracle_text": "~ enters the battlefield with X awestone counters on it.\nAt the beginning of your upkeep you may put an awestone counter on ~.\nPlay with the top card of your library revealed.\n{T}: You may put a creature card with mana value less than or equal to the number of awestone counters on ~ from the top of your library onto the battlefield.\n",
     "image": "https://raw.githubusercontent.com/thedanisaur/ds_mtg/refs/heads/master/cards/lck/artifact/the_champions_tablet.jpeg"
 },
 {
@@ -2905,7 +2905,7 @@
     "name": "Preeminent Giant",
     "super": "",
     "type": "Creature",
-    "mana_cost": "{5}{R}{R}",
+    "mana_cost": "{4}{R}{R}",
     "colors": [
         "R"
     ],
@@ -3090,8 +3090,8 @@
     "type": "Instant",
     "mana_cost": "{U}{R}",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 1,
@@ -3487,8 +3487,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
+        "U",
         "W"
     ],
     "rarity": "uncommon",
@@ -3502,9 +3502,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3517,8 +3517,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "W",
-        "B"
+        "B",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3531,8 +3531,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
-        "B"
+        "B",
+        "U"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3545,8 +3545,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3584,9 +3584,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3613,9 +3613,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3628,8 +3628,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3642,9 +3642,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3657,8 +3657,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "G"
     ],
     "rarity": "uncommon",
@@ -3700,9 +3700,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "U",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3715,8 +3715,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
+        "U",
         "W"
     ],
     "rarity": "uncommon",
@@ -3730,8 +3730,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "G"
     ],
     "rarity": "uncommon",
@@ -3759,9 +3759,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3788,8 +3788,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
         "U",
+        "R",
         "G"
     ],
     "rarity": "uncommon",
@@ -3803,8 +3803,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "U",
         "B",
+        "U",
         "W"
     ],
     "rarity": "uncommon",
@@ -3832,9 +3832,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
+        "B",
         "U",
-        "B"
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3847,8 +3847,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "G",
-        "B"
+        "B",
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3861,8 +3861,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "B"
+        "B",
+        "R"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3875,9 +3875,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "W",
-        "B"
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 3,
@@ -3890,11 +3890,11 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "U",
-        "G",
         "R",
-        "W",
-        "B"
+        "G",
+        "W"
     ],
     "rarity": "uncommon",
     "rating": 1,
@@ -3907,9 +3907,9 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
+        "B",
         "R",
-        "G",
-        "B"
+        "G"
     ],
     "rarity": "uncommon",
     "rating": 2,
@@ -3946,8 +3946,8 @@
     "type": "Land",
     "mana_cost": "",
     "colors": [
-        "R",
-        "U"
+        "U",
+        "R"
     ],
     "rarity": "rare",
     "rating": 2,

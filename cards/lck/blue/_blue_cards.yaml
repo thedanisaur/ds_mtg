@@ -198,7 +198,7 @@ card_daring_sorcerer:
     rarity: "Common"
     rating: 3
     rules_text: |
-      When ~ enters the battlefield, reveal the top cards of your library until you reveal an instant or sorcery card. When you do, put the rest of the cards on the bottom of your library, then you may choose keep this card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)
+      When ~ enters the battlefield, reveal cards from the top of your library until you reveal an instant or sorcery card. When you do, put the other cards on the bottom of your library, then you may choose keep the revealed card on top. If you do, draw a card. Otherwise, put that card on bottom of your library and repeat this process up to two times. (Three times total.)
     flavor_text: ""
     artwork_url: "www.deviantart.com/jasontn/art/Push-459169721"
     artist: "jason tn"
